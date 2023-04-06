@@ -48,4 +48,6 @@
 
 ***
 
-* [Commande publique](commande-publique.md)
+* [Commande publique](commande-publique/README.md)
+  * [Publier les données essentielles d’attribution des marchés](commande-publique/publier-les-donnees-essentielles-dattribution-des-marches.md)
+  * [Déclaration d’un profil d’acheteur](commande-publique/declaration-dun-profil-dacheteur.md)
