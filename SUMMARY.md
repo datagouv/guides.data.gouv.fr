@@ -1,11 +1,8 @@
 # Table of contents
 
-* [Page 1](README.md)
-* [Page 2](page-2.md)
+## Utiliser data.gouv.fr
 
-## Documentation technique
-
-* [Page 3](documentation-technique/page-3.md)
+* [Page 3](README.md)
 
 ## Guide qualité
 
@@ -19,6 +16,10 @@
 * [L'open data](guide-juridique/lopen-data.md)
 * [Page 5](guide-juridique/page-5.md)
 
-## Group 1
+## Réutiliser les données publiques
 
-* [Page 6](group-1/page-6.md)
+* [Les API à composante géographique](reutiliser-les-donnees-publiques/les-api-a-composante-geographique.md)
+
+## Group 2
+
+* [Page 8](group-2/page-8.md)

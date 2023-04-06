@@ -15,7 +15,7 @@ Lexique : &#x20;
 * **Information publique** : Information contenue dans un document administratif communicable à tous ou faisant l'objet d'une diffusion publique, sur lequel des tiers ne détiennent pas de droits de propriété intellectuelle ([Article L321-2 du CRPA](https://www.legifrance.gouv.fr/affichCodeArticle.do;jsessionid=3D26427599551CBACAF75B4C44C8715B.tplgfr24s\_3?idArticle=LEGIARTI000033218992\&cidTexte=LEGITEXT000031366350\&dateTexte=20191018));
 * **Donnée publique** : Représentation d’une information publique sous une forme conventionnelle destinée à faciliter son traitement. Cela peut être par exemple des données géographiques (adresses, références cadastrales), financières (budgets, commande publique, subventions, etc.), environnementales (émissions, vente de produits, etc.), etc.
 
-### [#](https://guides.etalab.gouv.fr/juridique/opendata/#dans-quel-interet-publier-vos-donnees)Dans quel intérêt publier vos données ? <a href="#dans-quel-interet-publier-vos-donnees" id="dans-quel-interet-publier-vos-donnees"></a>
+### Dans quel intérêt publier vos données ? <a href="#dans-quel-interet-publier-vos-donnees" id="dans-quel-interet-publier-vos-donnees"></a>
 
 Au-delà du respect du cadre légal, publier vos données de manière proactive présente de multiples intérêts, notamment :
 

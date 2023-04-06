@@ -2,11 +2,11 @@
 
 ## Introduction <a href="#introduction" id="introduction"></a>
 
-### [#](https://guides.etalab.gouv.fr/juridique/#cadre-general-et-opportunites)Cadre général et opportunités <a href="#cadre-general-et-opportunites" id="cadre-general-et-opportunites"></a>
+### Cadre général et opportunités <a href="#cadre-general-et-opportunites" id="cadre-general-et-opportunites"></a>
 
 En tant qu’organisme public ou privé en charge d’une mission de service public, quelles données êtes-vous tenus de rendre publiques ? Quelles sont les règles à respecter ? À quoi cela sert-il ? Ce guide vous présente le cadre général actuel en la matière afin de vous aider à l’appliquer facilement.
 
-### [#](https://guides.etalab.gouv.fr/juridique/#un-guide-synthetique-et-pedagogique)Un guide synthétique et pédagogique <a href="#un-guide-synthetique-et-pedagogique" id="un-guide-synthetique-et-pedagogique"></a>
+### Un guide synthétique et pédagogique <a href="#un-guide-synthetique-et-pedagogique" id="un-guide-synthetique-et-pedagogique"></a>
 
 L'objectif de ce guide est de présenter de manière simple et synthétique le cadre légal de l'open data. Afin de vous guider dans votre démarche d'ouverture, vous trouverez les questions essentielles à vous poser avant de publier des fichiers en open data.
 
