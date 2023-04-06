@@ -13,7 +13,7 @@
 * [Moissonage](utiliser-data.gouv.fr/moissonage/README.md)
   * [Introduction](utiliser-data.gouv.fr/moissonage/introduction.md)
   * [Page 3](utiliser-data.gouv.fr/moissonage/page-3.md)
-  * [Page 2](utiliser-data.gouv.fr/moissonage/page-2.md)
+  * [Détection des licences par le moissonnage](utiliser-data.gouv.fr/moissonage/detection-des-licences-par-le-moissonnage.md)
   * [Page 1](utiliser-data.gouv.fr/moissonage/page-1.md)
 * [API](utiliser-data.gouv.fr/api/README.md)
   * [Introduction](utiliser-data.gouv.fr/api/introduction.md)
