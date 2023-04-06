@@ -6,7 +6,7 @@
 
 ## Guide qualité
 
-* [Page 4](guide-qualite/page-4.md)
+* [Introduction](guide-qualite/introduction.md)
 * [Les schémas de données](guide-qualite/les-schemas-de-donnees.md)
 * [Page 7](guide-qualite/page-7.md)
 
