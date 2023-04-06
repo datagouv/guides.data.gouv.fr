@@ -11,7 +11,12 @@
 * [Publier une réutilisation](utiliser-data.gouv.fr/publier-une-reutilisation.md)
 * [Animer la communauté de réutilisateurs](utiliser-data.gouv.fr/animer-la-communaute-de-reutilisateurs.md)
 * [Moissonage](utiliser-data.gouv.fr/moissonage.md)
-* [API](utiliser-data.gouv.fr/api.md)
+* [API](utiliser-data.gouv.fr/api/README.md)
+  * [Introduction](utiliser-data.gouv.fr/api/introduction.md)
+  * [Tutoriel](utiliser-data.gouv.fr/api/tutoriel.md)
+  * [Gestion d'un jeu de données par l'API](utiliser-data.gouv.fr/api/gestion-dun-jeu-de-donnees-par-lapi.md)
+  * [Référence](utiliser-data.gouv.fr/api/reference.md)
+  * [Télécharger un catalogue de données](utiliser-data.gouv.fr/api/telecharger-un-catalogue-de-donnees.md)
 
 ## Guide qualité
 
