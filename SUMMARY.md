@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Bienvenue sur nos guides !](README.md)
+* [👋 Bienvenue !](README.md)
 
 ## Utiliser data.gouv.fr
 

@@ -1,4 +1,4 @@
-# Bienvenue sur nos guides !
+# 👋 Bienvenue !
 
 ### Pour quel public ?
 
