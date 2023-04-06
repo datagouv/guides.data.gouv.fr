@@ -12,9 +12,8 @@
 * [Animer la communauté de réutilisateurs](utiliser-data.gouv.fr/animer-la-communaute-de-reutilisateurs.md)
 * [Moissonage](utiliser-data.gouv.fr/moissonage/README.md)
   * [Introduction](utiliser-data.gouv.fr/moissonage/introduction.md)
-  * [Page 3](utiliser-data.gouv.fr/moissonage/page-3.md)
+  * [Untitled](utiliser-data.gouv.fr/moissonage/untitled.md)
   * [Détection des licences par le moissonnage](utiliser-data.gouv.fr/moissonage/detection-des-licences-par-le-moissonnage.md)
-  * [Page 1](utiliser-data.gouv.fr/moissonage/page-1.md)
 * [API](utiliser-data.gouv.fr/api/README.md)
   * [Introduction](utiliser-data.gouv.fr/api/introduction.md)
   * [Tutoriel](utiliser-data.gouv.fr/api/tutoriel.md)
@@ -29,7 +28,14 @@
 * [Lier les données à un référentiel](guide-qualite/lier-les-donnees-a-un-referentiel.md)
 * [Documenter les données](guide-qualite/documenter-les-donnees.md)
 * [Éléments organisationnels](guide-qualite/elements-organisationnels.md)
-* [Les schémas de données](guide-qualite/les-schemas-de-donnees.md)
+* [Les schémas de données](guide-qualite/les-schemas-de-donnees/README.md)
+  * [Phase d’investigation](guide-qualite/les-schemas-de-donnees/phase-dinvestigation.md)
+  * [Phase de concertation](guide-qualite/les-schemas-de-donnees/phase-de-concertation.md)
+  * [Phase de construction](guide-qualite/les-schemas-de-donnees/phase-de-construction.md)
+  * [Phase de promotion et de maintien](guide-qualite/les-schemas-de-donnees/phase-de-promotion-et-de-maintien.md)
+  * [Intégration avec schema.data.gouv.fr](guide-qualite/les-schemas-de-donnees/integration-avec-schema.data.gouv.fr.md)
+  * [Jeux de données sur data.gouv.fr et schémas](guide-qualite/les-schemas-de-donnees/jeux-de-donnees-sur-data.gouv.fr-et-schemas.md)
+  * [Aide à la construction d'un schéma TableSchema](guide-qualite/les-schemas-de-donnees/aide-a-la-construction-dun-schema-tableschema.md)
 
 ## Guide juridique
 

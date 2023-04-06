@@ -1,2 +1,0 @@
-# Les schémas de données
-
