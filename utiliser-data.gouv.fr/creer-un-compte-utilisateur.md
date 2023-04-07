@@ -68,19 +68,13 @@ L’ensemble des activités de votre organisation peuvent être consultées à p
 
 ## &#x20;<a href="#ajouter-un-utilisateur-a-une-organisation" id="ajouter-un-utilisateur-a-une-organisation"></a>
 
-## &#x20;<a href="#ajouter-un-utilisateur-a-une-organisation" id="ajouter-un-utilisateur-a-une-organisation"></a>
-
-## Ajouter un utilisateur à une organisation <a href="#ajouter-un-utilisateur-a-une-organisation" id="ajouter-un-utilisateur-a-une-organisation"></a>
-
-Vous pouvez ajouter n’importe quel utilisateur de data.gouv.fr à une organisation dont vous êtes administrateur en utilisant son nom et son prénom. Les éditeurs ne peuvent pas ajouter de nouveaux utilisateurs à une organisation dont ils sont membres.
+## Gérer les membres de son organisation <a href="#ajouter-un-utilisateur-a-une-organisation" id="ajouter-un-utilisateur-a-une-organisation"></a>
 
 
 
+### Ajouter un membre à une organisation <a href="#ajouter-un-utilisateur-a-une-organisation" id="ajouter-un-utilisateur-a-une-organisation"></a>
 
-
-### Comment ajouter un utilisateur à une organisation ? <a href="#comment-ajouter-un-utilisateur-a-une-organisation" id="comment-ajouter-un-utilisateur-a-une-organisation"></a>
-
-Pour ajouter un nouvel utilisateur à une organisation dont vous êtes administrateur :
+Un administrateur peut ajouter n’importe quel utilisateur de data.gouv.fr à une organisation dont vous êtes administrateur en utilisant son nom et son prénom.
 
 1. [Connectez-vous à votre compte](https://www.data.gouv.fr/fr/login) ;
 2. Rendez-vous sur [votre tableau de bord](https://www.data.gouv.fr/fr/admin/), en cliquant sur **Administration** en haut à droite de votre écran ;
@@ -91,6 +85,10 @@ Pour ajouter un nouvel utilisateur à une organisation dont vous êtes administr
 7. Cliquez sur le bouton **Valider** pour valider l’ajout du membre.
 
 De son côté, l’utilisateur ajouté à votre organisation pourra alors publier des données ou des réutilisations au nom de votre organisation.
+
+
+
+{% embed url="https://www.loom.com/share/f7a6f192ddf143c9ba5adb7949ee4982" %}
 
 
 
