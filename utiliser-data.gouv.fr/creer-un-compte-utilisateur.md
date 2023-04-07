@@ -10,8 +10,6 @@ Le téléchargement de jeux de données ne requiert pas d’inscription sur la p
 * suivre les publication d’un autre utilisateur ;
 * créer, rejoindre, ou suivre une organisation.
 
-
-
 ## Pourquoi créer une organisation ? <a href="#creer-un-compte-utilisateur" id="creer-un-compte-utilisateur"></a>
 
 {% hint style="info" %}
@@ -26,16 +24,5 @@ Nous vous conseillons de [créer une organisation](https://doc.data.gouv.fr/orga
 2. permettre à des utilisateurs différents de publier et modifier des jeux de données sous le même nom, la même bannière.
 
 {% embed url="https://www.loom.com/share/2a1d44b92ee74b279515f7df0619ae6d" %}
-
-
-
-
-
-
-
-
-
-
-
-
-
+Créer une organisation
+{% endembed %}

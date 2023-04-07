@@ -16,8 +16,6 @@ L’ensemble des activités de votre organisation peuvent être consultées à p
 
 
 
-
-
 ## Gérer les membres de son organisation <a href="#ajouter-un-utilisateur-a-une-organisation" id="ajouter-un-utilisateur-a-une-organisation"></a>
 
 ### Différences entre administateur et éditeur

@@ -1,5 +1,13 @@
 # Publier un jeu de données
 
+
+
+{% hint style="info" %}
+**Qu'est-ce qu'un jeu de données sur data.gouv.fr ?**
+
+Un jeu de donnée sur data.gouv.fr est un ensemble cohérent de ressources ou d’informations (fichiers de données, fichiers d’explications, API, lien...) et de métadonnées (description, producteur, date de publication, mots-clefs, couverture géographique temporelle...) sur un thème donné.
+{% endhint %}
+
 ### Définir qui publie le jeu de données <a href="#definir-qui-publie-le-jeu-de-donnees" id="definir-qui-publie-le-jeu-de-donnees"></a>
 
 Un jeu de données peut être publié sous le nom de votre compte utilisateur ou sous la bannière d’une organisation.

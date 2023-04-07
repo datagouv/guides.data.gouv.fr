@@ -1,21 +1,15 @@
 # ⚙ Guide data.gouv.fr
 
-La plateforme data.gouv.fr rassemble et met à disposition librement les données produites par les organisations chargées d’une mission de service public ou encore par des entreprises, citoyens, journalistes, etc.&#x20;
+### Qu’est-ce que data.gouv.fr ?
 
-Elle est également un lieu d’échange entre producteurs et réutilisateurs, notamment grâce aux fonctionnalités de publication de réutilisations de données ou de discussion autour des données disponibles.
+data.gouv.fr est la plateforme ouverte et communautaire qui vise à centraliser et structurer les données ouvertes en France. Elle vise à favoriser la transparence et l’efficacité de l’action publique tout en facilitant la création de nouveaux services.
 
-> Tout le monde a la possibilité de publier sur data.gouv.fr !
+#### À qui s’adresse data.gouv.fr ?
 
-Le téléchargement de jeux de données ne requiert pas d’inscription sur la plateforme data.gouv.fr.&#x20;
+data.gouv.fr est une <mark style="background-color:blue;">plateforme communautaire</mark> qui s’adresse :
 
-La publication de jeux de données, de réutilisations, de ressources communautaires ou de commentaires doivent elles se faire sous le nom d’un compte utilisateur ou d’une organisation.&#x20;
+* À ceux qui produisent des données (producteurs de données) et qui souhaitent ouvrir leurs données ;
+* À ceux qui exploitent des données (réutilisateurs de données) et qui veulent télécharger des données et partager leurs réalisations ;
+* À tout citoyen qui souhaite découvrir des données ou trouver une information.
 
-Voici les différentes étapes pour publier et faire vivre vos jeux de données.
-
-
-
-{% hint style="info" %}
-**Qu'est-ce qu'un jeu de données sur data.gouv.fr ?**
-
-Un jeu de donnée sur data.gouv.fr est un ensemble cohérent de ressources ou d’informations (fichiers de données, fichiers d’explications, API, lien...) et de métadonnées (description, producteur, date de publication, mots-clefs, couverture géographique temporelle...) sur un thème donné.
-{% endhint %}
+Tout le monde a la possibilité de publier sur data.gouv.fr !
