@@ -92,13 +92,11 @@ De son côté, l’utilisateur ajouté à votre organisation pourra alors publie
 
 
 
-## Retirer un utilisateur d’une organisation <a href="#retirer-un-utilisateur-dune-organisation" id="retirer-un-utilisateur-dune-organisation"></a>
+### Retirer un membre d’une organisation <a href="#retirer-un-utilisateur-dune-organisation" id="retirer-un-utilisateur-dune-organisation"></a>
 
 Si un membre de votre organisation n’a plus besoin d’en faire partie, vous pouvez le retirer de l’organisation. Retirer un utilisateur d’une organisation ne supprime pas le compte de l’utilisateur en question.
 
 Seuls les administrateurs d’une organisation peuvent retirer des membres de leur organisation, les éditeurs n’en ont pas la possibilité.
-
-### Comment retirer un membre <a href="#comment-retirer-un-membre" id="comment-retirer-un-membre"></a>
 
 Pour retirer un membre d’une organisation dont vous êtes administrateur :
 
@@ -110,6 +108,8 @@ Pour retirer un membre d’une organisation dont vous êtes administrateur :
 6. Rafraichissez votre page pour constater le retrait du membre.
 
 
+
+{% embed url="https://www.loom.com/share/b768389492d0493eae1abeec9fbe625e" %}
 
 ## Supprimer une organisation <a href="#supprimer-une-organisation" id="supprimer-une-organisation"></a>
 
