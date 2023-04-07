@@ -100,7 +100,13 @@ Un administrateur peut ajouter n’importe quel utilisateur de data.gouv.fr à u
 
 ### Retirer un membre d’une organisation <a href="#retirer-un-utilisateur-dune-organisation" id="retirer-un-utilisateur-dune-organisation"></a>
 
-Seuls les administrateurs d’une organisation peuvent retirer des membres de leur organisation. Retirer un utilisateur d’une organisation ne supprime pas le compte de l’utilisateur en question.&#x20;
+
+
+Seuls les administrateurs d’une organisation peuvent retirer des membres de leur organisation. Retirer un utilisateur d’une organisation ne supprime pas le compte de l’utilisateur en question.
+
+<details>
+
+<summary>Comment retirer un membre ?</summary>
 
 1. [Connectez-vous à votre compte](https://www.data.gouv.fr/fr/login) ;
 2. Rendez-vous sur [votre tableau de bord](https://www.data.gouv.fr/fr/admin/), en cliquant sur **Administration** en haut à droite de votre écran ;
@@ -109,27 +115,29 @@ Seuls les administrateurs d’une organisation peuvent retirer des membres de le
 5. Dans la fenêtre qui s’ouvre alors, cliquez sur **Supprimer** ;
 6. Rafraichissez votre page pour constater le retrait du membre.
 
+</details>
+
 {% embed url="https://www.loom.com/share/b768389492d0493eae1abeec9fbe625e" %}
 
 ## Supprimer une organisation <a href="#supprimer-une-organisation" id="supprimer-une-organisation"></a>
 
-Seuls les administrateurs peuvent supprimer une organisation
-
 {% hint style="info" %}
 Quand une organisation est supprimée, les jeux de données et les ressources qui avaient été publiés en son nom _restent en ligne_, aux mêmes URL, mais sous forme anonyme, c’est-à-dire sans être rattachés à un producteur.\
 \
-L’ordre des suppressions a son importance. Si vous souhaitez _aussi_ supprimer les jeux de données publiés par l’organisation que vous êtes sur le point de clôturer, commencez par supprimer les jeux de données en question un par un _avant_ de supprimer l’organisation en elle-même.
+Si vous souhaitez _aussi_ supprimer les jeux de données publiés par l’organisation que vous êtes sur le point de clôturer, commencez par supprimer les jeux de données en question un par un _avant_ de supprimer l’organisation en elle-même.
 {% endhint %}
 
-### Comment supprimer une organisation <a href="#comment-supprimer-une-organisation" id="comment-supprimer-une-organisation"></a>
+<details>
 
-Pour supprimer une organisation dont vous êtes administrateur :
+<summary>Comment supprimer une organisation ?</summary>
 
-1. [Connectez-vous à votre compte](https://www.data.gouv.fr/fr/login) ;
+1. [Connectez-vous à votre compte](https://www.data.gouv.fr/fr/login), seuls les administrateurs peuvent supprimer une organisation ;
 2. Rendez-vous sur [votre tableau de bord](https://www.data.gouv.fr/fr/admin/), en cliquant sur **Administration** en haut à droite de votre écran ;
 3. Allez sur la page de suivi de l’organisation à supprimer, en cliquant sur le nom de votre organisation, dans la colonne de gauche ;
 4. Cliquez sur la flèche située à côté du bouton **Éditer**, en haut à droite de votre écran, puis sur **Supprimer** dans le menu déroulant qui apparaît alors ;
 5. Validez la suppression de l’organisation en cliquant sur le bouton **Confirmer** dans la fenêtre rouge qui s’ouvre alors en superposition.
+
+</details>
 
 {% embed url="https://www.loom.com/share/016a66be09874b748794170de37649ed" %}
 
