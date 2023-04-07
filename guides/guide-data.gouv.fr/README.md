@@ -1,3 +1,7 @@
+---
+layout: landing
+---
+
 # ⚙ Guide data.gouv.fr
 
 ### Qu’est-ce que data.gouv.fr ?
