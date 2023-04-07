@@ -80,8 +80,6 @@ L’ensemble des activités de votre organisation peuvent être consultées à p
 
 Un administrateur peut ajouter n’importe quel utilisateur de data.gouv.fr à une organisation.
 
-
-
 <details>
 
 <summary>Comment ajouter un membre ?</summary>
@@ -117,11 +115,11 @@ Seuls les administrateurs d’une organisation peuvent retirer des membres de le
 
 Seuls les administrateurs peuvent supprimer une organisation
 
-Quand une organisation est supprimée, les jeux de données et les ressources qui avaient été publiés en son nom _restent en ligne_, aux mêmes URL, mais sous forme anonyme, c’est-à-dire sans être rattachés à un producteur.
-
-### À propos de l’ordre des suppressions <a href="#a-propos-de-lordre-des-suppressions" id="a-propos-de-lordre-des-suppressions"></a>
-
+{% hint style="info" %}
+Quand une organisation est supprimée, les jeux de données et les ressources qui avaient été publiés en son nom _restent en ligne_, aux mêmes URL, mais sous forme anonyme, c’est-à-dire sans être rattachés à un producteur.\
+\
 L’ordre des suppressions a son importance. Si vous souhaitez _aussi_ supprimer les jeux de données publiés par l’organisation que vous êtes sur le point de clôturer, commencez par supprimer les jeux de données en question un par un _avant_ de supprimer l’organisation en elle-même.
+{% endhint %}
 
 ### Comment supprimer une organisation <a href="#comment-supprimer-une-organisation" id="comment-supprimer-une-organisation"></a>
 
@@ -132,3 +130,6 @@ Pour supprimer une organisation dont vous êtes administrateur :
 3. Allez sur la page de suivi de l’organisation à supprimer, en cliquant sur le nom de votre organisation, dans la colonne de gauche ;
 4. Cliquez sur la flèche située à côté du bouton **Éditer**, en haut à droite de votre écran, puis sur **Supprimer** dans le menu déroulant qui apparaît alors ;
 5. Validez la suppression de l’organisation en cliquant sur le bouton **Confirmer** dans la fenêtre rouge qui s’ouvre alors en superposition.
+
+{% embed url="https://www.loom.com/share/016a66be09874b748794170de37649ed" %}
+
