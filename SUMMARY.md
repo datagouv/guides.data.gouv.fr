@@ -24,6 +24,7 @@
   * [Chronologie de l'open data](guide-juridique/chronologie-de-lopen-data.md)
 * [⚙ Guide data.gouv.fr](guides/guide-data.gouv.fr/README.md)
   * [Compte utilisateur et organisation](utiliser-data.gouv.fr/creer-un-compte-utilisateur.md)
+  * [Gérer son organisation](guides/guide-data.gouv.fr/gerer-son-organisation.md)
   * [Publier un jeu de données](utiliser-data.gouv.fr/publier-un-jeu-de-donnees.md)
   * [Publier une réutilisation](utiliser-data.gouv.fr/publier-une-reutilisation.md)
   * [Animer la communauté de réutilisateurs](utiliser-data.gouv.fr/animer-la-communaute-de-reutilisateurs.md)

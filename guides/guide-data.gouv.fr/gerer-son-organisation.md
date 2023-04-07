@@ -1,44 +1,24 @@
-# Compte utilisateur et organisation
+---
+description: Cette page vise à vous assister dans la gestion de votre organisation.
+---
 
-## Pourquoi créer un compte utilisateur ?  <a href="#creer-un-compte-utilisateur" id="creer-un-compte-utilisateur"></a>
+# Gérer son organisation
 
-Le téléchargement de jeux de données ne requiert pas d’inscription sur la plateforme data.gouv.fr mais le fait de s'enregistrer permet notamment de :&#x20;
+## Suivre l'activité de son organisation
 
-* mettre en ligne des données ;
-* référencer des réutilisations de données ;
-* ouvrir une discussion au sujet d’un jeu de données ;
-* suivre les publication d’un autre utilisateur ;
-* créer, rejoindre, ou suivre une organisation.
+L’ensemble des activités de votre organisation peuvent être consultées à partir d’un tableau de bord. Ce tableau de bord centralise les informations suivantes :
 
-\
-[**Se créer un compte utilisateur**](https://www.data.gouv.fr/fr/register?next=%2Ffr%2Fregister)
-
-
-
-
-
-En fonction de votre besoin, vous pouvez vouloir publier un jeu de données en tant qu’utilisateur individuel ou en tant qu’organisation.
-
-{% hint style="info" %}
-**Qu'est-ce qu'une organisation ?**
-
-Une organisation est une entité au travers de laquelle plusieurs utilisateurs peuvent collaborer sur des jeux de données. Les jeux de données publiés au nom de l’organisation peuvent être édités par les membres de l’organisation. Elle peut contenir plusieurs utilisateurs et un même utilisateur peut appartenir à plusieurs organisations.
-{% endhint %}
-
-Nous vous conseillons de [créer une organisation](https://doc.data.gouv.fr/organisations/creer-une-organisation/) ou [rejoindre une organisation](https://doc.data.gouv.fr/organisations/creer-une-organisation/) existante si vous souhaitez :
-
-1. publier des jeux de données pour le compte d’une organisation publique ou privé (administration, collectivité, association, entreprise, etc. );
-2. permettre à des utilisateurs différents de publier et modifier des jeux de données sous le même nom, la même bannière.
+* la description de l’organisation et la liste de ses membres ;
+* les métriques rattachées à chaque jeu de données, ressources ou réutilisation publiée ;
+* les anomalies constatées à propos des jeux de données publiés ;
+* les discussions ouvertes à propos des jeux publiés ;
+* l’activité des moissonneurs ([voir la partie moissonnage de ce guide](https://guides.etalab.gouv.fr/data.gouv.fr/3-publier-un-jeu-de-donnees.html#publier-un-catalogue-de-donn%C3%A9es-existant-par-moissonnage)).
 
 
 
-{% embed url="https://www.loom.com/share/2a1d44b92ee74b279515f7df0619ae6d" %}
 
 
-
-![Création d'une organisation](https://guides.etalab.gouv.fr/assets/img/ajouter\_organisation.068fcc85.jpg)
-
-
+## Gérer les membres de son organisation <a href="#ajouter-un-utilisateur-a-une-organisation" id="ajouter-un-utilisateur-a-une-organisation"></a>
 
 ### Différences entre administateur et éditeur
 
@@ -58,33 +38,15 @@ Une organisation se compose d’administrateurs et d’éditeurs qui ont permiss
 
 
 
-## Suivre l'activité de son organisation
 
-L’ensemble des activités de votre organisation peuvent être consultées à partir d’un tableau de bord. Ce tableau de bord centralise les informations suivantes :
-
-* la description de l’organisation et la liste de ses membres ;
-* les métriques rattachées à chaque jeu de données, ressources ou réutilisation publiée ;
-* les anomalies constatées à propos des jeux de données publiés ;
-* les discussions ouvertes à propos des jeux publiés ;
-* l’activité des moissonneurs ([voir la partie moissonnage de ce guide](https://guides.etalab.gouv.fr/data.gouv.fr/3-publier-un-jeu-de-donnees.html#publier-un-catalogue-de-donn%C3%A9es-existant-par-moissonnage)).
-
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
-
-## &#x20;<a href="#ajouter-un-utilisateur-a-une-organisation" id="ajouter-un-utilisateur-a-une-organisation"></a>
-
-## &#x20;<a href="#ajouter-un-utilisateur-a-une-organisation" id="ajouter-un-utilisateur-a-une-organisation"></a>
-
-## Gérer les membres de son organisation <a href="#ajouter-un-utilisateur-a-une-organisation" id="ajouter-un-utilisateur-a-une-organisation"></a>
 
 ### Ajouter un membre à une organisation <a href="#ajouter-un-utilisateur-a-une-organisation" id="ajouter-un-utilisateur-a-une-organisation"></a>
-
-Un administrateur peut ajouter n’importe quel utilisateur de data.gouv.fr à une organisation.
 
 <details>
 
 <summary>Comment ajouter un membre ?</summary>
 
-1. [Connectez-vous à votre compte](https://www.data.gouv.fr/fr/login) ;
+1. [Connectez-vous à votre compte](https://www.data.gouv.fr/fr/login), seuls les administrateurs peuvent ajouter un membre ;
 2. Rendez-vous sur [votre tableau de bord](https://www.data.gouv.fr/fr/admin/), en cliquant sur **Administration** en haut à droite de votre écran ;
 3. Allez sur la page de suivi de l’organisation à laquelle vous souhaitez ajouter un membre, en cliquant sur le nom de votre organisation, dans la colonne de gauche ;
 4. Dans le bloc **Membres**, sur la droite de votre écran, cliquez sur le bouton **Ajouter** ;
@@ -99,14 +61,14 @@ Un administrateur peut ajouter n’importe quel utilisateur de data.gouv.fr à u
 ### Retirer un membre d’une organisation <a href="#retirer-un-utilisateur-dune-organisation" id="retirer-un-utilisateur-dune-organisation"></a>
 
 {% hint style="info" %}
-Seuls les administrateurs d’une organisation peuvent retirer des membres de leur organisation. Retirer un utilisateur d’une organisation ne supprime pas le compte de l’utilisateur en question.
+Retirer un utilisateur d’une organisation ne supprime pas le compte de l’utilisateur en question.
 {% endhint %}
 
 <details>
 
 <summary>Comment retirer un membre ?</summary>
 
-1. [Connectez-vous à votre compte](https://www.data.gouv.fr/fr/login) ;
+1. [Connectez-vous à votre compte](https://www.data.gouv.fr/fr/login), seuls les administrateurs peuvent retirer un membre ;
 2. Rendez-vous sur [votre tableau de bord](https://www.data.gouv.fr/fr/admin/), en cliquant sur **Administration** en haut à droite de votre écran ;
 3. Allez sur la page de suivi de l’organisation à laquelle vous souhaitez retirer un membre, en cliquant sur le nom de votre organisation, dans la colonne de gauche ;
 4. Dans le bloc **Membres**, sur la droite de votre écran, cliquez sur le nom du membre que vous souhaitez retirer ;
@@ -120,9 +82,9 @@ Seuls les administrateurs d’une organisation peuvent retirer des membres de le
 ## Supprimer une organisation <a href="#supprimer-une-organisation" id="supprimer-une-organisation"></a>
 
 {% hint style="info" %}
-Quand une organisation est supprimée, les jeux de données et les ressources qui avaient été publiés en son nom _restent en ligne_, aux mêmes URL, mais sous forme anonyme, c’est-à-dire sans être rattachés à un producteur.\
+Quand une organisation est supprimée, les contenus publiés en son nom _restent en ligne_, aux mêmes URL, mais sous forme anonyme, c’est-à-dire sans être rattachés à un producteur.\
 \
-Si vous souhaitez _aussi_ supprimer les jeux de données publiés par l’organisation que vous êtes sur le point de clôturer, commencez par supprimer les jeux de données en question un par un _avant_ de supprimer l’organisation en elle-même.
+Si vous souhaitez _aussi_ supprimer les données publiés par l’organisation que vous êtes sur le point de clôturer, commencez par supprimer les jeux de données _avant_ de supprimer l’organisation.
 {% endhint %}
 
 <details>
