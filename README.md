@@ -12,3 +12,6 @@ Le contenu présenté couvre des thématiques juridiques, techniques ou encore o
 
 Le contenu des guides a vocation à évoluer et à être amélioré grâce à vos retours et suggestions !
 
+
+
+<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Guide qualité</strong></td><td>Quelles données doivent être publiées en open data ?</td><td></td><td><a href="https://app.gitbook.com/o/w6D6SnLwCXQaMMSzcTvp/s/nSrS1oz2N9yTlykjBxxZ/~/changes/17/guides/guide-qualite">https://app.gitbook.com/o/w6D6SnLwCXQaMMSzcTvp/s/nSrS1oz2N9yTlykjBxxZ/~/changes/17/guides/guide-qualite</a></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr></tbody></table>
