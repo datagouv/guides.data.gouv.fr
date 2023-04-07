@@ -1,3 +1,9 @@
+---
+description: >-
+  Ce guide à pour vocation de vous aider à améliorer la qualité de vos données
+  dans une démarche d'ouverture.
+---
+
 # 💎 Guide qualité
 
 

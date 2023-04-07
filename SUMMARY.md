@@ -23,7 +23,7 @@
   * [La réutilisation des données](guide-juridique/la-reutilisation-des-donnees.md)
   * [Chronologie de l'open data](guide-juridique/chronologie-de-lopen-data.md)
 * [⚙ Guide data.gouv.fr](guides/guide-data.gouv.fr/README.md)
-  * [Créer un compte utilisateur](utiliser-data.gouv.fr/creer-un-compte-utilisateur.md)
+  * [Compte utilisateur et organisation](guides/guide-data.gouv.fr/compte-utilisateur-et-organisation.md)
   * [Créer ou rejoindre une organisation](utiliser-data.gouv.fr/creer-ou-rejoindre-une-organisation.md)
   * [Publier un jeu de données](utiliser-data.gouv.fr/publier-un-jeu-de-donnees.md)
   * [Publier une réutilisation](utiliser-data.gouv.fr/publier-une-reutilisation.md)
