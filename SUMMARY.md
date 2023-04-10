@@ -29,6 +29,7 @@
   * [Copy of Jeux de données](guides/guide-data.gouv.fr/copy-of-jeux-de-donnees.md)
   * [Gérer son jeu de données](guides/guide-data.gouv.fr/gerer-son-jeu-de-donnees.md)
   * [Réutilisations](utiliser-data.gouv.fr/publier-une-reutilisation.md)
+  * [Copy of Réutilisations](guides/guide-data.gouv.fr/copy-of-reutilisations.md)
   * [Discussions](guides/guide-data.gouv.fr/discussions.md)
   * [Animer la communauté de réutilisateurs](utiliser-data.gouv.fr/animer-la-communaute-de-reutilisateurs.md)
   * [Faire une recherche](guides/guide-data.gouv.fr/faire-une-recherche.md)
