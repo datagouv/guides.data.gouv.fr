@@ -26,6 +26,7 @@
   * [Compte utilisateur](guides/guide-data.gouv.fr/compte-utilisateur.md)
   * [Organisation](guides/guide-data.gouv.fr/gerer-son-organisation.md)
   * [Jeux de données](utiliser-data.gouv.fr/publier-un-jeu-de-donnees.md)
+  * [Copy of Jeux de données](guides/guide-data.gouv.fr/copy-of-jeux-de-donnees.md)
   * [Gérer son jeu de données](guides/guide-data.gouv.fr/gerer-son-jeu-de-donnees.md)
   * [Réutilisations](utiliser-data.gouv.fr/publier-une-reutilisation.md)
   * [Discussions](guides/guide-data.gouv.fr/discussions.md)

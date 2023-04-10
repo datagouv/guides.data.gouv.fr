@@ -1,14 +1,10 @@
-# Jeux de données
+# Copy of Jeux de données
 
 {% hint style="info" %}
 **Qu'est-ce qu'un jeu de données sur data.gouv.fr ?**
 
-Un jeu de donnée sur data.gouv.fr est un ensemble de ressources ou d’informations (fichiers de données, fichiers d’explications, API, lien...) et de métadonnées (description, producteur, date de publication, mots-clefs, couverture géographique temporelle...) sur un thème donné.
+Un jeu de donnée sur data.gouv.fr est un ensemble cohérent de ressources ou d’informations (fichiers de données, fichiers d’explications, API, lien...) et de métadonnées (description, producteur, date de publication, mots-clefs, couverture géographique temporelle...) sur un thème donné.
 {% endhint %}
-
-### &#x20;<a href="#definir-qui-publie-le-jeu-de-donnees" id="definir-qui-publie-le-jeu-de-donnees"></a>
-
-### &#x20;<a href="#definir-qui-publie-le-jeu-de-donnees" id="definir-qui-publie-le-jeu-de-donnees"></a>
 
 ### Définir qui publie le jeu de données <a href="#definir-qui-publie-le-jeu-de-donnees" id="definir-qui-publie-le-jeu-de-donnees"></a>
 
@@ -25,12 +21,12 @@ Nous vous conseillons de publier un jeu de données sous le nom de votre compte 
 
 ### Décrire le jeu de données <a href="#decrire-le-jeu-de-donnees" id="decrire-le-jeu-de-donnees"></a>
 
-<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-type="content-ref"></th></tr></thead><tbody><tr><td>Voir le guide qualité sur la documentation des données</td><td></td><td></td><td><a href="../guide-qualite/documenter-les-donnees.md">documenter-les-donnees.md</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-type="content-ref"></th></tr></thead><tbody><tr><td>Voir le guide qualité sur la documentation des données</td><td></td><td></td><td><a href="../../guide-qualite/documenter-les-donnees.md">documenter-les-donnees.md</a></td></tr></tbody></table>
 
 
 
-{% content-ref url="../guide-qualite/documenter-les-donnees.md" %}
-[documenter-les-donnees.md](../guide-qualite/documenter-les-donnees.md)
+{% content-ref url="../../guide-qualite/documenter-les-donnees.md" %}
+[documenter-les-donnees.md](../../guide-qualite/documenter-les-donnees.md)
 {% endcontent-ref %}
 
 
@@ -71,11 +67,25 @@ Vous avez la possibilité d’importer vos ressources sur data.gouv.fr selon dif
 
 
 
-Plusieurs modes de&#x20;
-
 {% tabs %}
-{% tab title="Directement sur data.gouv.fr" %}
-Mise à disposition directe sur data.gouv.fr
+{% tab title="Mise à disposition directe sur data.gouv.fr" %}
+
+{% endtab %}
+
+{% tab title="Mise à disposition par API" %}
+
+{% endtab %}
+
+{% tab title="Publier un catalogue de données existant par moissonnage" %}
+
+{% endtab %}
+{% endtabs %}
+
+
+
+
+
+#### Mise à disposition directe sur data.gouv.fr <a href="#mise-a-disposition-directe-sur-data-gouv-fr" id="mise-a-disposition-directe-sur-data-gouv-fr"></a>
 
 Vous avez la possibilité d’importer vos ressources directement depuis la plateforme data.gouv.fr. Les étapes de cette publication reprend les étapes précédemment citées:
 
@@ -86,11 +96,9 @@ Lors de l’étape “Ajoutez vos ressources”, deux options vous sont proposé
 1. Vous pouvez télécharger vos ressources depuis votre ordinateur vers le serveur de data.gouv.fr. Vos ressources seront alors hébergées sur les serveurs de data.gouv.fr.
 2. Vous pouvez créer un lien vers une ressource distante existante. Les informations contenues dans le fichier resteront hébergées sur le serveur distant fléché.
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
-{% endtab %}
+![Ajout d'une ressource](https://guides.etalab.gouv.fr/assets/img/ajouter\_une\_ressource.e3219508.jpg)
 
-{% tab title="Par API" %}
-#### Mise à disposition par API <a href="#mise-a-disposition-par-api" id="mise-a-disposition-par-api"></a>
+#### [#](https://guides.etalab.gouv.fr/data.gouv.fr/publier-jeu-de-donnees/#mise-a-disposition-par-api)Mise à disposition par API <a href="#mise-a-disposition-par-api" id="mise-a-disposition-par-api"></a>
 
 Qu’est-ce qu’une API ?
 
@@ -124,10 +132,6 @@ A partir de la clé API, vous pouvez exécuter différentes opérations. Ces op�
 Les appels à l’API sont soumis aux mêmes permissions que l’interface web. Par exemple, si vous souhaitez publier ou modifier un jeu de données au nom d’une organisation, vous devez appartenir à cette organisation.
 
 Il ne vous reste plus qu'à publier votre jeu de données !
-{% endtab %}
-
-{% tab title="Par moissonnage" %}
-
 
 ### Publier un catalogue de données existant par moissonnage <a href="#publier-un-catalogue-de-donnees-existant-par-moissonnage" id="publier-un-catalogue-de-donnees-existant-par-moissonnage"></a>
 
@@ -155,17 +159,5 @@ Le principe du moissonnage sur data.gouv.fr se décompose en plusieurs étapes :
 4. La configuration du moissonneur est validée par l’équipe en charge de data.gouv.fr ;
 5. Le moissonneur de data.gouv.fr vient automatiquement récupérer les données de votre plateforme ;
 6. Les données de votre plateforme sont référencées et visibles sur data.gouv.fr.
-{% endtab %}
-{% endtabs %}
-
-
-
-
-
-#### &#x20;<a href="#mise-a-disposition-directe-sur-data-gouv-fr" id="mise-a-disposition-directe-sur-data-gouv-fr"></a>
-
-#### &#x20;<a href="#mise-a-disposition-par-api" id="mise-a-disposition-par-api"></a>
-
-### &#x20;<a href="#publier-un-catalogue-de-donnees-existant-par-moissonnage" id="publier-un-catalogue-de-donnees-existant-par-moissonnage"></a>
 
 ### &#x20;<a href="#faire-vivre-son-jeu-de-donnees" id="faire-vivre-son-jeu-de-donnees"></a>
