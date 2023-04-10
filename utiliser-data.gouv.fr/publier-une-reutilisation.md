@@ -59,3 +59,9 @@ Toute réutilisation peut être intégrée sur d’autres sites web. Pour cela, 
 Nous mettons tous les mois en avant nos réutilisations préférées dans [un article](https://www.data.gouv.fr/fr/posts/) ainsi que sur les [réseaux sociaux](https://twitter.com/datagouvfr), n’hésitez pas à y faire un tour pour voir si vous y figurez !
 {% endhint %}
 
+### Gérer sa réutilisation <a href="#repondre-aux-questions-posees-a-propos-de-votre-reutilisation" id="repondre-aux-questions-posees-a-propos-de-votre-reutilisation"></a>
+
+Une fois votre réulisation publiée vous pouvez la gérer depuis l'espace d'administration. \
+Vous pouvez notamment suivre les principales métriques, les discussions ainsi que modifier, transférer ou supprimer votre réutilisation.&#x20;
+
+{% embed url="https://www.loom.com/share/e48cf630290c4a9ab1e9bb4246b6e1de" %}

@@ -57,3 +57,11 @@ Il est conseillé de supprimer le moins de ressources possibles de la plateforme
 {% endhint %}
 
 ![Supprimer un jeu de données](https://guides.etalab.gouv.fr/assets/img/supprimer\_jeu.2c5318a1.jpg)
+
+### Partager son jeu de données et ses ressources <a href="#partager-son-jeu-de-donnees-et-ses-ressources" id="partager-son-jeu-de-donnees-et-ses-ressources"></a>
+
+Une fois que votre jeu de données est publié sur data.gouv.fr, nous vous conseillons de partager cette publication sur les réseaux sociaux.
+
+Tout jeu de données peut être intégré sur d’autres sites web. Pour cela, il suffit de générer le code HTML du jeu de données depuis sa page associée, grâce à l’icône.
+
+Plusieurs jeux de données peuvent être intégrés sur une même page web. Vous pouvez également contrôler l’apparence du jeu de données intégré en modifiant la classe CSS dataset-card.

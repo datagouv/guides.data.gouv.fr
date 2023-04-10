@@ -68,8 +68,6 @@ Il ne vous reste plus qu'à publier votre jeu de données !
 {% endtab %}
 
 {% tab title="Par moissonnage" %}
-
-
 ### Publier un catalogue de données existant par moissonnage <a href="#publier-un-catalogue-de-donnees-existant-par-moissonnage" id="publier-un-catalogue-de-donnees-existant-par-moissonnage"></a>
 
 {% hint style="info" %}
@@ -78,7 +76,9 @@ Il ne vous reste plus qu'à publier votre jeu de données !
 Le moissonnage est un mécanisme permettant de collecter les métadonnées sur un catalogue distant et de les stocker sur une autre plateforme afin de proposer un second point d’accès aux données.
 {% endhint %}
 
-Le service de moissonnage mis à votre disposition permet de référencer sur data.gouv.fr les jeux de données publiés sur d’autres catalogues de données en ligne. De cette manière, vous n’avez pas besoin d’importer à la main sur data.gouv.fr les jeux de données que vous avez déjà importés sur votre propre plateforme.
+Le service de moissonnage mis à votre disposition permet de référencer sur data.gouv.fr les jeux de données publiés sur d’autres catalogues de données en ligne.&#x20;
+
+De cette manière, vous n’avez pas besoin d’importer à la main sur data.gouv.fr les jeux de données que vous avez déjà importés sur votre propre plateforme.
 
 #### Quand utiliser le service de moissonnage ? <a href="#quand-utiliser-le-service-de-moissonnage" id="quand-utiliser-le-service-de-moissonnage"></a>
 
@@ -95,7 +95,9 @@ Le principe du moissonnage sur data.gouv.fr se décompose en plusieurs étapes :
 3. Vous demandez validation de votre moissonneur sur [le support data.gouv.fr](https://support.data.gouv.fr/collectivite-territoriale/referencement/moissonnage#support-tree) ;
 4. La configuration du moissonneur est validée par l’équipe en charge de data.gouv.fr ;
 5. Le moissonneur de data.gouv.fr vient automatiquement récupérer les données de votre plateforme ;
-6. Les données de votre plateforme sont référencées et visibles sur data.gouv.fr.
+6. Les données de votre plateforme sont référencées et visibles sur data.gouv.fr. :tada:
+
+Pour plus d'information consulter le [guide](moissonage/) moissonage. [moissonage](moissonage/ "mention").
 {% endtab %}
 {% endtabs %}
 
