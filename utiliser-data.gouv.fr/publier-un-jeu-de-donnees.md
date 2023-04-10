@@ -88,7 +88,9 @@ Le principe du moissonnage sur data.gouv.fr se décompose en plusieurs étapes :
 3. Vous demandez validation de votre moissonneur sur [le support data.gouv.fr](https://support.data.gouv.fr/collectivite-territoriale/referencement/moissonnage#support-tree) ;
 4. La configuration du moissonneur est validée par l’équipe en charge de data.gouv.fr ;
 5. Le moissonneur de data.gouv.fr vient automatiquement récupérer les données de votre plateforme ;
-6. Les données de votre plateforme sont référencées et visibles sur data.gouv.fr.
+6. Les données de votre plateforme sont référencées et visibles sur data.gouv.fr. :tada:
+
+**Pour en savoir plus consultez le** [**guide moissonage**](moissonage/)**.**
 {% endtab %}
 {% endtabs %}
 
