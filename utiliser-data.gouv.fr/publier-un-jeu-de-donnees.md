@@ -31,24 +31,21 @@ Lors de l’étape “Ajoutez vos ressources”, deux options vous sont proposé
 {% endtab %}
 
 {% tab title="Par API" %}
-#### Mise à disposition par API <a href="#mise-a-disposition-par-api" id="mise-a-disposition-par-api"></a>
+### Mise à disposition par API <a href="#mise-a-disposition-par-api" id="mise-a-disposition-par-api"></a>
 
-Qu’est-ce qu’une API ?
+{% hint style="info" %}
+**Qu’est-ce qu’une API ?**
 
 Une API est une interface, un contrat passé entre deux systèmes informatiques pour leur permettre de communiquer. Cette solution informatique permet d’automatiser des tâches depuis votre ordinateur ou vos serveurs.
-
-Dans l’administration, les API sont déjà largements utilisées. Par exemple, les entreprise françaises utilisent tous les mois celle de la Déclaration Sociale Nominative. Les entreprises, elles, ne communiquent pas les données de leur employés manuellement à l’administration : leur logiciel de paie transmet directement ces données grâce à une API.
+{% endhint %}
 
 A partir de l’API de data.gouv.fr, vous pouvez réaliser les mêmes actions que sur la plateforme :
 
-* Vous pouvez créer un jeu de données au nom de votre compte utilisateur ou au nom de votre organisation ;
-* Vous pouvez décrire votre jeu de données et les ressources associées ;
-* Vous pouvez ajouter ou supprimer une ressource ou un jeu de données.
+* Créer un jeu de données au nom de votre compte utilisateur ou au nom de votre organisation ;
+* Décrire votre jeu de données et les ressources associées ;
+* Ajouter ou supprimer une ressource ou un jeu de données.
 
-L’API de data.gouv.fr propose également des fonctionalités complémentaires à la publication de jeux de données :
-
-* Vous pouvez récupérer les métadonnées des jeux de données ou ressources publiées sur data.gouv.fr ;
-* Vous pouvez accéder au contenu des ressources d’un jeu de données.
+L’API de data.gouv.fr propose également des fonctionnalité complémentaires à la publication de jeux de données comme la possibilité de récupérer les métadonnées des jeux de données ou de fichiers ou encore accéder au contenu des fichiers d’un jeu de données.
 
 #### Quand utiliser l’API de data.gouv.fr ? <a href="#quand-utiliser-l-api-de-data-gouv-fr" id="quand-utiliser-l-api-de-data-gouv-fr"></a>
 
@@ -60,14 +57,12 @@ L’utilisation de l’API de data.gouv.fr se fait par le point d’entrée raci
 
 ![Générer une clé d'API](https://guides.etalab.gouv.fr/assets/img/cle\_api.f5378a97.jpg)
 
-A partir de la clé API, vous pouvez exécuter différentes opérations. Ces opérations sont référencées dans [la documentation disponible sur doc.data.gouv.fr](https://doc.data.gouv.fr/api/reference/).
-
 Les appels à l’API sont soumis aux mêmes permissions que l’interface web. Par exemple, si vous souhaitez publier ou modifier un jeu de données au nom d’une organisation, vous devez appartenir à cette organisation.
 
-Il ne vous reste plus qu'à publier votre jeu de données !
+**Pour en savoir plus consulter le** [**guide API**](api/)**.**
 {% endtab %}
 
-{% tab title="Par moissonnage" %}
+{% tab title="Moissonage" %}
 ### Publier un catalogue de données existant par moissonnage <a href="#publier-un-catalogue-de-donnees-existant-par-moissonnage" id="publier-un-catalogue-de-donnees-existant-par-moissonnage"></a>
 
 {% hint style="info" %}
@@ -76,9 +71,7 @@ Il ne vous reste plus qu'à publier votre jeu de données !
 Le moissonnage est un mécanisme permettant de collecter les métadonnées sur un catalogue distant et de les stocker sur une autre plateforme afin de proposer un second point d’accès aux données.
 {% endhint %}
 
-Le service de moissonnage mis à votre disposition permet de référencer sur data.gouv.fr les jeux de données publiés sur d’autres catalogues de données en ligne.&#x20;
-
-De cette manière, vous n’avez pas besoin d’importer à la main sur data.gouv.fr les jeux de données que vous avez déjà importés sur votre propre plateforme.
+Le service de moissonnage mis à votre disposition permet de référencer sur data.gouv.fr les jeux de données publiés sur d’autres catalogues de données en ligne. De cette manière, vous n’avez pas besoin d’importer à la main sur data.gouv.fr les jeux de données que vous avez déjà importés sur votre propre plateforme.
 
 #### Quand utiliser le service de moissonnage ? <a href="#quand-utiliser-le-service-de-moissonnage" id="quand-utiliser-le-service-de-moissonnage"></a>
 
@@ -95,11 +88,11 @@ Le principe du moissonnage sur data.gouv.fr se décompose en plusieurs étapes :
 3. Vous demandez validation de votre moissonneur sur [le support data.gouv.fr](https://support.data.gouv.fr/collectivite-territoriale/referencement/moissonnage#support-tree) ;
 4. La configuration du moissonneur est validée par l’équipe en charge de data.gouv.fr ;
 5. Le moissonneur de data.gouv.fr vient automatiquement récupérer les données de votre plateforme ;
-6. Les données de votre plateforme sont référencées et visibles sur data.gouv.fr. :tada:
-
-Pour plus d'information consulter le [guide](moissonage/) moissonage. [moissonage](moissonage/ "mention").
+6. Les données de votre plateforme sont référencées et visibles sur data.gouv.fr.
 {% endtab %}
 {% endtabs %}
+
+
 
 ### Définir qui publie le jeu de données <a href="#definir-qui-publie-le-jeu-de-donnees" id="definir-qui-publie-le-jeu-de-donnees"></a>
 
