@@ -1,4 +1,4 @@
-# Publier une réutilisation
+# Réutilisations
 
 Les données publiées sur data.gouv.fr peuvent être réutilisées [selon les termes définis dans la licence qui leur est associée](https://guides.etalab.gouv.fr/juridique/reutilisation/). Si vous êtes à l’origine d’une réutilisation, vous pouvez la référencer sur la page du jeu de données sur lequel vous vous êtes appuyés.
 
@@ -17,8 +17,6 @@ Référencer une réutilisation sur la page d’un jeu de données permet notamm
 {% embed url="https://www.loom.com/share/83c11a1caf2441cb9a5a2d943fa8db2d" %}
 Référencer une réutilisation
 {% endembed %}
-
-
 
 ## **Recommandations pour une bonne réutilisation** <a href="#definir-qui-publie-la-reutilisation" id="definir-qui-publie-la-reutilisation"></a>
 

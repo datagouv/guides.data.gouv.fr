@@ -46,10 +46,10 @@ Si vous pensez que vous devriez figurer dans la liste des membres d’une organi
 3. Descendez au niveau de la section **Actions** ;
 4. Cliquez sur **Demander à rejoindre l’organisation en tant que producteur** ;
 5. Dans la fenêtre qui s’ouvre alors, expliquez ce qui motive votre demande puis cliquez sur **Ok** ;
-6. Les administrateurs de l’organisation sont informés par e-mail que vous souhaitez intégrer leur équipe
+6. Les administrateurs de l’organisation sont informés par e-mail que vous souhaitez intégrer leur équipe.
 
 </details>
 
 {% embed url="https://www.loom.com/share/3c172316f4854777bc7cfaa2ed45c131" %}
 
-Si votre organisation n'existe pas vous pouvez la créer. Cette procédure est explicité dans le guide suivant.
+Si votre organisation n'existe pas vous pouvez la créer. Cette procédure est explicitée dans le guide [gerer-son-organisation.md](gerer-son-organisation.md "mention").

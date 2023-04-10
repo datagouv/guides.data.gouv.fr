@@ -21,12 +21,12 @@ Nous vous conseillons de publier un jeu de données sous le nom de votre compte 
 
 ### Décrire le jeu de données <a href="#decrire-le-jeu-de-donnees" id="decrire-le-jeu-de-donnees"></a>
 
-<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-type="content-ref"></th></tr></thead><tbody><tr><td>Voir le guide qualité sur la documentation des données</td><td></td><td></td><td><a href="../../guide-qualite/documenter-les-donnees.md">documenter-les-donnees.md</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-type="content-ref"></th></tr></thead><tbody><tr><td>Voir le guide qualité sur la documentation des données</td><td></td><td></td><td><a href="../guide-qualite/documenter-les-donnees.md">documenter-les-donnees.md</a></td></tr></tbody></table>
 
 
 
-{% content-ref url="../../guide-qualite/documenter-les-donnees.md" %}
-[documenter-les-donnees.md](../../guide-qualite/documenter-les-donnees.md)
+{% content-ref url="../guide-qualite/documenter-les-donnees.md" %}
+[documenter-les-donnees.md](../guide-qualite/documenter-les-donnees.md)
 {% endcontent-ref %}
 
 
