@@ -8,70 +8,11 @@ Un jeu de donnée sur data.gouv.fr est un ensemble de ressources ou d’informat
 
 ### &#x20;<a href="#definir-qui-publie-le-jeu-de-donnees" id="definir-qui-publie-le-jeu-de-donnees"></a>
 
-### &#x20;<a href="#definir-qui-publie-le-jeu-de-donnees" id="definir-qui-publie-le-jeu-de-donnees"></a>
+Plusieurs modes de mises en ligne sont possible :&#x20;
 
-### Définir qui publie le jeu de données <a href="#definir-qui-publie-le-jeu-de-donnees" id="definir-qui-publie-le-jeu-de-donnees"></a>
-
-Un jeu de données peut être publié sous le nom de votre compte utilisateur ou sous la bannière d’une organisation.
-
-{% hint style="info" %}
-**Quand est-il conseillé de publier sous le nom de votre compte utilisateur ?**\
-Nous vous conseillons de publier un jeu de données sous le nom de votre compte utilisateur seulement s’il n’a pas été produit dans le cadre des activités d’une organisation à laquelle vous êtes rattaché.
-{% endhint %}
-
-
-
-
-
-### Décrire le jeu de données <a href="#decrire-le-jeu-de-donnees" id="decrire-le-jeu-de-donnees"></a>
-
-<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-type="content-ref"></th></tr></thead><tbody><tr><td>Voir le guide qualité sur la documentation des données</td><td></td><td></td><td><a href="../guide-qualite/documenter-les-donnees.md">documenter-les-donnees.md</a></td></tr></tbody></table>
-
-
-
-{% content-ref url="../guide-qualite/documenter-les-donnees.md" %}
-[documenter-les-donnees.md](../guide-qualite/documenter-les-donnees.md)
-{% endcontent-ref %}
-
-
-
-
-
-L'étape de description est cruciale pour que vos jeux de données soient bien référencés et facilité la réutilisation.
-
-
-
-Lors de la création de la page de votre jeu de données, vous avez la possibilité de renseigner les informations suivantes:
-
-| Information                                                                                                                          | Description de l'information                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-| ------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [Titre\* ](https://doc.data.gouv.fr/jeux-de-donnees/publier-un-jeu-de-donnees/#titre)                                                | Le titre de votre jeu de données doit être le plus précis et spécifique possible. Il doit également correspondre au vocabulaire employé par les utilisateurs. Ces derniers recherchent les données le plus souvent dans un moteur de recherche.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-| [Sigle](https://doc.data.gouv.fr/jeux-de-donnees/publier-un-jeu-de-donnees/#sigle)                                                   | Vous avez la possibilité d’apposer un sigle à votre jeu de données. Les lettres qui composent ce sigle n’ont pas besoin d’être séparées par des points.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-| [Description](https://doc.data.gouv.fr/jeux-de-donnees/publier-un-jeu-de-donnees/#description)\*                                     | La description de votre jeu de données permet aux personnes qui le consultent d’obtenir des informations sur le contenu et la structure des ressources publiées, le contexte de production des données, les contacts producteurs etc. C’est généralement la première chose que les utilisateurs lisent quand ils découvrent votre jeu de données.                                                                                                                                                                                                                                                                                                                                                                                         |
-| [Licence](https://doc.data.gouv.fr/jeux-de-donnees/publier-un-jeu-de-donnees/#licence)                                               | Les licences définissent les règles de réutilisation des jeux de données publiés. En choisissant une licence de réutilisation, vous vous assurez que le jeu de données publié sera réutilisé selon les conditions d’usage que vous avez définies.Afin d’éviter la multiplication des licences, la[ loi pour une République numérique](https://www.legifrance.gouv.fr/affichTexteArticle.do?cidTexte=JORFTEXT000033202746\&idArticle=JORFARTI000033203004\&categorieLien=cid) a prévu la création d’une liste de licences qui peuvent être utilisées par les administrations. Le site data.gouv.fr[ a référencé la liste des licences applicables](https://www.data.gouv.fr/fr/licences) aux informations publiques (données, documents…). |
-| [Fréquence de mise à jour](https://doc.data.gouv.fr/jeux-de-donnees/publier-un-jeu-de-donnees/#fr%C3%A9quence-de-mise-%C3%A0-jour)\* | La fréquence de mise à jour correspond à la fréquence à laquelle vous prévoyez de mettre à jour les données publiées. Cette fréquence de mise à jour reste indicative.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-| [Mots clés](https://doc.data.gouv.fr/jeux-de-donnees/publier-un-jeu-de-donnees/#mots-clefs)                                          | Les mots clés caractérisent votre jeu de données. Ils apparaissent sur la page de présentation et apportent un meilleur référencement du jeu de données lors d’une recherche utilisateur. L’apposition d’un mot clé permet également de classer votre jeu de données dans des thématiques. À partir de chaque mot clé, vous pouvez obtenir la liste des jeux de données pour lesquels le mot clé a également été assigné.                                                                                                                                                                                                                                                                                                                 |
-| [Couverture temporelle](https://doc.data.gouv.fr/jeux-de-donnees/publier-un-jeu-de-donnees/#couverture-temporelle)                   | La couverture temporelle indique la portée dans le temps des données publiées                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| [Granularité spatiale](https://doc.data.gouv.fr/jeux-de-donnees/publier-un-jeu-de-donnees/#granularit%C3%A9-spatiale)                | La granularité spatiale indique le niveau de détail géographique le plus fin que peut couvrir vos données.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| [Mode privé](https://doc.data.gouv.fr/jeux-de-donnees/publier-un-jeu-de-donnees/#priv%C3%A9)                                         | L’activation du mode privé permet de ne pas mettre en ligne le jeu de données. Cela laisse la possibilité de l’éditer avant sa publication.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-
-_Il est obligatoire de renseigner ces informations._
-
-### Ajouter les ressources <a href="#ajouter-les-ressources" id="ajouter-les-ressources"></a>
-
-{% hint style="info" %}
-**Qu’est-ce qu’une ressource ?**
-
-Une ressource est un fichier téléchargeable. Il s'agit des données en elles même.&#x20;
-
-Un jeu de données peut contenir plusieurs ressources (données mises à jour, données historisées, documentation, code source, API, lien, etc.).
-{% endhint %}
-
-Vous avez la possibilité d’importer vos ressources sur data.gouv.fr selon différents modes de mise à disposition.
-
-
-
-Plusieurs modes de&#x20;
+* Par upload direct
+* Par API
+* Par moissonnage
 
 {% tabs %}
 {% tab title="Directement sur data.gouv.fr" %}
@@ -158,14 +99,69 @@ Le principe du moissonnage sur data.gouv.fr se décompose en plusieurs étapes :
 {% endtab %}
 {% endtabs %}
 
+### Définir qui publie le jeu de données <a href="#definir-qui-publie-le-jeu-de-donnees" id="definir-qui-publie-le-jeu-de-donnees"></a>
+
+Un jeu de données peut être publié sous le nom de votre compte utilisateur ou sous la bannière d’une organisation.
+
+{% hint style="info" %}
+**Quand est-il conseillé de publier sous le nom de votre compte utilisateur ?**\
+Nous vous conseillons de publier un jeu de données sous le nom de votre compte utilisateur seulement s’il n’a pas été produit dans le cadre des activités d’une organisation à laquelle vous êtes rattaché.
+{% endhint %}
 
 
 
 
-#### &#x20;<a href="#mise-a-disposition-directe-sur-data-gouv-fr" id="mise-a-disposition-directe-sur-data-gouv-fr"></a>
 
-#### &#x20;<a href="#mise-a-disposition-par-api" id="mise-a-disposition-par-api"></a>
+### Décrire le jeu de données <a href="#decrire-le-jeu-de-donnees" id="decrire-le-jeu-de-donnees"></a>
 
-### &#x20;<a href="#publier-un-catalogue-de-donnees-existant-par-moissonnage" id="publier-un-catalogue-de-donnees-existant-par-moissonnage"></a>
+<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-type="content-ref"></th></tr></thead><tbody><tr><td>Voir le guide qualité sur la documentation des données</td><td></td><td></td><td><a href="../guide-qualite/documenter-les-donnees.md">documenter-les-donnees.md</a></td></tr></tbody></table>
 
-### &#x20;<a href="#faire-vivre-son-jeu-de-donnees" id="faire-vivre-son-jeu-de-donnees"></a>
+
+
+{% content-ref url="../guide-qualite/documenter-les-donnees.md" %}
+[documenter-les-donnees.md](../guide-qualite/documenter-les-donnees.md)
+{% endcontent-ref %}
+
+
+
+
+
+Plusieurs modes de&#x20;
+
+
+
+
+
+
+
+L'étape de description est cruciale pour que vos jeux de données soient bien référencés et facilité la réutilisation.
+
+
+
+Lors de la création de la page de votre jeu de données, vous avez la possibilité de renseigner les informations suivantes:
+
+| Information                                                                                                                          | Description de l'information                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| ------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Titre\* ](https://doc.data.gouv.fr/jeux-de-donnees/publier-un-jeu-de-donnees/#titre)                                                | Le titre de votre jeu de données doit être le plus précis et spécifique possible. Il doit également correspondre au vocabulaire employé par les utilisateurs. Ces derniers recherchent les données le plus souvent dans un moteur de recherche.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| [Sigle](https://doc.data.gouv.fr/jeux-de-donnees/publier-un-jeu-de-donnees/#sigle)                                                   | Vous avez la possibilité d’apposer un sigle à votre jeu de données. Les lettres qui composent ce sigle n’ont pas besoin d’être séparées par des points.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| [Description](https://doc.data.gouv.fr/jeux-de-donnees/publier-un-jeu-de-donnees/#description)\*                                     | La description de votre jeu de données permet aux personnes qui le consultent d’obtenir des informations sur le contenu et la structure des ressources publiées, le contexte de production des données, les contacts producteurs etc. C’est généralement la première chose que les utilisateurs lisent quand ils découvrent votre jeu de données.                                                                                                                                                                                                                                                                                                                                                                                         |
+| [Licence](https://doc.data.gouv.fr/jeux-de-donnees/publier-un-jeu-de-donnees/#licence)                                               | Les licences définissent les règles de réutilisation des jeux de données publiés. En choisissant une licence de réutilisation, vous vous assurez que le jeu de données publié sera réutilisé selon les conditions d’usage que vous avez définies.Afin d’éviter la multiplication des licences, la[ loi pour une République numérique](https://www.legifrance.gouv.fr/affichTexteArticle.do?cidTexte=JORFTEXT000033202746\&idArticle=JORFARTI000033203004\&categorieLien=cid) a prévu la création d’une liste de licences qui peuvent être utilisées par les administrations. Le site data.gouv.fr[ a référencé la liste des licences applicables](https://www.data.gouv.fr/fr/licences) aux informations publiques (données, documents…). |
+| [Fréquence de mise à jour](https://doc.data.gouv.fr/jeux-de-donnees/publier-un-jeu-de-donnees/#fr%C3%A9quence-de-mise-%C3%A0-jour)\* | La fréquence de mise à jour correspond à la fréquence à laquelle vous prévoyez de mettre à jour les données publiées. Cette fréquence de mise à jour reste indicative.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| [Mots clés](https://doc.data.gouv.fr/jeux-de-donnees/publier-un-jeu-de-donnees/#mots-clefs)                                          | Les mots clés caractérisent votre jeu de données. Ils apparaissent sur la page de présentation et apportent un meilleur référencement du jeu de données lors d’une recherche utilisateur. L’apposition d’un mot clé permet également de classer votre jeu de données dans des thématiques. À partir de chaque mot clé, vous pouvez obtenir la liste des jeux de données pour lesquels le mot clé a également été assigné.                                                                                                                                                                                                                                                                                                                 |
+| [Couverture temporelle](https://doc.data.gouv.fr/jeux-de-donnees/publier-un-jeu-de-donnees/#couverture-temporelle)                   | La couverture temporelle indique la portée dans le temps des données publiées                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| [Granularité spatiale](https://doc.data.gouv.fr/jeux-de-donnees/publier-un-jeu-de-donnees/#granularit%C3%A9-spatiale)                | La granularité spatiale indique le niveau de détail géographique le plus fin que peut couvrir vos données.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| [Mode privé](https://doc.data.gouv.fr/jeux-de-donnees/publier-un-jeu-de-donnees/#priv%C3%A9)                                         | L’activation du mode privé permet de ne pas mettre en ligne le jeu de données. Cela laisse la possibilité de l’éditer avant sa publication.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+
+_Il est obligatoire de renseigner ces informations._
+
+### Ajouter les ressources <a href="#ajouter-les-ressources" id="ajouter-les-ressources"></a>
+
+{% hint style="info" %}
+**Qu’est-ce qu’une ressource ?**
+
+Une ressource est un fichier téléchargeable. Il s'agit des données en elles même.&#x20;
+
+Un jeu de données peut contenir plusieurs ressources (données mises à jour, données historisées, documentation, code source, API, lien, etc.).
+{% endhint %}
+
+Vous avez la possibilité d’importer vos ressources sur data.gouv.fr selon différents modes de mise à disposition.
