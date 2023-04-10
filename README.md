@@ -1,12 +1,10 @@
 # 👋 Bienvenue !
 
-Ces guides sont  conçus par l'équipe de data.gouv.fr pour vous accompagner dans votre démarche d'ouverture des données ou de réutilisation des données publiques.&#x20;
+Ces guides sont conçus par l'équipe de data.gouv.fr pour vous accompagner dans votre démarche d'ouverture des données ou de réutilisation des données publiques.&#x20;
 
 Ces guides s'adressent tant aux administrations qu'au grand public.&#x20;
 
-**Le contenu des guides a vocation à évoluer et à être amélioré grâce à vos retours et suggestions.**
-
-**Vous avez des questions ?** [**N'hésitez pas à nous écrire**](https://support.data.gouv.fr/) **!**
+_Le contenu des guides a vocation à évoluer et à être amélioré grâce à vos retours et suggestions. Vous avez des questions ?_ [_N'hésitez pas à nous écrire_](https://support.data.gouv.fr/) _!_
 
 
 
