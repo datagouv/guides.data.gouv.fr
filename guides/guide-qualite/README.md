@@ -2,8 +2,6 @@
 description: >-
   Ce guide à pour vocation de vous aider à améliorer la qualité de vos données
   dans une démarche d'ouverture.
-cover: ../../.gitbook/assets/annie-spratt-oCqCLEPOf40-unsplash.jpg
-coverY: 0
 ---
 
 # 💎 Guide qualité
