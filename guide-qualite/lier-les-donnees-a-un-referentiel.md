@@ -2,9 +2,11 @@
 
 Comme explicité dans la page [Préparer le jeu de données - _Cas 2 - La structure de vos données ne correspond à aucun schéma de données existant_](https://guides.etalab.gouv.fr/qualite/preparer-le-jeu-de-donnees/#cas-2-la-structure-de-vos-donnees-ne-correspond-a-aucun-schema-de-donnees-existant), il est important d'intégrer dans vos jeux de données des données pivots relevant d'un référentiel.
 
-Exemple
 
-Mon jeu de données est une liste d'actions culturelles menées par ma région. Certaines de ces actions sont gérées par des associations. Il peut être intéressant de publier un jeu de données recensant ces actions avec un champ correspondant à l'identification des associations. Cet identifiant existe et est standardisé, il s'agit du numéro RNA, identifiant national des associations dont le répertoire est opéré par le ministère de l'Intérieur.
+
+> **Exemple** : Mon jeu de données est une liste d'actions culturelles menées par ma région. Certaines de ces actions sont gérées par des associations. Il peut être intéressant de publier un jeu de données recensant ces actions avec un champ correspondant à l'identification des associations. Cet identifiant existe et est standardisé, il s'agit du numéro RNA, identifiant national des associations dont le répertoire est opéré par le ministère de l'Intérieur.
+
+
 
 ### Avantages <a href="#avantages" id="avantages"></a>
 
@@ -20,13 +22,10 @@ L'intégration dans votre jeu de données de données pivots qui correspondent �
 
 #### Le service public de la donnée <a href="#le-service-public-de-la-donnee" id="le-service-public-de-la-donnee"></a>
 
-Parmi les nombreux référentiels existants, nous pouvons citer le service public de la donnée (SPD) qui référence les jeux de données maintenus de manière pérenne par des administrations.
+Parmi les nombreux référentiels existants, nous pouvons citer le [service public de la donnée (SPD)](https://www.data.gouv.fr/fr/pages/spd/reference/) qui référence les jeux de données maintenus de manière pérenne par des administrations.
 
-![Service Public de la Donnée](https://guides.etalab.gouv.fr/assets/img/spd.4eaf2f44.png) _Vous pouvez consulter sur le site data.gouv.fr la liste_ [_des données du service public de la donnée_](https://www.data.gouv.fr/fr/reference)_._
+Parmi ces jeux de données, nous pouvons citer entre autres : la [base Sirene](https://www.data.gouv.fr/fr/datasets/base-sirene-des-entreprises-et-de-leurs-etablissements-siren-siret/) qui liste l'ensemble des entreprises françaises. Les identifiants principaux liés à cette base sont le N° SIREN (identifiant d'une unité légale) et le numéro SIRET (identifiant d'un établissement) ;
 
-Parmi ces jeux de données, nous pouvons citer entre autres :
-
-* La [base Sirene](https://www.data.gouv.fr/fr/datasets/base-sirene-des-entreprises-et-de-leurs-etablissements-siren-siret/) qui liste l'ensemble des entreprises françaises. Les identifiants principaux liés à cette base sont le N° SIREN (identifiant d'une unité légale) et le numéro SIRET (identifiant d'un établissement) ;
 * La [base du répertoire national des associations (RNA)](https://www.data.gouv.fr/fr/datasets/repertoire-national-des-associations/), qui répertorie l’ensemble des associations relevant de [la loi du 1er juillet 1901 relative au contrat d’association](https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=LEGITEXT000006069570). L'identifiant des associations est le numéro RNA ;
 * Le [code officiel géographique (COG)](https://www.data.gouv.fr/fr/datasets/code-officiel-geographique-cog/) qui décrit les codes et libellés des communes, des cantons, des arrondissements, des départements, des régions et des pays et territoires étrangers.
 
@@ -34,7 +33,9 @@ Exemple
 
 Afin de lister l'ensemble des actions culturelles de ma région, nous avons vu que le numéro RNA pouvait être utile pour identifier les associations. Grâce à celui-ci, il est également possible de récupérer le numéro SIRET de l'association si celle-ci en possède un. Il est également possible de détailler dans le jeu de données le code commune et le code département de chaque action. Pour cela, il convient de se référer au Code officiel géographique. **Attention à bien respecter celui-ci. Par exemple, le code département de l'Ariège est le "09" et pas le "9". Ce type d'erreur pourrait entraîner des difficultés lors de la réutilisation des données.**
 
-#### Les autres référentiels <a href="#les-autres-referentiels" id="les-autres-referentiels"></a>
+
+
+### Les autres référentiels <a href="#les-autres-referentiels" id="les-autres-referentiels"></a>
 
 Au-delà du service public de la donnée, il existe un grand nombre de jeux de données standardisées et communément partagées avec le plus grand nombre. Il est conseillé d'intégrer les données pivots de ces référentiels dans vos jeux de données, si vous pensez que la démarche est pertinente.
 

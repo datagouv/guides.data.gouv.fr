@@ -1,6 +1,6 @@
 # Détection des licences par le moissonnage
 
-Lors du moissonnage, la liste de référence de data.gouv.fr — [disponible ici au format json](https://www.data.gouv.fr/api/1/datasets/licenses/) — est utilisée pour détecter la licence du jeu de données distant.
+Lors du moissonnage, la liste de référence de data.gouv.fr, [disponible ici au format json](https://www.data.gouv.fr/api/1/datasets/licenses/), est utilisée pour détecter la licence du jeu de données distant.
 
 Cette détection utilise les attributs suivants :
 

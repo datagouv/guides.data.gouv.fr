@@ -4,9 +4,15 @@ Rédaction de ce guide
 
 Ce guide a été publié initialement fin mars 2020 et est mis à jour de manière régulière. Il résulte d'une co-rédaction entre les équipes d'[Etalab](https://www.etalab.gouv.fr/) et d'[OpenDataFrance](https://www.opendatafrance.net/). Si vous souhaitez faire des propositions pour le faire évoluer, vous êtes invités à [entrer en contact avec nous](https://etalab.gouv.fr/contact).
 
+
+
+
+
+{% hint style="info" %}
 Lexique : Schémas de données
 
 Les schémas de données (ou simplement schémas) permettent de décrire la structure d'un fichier d'un jeu de données. Ils indiquent clairement quels sont les différents champs, comment sont représentées les données, quelles sont les valeurs possibles, leur format, etc.
+{% endhint %}
 
 La création de données en conformité avec un schéma de données existant apporte plusieurs bénéfices :
 
