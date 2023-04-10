@@ -50,6 +50,6 @@ Si vous pensez que vous devriez figurer dans la liste des membres d’une organi
 
 </details>
 
-{% embed url="https://www.loom.com/share/3c172316f4854777bc7cfaa2ed45c131" %}
+{% embed url="https://www.loom.com/share/df1896e7b6d34301b4ede711c9f66ac4" %}
 
 Si votre organisation n'existe pas vous pouvez la créer. Cette procédure est explicitée dans le guide [gerer-son-organisation.md](gerer-son-organisation.md "mention").
