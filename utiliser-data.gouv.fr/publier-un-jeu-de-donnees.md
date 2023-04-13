@@ -168,7 +168,7 @@ La qualité de votre jeu de données est fondamentale pour qu’il soit réutili
 
 
 
-### Mettre à jour ou modifier un jeu de données et/ou une ressource <a href="#mettre-a-jour-ou-modifier-un-jeu-de-donnees-et-ou-une-ressource" id="mettre-a-jour-ou-modifier-un-jeu-de-donnees-et-ou-une-ressource"></a>
+### <mark style="background-color:blue;">Mettre à jour ou modifier un jeu de données et/ou une ressource</mark> <a href="#mettre-a-jour-ou-modifier-un-jeu-de-donnees-et-ou-une-ressource" id="mettre-a-jour-ou-modifier-un-jeu-de-donnees-et-ou-une-ressource"></a>
 
 Les données publiées sur data.gouv.fr peuvent être [mises à jour après leur publication](https://doc.data.gouv.fr/jeux-de-donnees/mettre-a-jour-un-jeu-de-donnees-ou-une-ressource/), que la modification porte sur un jeu de données (sa description, ses tags, etc.) ou sur l’une des ressources qu’il contient.
 
