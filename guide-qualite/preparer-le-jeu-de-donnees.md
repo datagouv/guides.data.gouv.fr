@@ -2,15 +2,15 @@
 
 ### Extraire le jeu de données du système d’information de l’organisation <a href="#extraire-le-jeu-de-donnees-du-systeme-d-information-de-l-organisation" id="extraire-le-jeu-de-donnees-du-systeme-d-information-de-l-organisation"></a>
 
-Il est possible que les données que vous souhaitez faire circuler ne soient pas structurées sous la forme d’un jeu de données. Dans cette situation, il est nécessaire de réaliser une extraction des données depuis le système d’information où elles sont stockées. Cette extraction permet d’obtenir un jeu de données structuré, qui ordonne les données en fonction de différentes caractéristiques.
+Il est possible que les données que vous souhaitez faire circuler ne soient pas structurées sous la forme d’un jeu de données. Dans cette situation, il est nécessaire de réaliser une extraction des données depuis le système d’information où elles sont stockées. L'extraction permet d’obtenir un jeu de données structuré, qui ordonne les données selon différentes caractéristiques.
 
 Lorsque vous cherchez à extraire des données d’un système d’information, plusieurs situations peuvent se présenter :
 
-* Le système d’information propose un outil qui permet d’exporter l’ensemble des données depuis le système d’information. Il est nécessaire de sélectionner les données éligibles à la circulation en aval de l’export ;
-* Le système d’information propose un outil qui permet d’exporter l’ensemble des données ou de sélectionner un sous ensemble des données à exporter depuis le système d’information ;
-* Le système d’information ne prévoit pas d’outil d’exportation des données. Dans ce cas, il est nécessaire de réaliser une opération technique qui permette de réaliser l’export des données. Cette opération est directement liée aux spécificité du système d’information utilisé.
+* Un outil permet d’exporter l’ensemble des données depuis le système d’information. Il est nécessaire de sélectionner les données éligibles à la circulation en aval de l’export ;
+* Un outil permet d’exporter l’ensemble des données ou de sélectionner un sous ensemble des données à exporter depuis le système d’information ;
+* Le système d’information ne prévoit pas d’outil d’exportation des données. Dans ce cas, il est nécessaire de réaliser une opération technique pour exporter ces données. Cette opération est directement liée aux spécificités du système d’information utilisé.
 
-Quel que soit le mode d’export des données, il est recommandé d’automatiser l’opération réalisée afin de faciliter la mise à jour des données publiées. Cette automatisation instaure un processus sur le long terme et fait gagner du temps à l’organisation.
+Quel que soit le mode d’export, il est recommandé d’automatiser l’opération afin de faciliter la mise à jour des données publiées. Cette automatisation instaure un processus sur le long terme et fait gagner du temps à l’organisation.
 
 ### La structure du jeu de données <a href="#la-structure-du-jeu-de-donnees" id="la-structure-du-jeu-de-donnees"></a>
 
@@ -29,7 +29,7 @@ Deux approches sont envisageables :
 
 Si les données que vous souhaitez faire circuler ne correspondent à aucun schéma de données existant, il est nécessaire de réfléchir en amont à la meilleure structure pour vos données.
 
-Tant que les données de votre administration sont dans un environnement logiciel, leur usage reste adapté à des problématiques métiers spécifiques. L’ouverture de ces données en dehors de leur environnement logiciel les émancipent de ce contexte métier. La structure du jeu de données doit alors être pensée en fonction des attentes des réutilisateurs et non plus en fonction des besoins propres à l’organisation.
+Tant que les données de votre administration sont dans un environnement logiciel, leur usage reste adapté à des problématiques métiers spécifiques. L’ouverture de ces données en dehors de leur environnement impose alors de structurer le jeu de données en fonction des attentes des réutilisateurs et non plus en fonction des besoins propres à l’organisation.
 
 Les bonnes pratiques à suivre sont les suivantes :
 
@@ -46,7 +46,7 @@ Ces questions doivent être posées en amont de l’automatisation des exports. 
 
 ### Le choix du format du jeu de données <a href="#le-choix-du-format-du-jeu-de-donnees" id="le-choix-du-format-du-jeu-de-donnees"></a>
 
-Afin que le maximum d’utilisateurs, internes ou externes à votre organisation, puisse s’approprier les données, il est conseillé de les faire circuler dans un format :
+Afin qu'un maximum d’utilisateurs puisse s’approprier les données, il est conseillé de les faire circuler dans un format :
 
 * **Ouvert** : un format ouvert n’impose pas de spécifications techniques qui entraveraient l’exploitation des données (par exemple l’utilisation d’un logiciel payant) ;
 * **Aisément réutilisable** : un format aisément réutilisable sous-entend que toute personne ou machine peut réutiliser facilement le jeu de données ;
@@ -82,7 +82,7 @@ Le titre de votre jeu de données doit pouvoir renseigner n’importe quel réut
 
 L’encodage d’un fichier est la norme utilisée pour coder chaque caractère par une suite de 0 et de 1 compréhensible par une machine. Lorsque l’encodage est mal choisi, le réutilisateur des données est souvent contraint de convertir le fichier, notamment afin de faire apparaître les accents et caractères spéciaux.
 
-Il est conseillé d’utiliser l’encodage UTF-8. Cet encodage permet d’encoder l’ensemble des caractères du répertoire universel de caractères codés (notamment les caractères contenants des accents ou des caractères spéciaux).
+Il est conseillé d’utiliser l’encodage UTF-8. Il permet d’encoder l’ensemble des caractères du répertoire universel de caractères codés (notamment les caractères contenants des accents ou des caractères spéciaux).
 
 #### L’entête des colonnes (pour le format tabulaire) <a href="#l-entete-des-colonnes-pour-le-format-tabulaire" id="l-entete-des-colonnes-pour-le-format-tabulaire"></a>
 
@@ -110,28 +110,28 @@ Lexique : Schéma de données
 
 Un schéma de données est un document qui permet de décrire de manière précise et univoque les différents champs et valeurs possibles qui composent un fichier.
 
-Il permet notamment de valider qu’un fichier se conforme à un schéma, de générer de la documentation automatiquement, de générer des jeux de données d’exemple ou de proposer des formulaires de saisie standardisés. Ces schémas facilitent la montée en qualité et le croisement des données proposées en open data, surtout lorsque plusieurs producteurs de données sont amenés à produire un même jeu de données.
+Il permet notamment de valider qu’un fichier est conforme à une structure communément partagée, de générer de la documentation automatiquement, de générer des jeux de données d’exemple ou de proposer des formulaires de saisie standardisés. Ces schémas facilitent la montée en qualité et le croisement des données proposées en open data, surtout lorsque plusieurs producteurs de données sont amenés à produire un même jeu de données.
 
 ➡️ Consultez [notre guide à destination des producteurs de schémas](https://guides.etalab.gouv.fr/producteurs-schemas/)
 
 Les schémas existants peuvent avoir été définis par voie :
 
-* **Réglementaire** : un modèle de données a été défini de manière réglementaire, par décret ou arrêté. Un schéma est un moyen de faciliter l’adoption de ces modèles par les producteurs de données.Par exemple, le schéma de données relatif à la publication des données essentielles dans la commande publique est fixé par [arrêté depuis le 14 avril 2017](https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000034492587\&categorieLien=id).
-* **D’usage** : la réutilisation des données décrites par le schéma bénéficie à un grand nombre de réutilisateurs ou de nombreux producteurs sont amenés à utiliser ce schéma.
+* **Réglementaire** : un modèle de données a été défini de manière réglementaire, par décret ou arrêté. Un schéma est un moyen de faciliter l’adoption de ces modèles par les producteurs de données. Par exemple, le schéma de données relatif à la publication des données essentielles dans la commande publique est fixé par [arrêté depuis le 14 avril 2017](https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000034492587\&categorieLien=id).
+* **D’usage** : la réutilisation des données décrites par le schéma bénéficie à un grand nombre de réutilisateurs et aux nombreux producteurs utilisant ce schéma.
 
 **Comment identifier un schéma de données déjà existant ?**
 
-Le site [schema.data.gouv.fr](http://schema.data.gouv.fr/) référence une liste de schémas de données existants. Il offre également la possibilité à tout utilisateur de soumettre de nouveaux schémas de données. Lorsque les données que vous souhaitez faire circuler correspondent à un schéma existant, nous vous conseillons de l’appliquer au plus près.
+Le site [schema.data.gouv.fr](http://schema.data.gouv.fr/) référence une liste de schémas de données existants. Il offre aussi la possibilité à tout utilisateur de soumettre de nouveaux schémas de données. Lorsque les données que vous souhaitez faire circuler correspondent à un schéma existant, nous vous conseillons de l’appliquer au plus près.
 
 **Comment produire des données conforme à un schéma de données ?**
 
-Si les données ne sont pas extraites d’un système d’information mais saisies manuellement, [l’outil publier.etalab.studio](https://publier.etalab.studio/) peut assister le processus de production. À partir d’un schéma de données sélectionné, il est possible de saisir les valeurs de chaque information et ainsi produire un fichier exhaustif et conforme.
+Si les données ne sont pas extraites d’un système d’information mais saisies manuellement, [l’outil publier.etalab.studio](https://publier.etalab.studio/) permet, à partir d’un schéma de données sélectionné, de saisir les valeurs de chaque information et ainsi de produire un fichier exhaustif et conforme.
 
-Publier des données selon un schéma : mode d'emploi
+**Publier des données selon un schéma : mode d'emploi**
 
 Cet outil vous permet de créer un fichier CSV en vous assurant qu'il est conforme à un schéma, c'est-à-dire que ses données sont complètes, valides et structurées.
 
-1. Sélectionnez le schéma qui vous intéresse dans la liste déroulante, les schémas disponibles ici étant ceux référencés sur schema.data.gouv.fr.
+1. Sélectionnez le schéma qui vous intéresse dans la liste déroulante. (Les schémas disponibles sont ceux référencés sur [schema.data.gouv.fr](https://schema.data.gouv.fr/)).
 2. Remplissez le formulaire à l'aide des descriptions des différents champs et des valeurs d'exemples. Les champs indiqués par un astérisque rouge doivent obligatoirement être renseignés au moment de la saisie.
 3. L'outil vous prévient d'éventuelles erreurs de validation, le cas échéant vous pouvez les corriger.
 4. Une fois votre formulaire valide, les valeurs apparaissent sous la forme d'une ligne dans un tableau récapitulatif.
@@ -141,7 +141,7 @@ Cet outil vous permet de créer un fichier CSV en vous assurant qu'il est confor
 
 Il est possible de valider la conformité d’un fichier à un schéma de données existant grâce à différents outils.
 
-La solution [Validata](https://validata.fr/) a été développée spécifiquement dans ce but. Vous pouvez y choisir le schéma, parmi la liste déroulante ou via une URL, selon lequel vous souhaitez valider un fichier tabulaire. Vous pouvez ensuite faire valider ce fichier, soit en l'important au format csv, soit en renseignant son URL.
+Avec la solution [Validata](https://validata.fr/), vous pouvez valider la conformité de votre fichier à un schéma parmi la liste déroulante ou via une URL. Vous pouvez ensuite faire valider ce fichier, soit en l'important au format csv, soit en renseignant également son URL.
 
 ![Capture d'écran du menu de validata](https://guides.etalab.gouv.fr/assets/img/validata.f6a9dd72.png)
 
@@ -149,7 +149,7 @@ Tout d'abord, il est possible d'indiquer que votre fichier correspond à un sch�
 
 ![Capture d'écran de la sélection d'un schéma depuis l'interface d'administration de data.gouv.fr](https://guides.etalab.gouv.fr/assets/img/selection-schema.d958a2c6.png)
 
-Le fait d'indiquer que votre ressource est censée respecter un schéma permet de bénéficier de vérifications de la qualité des données, d'indiquer aux réutilisateurs que vos données respectent un référentiel, ainsi que de contribuer aux fichiers aggrégés (par exemple [pour les données IRVE](https://www.data.gouv.fr/fr/datasets/fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques/)).
+Le fait d'indiquer que votre ressource est censée respecter un schéma permet de bénéficier de vérifications de la qualité des données, d'indiquer aux réutilisateurs que vos données respectent un référentiel, ainsi que de contribuer aux fichiers agrégés (par exemple [pour les données IRVE](https://www.data.gouv.fr/fr/datasets/fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques/)).
 
 ![Capture d'écran de data.gouv.fr des informations disponibles sur la page d'un jeu de données lorsqu'un schéma est spécifié sur une ressource](https://guides.etalab.gouv.fr/assets/img/modal-schema.7ecaa269.png)
 

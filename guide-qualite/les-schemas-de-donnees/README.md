@@ -23,7 +23,7 @@ La création de données en conformité avec un schéma de données existant app
 * La documentation d’un schéma de données existant est déjà rédigée et accessible.
 * La présence d'un schéma de données existant peut faciliter l'ouverture des données, les producteurs ayant directement une procédure claire à suivre.
 
-Il est également possible de vérifier la conformité d'un fichier vis-à-vis d'un schéma de données, ce qui permet de valider un premier niveau de qualité de votre jeu de données. Par ailleurs, il est aussi possible de générer des jeux de données d’exemple ou de proposer des formulaires de saisie standardisés.
+Il est également possible de vérifier la conformité d'un fichier vis-à-vis d'un schéma de données, ce qui permet de valider un premier niveau de qualité. Par ailleurs, il est aussi possible de générer des jeux de données d’exemple ou de proposer des formulaires de saisie standardisés.
 
 schema.data.gouv.fr
 

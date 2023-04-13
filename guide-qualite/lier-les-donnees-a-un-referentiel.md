@@ -83,8 +83,6 @@ Le [Cadre Commun d'Architecture des référentiels de données de l'État](https
 * Les données sont un bien, un actif de l’État, elles doivent être gérées et valorisées en conséquence ;
 * Les données doivent être standardisées, définies sur la base d’un vocabulaire commun, contextualisées, et combinables les unes aux autres ;
 * Les données doivent être facilement réutilisables, partageables et accessibles à travers les frontières des administrations ;
-* Les données publiques doivent être mises à disposition librement et ouvertement sur internet ;
-* La sécurité et l'archivage des données doit être assuré.
 
 Pour favoriser au mieux le partage et l'interopérabilité des données, les acteurs sont encouragés à mettre en place leurs propres référentiels internes ou à les partager s'ils existent déjà.
 
@@ -102,7 +100,7 @@ Il est fréquent que les producteurs de données souhaitent ajouter des adresses
 
 De la même manière, il existe des référentiels pour décrire une adresse de manière unique. Le référentiel officiel d'adresse s'intitule la [base d'adresse nationale (ou BAN précédemment listé)](https://www.data.gouv.fr/fr/datasets/base-adresse-nationale/). Si vous partez de zéro pour constituer votre jeu de données, il est pertinent de partir de cette base de données pour décrire vos adresses.
 
-Cependant, il arrive souvent qu'un producteur travaille sur un jeu de données qui contient déjà des adresses saisies. Il peut s'avérer fastidieux de corriger manuellement l'ensemble des adresses erronées. Heureusement, il existe un certain nombre d'outils pour obtenir une base d'adresse normalisée !
+Cependant, il arrive souvent qu'un producteur travaille sur un jeu de données qui contient déjà des adresses saisies. Il peut s'avérer fastidieux de corriger manuellement l'ensemble des adresses erronées. Heureusement, il existe différents outils pour obtenir une base d'adresse normalisée !
 
 #### Le géocodage <a href="#le-geocodage" id="le-geocodage"></a>
 
@@ -117,6 +115,6 @@ En utilisant l'outil avec un jeu de données contenant des adresses déjà saisi
 
 **Géocodage massif**
 
-Le site [adresse.data.gouv.fr](https://adresse.data.gouv.fr/) est limité à des utilisations ponctuelles et des volumétries de données considérées faibles (moins d'un million de lignes). Si vous souhaitez géocoder un très gros jeu de données (plusieurs millions de lignes), il est recommandé d'installer votre propre environnement de géocodage, en utilisant par exemple le géocodeur [Addok](https://addok.readthedocs.io/fr/latest/). Vous pouvez consulter des ressources sur [GitHub](https://github.com/etalab/addok-docker) pour vous aider dans l'installation de votre environnement.
+Le site [adresse.data.gouv.fr](https://adresse.data.gouv.fr/) est limité à des utilisations ponctuelles et des volumétries de données considérées faibles (moins d'un million de lignes). Si vous souhaitez géocoder davantage de données (plusieurs millions de lignes), il est recommandé d'installer votre propre environnement de géocodage, en utilisant par exemple le géocodeur [Addok](https://addok.readthedocs.io/fr/latest/). Vous pouvez consulter des ressources sur [GitHub](https://github.com/etalab/addok-docker) pour vous aider dans l'installation de votre environnement.
 
-Quelle que soit la méthode utilisée, le processus de géocodage retournera une liste d'adresses standardisées avec leurs coordonnées géographiques associées. De plus, vous aurez également accès à une information `geo_score` correspondant au score de confiance que le géocodeur accorde à l'adresse retournée. Cet indicateur peut être utile à garder dans votre jeu de données final, puisqu'il donnera une indication aux utilisateurs sur la performance du géocodage pour chaque adresse.
+Quelle que soit la méthode utilisée, le processus de géocodage retournera une liste d'adresses standardisées avec leurs coordonnées géographiques associées. De plus, vous aurez aussi accès à une information `geo_score` correspondant au score de confiance que le géocodeur accorde à l'adresse retournée. Cet indicateur peut être utile à garder dans votre jeu de données final, il donnera une indication aux utilisateurs sur la performance du géocodage de chaque adresse.
