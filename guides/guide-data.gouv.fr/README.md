@@ -17,6 +17,18 @@ Tout le monde a la possibilité de publier sur data.gouv.fr !
 
 ## Que vais-je trouver dans ce guide ?&#x20;
 
+Ce guide à pour objectif de vous accompagner dans l'utilisation de la plateforme data.gouv.fr.&#x20;
+
+
+
+
+
+{% content-ref url="compte-utilisateur.md" %}
+[compte-utilisateur.md](compte-utilisateur.md)
+{% endcontent-ref %}
+
+
+
 
 
 

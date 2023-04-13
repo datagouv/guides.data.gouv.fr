@@ -1,3 +1,7 @@
+---
+description: Comment créer un compte et comment rejoindre une organisation ?
+---
+
 # Utilisateur
 
 {% hint style="info" %}
@@ -26,20 +30,6 @@ Une fois le formulaire d’inscription validé, rendez-vous dans la boîte de r�
 1. Ouvrez l’e-mail qui vous a été envoyé par `no-reply@data.gouv.fr` et cliquez sur le bouton **Confier maintenant** qu’il contient.
 2. L’e-mail vous redirige alors vers la [page d’accueil du site data.gouv.fr](https://www.data.gouv.fr/fr/) où vous avez désormais accès à votre compte utilisateur.
 
-## Ceci est une démo&#x20;
-
-<table data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td></tr></tbody></table>
-
-{% tabs %}
-{% tab title="First Tab" %}
-
-{% endtab %}
-
-{% tab title="Second Tab" %}
-
-{% endtab %}
-{% endtabs %}
-
 ## Rejoindre ou créer une organisation <a href="#creer-un-compte-utilisateur" id="creer-un-compte-utilisateur"></a>
 
 Nous vous conseillons de rejoindre une organisation existante si vous souhaitez :
@@ -49,7 +39,7 @@ Nous vous conseillons de rejoindre une organisation existante si vous souhaitez 
 
 ## Demander à rejoindre une organisation <a href="#demander-a-rejoindre-une-organisation" id="demander-a-rejoindre-une-organisation"></a>
 
-Si vous pensez que vous devriez figurer dans la liste des membres d’une organisation, faites une demande pour la rejoindre. Libre ensuite à l’administrateur de l’organisation en question d’accepter votre demande.
+Si vous pensez que vous devriez figurer dans la liste des membres d’une organisation, faites une demande pour la rejoindre. L’administrateur de l’organisation devra ensuite accepter votre demande.
 
 <details>
 

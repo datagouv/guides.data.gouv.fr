@@ -7,7 +7,8 @@ description: Cette page vise à vous assister dans la gestion de votre organisat
 {% hint style="info" %}
 **Qu'est-ce qu'une organisation sur data.gouv.fr ?**
 
-Une organisation est une entité au travers de laquelle plusieurs utilisateurs peuvent collaborer. Les jeux de données publiés au nom de l’organisation peuvent être édités par les membres de l’organisation. Elle peut contenir plusieurs utilisateurs et un même utilisateur peut appartenir à plusieurs organisations.
+Une organisation est une entité au travers de laquelle plusieurs utilisateurs peuvent collaborer. Les jeux de données publiés au nom de l’organisation peuvent être édités par les membres de l’organisation. \
+Elle peut contenir plusieurs utilisateurs et un même utilisateur peut appartenir à plusieurs organisations.
 {% endhint %}
 
 ## Créer une organisation <a href="#creer-un-compte-utilisateur" id="creer-un-compte-utilisateur"></a>
@@ -77,7 +78,7 @@ Si l'utilisateur à déjà réalisé une demande vous pouvez valider celle ci :&
 
 ### Retirer un membre d’une organisation <a href="#retirer-un-utilisateur-dune-organisation" id="retirer-un-utilisateur-dune-organisation"></a>
 
-{% hint style="info" %}
+{% hint style="warning" %}
 Retirer un utilisateur d’une organisation ne supprime pas le compte de l’utilisateur en question.
 {% endhint %}
 
@@ -104,7 +105,7 @@ Pour demander la certification d’une organisation dont vous êtes administrate
 
 ## Supprimer une organisation <a href="#supprimer-une-organisation" id="supprimer-une-organisation"></a>
 
-{% hint style="info" %}
+{% hint style="warning" %}
 Quand une organisation est supprimée, les contenus publiés en son nom _restent en ligne_, aux mêmes URL, mais sous forme anonyme, c’est-à-dire sans être rattachés à un producteur.\
 \
 Si vous souhaitez _aussi_ supprimer les données publiés par l’organisation que vous êtes sur le point de clôturer, commencez par supprimer les jeux de données _avant_ de supprimer l’organisation.

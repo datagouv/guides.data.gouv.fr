@@ -7,8 +7,8 @@ Les données mises à disposition sur data.gouv.fr peuvent être réutilisées [
 
 Référencer une réutilisation sur la page d’un jeu de données permet notamment :
 
-* D’apporter de l’information au public ;
-* Donner de la visibilité à la réutilisation et démontrer son savoir-faire ;
+* **D’apporter de l’information au public** ;
+* **Donner de la visibilité à la réutilisation** et démontrer son savoir-faire ;
 * **Engager un dialogue avec le producteur du jeu de données** qui sera plus enclin à répondre aux demandes quand il peut constater de l’usage qui est fait des données.
 * **Montrer comment le jeu de données peut être réutilisé** et inspirer d’autres réutilisations potentielles ;
 * **Faire avancer l’open data** en participant à affirmer l’importance de l’ouverture des données publiques.
@@ -53,15 +53,11 @@ Lorsque c’est pertinent, les captures d’écrans permettent de mieux rendre c
 
 Une fois votre réutilisation publiée, nous vous conseillons de la partager sur les réseaux sociaux. N’hésitez pas à mentionner [data.gouv.fr sur twitter.](https://twitter.com/datagouvfr) \
 \
-Toute réutilisation peut être intégrée sur d’autres sites web. Pour cela, il suffit de générer le code HTML du jeu de données depuis sa page associée, grâce à l’icône.
-
-{% hint style="info" %}
 Nous mettons tous les mois en avant nos réutilisations préférées dans [un article](https://www.data.gouv.fr/fr/posts/) ainsi que sur les [réseaux sociaux](https://twitter.com/datagouvfr), n’hésitez pas à y faire un tour pour voir si vous y figurez !
-{% endhint %}
 
 ### Gérer sa réutilisation <a href="#repondre-aux-questions-posees-a-propos-de-votre-reutilisation" id="repondre-aux-questions-posees-a-propos-de-votre-reutilisation"></a>
 
-Une fois votre réulisation publiée vous pouvez la gérer depuis l'espace d'administration. \
+Une fois votre réutilisation publiée vous pouvez la gérer depuis l'espace d'administration. \
 Vous pouvez notamment suivre les principales métriques, les discussions ainsi que modifier, transférer ou supprimer votre réutilisation.&#x20;
 
 {% embed url="https://www.loom.com/share/e48cf630290c4a9ab1e9bb4246b6e1de" %}

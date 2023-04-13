@@ -27,8 +27,6 @@
   * [Organisation](guides/guide-data.gouv.fr/gerer-son-organisation.md)
   * [Jeux de données](utiliser-data.gouv.fr/publier-un-jeu-de-donnees.md)
   * [Réutilisations](utiliser-data.gouv.fr/publier-une-reutilisation.md)
-  * [Faire une recherche](guides/guide-data.gouv.fr/faire-une-recherche.md)
-  * [Intégrer un jeu de données sur un site web](guides/guide-data.gouv.fr/integrer-un-jeu-de-donnees-sur-un-site-web.md)
   * [Moissonage](utiliser-data.gouv.fr/moissonage/README.md)
     * [Introduction](utiliser-data.gouv.fr/moissonage/introduction.md)
     * [Mise en place](utiliser-data.gouv.fr/moissonage/untitled.md)
@@ -46,6 +44,7 @@
   * [API adresse](reutiliser-les-donnees-publiques/api-a-composante-geographique/api-adresse.md)
   * [API découpage administratif](reutiliser-les-donnees-publiques/api-a-composante-geographique/api-decoupage-administratif.md)
 * [Tuiles vectorielles](reutiliser-les-donnees-publiques/tuiles-vectorielles.md)
+* [Faire une recherche](reutiliser-les-donnees-publiques/faire-une-recherche.md)
 
 ## Group 2
 
