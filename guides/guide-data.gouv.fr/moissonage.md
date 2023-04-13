@@ -1,4 +1,73 @@
-# Mise en place
+# Moissonage
+
+## &#x20;<a href="#limites" id="limites"></a>
+
+{% hint style="info" %}
+**Qu'est-ce que le moissonnage sur data.gouv.fr ?** \
+Le moissonnage est une technique de récupération automatisée de metadonnées en “pull” : le serveur data.gouv.fr va chercher les metadonnées sur les sites distants.
+{% endhint %}
+
+#### Moissonnage vs. API <a href="#moissonnage-vs-api" id="moissonnage-vs-api"></a>
+
+La publication par l’API vous donne un contrôle total sur le contenu de chaque champ, le moment de la soumission. tandis que le moissonnage, s’il ne nécessite pas de développement spécifique sur votre plateforme, est un fonctionnement fortement contraint.
+
+|               | MOISSONNAGE                                 | API                       |
+| ------------- | ------------------------------------------- | ------------------------- |
+| Pré-requis    | Métadonnées dans l’un des formats supportés | Capacité de développement |
+| Déclenchement | Contrôlé par data.gouv.fr                   | Déclenché au besoin       |
+| Champs        | Modèle imposé par protocole                 | Au choix du développeur   |
+
+#### Moissonnage vs. geo.data.gouv.fr <a href="#moissonnage-vs-geodatagouvfr" id="moissonnage-vs-geodatagouvfr"></a>
+
+Attention: [geo.data.gouv.fr](https://geo.data.gouv.fr/) n’est plus activement maintenu.\
+Plus d’informations à propos [de l’extinction de geo.data.gouv.fr sont disponibles ici](https://www.data.gouv.fr/fr/posts/extinction-de-geo-data-gouv-fr/).
+
+En plus du moissonnage et de l’utilisation de l’API, il existait un autre moyen automatisé de récupération des métadonnées sur data.gouv.fr : [geo.data.gouv.fr](https://geo.data.gouv.fr/), anciennement inspire.data.gouv.fr. Ce site pivot permettait de récupérer les métadonnées de jeux de données exposées selon [la directive européenne Inspire](https://inspire.ec.europa.eu/) (obligation légale de publication des metadonnées geographiques selon le modèle de données **ISO 19115**, au format de données **ISO 19139**).
+
+**Du fait de l’extinction à venir de la plateforme geo.data.gouv.fr, vous pouvez au choix**:
+
+* attendre que le Geocatalogue publie directement des flux DCAT depuis vos flux Inspire
+* si vous utilisez Geonetwork, utilisez [son endpoint DCAT alternatif](https://doc.data.gouv.fr/moissonnage/dcat/#geonetwork)
+* vous pouvez également utiliser [le moissonnage DCAT](https://doc.data.gouv.fr/moissonnage/dcat) avec un grand nombre de logiciels compatibles ou avec un flux à façon
+* enfin, nous supportons également le moissonnage des plateformes [CKAN](https://doc.data.gouv.fr/moissonnage/ckan) et [OpenDataSoft](https://doc.data.gouv.fr/moissonnage/ods)
+
+## Limites du moissonnage <a href="#limites" id="limites"></a>
+
+{% hint style="warning" %}
+Le moissonnage n’a aucune connaissance de l’usage que vous faites du modèle de données. Il s’appuie uniquement sur les spécifications de chaque protocole ou plateforme pour récupérer les informations. Il y a donc certaines limitations techniques liées aux spécificités de chaque plateforme. Certaines limitations sont communes et détaillées ci-dessous.
+{% endhint %}
+
+### Correspondances des métadonnées <a href="#correspondances-des-metadonnees" id="correspondances-des-metadonnees"></a>
+
+Certains champs du modèle de data.gouv.fr possèdent un équivalent qui peut être sous spécifié dans certains protocoles ou sur certaines plateformes, ou bien alors être spécifié différemment, sur plusieurs champs. Dans ce cas, la valeur du champ est récupérée en “best effort’, c’est-à-dire qu’elle va être devinée en fonction des éléments à disposition. Se référer à la page de chaque moissonneur pour savoir lesquels sont dans ce cas pour chaque implémentation.
+
+### Suppression à la source <a href="#suppression-a-la-source" id="suppression-a-la-source"></a>
+
+Pour le moment, les moissonneurs ne gèrent pas la suppression à la source et ce pour éviter les suppressions en masse par erreur, ce qui entrainerait une perte des statistiques, des discussions et des ressources communautaires de chaque jeu de données.&#x20;
+
+Dans le cas d’une suppression ponctuelle, nous vous invitons à supprimer manuellement le jeu de données moissonné qui a perdu sa source.&#x20;
+
+Dans le cas d’une suppression massive de jeu de données, veuillez nous contacter afin de trouver une solution satisfaisante.
+
+### Changement d’identifiant <a href="#changement-didentifiant" id="changement-didentifiant"></a>
+
+Les moissonneurs utilisent les identifiants de jeu de données distants pour retrouver leurs données entre deux moissonnages. Il est donc important de veiller à ce qu’un jeu de données conserve son identifiant au fil du temps et des modification successives. Dans le cas contraire, cela donnera lieu à la création d’un doublon.
+
+Il faut donc aussi veiller à ne pas supprimer puis recréer un jeu de données ou une ressource pour faire sa mise à jour.
+
+
+
+
+
+## Les différents moissonneurs
+
+Aujourd’hui, data.gouv.fr peut moissonner les plateformes ou formats suivants :
+
+* DCAT
+* CKAN
+* DKAN, une variante du moissonneur CKAN
+* OpenDataSoft ODS
+* MAAF : un moissonneur spécifique au Ministère de l’Agriculture et de l’Alimentation
 
 {% tabs %}
 {% tab title="DCAT" %}
@@ -241,3 +310,87 @@ Il existe 3 types de ressources identifiés chez Opendatasoft :
 Le moissonneur Opendatasoft est publié sur github dans le plugin [`udata-ods`](https://github.com/opendatateam/udata-ods). Vous pouvez donc soumettre des améliorations ou signaler des anomalies.
 {% endtab %}
 {% endtabs %}
+
+### &#x20;<a href="#principe" id="principe"></a>
+
+### &#x20;<a href="#principe" id="principe"></a>
+
+
+
+#### &#x20;<a href="#moissonnage-vs-api" id="moissonnage-vs-api"></a>
+
+
+
+#### Métadonnées communes <a href="#metadonnees-communes" id="metadonnees-communes"></a>
+
+Les jeux de données moissonnés possèdent les attributs suivants dans leur champ `extras` pour la traçabilité :
+
+| ATTRIBUT              | CONTENU                               |
+| --------------------- | ------------------------------------- |
+| `harvest:domain`      | Nom de domaine moissoné               |
+| `harvest:source_id`   | Identifiant technique du moissonneur  |
+| `harvest:remote_id`   | Identifiant distant du jeu de données |
+| `harvest:last_update` | Date du dernier moissonnage           |
+
+### Options <a href="#options" id="options"></a>
+
+Chaque type de moissonneur possède des options spécifiques, ainsi que des options communes. Aujourd’hui, la seule option commune est la possibilité de filtrage.
+
+#### &#x20;<a href="#filtrage" id="filtrage"></a>
+
+## Filtrage <a href="#filtrage" id="filtrage"></a>
+
+La filtrage donne la possibilité d’inclure ou d’exclure un sous-ensemble de jeux de données du moissonnage.
+
+Lorsqu’un ou plusieurs filtres sont déclarés, seuls les jeux de données remplissant **toutes** les conditions (**ET**) seront traités.
+
+**Portail multiproducteur : restriction à une organisation**
+
+![Exemple de restriction à une seule organisation](https://doc.data.gouv.fr/img/moissonnage/harvest-filter-include.png)
+
+**Exclusion de mots-clés**
+
+![Exemple d'exclusion de mots-clés](https://doc.data.gouv.fr/img/moissonnage/harvest-filter-exclude.png)
+
+**Combinaisons multiples**
+
+![Exemple de combinaison de filtres](https://doc.data.gouv.fr/img/moissonnage/harvest-filter-combined.png)
+
+
+
+## Rapport de moissonnage <a href="#rapport-de-moissonnage" id="rapport-de-moissonnage"></a>
+
+Chaque moissonnage donne lieu à un rapport accessible depuis l’interface d’administration de data.gouv.fr. Il vous permet de comprendre ce qu’il se passe et, le cas échéant, de corriger les erreurs existantes et de vérifier le filtrage.
+
+#### Vue synthétique <a href="#vue-synthetique" id="vue-synthetique"></a>
+
+![Vue synthétique du rapport de moissonnage](https://doc.data.gouv.fr/img/moissonnage/admin-harvest-summary.png)
+
+#### Détails d’un jeu de données <a href="#details-dun-jeu-de-donnees" id="details-dun-jeu-de-donnees"></a>
+
+![Détails d'un jeu de données du rapport de moissonnage](https://doc.data.gouv.fr/img/moissonnage/admin-harvest-dataset-modal.png)
+
+#### En cas d’erreur <a href="#en-cas-derreur" id="en-cas-derreur"></a>
+
+![Erreur sur un jeu de données du rapport de moissonnage](https://doc.data.gouv.fr/img/moissonnage/admin-harvest-dataset-error-modal.png)
+
+* **1** correspond à l’erreur **technique** formulée de façon compréhensible pour un humain
+* **2** contient la “**stacktrace**” de l’erreur qui servira à ceux qui développent des moissonneurs ou contribuent aux existants.
+
+
+
+## Détection des licences par le moissonnage
+
+Lors du moissonnage, la liste de référence de data.gouv.fr, [disponible ici au format json](https://www.data.gouv.fr/api/1/datasets/licenses/), est utilisée pour détecter la licence du jeu de données distant.
+
+Cette détection utilise les attributs suivants :
+
+* `id`
+* `title`
+* `alternate_titles`
+* `url`
+* `alternate_urls`
+
+Le meilleur moyen d’assurer une compatibilité parfaite est d’utiliser l’`id` sur le flux distant lorsque c’est possible.
+
+\
