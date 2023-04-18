@@ -6,11 +6,11 @@ Les jeux de données qui ont vocation à circuler seront réutilisés par des ac
 
 Deux approches sont possibles :&#x20;
 
-* La structure de vos données ne correspond pas à aucun schéma de données existant. Un travail de modélisation est nécessaire en amont de la création du jeu de données.
-* La structure de vos données correspond à un schéma de données existant ;
+* **Cas 1 : La structure de vos données ne correspond pas à aucun schéma de données existant**. Un travail de modélisation est nécessaire en amont de la création du jeu de données.
+* **Cas 2 : La structure de vos données correspond à un schéma de données existant** ;
 
 {% tabs %}
-{% tab title="Aucun schéma de données existant" %}
+{% tab title="Cas 1" %}
 ## Cas 1 - La structure de vos données ne correspond à aucun schéma de données existant <a href="#cas-2-la-structure-de-vos-donnees-ne-correspond-a-aucun-schema-de-donnees-existant" id="cas-2-la-structure-de-vos-donnees-ne-correspond-a-aucun-schema-de-donnees-existant"></a>
 
 Il est nécessaire de réfléchir en amont à la meilleure structure pour vos données.
@@ -23,11 +23,11 @@ L’ouverture de ces données en dehors de leur environnement impose alors de **
 
 #### Les champs du jeu de données <a href="#le-titre-du-jeu-de-donnees" id="le-titre-du-jeu-de-donnees"></a>
 
-Quelques bonnes pratiques à mettre en place :&#x20;
+Quelques bonnes pratiques sont à mettre en place :&#x20;
 
 * [ ] **Occulter l’ensemble des colonnes dont les champs contiennent des données couvertes par un secret légal** (cf. [guide juridique](https://guides.etalab.gouv.fr/juridique)) ;
 * [ ] **Occulter l’ensemble des colonnes dont les champs contiennent des données à caractère personnel** dont la publication n’est pas nécessaire à l’information du public (cf. [guide juridique](https://guides.etalab.gouv.fr/juridique)) ;
-* [ ] **Privilégier la présence de variables pivots**. Ces variables proposent des identifiants communs qui permettent de lier plusieurs jeux de données entre eux (ex. le numéro d’identification SIRET de la base Sirene) (cf. page [Lier les données à un référentiel](https://guides.etalab.gouv.fr/qualite/lier-les-donnees-a-un-referentiel)
+* [ ] **Privilégier la présence de variables pivots**. Ces variables proposent des identifiants communs qui permettent de lier plusieurs jeux de données entre eux (ex. le numéro d’identification SIRET de la base Sirene) (cf. page [Lier les données à un référentiel](https://guides.etalab.gouv.fr/qualite/lier-les-donnees-a-un-referentiel)).
 
 #### Le titre du jeu de données <a href="#le-titre-du-jeu-de-donnees" id="le-titre-du-jeu-de-donnees"></a>
 
@@ -52,8 +52,8 @@ L’encodage d’un fichier est la norme utilisée pour coder chaque caractère 
 Dans un fichier tabulaire, la première ligne du fichier peut être utilisée pour nommer chaque colonne et donner des informations sur les données associées.&#x20;
 {% endhint %}
 
-* Il est conseillé de donner un nom de colonne explicite.&#x20;
-* Le nom des colonnes doit être sans majuscule, abréviation, accents, ni espaces (préférez le caractère `_`) afin de faciliter la manipulation des fichiers.
+* Il est conseillé de donner **un nom de colonne explicite**.&#x20;
+* Le nom des colonnes doit être **sans majuscule, abréviation, accents, ni espaces** (préférez le caractère `_`) afin de faciliter la manipulation des fichiers.
 
 #### Le séparateur (pour le format tabulaire) <a href="#le-separateur-pour-le-format-tabulaire" id="le-separateur-pour-le-format-tabulaire"></a>
 
@@ -61,7 +61,7 @@ Dans un fichier tabulaire, la première ligne du fichier peut être utilisée po
 Dans un fichier tabulaire, le séparateur permet de structurer les données sous forme de cellules.&#x20;
 {% endhint %}
 
-* Il est conseillé d’utiliser la virgule comme séparateur.
+* Il est conseillé d’**utiliser la virgule comme séparateur**.
 
 {% hint style="warning" %}
 **Séparateurs décimaux**
@@ -73,9 +73,9 @@ Dans un fichier CSV, la virgule n’est pas considérée comme un séparateur d�
 
 Il est possible que certaines occurrences d’un champ d'un fichier ne soit pas attribuées.&#x20;
 
-Il convient de laisser ces occurrences vides plutôt que d’attribuer la valeur 0 (ou une autre valeur par défaut). Le zéro correspond à une valeur, qui peut dénaturer le sens de votre fichier.
+Il convient de **laisser ces occurrences vides plutôt que d’attribuer la valeur 0** (ou une autre valeur par défaut). Le zéro correspond à une valeur, qui peut dénaturer le sens de votre fichier.
 
-### Choisir le format du jeu de données <a href="#le-choix-du-format-du-jeu-de-donnees" id="le-choix-du-format-du-jeu-de-donnees"></a>
+### Choisir le bon format de jeu de données <a href="#le-choix-du-format-du-jeu-de-donnees" id="le-choix-du-format-du-jeu-de-donnees"></a>
 
 Afin qu'un maximum d’utilisateurs puisse s’approprier les données, il est conseillé de les faire circuler dans un format :
 
@@ -92,14 +92,14 @@ Les formats ouverts et communément acceptés sont les suivants :&#x20;
 | Données géographiques          | GeoJSON, Shapefile, MapInfo MIF/MID, MapInfo TAB et GML, pour les vecteurs / ECW, JPEG2000 et GeoTIFF, pour les données pixelisées (raster) | [Ici](https://geo.data.gouv.fr/fr/doc/publish-your-data)                                                                          | Les données géographiques sont organisées sous forme d’ensemble de données hiérarchisées. Les formats proposés sont conçus spécifiquement pour être largement exploitables et être intégrés facilement dans des outils de cartographie. |
 | Données hiérarchiques          | JSON / XML / YAML                                                                                                                           | indisponible                                                                                                                      | Les données hiérarchiques décrivent des relations hiérarchiques entre différentes données. Le format JSON est préconisé lorsque les données sont liées entre elles sous forme d’arbres verticaux.                                       |
 
-## Réfléchir à la granularité du jeu de données
+## Mener une réflexion sur la granularité du jeu de données
 
 Faut-il proposer des données fines ou agrégées ? Faut-il proposer un export quotidien, mensuel, trimestriel ou annuel ? Ces questions doivent être posées en amont de l’automatisation des exports.&#x20;
 
 **Un dialogue avec les réutilisateurs est conseillé afin de comprendre leurs besoins**. Certains utilisateurs peuvent souhaiter manipuler des données granulaires tandis que d’autres préfèrent disposer d’agrégats qui permettent une réutilisation simple et rapide. A minima, il est conseillé de proposer un fichier complet unique qui contient l’ensemble des données historiques.
 {% endtab %}
 
-{% tab title="Schéma de données existant" %}
+{% tab title="Cas 2" %}
 #### Cas 1 - La structure des données correspond à un schéma de données existant <a href="#cas-1-la-structure-des-donnees-correspond-a-un-schema-de-donnees-existant" id="cas-1-la-structure-des-donnees-correspond-a-un-schema-de-donnees-existant"></a>
 
 #### Cas 1 - La structure des données correspond à un schéma de données existant <a href="#cas-1-la-structure-des-donnees-correspond-a-un-schema-de-donnees-existant" id="cas-1-la-structure-des-donnees-correspond-a-un-schema-de-donnees-existant"></a>
