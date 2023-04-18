@@ -16,7 +16,7 @@ Plusieurs modes de mises en ligne sont possible sur data.gouv.fr :&#x20;
 
 {% hint style="info" %}
 En amont de la publication il est important de bien préparer le jeu de données. \
-Voir notre [guide qualité](../guide-qualite/preparer-le-jeu-de-donnees.md).&#x20;
+Voir notre [guide qualité](../guides/guide-qualite/preparer-un-jeu-de-donnees-de-qualite/).&#x20;
 {% endhint %}
 
 {% tabs %}

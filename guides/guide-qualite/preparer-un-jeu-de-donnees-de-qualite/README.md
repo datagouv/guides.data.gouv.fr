@@ -1,16 +1,6 @@
-# Préparer le jeu de données
+# Préparer un jeu de données de qualité
 
-### Extraire le jeu de données du système d’information de l’organisation <a href="#extraire-le-jeu-de-donnees-du-systeme-d-information-de-l-organisation" id="extraire-le-jeu-de-donnees-du-systeme-d-information-de-l-organisation"></a>
 
-Il est possible que les données que vous souhaitez faire circuler ne soient pas structurées sous la forme d’un jeu de données. Dans cette situation, il est nécessaire de réaliser une extraction des données depuis le système d’information où elles sont stockées. L'extraction permet d’obtenir un jeu de données structuré, qui ordonne les données selon différentes caractéristiques.
-
-Lorsque vous cherchez à extraire des données d’un système d’information, plusieurs situations peuvent se présenter :
-
-* Un outil permet d’exporter l’ensemble des données depuis le système d’information. Il est nécessaire de sélectionner les données éligibles à la circulation en aval de l’export ;
-* Un outil permet d’exporter l’ensemble des données ou de sélectionner un sous ensemble des données à exporter depuis le système d’information ;
-* Le système d’information ne prévoit pas d’outil d’exportation des données. Dans ce cas, il est nécessaire de réaliser une opération technique pour exporter ces données. Cette opération est directement liée aux spécificités du système d’information utilisé.
-
-Quel que soit le mode d’export, il est recommandé d’automatiser l’opération afin de faciliter la mise à jour des données publiées. Cette automatisation instaure un processus sur le long terme et fait gagner du temps à l’organisation.
 
 ### La structure du jeu de données <a href="#la-structure-du-jeu-de-donnees" id="la-structure-du-jeu-de-donnees"></a>
 
