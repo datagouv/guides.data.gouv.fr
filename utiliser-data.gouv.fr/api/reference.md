@@ -10,7 +10,7 @@
 
 ## Datasets
 
-{% swagger src="https://www.data.gouv.fr/api/1/swagger.json" path="/activity" method="get" %}
+{% swagger src="https://www.data.gouv.fr/api/1/swagger.json" path="/activity" method="get" expanded="false" %}
 [https://www.data.gouv.fr/api/1/swagger.json](https://www.data.gouv.fr/api/1/swagger.json)
 {% endswagger %}
 

@@ -1,6 +1,8 @@
 # Définition
 
-La qualité des données est un élément essentiel du succès de l'open data : l'ouverture de données n'entraîne pas directement leur réutilisation. Ainsi, il a été constaté que seuls certains jeux de données publiés sur data.gouv.fr étaient régulièrement réutilisés.&#x20;
+{% hint style="info" %}
+La qualité des données est un élément essentiel du succès de l'open data : l'ouverture de données n'entraîne pas directement leur réutilisation. Ainsi, il a été constaté que seuls certains jeux de données publiés sur data.gouv.fr étaient régulièrement réutilisés.
+{% endhint %}
 
 ## Comment définir la qualité d'un jeu de données ?
 
