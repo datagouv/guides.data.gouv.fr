@@ -5,6 +5,7 @@
 ## Guides&#x20;
 
 * [💎 Guide qualité](guides/guide-qualite/README.md)
+  * [Définition](guides/guide-qualite/definition.md)
   * [Préparer le jeu de données](guide-qualite/preparer-le-jeu-de-donnees.md)
   * [Lier les données à un référentiel](guide-qualite/lier-les-donnees-a-un-referentiel.md)
   * [Documenter les données](guide-qualite/documenter-les-donnees.md)

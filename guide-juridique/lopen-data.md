@@ -4,6 +4,8 @@
 
 Il existe de nombreuses définitions de l'open data. L'objectif de ce guide n'est pas d'apporter une définition essentielle et exclusive du concept, mais de proposer une interprétation de l'open data public, qu'Etalab a pour mission de mettre en œuvre.
 
+
+
 **Qu'est-ce que l'open data public ?**
 
 Dans le cadre de ses missions de service public, l’administration produit et reçoit des documents administratifs. Ces documents administratifs peuvent contenir des informations publiques, qui peuvent elles-mêmes être représentées sous forme de données publiques. L'open data public consiste à assurer la large mise à disposition à tous de ces données, en accès libre et gratuit, sous un format numérique facilement réutilisable.
@@ -23,3 +25,9 @@ Au-delà du respect du cadre légal, publier vos données de manière proactive 
 * **Alléger votre charge de travail** : une fois le jeu de données publié, vous n’avez plus besoin de répondre à chaque demande d'accès isolée émanant d'un citoyen ou d'une administration ;
 * **Renforcer votre efficacité et améliorer les services aux usagers** : les données ouvertes par des administrations peuvent être réutilisées par d’autres services ou aboutir à des collaborations entre équipes, ce qui peut améliorer la mise en œuvre des missions de service public ;
 * **Améliorer la qualité de vos données afin d'améliorer votre action et favoriser la création de nouveaux services** : les données que vous publiez seront réutilisées par des acteurs publics ou privés qui pourront les croiser avec d’autres données ou détecter des anomalies voire les corriger. Ces données pourront être utilisées par des tiers afin de créer de nouveaux services numériques.
+
+### Le partage des données
+
+Le partage de données entre acteurs, que ce soit à l’intérieur ou l’extérieur d’une organisation, est devenu un enjeu économique, politique et culturel. La circulation des données démultiplie leur potentiel d’usage et rend possible leur réutilisation pour des finalités qui n’étaient pas envisagées lors de leur production. La qualité de la donnée se traduit donc par sa bonne compréhension et par son potentiel de réutilisation.
+
+En France, le mouvement de l'ouverture des données publiques se fonde sur ces principes depuis 2011. En avril 2023, la plateforme data.gouv.fr comptait plus de 40 000 jeux de données pour près de 4 000 organisations. En interne, les organisations ont également pris conscience de l’intérêt que représente la circulation et l’exploitation croisées des données pour leurs activités.
