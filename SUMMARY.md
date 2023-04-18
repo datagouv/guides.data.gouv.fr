@@ -8,7 +8,7 @@
   * [Définition](guides/guide-qualite/definition.md)
   * [Préparer un jeu de données de qualité](guide-qualite/preparer-le-jeu-de-donnees.md)
     * [Etape 1 : Extraire un jeu de données du système d'information](guides/guide-qualite/preparer-un-jeu-de-donnees-de-qualite/etape-1-extraire-un-jeu-de-donnees-du-systeme-dinformation.md)
-    * [Etape 2 : Structurer le jeu de données](guides/guide-qualite/preparer-un-jeu-de-donnees-de-qualite/etape-2-structurer-le-jeu-de-donnees.md)
+    * [Etape 2 : Structurer un jeu de données](guides/guide-qualite/preparer-un-jeu-de-donnees-de-qualite/etape-2-structurer-un-jeu-de-donnees.md)
   * [Lier les données à un référentiel](guide-qualite/lier-les-donnees-a-un-referentiel.md)
   * [Documenter les données](guide-qualite/documenter-les-donnees.md)
   * [Éléments organisationnels](guide-qualite/elements-organisationnels.md)

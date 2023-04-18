@@ -1,4 +1,4 @@
-# Etape 2 : Structurer le jeu de données
+# Etape 2 : Structurer un jeu de données
 
 {% hint style="info" %}
 Les jeux de données qui ont vocation à circuler seront réutilisés par des acteurs tiers qui ne connaissent pas l’environnement de votre organisation. Il est nécessaire de proposer une structure de jeu de données compréhensible et appropriable par tous.
@@ -23,7 +23,7 @@ L’ouverture de ces données en dehors de leur environnement impose alors de **
 
 #### Les champs du jeu de données <a href="#le-titre-du-jeu-de-donnees" id="le-titre-du-jeu-de-donnees"></a>
 
-Quelques bonnes pratiques sont à mettre en place :&#x20;
+Quelques bonnes pratiques à mettre en place :&#x20;
 
 * [ ] **Occulter l’ensemble des colonnes dont les champs contiennent des données couvertes par un secret légal** (cf. [guide juridique](https://guides.etalab.gouv.fr/juridique)) ;
 * [ ] **Occulter l’ensemble des colonnes dont les champs contiennent des données à caractère personnel** dont la publication n’est pas nécessaire à l’information du public (cf. [guide juridique](https://guides.etalab.gouv.fr/juridique)) ;
@@ -61,7 +61,7 @@ Dans un fichier tabulaire, la première ligne du fichier peut être utilisée po
 Dans un fichier tabulaire, le séparateur permet de structurer les données sous forme de cellules.&#x20;
 {% endhint %}
 
-* Il est conseillé d’**utiliser la virgule comme séparateur**.
+Il est conseillé d’**utiliser la virgule comme séparateur**.
 
 {% hint style="warning" %}
 **Séparateurs décimaux**
@@ -75,7 +75,15 @@ Il est possible que certaines occurrences d’un champ d'un fichier ne soit pas 
 
 Il convient de **laisser ces occurrences vides plutôt que d’attribuer la valeur 0** (ou une autre valeur par défaut). Le zéro correspond à une valeur, qui peut dénaturer le sens de votre fichier.
 
-### Choisir le bon format de jeu de données <a href="#le-choix-du-format-du-jeu-de-donnees" id="le-choix-du-format-du-jeu-de-donnees"></a>
+#### Granularité du jeu de données
+
+Il est important de mener une réflexion sur la granularité du jeu de données.
+
+Faut-il proposer des données fines ou agrégées ? Faut-il proposer un export quotidien, mensuel, trimestriel ou annuel ? Ces questions doivent être posées en amont de l’automatisation des exports.&#x20;
+
+**Un dialogue avec les réutilisateurs est conseillé afin de comprendre leurs besoins**. Certains utilisateurs peuvent souhaiter manipuler des données granulaires tandis que d’autres préfèrent disposer d’agrégats qui permettent une réutilisation simple et rapide. A minima, il est conseillé de proposer un fichier complet unique qui contient l’ensemble des données historiques.
+
+### Choisir le format du jeu de données <a href="#le-choix-du-format-du-jeu-de-donnees" id="le-choix-du-format-du-jeu-de-donnees"></a>
 
 Afin qu'un maximum d’utilisateurs puisse s’approprier les données, il est conseillé de les faire circuler dans un format :
 
@@ -91,55 +99,55 @@ Les formats ouverts et communément acceptés sont les suivants :&#x20;
 | Données statiques de transport | GTFS/NeTEx                                                                                                                                  | [Ici](https://transport.data.gouv.fr/guide)                                                                                       | Le format GTFS est le format le plus utilisé en France par les services de mobilité d’information voyageur. Le format NeTEx est le format de référence européen qui vise l’interopérabilité des données entre États membres.            |
 | Données géographiques          | GeoJSON, Shapefile, MapInfo MIF/MID, MapInfo TAB et GML, pour les vecteurs / ECW, JPEG2000 et GeoTIFF, pour les données pixelisées (raster) | [Ici](https://geo.data.gouv.fr/fr/doc/publish-your-data)                                                                          | Les données géographiques sont organisées sous forme d’ensemble de données hiérarchisées. Les formats proposés sont conçus spécifiquement pour être largement exploitables et être intégrés facilement dans des outils de cartographie. |
 | Données hiérarchiques          | JSON / XML / YAML                                                                                                                           | indisponible                                                                                                                      | Les données hiérarchiques décrivent des relations hiérarchiques entre différentes données. Le format JSON est préconisé lorsque les données sont liées entre elles sous forme d’arbres verticaux.                                       |
-
-## Mener une réflexion sur la granularité du jeu de données
-
-Faut-il proposer des données fines ou agrégées ? Faut-il proposer un export quotidien, mensuel, trimestriel ou annuel ? Ces questions doivent être posées en amont de l’automatisation des exports.&#x20;
-
-**Un dialogue avec les réutilisateurs est conseillé afin de comprendre leurs besoins**. Certains utilisateurs peuvent souhaiter manipuler des données granulaires tandis que d’autres préfèrent disposer d’agrégats qui permettent une réutilisation simple et rapide. A minima, il est conseillé de proposer un fichier complet unique qui contient l’ensemble des données historiques.
 {% endtab %}
 
 {% tab title="Cas 2" %}
-#### Cas 1 - La structure des données correspond à un schéma de données existant <a href="#cas-1-la-structure-des-donnees-correspond-a-un-schema-de-donnees-existant" id="cas-1-la-structure-des-donnees-correspond-a-un-schema-de-donnees-existant"></a>
+## Cas 2 - La structure des données correspond à un schéma de données existant
 
-#### Cas 1 - La structure des données correspond à un schéma de données existant <a href="#cas-1-la-structure-des-donnees-correspond-a-un-schema-de-donnees-existant" id="cas-1-la-structure-des-donnees-correspond-a-un-schema-de-donnees-existant"></a>
-
-Lexique : Schéma de données
+{% hint style="info" %}
+**Lexique : Schéma de données**
 
 Un schéma de données est un document qui permet de décrire de manière précise et univoque les différents champs et valeurs possibles qui composent un fichier.
 
 Il permet notamment de valider qu’un fichier est conforme à une structure communément partagée, de générer de la documentation automatiquement, de générer des jeux de données d’exemple ou de proposer des formulaires de saisie standardisés. Ces schémas facilitent la montée en qualité et le croisement des données proposées en open data, surtout lorsque plusieurs producteurs de données sont amenés à produire un même jeu de données.
 
+
+
 ➡️ Consultez [notre guide à destination des producteurs de schémas](https://guides.etalab.gouv.fr/producteurs-schemas/)
+
+
 
 Les schémas existants peuvent avoir été définis par voie :
 
 * **Réglementaire** : un modèle de données a été défini de manière réglementaire, par décret ou arrêté. Un schéma est un moyen de faciliter l’adoption de ces modèles par les producteurs de données. Par exemple, le schéma de données relatif à la publication des données essentielles dans la commande publique est fixé par [arrêté depuis le 14 avril 2017](https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000034492587\&categorieLien=id).
 * **D’usage** : la réutilisation des données décrites par le schéma bénéficie à un grand nombre de réutilisateurs et aux nombreux producteurs utilisant ce schéma.
+{% endhint %}
 
-**Comment identifier un schéma de données déjà existant ?**
+### **Identifier un schéma de données déjà existant**
 
-Le site [schema.data.gouv.fr](http://schema.data.gouv.fr/) référence une liste de schémas de données existants. Il offre aussi la possibilité à tout utilisateur de soumettre de nouveaux schémas de données. Lorsque les données que vous souhaitez faire circuler correspondent à un schéma existant, nous vous conseillons de l’appliquer au plus près.
+Le site [schema.data.gouv.fr](http://schema.data.gouv.fr/) référence une liste de schémas de données existants. Il offre aussi la possibilité à tout utilisateur de soumettre de nouveaux schémas de données.&#x20;
 
-**Comment produire des données conforme à un schéma de données ?**
+Lorsque les données que vous souhaitez faire circuler correspondent à un schéma existant, nous vous conseillons de l’appliquer au plus près.
 
-Si les données ne sont pas extraites d’un système d’information mais saisies manuellement, [l’outil publier.etalab.studio](https://publier.etalab.studio/) permet, à partir d’un schéma de données sélectionné, de saisir les valeurs de chaque information et ainsi de produire un fichier exhaustif et conforme.
+### **Produire des données conforme à un schéma de données identifié**
 
-**Publier des données selon un schéma : mode d'emploi**
+Si les données ne sont pas extraites d’un système d’information mais saisies manuellement, **nous vous conseillons d'utiliser** [**l’outil publier.etalab.studio**](https://publier.etalab.studio/) qui permet, à partir d’un schéma de données sélectionné, de saisir les valeurs de chaque information et ainsi de produire un fichier exhaustif et conforme.
 
+{% hint style="info" %}
 Cet outil vous permet de créer un fichier CSV en vous assurant qu'il est conforme à un schéma, c'est-à-dire que ses données sont complètes, valides et structurées.
 
-1. Sélectionnez le schéma qui vous intéresse dans la liste déroulante. (Les schémas disponibles sont ceux référencés sur [schema.data.gouv.fr](https://schema.data.gouv.fr/)).
-2. Remplissez le formulaire à l'aide des descriptions des différents champs et des valeurs d'exemples. Les champs indiqués par un astérisque rouge doivent obligatoirement être renseignés au moment de la saisie.
+1. **Sélectionnez le schéma** qui vous intéresse dans la liste déroulante (les schémas disponibles sont ceux référencés sur [schema.data.gouv.fr](https://schema.data.gouv.fr/)).
+2. **Remplissez le formulaire** à l'aide des descriptions des différents champs et des valeurs d'exemples. Les champs indiqués par un astérisque rouge doivent obligatoirement être renseignés au moment de la saisie.
 3. L'outil vous prévient d'éventuelles erreurs de validation, le cas échéant vous pouvez les corriger.
 4. Une fois votre formulaire valide, les valeurs apparaissent sous la forme d'une ligne dans un tableau récapitulatif.
-5. Vous pouvez alors choisir d'ajouter une ou plusieurs lignes (répétez les étapes 2 à 4) ou télécharger le fichier CSV correspondant au tableau récapitulatif.
+5. **Vous pouvez alors choisir d'ajouter une ou plusieurs lignes** (répétez les étapes 2 à 4) ou **télécharger le fichier CSV correspondant au tableau récapitulatif**.
+{% endhint %}
 
-**Comment valider la conformité d’un fichier avec un schéma de données ?**
+### **Valider la conformité d’un fichier avec un schéma de données**
 
 Il est possible de valider la conformité d’un fichier à un schéma de données existant grâce à différents outils.
 
-Avec la solution [Validata](https://validata.fr/), vous pouvez valider la conformité de votre fichier à un schéma parmi la liste déroulante ou via une URL. Vous pouvez ensuite faire valider ce fichier, soit en l'important au format csv, soit en renseignant également son URL.
+**Avec la solution** [**Validata**](https://validata.fr/), vous pouvez valider la conformité de votre fichier à un schéma parmi la liste déroulante ou via une URL. Vous pouvez ensuite faire valider ce fichier, soit en l'important au format csv, soit en renseignant également son URL.
 
 ![Capture d'écran du menu de validata](https://guides.etalab.gouv.fr/assets/img/validata.f6a9dd72.png)
 
