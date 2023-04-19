@@ -11,6 +11,7 @@
     * [Etape 2 : Structurer un jeu de données](guides/guide-qualite/preparer-un-jeu-de-donnees-de-qualite/etape-2-structurer-un-jeu-de-donnees.md)
     * [Focus : Lier des données à un référentiel](guides/guide-qualite/preparer-un-jeu-de-donnees-de-qualite/focus-lier-des-donnees-a-un-referentiel.md)
   * [Documenter des données](guide-qualite/documenter-les-donnees.md)
+  * [Améliorer la qualité d'un jeu de données](guides/guide-qualite/ameliorer-la-qualite-dun-jeu-de-donnees.md)
   * [Éléments organisationnels](guide-qualite/elements-organisationnels.md)
   * [Les schémas de données](guide-qualite/les-schemas-de-donnees/README.md)
     * [Phase d’investigation](guide-qualite/les-schemas-de-donnees/phase-dinvestigation.md)

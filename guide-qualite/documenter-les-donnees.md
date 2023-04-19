@@ -1,33 +1,36 @@
 # Documenter des données
 
+## Pourquoi documenter ses données ?
+
 Les données issues de votre organisation ont été produites dans un contexte métier particulier. Un individu externe à l’organisation n’est pas forcément familier avec cet environnement métier, ce qui peut le freiner dans l’exploitation des données diffusées.
 
-La documentation de vos jeux de données a une visée pédagogique et facilite la réutilisation des données. Elle décrit les données et la structure des fichiers publiés.
+La documentation d'un jeu de données a une visée pédagogique et facilite la réutilisation des données.&#x20;
 
-Il est conseillé de proposer votre documentation en ligne et non sous format PDF. Une documentation en ligne permet de s’assurer que les réutilisateurs des données disposent toujours de la version la plus à jour. Des portails de données, tels que [data.gouv.fr](https://www.data.gouv.fr/), proposent des espaces dédiés à la documentation du jeu de données. Vous pouvez également héberger votre documentation sur des sites web statiques. Si le jeu de données a pour vocation de circuler en interne de votre organisation, nous vous conseillons a minima de proposer une documentation dans un fichier séparé des données. Le fichier contenant les données doit être réservé à la manipulation de ces dernières. Le fichier contenant la documentation a lui pour vocation d’informer sur la nature des données et sur la structure des fichiers.
+Elle décrit les données et la structure des fichiers publiés.
 
-> Exemple : Dans le cadre de la publication des données de sauvetage en mer (opérations coordonnées par les CROSS), un [site statique](https://mtes-mct.github.io/secmar-documentation/) a été créé afin de présenter la documentation du jeu de données. ![Documentation SECMAR](https://guides.etalab.gouv.fr/assets/img/doc\_secmar.99fbde88.png)
+## Comment bien documenter ses données ?
 
 ### Description générale du jeu de données <a href="#description-generale-du-jeu-de-donnees" id="description-generale-du-jeu-de-donnees"></a>
 
-Afin de donner un aperçu rapide des informations mises à disposition, il est conseillé de commencer la documentation par une description synthétique du jeu de données.
+Il est conseillé de commencer la documentation par une description synthétique du jeu de données pour donner un aperçu rapide des informations mises à disposition.
 
-La description peut couvrir les points suivants :
+La description générale peut couvrir les points suivants :&#x20;
 
-* Une description générale des données ;
-* La liste des fichiers mis à disposition ;
-* La description du format des fichiers ;
-* La fréquence de mise à jour.
+* [ ] Une description générale des données ;
+* [ ] La liste des fichiers mis à disposition ;
+* [ ] La description du format des fichiers ;
+* [ ] La fréquence de mise à jour.
 
-> Description générale du [jeu de données du Répertoire national des élus](https://www.data.gouv.fr/fr/datasets/repertoire-national-des-elus-1/) ![Description Répertoire national des élus](https://guides.etalab.gouv.fr/assets/img/description\_rne.6a960f74.png)
+> **Exemple** : Description générale du [jeu de données du Répertoire national des élus](https://www.data.gouv.fr/fr/datasets/repertoire-national-des-elus-1/) ![Description Répertoire national des élus](https://guides.etalab.gouv.fr/assets/img/description\_rne.6a960f74.png)
 
 ### Description du mode de production des données <a href="#description-du-mode-de-production-des-donnees" id="description-du-mode-de-production-des-donnees"></a>
 
-La structure de votre jeu de données et son contenu sont liés au contexte de production des données. La description de l'environnement métier est donc indispensable :
+La structure d'un jeu de données et son contenu sont liés au contexte de production des données. La description de l'environnement métier est donc indispensable. Il est conseillé de préciser :&#x20;
 
-* Comment ont été produites les données (saisie manuelle, collecte automatique, etc.) ?
-* Quels sont les acteurs producteurs des données ? Si les données sont produites par plusieurs acteurs, quel modèle de gouvernance est mis en place pour centraliser les données ?
-* Les données sont-elles exhaustives ? Présentent-elles des limites dans leur qualité ?
+* [ ] comment les données ont été produites (saisie manuelle, collecte automatique, etc.) ;&#x20;
+* [ ] qui sont les acteurs producteurs des données et si les données sont produites par plusieurs acteurs, le modèle de gouvernance mis en place pour centraliser les données ;&#x20;
+* [ ] si les données sont exhaustives et si elles présentent des limites dans leur qualité ;
+* [ ] les points d'attention et précautions d'usage pour manipuler ces données.
 
 Il est conseillé de préciser les points d’attention et précautions d’usage pour manipuler ces données. Certains jeux de données ne peuvent pas être utilisés à certaines fins ou possèdent des limitations qui rendent impossible certaines analyses. Par exemple, [l’article R112 A-3 du Livre des procédures fiscale](https://www.legifrance.gouv.fr/affichCodeArticle.do?idArticle=LEGIARTI000038001715\&cidTexte=LEGITEXT000006069583\&dateTexte=20181231) précise que la réutilisation du jeu de données « [Demandes de valeurs foncières](https://www.data.gouv.fr/fr/datasets/demandes-de-valeurs-foncieres/) » ne peut avoir ni pour objet ni pour effet de permettre la ré-identifications des personnes liés à des transactions immobilières.
 
@@ -107,22 +110,13 @@ En pratique, il est souhaitable que le modèle de données et la nature de vos d
 
 Les réutilisateurs des données peuvent avoir des questions à propos des fichiers mis à disposition. Il est conseillé de proposer un espace d’échange entre les producteurs et réutilisateurs des données. Il est préférable que cet espace d’échange soit public afin qu’il puisse bénéficier aux personnes qui auraient des questions similaires. De plus, la collecte des retours d’usage permettra d’améliorer votre documentation de manière incrémentale.
 
-### Le score de qualité des métadonnées <a href="#le-score-de-qualite-des-metadonnees" id="le-score-de-qualite-des-metadonnees"></a>
 
-Nous avons mis en place sur [data.gouv.fr](http://data.gouv.fr/) un score de qualité des métadonnées pour répondre principalement aux deux problématiques suivantes :
 
-* D’une part, les réutilisateurs de données peinent à identifier les jeux de données de qualité et à évaluer si tel ou tel jeu de donnée est digne d’intérêt ;
-* D’autre part, les producteurs de données ne sont pas suffisamment incités et accompagnés à améliorer la qualité de leurs données. Ce score est encore en phase d’expérimentation.
+Diffusion
 
-Ce tableau a pour vocation de vous aider à comprendre et améliorer votre score :
 
-| Critère                    | Description                                                                                                                                                                       |
-| -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Description des données    | La description des données est de qualité (la description du jeu de données suffisamment longue).                                                                                 |
-| Mise à jour                | <p>- La fréquence de mise à jour est renseignée.<br>- La fréquence de mise à jour est respectée.</p>                                                                              |
-| Licence                    | <p>- La licence est renseignée.<br>- La licence est ouverte.<br><a href="https://www.data.gouv.fr/fr/pages/legal/licences/">Voir la page licence pour plus d’information</a>.</p> |
-| Métadonnées des ressources | Présence d’au moins une ressource avec un format ouvert déclaré.                                                                                                                  |
-| Couverture spatiale        | <p>- La couverture spatiale est renseignée.<br>- La granularité spatiale est renseignée.</p>                                                                                      |
-| Couverture temporelle      | La couverture temporelle des données est renseignée.                                                                                                                              |
 
-Le poids de chaque critère sera ajusté en fonction de [vos retours](https://app.evalandgo.com/form/372035/s/?id=JTk5cSU5NWwlOUMlQTk%3D\&a=JTk3cCU5M2glOTklQUU%3D). De nouveaux critères seront ajoutés progressivement notamment pour intégrer la notion de schéma de données.
+Il est conseillé de proposer votre documentation en ligne et non sous format PDF. Une documentation en ligne permet de s’assurer que les réutilisateurs des données disposent toujours de la version la plus à jour. Des portails de données, tels que [data.gouv.fr](https://www.data.gouv.fr/), proposent des espaces dédiés à la documentation du jeu de données. Vous pouvez également héberger votre documentation sur des sites web statiques. Si le jeu de données a pour vocation de circuler en interne de votre organisation, nous vous conseillons a minima de proposer une documentation dans un fichier séparé des données. Le fichier contenant les données doit être réservé à la manipulation de ces dernières. Le fichier contenant la documentation a lui pour vocation d’informer sur la nature des données et sur la structure des fichiers.
+
+> Exemple : Dans le cadre de la publication des données de sauvetage en mer (opérations coordonnées par les CROSS), un [site statique](https://mtes-mct.github.io/secmar-documentation/) a été créé afin de présenter la documentation du jeu de données. ![Documentation SECMAR](https://guides.etalab.gouv.fr/assets/img/doc\_secmar.99fbde88.png)
+
