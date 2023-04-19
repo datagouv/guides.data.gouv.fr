@@ -1,13 +1,13 @@
 # Améliorer le score de qualité des métadonnées
 
-### Le score de qualité des métadonnées <a href="#le-score-de-qualite-des-metadonnees" id="le-score-de-qualite-des-metadonnees"></a>
+data.gouv.fr a mis en place un score de qualité des métadonnées pour répondre principalement aux deux problématiques suivantes :
 
-Nous avons mis en place sur [data.gouv.fr](http://data.gouv.fr/) un score de qualité des métadonnées pour répondre principalement aux deux problématiques suivantes :
+* Les réutilisateurs de données peinent à identifier les jeux de données de qualité et à évaluer si tel ou tel jeu de donnée est digne d’intérêt ;
+* Les producteurs de données ne sont pas suffisamment incités et accompagnés à améliorer la qualité de leurs données. Ce score est encore en phase d’expérimentation.
 
-* D’une part, les réutilisateurs de données peinent à identifier les jeux de données de qualité et à évaluer si tel ou tel jeu de donnée est digne d’intérêt ;
-* D’autre part, les producteurs de données ne sont pas suffisamment incités et accompagnés à améliorer la qualité de leurs données. Ce score est encore en phase d’expérimentation.
+Le score de qualité des métadonnées vous permet d'identifier ce qui vous permettra d'améliorer la qualité de vos données.&#x20;
 
-Ce tableau a pour vocation de vous aider à comprendre et améliorer votre score :&#x20;
+Les critères sont détaillés ci-dessous :&#x20;
 
 | Critère                    | Description                                                                                                                                                                       |
 | -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -18,4 +18,6 @@ Ce tableau a pour vocation de vous aider à comprendre et améliorer votre score
 | Couverture spatiale        | <p>- La couverture spatiale est renseignée.<br>- La granularité spatiale est renseignée.</p>                                                                                      |
 | Couverture temporelle      | La couverture temporelle des données est renseignée.                                                                                                                              |
 
-Le poids de chaque critère sera ajusté en fonction de [vos retours](https://app.evalandgo.com/form/372035/s/?id=JTk5cSU5NWwlOUMlQTk%3D\&a=JTk3cCU5M2glOTklQUU%3D). De nouveaux critères seront ajoutés progressivement notamment pour intégrer la notion de schéma de données.
+Le poids de chaque critère sera ajusté en fonction de [vos retours](https://app.evalandgo.com/form/372035/s/?id=JTk5cSU5NWwlOUMlQTk%3D\&a=JTk3cCU5M2glOTklQUU%3D).&#x20;
+
+De nouveaux critères seront ajoutés progressivement notamment pour intégrer la notion de schéma de données.
