@@ -6,7 +6,7 @@ Les jeux de données qui ont vocation à circuler seront réutilisés par des ac
 
 Deux approches sont possibles :&#x20;
 
-* **Cas 1 : La structure de vos données ne correspond pas à aucun schéma de données existant**. Un travail de modélisation est nécessaire en amont de la création du jeu de données.
+* **Cas 1 : La structure de vos données ne correspond à aucun schéma de données existant**. Un travail de modélisation est nécessaire en amont de la création du jeu de données.
 * **Cas 2 : La structure de vos données correspond à un schéma de données existant** ;
 
 {% tabs %}

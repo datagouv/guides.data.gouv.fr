@@ -1,6 +1,6 @@
 # Focus : Lier des données à un référentiel
 
-Comme explicité dans la page [Préparer le jeu de données - _Cas 1 - La structure de vos données ne correspond à aucun schéma de données existant_](https://guides.etalab.gouv.fr/qualite/preparer-le-jeu-de-donnees/#cas-2-la-structure-de-vos-donnees-ne-correspond-a-aucun-schema-de-donnees-existant), il est important d'intégrer dans vos jeux de données des champs pivots relevant d'un référentiel.
+Il est important d'intégrer dans vos jeux de données des données pivots relevant d'un référentiel (cf. Structurer un jeu de données[ ](https://guides.etalab.gouv.fr/qualite/preparer-le-jeu-de-donnees/#cas-2-la-structure-de-vos-donnees-ne-correspond-a-aucun-schema-de-donnees-existant)Cas 1 - La structure de vos données ne correspond à aucun schéma de données).
 
 > **Exemple** : Mon jeu de données est une liste d'actions culturelles menées par ma région. Certaines de ces actions sont gérées par des associations. Il peut être intéressant de publier un jeu de données recensant ces actions avec un champ correspondant à l'identification des associations. Cet identifiant existe et est standardisé, il s'agit du numéro RNA, identifiant national des associations dont le répertoire est opéré par le ministère de l'intérieur.
 
@@ -14,19 +14,21 @@ L'intégration dans votre jeu de données de données pivots qui correspondent �
 * **Une meilleure réutilisation** : intégrer des données liées à un référentiel facilitera la réutilisation du jeu de données et permettra son enrichissement avec d'autres données partageant la même donnée pivot ;
 * **Une meilleure interopérabilité** : intégrer des données pivots facilite le lien avec des données de référence fiables et à jour.
 
-## Quels référentiels utiliser ? <a href="#exemples-de-referentiels" id="exemples-de-referentiels"></a>
+## Quels référentiels utiliser pour intégrer des données pivots ? <a href="#exemples-de-referentiels" id="exemples-de-referentiels"></a>
 
-Voici une liste non exhaustive de référentiels sur lesquels vous pouvez vous appuyer pour l'intégration de variables pivots :
+Voici une liste non exhaustive de référentiels sur lesquels il est possible de s'appuyer pour l'intégration de variables pivots :
 
 ### Le service public de la donnée <a href="#le-service-public-de-la-donnee" id="le-service-public-de-la-donnee"></a>
 
-Le [service public de la donnée (SPD)](https://www.data.gouv.fr/fr/pages/spd/reference/) vise à mettre à disposition avec un haut niveau de qualité les jeux de données de référence qui présentent un fort impact économique et social. À ce jour, neuf jeux de données, qui couvrent un large champ thématique ont été identifiés comme des données de référence, parmi lesquels :&#x20;
+Le [service public de la donnée (SPD)](https://www.data.gouv.fr/fr/pages/spd/reference/) vise à mettre à disposition avec un haut niveau de qualité les jeux de données de référence qui présentent un fort impact économique et social.&#x20;
+
+À ce jour, 9 jeux de données ont été identifiés comme des données de référence, parmi lesquels :&#x20;
 
 * **la** [**base Sirene**](https://www.data.gouv.fr/fr/datasets/base-sirene-des-entreprises-et-de-leurs-etablissements-siren-siret/) qui liste l'ensemble des entreprises françaises. Les identifiants principaux liés à cette base sont le N° SIREN (identifiant d'une unité légale) et le numéro SIRET (identifiant d'un établissement) ;
 * **La** [**base du répertoire national des associations (RNA)**](https://www.data.gouv.fr/fr/datasets/repertoire-national-des-associations/), qui répertorie l’ensemble des associations relevant de [la loi du 1er juillet 1901 relative au contrat d’association](https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=LEGITEXT000006069570). L'identifiant des associations est le numéro RNA ;
 * **Le** [**code officiel géographique (COG)**](https://www.data.gouv.fr/fr/datasets/code-officiel-geographique-cog/) qui décrit les codes et libellés des communes, des cantons, des arrondissements, des départements, des régions et des pays et territoires étrangers.
 
-> **Exemple :** Afin de lister l'ensemble des actions culturelles de ma région, nous avons vu que le numéro RNA pouvait être utile pour identifier les associations. Grâce à celui-ci, il est également possible de récupérer le numéro SIRET de l'association si celle-ci en possède un. Il est également possible de détailler dans le jeu de données le code commune et le code département de chaque action. Pour cela, il convient de se référer au Code officiel géographique. **Attention à bien respecter celui-ci. Par exemple, le code département de l'Ariège est le "09" et pas le "9". Ce type d'erreur pourrait entraîner des difficultés lors de la réutilisation des données.**
+Voici la liste complète des jeux de données de référence du service public de la donnée :&#x20;
 
 | Nom du jeu de données                                                                                                                                                                             | Variable(s) pivot(s) | Description                                                                                                                                                                       | Producteur                                                                                                                   |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
@@ -40,9 +42,11 @@ Le [service public de la donnée (SPD)](https://www.data.gouv.fr/fr/pages/spd/re
 | [Répertoire National des Associations (RNA)](https://www.data.gouv.fr/fr/datasets/repertoire-national-des-associations/)                                                                          | N° RNA / N° Waldec   | Ensemble des associations relevant de la loi du 1er juillet 1901 relative au contrat d’association, dont le siège est en France                                                   | [Ministère de l'Intérieur](https://www.data.gouv.fr/fr/organizations/ministere-de-l-interieur/)                              |
 | [Répertoire Opérationnel des Métiers et des Emplois (ROME)](https://www.data.gouv.fr/fr/datasets/repertoire-operationnel-des-metiers-et-des-emplois-rome/)                                        | Code ROME            | Inventaire des dénominations d’emplois/métiers les plus courantes, analyse des activités et compétences, regroupement des emplois selon un principe d’équivalence ou de proximité | [Pôle Emploi](https://www.data.gouv.fr/fr/organizations/pole-emploi/)                                                        |
 
+> **Exemple :** Afin de lister l'ensemble des actions culturelles de ma région, nous avons vu que le numéro RNA pouvait être utile pour identifier les associations. Grâce à celui-ci, il est également possible de récupérer le numéro SIRET de l'association si celle-ci en possède un. Il est également possible de détailler dans le jeu de données le code commune et le code département de chaque action. Pour cela, il convient de se référer au Code officiel géographique. Attention à bien respecter celui-ci. Par exemple, le code département de l'Ariège est le "09" et pas le "9". Ce type d'erreur pourrait entraîner des difficultés lors de la réutilisation des données.
+
 ### Autres référentiels <a href="#les-autres-referentiels" id="les-autres-referentiels"></a>
 
-Il existe un grand nombre de jeux de données standardisées et communément partagées avec le plus grand nombre.
+Des jeux de données standardisées et communément partagées avec le plus grand nombre peuvent être utilisés comme référentiels.
 
 > **Exemple** : L'identifiant unique d'une certification professionnelle est le [numéro RNCP](https://www.data.gouv.fr/fr/datasets/repertoire-national-des-certifications-professionnelles-et-repertoire-specifique/). Ce jeu de données ne fait pas partie du service public de la donnée mais est largement partagé par les acteurs du domaine de la formation professionnelle.
 
@@ -59,7 +63,9 @@ Il existe un grand nombre de jeux de données standardisées et communément par
 
 **Référentiels techniques**
 
-Les référentiels techniques n'ont pas de significations métiers. Cependant, ils permettent de décrire une donnée de manière standardisée. Ces standards permettent aux utilisateurs et aux algorithmes de pouvoir interpréter automatiquement la donnée de manière correcte. C'est le cas principalement des dates et des coordonnées géographiques pour lesquels sont listés ci-dessous deux exemples de standards largement adoptés.
+Les référentiels techniques n'ont pas de significations métiers mais ils permettent de décrire une donnée de manière standardisée. Ces standards permettent aux utilisateurs et aux algorithmes de pouvoir interpréter automatiquement la donnée de manière correcte.&#x20;
+
+Voici deux exemples de référentiels techniques :&#x20;
 
 | Nom du référentiel | Description                                        | Information                                          |
 | ------------------ | -------------------------------------------------- | ---------------------------------------------------- |
@@ -80,35 +86,38 @@ Le [Cadre Commun d'Architecture des référentiels de données de l'État](https
 * La sécurité et l'archivage des données doit être assuré.
 {% endhint %}
 
-Pour favoriser au mieux le partage et l'interopérabilité des données, les acteurs sont encouragés à mettre en place leurs propres référentiels internes ou à les partager s'ils existent déjà.
+Les acteurs sont encouragés à mettre en place leurs propres référentiels internes ou à les partager s'ils existent déjà pour favoriser au mieux le partage et l'interopérabilité des données.
 
-Ainsi, il est pertinent de diffuser, en même temps que votre jeu de données, la liste des valeurs possibles correspondant à votre propre référentiel métier. Celui-ci sera connu et potentiellement réutilisé par d'autres acteurs.
+Il est pertinent de diffuser, en même temps qu'un jeu de données, la liste des valeurs possibles correspondant à votre propre référentiel métier. Celui-ci sera connu et potentiellement réutilisé par d'autres acteurs.
 
-La mise en place de référentiels fait également parti d'une stratégie de montée en qualité de la donnée. Néanmoins ce n'est souvent pas suffisant : il est ensuite nécessaire de diffuser, former et vérifier que les données produites intègrent ces référentiels et n'en dérivent pas (à partir d'un contrôle humain ou de tests automatiques).
+La mise en place de référentiels fait partie d'une stratégie de montée en qualité de la donnée. Néanmoins ce n'est souvent pas suffisant : il est ensuite nécessaire de diffuser, former et vérifier que les données produites intègrent ces référentiels et n'en dérivent pas (à partir d'un contrôle humain ou de tests automatiques).
 
 > **Exemple** : J'utilise en interne un numéro unique permettant d'identifier chaque type d'action culturelle (arts du spectacle, cirque, arts plastiques...). Il peut être pertinent de diffuser en parallèle à la diffusion de mon jeu de données la liste de mon référentiel. Des communes de ma région pourraient potentiellement le réutiliser pour décrire leurs actions culturelles à une maille plus fine.
 
 ## Comment intégrer des adresses dans un jeu de données ? <a href="#le-cas-specifique-des-adresses" id="le-cas-specifique-des-adresses"></a>
 
-Il existe des référentiels pour décrire une adresse de manière unique.&#x20;
+Il existe des référentiels pour décrire une adresse de manière unique. Le référentiel officiel d'adresse est **la** [**base d'adresse nationale (ou BAN précédemment listé)**](https://www.data.gouv.fr/fr/datasets/base-adresse-nationale/).&#x20;
 
-Le référentiel officiel d'adresse s'intitule **la** [**base d'adresse nationale (ou BAN précédemment listé)**](https://www.data.gouv.fr/fr/datasets/base-adresse-nationale/). Si vous partez de zéro pour constituer votre jeu de données, il est pertinent de partir de cette base de données pour décrire vos adresses.
-
-Cependant, il arrive souvent qu'un producteur travaille sur un jeu de données qui contient déjà des adresses saisies. Il peut s'avérer fastidieux de corriger manuellement l'ensemble des adresses erronées. Heureusement, il existe différents outils pour obtenir une base d'adresse normalisée !
+* Si vous partez de zéro pour constituer votre jeu de données, il est pertinent de partir de la base adresse national pour décrire vos adresses.
+* Si vous travaillez sur un jeu de données qui contient déjà des adresses saisies, il peut s'avérer fastidieux de corriger manuellement l'ensemble des adresses erronées et vous pouvez obtenir une base d'adresse normalisée grâce à la méthode décrite ci-dessous.
 
 ### Le géocodage <a href="#le-geocodage" id="le-geocodage"></a>
 
-Le géocodage consiste à affecter des coordonnées géographiques à une adresse postale. Cette opération peut être en partie automatisée grâce à des outils proposés par Etalab.
+{% hint style="info" %}
+Le géocodage consiste à affecter des coordonnées géographiques à une adresse postale.&#x20;
+{% endhint %}
+
+Le géocodage peut être en partie automatisé grâce à des outils proposés par Etalab.
 
 Le site [https://adresse.data.gouv.fr/](https://adresse.data.gouv.fr/) permet de géocoder une liste d'adresse via un appel à une API ou par le dépôt de fichier csv.
 
-En utilisant l'outil avec un jeu de données contenant des adresses déjà saisies, l'applicatif nous retourne un jeu de données enrichi :
+Il permet aussi, à partir d'un jeu de données contenant des adresses déjà saisies, de retourner un jeu de données enrichi :
 
-* De coordonnées géographiques (longitude/latitude) ;
-* Des adresses « corrigées » récupérées de la BAN ;
+* de coordonnées géographiques (longitude/latitude) ;
+* Des adresses « corrigées » récupérées de la BAN.
 
-### **Géocodage massif**
+Le site [adresse.data.gouv.fr](https://adresse.data.gouv.fr/) est limité à des utilisations ponctuelles et des volumétries de données considérées faibles (moins d'un million de lignes).&#x20;
 
-Le site [adresse.data.gouv.fr](https://adresse.data.gouv.fr/) est limité à des utilisations ponctuelles et des volumétries de données considérées faibles (moins d'un million de lignes). Si vous souhaitez géocoder davantage de données (plusieurs millions de lignes), il est recommandé d'installer votre propre environnement de géocodage, en utilisant par exemple le géocodeur [Addok](https://addok.readthedocs.io/fr/latest/). Vous pouvez consulter des ressources sur [GitHub](https://github.com/etalab/addok-docker) pour vous aider dans l'installation de votre environnement.
+Pour géocoder davantage de données (plusieurs millions de lignes), il est recommandé d'installer votre propre environnement de géocodage, en utilisant par exemple le géocodeur [Addok](https://addok.readthedocs.io/fr/latest/). Vous pouvez consulter des ressources sur [GitHub](https://github.com/etalab/addok-docker) pour vous aider dans l'installation de votre environnement.
 
 Quelle que soit la méthode utilisée, le processus de géocodage retournera une liste d'adresses standardisées avec leurs coordonnées géographiques associées. De plus, vous aurez aussi accès à une information `geo_score` correspondant au score de confiance que le géocodeur accorde à l'adresse retournée. Cet indicateur peut être utile à garder dans votre jeu de données final, il donnera une indication aux utilisateurs sur la performance du géocodage de chaque adresse.
