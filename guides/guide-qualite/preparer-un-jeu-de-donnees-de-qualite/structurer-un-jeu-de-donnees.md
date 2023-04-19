@@ -1,4 +1,4 @@
-# Etape 2 : Structurer un jeu de données
+# Structurer un jeu de données
 
 {% hint style="info" %}
 Les jeux de données qui ont vocation à circuler seront réutilisés par des acteurs tiers qui ne connaissent pas l’environnement de votre organisation. Il est nécessaire de proposer une structure de jeu de données compréhensible et appropriable par tous.
