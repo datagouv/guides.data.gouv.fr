@@ -16,6 +16,8 @@ Elle peut prendre la forme d’une visualisation, d’une application, d’un ar
 
 ## Mesurer les usages d'un jeu de données
 
+Le suivi des usages passe par leur mesure, au moyen de statistiques d’utilisation, mais implique également d’échanger avec les différentes parties prenantes pour une compréhension plus qualitative.
+
 Il est possible de combiner approches quantitatives et qualitatives pour cerner les usages d'un jeu de données.
 
 Selon les moyens disponibles, plusieurs leviers sont disponibles :&#x20;
@@ -28,6 +30,7 @@ Selon les moyens disponibles, plusieurs leviers sont disponibles :&#x20;
 Exemple :&#x20;
 
 * A l'automne 2021, les producteurs de la Base Sirene ont sondé les réutilisateurs sur des questions de contenu, de format ou encore de documentation des données.
+* Consultation MC
 {% endhint %}
 
 * [ ] Animer des communautés de réutilisateurs
@@ -42,6 +45,14 @@ Exemple : L'Institut National de l'Information Géographique et Forestière (IGN
 
 Investiguer la nature des réutilisations
 
+
+
+{% hint style="info" %}
+Exemple&#x20;
+
+Pôle Emploi travaille ainsi étroitement avec la [startup d’Etat DiagOriente](https://beta.gouv.fr/startups/diagoriente.html) pour améliorer le [Répertoire Opérationnel des Métiers et des Emplois (ROME)](https://www.data.gouv.fr/fr/datasets/repertoire-operationnel-des-metiers-et-des-emplois-rome/) en intégrant les retours des utilisateurs de l’outil (compétences pertinentes à retenir, celles qui sont renommées, jamais sélectionnées) et ses travaux de reformulation sémantique des compétences professionnelles.
+{% endhint %}
+
 ## Collecter les retours des réutilisateurs
 
 La remontée des besoins des réutilisateurs&#x20;
@@ -51,3 +62,5 @@ La remontée des besoins des réutilisateurs&#x20;
 {% hint style="info" %}
 Exemple : Il s'agit d'un canal d'échange privilégié pour les producteurs du Répertoire National des Associations (RNA), avec 344 discussions.
 {% endhint %}
+
+de nombreux commentaires peuvent être catégorisés comme relevant de problématiques d'accessibilité suivie de celles d'actualisation des données puis des questions de fiabilité et d'exploitabilité des données.

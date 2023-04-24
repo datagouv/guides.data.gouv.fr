@@ -18,6 +18,12 @@ Les réutilisateurs peuvent alors rencontrer des difficultés lorsqu'ils souhait
 
 Il est donc indispensable de prendre en compte les pratiques des réutilisateurs en amont de la production des jeux de données. Pour ce faire, une réflexion sur leur structure, sur le format des fichiers ou encore sur la documentation doit être menée systématiquement. Cette réflexion facilitera l'appropriation des données par les tiers et fera gagner du temps à l'organisation productrice, qui n'aura plus à répondre à de nombreuses questions. &#x20;
 
+
+
+Or, la qualité proposée, bien qu’adaptée aux utilisations internes à l’administration, peut être améliorée pour les usages nouveaux engendrés par l’ouverture.
+
+
+
 ## Comment évaluer le niveau de qualité d'un jeu de données ?
 
 Plusieurs critères permettent d'évaluer le niveau de qualité d'un jeu de données, notamment :&#x20;

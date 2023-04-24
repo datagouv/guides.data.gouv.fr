@@ -1,5 +1,17 @@
 # Réutilisations
 
+{% hint style="info" %}
+**Lexique : Réutilisation**
+
+Il n’existe pas de définition stricte du concept. Une définition large veut qu’une réutilisation désigne l’utilisation des données publiques par des tiers à d’autres fins que celle de la mission de service public pour laquelle les données ont été produites ou reçues.
+
+Cependant il existe des approches plus restrictives. Certains considèrent par exemple que seuls les usages pérennes de la donnée sont des réutilisations tandis que d’autres considèrent tout usage de la donnée comme une réutilisation.
+
+
+
+Une réutilisation désigne communément l’exploitation de données ouvertes par des tiers, à d’autres fins que celle de la mission de service public pour laquelle elles ont été produites ou reçues. Elle peut prendre la forme d’une visualisation, d’une application, d’un article de presse, d’un papier de recherche, etc.
+{% endhint %}
+
 Les données mises à disposition sur data.gouv.fr peuvent être réutilisées [selon les termes définis dans la licence qui leur est associée](https://guides.etalab.gouv.fr/juridique/reutilisation/). Si vous êtes à l’origine d’une réutilisation, vous pouvez la référencer sur la page du jeu de données sur lequel vous vous êtes appuyés.
 
 {% hint style="info" %}
@@ -13,6 +25,18 @@ Référencer une réutilisation sur la page d’un jeu de données permet notamm
 * **Montrer comment le jeu de données peut être réutilisé** et inspirer d’autres réutilisations potentielles ;
 * **Faire avancer l’open data** en participant à affirmer l’importance de l’ouverture des données publiques.
 {% endhint %}
+
+
+
+Le référencement de ces usages est également essentiel tant pour la mesure d’impact de l’open data que la montée en qualité des données publiques.
+
+
+
+Tout d’abord, la connaissance des réutilisations est essentielle pour mesurer l’impact de l’ouverture des données. Il s’agit de mesurer le nombre de réutilisations et leur qualité, mais aussi leur niveau d’utilisation : s’agit-il d’une application utilisée par des millions de personnes ou d’une visualisation de données ponctuelle par exemple ? De plus, il existe un besoin récurrent de disposer d’un catalogue de référence de cas d’usage de l’open data. Pour convaincre de la pertinence de la démarche d’ouverture et de son potentiel économique et social, l’ensemble des acteurs ont besoin de s’appuyer sur des exemples concrets.
+
+Le référencement des réutilisations doit également permettre de faciliter la discussion entre réutilisateurs et producteurs de données voir leur collaboration. En effet, les producteurs sont plus disposés à répondre aux réutilisateurs identifiés et dont ils saisissent mieux le besoin. Les réutilisations permettent ainsi d’améliorer la qualité d’un jeu de données en facilitant les remontées de manques et défauts des données.
+
+Enfin, les réutilisations sont un vecteur d’information au public. Le référencement des réutilisations sur la plateforme nationale permet à un grand nombre d’utilisateurs de découvrir des réutilisations permettant de visualiser les données brutes sous des formes riches et diverses.
 
 ## **Comment référencer une réutilisation ?** <a href="#comment-referencer-une-reutilisation" id="comment-referencer-une-reutilisation"></a>
 

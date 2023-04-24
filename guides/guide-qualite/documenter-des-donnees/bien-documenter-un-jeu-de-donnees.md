@@ -133,3 +133,9 @@ Il est conseillé de proposer un espace d’échange entre les producteurs et r�
 Il est préférable que cet espace d’échange soit public afin qu’il puisse bénéficier aux personnes qui auraient des questions similaires.&#x20;
 
 De plus, la collecte des retours d’usage permettra d’améliorer votre documentation de manière incrémentale.
+
+
+
+
+
+la finalité première de création du jeu, sa composition, son processus de collecte ou ses modalités de maintenance
