@@ -15,7 +15,7 @@
     * [Diffuser la documentation d'un jeu de données](guides/guide-qualite/documenter-des-donnees/diffuser-la-documentation-dun-jeu-de-donnees.md)
   * [Améliorer la qualité d'un jeu de données](guides/guide-qualite/ameliorer-la-qualite-dun-jeu-de-donnees/README.md)
     * [Améliorer le score de qualité des métadonnées](guides/guide-qualite/ameliorer-la-qualite-dun-jeu-de-donnees/ameliorer-le-score-de-qualite-des-metadonnees.md)
-    * [Comprendre les usages des réutilisateurs](guides/guide-qualite/ameliorer-la-qualite-dun-jeu-de-donnees/comprendre-les-usages-des-reutilisateurs.md)
+    * [Comprendre les usages d'un jeu de données](guides/guide-qualite/ameliorer-la-qualite-dun-jeu-de-donnees/comprendre-les-usages-dun-jeu-de-donnees.md)
     * [Mettre en place une stratégie organisationnelle](guides/guide-qualite/ameliorer-la-qualite-dun-jeu-de-donnees/mettre-en-place-une-strategie-organisationnelle.md)
   * [Les schémas de données](guide-qualite/les-schemas-de-donnees/README.md)
     * [Phase d’investigation](guide-qualite/les-schemas-de-donnees/phase-dinvestigation.md)
@@ -25,6 +25,7 @@
     * [Intégration avec schema.data.gouv.fr](guide-qualite/les-schemas-de-donnees/integration-avec-schema.data.gouv.fr.md)
     * [Jeux de données sur data.gouv.fr et schémas](guide-qualite/les-schemas-de-donnees/jeux-de-donnees-sur-data.gouv.fr-et-schemas.md)
     * [Aide à la construction d'un schéma TableSchema](guide-qualite/les-schemas-de-donnees/aide-a-la-construction-dun-schema-tableschema.md)
+    * [Le cycle de vie de la donnée ouverte de qualité](guides/guide-qualite/les-schemas-de-donnees/le-cycle-de-vie-de-la-donnee-ouverte-de-qualite.md)
   * [Pour aller plus loin](guides/guide-qualite/pour-aller-plus-loin.md)
 * [📖 Guide juridique](guides/guide-juridique/README.md)
   * [L'open data](guide-juridique/lopen-data.md)
@@ -51,6 +52,7 @@
   * [API découpage administratif](reutiliser-les-donnees-publiques/api-a-composante-geographique/api-decoupage-administratif.md)
 * [Tuiles vectorielles](reutiliser-les-donnees-publiques/tuiles-vectorielles.md)
 * [Faire une recherche](reutiliser-les-donnees-publiques/faire-une-recherche.md)
+* [Evaluer la qualité d'un jeu de données](reutiliser-les-donnees-publiques/evaluer-la-qualite-dun-jeu-de-donnees.md)
 
 ## Group 2
 

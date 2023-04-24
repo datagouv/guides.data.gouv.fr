@@ -133,6 +133,8 @@ Lorsque les données que vous souhaitez faire circuler correspondent à un sché
 
 Si les données ne sont pas extraites d’un système d’information mais saisies manuellement, **nous vous conseillons d'utiliser** [**l’outil publier.etalab.studio**](https://publier.etalab.studio/) qui permet, à partir d’un schéma de données sélectionné, de saisir les valeurs de chaque information et ainsi de produire un fichier exhaustif et conforme.
 
+la saisie, la validation et la publication de données de qualité
+
 {% hint style="info" %}
 Cet outil vous permet de créer un fichier CSV en vous assurant qu'il est conforme à un schéma, c'est-à-dire que ses données sont complètes, valides et structurées.
 
@@ -142,6 +144,26 @@ Cet outil vous permet de créer un fichier CSV en vous assurant qu'il est confor
 4. Une fois votre formulaire valide, les valeurs apparaissent sous la forme d'une ligne dans un tableau récapitulatif.
 5. **Vous pouvez alors choisir d'ajouter une ou plusieurs lignes** (répétez les étapes 2 à 4) ou **télécharger le fichier CSV correspondant au tableau récapitulatif**.
 {% endhint %}
+
+[publier.etalab.studio](http://publier.etalab.studio/) permet aux producteurs de données de sélectionner le type de jeu de données qu’ils souhaitent publier parmi la liste existante.
+
+Une fois son type de donnée sélectionné, l’utilisateur a le choix entre plusieurs modes de production :
+
+·       Téléverser (uploader) son fichier si les données sont déjà consolidées au bon format ;
+
+·       Saisir ses données dans un formulaire ;
+
+·       Saisir ses données sur un tableur en ligne.
+
+Accompagner la validation des données :
+
+Vient ensuite l’étape de la validation des données : lors du téléversement d’un fichier, la validation de celui-ci est automatiquement testée via l’outil Validata. Le rapport d’erreurs éventuelles est ainsi retranscrit directement sur l’application.
+
+Si l’utilisateur a fait le choix de remplir ou de modifier ses données sur le tableur en ligne, les données en erreurs sont automatiquement surlignées pour indiquer à l’utilisateur que celles-ci ne sont pas conformes.&#x20;
+
+Accompagner la publication des données
+
+Enfin, une fois les données conforme au schéma correspondant, il est temps de les publier. Un formulaire de publication simplifié permet de publier les données directement sur [data.gouv.fr](http://data.gouv.fr/) via une authentification tierce.
 
 ### **Valider la conformité d’un fichier avec un schéma de données**
 
