@@ -1,4 +1,4 @@
-# Extraire un jeu de données du système d'information
+# Extraire un jeu de données d'un système d'information
 
 Il est possible que les données que vous souhaitez faire circuler ne soient pas structurées sous la forme d'un jeu de données. Dans cette situation, il est nécessaire de réaliser une extraction des données depuis le système d'information où elles sont stockées.
 

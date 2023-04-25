@@ -1,4 +1,4 @@
-# Faire une recherche
+# Identifier les jeux de données pertinents
 
 ## Faire une recherche sur data.gouv.fr
 
