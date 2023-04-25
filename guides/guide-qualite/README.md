@@ -1,7 +1,7 @@
 ---
 description: >-
   Ce guide a pour vocation de vous accompagner dans la production de jeux de
-  données de qualité, dans une démarche d'ouverture.
+  données de qualité, dans le cadre d'une démarche d'ouverture.
 ---
 
 # 💎 Guide qualité
@@ -12,7 +12,7 @@ Un jeu de données est un ensemble de ressources : il contient a minima des fich
 {% endhint %}
 
 \
-Dans ce guide, vous apprendrez :&#x20;
+**Dans ce guide, vous apprendrez :**&#x20;
 
 * Comment préparer un jeu de données de qualité ;&#x20;
 * Comment documenter des données ;&#x20;
@@ -21,4 +21,4 @@ Dans ce guide, vous apprendrez :&#x20;
 
 
 
-Ce guide s'adresse aux acteurs publics et privés qui souhaitent mettre à disposition des jeux de données de qualité, que ce soit en interne d'une organisation ou en open data.
+_Ce guide s'adresse aux acteurs publics et privés qui souhaitent mettre à disposition des jeux de données de qualité, que ce soit en interne d'une organisation ou en open data._
