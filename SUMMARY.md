@@ -5,7 +5,9 @@
 ## Guides&#x20;
 
 * [💎 Guide qualité](guides/guide-qualite/README.md)
-  * [Définition](guides/guide-qualite/definition.md)
+  * [Comprendre la notion de qualité d'un jeu de données](guides/guide-qualite/comprendre-la-notion-de-qualite-dun-jeu-de-donnees/README.md)
+    * [Comment définir la qualité d'un jeu de données ?](guides/guide-qualite/comprendre-la-notion-de-qualite-dun-jeu-de-donnees/comment-definir-la-qualite-dun-jeu-de-donnees.md)
+    * [Comment évaluer le niveau de qualité d'un jeu de données ?](guides/guide-qualite/comprendre-la-notion-de-qualite-dun-jeu-de-donnees/comment-evaluer-le-niveau-de-qualite-dun-jeu-de-donnees.md)
   * [Préparer un jeu de données de qualité](guide-qualite/preparer-le-jeu-de-donnees.md)
     * [Extraire un jeu de données d'un système d'information](guides/guide-qualite/preparer-un-jeu-de-donnees-de-qualite/extraire-un-jeu-de-donnees-dun-systeme-dinformation.md)
     * [Structurer un jeu de données](guides/guide-qualite/preparer-un-jeu-de-donnees-de-qualite/structurer-un-jeu-de-donnees.md)
