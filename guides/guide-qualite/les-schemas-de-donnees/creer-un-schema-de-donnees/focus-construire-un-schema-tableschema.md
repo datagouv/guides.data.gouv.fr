@@ -1,4 +1,4 @@
-# Aide à la construction d'un schéma TableSchema
+# Focus : Construire un schéma TableSchema
 
 La pertinence de la mise en place d'un standard de données réside dans son adéquation entre les capacités de sa mise en oeuvre par les producteurs de données et les outils permattant l'automatisation des jeux de données valides par rapport à cette spécification. Cette standardisation doit permettre de **faciliter la mise en relation des jeux de données** issus de différents producteurs.
 
