@@ -17,7 +17,7 @@
     * [Diffuser la documentation d'un jeu de données](guides/guide-qualite/documenter-des-donnees/diffuser-la-documentation-dun-jeu-de-donnees.md)
   * [Améliorer la qualité d'un jeu de données](guides/guide-qualite/ameliorer-la-qualite-dun-jeu-de-donnees/README.md)
     * [Améliorer le score de qualité des métadonnées](guides/guide-qualite/ameliorer-la-qualite-dun-jeu-de-donnees/ameliorer-le-score-de-qualite-des-metadonnees.md)
-    * [Connaître et suivre les usages d'un jeu de données](guides/guide-qualite/ameliorer-la-qualite-dun-jeu-de-donnees/connaitre-et-suivre-les-usages-dun-jeu-de-donnees.md)
+    * [Connaître et suivre les usages d'un jeu de données](guides/guide-qualite/ameliorer-la-qualite-dun-jeu-de-donnees/comprendre-les-usages-dun-jeu-de-donnees.md)
     * [Mettre en place une stratégie organisationnelle](guides/guide-qualite/ameliorer-la-qualite-dun-jeu-de-donnees/mettre-en-place-une-strategie-organisationnelle.md)
   * [Les schémas de données](guide-qualite/les-schemas-de-donnees/README.md)
     * [Comprendre le cycle de vie de la donnée ouverte de qualité](guides/guide-qualite/les-schemas-de-donnees/comprendre-le-cycle-de-vie-de-la-donnee-ouverte-de-qualite.md)
