@@ -144,13 +144,13 @@ Ces schémas facilitent la montée en qualité et le croisement des données pro
 
 ### **Identifier un schéma de données déjà existant**
 
-Il est possible d'identifier un schéma de données déjà existant **sur le site schema.data.gouv.fr**, qui référence une liste de schémas de données existants. Le site offre aussi la possibilité à tout utilisateur de soumettre de nouveaux schémas de données.&#x20;
+Il est possible d'identifier un schéma de données déjà existant **en consultant le site schema.data.gouv.fr**, qui référence une liste de schémas de données existants. Le site offre aussi la possibilité à tout utilisateur de soumettre de nouveaux schémas de données.&#x20;
 
 Lorsque les données que vous souhaitez faire circuler correspondent à un schéma existant, **il est conseillé de l’appliquer au plus près**.
 
 ### **Produire des données conforme à un schéma de données identifié**
 
-Si les données ne sont pas extraites d’un système d’information mais saisies manuellement, **il est conseillé d'utiliser** [**l’outil publier.etalab.studio**](https://publier.etalab.studio/) qui permet, à partir d’un schéma de données sélectionné, de saisir les valeurs de chaque information et ainsi de produire un fichier exhaustif et conforme.
+Si les données ne sont pas extraites d’un système d’information mais saisies manuellement, **il est possible d'utiliser** [**l’outil publier.etalab.studio**](https://publier.etalab.studio/) qui permet, à partir d’un schéma de données sélectionné, de saisir les valeurs de chaque information et ainsi de produire un fichier exhaustif et conforme.
 
 {% hint style="info" %}
 **Guide : Utiliser publier.etalab.studio pour saisir, valider et publier des données de qualité**

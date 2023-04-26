@@ -1,5 +1,7 @@
 # Bien documenter un jeu de données
 
+## &#x20;<a href="#description-generale-du-jeu-de-donnees" id="description-generale-du-jeu-de-donnees"></a>
+
 ## Description générale du jeu de données <a href="#description-generale-du-jeu-de-donnees" id="description-generale-du-jeu-de-donnees"></a>
 
 Il est conseillé de commencer la documentation par une description synthétique du jeu de données pour donner un aperçu rapide des informations mises à disposition.

@@ -1,15 +1,17 @@
 # Focus : Lier des données à un référentiel
 
-Il est important d'intégrer dans vos jeux de données des données pivots relevant d'un référentiel (cf. Structurer un jeu de données[ ](https://guides.etalab.gouv.fr/qualite/preparer-le-jeu-de-donnees/#cas-2-la-structure-de-vos-donnees-ne-correspond-a-aucun-schema-de-donnees-existant)Cas 1 - La structure de vos données ne correspond à aucun schéma de données).
+{% hint style="info" %}
+Il est important d'intégrer dans vos jeux de données des données pivots relevant d'un référentiel (cf. section "Structurer un jeu de données" - Cas 1 - La structure de vos données ne correspond à aucun schéma de données).
+{% endhint %}
 
 > **Exemple** : Mon jeu de données est une liste d'actions culturelles menées par ma région. Certaines de ces actions sont gérées par des associations. Il peut être intéressant de publier un jeu de données recensant ces actions avec un champ correspondant à l'identification des associations. Cet identifiant existe et est standardisé, il s'agit du numéro RNA, identifiant national des associations dont le répertoire est opéré par le ministère de l'intérieur.
 
 ## Pourquoi intégrer des données pivots dans un jeu de données ? <a href="#avantages" id="avantages"></a>
 
-L'intégration dans votre jeu de données de données pivots qui correspondent à un référentiel offre plusieurs avantages :
+L'intégration dans un jeu de données de données pivots qui correspondent à un référentiel présente plusieurs avantages :
 
 * **Une meilleure formalisation** : en se basant sur un référentiel, le producteur de données a l'assurance d'utiliser un format de données standard et partagé par un grand nombre de jeux de données ;
-* **Une meilleure synthèse** : en se basant sur un référentiel, le producteur évite l’abondance de détails et va à l’essentiel. L’obtention d’informations complémentaires se fera par le biais de la consultation du référentiel en lui-même ;
+* **Une meilleure synthèse** : en se basant sur un référentiel, le producteur évite l’abondance de détails et va à l’essentiel. L’obtention d’informations complémentaires se fera par le biais de la consultation du référentiel lui-même ;
 * **Une meilleure compréhension** : en intégrant dans son jeu de données des données correspondant à un référentiel, le producteur facilite la compréhension de celui-ci par les utilisateurs car il se réfère à un standard largement adopté ;
 * **Une meilleure réutilisation** : intégrer des données liées à un référentiel facilitera la réutilisation du jeu de données et permettra son enrichissement avec d'autres données partageant la même donnée pivot ;
 * **Une meilleure interopérabilité** : intégrer des données pivots facilite le lien avec des données de référence fiables et à jour.
@@ -22,13 +24,7 @@ Voici une liste non exhaustive de référentiels sur lesquels il est possible de
 
 Le [service public de la donnée (SPD)](https://www.data.gouv.fr/fr/pages/spd/reference/) vise à mettre à disposition avec un haut niveau de qualité les jeux de données de référence qui présentent un fort impact économique et social.&#x20;
 
-À ce jour, 9 jeux de données ont été identifiés comme des données de référence, parmi lesquels :&#x20;
-
-* **la** [**base Sirene**](https://www.data.gouv.fr/fr/datasets/base-sirene-des-entreprises-et-de-leurs-etablissements-siren-siret/) qui liste l'ensemble des entreprises françaises. Les identifiants principaux liés à cette base sont le N° SIREN (identifiant d'une unité légale) et le numéro SIRET (identifiant d'un établissement) ;
-* **La** [**base du répertoire national des associations (RNA)**](https://www.data.gouv.fr/fr/datasets/repertoire-national-des-associations/), qui répertorie l’ensemble des associations relevant de [la loi du 1er juillet 1901 relative au contrat d’association](https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=LEGITEXT000006069570). L'identifiant des associations est le numéro RNA ;
-* **Le** [**code officiel géographique (COG)**](https://www.data.gouv.fr/fr/datasets/code-officiel-geographique-cog/) qui décrit les codes et libellés des communes, des cantons, des arrondissements, des départements, des régions et des pays et territoires étrangers.
-
-Voici la liste complète des jeux de données de référence du service public de la donnée :&#x20;
+À ce jour, 9 jeux de données ont été identifiés comme des données de référence :&#x20;
 
 | Nom du jeu de données                                                                                                                                                                             | Variable(s) pivot(s) | Description                                                                                                                                                                       | Producteur                                                                                                                   |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
@@ -46,7 +42,7 @@ Voici la liste complète des jeux de données de référence du service public d
 
 ### Autres référentiels <a href="#les-autres-referentiels" id="les-autres-referentiels"></a>
 
-Des jeux de données standardisées et communément partagées avec le plus grand nombre peuvent être utilisés comme référentiels.
+Des jeux de données standardisées et communément partagées avec le plus grand nombre peuvent aussi être utilisés comme référentiels.
 
 > **Exemple** : L'identifiant unique d'une certification professionnelle est le [numéro RNCP](https://www.data.gouv.fr/fr/datasets/repertoire-national-des-certifications-professionnelles-et-repertoire-specifique/). Ce jeu de données ne fait pas partie du service public de la donnée mais est largement partagé par les acteurs du domaine de la formation professionnelle.
 
@@ -96,28 +92,32 @@ La mise en place de référentiels fait partie d'une stratégie de montée en qu
 
 ## Comment intégrer des adresses dans un jeu de données ? <a href="#le-cas-specifique-des-adresses" id="le-cas-specifique-des-adresses"></a>
 
-Il existe des référentiels pour décrire une adresse de manière unique. Le référentiel officiel d'adresse est **la** [**base d'adresse nationale (ou BAN précédemment listé)**](https://www.data.gouv.fr/fr/datasets/base-adresse-nationale/).&#x20;
+Il existe des référentiels pour décrire une adresse de manière unique.&#x20;
 
-* Si vous partez de zéro pour constituer votre jeu de données, il est pertinent de partir de la base adresse national pour décrire vos adresses.
+Le référentiel officiel d'adresse est **la** [**base d'adresse nationale (ou BAN précédemment listé)**](https://www.data.gouv.fr/fr/datasets/base-adresse-nationale/).&#x20;
+
+* Si vous partez de zéro pour constituer un jeu de données, il est pertinent de partir de la base adresse national pour décrire vos adresses.
 * Si vous travaillez sur un jeu de données qui contient déjà des adresses saisies, il peut s'avérer fastidieux de corriger manuellement l'ensemble des adresses erronées et vous pouvez obtenir une base d'adresse normalisée grâce à la méthode décrite ci-dessous.
 
 ### Le géocodage <a href="#le-geocodage" id="le-geocodage"></a>
 
 {% hint style="info" %}
+**Lexique : Géocodage**
+
 Le géocodage consiste à affecter des coordonnées géographiques à une adresse postale.&#x20;
 {% endhint %}
 
 Le géocodage peut être en partie automatisé grâce à des outils proposés par Etalab.
 
-Le site [https://adresse.data.gouv.fr/](https://adresse.data.gouv.fr/) permet de géocoder une liste d'adresse via un appel à une API ou par le dépôt de fichier csv.
+**Le site** [**https://adresse.data.gouv.fr/**](https://adresse.data.gouv.fr/) permet de géocoder une liste d'adresse via un appel à une API ou par le dépôt de fichier csv.
 
 Il permet aussi, à partir d'un jeu de données contenant des adresses déjà saisies, de retourner un jeu de données enrichi :
 
 * de coordonnées géographiques (longitude/latitude) ;
-* Des adresses « corrigées » récupérées de la BAN.
+* des adresses « corrigées » récupérées de la BAN.
 
 Le site [adresse.data.gouv.fr](https://adresse.data.gouv.fr/) est limité à des utilisations ponctuelles et des volumétries de données considérées faibles (moins d'un million de lignes).&#x20;
 
-Pour géocoder davantage de données (plusieurs millions de lignes), il est recommandé d'installer votre propre environnement de géocodage, en utilisant par exemple le géocodeur [Addok](https://addok.readthedocs.io/fr/latest/). Vous pouvez consulter des ressources sur [GitHub](https://github.com/etalab/addok-docker) pour vous aider dans l'installation de votre environnement.
+Pour géocoder davantage de données (plusieurs millions de lignes), il est recommandé d'installer votre propre environnement de géocodage, en utilisant par exemple le géocodeur [Addok](https://addok.readthedocs.io/fr/latest/). Des ressources sont disponibles sur [GitHub](https://github.com/etalab/addok-docker) pour vous aider dans l'installation de votre environnement.
 
-Quelle que soit la méthode utilisée, le processus de géocodage retournera une liste d'adresses standardisées avec leurs coordonnées géographiques associées. De plus, vous aurez aussi accès à une information `geo_score` correspondant au score de confiance que le géocodeur accorde à l'adresse retournée. Cet indicateur peut être utile à garder dans votre jeu de données final, il donnera une indication aux utilisateurs sur la performance du géocodage de chaque adresse.
+Quelle que soit la méthode utilisée, le processus de géocodage retournera une liste d'adresses standardisées avec leurs coordonnées géographiques associées. Il donne aussi accès à une information `geo_score` correspondant au score de confiance que le géocodeur accorde à l'adresse retournée. Cet indicateur peut être utile à garder dans un jeu de données final, il donnera une indication aux utilisateurs sur la performance du géocodage de chaque adresse.
