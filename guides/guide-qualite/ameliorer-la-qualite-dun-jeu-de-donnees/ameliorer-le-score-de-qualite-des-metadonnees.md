@@ -1,11 +1,13 @@
 # Améliorer le score de qualité des métadonnées
 
-data.gouv.fr a mis en place un score de qualité des métadonnées pour répondre principalement aux deux problématiques suivantes :
+Un score de qualité des métadonnées a été mis en place sur data.gouv.fr pour répondre principalement à deux problématiques :
 
 * Les réutilisateurs de données peinent à identifier les jeux de données de qualité et à évaluer si tel ou tel jeu de donnée est digne d’intérêt ;
-* Les producteurs de données ne sont pas suffisamment incités et accompagnés à améliorer la qualité de leurs données. Ce score est encore en phase d’expérimentation.
+* Les producteurs de données ne sont pas suffisamment incités et accompagnés à améliorer la qualité de leurs données.
 
-Le score de qualité des métadonnées vous permet d'identifier ce qui vous permettra d'améliorer la qualité de vos données.&#x20;
+Grâce au score de qualité des métadonnées, **il est possible d'identifier vos axes d'amélioration et ce qui vous permettra d'améliorer la qualité de vos données**.
+
+
 
 Les critères sont détaillés ci-dessous :&#x20;
 
@@ -18,6 +20,7 @@ Les critères sont détaillés ci-dessous :&#x20;
 | Couverture spatiale        | <p>- La couverture spatiale est renseignée.<br>- La granularité spatiale est renseignée.</p>                                                                                      |
 | Couverture temporelle      | La couverture temporelle des données est renseignée.                                                                                                                              |
 
-Le poids de chaque critère sera ajusté en fonction de [vos retours](https://app.evalandgo.com/form/372035/s/?id=JTk5cSU5NWwlOUMlQTk%3D\&a=JTk3cCU5M2glOTklQUU%3D).&#x20;
+Ce score est encore en phase d’expérimentation :&#x20;
 
-De nouveaux critères seront ajoutés progressivement notamment pour intégrer la notion de schéma de données.
+* Le poids de chaque critère sera ajusté en fonction de [vos retours](https://app.evalandgo.com/form/372035/s/?id=JTk5cSU5NWwlOUMlQTk%3D\&a=JTk3cCU5M2glOTklQUU%3D) ;&#x20;
+* De nouveaux critères seront ajoutés progressivement notamment pour intégrer la notion de schéma de données.

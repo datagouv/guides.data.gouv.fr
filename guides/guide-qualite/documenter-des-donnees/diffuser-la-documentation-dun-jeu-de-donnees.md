@@ -1,6 +1,8 @@
 # Diffuser la documentation d'un jeu de données
 
-Il est conseillé de proposer votre documentation en ligne et non sous format PDF. Une documentation en ligne permet de s’assurer que les réutilisateurs des données disposent toujours de la version la plus à jour.&#x20;
+Il est conseillé de :&#x20;
+
+* [ ] **Proposer votre documentation en ligne et non sous format PDF** : une documentation en ligne permet de s’assurer que les réutilisateurs des données disposent toujours de la version la plus à jour.&#x20;
 
 Des portails de données, tels que [data.gouv.fr](https://www.data.gouv.fr/), proposent des espaces dédiés à la documentation du jeu de données.&#x20;
 
