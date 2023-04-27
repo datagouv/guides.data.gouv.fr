@@ -18,13 +18,13 @@ Dans cette section, vous apprendrez :&#x20;
 
 
 
-Ce guide sur les schémas de données résulte d'une co-rédaction entre les équipes d'[Etalab](https://www.etalab.gouv.fr/) et d'[OpenDataFrance](https://www.opendatafrance.net/).\
+_Ce guide sur les schémas de données résulte d'une co-rédaction entre les équipes d'_[_Etalab_](https://www.etalab.gouv.fr/) _et d'_[_OpenDataFrance_](https://www.opendatafrance.net/)_._\
 \
-Il s'inspire du contenu rédigé par de nombreux partenaires, listés par ordre alphabétique :
+_Il s'inspire du contenu rédigé par de nombreux partenaires, listés par ordre alphabétique :_
 
-* [Charles Nepote](https://twitter.com/charlesnepote)
-* [Datactivist](https://datactivist.coop/)
-* [La FING](https://fing.org/)
-* [OpenDataFrance](http://www.opendatafrance.net/)
+* [_Charles Nepote_](https://twitter.com/charlesnepote)
+* [_Datactivist_](https://datactivist.coop/)
+* [_La FING_](https://fing.org/)
+* [_OpenDataFrance_](http://www.opendatafrance.net/)
 
-Merci à eux !
+_Merci à eux !_
