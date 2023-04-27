@@ -6,8 +6,8 @@
 
 * [💎 Guide qualité](guides/guide-qualite/README.md)
   * [Comprendre la notion de qualité d'un jeu de données](guides/guide-qualite/comprendre-la-notion-de-qualite-dun-jeu-de-donnees/README.md)
-    * [Définir la qualité d'un jeu de données](guides/guide-qualite/comprendre-la-notion-de-qualite-dun-jeu-de-donnees/definir-la-qualite-dun-jeu-de-donnees.md)
-    * [Evaluer le niveau de qualité d'un jeu de données](guides/guide-qualite/comprendre-la-notion-de-qualite-dun-jeu-de-donnees/evaluer-le-niveau-de-qualite-dun-jeu-de-donnees.md)
+    * [Définir la qualité d'un jeu de données](guides/guide-qualite/comprendre-la-notion-de-qualite-dun-jeu-de-donnees/comment-definir-la-qualite-dun-jeu-de-donnees.md)
+    * [Evaluer le niveau de qualité d'un jeu de données](guides/guide-qualite/comprendre-la-notion-de-qualite-dun-jeu-de-donnees/comment-evaluer-le-niveau-de-qualite-dun-jeu-de-donnees.md)
   * [Préparer un jeu de données de qualité](guide-qualite/preparer-le-jeu-de-donnees.md)
     * [Extraire un jeu de données d'un système d'information](guides/guide-qualite/preparer-un-jeu-de-donnees-de-qualite/extraire-un-jeu-de-donnees-dun-systeme-dinformation.md)
     * [Structurer un jeu de données](guides/guide-qualite/preparer-un-jeu-de-donnees-de-qualite/structurer-un-jeu-de-donnees.md)
@@ -20,6 +20,7 @@
     * [Connaître et suivre les usages d'un jeu de données](guides/guide-qualite/ameliorer-la-qualite-dun-jeu-de-donnees/comprendre-les-usages-dun-jeu-de-donnees.md)
     * [Mettre en place une stratégie organisationnelle](guides/guide-qualite/ameliorer-la-qualite-dun-jeu-de-donnees/mettre-en-place-une-strategie-organisationnelle.md)
   * [Les schémas de données](guide-qualite/les-schemas-de-donnees/README.md)
+    * [Comprendre les bénéfices d'un schéma de données](guides/guide-qualite/les-schemas-de-donnees/comprendre-les-benefices-dun-schema-de-donnees.md)
     * [Comprendre le cycle de vie de la donnée ouverte de qualité](guides/guide-qualite/les-schemas-de-donnees/comprendre-le-cycle-de-vie-de-la-donnee-ouverte-de-qualite.md)
     * [Créer un schéma de données](guides/guide-qualite/les-schemas-de-donnees/creer-un-schema-de-donnees/README.md)
       * [Etape 1 : Phase d'investigation](guides/guide-qualite/les-schemas-de-donnees/creer-un-schema-de-donnees/etape-1-phase-dinvestigation.md)

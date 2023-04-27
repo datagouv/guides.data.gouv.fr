@@ -1,4 +1,4 @@
-# Comment définir la qualité d'un jeu de données ?
+# Définir la qualité d'un jeu de données
 
 Pour une donnée, **la notion de qualité dépend grandement de l'usage qui en est fait**.&#x20;
 

@@ -17,7 +17,7 @@ Il est possible de combiner approches quantitatives et qualitatives pour cerner 
 Selon les moyens disponibles, plusieurs leviers sont disponibles :&#x20;
 
 * [ ] **Mesurer les volumes d'usage** : en suivant les métriques des jeux de données publiés proposés par data.gouv.fr ou sur son propre portail (nombre de consultations, nombre de téléchargements, nombre de réutilisations, etc.)&#x20;
-* [ ] **Répondre aux commentaires et aux questions soumis sur data.gouv.fr**, dans lesquels les réutilisateurs font régulièrement remonter leurs besoins. D'après [l'analyse réalisée par des étudiantes et des étudiants de l'Université Bordeaux Montaigne](https://www.data.gouv.fr/fr/posts/que-se-dit-il-dans-les-commentaires-sur-data-gouv-fr/), de nombreux commentaires peuvent être catégorisés comme relevant de problématiques d'accessibilité, suivie de celles d'actualisation des données puis des questions de fiabilité et d'exploitabilité des données.&#x20;
+* [ ] **Répondre aux commentaires et aux questions soumis sur data.gouv.fr**, dans lesquels les réutilisateurs font régulièrement remonter leurs besoins. D'après [l'analyse réalisée par des étudiantes et des étudiants de l'Université Bordeaux Montaigne](https://www.data.gouv.fr/fr/posts/que-se-dit-il-dans-les-commentaires-sur-data-gouv-fr/), sur data.gouv.fr, de nombreux commentaires peuvent être catégorisés comme relevant de problématiques d'accessibilité, suivie de celles d'actualisation des données puis des questions de fiabilité et d'exploitabilité des données.&#x20;
 
 {% hint style="info" %}
 Exemple : \

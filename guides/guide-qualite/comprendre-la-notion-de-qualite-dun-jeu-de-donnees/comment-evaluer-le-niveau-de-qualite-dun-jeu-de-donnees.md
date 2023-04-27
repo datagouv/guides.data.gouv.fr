@@ -1,4 +1,4 @@
-# Comment évaluer le niveau de qualité d'un jeu de données ?
+# Evaluer le niveau de qualité d'un jeu de données
 
 Plusieurs critères permettent d'évaluer le niveau de qualité d'un jeu de données, notamment :&#x20;
 
