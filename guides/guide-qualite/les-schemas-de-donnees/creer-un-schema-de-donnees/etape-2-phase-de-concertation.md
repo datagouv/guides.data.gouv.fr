@@ -7,40 +7,38 @@ La phase de concertation est la phase centrale de la création d’un schéma de
 
 
 
-C'est l’étape où plusieurs parties prenantes (producteurs, réutilisateurs, experts métiers et techniques) se rassemblent pour définir et spécifier les éléments essentiels à la constitution de ce schéma.
+C'est l’étape où plusieurs parties prenantes (producteurs, réutilisateurs, experts métiers et techniques) se rassemblent pour définir et spécifier les éléments essentiels à la constitution du schéma.
 {% endhint %}
 
-## Que signifie spécifier un schéma de données ?
+## Comment spécifier un schéma de données ?
 
 Pour spécifier un schéma de données, il est nécessaire de définir :
 
 * [ ] **les champs** ;
-* [ ] **les types associés de ces champs** (une date, un nombre, une chaîne de caractère etc.) ;
-* [ ] **les contraintes de chaque champ** (entier positif, texte dans une liste fermée etc.) ;
+* [ ] **les types associés de ces champs** (une date, un nombre, une chaîne de caractère, etc.) ;
+* [ ] **les contraintes de chaque champ** (entier positif, texte dans une liste fermée, etc.) ;
 * [ ] **la description de chaque champ** ;
 * [ ] **une documentation associée** au schéma de données décrivant le contexte, les acteurs, les cas d’usage.
 
-Pour obtenir ce résultat, il peut être utile de réaliser au préalable un [modèle de données](https://guides.etalab.gouv.fr/qualite/documenter-les-donnees/#description-du-modele-de-donnees) qui présente la structuration des informations.
-
-La modélisation ne prend pas en compte les contraintes d'implémentation, elle est un outil de dialogue entre les différents intervenants.
+Pour obtenir ce résultat, il peut être utile de réaliser au préalable un [modèle de données](https://guides.etalab.gouv.fr/qualite/documenter-les-donnees/#description-du-modele-de-donnees) qui présente la structuration des informations. La modélisation ne prend pas en compte les contraintes d'implémentation, elle est un outil de dialogue entre les différents intervenants.
 
 ## Comment organiser la collaboration entre les différentes parties prenantes autour d'un schéma de données ? <a href="#procedure-de-collaboration" id="procedure-de-collaboration"></a>
 
-Nous conseillons de mener cette phase de concertation en travaillant sur **un document partagé**, accessible en ligne, tel qu’un [Framapad](https://framapad.org/) ou Google Doc. L’important est que plusieurs contributeurs puissent contribuer (modifier ou mettre des commentaires) sans avoir besoin d’être présents physiquement ou de recevoir des versions intermédiaires par e-mails.
+Il est conseillé de :&#x20;
 
-En complément de ce document partagé, nous vous conseillons d’organiser **plusieurs réunions afin de débattre du schéma de données à produire** (et de l'éventuel modèle de données construit).&#x20;
-
-L’implication d’une multitude d’acteurs est clé : vous devez rassembler des producteurs, experts métiers, experts techniques et réutilisateurs. La richesse des profils et des enjeux permettra d’aboutir à la solution la plus adaptée.
+* [ ] **travailler sur un document partagé**, accessible en ligne, tel qu'un Framapad ou Google Doc : l'important est que plusieurs contributeurs puissent contribuer (modifier ou mettre des commentaires) sans avoir besoin d'être présents physiquement ou de recevoir des versions intermédiaires par email.&#x20;
+* [ ] en complément du document partagé, **organiser plusieurs réunions** afin de débattre du schéma de données à produire (et de l'éventuel modèle de données construit).
+* [ ] **impliquer une multitude d'acteurs** : vous devez rassembler des producteurs, experts métiers, experts techniques et réutilisateurs. La richesse des profils et des enjeux permettra d’aboutir à la solution la plus adaptée.
 
 {% hint style="info" %}
 **Référencer votre schéma**
 
-Référencer votre schéma sur [schema.data.gouv.fr](https://schema.data.gouv.fr/) vous permettra de bénéficier de conseils de la part d’Etalab et de ses partenaires institutionnels et associatifs. Découvrez comment [référencer votre schéma en cours de concertation](https://guides.etalab.gouv.fr/producteurs-schemas/integration-schema-datagouv).
+Référencer votre schéma sur [schema.data.gouv.fr](https://schema.data.gouv.fr/) vous permettra de bénéficier de conseils de la part d’Etalab et de ses partenaires institutionnels et associatifs. La marche à suivre pour référencer votre schéma est détaillée ici.
 {% endhint %}
 
 ## Comment construire un schéma de données de qualité ? <a href="#grands-principes" id="grands-principes"></a>
 
-Nous avons listé ci-dessous plusieurs conseils qui vous permettront de construire un schéma de données de qualité.
+Pour construire un schéma de données de qualité, il est conseillé de :&#x20;
 
 * [ ] **Construire un** [**modèle de données**](https://guides.etalab.gouv.fr/qualite/documenter-les-donnees/#description-du-modele-de-donnees)**.** Il est important de disposer d'un outil visuel qui présente les entités "métier" mais surtout les dépendances et relations entre ces "entités". Ce modèle peut être enrichi de tous les attributs nécessaires au fur et à mesure de la concertation.
 * [ ] **Profiter de l’existant.** De nombreux standards existent déjà, qu’ils concernent des formats de données ou des formats de champs. Certains standards sont devenus incontournables aujourd’hui, comme [ISO-8601](https://fr.wikipedia.org/wiki/ISO\_8601) pour les dates ou [WGS 84](https://fr.wikipedia.org/wiki/WGS\_84) pour les coordonnées géographiques.
@@ -49,7 +47,7 @@ Nous avons listé ci-dessous plusieurs conseils qui vous permettront de construi
 <!---->
 
 * D'un côté les producteurs, qui connaissent la réalité de leurs données, de la collecte, etc. et qui ont leurs propres usages.
-* De l'autre les usagers, avec leurs besoins et leurs difficultés, qu’ils soient déjà connus, « sous le radar » ou en devenir.
+* De l'autre les réutilisateurs, avec leurs besoins et leurs difficultés, qu’ils soient déjà connus, « sous le radar » ou en devenir.
 
 <!---->
 
@@ -61,14 +59,14 @@ Nous avons listé ci-dessous plusieurs conseils qui vous permettront de construi
 {% hint style="info" %}
 **Exemples à votre disposition**
 
-Vous pouvez parcourir des fichiers de schémas sur [schema.data.gouv.fr](https://schema.data.gouv.fr/) pour faciliter votre travail. Consultez par exemple [le schéma des lieux de stationnement](https://schema.data.gouv.fr/etalab/schema-stationnement/latest.html).e
+Il est possible de retrouver des fichiers de schémas sur [schema.data.gouv.fr](https://schema.data.gouv.fr/) (exemple : [le schéma des lieux de stationnement](https://schema.data.gouv.fr/etalab/schema-stationnement/latest.html)).&#x20;
 
-En complément, le[ guide dédié à la préparation de jeux de données](https://guides.etalab.gouv.fr/qualite/) pourrait vous être utile pour définir votre schéma.
+En complément, le[ guide dédié à la préparation de jeux de données](https://guides.etalab.gouv.fr/qualite/) pourrait être utile pour définir votre schéma.
 {% endhint %}
 
 ## Points de sortie <a href="#points-de-sortie" id="points-de-sortie"></a>
 
 À l’issue de cette phase, vous devriez :
 
-* Avoir réuni divers partenaires afin de collaborer sur votre schéma de données ;
+* Avoir réuni différents partenaires afin de collaborer sur votre schéma de données ;
 * Avoir décidé des différents champs de votre schéma de données, leurs types et définitions et produit une documentation associée.

@@ -1,13 +1,13 @@
 # Créer un schéma de données
 
-Ce guide propose de vous accompagner lors des phases nécessaires à la création d’un schéma de données :&#x20;
+La création d'un schéma de données se décompose en 4 phases :&#x20;
 
-1. **Phase d’investigation** : envisager de créer un schéma de données ;
-2. **Phase de concertation** : rassembler plusieurs parties prenantes pour créer un schéma de données ;
-3. **Phase de construction** : implémenter le schéma de données obtenu après la phase de concertation ;
-4. **Phase de maintien et de promotion** : faire la promotion d'un schéma auprès d'autres parties prenantes et le faire évoluer si besoin.&#x20;
+1. **Investigation** : envisager de créer un schéma de données ;
+2. **Concertation** : rassembler plusieurs parties prenantes pour créer un schéma de données ;
+3. **Construction** : implémenter le schéma de données obtenu après la phase de concertation ;
+4. **Maintien et promotion** : faire la promotion d'un schéma auprès d'autres parties prenantes et le faire évoluer si besoin.
 
-Il propose un processus à suivre, des bonnes pratiques et des outils.
+Dans cette section sont proposés un processus à suivre, des bonnes pratiques et des outils.&#x20;
 
 {% hint style="info" %}
 **Conseil de lecture**
