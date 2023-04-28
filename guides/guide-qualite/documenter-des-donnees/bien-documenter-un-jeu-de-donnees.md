@@ -22,7 +22,9 @@ La description générale peut couvrir les points suivants :&#x20;
 * [ ] **La description du format des fichiers** ;
 * [ ] **La fréquence de mise à jour**.
 
-> **Exemple** : Description générale du [jeu de données du Répertoire national des élus](https://www.data.gouv.fr/fr/datasets/repertoire-national-des-elus-1/) ![Description Répertoire national des élus](https://guides.etalab.gouv.fr/assets/img/description\_rne.6a960f74.png)
+> **Exemple** : Description générale du [jeu de données du Répertoire national des élus](https://www.data.gouv.fr/fr/datasets/repertoire-national-des-elus-1/)&#x20;
+
+<figure><img src="https://guides.etalab.gouv.fr/assets/img/description_rne.6a960f74.png" alt=""><figcaption><p>Description générale du <a href="https://www.data.gouv.fr/fr/datasets/repertoire-national-des-elus-1/">jeu de données du Répertoire national des élus</a> </p></figcaption></figure>
 
 ## Description du mode de production des données <a href="#description-du-mode-de-production-des-donnees" id="description-du-mode-de-production-des-donnees"></a>
 

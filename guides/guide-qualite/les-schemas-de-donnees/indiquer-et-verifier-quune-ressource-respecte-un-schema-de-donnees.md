@@ -1,4 +1,4 @@
-# Indiquer qu'une ressource respecte un schéma de données
+# Indiquer et vérifier qu'une ressource respecte un schéma de données
 
 Une fois qu'un schéma est finalisé et publié [schema.data.gouv.fr](https://schema.data.gouv.fr/), il est temps de produire des données conformes à ce schéma.
 

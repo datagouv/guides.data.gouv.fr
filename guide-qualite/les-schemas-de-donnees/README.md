@@ -41,6 +41,7 @@ Dans cette section, vous apprendrez à réaliser l'ensemble des étapes du cycle
 * Pourquoi il est intéressant d'utiliser un schéma de données ;
 * Comment créer un schéma de données ;
 * Comment référencer un schéma de données sur [schema.data.gouv.fr](https://schema.data.gouv.fr/) ;
+* Comment produire des données en conformité avec un schéma de données ;
 * Comment valider vos données par rapport à un schéma de données ;
 * Comment indiquer qu'une ressource que vous créez respecte un schéma de données.
 

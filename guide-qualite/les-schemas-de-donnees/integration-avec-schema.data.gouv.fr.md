@@ -1,4 +1,4 @@
-# S'intégrer avec schema.data.gouv.fr
+# Intégrer un schéma de données à schema.data.gouv.fr
 
 {% hint style="info" %}
 **Qu'est-ce que schema.data.gouv.fr ?**&#x20;
