@@ -1,3 +1,10 @@
 # Comment référencer un schéma de données ?
 
-Vous pouvez référencer votre schéma de données en ouvrant un ticket sur GitHub ou en entrant en contact [avec notre équipe par e-mail](mailto:schema@data.gouv.fr). Nous avons créé [une page dédiée pour détailler la procédure](https://schema.data.gouv.fr/contribuer.html). Nous tenons à jour une liste de schémas actuellement en phase d’investigation ou de construction sur cette même page.
+Pour référencer un schéma de données, vous pouvez :&#x20;
+
+* **ouvrir un sticket sur GitHub**
+* **entrer en contact** [**avec notre équipe par e-mail**](mailto:schema@data.gouv.fr)
+
+U[ne page dédiée détaille la procédure](https://schema.data.gouv.fr/contribuer.html).&#x20;
+
+Une liste de schémas de données actuellement en phase d'investigation ou de construction est tenue à jour sur cette même page.
