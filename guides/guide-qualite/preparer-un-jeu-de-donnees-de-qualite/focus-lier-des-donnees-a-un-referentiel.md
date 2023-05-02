@@ -94,7 +94,7 @@ La mise en place de référentiels fait partie d'une stratégie de montée en qu
 
 Il existe des référentiels pour décrire une adresse de manière unique.&#x20;
 
-Le référentiel officiel d'adresse est **la** [**base d'adresse nationale (ou BAN précédemment listé)**](https://www.data.gouv.fr/fr/datasets/base-adresse-nationale/).&#x20;
+Le référentiel officiel d'adresse est la [**base d'adresse nationale (ou BAN précédemment listé)**](https://www.data.gouv.fr/fr/datasets/base-adresse-nationale/).&#x20;
 
 * Si vous partez de zéro pour constituer un jeu de données, il est pertinent de partir de la base adresse national pour décrire vos adresses.
 * Si vous travaillez sur un jeu de données qui contient déjà des adresses saisies, il peut s'avérer fastidieux de corriger manuellement l'ensemble des adresses erronées et vous pouvez obtenir une base d'adresse normalisée grâce à la méthode décrite ci-dessous.

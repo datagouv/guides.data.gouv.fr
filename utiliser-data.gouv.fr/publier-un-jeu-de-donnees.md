@@ -62,7 +62,7 @@ Lors de l’étape “Ajoutez vos ressources”, deux options vous sont proposé
 
 
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="API" %}

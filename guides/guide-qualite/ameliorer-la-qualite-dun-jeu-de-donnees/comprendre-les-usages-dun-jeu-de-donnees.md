@@ -16,16 +16,16 @@ Il est possible de combiner approches quantitatives et qualitatives pour cerner 
 
 Selon les moyens disponibles, plusieurs leviers sont disponibles :&#x20;
 
-* [ ] **Mesurer les volumes d'usage** : en suivant les métriques des jeux de données publiés proposés par data.gouv.fr ou sur son propre portail (nombre de consultations, nombre de téléchargements, nombre de réutilisations, etc.)&#x20;
-* [ ] **Répondre aux commentaires et aux questions soumis sur data.gouv.fr**, dans lesquels les réutilisateurs font régulièrement remonter leurs besoins. D'après [l'analyse réalisée par des étudiantes et des étudiants de l'Université Bordeaux Montaigne](https://www.data.gouv.fr/fr/posts/que-se-dit-il-dans-les-commentaires-sur-data-gouv-fr/), sur data.gouv.fr, de nombreux commentaires peuvent être catégorisés comme relevant de problématiques d'accessibilité, suivie de celles d'actualisation des données puis des questions de fiabilité et d'exploitabilité des données.&#x20;
+* **Mesurer les volumes d'usage** : en suivant les métriques des jeux de données publiés proposés par data.gouv.fr ou sur son propre portail (nombre de consultations, nombre de téléchargements, nombre de réutilisations, etc.)&#x20;
+* **Répondre aux commentaires et aux questions soumis sur data.gouv.fr**, dans lesquels les réutilisateurs font régulièrement remonter leurs besoins. D'après [l'analyse réalisée par des étudiantes et des étudiants de l'Université Bordeaux Montaigne](https://www.data.gouv.fr/fr/posts/que-se-dit-il-dans-les-commentaires-sur-data-gouv-fr/), sur data.gouv.fr, de nombreux commentaires peuvent être catégorisés comme relevant de problématiques d'accessibilité, suivie de celles d'actualisation des données puis des questions de fiabilité et d'exploitabilité des données.&#x20;
 
 <figure><img src="../../../.gitbook/assets/Apr-28-2023 16-39-21.gif" alt=""><figcaption><p>Echantillon de discussions sur le jeu de données "Demandes de valeur foncière"</p></figcaption></figure>
 
-* [ ] **Suivre les réutilisations ajoutées sur ses jeux de données sur data.gouv.fr et inciter au référencement**&#x20;
+* **Suivre les réutilisations ajoutées sur ses jeux de données sur data.gouv.fr et inciter au référencement**&#x20;
 
 <figure><img src="../../../.gitbook/assets/Apr-28-2023 16-42-05.gif" alt=""><figcaption><p>Consultation des réutilisations références sur le jeu de données "Prix des carburants - Flux instantané"</p></figcaption></figure>
 
-* [ ] **Réaliser des enquêtes auprès des réutilisateurs**
+* **Réaliser des enquêtes auprès des réutilisateurs**
 
 {% hint style="info" %}
 **Exemples :**&#x20;
@@ -34,7 +34,7 @@ Selon les moyens disponibles, plusieurs leviers sont disponibles :&#x20;
 * En décembre 2022, le ministère de la Culture a lancé [une consultation publique](https://www.culture.gouv.fr/Thematiques/Innovation-numerique/Actualites/Open-data-decouvrez-les-resultats-de-la-consultation) sur l'ouverture des données publiques culturelles. Cette consultation visait à recueillir les besoins et les remarques des usagers concernant les jeux de données déjà ouverts et ceux qui auraient vocation à être ouverts.&#x20;
 {% endhint %}
 
-* [ ] **Animer des communautés de réutilisateurs**, notamment en organisant régulièrement des ateliers de discussions entre producteurs et réutilisateurs ou en proposant un espace d'échange en ligne
+* **Animer des communautés de réutilisateurs**, notamment en organisant régulièrement des ateliers de discussions entre producteurs et réutilisateurs ou en proposant un espace d'échange en ligne
 
 {% hint style="info" %}
 **Exemple :**&#x20;
@@ -42,7 +42,7 @@ Selon les moyens disponibles, plusieurs leviers sont disponibles :&#x20;
 L'Institut National de l'Information Géographique et Forestière (IGN) organise un certain nombre d'événements mettant à l'honneur les réutilisateurs. Il propose également des conférences, des webinaires de prise en main des différents services ainsi que des tutoriels d'accompagnement.
 {% endhint %}
 
-* [ ] **Réaliser des entretiens avec les principaux réutilisateurs**
+* **Réaliser des entretiens avec les principaux réutilisateurs**
 
 {% hint style="info" %}
 **Exemple**&#x20;

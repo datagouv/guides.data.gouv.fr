@@ -17,14 +17,14 @@ Il est conseillé de commencer la documentation par une description synthétique
 
 La description générale peut couvrir les points suivants :&#x20;
 
-* [ ] **Une description générale des données** ;
-* [ ] **La liste des fichiers mis à disposition** ;
-* [ ] **La description du format des fichiers** ;
-* [ ] **La fréquence de mise à jour**.
+* **Une description générale des données** ;
+* **La liste des fichiers mis à disposition** ;
+* **La description du format des fichiers** ;
+* **La fréquence de mise à jour**.
 
 > **Exemple** : Description générale du [jeu de données du Répertoire national des élus](https://www.data.gouv.fr/fr/datasets/repertoire-national-des-elus-1/)&#x20;
 
-<figure><img src="https://guides.etalab.gouv.fr/assets/img/description_rne.6a960f74.png" alt=""><figcaption><p>Description générale du <a href="https://www.data.gouv.fr/fr/datasets/repertoire-national-des-elus-1/">jeu de données du Répertoire national des élus</a> </p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Description générale du <a href="https://www.data.gouv.fr/fr/datasets/repertoire-national-des-elus-1/">jeu de données du Répertoire national des élus</a> </p></figcaption></figure>
 
 ## Description du mode de production des données <a href="#description-du-mode-de-production-des-donnees" id="description-du-mode-de-production-des-donnees"></a>
 
@@ -34,10 +34,10 @@ La description du mode de production du jeu de données permet au réutilisateur
 
 Il est conseillé de préciser :&#x20;
 
-* [ ] **comment les données ont été produites** (saisie manuelle, collecte automatique, etc.) ;&#x20;
-* [ ] **qui sont les acteurs producteurs des données** et si les données sont produites par plusieurs acteurs, le modèle de gouvernance mis en place pour centraliser les données ;&#x20;
-* [ ] **si les données sont exhaustives et si elles présentent des limites dans leur qualité** ;
-* [ ] **les points d'attention et précautions d'usage** pour manipuler ces données.
+* **comment les données ont été produites** (saisie manuelle, collecte automatique, etc.) ;&#x20;
+* **qui sont les acteurs producteurs des données** et si les données sont produites par plusieurs acteurs, le modèle de gouvernance mis en place pour centraliser les données ;&#x20;
+* **si les données sont exhaustives et si elles présentent des limites dans leur qualité** ;
+* **les points d'attention et précautions d'usage** pour manipuler ces données.
 
 {% hint style="info" %}
 Certains jeux de données ne peuvent pas être utilisés à certaines fins ou possèdent des limitations qui rendent impossible certaines analyses.&#x20;
@@ -65,8 +65,8 @@ S'ils peuvent être utilisés dans des contextes proches, les termes "schéma" e
 
 Il est conseillé de :&#x20;
 
-* [ ] **Faire apparaître le modèle de données à l’aide de schémas et de tableaux**
-* [ ] Si le jeu de données se compose de plusieurs entités, **faire apparaître les relations entre elles**.
+* **Faire apparaître le modèle de données à l’aide de schémas et de tableaux**
+* Si le jeu de données se compose de plusieurs entités, **faire apparaître les relations entre elles**.
 
 Une fois le modèle établi, il convient de définir le découpage en fichiers. Il est possible de :&#x20;
 
@@ -74,27 +74,29 @@ Une fois le modèle établi, il convient de définir le découpage en fichiers. 
 * créer un fichier par entité
 
 > **Exemple** : [La documentation](https://mtes-mct.github.io/secmar-documentation/schema.html) du jeu de données des opérations de sauvetage en mer décrit le modèle de données utilisé. Ce modèle de données permet de comprendre rapidement les relations qui unissent les différentes entités du jeu de données. Dans cet exemple, il a été choisi d'associer un fichier par entité.
->
-> &#x20;![Modèle de données SECMAR](https://guides.etalab.gouv.fr/assets/img/schema\_secmar.37dd98f3.png)
+
+<figure><img src="https://guides.etalab.gouv.fr/assets/img/schema_secmar.37dd98f3.png" alt=""><figcaption></figcaption></figure>
 
 ## Description du schéma de données <a href="#description-du-schema-de-donnees" id="description-du-schema-de-donnees"></a>
 
 Si vous publiez des données tabulaires, il est conseillé de produire un tableau récapitulatif indiquant, pour chaque colonne :&#x20;
 
-* [ ] **le nom de la colonne**
-* [ ] **son type de données** (entier, chaîne de caractères, nombre décimal etc.)
-* [ ] **la description de la donnée contenue dans cette colonne**
-* [ ] **une ou plusieurs valeurs d’exemple**
+* **le nom de la colonne**
+* **son type de données** (entier, chaîne de caractères, nombre décimal etc.)
+* **la description de la donnée contenue dans cette colonne**
+* **une ou plusieurs valeurs d’exemple**
 
 Cela constituera une base solide en vue de la création d'un schéma de données, dont le processus est détaillé [ici](https://guides.etalab.gouv.fr/producteurs-schemas/).
 
-> **Exemple :** La documentation du jeu de données de sauvetage en mer présente un tableau récapitulatif des différentes colonnes. La description des champs permet de faire le lien avec le fichier de données, ce qui facilite la lecture des données. ![Descriptif des colonnes du jeu de données SECMAR](https://guides.etalab.gouv.fr/assets/img/table\_secmar.561dfb7c.png)
+> **Exemple :** La documentation du jeu de données de sauvetage en mer présente un tableau récapitulatif des différentes colonnes. La description des champs permet de faire le lien avec le fichier de données, ce qui facilite la lecture des données.&#x20;
+
+<figure><img src="https://guides.etalab.gouv.fr/assets/img/table_secmar.561dfb7c.png" alt=""><figcaption></figcaption></figure>
 
 Les termes employés dans un jeu de données sont propres à un environnement métier.&#x20;
 
 S’il existe des termes complexes ou des énumérations, il est conseillé de :&#x20;
 
-* [ ] **Fournir un lexique de ces valeurs**
+* **Fournir un lexique de ces valeurs**
 
 Cet effort de définition fait gagner un temps considérable au réutilisateur et permet de prévenir des contre-sens dans l’exploitation des données.
 
@@ -133,9 +135,7 @@ En pratique, il est souhaitable que le modèle de données et la nature de vos d
 
 Toutefois, des changements dans la structure des données, dans le mode de collecte ou dans les dispositions réglementaires peuvent affecter le jeu de données.&#x20;
 
-Dans cette situation, il est conseillé de :&#x20;
-
-* [ ] **Tenir une liste de ces changements**
+Dans cette situation, il est conseillé de **tenir une liste de ces changements**
 
 Cette liste peut faire figurer :&#x20;
 
@@ -157,8 +157,6 @@ Si nécessaire, il est possible d’indiquer des liens, comme par exemple lorsqu
 
 Les réutilisateurs des données peuvent avoir des questions à propos des fichiers mis à disposition.
 
-Il est conseillé de :&#x20;
-
-* [ ] **Proposer un espace d’échange entre les producteurs et réutilisateurs des données** : il est préférable que cet espace d’échange soit public afin qu’il puisse bénéficier aux personnes qui auraient des questions similaires.&#x20;
+Il est conseillé de **proposer un espace d’échange entre les producteurs et réutilisateurs des données** : il est préférable que cet espace d’échange soit public afin qu’il puisse bénéficier aux personnes qui auraient des questions similaires.&#x20;
 
 La collecte des retours d’usage permettra d’améliorer votre documentation de manière incrémentale.

@@ -176,7 +176,7 @@ Les étapes à suivre sont les suivantes :&#x20;
 
 Pour valider la conformité d'un fichier avec un schéma de données, il est possible de :&#x20;
 
-* [ ] **Utiliser la solution** [**Validata**](https://validata.fr/) : vous pouvez valider la conformité de votre fichier à un schéma parmi la liste déroulante ou via une URL. Vous pouvez ensuite faire valider ce fichier, soit en l'important au format csv, soit en renseignant également son URL.
+* **Utiliser la solution** [**Validata**](https://validata.fr/) : vous pouvez valider la conformité de votre fichier à un schéma parmi la liste déroulante ou via une URL. Vous pouvez ensuite faire valider ce fichier, soit en l'important au format csv, soit en renseignant également son URL.
 
 ![Capture d'écran du menu de validata](https://guides.etalab.gouv.fr/assets/img/validata.f6a9dd72.png)
 
