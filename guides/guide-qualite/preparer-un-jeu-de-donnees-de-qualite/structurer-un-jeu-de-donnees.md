@@ -13,7 +13,7 @@ Deux approches sont possibles pour structurer un jeu de données, selon le cas d
 
 {% tabs %}
 {% tab title="Cas 1" %}
-## Cas 1 - La structure de vos données ne correspond à aucun schéma de données existant <a href="#cas-2-la-structure-de-vos-donnees-ne-correspond-a-aucun-schema-de-donnees-existant" id="cas-2-la-structure-de-vos-donnees-ne-correspond-a-aucun-schema-de-donnees-existant"></a>
+## Cas 1 : La structure de vos données ne correspond à aucun schéma de données existant <a href="#cas-2-la-structure-de-vos-donnees-ne-correspond-a-aucun-schema-de-donnees-existant" id="cas-2-la-structure-de-vos-donnees-ne-correspond-a-aucun-schema-de-donnees-existant"></a>
 
 Il est nécessaire de réfléchir en amont à la meilleure structure pour vos données.
 
@@ -31,9 +31,9 @@ Quelques bonnes pratiques vous permettront de bien structurer votre jeu de donn�
 
 Il est conseillé de :&#x20;
 
-* [ ] **Occulter l’ensemble des colonnes dont les champs contiennent des données couvertes par un secret légal** (cf. [guide juridique](https://guides.etalab.gouv.fr/juridique)) ;
-* [ ] **Occulter l’ensemble des colonnes dont les champs contiennent des données à caractère personnel** dont la publication n’est pas nécessaire à l’information du public (cf. [guide juridique](https://guides.etalab.gouv.fr/juridique)) ;
-* [ ] **Privilégier la présence de variables pivots** : ces variables proposent des identifiants communs qui permettent de lier plusieurs jeux de données entre eux (ex. le numéro SIRET de la base Sirene) (cf. page [Lier les données à un référentiel](https://guides.etalab.gouv.fr/qualite/lier-les-donnees-a-un-referentiel)).
+* **Occulter l’ensemble des colonnes dont les champs contiennent des données couvertes par un secret légal** (cf. [guide juridique](https://guides.etalab.gouv.fr/juridique)) ;
+* **Occulter l’ensemble des colonnes dont les champs contiennent des données à caractère personnel** dont la publication n’est pas nécessaire à l’information du public (cf. [guide juridique](https://guides.etalab.gouv.fr/juridique)) ;
+* **Privilégier la présence de variables pivots** : ces variables proposent des identifiants communs qui permettent de lier plusieurs jeux de données entre eux (ex. le numéro SIRET de la base Sirene) (cf. page [Lier les données à un référentiel](https://guides.etalab.gouv.fr/qualite/lier-les-donnees-a-un-referentiel)).
 
 #### L’entête des colonnes (pour le format tabulaire) <a href="#l-entete-des-colonnes-pour-le-format-tabulaire" id="l-entete-des-colonnes-pour-le-format-tabulaire"></a>
 
@@ -43,8 +43,8 @@ Dans un fichier tabulaire, la première ligne du fichier peut être utilisée po
 
 Il est conseillé de&#x20;
 
-* [ ] Donner **un nom de colonne explicite** ;&#x20;
-* [ ] Donner **un nom de colonne sans majuscule, abréviation, accents, ni espaces** (préférez le caractère `_`) afin de faciliter la manipulation des fichiers.
+* Donner **un nom de colonne explicite** ;&#x20;
+* Donner **un nom de colonne sans majuscule, abréviation, accents, ni espaces** (préférez le caractère `_`) afin de faciliter la manipulation des fichiers.
 
 #### Gestion des champs non attribués <a href="#gestion-des-champs-non-attribues" id="gestion-des-champs-non-attribues"></a>
 
@@ -52,16 +52,16 @@ Il est possible que certaines occurrences d’un champ d'un fichier ne soit pas 
 
 Il convient de :&#x20;
 
-* [ ] **Laisser ces occurrences vides plutôt que d’attribuer la valeur 0** (ou une autre valeur par défaut) : le zéro correspond à une valeur, qui peut dénaturer le sens de votre fichier.
+* **Laisser ces occurrences vides plutôt que d’attribuer la valeur 0** (ou une autre valeur par défaut) : le zéro correspond à une valeur, qui peut dénaturer le sens de votre fichier.
 
 #### Le titre du jeu de données <a href="#le-titre-du-jeu-de-donnees" id="le-titre-du-jeu-de-donnees"></a>
 
 Il est recommandé de choisir un titre qui doit pouvoir renseigner n’importe quel réutilisateur sur le contenu du fichier. Pour cela, il est recommandé de :&#x20;
 
-* [ ] **Ne pas donner un titre trop générique** qui obligerait le réutilisateur à ouvrir le jeu de données pour comprendre son contenu (i.e. “liste.csv” ou encore “balance comptable” sans indiquer l’organisation concernée) ;
-* [ ] **Ne pas donner un titre trop long** qui rendrait la manipulation du fichier difficile (i.e. le titre du jeu de données “Fichiers consolidés des données essentielles de la commande publique” est suffisamment générique pour ne pas revenir sur toutes les sources de données utilisées pour agréger le jeu de données) ;
-* [ ] **Ne pas donner un titre contenant des accents ou caractères spéciaux** qui poseraient des problèmes d’interopérabilité des fichiers ;
-* [ ] **Ne pas donner de titre trop technique** issu de nomenclatures métier.
+* **Ne pas donner un titre trop générique** qui obligerait le réutilisateur à ouvrir le jeu de données pour comprendre son contenu (i.e. “liste.csv” ou encore “balance comptable” sans indiquer l’organisation concernée) ;
+* **Ne pas donner un titre trop long** qui rendrait la manipulation du fichier difficile (i.e. le titre du jeu de données “Fichiers consolidés des données essentielles de la commande publique” est suffisamment générique pour ne pas revenir sur toutes les sources de données utilisées pour agréger le jeu de données) ;
+* **Ne pas donner un titre contenant des accents ou caractères spéciaux** qui poseraient des problèmes d’interopérabilité des fichiers ;
+* **Ne pas donner de titre trop technique** issu de nomenclatures métier.
 
 #### L’encodage du fichier <a href="#l-encodage-du-fichier" id="l-encodage-du-fichier"></a>
 
@@ -75,7 +75,7 @@ Lorsque l’encodage est mal choisi, le réutilisateur des données est souvent 
 
 **Il est conseillé de :**&#x20;
 
-* [ ] **Utiliser l’encodage UTF-8** : il permet d’encoder l’ensemble des caractères du répertoire universel de caractères codés (notamment les caractères contenant des accents ou des caractères spéciaux).
+* **Utiliser l’encodage UTF-8** : il permet d’encoder l’ensemble des caractères du répertoire universel de caractères codés (notamment les caractères contenant des accents ou des caractères spéciaux).
 
 #### Le séparateur (pour le format tabulaire) <a href="#le-separateur-pour-le-format-tabulaire" id="le-separateur-pour-le-format-tabulaire"></a>
 
@@ -83,9 +83,7 @@ Lorsque l’encodage est mal choisi, le réutilisateur des données est souvent 
 Dans un fichier tabulaire, le séparateur permet de structurer les données sous forme de cellules.&#x20;
 {% endhint %}
 
-Il est conseillé de :&#x20;
-
-* [ ] **Utiliser la virgule comme séparateur**
+Il est conseillé d'**utiliser la virgule comme séparateur**
 
 {% hint style="warning" %}
 **Séparateurs décimaux**
@@ -103,30 +101,28 @@ Il est important de mener une réflexion sur la granularité du jeu de données.
 
 _Faut-il proposer des données fines ou agrégées ? Faut-il proposer un export quotidien, mensuel, trimestriel ou annuel ?_ Ces questions doivent être posées en amont de l’automatisation des exports.&#x20;
 
-Il est conseillé de :&#x20;
-
-* [ ] **mener un dialogue avec les réutilisateurs afin de comprendre leurs besoins** : certains utilisateurs peuvent souhaiter manipuler des données granulaires tandis que d’autres préfèrent disposer d’agrégats qui permettent une réutilisation simple et rapide. A minima, il est conseillé de proposer un fichier complet unique qui contient l’ensemble des données historiques.
+Il est conseillé de **mener un dialogue avec les réutilisateurs afin de comprendre leurs besoins** : certains utilisateurs peuvent souhaiter manipuler des données granulaires tandis que d’autres préfèrent disposer d’agrégats qui permettent une réutilisation simple et rapide. A minima, il est conseillé de proposer un fichier complet unique qui contient l’ensemble des données historiques.
 
 ### Choisir le format du jeu de données <a href="#le-choix-du-format-du-jeu-de-donnees" id="le-choix-du-format-du-jeu-de-donnees"></a>
 
 Afin qu'un maximum d’utilisateurs puisse s’approprier les données, il est conseillé de les faire circuler dans un format :&#x20;
 
-* [ ] **ouvert** : un format ouvert n’impose pas de spécifications techniques qui entraveraient l’exploitation des données (i.e. l’utilisation d’un logiciel payant) ;
-* [ ] **aisément réutilisable** : un format aisément réutilisable sous-entend que toute personne ou machine peut réutiliser facilement le jeu de données ;
-* [ ] **exploitable par un système de traitement automatisé** : un système de traitement automatisé permet de réaliser des opérations par des moyens automatiques, relatifs à l’exploitation des données (i.e. un fichier CSV est aisément exploitable par un système de traitement automatisé contrairement à un fichier PDF).
+* **ouvert** : un format ouvert n’impose pas de spécifications techniques qui entraveraient l’exploitation des données (i.e. l’utilisation d’un logiciel payant) ;
+* **aisément réutilisable** : un format aisément réutilisable sous-entend que toute personne ou machine peut réutiliser facilement le jeu de données ;
+* **exploitable par un système de traitement automatisé** : un système de traitement automatisé permet de réaliser des opérations par des moyens automatiques, relatifs à l’exploitation des données (i.e. un fichier CSV est aisément exploitable par un système de traitement automatisé contrairement à un fichier PDF).
 
 Il est possible de choisir parmi les formats ouverts et communément acceptés suivants :&#x20;
 
-| Type de données                | Formats conseillés                                                                                                                          | Documentation                                                                                                                     | Description                                                                                                                                                                                                                             |
-| ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Données tabulaires             | CSV                                                                                                                                         | [Ici](https://opendatafrance.gitbook.io/odl-ressources/fiches-pratiques/premiers-pas/produire-un-fichier-csv-de-qualite#contexte) | Un fichier CSV est constitué de lignes de données, où chaque champ est séparé par une virgule. Ce format est le standard le plus réutilisable, car ouvert et facilement exploitable par une machine.                                    |
-| Données statiques de transport | GTFS/NeTEx                                                                                                                                  | [Ici](https://transport.data.gouv.fr/guide)                                                                                       | Le format GTFS est le format le plus utilisé en France par les services de mobilité d’information voyageur. Le format NeTEx est le format de référence européen qui vise l’interopérabilité des données entre États membres.            |
-| Données géographiques          | GeoJSON, Shapefile, MapInfo MIF/MID, MapInfo TAB et GML, pour les vecteurs / ECW, JPEG2000 et GeoTIFF, pour les données pixelisées (raster) | [Ici](https://geo.data.gouv.fr/fr/doc/publish-your-data)                                                                          | Les données géographiques sont organisées sous forme d’ensemble de données hiérarchisées. Les formats proposés sont conçus spécifiquement pour être largement exploitables et être intégrés facilement dans des outils de cartographie. |
-| Données hiérarchiques          | JSON / XML / YAML                                                                                                                           | indisponible                                                                                                                      | Les données hiérarchiques décrivent des relations hiérarchiques entre différentes données. Le format JSON est préconisé lorsque les données sont liées entre elles sous forme d’arbres verticaux.                                       |
+| Type de données                | Formats conseillés                                                                                                                          | Description                                                                                                                                                                                                                             | Documentation                                                                                                                     |
+| ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| Données tabulaires             | CSV                                                                                                                                         | Un fichier CSV est constitué de lignes de données, où chaque champ est séparé par une virgule. Ce format est le standard le plus réutilisable, car ouvert et facilement exploitable par une machine.                                    | [Ici](https://opendatafrance.gitbook.io/odl-ressources/fiches-pratiques/premiers-pas/produire-un-fichier-csv-de-qualite#contexte) |
+| Données statiques de transport | GTFS/NeTEx                                                                                                                                  | Le format GTFS est le format le plus utilisé en France par les services de mobilité d’information voyageur. Le format NeTEx est le format de référence européen qui vise l’interopérabilité des données entre États membres.            | [Ici](https://transport.data.gouv.fr/guide)                                                                                       |
+| Données géographiques          | GeoJSON, Shapefile, MapInfo MIF/MID, MapInfo TAB et GML, pour les vecteurs / ECW, JPEG2000 et GeoTIFF, pour les données pixelisées (raster) | Les données géographiques sont organisées sous forme d’ensemble de données hiérarchisées. Les formats proposés sont conçus spécifiquement pour être largement exploitables et être intégrés facilement dans des outils de cartographie. | [Ici](https://geo.data.gouv.fr/fr/doc/publish-your-data)                                                                          |
+| Données hiérarchiques          | JSON / XML / YAML                                                                                                                           | Les données hiérarchiques décrivent des relations hiérarchiques entre différentes données. Le format JSON est préconisé lorsque les données sont liées entre elles sous forme d’arbres verticaux.                                       | indisponible                                                                                                                      |
 {% endtab %}
 
 {% tab title="Cas 2" %}
-## Cas 2 - La structure des données correspond à un schéma de données existant
+## Cas 2 : La structure des données correspond à un schéma de données existant
 
 {% hint style="info" %}
 **Lexique : Schéma de données**
