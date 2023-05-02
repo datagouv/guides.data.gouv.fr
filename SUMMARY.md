@@ -5,9 +5,9 @@
 ## Publier des données
 
 * [💎 Guide qualité](guides/guide-qualite/README.md)
-  * [Comprendre la notion de qualité d'un jeu de données](guides/guide-qualite/comprendre-la-notion-de-qualite-dun-jeu-de-donnees/README.md)
-    * [Définir la qualité d'un jeu de données](guides/guide-qualite/comprendre-la-notion-de-qualite-dun-jeu-de-donnees/comment-definir-la-qualite-dun-jeu-de-donnees.md)
-    * [Evaluer le niveau de qualité d'un jeu de données](guides/guide-qualite/comprendre-la-notion-de-qualite-dun-jeu-de-donnees/comment-evaluer-le-niveau-de-qualite-dun-jeu-de-donnees.md)
+  * [La notion de qualité d'un jeu de données](publier-des-donnees/guide-qualite/la-notion-de-qualite-dun-jeu-de-donnees/README.md)
+    * [Définir la qualité d'un jeu de données](publier-des-donnees/guide-qualite/la-notion-de-qualite-dun-jeu-de-donnees/definir-la-qualite-dun-jeu-de-donnees.md)
+    * [Evaluer le niveau de qualité d'un jeu de données](publier-des-donnees/guide-qualite/la-notion-de-qualite-dun-jeu-de-donnees/evaluer-le-niveau-de-qualite-dun-jeu-de-donnees.md)
   * [Préparer un jeu de données de qualité](guide-qualite/preparer-le-jeu-de-donnees.md)
     * [Extraire un jeu de données d'un système d'information](guides/guide-qualite/preparer-un-jeu-de-donnees-de-qualite/extraire-un-jeu-de-donnees-dun-systeme-dinformation.md)
     * [Structurer un jeu de données](guides/guide-qualite/preparer-un-jeu-de-donnees-de-qualite/structurer-un-jeu-de-donnees.md)
@@ -55,10 +55,10 @@
 
 ## Réutiliser des données
 
-* [🗺 API géographiques](reutiliser-des-donnees/api-geographiques/README.md)
-  * [API adresse](reutiliser-des-donnees/api-geographiques/api-adresse.md)
-  * [API découpage administratif](reutiliser-des-donnees/api-geographiques/api-decoupage-administratif.md)
-  * [Tuiles vectorielles](reutiliser-des-donnees/api-geographiques/tuiles-vectorielles.md)
+* [🗺 API géographiques](reutiliser-les-donnees-publiques/api-a-composante-geographique/README.md)
+  * [API adresse](reutiliser-les-donnees-publiques/api-a-composante-geographique/api-adresse.md)
+  * [API découpage administratif](reutiliser-les-donnees-publiques/api-a-composante-geographique/api-decoupage-administratif.md)
+  * [Tuiles vectorielles](reutiliser-les-donnees-publiques/tuiles-vectorielles.md)
 
 ## Brouillons
 
