@@ -55,10 +55,10 @@
 
 ## Réutiliser des données
 
-* [API à composante géographique](reutiliser-les-donnees-publiques/api-a-composante-geographique/README.md)
-  * [API adresse](reutiliser-les-donnees-publiques/api-a-composante-geographique/api-adresse.md)
-  * [API découpage administratif](reutiliser-les-donnees-publiques/api-a-composante-geographique/api-decoupage-administratif.md)
-  * [Tuiles vectorielles](reutiliser-les-donnees-publiques/tuiles-vectorielles.md)
+* [🗺 API géographiques](reutiliser-des-donnees/api-geographiques/README.md)
+  * [API adresse](reutiliser-des-donnees/api-geographiques/api-adresse.md)
+  * [API découpage administratif](reutiliser-des-donnees/api-geographiques/api-decoupage-administratif.md)
+  * [Tuiles vectorielles](reutiliser-des-donnees/api-geographiques/tuiles-vectorielles.md)
 
 ## Brouillons
 

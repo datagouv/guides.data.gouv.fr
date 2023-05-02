@@ -2,11 +2,13 @@
 
 Ce guide a pour objectif de compléter la documentation existante par des ressources pratiques pour vous apprendre à utiliser l’API adresse.
 
+{% hint style="info" %}
 Familier des APIs ? Vous pouvez directement vous référer à :
 
 ➡️ Consultez [la documentation générale autour de l’adresse](https://doc.adresse.data.gouv.fr/)
 
 ➡️ Consultez [la documentation de l’API Adresse](https://adresse.data.gouv.fr/api-doc/adresse)
+{% endhint %}
 
 ### Les données d’adresses <a href="#les-donnees-d-adresses" id="les-donnees-d-adresses"></a>
 
@@ -37,7 +39,7 @@ Les usages de l’API adresse sont principalement de deux natures :
 * trouver par un formulaire une adresse pour la corriger et/ou récupérer des coordonnées en ayant une liste de choix pour trouver le résultat: c’est l’autocomplétion ;
 * fournir un fichier tabulaire pour obtenir en retour une version enrichie des coordonnées et d’autres informations.
 
-### Qu’est-ce que le géocodage ? <a href="#qu-est-ce-que-le-geocodage" id="qu-est-ce-que-le-geocodage"></a>
+## Qu’est-ce que le géocodage ? <a href="#qu-est-ce-que-le-geocodage" id="qu-est-ce-que-le-geocodage"></a>
 
 {% hint style="info" %}
 **Lexique : Géocodage**\

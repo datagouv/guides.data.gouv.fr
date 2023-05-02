@@ -1,4 +1,4 @@
-# API à composante géographique
+# 🗺 API géographiques
 
 ## Que contient ce guide ? <a href="#que-contient-ce-guide" id="que-contient-ce-guide"></a>
 

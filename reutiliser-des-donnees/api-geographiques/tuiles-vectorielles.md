@@ -41,13 +41,11 @@ Les cas où vous ne devriez pas utiliser OpenMapTiles:
 
 Historiquement, pour faire du webmapping, on renvoyait des tuiles images qui étaient des images de cartes découpées en 256px ou 512px (si écran haute définition). Ce qu'on peut encore voir par exemple
 
-Tuiles 256px
 
-![](https://tile.openstreetmap.org/5/15/11.png)
 
-Tuiles 512px
+![Tuiles 256px](https://tile.openstreetmap.org/5/15/11.png)
 
-![](https://d.basemaps.cartocdn.com/light\_all/7/63/44@2x.png)
+![Tuiles 512px](https://d.basemaps.cartocdn.com/light\_all/7/63/44@2x.png)
 
 Le découpage des tuiles est normalisé en s'appuyant sur "une grille" qui change avec les échelles et dont les conventions sont reprises par tous.
 

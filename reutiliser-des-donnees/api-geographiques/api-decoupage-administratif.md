@@ -25,8 +25,6 @@ Il est aussi possible de [remplir les informations de coordonnées dans un table
 
 Nous présentons ici les exemples les plus courants. Pour des usages plus spécifiques, vous pouvez utiliser [les exemples de la documentation officielle](https://geo.api.gouv.fr/decoupage-administratif)
 
-
-
 {% tabs %}
 {% tab title="Récupérer des communes" %}
 #### Utilisation de l’API pour récupérer des communes <a href="#utilisation-de-l-api-pour-recuperer-des-communes" id="utilisation-de-l-api-pour-recuperer-des-communes"></a>
@@ -83,10 +81,6 @@ Les cas départements et régions fonctionnent comme les communes et changent tr
 * [Les régions](https://unpkg.com/@etalab/decoupage-administratif/data/regions.json)
 {% endtab %}
 {% endtabs %}
-
-#### &#x20;<a href="#utilisation-de-l-api-pour-recuperer-des-communes" id="utilisation-de-l-api-pour-recuperer-des-communes"></a>
-
-
 
 ### Les sources alternatives pour les communes <a href="#les-sources-alternatives-pour-les-communes" id="les-sources-alternatives-pour-les-communes"></a>
 
