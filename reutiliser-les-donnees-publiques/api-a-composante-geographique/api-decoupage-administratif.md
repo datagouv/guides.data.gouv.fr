@@ -11,7 +11,7 @@ L'API Découpage Administratif est principalement destinée à un besoin de rech
 
 Les usages départements ou régions bien que pratiquent semblent moins intéressant car les données ne changent quasiment jamais dans le temps et le nombre limités d'éléments fait qu'il est possible de gérer ces informations côté client.
 
-### [#](https://guides.etalab.gouv.fr/apis-geo/2-api-decoupage-administratif.html#utilisation-de-l-api-dans-un-site-web)Utilisation de l'API dans un site web <a href="#utilisation-de-l-api-dans-un-site-web" id="utilisation-de-l-api-dans-un-site-web"></a>
+### Utilisation de l'API dans un site web <a href="#utilisation-de-l-api-dans-un-site-web" id="utilisation-de-l-api-dans-un-site-web"></a>
 
 L’API est très utile pour permettre de faire **l'auto-complétion** qu’il s’agisse d’un formulaire ou pour permettre de zoomer sur une commune trouvée dans un contexte web
 
@@ -21,11 +21,15 @@ La partie importante se base sur un simple [Fetch](https://developer.mozilla.org
 
 Il est aussi possible de [remplir les informations de coordonnées dans un tableur comme Libre Office](https://medium.com/@ThomasG77/api-et-g%C3%A9ocodage-dans-libre-office-calc-488ab78dc360)
 
-### [#](https://guides.etalab.gouv.fr/apis-geo/2-api-decoupage-administratif.html#rappels-des-exemples-officiels)Rappels des exemples officiels <a href="#rappels-des-exemples-officiels" id="rappels-des-exemples-officiels"></a>
+### Rappels des exemples officiels <a href="#rappels-des-exemples-officiels" id="rappels-des-exemples-officiels"></a>
 
 Nous présentons ici les exemples les plus courants. Pour des usages plus spécifiques, vous pouvez utiliser [les exemples de la documentation officielle](https://geo.api.gouv.fr/decoupage-administratif)
 
-#### [#](https://guides.etalab.gouv.fr/apis-geo/2-api-decoupage-administratif.html#utilisation-de-l-api-pour-recuperer-des-communes)Utilisation de l’API pour récupérer des communes <a href="#utilisation-de-l-api-pour-recuperer-des-communes" id="utilisation-de-l-api-pour-recuperer-des-communes"></a>
+
+
+{% tabs %}
+{% tab title="Récupérer des communes" %}
+#### Utilisation de l’API pour récupérer des communes <a href="#utilisation-de-l-api-pour-recuperer-des-communes" id="utilisation-de-l-api-pour-recuperer-des-communes"></a>
 
 * Recherche par code postal [https://geo.api.gouv.fr/communes?codePostal=78000](https://geo.api.gouv.fr/communes?codePostal=78000)
 * Recherche par code INSEE [https://geo.api.gouv.fr/communes?code=44109](https://geo.api.gouv.fr/communes?code=44109)
@@ -61,8 +65,10 @@ Il faut également penser à mettre en cache quand on a des appels lourds qui ne
 * Avec contour, la réponse fait 34Mo [https://geo.api.gouv.fr/communes?codeRegion=84\&format=geojson\&geometry=contour](https://geo.api.gouv.fr/communes?codeRegion=84\&format=geojson\&geometry=contour)
 
 Vous pouvez très bien sauvegarder dans un fichier le résultat des URLs ci-dessus car le résultat ne va pas changer en permanence car ce n'est pas de l'autocomplétion.
+{% endtab %}
 
-#### [#](https://guides.etalab.gouv.fr/apis-geo/2-api-decoupage-administratif.html#utilisation-de-l-api-pour-recuperer-des-regions-et-des-departements)Utilisation de l’API pour récupérer des régions et des départements <a href="#utilisation-de-l-api-pour-recuperer-des-regions-et-des-departements" id="utilisation-de-l-api-pour-recuperer-des-regions-et-des-departements"></a>
+{% tab title="Récupérer des régions et des départements" %}
+#### Utilisation de l’API pour récupérer des régions et des départements <a href="#utilisation-de-l-api-pour-recuperer-des-regions-et-des-departements" id="utilisation-de-l-api-pour-recuperer-des-regions-et-des-departements"></a>
 
 Dans ce cas de figure, le principal intérêt est la correspondance entre un nom et un code.
 
@@ -75,10 +81,16 @@ Les cas départements et régions fonctionnent comme les communes et changent tr
 
 * [Les départements](https://unpkg.com/@etalab/decoupage-administratif/data/departements.json)
 * [Les régions](https://unpkg.com/@etalab/decoupage-administratif/data/regions.json)
+{% endtab %}
+{% endtabs %}
 
-### [#](https://guides.etalab.gouv.fr/apis-geo/2-api-decoupage-administratif.html#les-sources-alternatives-pour-les-communes)Les sources alternatives pour les communes <a href="#les-sources-alternatives-pour-les-communes" id="les-sources-alternatives-pour-les-communes"></a>
+#### &#x20;<a href="#utilisation-de-l-api-pour-recuperer-des-communes" id="utilisation-de-l-api-pour-recuperer-des-communes"></a>
 
-#### [#](https://guides.etalab.gouv.fr/apis-geo/2-api-decoupage-administratif.html#utiliser-le-wfs-de-l-ign)Utiliser le WFS de l'IGN <a href="#utiliser-le-wfs-de-l-ign" id="utiliser-le-wfs-de-l-ign"></a>
+
+
+### Les sources alternatives pour les communes <a href="#les-sources-alternatives-pour-les-communes" id="les-sources-alternatives-pour-les-communes"></a>
+
+#### Utiliser le WFS de l'IGN <a href="#utiliser-le-wfs-de-l-ign" id="utiliser-le-wfs-de-l-ign"></a>
 
 Un [WFS](https://fr.wikipedia.org/wiki/Web\_Feature\_Service) (Web Feature Service) est un service web d’inspiration [SOAP](https://fr.wikipedia.org/wiki/SOAP). Il est basé sur une approche en [XML](https://fr.wikipedia.org/wiki/Extensible\_Markup\_Language).
 
@@ -90,7 +102,7 @@ Si vous avez besoin de récupérer toutes les communes, il est plutôt recommand
 
 Son principal intérêt est de pallier à certains scénarios que n'adresse pas pour le moment l'API Découpage Administratif. Il nécessite de comprendre quelques préalables.
 
-[**#**](https://guides.etalab.gouv.fr/apis-geo/2-api-decoupage-administratif.html#lister-les-couches-d-un-endpoint-wfs)**Lister les couches d'un endpoint WFS**
+**Lister les couches d'un endpoint WFS**
 
 On doit pouvoir lister les couches du service fournissant les communes
 
@@ -112,7 +124,7 @@ ogrinfo --DEBUG ON -so WFS:https://wxs.ign.fr/administratif/geoportail/wfs
 
 L'intérêt de la manoeuvre est de pouvoir comprendre les appels HTTP utilisés lors de l'usage du WFS plutôt que devoir apprendre la spécification WFS.
 
-[**#**](https://guides.etalab.gouv.fr/apis-geo/2-api-decoupage-administratif.html#trouver-la-structure-du-wfs)**Trouver la structure du WFS**
+**Trouver la structure du WFS**
 
 Trouver la structure du WFS est important car pour pouvoir filtrer, vous pouvez soit utiliser des filtres qui jouent sur les attributs soit sur des propriétés spatiales. Il s’agit donc de connaître le nom des champs. Il s’agit également potentiellement de connaitre le nom de la colonne contenant la géométrie pour pouvoir effectuer les requêtes spatiales.
 
@@ -130,7 +142,7 @@ ogrinfo -so -noextent WFS:https://wxs.ign.fr/administratif/geoportail/wfs "ADMIN
 
 Dans les 2 cas, on sait quelles sont les colonnes disponibles. On pourra réutiliser leur nom pour faire des filtres ou choisir les colonnes qui seront retournées.
 
-[**#**](https://guides.etalab.gouv.fr/apis-geo/2-api-decoupage-administratif.html#usages-du-wfs)**Usages du WFS**
+**Usages du WFS**
 
 Nous avons appris quelles couches contiennent un WFS, quelle est la structure d'une couche comme ses noms de champs. Maintenant on va pouvoir consommer la couche pour la filtrer.
 
@@ -191,11 +203,11 @@ ogr2ogr -f GeoJSON epci-with-44109-from-geom.geojson WFS:https://wxs.ign.fr/admi
 
 * Pourquoi ne pas passer par le WFS pour de l'autocomplétion? Parce que cela demeure nettement plus lent qu'une API dédiée car il n'y a pas d'index spécifiques pour cet usage.
 
-#### [#](https://guides.etalab.gouv.fr/apis-geo/2-api-decoupage-administratif.html#passer-par-les-fichiers-admin-express)Passer par les fichiers Admin Express <a href="#passer-par-les-fichiers-admin-express" id="passer-par-les-fichiers-admin-express"></a>
+#### Passer par les fichiers Admin Express <a href="#passer-par-les-fichiers-admin-express" id="passer-par-les-fichiers-admin-express"></a>
 
 Quand on a besoin de travailler avec les données France entière et qu'on a un back-end, c'est la solution à privilégier.
 
-[**#**](https://guides.etalab.gouv.fr/apis-geo/2-api-decoupage-administratif.html#contexte)**Contexte**
+**Contexte**
 
 Historiquement, il existait un produit nommé Geofla pour avoir les communes qui a été depuis remplacé par un nouveau jeu de données dit Admin Express qui contient les données suivantes :
 
@@ -214,7 +226,7 @@ Historiquement, il existait un produit nommé Geofla pour avoir les communes qui
 
 Le jeu de données et la documentation officielle sont disponible [la page officielle Admin Express](https://geoservices.ign.fr/adminexpress).
 
-[**#**](https://guides.etalab.gouv.fr/apis-geo/2-api-decoupage-administratif.html#differents-produits-admin-express)**Différents produits Admin Express**
+**Différents produits Admin Express**
 
 Il existe des **différences entre les produits Admin Express**, nous vous invitons à consulter cet [article résumant ces différences](https://geoservices.ign.fr/admin-express-passe-la-grande-echelle)
 
@@ -224,7 +236,7 @@ Ce qu'il faut retenir pour choisir les produits:
 * Si vous voulez faire des cartes thématiques qui utilisent les données INSEE, prenez les données "Admin Express COG Carto" qui sont généralisées c'est à dire avec moins de points pour les contours.
 * Si vous avez besoin de compter par exemple les commerces qui sont dans une commune mais aussi de faire des cartes thématiques, prenez plutôt "Admin Express COG" car les coordonnées sont plus précises.
 
-[**#**](https://guides.etalab.gouv.fr/apis-geo/2-api-decoupage-administratif.html#le-piege-des-projections)**Le "piège" des projections**
+**Le "piège" des projections**
 
 L'autre piège lors de la récupération de ces données est de prendre les données dans les "bonnes projections": il existe des jeux de données dont la description mentionne "par territoire" et "France entière". Pour comprendre, en empruntant des raccourcis, il faut savoir que la France utilise ce qu'on appelle des systèmes de projection officiels qui définissent comment "bien placer les coordonnées mesurées". Ces systèmes sont choisis pour pouvoir garder une grande précision de mesure qui permettent ensuite d'être sûr de l'emplacement de votre maison au centimètre près. L'inconvénient est qu'ils fonctionnent sur des étendues faibles: ils sont différents sur la métropole et sur les DOM. Si vous prenez les données "par territoire", vous récupérerez les données pour chaque territoire séparément avec chacun sa projection officielle. Si vous prenez France entière, vous aurez les données assemblées dans une projection mondiale indépendamment des territoires.
 
@@ -233,9 +245,9 @@ Conclusion à tirer sur les projections des données:
 * si vous devez travailler sur France métropolitaine et DOM, vous pouvez prendre les données "France entière"
 * Si vous travaillez uniquement sur un DOM ou uniquement la métropole, vous pourrez travailler tant avec les données "par territoire" que "France entière"
 
-### [#](https://guides.etalab.gouv.fr/apis-geo/2-api-decoupage-administratif.html#faq)FAQ <a href="#faq" id="faq"></a>
+### FAQ <a href="#faq" id="faq"></a>
 
-#### [#](https://guides.etalab.gouv.fr/apis-geo/2-api-decoupage-administratif.html#bon-a-savoir-concernant-les-communes)Bon à savoir concernant les communes <a href="#bon-a-savoir-concernant-les-communes" id="bon-a-savoir-concernant-les-communes"></a>
+#### Bon à savoir concernant les communes <a href="#bon-a-savoir-concernant-les-communes" id="bon-a-savoir-concernant-les-communes"></a>
 
 * [La longueur des noms de commune peut être problématique](https://twitter.com/JulesGrandin/status/1448563444601532422).
 * [Il existe une normalisation des noms de communes](https://www.collectivites-locales.gouv.fr/sites/default/files/Accueil/Notes).
@@ -244,7 +256,7 @@ Conclusion à tirer sur les projections des données:
 * Certaines communes ont plusieurs codes postaux.
 * Le code postal peut contenir le code d'un autre département que son département réel.
 
-#### [#](https://guides.etalab.gouv.fr/apis-geo/2-api-decoupage-administratif.html#bonnes-pratiques-a-adopter)Bonnes pratiques à adopter <a href="#bonnes-pratiques-a-adopter" id="bonnes-pratiques-a-adopter"></a>
+#### Bonnes pratiques à adopter <a href="#bonnes-pratiques-a-adopter" id="bonnes-pratiques-a-adopter"></a>
 
 Partout où vous le pouvez, utilisez le code INSEE du COG (Code Offficiel Géographique) plutôt qu'un code postal ou un nom. Celui-ci est le plus fiable dans le temps même si des cas particuliers emergent parfois suite aux évolutions des communes (fusions ou séparation).
 

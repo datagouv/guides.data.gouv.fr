@@ -35,9 +35,9 @@ Les cas où vous ne devriez pas utiliser OpenMapTiles:
 * Si vous avez besoin d’une qualité de service garantie, là encore, adressez-vous à ces mêmes acteurs commerciaux ou autohébergez-vous. Dans ce cas, pour des outils pour gérer vos propres tuiles vecteur en autohébergé, allez sur [https://github.com/mapbox/awesome-vector-tiles#servers](https://github.com/mapbox/awesome-vector-tiles#servers).
 * Si vous souhaitez des données sur une autre couverture que la France. si vous avez un besoin qui vous parait correspondre à celui des tuiles vectorielles et styles associés de l’IGN (voir des exemples en fin de guide). Ces tuiles sont un peu plus lourdes mais elles sont par nature plus homogènes en terme de contenu car elles utilisent les données de l’IGN. Celles du projet OpenMapTiles étant basées sur OpenStreetMap, la complétude dépend des contributions à OpenStreetMap.
 
-### [#](https://guides.etalab.gouv.fr/apis-geo/3-tuiles-vecteur.html#rappel-sur-les-tuiles-vecteur)Rappel sur les tuiles vecteur <a href="#rappel-sur-les-tuiles-vecteur" id="rappel-sur-les-tuiles-vecteur"></a>
+### Rappel sur les tuiles vecteur <a href="#rappel-sur-les-tuiles-vecteur" id="rappel-sur-les-tuiles-vecteur"></a>
 
-#### [#](https://guides.etalab.gouv.fr/apis-geo/3-tuiles-vecteur.html#les-tuiles-raster)Les tuiles raster <a href="#les-tuiles-raster" id="les-tuiles-raster"></a>
+#### Les tuiles raster <a href="#les-tuiles-raster" id="les-tuiles-raster"></a>
 
 Historiquement, pour faire du webmapping, on renvoyait des tuiles images qui étaient des images de cartes découpées en 256px ou 512px (si écran haute définition). Ce qu'on peut encore voir par exemple
 
@@ -51,11 +51,11 @@ Tuiles 512px
 
 Le découpage des tuiles est normalisé en s'appuyant sur "une grille" qui change avec les échelles et dont les conventions sont reprises par tous.
 
-#### [#](https://guides.etalab.gouv.fr/apis-geo/3-tuiles-vecteur.html#les-%C2%AB-tuiles-vectorielles-%C2%BB)Les « tuiles vectorielles » <a href="#les-tuiles-vectorielles" id="les-tuiles-vectorielles"></a>
+#### Les « tuiles vectorielles » <a href="#les-tuiles-vectorielles" id="les-tuiles-vectorielles"></a>
 
 Même si ces solutions raster sont toujours fonctionnelles, ils existent des cas qui nécessitent d’avoir plus de souplesse pour pouvoir styler des fonds de plan en particulier ou bien pour afficher une couche « par-dessus » les autres. Ils peuvent être adressés avec les tuiles vectorielles. On parle abusivement de tuiles vectorielles pour désigner généralement deux choses: • les tuiles vectorielles à proprement parler • les styles « Mapbox Vector Style »
 
-[**#**](https://guides.etalab.gouv.fr/apis-geo/3-tuiles-vecteur.html#les-tuiles-vectorielles-en-elle-meme)**Les tuiles vectorielles en elle-même**
+**Les tuiles vectorielles en elle-même**
 
 On peut les assimiler à des objects vectoriels, des points, des lignes, des polygones qui sont associés à des attributs par exemple un nom. On groupe ces objets par couche, généralement un objet métier, par exemple, les limites communales, les commerces,... On découpe ensuite ces vecteurs selon une emprise fixe qui reprend celle historiquement utilisées par les tuiles raster. On peut ainsi voir quelles couches contiennent une tuile. Il existe plusieurs standards pour ces tuiles mais celui le plus adopté est celui de la société Mapbox. On parle de "Mapbox Vector Tiles" ou MVT. Leur contenu est encapsulé dans un format binaire appelé Protocol Buffer, non spécifique à la cartographie, c'est pour cela que l'extension des tuiles est souvent `.pbf` même si c'était historiquement `.mvt`. Voici des exemples pour inspecter:
 
@@ -66,7 +66,7 @@ Vous pouvez aussi allez sur [https://openmaptiles.geo.data.gouv.fr](https://open
 
 Ici, nous avons choisi de nous concentrer sur la consommation des tuiles. Il existe de nombreux outils pour les générer. Nous vous renvoyons à nouveau à [https://github.com/mapbox/awesome-vector-tiles#servers](https://github.com/mapbox/awesome-vector-tiles#servers) déjà mentionné.
 
-[**#**](https://guides.etalab.gouv.fr/apis-geo/3-tuiles-vecteur.html#les-styles)**Les styles**
+**Les styles**
 
 Ils permettent d'indiquer pour quelles couches, pour quelles caractéristiques comme la population et quels zooms il faut appliquer un style. Ces styles sont par exemple, l'épaisseur du trait, sa couleur pour le contour communal. Ils s'appuient sur le standard ["Mapbox/Maplibre GL JS Style Specification"](https://maplibre.org/maplibre-gl-js-docs/style-spec/) qui indique quelles sont les ressources "tuiles" (l'URL) à consommer puis quelles couches de cette ressource doivent être utilisées puis comment les styles doivent être appliqués.
 
@@ -76,7 +76,7 @@ On peut par exemple aller sur [https://maputnik.github.io/editor/#3.71/45.57/3.4
 
 Généralement, on consomme ces tuiles vectorielles via une bibliothèque cartographique JavaScript. Il faut également noter que selon les bibliothèques il est possible de profiter de la combinaison des deux mais que certains ne permettent pas de gérer les styles mais simplement de consommer les tuiles vectorielles, les `pbf` mais en devant styler selon la syntaxe propre à la bibliothèque. Cela joue fortement sur les choix techniques à adopter selon votre besoin. Seuls Maplibre et OpenLayers via une bibliothèque intermédiaire sont à même de correctement utiliser les deux.
 
-### [#](https://guides.etalab.gouv.fr/apis-geo/3-tuiles-vecteur.html#comment-utiliser-les-tuiles-vectorielles-d-etalab)Comment utiliser les tuiles vectorielles d’Etalab ? <a href="#comment-utiliser-les-tuiles-vectorielles-d-etalab" id="comment-utiliser-les-tuiles-vectorielles-d-etalab"></a>
+### Comment utiliser les tuiles vectorielles d’Etalab ? <a href="#comment-utiliser-les-tuiles-vectorielles-d-etalab" id="comment-utiliser-les-tuiles-vectorielles-d-etalab"></a>
 
 Pour avoir un aperçu, vous pouvez vous rendre sur
 
@@ -84,9 +84,11 @@ Pour avoir un aperçu, vous pouvez vous rendre sur
 
 Les versions des tuiles pour les fonds de plan ont été mises à jour en mars 2022 et sont mises à jour une fois par semaine.
 
-#### [#](https://guides.etalab.gouv.fr/apis-geo/3-tuiles-vecteur.html#consommer-les-styles)Consommer les styles <a href="#consommer-les-styles" id="consommer-les-styles"></a>
+#### Consommer les styles <a href="#consommer-les-styles" id="consommer-les-styles"></a>
 
 Nous abordons principalement l'usage avec MapLibre qui est capable de nativement gérer les tuiles et les styles associés. Nous aborderons pas Mapbox GL JS, la bibliothèque JavaScript de Mapbox car elle n'est maintenant plus OpenSource depuis la version 2.x et c'est MapLibre une version forkée de la dernière version de Mapbox GL JS avant son passage en version non libre qui a pris sa succession. Voici quelques scénarios:
+
+
 
 **Avec le fond de plan et le cadastre**
 
@@ -100,13 +102,13 @@ Nous abordons principalement l'usage avec MapLibre qui est capable de nativement
 
 * MapLibre [https://bl.ocks.org/ThomasG77/e9eacae4cd4c75e61327944997cb82d4](https://bl.ocks.org/ThomasG77/e9eacae4cd4c75e61327944997cb82d4)
 
-#### [#](https://guides.etalab.gouv.fr/apis-geo/3-tuiles-vecteur.html#consommer-les-tuiles-vectorielles-seules)Consommer les tuiles vectorielles seules <a href="#consommer-les-tuiles-vectorielles-seules" id="consommer-les-tuiles-vectorielles-seules"></a>
+#### Consommer les tuiles vectorielles seules <a href="#consommer-les-tuiles-vectorielles-seules" id="consommer-les-tuiles-vectorielles-seules"></a>
 
 * Maplibre [https://raw.githack.com/webgeodatavore/openmaptiles-geo-data-gouv-fr/master/maplibre-gl-js/maplibre-gl-js-openmaptiles-with-overlay.html](https://raw.githack.com/webgeodatavore/openmaptiles-geo-data-gouv-fr/master/maplibre-gl-js/maplibre-gl-js-openmaptiles-with-overlay.html)
 * OpenLayers [https://raw.githack.com/webgeodatavore/openmaptiles-geo-data-gouv-fr/master/openlayers/openlayers-openmaptiles-with-overlay.html](https://raw.githack.com/webgeodatavore/openmaptiles-geo-data-gouv-fr/master/openlayers/openlayers-openmaptiles-with-overlay.html)
 * Leaflet [https://raw.githack.com/webgeodatavore/openmaptiles-geo-data-gouv-fr/master/leaflet/leaflet-openmaptiles-with-overlay.html](https://raw.githack.com/webgeodatavore/openmaptiles-geo-data-gouv-fr/master/leaflet/leaflet-openmaptiles-with-overlay.html)
 
-#### [#](https://guides.etalab.gouv.fr/apis-geo/3-tuiles-vecteur.html#heberger-les-tuiles-du-cadastre-ou-faire-une-extrait-sur-votre-zone)Héberger les tuiles du cadastre ou faire une extrait sur votre zone <a href="#heberger-les-tuiles-du-cadastre-ou-faire-une-extrait-sur-votre-zone" id="heberger-les-tuiles-du-cadastre-ou-faire-une-extrait-sur-votre-zone"></a>
+#### Héberger les tuiles du cadastre ou faire une extrait sur votre zone <a href="#heberger-les-tuiles-du-cadastre-ou-faire-une-extrait-sur-votre-zone" id="heberger-les-tuiles-du-cadastre-ou-faire-une-extrait-sur-votre-zone"></a>
 
 ```
 wget https://cadastre.data.gouv.fr/data/etalab-cadastre/2021-07-01/mbtiles/france/cadastre.mbtiles
@@ -125,7 +127,7 @@ Pour un aperçu, ouvrir [http://localhost:3000/#16.17/47.215211/-1.567287](http:
 
 Si vous souhaitez héberger vous-même, nous vous recommandons de passer par [TileServer-Gl Light](https://www.npmjs.com/package/tileserver-gl-light) combiné avec NGinx.
 
-### [#](https://guides.etalab.gouv.fr/apis-geo/3-tuiles-vecteur.html#l-alternative-des-tuiles-vecteur-de-l-ign)L'alternative des tuiles vecteur de l'IGN <a href="#l-alternative-des-tuiles-vecteur-de-l-ign" id="l-alternative-des-tuiles-vecteur-de-l-ign"></a>
+### L'alternative des tuiles vecteur de l'IGN <a href="#l-alternative-des-tuiles-vecteur-de-l-ign" id="l-alternative-des-tuiles-vecteur-de-l-ign"></a>
 
 Selon vos besoins, vous pouvez choisir d'utiliser l'API de tuiles vectorielles de l'IGN plutôt que celles que nous mettons à disposition. Voici deux exemples:
 

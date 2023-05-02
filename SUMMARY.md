@@ -36,9 +36,9 @@
     * [Indiquer et vérifier qu'une ressource respecte un schéma de données](guides/guide-qualite/les-schemas-de-donnees/indiquer-et-verifier-quune-ressource-respecte-un-schema-de-donnees.md)
   * [Pour aller plus loin](guides/guide-qualite/pour-aller-plus-loin.md)
 * [📖 Guide juridique](guides/guide-juridique/README.md)
-  * [Qu'est-ce que l'open data ?](publier-des-donnees/guide-juridique/quest-ce-que-lopen-data.md)
-  * [Quelles obligations ?](publier-des-donnees/guide-juridique/quelles-obligations.md)
-  * [Quelles conditions de réutilisations ?](publier-des-donnees/guide-juridique/quelles-conditions-de-reutilisations.md)
+  * [Qu'est-ce que l'open data ?](guide-juridique/lopen-data.md)
+  * [Quelles obligations ?](guide-juridique/louverture-des-donnees.md)
+  * [Quelles conditions de réutilisations ?](guide-juridique/la-reutilisation-des-donnees.md)
   * [Chronologie de l'open data](guide-juridique/chronologie-de-lopen-data.md)
 * [⚙ Guide data.gouv.fr](guides/guide-data.gouv.fr/README.md)
   * [Utilisateur](guides/guide-data.gouv.fr/compte-utilisateur.md)
@@ -58,7 +58,7 @@
 * [API à composante géographique](reutiliser-les-donnees-publiques/api-a-composante-geographique/README.md)
   * [API adresse](reutiliser-les-donnees-publiques/api-a-composante-geographique/api-adresse.md)
   * [API découpage administratif](reutiliser-les-donnees-publiques/api-a-composante-geographique/api-decoupage-administratif.md)
-* [Tuiles vectorielles](reutiliser-les-donnees-publiques/tuiles-vectorielles.md)
+  * [Tuiles vectorielles](reutiliser-des-donnees/api-a-composante-geographique/tuiles-vectorielles.md)
 
 ## Brouillons
 

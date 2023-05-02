@@ -8,9 +8,9 @@ Familier des APIs ? Vous pouvez directement vous référer à :
 
 ➡️ Consultez [la documentation de l’API Adresse](https://adresse.data.gouv.fr/api-doc/adresse)
 
-### [#](https://guides.etalab.gouv.fr/apis-geo/1-api-adresse.html#les-donnees-d-adresses)Les données d’adresses <a href="#les-donnees-d-adresses" id="les-donnees-d-adresses"></a>
+### Les données d’adresses <a href="#les-donnees-d-adresses" id="les-donnees-d-adresses"></a>
 
-#### [#](https://guides.etalab.gouv.fr/apis-geo/1-api-adresse.html#comment-les-donnees-d-adresses-sont-elles-constituees)Comment les données d’adresses sont-elles constituées ? <a href="#comment-les-donnees-d-adresses-sont-elles-constituees" id="comment-les-donnees-d-adresses-sont-elles-constituees"></a>
+#### Comment les données d’adresses sont-elles constituées ? <a href="#comment-les-donnees-d-adresses-sont-elles-constituees" id="comment-les-donnees-d-adresses-sont-elles-constituees"></a>
 
 La donnée adresse qui compose la Base Adresse Nationale (BAN) est soit :
 
@@ -23,25 +23,27 @@ L’image ci-dessous résume la situation pour consolider les données adresses
 
 ![](https://guides.etalab.gouv.fr/assets/img/schema-donnees-ban.681a4c32.svg)
 
-#### [#](https://guides.etalab.gouv.fr/apis-geo/1-api-adresse.html#comment-acceder-aux-donnees-d-adresses)Comment accéder aux données d’adresses ? <a href="#comment-acceder-aux-donnees-d-adresses" id="comment-acceder-aux-donnees-d-adresses"></a>
+#### Comment accéder aux données d’adresses ? <a href="#comment-acceder-aux-donnees-d-adresses" id="comment-acceder-aux-donnees-d-adresses"></a>
 
 Il existe plusieurs méthodes pour accéder aux données
 
 * **Récupérer directement les données**. Cette méthode s’adresse à des utilisateurs avancés.
 * **Utiliser l’API de recherche**. Cette API peut rechercher des adresses soit via un appel unique par adresse soit en mode "_batch_": on passe un fichier avec une liste d’adresse, une par ligne et on retourne la première adresse retournée pour chacun des lignes.
 
-#### [#](https://guides.etalab.gouv.fr/apis-geo/1-api-adresse.html#quels-sont-les-usages-de-l-api-adresse)**Quels sont les usages de l’API adresse ?** <a href="#quels-sont-les-usages-de-l-api-adresse" id="quels-sont-les-usages-de-l-api-adresse"></a>
+**Quels sont les usages de l’API adresse ?**
 
 Les usages de l’API adresse sont principalement de deux natures :
 
 * trouver par un formulaire une adresse pour la corriger et/ou récupérer des coordonnées en ayant une liste de choix pour trouver le résultat: c’est l’autocomplétion ;
 * fournir un fichier tabulaire pour obtenir en retour une version enrichie des coordonnées et d’autres informations.
 
-### [#](https://guides.etalab.gouv.fr/apis-geo/1-api-adresse.html#qu-est-ce-que-le-geocodage)Qu’est-ce que le géocodage ? <a href="#qu-est-ce-que-le-geocodage" id="qu-est-ce-que-le-geocodage"></a>
+### Qu’est-ce que le géocodage ? <a href="#qu-est-ce-que-le-geocodage" id="qu-est-ce-que-le-geocodage"></a>
 
+{% hint style="info" %}
 Lexique : Géocodage Le géocodage consiste à affecter des coordonnées géographiques (longitude/latitude) à une adresse postale (Wikipédia).
 
 Il permet ainsi de positionner des adresses sur une carte ou encore de trouver les points de départ et d’arrivée pour déterminer votre trajet lorsque vous voyagez par exemple.
+{% endhint %}
 
 Pour réaliser un géocodage, il est nécessaire de disposer :
 
@@ -49,7 +51,7 @@ Pour réaliser un géocodage, il est nécessaire de disposer :
 * des **coordonnées géographiques** x et y qui sont généralement la longitude(x) et la latitude(y) ;
 * une entrée correspondant à l’adresse recherchée.
 
-#### [#](https://guides.etalab.gouv.fr/apis-geo/1-api-adresse.html#comment-fonctionne-un-geocodeur)Comment fonctionne un géocodeur ? <a href="#comment-fonctionne-un-geocodeur" id="comment-fonctionne-un-geocodeur"></a>
+#### Comment fonctionne un géocodeur ? <a href="#comment-fonctionne-un-geocodeur" id="comment-fonctionne-un-geocodeur"></a>
 
 Un géocodeur transforme une donnée textuelle des données de référence en utilisant des algorithmes qui séparent l’adresse en syllabes, mots et groupes de mots.
 
@@ -63,7 +65,7 @@ En pratique, un certain nombre de géocodeurs visent à réaliser des recherches
 
 Le **géocodage peut aussi se faire de façon inverse**, c’est-à-dire retourner une adresse en envoyant une coordonnée. Dans ce cas de figure, il s’agit de trouver la donnée de référence la plus proche des coordonnées envoyées.
 
-#### [#](https://guides.etalab.gouv.fr/apis-geo/1-api-adresse.html#les-limites-du-geocodage)Les limites du géocodage <a href="#les-limites-du-geocodage" id="les-limites-du-geocodage"></a>
+#### Les limites du géocodage <a href="#les-limites-du-geocodage" id="les-limites-du-geocodage"></a>
 
 Nous nous concentrons ici sur les cas liés aux adresses, le géocodeur utilisé par [adresse.data.gouv.fr](http://adresse.data.gouv.fr/) étant spécifiquement conçu pour répondre à ce besoin.
 
@@ -105,9 +107,9 @@ Cette situation s’explique en particulier avec la création des communes nouve
   * Il peut exister des différences liées à la vision sur la position du numéro de l’adresse (entrée principale, boîte aux lettres, bâtiment, cage d’escalier, logement, parcelle, position dérivée du segment de la voie de rattachement, point d’accès technique, etc.) ;
   * Des référentiels différents selon les acteurs même si la BAN (Base Adresse Nationale) et les BAL (Bases Adresses Locales) amènent à une amélioration et une uniformisation des référentiels: données héritées de la Poste, de l’IGN, du cadastre, des opérateurs réseaux (fibre, etc.).
 
-### [#](https://guides.etalab.gouv.fr/apis-geo/1-api-adresse.html#cas-pratiques)Cas pratiques <a href="#cas-pratiques" id="cas-pratiques"></a>
+### Cas pratiques <a href="#cas-pratiques" id="cas-pratiques"></a>
 
-#### [#](https://guides.etalab.gouv.fr/apis-geo/1-api-adresse.html#comment-faire-si-une-recherche-d-adresse-ne-fonctionne-pas)Comment faire si une recherche d’adresse ne fonctionne pas ? <a href="#comment-faire-si-une-recherche-d-adresse-ne-fonctionne-pas" id="comment-faire-si-une-recherche-d-adresse-ne-fonctionne-pas"></a>
+#### Comment faire si une recherche d’adresse ne fonctionne pas ? <a href="#comment-faire-si-une-recherche-d-adresse-ne-fonctionne-pas" id="comment-faire-si-une-recherche-d-adresse-ne-fonctionne-pas"></a>
 
 * Vérifier en utilisant l’[autocomplétion](https://adresse.data.gouv.fr/base-adresse-nationale#4.4/46.9/1.7) :
   * tapez vote adresse. Par exemple, "20 avenue de Ségur". Si le numéro est bien proposé et que la commune est la bonne pour le premier résultat, c’est la manière dont vous avez récupéré l’adresse qui est en cause. Si vous êtes en mode "batch", la première adresse retournée peut être mauvaise et c’est la 2ème ou 3ème adresse que vous attendiez.
@@ -119,7 +121,7 @@ Cette situation s’explique en particulier avec la création des communes nouve
 
 Vous êtes un particulier, vous pouvez récupérer les coordonnées de votre commune pour lui faire part de vos retours en passant par [https://adresse.data.gouv.fr/contribuer](https://adresse.data.gouv.fr/contribuer) puis en cherchant votre commune.
 
-### [#](https://guides.etalab.gouv.fr/apis-geo/1-api-adresse.html#comment-faire-de-l-autocompletion-d-adresse)Comment faire de l’**autocomplétion d’adresse ?** <a href="#comment-faire-de-l-autocompletion-d-adresse" id="comment-faire-de-l-autocompletion-d-adresse"></a>
+### Comment faire de l’**autocomplétion d’adresse ?** <a href="#comment-faire-de-l-autocompletion-d-adresse" id="comment-faire-de-l-autocompletion-d-adresse"></a>
 
 Il existe plusieurs solutions pour faire de l’autocomplétion dans un outil web.
 
@@ -156,7 +158,7 @@ Vous pouvez vous appuyer sur de nombreuses bibliothèques, celles-ci étant gén
 * [Formulaire exemple 1](https://raw.githack.com/webgeodatavore/photon-geocoder-autocomplete/master/demo/index-no-map.html)
 * [Formulaire exemple 2](https://gist.githack.com/ThomasG77/0b99013795f76699c5c9a0d7daf4411e/raw/a6b65c033efa73cecb3ea8473ba83aabc973d373/demo-ban-form-only-alternate.html)
 
-### [#](https://guides.etalab.gouv.fr/apis-geo/1-api-adresse.html#comment-faire-du-geocodage-par-adresse-unitaire)Comment faire du **géocodage par adresse unitaire ?** <a href="#comment-faire-du-geocodage-par-adresse-unitaire" id="comment-faire-du-geocodage-par-adresse-unitaire"></a>
+### Comment faire du **géocodage par adresse unitaire ?** <a href="#comment-faire-du-geocodage-par-adresse-unitaire" id="comment-faire-du-geocodage-par-adresse-unitaire"></a>
 
 Avec Python, pour faire des appels unitaires, vous pouvez
 
@@ -165,11 +167,11 @@ Avec Python, pour faire des appels unitaires, vous pouvez
 
 En JavaScript, vous pouvez utiliser [ces exemples](https://addok.readthedocs.io/en/latest/examples/#using-javascript-client-side) que ce soit pour un usage côté navigateur ou côté serveur (Node.js/deno).
 
-### [#](https://guides.etalab.gouv.fr/apis-geo/1-api-adresse.html#geocodage-massif)Géocodage massif <a href="#geocodage-massif" id="geocodage-massif"></a>
+### Géocodage massif <a href="#geocodage-massif" id="geocodage-massif"></a>
 
 Lorsqu'on choisit cette option, on privilégie l'appel par le endpoint CSV de l'API. Il faut préalablement s'assurer que son CSV est bien formaté. En effet, il s'avère que le géocodage peut ponctuellement dysfonctionner si le CSV n'est pas bien formaté.
 
-#### [#](https://guides.etalab.gouv.fr/apis-geo/1-api-adresse.html#option-manuelle)Option manuelle <a href="#option-manuelle" id="option-manuelle"></a>
+#### Option manuelle <a href="#option-manuelle" id="option-manuelle"></a>
 
 Il existe une interface graphique pour envoyer des fichiers CSV sur [https://adresse.data.gouv.fr/csv](https://adresse.data.gouv.fr/csv) dont la taille maximum est de 50Mo. Pour tester, téléchargeons [le fichier exemple](https://gist.githubusercontent.com/ThomasG77/32329a8557135f11cb5656e3bfd4d35c/raw/9bd7883be31d2c9758d4393d72e9dc1ae4c5bed3/annuaire-des-debits-de-tabac-2018-utf8-20lines.csv) puis suivez l'exemple en utilisant le GIF animé ci-dessous.
 
@@ -177,17 +179,17 @@ Il existe une interface graphique pour envoyer des fichiers CSV sur [https://adr
 
 Pour réaliser un géocodage massif, il faut généralement vérifier le formatage de votre CSV.
 
-#### [#](https://guides.etalab.gouv.fr/apis-geo/1-api-adresse.html#python-seul)Python seul <a href="#python-seul" id="python-seul"></a>
+#### Python seul <a href="#python-seul" id="python-seul"></a>
 
 * solution partant d'appels unitaires plutôt que des appels CSV [https://github.com/MTES-MCT/bulk-geocoding-python-client](https://github.com/MTES-MCT/bulk-geocoding-python-client)
 * solution partant d'appels à l'API CSV. Il suffit de récupérer [le zip](https://gist.github.com/ThomasG77/32329a8557135f11cb5656e3bfd4d35c/archive/3681bd0c070540abfdae55e6ff0bf9a41795cf42.zip), de décompresser le fichier. Ensuite, il vous suffit de lancer le script Python avec `python chunk-csv-python.py`. Cela permettra de faire l'appel vers l'API CSV soit en une fois, soit en plusieurs phases. On obtiendra ainsi le fichier `annuaire-des-debits-de-tabac-2018-utf8-20lines.geocoded.csv` qui est la version géocodée par l'API CSV d'un fichier de 20 lignes ainsi que `myresults.csv` qui est une version qui résulte d'une phase de découpage d'un gros fichier en plusieurs morceaux, d'appels à l'API CSV à partir de chacun de ces fichiers, puis du réassemblage des fichiers ainsi retournés. Vous n'avez plus qu'à adapter le code du fichier `chunk-csv-python.py`.
 * [https://github.com/MTES-MCT/bulk-geocoding-python-client](https://github.com/MTES-MCT/bulk-geocoding-python-client) (attention, la solution fait des appels unitaires plutôt que des appels CSV)
 
-#### [#](https://guides.etalab.gouv.fr/apis-geo/1-api-adresse.html#javascript)JavaScript <a href="#javascript" id="javascript"></a>
+#### JavaScript <a href="#javascript" id="javascript"></a>
 
 * Geocodage massif avec une solution en ligne de commande utilisant Node.js [https://github.com/jdesboeufs/addok-geocode-stream](https://github.com/jdesboeufs/addok-geocode-stream)
 
-#### [#](https://guides.etalab.gouv.fr/apis-geo/1-api-adresse.html#autres-outils-utilisant-la-ban)Autres outils utilisant la BAN <a href="#autres-outils-utilisant-la-ban" id="autres-outils-utilisant-la-ban"></a>
+#### Autres outils utilisant la BAN <a href="#autres-outils-utilisant-la-ban" id="autres-outils-utilisant-la-ban"></a>
 
 Vous faites du SIG, néophyte comme expert et utilisez le logiciel SIG QGIS?
 
@@ -200,7 +202,7 @@ Vous utilisez d’autres outils?
 * Vous faites du R? [https://cran.r-project.org/web/packages/banR/index.html](https://cran.r-project.org/web/packages/banR/index.html)
 * Vous souhaitez intégrer la recherche dans le CMS SPIP? [http://plugins.spip.net/gisban.html](http://plugins.spip.net/gisban.html)
 
-### [#](https://guides.etalab.gouv.fr/apis-geo/1-api-adresse.html#gros-consommateurs-de-l-api-api-adresse-data-gouv-fr)Gros consommateurs de l’API [api-adresse.data.gouv.fr](http://api-adresse.data.gouv.fr/)? <a href="#gros-consommateurs-de-l-api-api-adresse-data-gouv-fr" id="gros-consommateurs-de-l-api-api-adresse-data-gouv-fr"></a>
+### Gros consommateurs de l’API [api-adresse.data.gouv.fr](http://api-adresse.data.gouv.fr/)? <a href="#gros-consommateurs-de-l-api-api-adresse-data-gouv-fr" id="gros-consommateurs-de-l-api-api-adresse-data-gouv-fr"></a>
 
 Si vous êtes un organisme public, vous pouvez faire une demande pour augmenter les quotas par défaut sur l’API publique [api-adresse.data.gouv.fr](http://api-adresse.data.gouv.fr/)
 
@@ -212,7 +214,7 @@ Il est possible aussi de regarder du côté de Addok, le logiciel open source de
 
 * [https://github.com/addok/addok](https://github.com/addok/addok)
 
-### [#](https://guides.etalab.gouv.fr/apis-geo/1-api-adresse.html#geocodeurs-alternatifs)Géocodeurs alternatifs <a href="#geocodeurs-alternatifs" id="geocodeurs-alternatifs"></a>
+### Géocodeurs alternatifs <a href="#geocodeurs-alternatifs" id="geocodeurs-alternatifs"></a>
 
 Même si nous avons abordé l’usage du géocodeur Addok, utilisé par adresse.data.gouv.fr, il existe d'autres possibilités pour géocoder. Leurs principaux intérêts sont de pouvoir chercher des POIs, par exemple un centre commercial ou une enseigne ainsi que de marcher sur des données internationales, contrairement à [l'instance publique de Addok](https://adresse.data.gouv.fr/api-doc/adresse).
 
