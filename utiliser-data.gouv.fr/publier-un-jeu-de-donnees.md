@@ -16,7 +16,7 @@ Plusieurs modes de mises en ligne sont possible sur data.gouv.fr :&#x20;
 
 {% hint style="info" %}
 En amont de la publication il est important de bien préparer le jeu de données. \
-Voir notre [guide qualité](../guide-qualite/preparer-un-jeu-de-donnees-de-qualite/).&#x20;
+Voir notre [guide qualité](../guide-qualite/preparer-le-jeu-de-donnees.md).&#x20;
 {% endhint %}
 
 {% tabs %}
@@ -62,7 +62,7 @@ Lors de l’étape “Ajoutez vos ressources”, deux options vous sont proposé
 
 
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="API" %}
@@ -125,56 +125,27 @@ Le principe du moissonnage sur data.gouv.fr se décompose en plusieurs étapes :
 5. Le moissonneur de data.gouv.fr vient automatiquement récupérer les données de votre plateforme ;
 6. Les données de votre plateforme sont référencées et visibles sur data.gouv.fr. :tada:
 
-**Pour en savoir plus consultez le** [**guide moissonage**](moissonage.md)**.**
+**Pour en savoir plus consultez le** [**guide moissonage**](../guides/guide-data.gouv.fr/moissonage.md)**.**
 {% endtab %}
 {% endtabs %}
 
+## Gérer son jeu de données <a href="#definir-qui-publie-le-jeu-de-donnees" id="definir-qui-publie-le-jeu-de-donnees"></a>
 
+### Publier une réutilisation
 
-## Gérer son jeu de donnée <a href="#definir-qui-publie-le-jeu-de-donnees" id="definir-qui-publie-le-jeu-de-donnees"></a>
+Une fois votre jeu de données publié vous pouvez y associer une réutilisation. Cela permettra notamment aux usagers de comprendre le contexte de production des données et de faire connaitre vos données. [Voir le guide réutilisation](publier-une-reutilisation.md).
 
-## Faire vivre son jeu de données <a href="#faire-vivre-son-jeu-de-donnees" id="faire-vivre-son-jeu-de-donnees"></a>
+### Suivre l'usage de son jeu de données <a href="#obtenir-des-informations-a-propos-de-votre-jeu-de-donnees" id="obtenir-des-informations-a-propos-de-votre-jeu-de-donnees"></a>
 
+Afin de suivre la vie de votre jeu de données sur data.gouv.fr, vous avez la possibilité de suivre ses statistiques d’utilisation depuis votre compte administrateur. Un tableau de bord centralise les informations relatives au jeu de données. [Voir le guide de suivi des usages](publier-un-jeu-de-donnees.md#obtenir-des-informations-a-propos-de-votre-jeu-de-donnees).
 
+### **Suivre la qualité du jeu de données**
 
-* Répondre aux discussions&#x20;
-* Publier une réutilisation
+La qualité de votre jeu de données est fondamentale pour qu’il soit réutilisé par le plus d’utilisateurs possible. Assurer vous notamment que vos données soient à jour et de respecter les critères de qualité de données. [Voir le guide sur le score qualité](../guides/guide-qualite/ameliorer-la-qualite-dun-jeu-de-donnees/ameliorer-le-score-de-qualite-des-metadonnees.md).
 
+### Mettre à jour ou modifier un jeu de données et/ou une ressource <a href="#mettre-a-jour-ou-modifier-un-jeu-de-donnees-et-ou-une-ressource" id="mettre-a-jour-ou-modifier-un-jeu-de-donnees-et-ou-une-ressource"></a>
 
-
-#### Obtenir des informations à propos de votre jeu de données <a href="#obtenir-des-informations-a-propos-de-votre-jeu-de-donnees" id="obtenir-des-informations-a-propos-de-votre-jeu-de-donnees"></a>
-
-Afin de suivre la vie de votre jeu de données sur data.gouv.fr, vous avez la possibilité de suivre ses statistiques d’utilisation depuis votre compte administrateur. Un tableau de bord centralise les informations relatives au jeu de données :
-
-* Sa couverture temporelle, sa fréquence de mise à jour et ses mots-clés ; sa couverture spatiale ;
-* son statut de disponibilité et les téléchargements associés à chaque ressource publiée ;
-* ses réutilisations ;
-* ses anomalies ;
-* ses abonnés ;
-* ses ressources communautaires.
-
-Des statistiques d’audience et de téléchargement sont disponibles sur le tableau de bord de votre compte administrateur.
-
-**Qualité du jeu de données**
-
-La qualité de votre jeu de données est fondamentale pour qu’il soit réutilisé par le plus d’utilisateurs possible. Afin de vous guider, un encart “Qualité” est mis à votre disposition dans le tableau de bord de chaque jeu de données. L’objectif est de vous aider à améliorer la qualité des (méta)données à partir de six critères :
-
-* Le jeu de données possède t-il une description ?
-* Des mots clés sont-ils associés à votre jeu de données ?
-* Le format du jeu de données est-il ouvert ?
-* Des discussions à propos du jeu ont-elles été ouvertes ?
-* Le jeu de donnée est-il à jour ?
-* Les ressources du jeu de données sont-elles accessibles ?
-
-
-
-### <mark style="background-color:blue;">Mettre à jour ou modifier un jeu de données et/ou une ressource</mark> <a href="#mettre-a-jour-ou-modifier-un-jeu-de-donnees-et-ou-une-ressource" id="mettre-a-jour-ou-modifier-un-jeu-de-donnees-et-ou-une-ressource"></a>
-
-Les données publiées sur data.gouv.fr peuvent être [mises à jour après leur publication](https://doc.data.gouv.fr/jeux-de-donnees/mettre-a-jour-un-jeu-de-donnees-ou-une-ressource/), que la modification porte sur un jeu de données (sa description, ses tags, etc.) ou sur l’une des ressources qu’il contient.
-
-Un producteur qui s’engage dans une logique de publication de ses données a intérêt à actualiser les ressources publiées le plus souvent possible. Ce critère de fraîcheur est critique pour les réutilisateurs qui fondent leurs services et produits sur les données publiées sur data.gouv.fr.
-
-
+Les données publiées sur data.gouv.fr peuvent être mises à jour après leur publication, que la modification porte sur un jeu de données (sa description, ses tags, etc.) ou sur l’une des ressources qu’il contient.
 
 ### Répondre aux discussions <a href="#transferer-un-jeu-de-donnees" id="transferer-un-jeu-de-donnees"></a>
 
@@ -217,8 +188,6 @@ Pour accepter une demande de transfert vers votre compte :
 2. Rendez-vous sur [votre tableau de bord](https://www.data.gouv.fr/fr/admin/), en cliquant sur **Administration** en haut à droite de votre écran ;
 3. Cliquez sur l’enveloppe située en haut à droite de votre écran, puis sur le message dont le titre est **Demande de transfert en attente** ;
 4. Vérifiez que le jeu de données que vous êtes sur le point d’accepter est le bon puis cliquez sur **Accepter** pour confirmer le transfert.
-
-
 
 ### Supprimer un jeu de données ou une ressource <a href="#supprimer-un-jeu-de-donnees-ou-une-ressource" id="supprimer-un-jeu-de-donnees-ou-une-ressource"></a>
 

@@ -4,6 +4,8 @@ description: Comment créer un compte et comment rejoindre une organisation ?
 
 # Utilisateur
 
+
+
 {% hint style="info" %}
 **Pourquoi créer un compte utilisateur ?**&#x20;
 
@@ -43,4 +45,4 @@ Si vous pensez que vous devriez figurer dans la liste des membres d’une organi
 
 {% embed url="https://www.loom.com/share/df1896e7b6d34301b4ede711c9f66ac4" %}
 
-Si votre organisation n'existe pas vous pouvez la créer. Cette procédure est explicitée dans le [guide organisation](organisation.md).
+Si votre organisation n'existe pas vous pouvez la créer. Cette procédure est explicitée dans le [guide organisation](gerer-son-organisation.md).

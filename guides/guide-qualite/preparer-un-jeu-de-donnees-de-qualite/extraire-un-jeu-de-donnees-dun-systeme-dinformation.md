@@ -2,8 +2,6 @@
 
 Si les données que vous souhaitez faire circuler ne sont pas structurées sous la forme d'un jeu de données, il est nécessaire de réaliser une extraction des données depuis le système d'information où elles sont stockées. L'extraction permet d'obtenir un jeu de données structuré, qui ordonne les données selon différentes caractéristiques.
 
-
-
 Lorsque vous cherchez à extraire des données d'un système d'information, plusieurs situations peuvent se présenter :&#x20;
 
 1. **Un outil permet d'exporter l'ensemble des données depuis le système d'information** : il est nécessaire de sélectionner les données éligibles à la circulation en aval de l'export ;

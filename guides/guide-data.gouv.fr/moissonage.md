@@ -1,7 +1,5 @@
 # Moissonage
 
-## &#x20;<a href="#limites" id="limites"></a>
-
 {% hint style="info" %}
 **Qu'est-ce que le moissonnage sur data.gouv.fr ?** \
 Le moissonnage est une technique de récupération automatisée de metadonnées en “pull” : le serveur data.gouv.fr va chercher les metadonnées sur les sites distants.
@@ -376,8 +374,6 @@ Chaque moissonnage donne lieu à un rapport accessible depuis l’interface d’
 
 * **1** correspond à l’erreur **technique** formulée de façon compréhensible pour un humain
 * **2** contient la “**stacktrace**” de l’erreur qui servira à ceux qui développent des moissonneurs ou contribuent aux existants.
-
-
 
 ## Détection des licences par le moissonnage
 
