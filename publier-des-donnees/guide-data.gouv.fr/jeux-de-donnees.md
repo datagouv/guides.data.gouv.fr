@@ -16,7 +16,7 @@ Plusieurs modes de mises en ligne sont possible sur data.gouv.fr :&#x20;
 
 {% hint style="info" %}
 En amont de la publication il est important de bien préparer le jeu de données. \
-Voir notre [guide qualité](../guide-qualite/preparer-le-jeu-de-donnees.md).&#x20;
+Voir notre [guide qualité](../guide-qualite/preparer-un-jeu-de-donnees-de-qualite/).&#x20;
 {% endhint %}
 
 {% tabs %}
@@ -62,7 +62,7 @@ Lors de l’étape “Ajoutez vos ressources”, deux options vous sont proposé
 
 
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="API" %}
@@ -125,7 +125,7 @@ Le principe du moissonnage sur data.gouv.fr se décompose en plusieurs étapes :
 5. Le moissonneur de data.gouv.fr vient automatiquement récupérer les données de votre plateforme ;
 6. Les données de votre plateforme sont référencées et visibles sur data.gouv.fr. :tada:
 
-**Pour en savoir plus consultez le** [**guide moissonage**](../guides/guide-data.gouv.fr/moissonage.md)**.**
+**Pour en savoir plus consultez le** [**guide moissonage**](moissonage.md)**.**
 {% endtab %}
 {% endtabs %}
 
@@ -231,8 +231,3 @@ Il est conseillé de supprimer le moins de ressources possibles de la plateforme
 {% endhint %}
 
 {% embed url="https://www.loom.com/share/83b80a106f7940ebbf01a79cf63e363c" %}
-
-### &#x20;<a href="#partager-son-jeu-de-donnees-et-ses-ressources" id="partager-son-jeu-de-donnees-et-ses-ressources"></a>
-
-
-

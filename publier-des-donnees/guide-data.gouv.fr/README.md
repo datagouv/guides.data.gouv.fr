@@ -23,8 +23,8 @@ Ce guide à pour objectif de vous accompagner dans l'utilisation de la plateform
 
 
 
-{% content-ref url="compte-utilisateur.md" %}
-[compte-utilisateur.md](compte-utilisateur.md)
+{% content-ref url="utilisateur.md" %}
+[utilisateur.md](utilisateur.md)
 {% endcontent-ref %}
 
 

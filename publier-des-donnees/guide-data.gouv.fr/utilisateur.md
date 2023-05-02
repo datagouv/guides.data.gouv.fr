@@ -41,19 +41,6 @@ Nous vous conseillons de rejoindre une organisation existante si vous souhaitez 
 
 Si vous pensez que vous devriez figurer dans la liste des membres d’une organisation, faites une demande pour la rejoindre. L’administrateur de l’organisation devra ensuite accepter votre demande.
 
-<details>
-
-<summary>Comment demander à rejoindre une organisation ?</summary>
-
-1. [Connectez-vous à votre compte](https://www.data.gouv.fr/fr/login) ;
-2. Rendez-vous sur la page de l’organisation que vous aimeriez rejoindre ;
-3. Descendez au niveau de la section **Actions** ;
-4. Cliquez sur **Demander à rejoindre l’organisation en tant que producteur** ;
-5. Dans la fenêtre qui s’ouvre alors, expliquez ce qui motive votre demande puis cliquez sur **Ok** ;
-6. Les administrateurs de l’organisation sont informés par e-mail que vous souhaitez intégrer leur équipe.
-
-</details>
-
 {% embed url="https://www.loom.com/share/df1896e7b6d34301b4ede711c9f66ac4" %}
 
-Si votre organisation n'existe pas vous pouvez la créer. Cette procédure est explicitée dans le [guide organisation](gerer-son-organisation.md).
+Si votre organisation n'existe pas vous pouvez la créer. Cette procédure est explicitée dans le [guide organisation](organisation.md).
