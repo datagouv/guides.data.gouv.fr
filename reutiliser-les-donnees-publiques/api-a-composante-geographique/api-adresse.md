@@ -40,7 +40,8 @@ Les usages de l’API adresse sont principalement de deux natures :
 ### Qu’est-ce que le géocodage ? <a href="#qu-est-ce-que-le-geocodage" id="qu-est-ce-que-le-geocodage"></a>
 
 {% hint style="info" %}
-Lexique : Géocodage Le géocodage consiste à affecter des coordonnées géographiques (longitude/latitude) à une adresse postale (Wikipédia).
+**Lexique : Géocodage**\
+Le géocodage consiste à affecter des coordonnées géographiques (longitude/latitude) à une adresse postale (Wikipédia).
 
 Il permet ainsi de positionner des adresses sur une carte ou encore de trouver les points de départ et d’arrivée pour déterminer votre trajet lorsque vous voyagez par exemple.
 {% endhint %}
@@ -81,31 +82,38 @@ D’un autre côté, les coordonnées géographiques peuvent manquer de précisi
 
 Dans d’autres cas, les coordonnées peuvent avoir été interpolées : les adresses ont été positionnées en fonction du nombre de numéros dans une voie et la longueur de celle-ci.
 
-**Les principales problématiques liées aux adresses**
 
-* **Plusieurs communes pour un code postal**.
+
+<details>
+
+<summary>⚠️ Les principales problématiques liées aux adresses</summary>
+
+**Plusieurs communes pour un code postal**.
 
 Cette problématique se pose par exemple lorsqu’on met le nom de la commune dans une adresse. En effet, 68,9% des codes postaux sont associés à plus d’une commune et jusqu’à 46 communes sont rattachées à un même code postal.
 
-* **Plusieurs codes postaux pour une commune**.
+**Plusieurs codes postaux pour une commune**.
 
 1.5% des communes ont plus d’un seul code postal sur leur territoire. On compte même jusqu’à 9 codes postaux pour une même commune pour le cas extrême !
 
-* **Des communes ont des noms identiques**.
+**Des communes ont des noms identiques**.
 
 10.6% des communes ont une ou plusieurs communes homonymes.
 
-* **Des codes postaux n’ont pas le même code que celui du département**.
+**Des codes postaux n’ont pas le même code que celui du département**.
 
 Ces cas de figure sont très rares (quelques dizaines).
 
-* **Plusieurs noms de voie avec un nom identique sont situés à différents endroits pour une même commune**.
+**Plusieurs noms de voie avec un nom identique sont situés à différents endroits pour une même commune**.
 
 Cette situation s’explique en particulier avec la création des communes nouvelles qui a encouragé le regroupement de communes. Ce problème peut être réglé en ajoutant le nom de la commune déléguée dans l’adresse postale, en renumérotant les rues ou en les renommant. Or les géocodeurs ne gèrent pas forcément bien voir pas du tout l’ajout d’adresse de la commune déléguée.
 
-* **Plusieurs coordonnées pour une même adresse**
-  * Il peut exister des différences liées à la vision sur la position du numéro de l’adresse (entrée principale, boîte aux lettres, bâtiment, cage d’escalier, logement, parcelle, position dérivée du segment de la voie de rattachement, point d’accès technique, etc.) ;
-  * Des référentiels différents selon les acteurs même si la BAN (Base Adresse Nationale) et les BAL (Bases Adresses Locales) amènent à une amélioration et une uniformisation des référentiels: données héritées de la Poste, de l’IGN, du cadastre, des opérateurs réseaux (fibre, etc.).
+**Plusieurs coordonnées pour une même adresse**
+
+* Il peut exister des différences liées à la vision sur la position du numéro de l’adresse (entrée principale, boîte aux lettres, bâtiment, cage d’escalier, logement, parcelle, position dérivée du segment de la voie de rattachement, point d’accès technique, etc.) ;
+* Des référentiels différents selon les acteurs même si la BAN (Base Adresse Nationale) et les BAL (Bases Adresses Locales) amènent à une amélioration et une uniformisation des référentiels: données héritées de la Poste, de l’IGN, du cadastre, des opérateurs réseaux (fibre, etc.).
+
+</details>
 
 ### Cas pratiques <a href="#cas-pratiques" id="cas-pratiques"></a>
 
@@ -127,6 +135,8 @@ Il existe plusieurs solutions pour faire de l’autocomplétion dans un outil we
 
 Vous pouvez vous appuyer sur de nombreuses bibliothèques, celles-ci étant généralement liées à des bibliothèques cartographiques.
 
+{% tabs %}
+{% tab title="Solutions basées sur Leaflet" %}
 **Solutions basées sur Leaflet**
 
 * [https://github.com/entrepreneur-interet-general/leaflet-geocoder-ban](https://github.com/entrepreneur-interet-general/leaflet-geocoder-ban)
@@ -137,7 +147,9 @@ Vous pouvez vous appuyer sur de nombreuses bibliothèques, celles-ci étant gén
 * [https://entrepreneur-interet-general.github.io/leaflet-geocoder-ban/demo/demo\_control.html](https://entrepreneur-interet-general.github.io/leaflet-geocoder-ban/demo/demo\_control.html)
 * [https://entrepreneur-interet-general.github.io/leaflet-geocoder-ban/demo/demo\_search\_bar.html](https://entrepreneur-interet-general.github.io/leaflet-geocoder-ban/demo/demo\_search\_bar.html)
 * [https://gist.githack.com/ThomasG77/0b99013795f76699c5c9a0d7daf4411e/raw/a6b65c033efa73cecb3ea8473ba83aabc973d373/demo-ban-leaflet-photon.html](https://gist.githack.com/ThomasG77/0b99013795f76699c5c9a0d7daf4411e/raw/a6b65c033efa73cecb3ea8473ba83aabc973d373/demo-ban-leaflet-photon.html)
+{% endtab %}
 
+{% tab title="Solutions basées sur OpenLayers" %}
 **Solutions basées sur OpenLayers**
 
 * [https://github.com/webgeodatavore/photon-geocoder-autocomplete](https://github.com/webgeodatavore/photon-geocoder-autocomplete)
@@ -145,8 +157,10 @@ Vous pouvez vous appuyer sur de nombreuses bibliothèques, celles-ci étant gén
 
 **Exemples**:
 
-* [https://raw.githack.com/webgeodatavore/photon-geocoder-autocomplete/master/demo/index-ol.html](https://raw.githack.com/webgeodatavore/photon-geocoder-autocomplete/master/demo/index-ol.html)
+* [https://raw.githack.com/webgeodatavore/photon-geocoder-autocomplete/master/demo/index-ol.html](https://raw.githack.com/webgeodatavore/photon-geocoder-autocomplete/master/demo/index-ol.html)v
+{% endtab %}
 
+{% tab title="Solutions indépendantes de bibliothèques cartographiques" %}
 **Solutions indépendantes de bibliothèques cartographiques**
 
 * [https://github.com/webgeodatavore/photon-geocoder-autocomplete](https://github.com/webgeodatavore/photon-geocoder-autocomplete)
@@ -157,6 +171,8 @@ Vous pouvez vous appuyer sur de nombreuses bibliothèques, celles-ci étant gén
 * [Exemple avec OpenLayers, mais non lié à OpenLayers](https://gist.githack.com/ThomasG77/0b99013795f76699c5c9a0d7daf4411e/raw/a6b65c033efa73cecb3ea8473ba83aabc973d373/demo-ban-openlayers.html)
 * [Formulaire exemple 1](https://raw.githack.com/webgeodatavore/photon-geocoder-autocomplete/master/demo/index-no-map.html)
 * [Formulaire exemple 2](https://gist.githack.com/ThomasG77/0b99013795f76699c5c9a0d7daf4411e/raw/a6b65c033efa73cecb3ea8473ba83aabc973d373/demo-ban-form-only-alternate.html)
+{% endtab %}
+{% endtabs %}
 
 ### Comment faire du **géocodage par adresse unitaire ?** <a href="#comment-faire-du-geocodage-par-adresse-unitaire" id="comment-faire-du-geocodage-par-adresse-unitaire"></a>
 
@@ -171,6 +187,8 @@ En JavaScript, vous pouvez utiliser [ces exemples](https://addok.readthedocs.io/
 
 Lorsqu'on choisit cette option, on privilégie l'appel par le endpoint CSV de l'API. Il faut préalablement s'assurer que son CSV est bien formaté. En effet, il s'avère que le géocodage peut ponctuellement dysfonctionner si le CSV n'est pas bien formaté.
 
+{% tabs %}
+{% tab title="Option manuelle" %}
 #### Option manuelle <a href="#option-manuelle" id="option-manuelle"></a>
 
 Il existe une interface graphique pour envoyer des fichiers CSV sur [https://adresse.data.gouv.fr/csv](https://adresse.data.gouv.fr/csv) dont la taille maximum est de 50Mo. Pour tester, téléchargeons [le fichier exemple](https://gist.githubusercontent.com/ThomasG77/32329a8557135f11cb5656e3bfd4d35c/raw/9bd7883be31d2c9758d4393d72e9dc1ae4c5bed3/annuaire-des-debits-de-tabac-2018-utf8-20lines.csv) puis suivez l'exemple en utilisant le GIF animé ci-dessous.
@@ -178,16 +196,25 @@ Il existe une interface graphique pour envoyer des fichiers CSV sur [https://adr
 ![](https://guides.etalab.gouv.fr/assets/img/geocodage-csv-manuel.ecc04ebd.gif)
 
 Pour réaliser un géocodage massif, il faut généralement vérifier le formatage de votre CSV.
+{% endtab %}
 
-#### Python seul <a href="#python-seul" id="python-seul"></a>
+{% tab title="Python seul" %}
+**Python seul**
 
 * solution partant d'appels unitaires plutôt que des appels CSV [https://github.com/MTES-MCT/bulk-geocoding-python-client](https://github.com/MTES-MCT/bulk-geocoding-python-client)
 * solution partant d'appels à l'API CSV. Il suffit de récupérer [le zip](https://gist.github.com/ThomasG77/32329a8557135f11cb5656e3bfd4d35c/archive/3681bd0c070540abfdae55e6ff0bf9a41795cf42.zip), de décompresser le fichier. Ensuite, il vous suffit de lancer le script Python avec `python chunk-csv-python.py`. Cela permettra de faire l'appel vers l'API CSV soit en une fois, soit en plusieurs phases. On obtiendra ainsi le fichier `annuaire-des-debits-de-tabac-2018-utf8-20lines.geocoded.csv` qui est la version géocodée par l'API CSV d'un fichier de 20 lignes ainsi que `myresults.csv` qui est une version qui résulte d'une phase de découpage d'un gros fichier en plusieurs morceaux, d'appels à l'API CSV à partir de chacun de ces fichiers, puis du réassemblage des fichiers ainsi retournés. Vous n'avez plus qu'à adapter le code du fichier `chunk-csv-python.py`.
 * [https://github.com/MTES-MCT/bulk-geocoding-python-client](https://github.com/MTES-MCT/bulk-geocoding-python-client) (attention, la solution fait des appels unitaires plutôt que des appels CSV)
+* solution partant d'appels unitaires plutôt que des appels CSV [https://github.com/MTES-MCT/bulk-geocoding-python-client](https://github.com/MTES-MCT/bulk-geocoding-python-client)
+* solution partant d'appels à l'API CSV. Il suffit de récupérer [le zip](https://gist.github.com/ThomasG77/32329a8557135f11cb5656e3bfd4d35c/archive/3681bd0c070540abfdae55e6ff0bf9a41795cf42.zip), de décompresser le fichier. Ensuite, il vous suffit de lancer le script Python avec `python chunk-csv-python.py`. Cela permettra de faire l'appel vers l'API CSV soit en une fois, soit en plusieurs phases. On obtiendra ainsi le fichier `annuaire-des-debits-de-tabac-2018-utf8-20lines.geocoded.csv` qui est la version géocodée par l'API CSV d'un fichier de 20 lignes ainsi que `myresults.csv` qui est une version qui résulte d'une phase de découpage d'un gros fichier en plusieurs morceaux, d'appels à l'API CSV à partir de chacun de ces fichiers, puis du réassemblage des fichiers ainsi retournés. Vous n'avez plus qu'à adapter le code du fichier `chunk-csv-python.py`.
+* [https://github.com/MTES-MCT/bulk-geocoding-python-client](https://github.com/MTES-MCT/bulk-geocoding-python-client) (attention, la solution fait des appels unitaires plutôt que des appels CSV)
+{% endtab %}
 
-#### JavaScript <a href="#javascript" id="javascript"></a>
+{% tab title="JavaScript" %}
+**JavaScript**
 
 * Geocodage massif avec une solution en ligne de commande utilisant Node.js [https://github.com/jdesboeufs/addok-geocode-stream](https://github.com/jdesboeufs/addok-geocode-stream)
+{% endtab %}
+{% endtabs %}
 
 #### Autres outils utilisant la BAN <a href="#autres-outils-utilisant-la-ban" id="autres-outils-utilisant-la-ban"></a>
 
