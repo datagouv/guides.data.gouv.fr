@@ -16,7 +16,7 @@ Il est possible de combiner approches quantitatives et qualitatives pour cerner 
 
 Selon les moyens disponibles, plusieurs leviers sont disponibles :&#x20;
 
-* **Mesurer les volumes d'usage** : en suivant les métriques des jeux de données publiés proposés par data.gouv.fr ou sur son propre portail (nombre de consultations, nombre de téléchargements, nombre de réutilisations, etc.)&#x20;
+* **Mesurer les volumes d'usage** : en suivant les [métriques des jeux de données publiés proposés par data.gouv.fr](https://stats.data.gouv.fr/) ou sur son propre portail (nombre de consultations, nombre de téléchargements, nombre de réutilisations, etc.)&#x20;
 * **Répondre aux commentaires et aux questions soumis sur data.gouv.fr**, dans lesquels les réutilisateurs font régulièrement remonter leurs besoins. D'après [l'analyse réalisée par des étudiantes et des étudiants de l'Université Bordeaux Montaigne](https://www.data.gouv.fr/fr/posts/que-se-dit-il-dans-les-commentaires-sur-data-gouv-fr/), sur data.gouv.fr, de nombreux commentaires peuvent être catégorisés comme relevant de problématiques d'accessibilité, suivie de celles d'actualisation des données puis des questions de fiabilité et d'exploitabilité des données.&#x20;
 
 <figure><img src="../../../.gitbook/assets/Apr-28-2023 16-39-21.gif" alt=""><figcaption><p>Echantillon de discussions sur le jeu de données "Demandes de valeur foncière"</p></figcaption></figure>
@@ -30,7 +30,7 @@ Selon les moyens disponibles, plusieurs leviers sont disponibles :&#x20;
 {% hint style="info" %}
 **Exemples :**&#x20;
 
-* A l'automne 2021, les producteurs de la Base Sirene (INSEE) ont sondé leurs réutilisateurs sur des questions de contenu, de format ou encore de documentation des données.
+* A l'automne 2021, les producteurs de la [Base Sirene](https://www.data.gouv.fr/fr/datasets/base-sirene-des-entreprises-et-de-leurs-etablissements-siren-siret/) (INSEE) ont sondé leurs réutilisateurs sur des questions de contenu, de format ou encore de documentation des données.
 * En décembre 2022, le ministère de la Culture a lancé [une consultation publique](https://www.culture.gouv.fr/Thematiques/Innovation-numerique/Actualites/Open-data-decouvrez-les-resultats-de-la-consultation) sur l'ouverture des données publiques culturelles. Cette consultation visait à recueillir les besoins et les remarques des usagers concernant les jeux de données déjà ouverts et ceux qui auraient vocation à être ouverts.&#x20;
 {% endhint %}
 

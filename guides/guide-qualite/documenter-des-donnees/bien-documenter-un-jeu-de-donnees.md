@@ -13,7 +13,7 @@ La bonne documentation d'un jeu de données recouvre, entre autres : &#x20;
 
 ## Description générale du jeu de données <a href="#description-generale-du-jeu-de-donnees" id="description-generale-du-jeu-de-donnees"></a>
 
-Il est conseillé de commencer la documentation par une description synthétique du jeu de données qui donne un aperçu rapide des informations mises à disposition.
+Il est conseillé de commencer la documentation par une **description synthétique du jeu de données** qui donne un aperçu rapide des informations mises à disposition.
 
 La description générale peut couvrir les points suivants :&#x20;
 
@@ -32,7 +32,7 @@ La structure d'un jeu de données et son contenu sont liés au contexte de produ
 
 La description du mode de production du jeu de données permet au réutilisateur de comprendre la structure du jeu, la nature des données et les possibles manques ou incohérences du fichier.
 
-Il est conseillé de préciser :&#x20;
+Il est donc conseillé de préciser :&#x20;
 
 * **comment les données ont été produites** (saisie manuelle, collecte automatique, etc.) ;&#x20;
 * **qui sont les acteurs producteurs des données** et si les données sont produites par plusieurs acteurs, le modèle de gouvernance mis en place pour centraliser les données ;&#x20;
@@ -48,7 +48,7 @@ Par exemple, [l’article R112 A-3 du Livre des procédures fiscale](https://www
 ## Description du modèle de données <a href="#description-du-modele-de-donnees" id="description-du-modele-de-donnees"></a>
 
 {% hint style="info" %}
-**Lexique : Schéma de données VS Modèle de données**
+**Eclairage : Schéma de données VS Modèle de données**
 
 S'ils peuvent être utilisés dans des contextes proches, les termes "schéma" et "modèle" sont bien différents :
 
@@ -73,7 +73,7 @@ Une fois le modèle établi, il convient de définir le découpage en fichiers. 
 * regrouper des entités dans un même fichier
 * créer un fichier par entité
 
-> **Exemple** : [La documentation](https://mtes-mct.github.io/secmar-documentation/schema.html) du jeu de données des opérations de sauvetage en mer décrit le modèle de données utilisé. Ce modèle de données permet de comprendre rapidement les relations qui unissent les différentes entités du jeu de données. Dans cet exemple, il a été choisi d'associer un fichier par entité.
+> **Exemple** : [La documentation](https://mtes-mct.github.io/secmar-documentation/schema.html) du [jeu de données des opérations de sauvetage en mer](https://www.data.gouv.fr/fr/datasets/operations-coordonnees-par-les-cross/) décrit le modèle de données utilisé. Ce modèle de données permet de comprendre rapidement les relations qui unissent les différentes entités du jeu de données. Dans cet exemple, il a été choisi d'associer un fichier par entité.
 
 <figure><img src="https://guides.etalab.gouv.fr/assets/img/schema_secmar.37dd98f3.png" alt=""><figcaption></figcaption></figure>
 
@@ -82,13 +82,13 @@ Une fois le modèle établi, il convient de définir le découpage en fichiers. 
 Si vous publiez des données tabulaires, il est conseillé de produire un tableau récapitulatif indiquant, pour chaque colonne :&#x20;
 
 * **le nom de la colonne**
-* **son type de données** (entier, chaîne de caractères, nombre décimal etc.)
+* **son type de données** (entier, chaîne de caractères, nombre décimal, etc.)
 * **la description de la donnée contenue dans cette colonne**
 * **une ou plusieurs valeurs d’exemple**
 
-Cela constituera une base solide en vue de la création d'un schéma de données, dont le processus est détaillé [ici](https://guides.etalab.gouv.fr/producteurs-schemas/).
+Cela constituera une base solide en vue de la création d'un schéma de données, dont le processus est détaillé [ici](../les-schemas-de-donnees/creer-un-schema-de-donnees/).
 
-> **Exemple :** La documentation du jeu de données de sauvetage en mer présente un tableau récapitulatif des différentes colonnes. La description des champs permet de faire le lien avec le fichier de données, ce qui facilite la lecture des données.&#x20;
+> **Exemple :** La documentation du [jeu de données des opérations de sauvetage en mer](https://www.data.gouv.fr/fr/datasets/operations-coordonnees-par-les-cross/) présente un tableau récapitulatif des différentes colonnes. La description des champs permet de faire le lien avec le fichier de données, ce qui facilite la lecture des données.&#x20;
 
 <figure><img src="https://guides.etalab.gouv.fr/assets/img/table_secmar.561dfb7c.png" alt=""><figcaption></figcaption></figure>
 
@@ -145,7 +145,7 @@ Cette liste peut faire figurer :&#x20;
 
 Si nécessaire, il est possible d’indiquer des liens, comme par exemple lorsque des changements sont introduits par une modification du code de transformation des données.
 
-> **Exemple :** [La documentation](https://mtes-mct.github.io/secmar-documentation/CHANGELOG.html) du jeu de données des sauvetages en mer comporte une section “Changement sur le jeu de données”. Cette section référence les changements du jeu de données en renseignant les informations suivantes :
+> **Exemple :** [La documentation](https://mtes-mct.github.io/secmar-documentation/CHANGELOG.html) du [jeu de données des opérations de sauvetage en mer](https://www.data.gouv.fr/fr/datasets/operations-coordonnees-par-les-cross/) comporte une section “Changement sur le jeu de données”. Cette section référence les changements du jeu de données en renseignant les informations suivantes :
 >
 > * La date du changement
 > * La nature du changement

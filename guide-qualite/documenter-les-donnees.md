@@ -8,7 +8,7 @@ Les données issues d'une organisation ont été produites dans un contexte mét
 Elle décrit les données et la structure des fichiers publiés.
 {% endhint %}
 
-Dans cette section, vous apprendrez :&#x20;
+**Dans cette section, vous apprendrez :**&#x20;
 
 1. Comment bien documenter de vos données ;&#x20;
 2. Comment diffuser la documentation de vos données.

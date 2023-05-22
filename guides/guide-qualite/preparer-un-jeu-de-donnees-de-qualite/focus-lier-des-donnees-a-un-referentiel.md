@@ -1,10 +1,10 @@
 # Focus : Lier des données à un référentiel
 
-{% hint style="info" %}
+{% hint style="success" %}
 Il est important d'intégrer dans vos jeux de données des données pivots relevant d'un référentiel (cf. section "Structurer un jeu de données" - Cas 1 - La structure de vos données ne correspond à aucun schéma de données).
 {% endhint %}
 
-> **Exemple** : Mon jeu de données est une liste d'actions culturelles menées par ma région. Certaines de ces actions sont gérées par des associations. Il peut être intéressant de publier un jeu de données recensant ces actions avec un champ correspondant à l'identification des associations. Cet identifiant existe et est standardisé, il s'agit du numéro RNA, identifiant national des associations dont le répertoire est opéré par le ministère de l'intérieur.
+> **Exemple** : Mon jeu de données est une liste d'actions culturelles menées par ma région. Certaines de ces actions sont gérées par des associations. Il peut être intéressant de publier un jeu de données recensant ces actions avec un champ correspondant à l'identification des associations. Cet identifiant existe et est standardisé, il s'agit du numéro RNA, identifiant national des associations dont [le répertoire](https://www.data.gouv.fr/fr/datasets/repertoire-national-des-associations/) est opéré par le ministère de l'intérieur.
 
 ## Pourquoi intégrer des données pivots dans un jeu de données ? <a href="#avantages" id="avantages"></a>
 
@@ -73,7 +73,7 @@ Voici deux exemples de référentiels techniques :&#x20;
 {% hint style="info" %}
 **Cadre Commun d'Architecture des référentiels de données de l'État**
 
-Le [Cadre Commun d'Architecture des référentiels de données de l'État](https://references.modernisation.gouv.fr/sites/default/files/Cadre%20Commun%20d'Architecture%20des%20R%C3%A9f%C3%A9rentiel%20de%20donn%C3%A9es%20v1.0\_0.pdf) fait spécifiquement mention de l'importance des variables pivots dans le partage et la publication de données. Il stipule notamment que :
+Le Cadre Commun d'Architecture des référentiels de données de l'État fait spécifiquement mention de l'importance des variables pivots dans le partage et la publication de données. Il stipule notamment que :
 
 * Les données sont un bien, un actif de l’État, elles doivent être gérées et valorisées en conséquence ;
 * Les données doivent être standardisées, définies sur la base d’un vocabulaire commun, contextualisées, et combinables les unes aux autres ;
@@ -94,9 +94,9 @@ La mise en place de référentiels fait partie d'une stratégie de montée en qu
 
 Il existe des référentiels pour décrire une adresse de manière unique.&#x20;
 
-Le référentiel officiel d'adresse est la [**base d'adresse nationale (ou BAN précédemment listé)**](https://www.data.gouv.fr/fr/datasets/base-adresse-nationale/).&#x20;
+Le référentiel officiel d'adresse est la [**Base Adresse Nationale (ou BAN)**](https://www.data.gouv.fr/fr/datasets/base-adresse-nationale/).&#x20;
 
-* Si vous partez de zéro pour constituer un jeu de données, il est pertinent de partir de la base adresse national pour décrire vos adresses.
+* Si vous partez de zéro pour constituer un jeu de données, il est pertinent de partir de la Base Adresse Nationale pour décrire vos adresses.
 * Si vous travaillez sur un jeu de données qui contient déjà des adresses saisies, il peut s'avérer fastidieux de corriger manuellement l'ensemble des adresses erronées et vous pouvez obtenir une base d'adresse normalisée grâce à la méthode décrite ci-dessous.
 
 ### Le géocodage <a href="#le-geocodage" id="le-geocodage"></a>

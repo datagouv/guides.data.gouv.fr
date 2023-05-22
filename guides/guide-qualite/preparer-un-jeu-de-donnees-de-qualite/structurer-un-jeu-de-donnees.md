@@ -31,9 +31,9 @@ Quelques bonnes pratiques vous permettront de bien structurer votre jeu de donn�
 
 Il est conseillé de :&#x20;
 
-* **Occulter l’ensemble des colonnes dont les champs contiennent des données couvertes par un secret légal** (cf. [guide juridique](https://guides.etalab.gouv.fr/juridique)) ;
-* **Occulter l’ensemble des colonnes dont les champs contiennent des données à caractère personnel** dont la publication n’est pas nécessaire à l’information du public (cf. [guide juridique](https://guides.etalab.gouv.fr/juridique)) ;
-* **Privilégier la présence de variables pivots** : ces variables proposent des identifiants communs qui permettent de lier plusieurs jeux de données entre eux (ex. le numéro SIRET de la base Sirene) (cf. page [Lier les données à un référentiel](https://guides.etalab.gouv.fr/qualite/lier-les-donnees-a-un-referentiel)).
+* **Occulter l’ensemble des colonnes dont les champs contiennent des données couvertes par un secret légal** (cf. [guide juridique](../../guide-juridique/)) ;
+* **Occulter l’ensemble des colonnes dont les champs contiennent des données à caractère personnel** dont la publication n’est pas nécessaire à l’information du public (cf. [guide juridique](../../guide-juridique/)) ;
+* **Privilégier la présence de variables pivots** : ces variables proposent des identifiants communs qui permettent de lier plusieurs jeux de données entre eux (ex. le numéro SIRET de la [base Sirene](https://www.data.gouv.fr/fr/datasets/base-sirene-des-entreprises-et-de-leurs-etablissements-siren-siret/)) (cf. [sous section "Focus : Lier des données à un référentiel"](focus-lier-des-donnees-a-un-referentiel.md)).
 
 #### L’entête des colonnes (pour le format tabulaire) <a href="#l-entete-des-colonnes-pour-le-format-tabulaire" id="l-entete-des-colonnes-pour-le-format-tabulaire"></a>
 
@@ -41,14 +41,14 @@ Il est conseillé de :&#x20;
 Dans un fichier tabulaire, la première ligne du fichier peut être utilisée pour nommer chaque colonne et donner des informations sur les données associées.&#x20;
 {% endhint %}
 
-Il est conseillé de&#x20;
+Il est conseillé de :&#x20;
 
 * Donner **un nom de colonne explicite** ;&#x20;
 * Donner **un nom de colonne sans majuscule, abréviation, accents, ni espaces** (préférez le caractère `_`) afin de faciliter la manipulation des fichiers.
 
 #### Gestion des champs non attribués <a href="#gestion-des-champs-non-attribues" id="gestion-des-champs-non-attribues"></a>
 
-Il est possible que certaines occurrences d’un champ d'un fichier ne soit pas attribuées.&#x20;
+Il est possible que certaines occurrences d’un champ d'un fichier ne soient pas attribuées.&#x20;
 
 Il convient de :&#x20;
 
@@ -83,7 +83,7 @@ Lorsque l’encodage est mal choisi, le réutilisateur des données est souvent 
 Dans un fichier tabulaire, le séparateur permet de structurer les données sous forme de cellules.&#x20;
 {% endhint %}
 
-Il est conseillé d'**utiliser la virgule comme séparateur**
+Il est conseillé d'**utiliser la virgule comme séparateur.**&#x20;
 
 {% hint style="warning" %}
 **Séparateurs décimaux**
@@ -135,12 +135,12 @@ Ces schémas facilitent la montée en qualité et le croisement des données pro
 
 
 
-➡️ **Pour plus de détails sur les schémas de données, consultez la section "Les schémas de données"**
+➡️ **Pour plus de détails sur les schémas de données, consultez** [**la section "Les schémas de données"**](../../../guide-qualite/les-schemas-de-donnees/)
 {% endhint %}
 
 ### **Identifier un schéma de données déjà existant**
 
-Il est possible d'identifier un schéma de données déjà existant **en consultant le site schema.data.gouv.fr**, qui référence une liste de schémas de données existants. Le site offre aussi la possibilité à tout utilisateur de soumettre de nouveaux schémas de données.&#x20;
+Il est possible d'identifier un schéma de données déjà existant [**en consultant le site schema.data.gouv.fr**](https://schema.data.gouv.fr/), qui référence une liste de schémas de données existants. Le site offre aussi la possibilité à tout utilisateur de soumettre de nouveaux schémas de données.&#x20;
 
 Lorsque les données que vous souhaitez faire circuler correspondent à un schéma existant, **il est conseillé de l’appliquer au plus près**.
 
@@ -149,7 +149,7 @@ Lorsque les données que vous souhaitez faire circuler correspondent à un sché
 Si les données ne sont pas extraites d’un système d’information mais saisies manuellement, **il est possible d'utiliser** [**l’outil publier.etalab.studio**](https://publier.etalab.studio/) qui permet, à partir d’un schéma de données sélectionné, de saisir les valeurs de chaque information et ainsi de produire un fichier exhaustif et conforme.
 
 {% hint style="info" %}
-**Guide : Utiliser publier.etalab.studio pour saisir, valider et publier des données de qualité**
+**Guide : Utiliser** [**publier.etalab.studio**](https://publier.etalab.studio/) **pour saisir, valider et publier des données de qualité**
 
 Cet outil vous permet de créer un fichier CSV en vous assurant qu'il est conforme à un schéma, c'est-à-dire que ses données sont complètes, valides et structurées.
 
@@ -165,12 +165,12 @@ Les étapes à suivre sont les suivantes :&#x20;
      * Vous pouvez alors choisir d'ajouter une ou plusieurs lignes ou télécharger le fichier CSV correspondant au tableau récapitulatif
    * **Saisissez vos données sur un tableur en ligne**
 3. La conformité de vos données par rapport au schéma choisi est vérifiée/validée. En cas d'erreur de validation, vous pouvez les **corriger**.
-4. Une fois les données conforme au schéma correspondant, **publiez-les sur data.gouv.fr** grâce à un formulaire de publication simplifié permettant une authentification tierce.&#x20;
+4. Une fois les données conforme au schéma correspondant, **publiez-les sur** [**data.gouv.fr**](https://www.data.gouv.fr/fr/) grâce à un formulaire de publication simplifié permettant une authentification tierce.&#x20;
 
 
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/Capture d’écran 2023-04-25 à 18.05.30 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Capture d’écran 2023-04-25 à 18.05.30 (1).png" alt=""><figcaption><p>Schéma synthétisant la procédure pour saisir, valider et publier des données à l'aide de publier.etalab.studio</p></figcaption></figure>
 
 ### **Valider la conformité d’un fichier avec un schéma de données**
 

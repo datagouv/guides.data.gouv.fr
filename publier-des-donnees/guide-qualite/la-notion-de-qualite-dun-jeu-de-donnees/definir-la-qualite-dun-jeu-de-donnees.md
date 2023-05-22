@@ -4,7 +4,7 @@ Pour une donnée, **la notion de qualité dépend grandement de l'usage qui en e
 
 Les jeux de données publiés sont généralement produits dans un contexte propre à un processus métier et pour un usage particulier. Cet environnement métier n'est pas toujours familier aux tiers, qu'ils soient internes ou externes à l'organisation.&#x20;
 
-> Exemple : La _base de données des demandes de valeur foncière_ est historiquement produite par la Direction générale des finances publiques pour tenir un fichier immobilier et collecter l'impôt.
+> Exemple : [La _base de données des demandes de valeur foncière_](https://www.data.gouv.fr/fr/datasets/demandes-de-valeurs-foncieres/) est historiquement produite par la Direction générale des finances publiques pour tenir un fichier immobilier et collecter l'impôt.
 
 Les réutilisateurs peuvent alors rencontrer des difficultés lorsqu'ils souhaitent s'approprier des données ouvertes :&#x20;
 
