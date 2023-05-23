@@ -8,7 +8,7 @@ La phase d’investigation est la première phase de la création d’un schéma
 
 ## Marche à suivre <a href="#etapes-a-suivre" id="etapes-a-suivre"></a>
 
-Pour déterminer s’il est nécessaire de créer ou non un schéma de données, nous vous recommandons de suivre les étapes suivantes :
+Pour déterminer s’il est nécessaire de créer ou non un schéma de données, il est recommandé de suivre les étapes suivantes :
 
 1. **Lire attentivement les différentes sections de ce guide** ;
 2. **Organiser une réunion réunissant des acteurs métiers, techniques et de potentiels réutilisateurs** : vous débattrez de la pertinence de la création de votre schéma de données ;

@@ -32,7 +32,7 @@ Les principaux standards techniques sont les suivants :
 Tous ces standards techniques sont supportés par [schema.data.gouv.fr](https://schema.data.gouv.fr/).
 
 {% hint style="info" %}
-**Tip : Aller au-delà de la documentation texte**
+**Conseil : Aller au-delà de la documentation texte**
 
 Un schéma de données décrit uniquement par du texte ou par un tableau se prive de nombreux avantages, notamment celui de l'interopérabilité entre différents systèmes informatiques.
 
@@ -91,9 +91,7 @@ Il est conseillé d'utiliser un compte d’organisation (dédié à votre entrep
 Plusieurs dépôts Git de schémas sont disponibles sur [schema.data.gouv.fr](https://schema.data.gouv.fr/) (exemple : [le dépôt Git décrivant les lieux de stationnement](https://github.com/etalab/schema-stationnement) à l’aide d’un schéma TableSchema sur GitHub).&#x20;
 {% endhint %}
 
-## Référencer un schéma de données sur schema.data.gouv.fr <a href="#referencer-votre-schema-de-donnees-sur-schema-data-gouv-fr" id="referencer-votre-schema-de-donnees-sur-schema-data-gouv-fr"></a>
-
-Pour faciliter la découverte de votre schéma de données et des données sous-jacentes, il est recommandé de le faire référencer sur [schema.data.gouv.fr](https://schema.data.gouv.fr/). La marche à suivre est détaillée ici.&#x20;
+Pour faciliter la découverte de votre schéma de données et des données sous-jacentes, il est recommandé de le faire référencer sur [schema.data.gouv.fr](https://schema.data.gouv.fr/). La marche à suivre est détaillée [ici](../../../../guide-qualite/les-schemas-de-donnees/integration-avec-schema.data.gouv.fr.md).&#x20;
 
 ## Points de sortie <a href="#points-de-sortie" id="points-de-sortie"></a>
 
@@ -101,4 +99,4 @@ Pour faciliter la découverte de votre schéma de données et des données sous-
 
 * Avoir implémenté votre schéma de données dans un des standards reconnus ;
 * Avoir publié votre travail en ligne, dans un répertoire Git dédié ;
-* Avoir pris contact avec les équipes de schema.data.gouv.fr dans le but de référencer votre schéma de données si nécessaire.
+* Avoir pris contact avec les équipes de [schema.data.gouv.fr](https://schema.data.gouv.fr/) dans le but de référencer votre schéma de données si nécessaire.

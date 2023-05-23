@@ -1,6 +1,6 @@
 # Comprendre les bénéfices d'utiliser un schéma de données
 
-La création de données en conformité avec un schéma de données existant apporte plusieurs bénéfices :
+La production de données en conformité avec un schéma de données existant présente de nombreux bénéfices :
 
 * **Croisement** : les données créées peuvent être facilement croisées avec d’autres données conformes au schéma de données utilisé ;
 * **Intéropérabilité** : l’interopérabilité des données et leur croisement est simplifié ;

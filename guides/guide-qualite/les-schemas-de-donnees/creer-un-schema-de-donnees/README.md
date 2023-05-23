@@ -7,10 +7,10 @@ La création d'un schéma de données se décompose en 4 phases :&#x20;
 3. **Construction** : implémenter le schéma de données obtenu après la phase de concertation ;
 4. **Maintien et promotion** : faire la promotion d'un schéma auprès d'autres parties prenantes et le faire évoluer si besoin.
 
-Dans cette section sont proposés un processus à suivre, des bonnes pratiques et des outils.&#x20;
+Dans cette section sont proposés pour chaque phase un processus à suivre, des bonnes pratiques et des outils.&#x20;
 
-{% hint style="info" %}
+{% hint style="success" %}
 **Conseil de lecture**
 
-Nous vous recommandons de lire une première fois ce guide **en intégralité** afin de prendre connaissance des différentes phases. Vous pourrez ensuite vous référer aux pages pertinentes au fur et à mesure de votre avancée.
+Nous vous recommandons de lire une première fois cette section sur la création de schémas de odnnées **en intégralité** afin de prendre connaissance des différentes phases. Vous pourrez ensuite vous référer aux pages pertinentes au fur et à mesure de votre avancée.
 {% endhint %}

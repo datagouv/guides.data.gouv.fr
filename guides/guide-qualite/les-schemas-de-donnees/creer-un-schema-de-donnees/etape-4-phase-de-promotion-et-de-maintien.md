@@ -15,12 +15,12 @@ Modifier ou commenter un schéma contribue à faire vivre l'écosystème open da
 
 De nouveaux acteurs peuvent vouloir publier des données qui rentrent dans le cadre de votre schéma, mais peuvent ne pas en avoir connaissance, ou ne pas avoir les compétences techniques pour se l'approprier.
 
-Pour faciliter l'adoption d'un schéma de données, il est possible de par exemple :&#x20;
+Pour faciliter l'adoption d'un schéma de données, il est possible de :&#x20;
 
 * [ ] **diffuser ses travaux à ses partenaires et au grand public**, sur ses réseaux sociaux ou newsletters, pour mettre en valeur sa proactivité et susciter de l'intérêt ;
 * [ ] **utiliser son réseau de connaissances pour inciter d'autres parties prenantes à publier leurs données**, par exemple via la plateforme [publier.etalab.studio](https://publier.etalab.studio/), que ce soit sous son schéma ou dans d'autres domaines, qui pourront donner lieu à d'autres schémas ;
 * [ ] **aider des acteurs souhaitant utiliser son schéma**, en leur faisant bénéficier de son expérience, par exemple en leur répondant directement dans les commentaires sur [data.gouv.fr](https://www.data.gouv.fr/) ;
-* [ ] **interagir avec les réutilisateurs** afin de mieux cerner leurs besoins, suggérer des améliorations ou des champs d'investigation.
+* [ ] **interagir avec les réutilisateurs** afin de mieux cerner leurs besoins, des améliorations possibles ou des champs d'investigation.
 
 Des scripts ont été mis au point par les équipes d'Etalab pour permettre de vérifier et d'agréger toutes les données publiées par type de schéma et ainsi créer des fichiers consolidés à l'échelle nationale (i.e.[ données IRVE](https://www.data.gouv.fr/fr/datasets/fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques/)). Cela permet à des solutions à grande échelle d'émerger.&#x20;
 
@@ -56,7 +56,7 @@ Lorsque les modifications à faire à un schéma font consensus, il est nécessa
    * documenter la nouvelle version : ajouter un titre et une description exhaustive des changements dans les champs dédiés, juste avant la publication
    * publier la release (`Publish release`)
 
-Que ce soit pour des considérations techniques ou "conceptuelles", il est possible de solliciter [les équipes d’Etalab](https://www.etalab.gouv.fr/contact) qui pourront vous accompagner dans le processus de mise à jour de votre schéma.
+Que ce soit pour des considérations techniques ou "conceptuelles", il est possible de solliciter les équipes de schema.data.gouv.fr qui pourront vous accompagner dans le processus de mise à jour de votre schéma.
 
 ## Points de sortie <a href="#points-de-sortie" id="points-de-sortie"></a>
 

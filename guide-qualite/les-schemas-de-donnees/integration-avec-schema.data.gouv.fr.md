@@ -10,7 +10,7 @@
 Cette plateforme de référencement national permet un accès aux schémas produits par différents acteurs et facilite l’intégration avec des systèmes informatiques par le biais de standards, d’URLs stables, de processus de validation et d’API.
 {% endhint %}
 
-![Capture d’écran de l’interface de schema.data.gouv.fr](https://guides.etalab.gouv.fr/assets/img/schema-datagouv.889d7adf.png)
+<figure><img src="../../.gitbook/assets/Capture d’écran 2023-05-23 à 06.51.11.png" alt=""><figcaption><p>Page d'accueil de schema.data.gouv.fr</p></figcaption></figure>
 
 Dans cette section, vous apprendrez :&#x20;
 
