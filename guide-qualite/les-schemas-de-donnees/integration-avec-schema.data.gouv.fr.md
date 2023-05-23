@@ -17,4 +17,4 @@ Dans cette section, vous apprendrez :&#x20;
 * Qui peut référencer des schémas de données ;&#x20;
 * Quels sont les schémas de données acceptés sur schema.data.gouv.fr ;&#x20;
 * Quand référencer un schéma de données ;&#x20;
-* Comment référencer un schéma de données.\
+* Comment référencer un schéma de données.
