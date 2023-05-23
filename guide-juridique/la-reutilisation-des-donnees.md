@@ -4,25 +4,23 @@
 
 La réutilisation des informations publiques désigne l’utilisation des données publiques par des tiers à d’autres fins que celle de la mission de service public pour laquelle les documents ont été produits ou reçus.
 
-
-
 La réutilisation des données doit être libre, c'est-à-dire :
 
-* Elle est gratuite ;
-* Elle peut viser une autre finalité que le but initial de production du jeu de données ;
-* Elle peut être réalisée par tout acteur, qu'il soit public ou privé. Une administration ne peut demander à ce que le réutilisateur ait une qualité particulière pour accéder aux données.
+* **Elle est gratuite** ;
+* **Elle peut viser une autre finalité que le but initial de production du jeu de données** ;
+* **Elle peut être réalisée par tout acteur, qu'il soit public ou privé** : une administration ne peut demander à ce que le réutilisateur ait une qualité particulière pour accéder aux données.
 
-## Quelles sont les obligations du réutilisateur ?
+## Quelles sont les obligations du réutilisateur de données ?
 
-Lorsqu'un individu réutilise un jeu de données publié, il est tenu de :
+Lorsqu'un individu réutilise un jeu de données publiques, il est tenu de :
 
 * **Mentionner la source des données** ;
 * **Mentionner la date de dernière mise à jour de la réutilisation** ;
 * **Ne pas altérer le sens des données**.
 
-De plus, le réutilisateur est tenu de se conformer aux obligations légales qui découlent du [Règlement général sur la protection des données](https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000037085952\&categorieLien=id).
+Le réutilisateur est aussi tenu de se conformer aux obligations légales qui découlent du [**Règlement général sur la protection des données**](https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000037085952\&categorieLien=id).
 
-## Quelles sont les restrictions à la réutilisations des données ?  <a href="#faut-il-utiliser-une-licence" id="faut-il-utiliser-une-licence"></a>
+## Quelles sont les restrictions à la réutilisation de données publiques ?  <a href="#faut-il-utiliser-une-licence" id="faut-il-utiliser-une-licence"></a>
 
 ### Le cas de la propriété intellectuelle <a href="#le-cas-de-la-propriete-intellectuelle" id="le-cas-de-la-propriete-intellectuelle"></a>
 

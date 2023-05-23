@@ -1,6 +1,7 @@
 # Réutilisateurs de données
 
-**Les réutilisateurs de données pourront comprendre :**&#x20;
+**Grâce à cette section, les réutilisateurs de données pourront répondre aux interrogations suivantes :**&#x20;
 
-* ce qu'est l'open data ;&#x20;
-* les conditions de réutilisation.
+* Qu'est-ce que l'open data ?
+* Quelles sont les conditions de réutilisation des données ouvertes ?&#x20;
+

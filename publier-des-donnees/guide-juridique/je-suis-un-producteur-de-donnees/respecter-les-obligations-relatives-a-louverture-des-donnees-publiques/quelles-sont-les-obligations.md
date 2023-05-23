@@ -11,7 +11,7 @@ Le régime de droit d’accès aux documents administratifs a peu évolué depui
 Si l’administré demande en outre la diffusion en ligne de ce document administratif, toute administration, quelle que soit sa taille, doit répondre à cette obligation. Si le document contient des données couvertes par un secret légal ou des données à caractère personnel, ces données devront au préalable faire l’objet d’une occultation ou d’une anonymisation.
 {% endhint %}
 
-Vous êtes tenus de diffuser en open data ([Article L. 312-1-1 du CRPA](https://www.legifrance.gouv.fr/affichCodeArticle.do;jsessionid=699E85A138CEA30E2185BB71F8735F9A.tplgfr24s\_3?idArticle=LEGIARTI000033205512\&cidTexte=LEGITEXT000031366350\&dateTexte=20161009)) :
+Si vous êtes concernés par l'obligation légale, vous êtes tenus de diffuser en open data ([Article L. 312-1-1 du CRPA](https://www.legifrance.gouv.fr/affichCodeArticle.do;jsessionid=699E85A138CEA30E2185BB71F8735F9A.tplgfr24s\_3?idArticle=LEGIARTI000033205512\&cidTexte=LEGITEXT000031366350\&dateTexte=20161009)) :
 
 * **Les documents administratifs que vous avez communiqué à des demandeurs** ;
 * **L'inventaire des documents administratifs que vous produisez dans le cadre de vos missions de service public** ;
@@ -23,7 +23,8 @@ Vous êtes tenus de diffuser en open data ([Article L. 312-1-1 du CRPA](https://
 {% hint style="info" %}
 **Lexique : Base de données**
 
-On entend par base de données un recueil d’œuvres, de données ou d'autres éléments indépendants, disposés de manière systématique ou méthodique, et individuellement accessibles par des moyens électroniques ou par tout autre moyen ([Article L112-3 du code de la propriété intellectuelle](https://www.legifrance.gouv.fr/affichCodeArticle.do?idArticle=LEGIARTI000006278879\&cidTexte=LEGITEXT000006069414\&dateTexte=19980702)). À titre d'exemple, sont des bases de données : le registre des entreprises, l'annuaire des adresses, les données de demande de valeurs foncières, etc.
+On entend par base de données un recueil d’œuvres, de données ou d'autres éléments indépendants, disposés de manière systématique ou méthodique, et individuellement accessibles par des moyens électroniques ou par tout autre moyen ([Article L112-3 du code de la propriété intellectuelle](https://www.legifrance.gouv.fr/affichCodeArticle.do?idArticle=LEGIARTI000006278879\&cidTexte=LEGITEXT000006069414\&dateTexte=19980702)). \
+À titre d'exemple, sont des bases de données : le registre des entreprises, l'annuaire des adresses, les données de demande de valeurs foncières, etc.
 {% endhint %}
 
 ## Comment faut-il publier en open data ?
@@ -51,7 +52,7 @@ Les documents administratifs, informations publiques et données doivent être p
 **Comment occulter les données par un traitement automatisé d'usage courant ?** L'occultation correspond au masquage ou au retrait des données identifiées comme confidentielles et non communicables.
 {% endhint %}
 
-### Anonymisation  <a href="#que-faire-si-mes-documents-administratifs-contiennent-des-donnees-a-caractere-personnel" id="que-faire-si-mes-documents-administratifs-contiennent-des-donnees-a-caractere-personnel"></a>
+### Anonymisation des données  <a href="#que-faire-si-mes-documents-administratifs-contiennent-des-donnees-a-caractere-personnel" id="que-faire-si-mes-documents-administratifs-contiennent-des-donnees-a-caractere-personnel"></a>
 
 {% hint style="info" %}
 **Lexique : Donnée à caractère personnel**

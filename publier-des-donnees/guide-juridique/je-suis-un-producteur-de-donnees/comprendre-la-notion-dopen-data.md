@@ -30,7 +30,7 @@ Au-delà du respect du cadre légal, ouvrir vos données présente de multiples 
 * **Améliorer la qualité de vos données** : les données que vous publiez seront réutilisées par des acteurs publics ou privés qui pourront les croiser avec d’autres données ou détecter des anomalies voire les corriger ;&#x20;
 * **Renforcer votre efficacité et améliorer les services publics** : les données ouvertes par des administrations peuvent être réutilisées par d’autres services ou aboutir à des collaborations entre équipes, ce qui peut améliorer la mise en œuvre des missions de service public ;
 * **Favoriser la transparence** ;&#x20;
-* **Favoriser la création de nouveaux services, notamment par des acteurs privés ou la société civile** : les données qui auront été ouvertes pourront être utilisées par des tiers afin de créer de nouveaux services numériques. La circulation des données démultiplie le potentiel d'usage des données publiques et rend possible leur réutilisation pour des finalités qui n’étaient pas envisagées lors de leur production.
+* **Favoriser la création de nouveaux services, notamment par des acteurs privés ou la société civile** : les données qui auront été ouvertes pourront être utilisées par des tiers afin de créer de nouveaux services numériques.
 
 {% hint style="info" %}
 **Le partage de données**\
