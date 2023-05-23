@@ -1,3 +1,9 @@
+---
+description: >-
+  Ce guide a pour vocation de vous accompagner dans l'utilisation de la
+  plateforme data.gouv.fr.
+---
+
 # ⚙ Guide data.gouv.fr
 
 {% hint style="info" %}
@@ -12,26 +18,3 @@ data.gouv.fr est une plateforme communautaire qui s’adresse :
 
 Tout le monde a la possibilité de publier sur data.gouv.fr !
 {% endhint %}
-
-
-
-## Que vais-je trouver dans ce guide ?&#x20;
-
-Ce guide à pour objectif de vous accompagner dans l'utilisation de la plateforme data.gouv.fr.&#x20;
-
-
-
-
-
-{% content-ref url="compte-utilisateur.md" %}
-[compte-utilisateur.md](compte-utilisateur.md)
-{% endcontent-ref %}
-
-
-
-
-
-
-
-
-
