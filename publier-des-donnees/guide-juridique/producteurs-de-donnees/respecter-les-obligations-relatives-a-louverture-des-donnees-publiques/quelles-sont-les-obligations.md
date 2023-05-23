@@ -74,3 +74,21 @@ Processus consistant à traiter des données à caractère personnel afin d’em
 {% endhint %}
 
 Si vous souhaitez obtenir d'avantage d'informations juridiques sur l'articulation entre open data et protection des données à caractère personnel, nous vous invitons à consulter le [guide de publication en ligne et de réutilisation des données publiques](https://www.cnil.fr/fr/publication-en-ligne-et-reutilisation-des-donnees-publiques-open-data) produit par la CNIL.
+
+## Licence
+
+* Lorsque les données sont mises à disposition gratuitement, l’usage d’une licence est conseillé, mais pas obligatoire ;
+* Si les données publiées sont mises à disposition contre le paiement d’une redevance, les administrations productrices sont dans l’obligation d’apposer une licence de réutilisation.
+
+La réutilisation des données doit être libre. **La licence doit répondre aux différents critères de libre réutilisation**. À ce titre, la libre réutilisation ne peut être restreinte que pour des motifs d’intérêt général. Cette restriction doit être proportionnée et ne doit pas avoir pour effet ou objectif de limiter la concurrence.
+
+{% hint style="info" %}
+**Licences de réutilisation autorisées**
+
+Dans le but d'avoir un nombre restreint de licences, la loi pour une République numérique a prévu la création d’une liste, [fixée par décret](https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000034502557\&categorieLien=id), de licences qui peuvent être utilisées par les administrations pour la réutilisation à titre gratuit de leurs informations publiques.
+
+Les administrations peuvent choisir parmi cette liste de licences lorsqu'elles publient des éléments en ligne. Les administrations souhaitant recourir à une licence ne figurant pas dans la liste des licences autorisées par décret doivent au préalable [demander son homologation auprès de la direction interministérielle du numérique (DINUM)](https://support.data.gouv.fr/administration-centrale/licence).
+
+Vous pouvez consulter [la liste des licences autorisées par décret](https://www.data.gouv.fr/fr/licences).
+{% endhint %}
+

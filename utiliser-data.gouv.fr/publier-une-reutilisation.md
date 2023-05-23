@@ -1,6 +1,6 @@
 # Réutilisations
 
-Les données mises à disposition sur data.gouv.fr peuvent être réutilisées [selon les termes définis dans la licence qui leur est associée](../publier-des-donnees/guide-juridique/pour-les-reutilisateurs-de-donnees/quelles-conditions-de-reutilisations.md). Si vous êtes à l’origine d’une réutilisation, vous pouvez la référencer sur la page du jeu de données sur lequel vous vous êtes appuyés.
+Les données mises à disposition sur data.gouv.fr peuvent être réutilisées [selon les termes définis dans la licence qui leur est associée](../publier-des-donnees/guide-juridique/reutilisateurs-de-donnees/respecter-les-conditions-de-reutilisation.md). Si vous êtes à l’origine d’une réutilisation, vous pouvez la référencer sur la page du jeu de données sur lequel vous vous êtes appuyés.
 
 {% hint style="info" %}
 **Qu'est-ce qu'une réutilisation** **?**
