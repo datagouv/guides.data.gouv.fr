@@ -1,6 +1,6 @@
 # Quels schémas de données sont acceptés ?
 
-## Schémas de données acceptés sur schema.data.gouv.fr
+## :white\_check\_mark: Schémas de données acceptés sur schema.data.gouv.fr
 
 [schema.data.gouv.fr](https://schema.data.gouv.fr/) accepte :&#x20;
 
@@ -13,7 +13,7 @@ Les schémas de données sont acceptés dès lors que leur l’existence est jus
 * **d’usage** : la réutilisation des données décrites par le schéma bénéficie à un grand nombre ou de nombreux producteurs sont amenés à utiliser ce schéma de données.
 {% endhint %}
 
-* **des schémas de données décrits par un standard technique** (cf. page ["Phase de construction"](https://guides.etalab.gouv.fr/producteurs-schemas/phase-construction)) : les schémas de données décrits uniquement par de la documentation textuelle ou des tableaux ne sont pas acceptés.
+* **des schémas de données décrits par un standard technique** (cf. page ["Phase de construction"](../creer-un-schema-de-donnees/etape-3-phase-de-construction.md)) : les schémas de données décrits uniquement par de la documentation textuelle ou des tableaux ne sont pas acceptés.
 
 {% hint style="info" %}
 **Standards techniques supportés**
@@ -47,7 +47,7 @@ Pour tous les types de schéma de données, il faut que :&#x20;
 
 Cette page présente les grands principes de validation des schémas de données.&#x20;
 
-Le détail des prérequis propres à chaque type de schéma de données, ainsi que des exemples, sont disponibles [ici](https://schema.data.gouv.fr/validation.html).&#x20;
+**Le détail des prérequis propres à chaque type de schéma de données, ainsi que des exemples, sont disponibles** [**ici**](https://schema.data.gouv.fr/validation.html)**.**&#x20;
 {% endhint %}
 
-Etalab se réserve le droit de refuser l’ajout de schémas en motivant son refus. Il est encouragé d'[initier une discussion](https://github.com/etalab/schema.data.gouv.fr/issues) préalablement à l’ouverture d’une _pull request_.
+Etalab se réserve le droit de refuser le référencement de schémas en motivant son refus. Il est encouragé d'[initier une discussion](https://github.com/etalab/schema.data.gouv.fr/issues) préalablement à l’ouverture d’une _pull request_.
