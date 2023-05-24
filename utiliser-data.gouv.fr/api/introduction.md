@@ -40,7 +40,7 @@ Par exemple, un dataset `5bbb6d6cff66bd4dc17bfd5a` dont le slug est `mon-dataset
 * `$API/datasets/5bbb6d6cff66bd4dc17bfd5a`
 * `$API/datasets/mon-dataset`
 
-**Attention** toutefois, le slug d’un objet peut-être amené à changer si le producteur change le nom de l’objet alors que l’identifiant technique lui ne change jamais. Il est donc préférable d’utiliser les identifiants techniques dans les scripts qui doivent être durables et rejouables.
+**Attention** : toutefois, le slug d’un objet peut-être amené à changer si le producteur change le nom de l’objet alors que l’identifiant technique lui ne change jamais. Il est donc préférable d’utiliser les identifiants techniques dans les scripts qui doivent être durables et rejouables.
 
 #### Listes simples <a href="#listes-simples" id="listes-simples"></a>
 
@@ -84,11 +84,11 @@ Vous n’avez pas à calculer vous-même les pages précédentes et suivantes pu
 
 La gestion d’erreur de l’API utilise les codes d’erreur HTTP standards :
 
-* **400**: requête invalide
-* **401**: authentification requise
-* **403**: permissions insuffisantes
-* **500**: erreur indéfinie côté serveur
-* **502**: le serveur ne répond pas
+* **400** : requête invalide
+* **401** : authentification requise
+* **403** : permissions insuffisantes
+* **500** : erreur indéfinie côté serveur
+* **502** : le serveur ne répond pas
 
 Lorsque c’est possible, l’API répondra en JSON avec le format suivant :
 
@@ -121,4 +121,4 @@ Parfois, la réponse en erreur comprend une entête `X-Sentry-ID`. Pensez à fou
 
 ### Documentation de référence <a href="#documentation-de-reference" id="documentation-de-reference"></a>
 
-Vous pouvez consulter la documentation de référence complète de l’API [ici](https://doc.data.gouv.fr/api/reference/)
+Vous pouvez consulter la documentation de référence complète de l’API [ici](https://doc.data.gouv.fr/api/reference/).&#x20;
