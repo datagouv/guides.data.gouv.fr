@@ -120,6 +120,6 @@ Le principe du moissonnage sur data.gouv.fr se décompose en plusieurs étapes :
 5. Le moissonneur de data.gouv.fr vient automatiquement récupérer les données de votre plateforme ;
 6. Les données de votre plateforme sont référencées et visibles sur data.gouv.fr. :tada:
 
-**La procédure de moissonnage est détaillée dans** [**cette sous-section**](../moissonnage.md)**.**&#x20;
+**La procédure de moissonnage est détaillée dans** [**cette sous-section**](../moissonnage/)**.**&#x20;
 {% endtab %}
 {% endtabs %}

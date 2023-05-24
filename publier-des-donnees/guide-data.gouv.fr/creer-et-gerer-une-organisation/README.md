@@ -1,4 +1,4 @@
-# Créer et gérer une organisation
+# Organisation
 
 {% hint style="info" %}
 **Qu'est-ce qu'une organisation sur data.gouv.fr ?**
