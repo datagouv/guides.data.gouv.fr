@@ -54,7 +54,6 @@
     * [Certifier une organisation](publier-des-donnees/guide-data.gouv.fr/creer-et-gerer-une-organisation/certifier-une-organisation.md)
     * [Supprimer une organisation](publier-des-donnees/guide-data.gouv.fr/creer-et-gerer-une-organisation/supprimer-une-organisation.md)
   * [Jeux de données](publier-des-donnees/guide-data.gouv.fr/publier-et-gerer-un-jeu-de-donnees/README.md)
-    * [Page 1](publier-des-donnees/guide-data.gouv.fr/jeux-de-donnees/page-1.md)
     * [Publier un jeu de données](publier-des-donnees/guide-data.gouv.fr/publier-et-gerer-un-jeu-de-donnees/publier-un-jeu-de-donnees.md)
     * [Gérer un jeu de données](publier-des-donnees/guide-data.gouv.fr/publier-et-gerer-un-jeu-de-donnees/gerer-un-jeu-de-donnees.md)
       * [Publier une réutilisation](publier-des-donnees/guide-data.gouv.fr/jeux-de-donnees/gerer-un-jeu-de-donnees/publier-une-reutilisation.md)
@@ -64,7 +63,7 @@
       * [Répondre aux discussions](publier-des-donnees/guide-data.gouv.fr/jeux-de-donnees/gerer-un-jeu-de-donnees/repondre-aux-discussions.md)
       * [Transférer un jeu de données](publier-des-donnees/guide-data.gouv.fr/jeux-de-donnees/gerer-un-jeu-de-donnees/transferer-un-jeu-de-donnees.md)
       * [Supprimer un jeu de données ou une ressource](publier-des-donnees/guide-data.gouv.fr/jeux-de-donnees/gerer-un-jeu-de-donnees/supprimer-un-jeu-de-donnees-ou-une-ressource.md)
-    * [Télécharger le catalogue de données de data.gouv.fr](publier-des-donnees/guide-data.gouv.fr/jeux-de-donnees/telecharger-le-catalogue-de-donnees-de-data.gouv.fr.md)
+    * [Télécharger le catalogue de données de data.gouv.fr](utiliser-data.gouv.fr/api/telecharger-un-catalogue-de-donnees.md)
   * [Réutilisations](utiliser-data.gouv.fr/publier-une-reutilisation.md)
     * [Publier une réutilisation](publier-des-donnees/guide-data.gouv.fr/reutilisations/publier-une-reutilisation.md)
     * [Gérer une réutilisation](publier-des-donnees/guide-data.gouv.fr/reutilisations/gerer-une-reutilisation.md)
@@ -76,8 +75,8 @@
     * [Analyser le rapport de moissonnage](publier-des-donnees/guide-data.gouv.fr/moissonnage/analyser-le-rapport-de-moissonnage.md)
   * [API](utiliser-data.gouv.fr/api/README.md)
     * [Introduction](utiliser-data.gouv.fr/api/introduction.md)
-    * [Tutoriel d'utilisation](publier-des-donnees/guide-data.gouv.fr/api/tutoriel-dutilisation.md)
-    * [Gérer un jeu de données par l'API](publier-des-donnees/guide-data.gouv.fr/api/gerer-un-jeu-de-donnees-par-lapi.md)
+    * [Tutoriel d'utilisation](utiliser-data.gouv.fr/api/tutoriel.md)
+    * [Gérer un jeu de données par l'API](utiliser-data.gouv.fr/api/gestion-dun-jeu-de-donnees-par-lapi.md)
     * [Référence](utiliser-data.gouv.fr/api/reference.md)
 
 ## Réutiliser des données

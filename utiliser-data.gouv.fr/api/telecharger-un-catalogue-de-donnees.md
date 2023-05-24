@@ -1,4 +1,4 @@
-# Télécharger un catalogue de données
+# Télécharger le catalogue de données de data.gouv.fr
 
 L’ensemble des jeux de données publiés sur data.gouv.fr constitue un jeu de données à part entière qui peut être téléchargé lui aussi, sous la forme d’un catalogue. Il en va de même pour l’ensemble des ressources, des organisations, des réutilisations, et des étiquettes associées aux jeux de données.
 

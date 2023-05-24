@@ -1,4 +1,4 @@
-# Tutoriel
+# Tutoriel d'utilisation
 
 Tous les exemples utilisent [httpie](http://httpie.org/) et [jq](http://stedolan.github.io/jq/) pour faciliter la lisibilité. Vous n’êtes pas contraint d’utiliser ces bibliothèques pour votre code, ce sont juste des outils pour mieux comprendre l’API.
 

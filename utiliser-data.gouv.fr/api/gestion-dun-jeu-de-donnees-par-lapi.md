@@ -1,4 +1,4 @@
-# Gestion d'un jeu de données par l'API
+# Gérer un jeu de données par l'API
 
 Cette page documente les principales interactions que vous pouvez avoir avec un jeu de données par l’API.
 
