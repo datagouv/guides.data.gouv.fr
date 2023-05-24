@@ -6,7 +6,7 @@ Les activités de votre organisation peuvent être consultées à partir d’un 
 * les métriques rattachées à chaque jeu de données, ressource ou réutilisation publiés ;
 * les anomalies constatées à propos des jeux de données publiés ;
 * les discussions ouvertes à propos des jeux de données publiés ;
-* l’activité des moissonneurs (cf. [section "Moissonnage"](../../../guides/guide-data.gouv.fr/moissonage.md)).
+* l’activité des moissonneurs (cf. [section "Moissonnage"](../moissonnage.md)).
 
 La procédure pour suivre l'activité de son organisation est détaillée ci-dessous :&#x20;
 

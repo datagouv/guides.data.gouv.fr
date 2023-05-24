@@ -1,7 +1,5 @@
 # Créer un compte utilisateur et rejoindre une organisation
 
-
-
 {% hint style="info" %}
 **Pourquoi créer un compte utilisateur ?**&#x20;
 
@@ -51,4 +49,4 @@ La marche à suivre est explicitée ci-dessous :&#x20;
 
 {% embed url="https://www.loom.com/share/df1896e7b6d34301b4ede711c9f66ac4" %}
 
-Si votre organisation n'existe pas, il est possible de la créer. La procédure est explicitée [ici](creer-et-gerer-une-organisation/).&#x20;
+Si votre organisation n'existe pas, il est possible de la créer. La procédure est explicitée [ici](organisation/).&#x20;
