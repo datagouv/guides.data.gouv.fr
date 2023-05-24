@@ -55,7 +55,7 @@
     * [Supprimer une organisation](publier-des-donnees/guide-data.gouv.fr/creer-et-gerer-une-organisation/supprimer-une-organisation.md)
   * [Publier et gérer un jeu de données](publier-des-donnees/guide-data.gouv.fr/publier-et-gerer-un-jeu-de-donnees/README.md)
     * [Publier un jeu de données](publier-des-donnees/guide-data.gouv.fr/publier-et-gerer-un-jeu-de-donnees/publier-un-jeu-de-donnees.md)
-    * [Gérer son jeu de données](publier-des-donnees/guide-data.gouv.fr/publier-et-gerer-un-jeu-de-donnees/gerer-son-jeu-de-donnees.md)
+    * [Gérer un jeu de données](publier-des-donnees/guide-data.gouv.fr/publier-et-gerer-un-jeu-de-donnees/gerer-un-jeu-de-donnees.md)
   * [Réutilisations](utiliser-data.gouv.fr/publier-une-reutilisation.md)
   * [Moissonage](guides/guide-data.gouv.fr/moissonage.md)
   * [API](utiliser-data.gouv.fr/api/README.md)

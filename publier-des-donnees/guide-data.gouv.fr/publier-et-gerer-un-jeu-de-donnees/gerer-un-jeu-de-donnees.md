@@ -1,4 +1,8 @@
-# Gérer son jeu de données
+# Gérer un jeu de données
+
+
+
+
 
 ### Publier une réutilisation
 
@@ -6,7 +10,7 @@ Une fois votre jeu de données publié vous pouvez y associer une réutilisation
 
 ### Suivre l'usage de son jeu de données <a href="#obtenir-des-informations-a-propos-de-votre-jeu-de-donnees" id="obtenir-des-informations-a-propos-de-votre-jeu-de-donnees"></a>
 
-Afin de suivre la vie de votre jeu de données sur data.gouv.fr, vous avez la possibilité de suivre ses statistiques d’utilisation depuis votre compte administrateur. Un tableau de bord centralise les informations relatives au jeu de données. [Voir le guide de suivi des usages](gerer-son-jeu-de-donnees.md#obtenir-des-informations-a-propos-de-votre-jeu-de-donnees).
+Afin de suivre la vie de votre jeu de données sur data.gouv.fr, vous avez la possibilité de suivre ses statistiques d’utilisation depuis votre compte administrateur. Un tableau de bord centralise les informations relatives au jeu de données. [Voir le guide de suivi des usages](gerer-un-jeu-de-donnees.md#obtenir-des-informations-a-propos-de-votre-jeu-de-donnees).
 
 ### **Suivre la qualité du jeu de données**
 
