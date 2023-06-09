@@ -4,17 +4,7 @@
 
 Une organisation se compose d’administrateurs et d’éditeurs qui ont des permissions différentes.
 
-| Permissions                                                  | Editeur | Administrateur |
-| ------------------------------------------------------------ | ------- | -------------- |
-| Publier des jeux de données au nom de l’organisation         | ✅       | ✅              |
-| Référencer des réutilisations au nom de l’organisation       | ✅       | ✅              |
-| Répondre aux commentaires associés aux jeux de données       | ✅       | ✅              |
-| Modifier des jeux de données existants                       | ✅       | ✅              |
-| Consulter les demandes d’adhésion à l’organisation           | ✅       | ✅              |
-| Ajouter des utilisateurs à l’organisation                    | ❌       | ✅              |
-| Accepter ou valider les demandes d’adhésion à l’organisation | ❌       | ✅              |
-| Retirer un utilisateur d’une organisation                    | ❌       | ✅              |
-| Supprimer l’organisation                                     | ❌       | ✅              |
+<table><thead><tr><th width="454">Permissions</th><th>Editeur</th><th width="156.33333333333331">Administrateur</th></tr></thead><tbody><tr><td>Publier des jeux de données au nom de l’organisation</td><td>✅</td><td>✅</td></tr><tr><td>Référencer des réutilisations au nom de l’organisation</td><td>✅</td><td>✅</td></tr><tr><td>Répondre aux commentaires associés aux jeux de données</td><td>✅</td><td>✅</td></tr><tr><td>Modifier des jeux de données existants</td><td>✅</td><td>✅</td></tr><tr><td>Consulter les demandes d’adhésion à l’organisation</td><td>✅</td><td>✅</td></tr><tr><td>Ajouter des utilisateurs à l’organisation</td><td>❌</td><td>✅</td></tr><tr><td>Accepter ou valider les demandes d’adhésion à l’organisation</td><td>❌</td><td>✅</td></tr><tr><td>Retirer un utilisateur d’une organisation</td><td>❌</td><td>✅</td></tr><tr><td>Supprimer l’organisation</td><td>❌</td><td>✅</td></tr></tbody></table>
 
 ## Ajouter un membre à une organisation <a href="#ajouter-un-utilisateur-a-une-organisation" id="ajouter-un-utilisateur-a-une-organisation"></a>
 

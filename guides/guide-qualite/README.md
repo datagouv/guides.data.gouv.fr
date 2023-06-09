@@ -6,11 +6,9 @@ description: >-
 
 # 💎 Guide qualité
 
-_Ce guide s'adresse aux acteurs publics et privés qui souhaitent mettre à disposition des jeux de données de qualité, que ce soit en interne d'une organisation ou en open data._
-
 {% hint style="info" %}
 **Lexique : Jeu de données**\
-Un jeu de données est un ensemble de ressources : il contient a minima des fichiers contenant des données (csv, json, etc.), de la documentation pour décrire le contenu de ces données, ainsi que la licence sous laquelle le jeu est publié.
+Au sens de data.gouv.fr, un jeu de données est un ensemble de ressources : il contient des fichiers contenant des données (csv, json, etc.), de la documentation pour décrire le contenu de ces données, ainsi que la licence sous laquelle le jeu est publié.
 {% endhint %}
 
 \

@@ -16,14 +16,7 @@ Le catalogue des jeux de données est aussi publié dans plusieurs formats, pour
 
 Voici la liste des formats proposés avec les MIME type à utiliser ainsi que les URL (liens) correspondantes :
 
-| Format    | URL                                                                                | MIME type                                 |
-| --------- | ---------------------------------------------------------------------------------- | ----------------------------------------- |
-| RDF/XML   | [https://www.data.gouv.fr/catalog.xml](https://www.data.gouv.fr/catalog.xml)       | **application/rdf+xml**, application/xml  |
-| Turtle    | [https://www.data.gouv.fr/catalog.ttl](https://www.data.gouv.fr/catalog.ttl)       | **text/turle**, application/x-turtle      |
-| N3        | [https://www.data.gouv.fr/catalog.n3](https://www.data.gouv.fr/catalog.n3)         | **text/n3**                               |
-| JSON-LD   | [https://www.data.gouv.fr/catalog.jsonld](https://www.data.gouv.fr/catalog.jsonld) | **application/ld+json**, application/json |
-| N-Triples | [https://www.data.gouv.fr/catalog.nt](https://www.data.gouv.fr/catalog.nt)         | **application/n-triples**                 |
-| TriG      | [https://www.data.gouv.fr/catalog.trig](https://www.data.gouv.fr/catalog.trig)     | **application/trig**                      |
+<table><thead><tr><th width="120.33333333333331">Format</th><th>URL</th><th>MIME type</th></tr></thead><tbody><tr><td>RDF/XML</td><td><a href="https://www.data.gouv.fr/catalog.xml">https://www.data.gouv.fr/catalog.xml</a></td><td><strong>application/rdf+xml</strong>, application/xml</td></tr><tr><td>Turtle</td><td><a href="https://www.data.gouv.fr/catalog.ttl">https://www.data.gouv.fr/catalog.ttl</a></td><td><strong>text/turle</strong>, application/x-turtle</td></tr><tr><td>N3</td><td><a href="https://www.data.gouv.fr/catalog.n3">https://www.data.gouv.fr/catalog.n3</a></td><td><strong>text/n3</strong></td></tr><tr><td>JSON-LD</td><td><a href="https://www.data.gouv.fr/catalog.jsonld">https://www.data.gouv.fr/catalog.jsonld</a></td><td><strong>application/ld+json</strong>, application/json</td></tr><tr><td>N-Triples</td><td><a href="https://www.data.gouv.fr/catalog.nt">https://www.data.gouv.fr/catalog.nt</a></td><td><strong>application/n-triples</strong></td></tr><tr><td>TriG</td><td><a href="https://www.data.gouv.fr/catalog.trig">https://www.data.gouv.fr/catalog.trig</a></td><td><strong>application/trig</strong></td></tr></tbody></table>
 
 ### Statistiques de fréquentation de data.gouv.fr <a href="#statistiques-de-frequentation-de-datagouvfr" id="statistiques-de-frequentation-de-datagouvfr"></a>
 
