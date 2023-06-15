@@ -1,55 +1,28 @@
 # Gérer un jeu de données
 
-Une fois un jeu de données publié, vous pouvez vouloir :&#x20;
-
-* Publier une réutilisation
-* Suivre l'usage du jeu de données
-* Suivre la qualité du jeu de données
-* Mettre à jour ou modifier le jeu de données et/ou une ressource
-* Répondre aux discussions
-* Transférer le jeu de données
-* Supprimer le jeu de données
-
-Cette sous-section vous détaille comment réaliser ces différentes actions.&#x20;
-
-
+Une fois un jeu de données publié, vous pouvez réaliser différentes actions. &#x20;
 
 ## Publier une réutilisation
 
-Une fois votre jeu de données publié, vous pouvez y associer une réutilisation. Cela permettra notamment aux usagers de comprendre le contexte de production des données et de faire connaître vos données.
-
-Pour ce faire, nous vous invitons à vous référer à [cette page](../../../utiliser-data.gouv.fr/publier-une-reutilisation.md).&#x20;
-
-
+Une fois votre jeu de données publié, vous pouvez y associer une réutilisation. Cela permettra notamment aux usagers de comprendre le contexte de production des données et de faire connaître vos données. Pour ce faire, nous vous invitons à vous référer à [cette page](../../../utiliser-data.gouv.fr/publier-une-reutilisation.md).&#x20;
 
 ## Suivre l'usage d'un jeu de données
 
-Afin de suivre la vie de votre jeu de données sur data.gouv.fr, vous avez la possibilité de suivre ses statistiques d’utilisation depuis votre compte administrateur. Un tableau de bord centralise les informations relatives au jeu de données.
-
-Une méthodologie de suivi des usages d'un jeu de données est explicité sur [cette page](../../../guides/guide-qualite/ameliorer-la-qualite-dun-jeu-de-donnees/comprendre-les-usages-dun-jeu-de-donnees.md).&#x20;
+Afin de suivre la vie de votre jeu de données sur data.gouv.fr, vous avez la possibilité de suivre ses statistiques d’utilisation depuis votre compte administrateur. Un tableau de bord centralise les informations relatives au jeu de données. Une méthodologie de suivi des usages d'un jeu de données est explicité sur [cette page](../../../guides/guide-qualite/ameliorer-la-qualite-dun-jeu-de-donnees/comprendre-les-usages-dun-jeu-de-donnees.md).&#x20;
 
 ## Suivre la qualité d'un jeu de données
 
-La qualité de votre jeu de données est fondamentale pour qu’il soit réutilisé par le plus d’utilisateurs possible. \
-Assurez vous notamment que vos données soient à jour et de respecter les critères de qualité de données.\
-Nous vous invitons aussi à améliorer le score de qualité des métadonnées : la procédure à suivre est détaillée sur [cette page](../../../guides/guide-qualite/ameliorer-la-qualite-dun-jeu-de-donnees/ameliorer-le-score-de-qualite-des-metadonnees.md).&#x20;
-
-
+La qualité de votre jeu de données est fondamentale pour qu’il soit réutilisé par le plus d’utilisateurs possible. Assurez vous notamment que vos données soient à jour et de respecter les critères de qualité de données. Nous vous invitons aussi à améliorer le score de qualité des métadonnées : la procédure à suivre est détaillée sur [cette page](../../../guides/guide-qualite/ameliorer-la-qualite-dun-jeu-de-donnees/ameliorer-le-score-de-qualite-des-metadonnees.md).&#x20;
 
 ## Mettre à jour ou modifier un jeu de données ou une ressource
 
 Les données publiées sur data.gouv.fr peuvent être mises à jour après leur publication, que la modification porte sur un jeu de données (sa description, ses tags, etc.) ou sur l’une des ressources qu’il contient.
 
-
-
 ## Répondre aux discussions
 
 Lorsque vous publiez un jeu de données, tout utilisateur qui dispose d’un compte data.gouv.fr peut ouvrir des discussions sur la page du jeu de données. Ces discussions permettent aux réutilisateurs des données de poser des questions au producteur des données, de faire remonter des erreurs constatées dans le jeu de données ou de proposer des améliorations.
 
-Vous avez la possibilité de [récupérer le lien d’une discussion ou d’un commentaire, d’ajouter un commentaire et de fermer une discussion](https://doc.data.gouv.fr/reutilisations-et-discussions/moderer-une-discussion/). \
-Les discussions publiées sont visibles par tous les visiteurs de data.gouv.fr.\
-\
-La marche à suivre pour répondre à un commentaire est détaillée ci-dessous :&#x20;
+Vous avez la possibilité de récupérer le lien d’une discussion ou d’un commentaire, d’ajouter un commentaire et de fermer une discussion.  Les discussions publiées sont visibles par tous les visiteurs de data.gouv.fr.
 
 <details>
 
@@ -89,8 +62,6 @@ Pour transférer un jeu de données publié avec votre propre compte, à titre p
 
 </details>
 
-La procédure est illustrée ci-dessous :&#x20;
-
 {% embed url="https://www.loom.com/share/8ea87da546f64d41b72535ada8d728cb?sid=e3021ef1-c21a-4980-9ca2-8c674442dc09" %}
 
 La demande de transfert devra ensuite être acceptée.
@@ -109,3 +80,28 @@ Pour accepter une demande de transfert vers votre compte :
 </details>
 
 ## Supprimer un jeu de données ou une ressource
+
+Vous pouvez [supprimer un jeu de données, ou l’une des ressources qui le compose](https://doc.data.gouv.fr/jeux-de-donnees/mettre-a-jour-un-jeu-de-donnees-ou-une-ressource/), si vous êtes l’auteur du jeu de données en question, ou si vous appartenez à l’organisation qui en est à l’origine.&#x20;
+
+{% hint style="danger" %}
+**La suppression d’un jeu de données ou d’une ressource est irréversible**
+{% endhint %}
+
+{% hint style="warning" %}
+**Conservation des anciennes ressources**
+
+Il est conseillé de supprimer le moins de ressources possibles de la plateforme data.gouv.fr. Même si vos données ne sont plus mises à jour, il est possible que des utilisateurs utilisent tout de même ces données. De plus, la suppression de certaines ressources peut entraîner la maintenance de nombreux services ou produits qui reposent sur l’exploitation des données publiées.
+{% endhint %}
+
+<details>
+
+<summary>Comment supprimer un jeu de données ou une ressource</summary>
+
+1. Rendez-vous sur : [data.gouv.fr/fr/admin/](https://www.data.gouv.fr/fr/admin/) ;
+2. Choisissez votre profil ou votre organisation qui possède ce jeu de données dans le bandeau de gauche ;
+3. Sélectionnez le jeu de données ;
+4. Cliquer sur éditer en haut à droite puis sélectionnez supprimer ;
+
+</details>
+
+{% embed url="https://www.loom.com/share/83b80a106f7940ebbf01a79cf63e363c?sid=14174631-4fbc-4813-bbaf-f0fd7c214b9b" %}
