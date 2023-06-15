@@ -6,6 +6,8 @@ Lorsqu'une organisation est supprimée, les contenus publiés en son nom _resten
 Si vous souhaitez _aussi_ supprimer les données publiées par l’organisation que vous êtes sur le point de clôturer, commencez par supprimer les jeux de données _avant_ de supprimer l’organisation.
 {% endhint %}
 
+La marche à suivre est illustrée ci-dessous :&#x20;
+
 <details>
 
 <summary>Comment supprimer une organisation ?</summary>
@@ -17,7 +19,5 @@ Si vous souhaitez _aussi_ supprimer les données publiées par l’organisation 
 5. Validez la suppression de l’organisation en cliquant sur le bouton **"Confirmer"** dans la fenêtre rouge qui s’ouvre en superposition.
 
 </details>
-
-La marche à suivre est illustrée ci-dessous :&#x20;
 
 {% embed url="https://www.loom.com/share/016a66be09874b748794170de37649ed" %}

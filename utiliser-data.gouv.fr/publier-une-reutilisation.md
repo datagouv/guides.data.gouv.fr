@@ -14,5 +14,4 @@ Une réutilisation désigne communément l’exploitation de données ouvertes. 
 
 Dans cette section, vous apprendrez à :&#x20;
 
-* Publier une réutilisation ;
-* Gérer une réutilisation.
+<table data-view="cards"><thead><tr><th></th><th data-hidden></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Publier une réutilisation</strong></td><td></td><td></td></tr><tr><td><strong>Gérer une réutilisation</strong></td><td></td><td></td></tr><tr><td></td><td></td><td></td></tr></tbody></table>
