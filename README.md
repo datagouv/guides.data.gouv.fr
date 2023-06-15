@@ -1,3 +1,10 @@
+---
+cover: >-
+  https://images.unsplash.com/photo-1481627834876-b7833e8f5570?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHNlYXJjaHw1fHxib29rfGVufDB8fHx8MTY4Njg0MDU0Mnww&ixlib=rb-4.0.3&q=85
+coverY: 0
+layout: landing
+---
+
 # 👋 Bienvenue !
 
 Ces guides sont conçus par l'équipe de data.gouv.fr pour vous accompagner dans votre démarche d'ouverture des données ou de réutilisation des données publiques.

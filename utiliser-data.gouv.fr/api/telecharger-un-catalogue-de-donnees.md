@@ -1,8 +1,19 @@
 # Télécharger le catalogue de données de data.gouv.fr
 
-L’ensemble des jeux de données publiés sur data.gouv.fr constitue un jeu de données à part entière qui peut être téléchargé lui aussi, sous la forme d’un catalogue. Il en va de même pour l’ensemble des ressources, des organisations, des réutilisations, et des étiquettes associées aux jeux de données.
+L’ensemble des jeux de données publiés sur data.gouv.fr constitue un jeu de données à part entière qui peut être téléchargé lui aussi, sous la forme d’un catalogue. \
+Vous y trouverez :&#x20;
+
+* **La liste des jeux de données publiés sur data.gouv.fr**&#x20;
+* **La liste des ressources publiées sur data.gouv.fr**&#x20;
+* **La liste des réutilisations publiées sur data.gouv.fr**&#x20;
+* **La liste des organisations créées sur data.gouv.fr**&#x20;
+* **La liste des tags créés sur data.gouv.fr**&#x20;
+* **La liste des discussions ouvertes sur data.gouv.fr**&#x20;
+* **La liste des moissonneurs sur data.gouv.fr**&#x20;
 
 [Voir le jeu de données](https://www.data.gouv.fr/fr/datasets/catalogue-des-donnees-de-data-gouv-fr/).
+
+Les données sont mises à jour de manière hebdomadaire.
 
 ### Consulter le catalogue des jeux de données <a href="#consulter-le-catalogue-des-jeux-de-donnees" id="consulter-le-catalogue-des-jeux-de-donnees"></a>
 
