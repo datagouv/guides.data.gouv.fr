@@ -12,4 +12,15 @@ Il est conseillé de supprimer le moins de ressources possibles de la plateforme
 
 La procédure pour supprimer un jeu de données et/ou une ressource est détaillée ci-dessous :&#x20;
 
+<details>
+
+<summary>Comment supprimer un jeu de données ou une ressource</summary>
+
+1. Rendez-vous sur : [data.gouv.fr/fr/admin/](https://www.data.gouv.fr/fr/admin/) ;
+2. Choisissez votre profil ou votre organisation qui possède ce jeu de données dans le bandeau de gauche ;
+3. Sélectionnez le jeu de données ;
+4. Cliquer sur éditer en haut à droite puis sélectionnez supprimer ;
+
+</details>
+
 {% embed url="https://www.loom.com/share/83b80a106f7940ebbf01a79cf63e363c" %}

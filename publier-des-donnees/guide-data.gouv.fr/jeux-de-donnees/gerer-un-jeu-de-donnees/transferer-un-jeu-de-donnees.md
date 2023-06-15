@@ -4,9 +4,9 @@ Un jeu de données publié au nom d’un individu ou d’une organisation peut �
 
 <details>
 
-<summary>Marche à suivre : Transférer un jeu de données</summary>
+<summary>Comment transférer un jeu de données ? </summary>
 
-Pour transférer un jeu de données publié avec votre propre compte, à titre personnel :
+Pour transférer un jeu de données publié avec votre propre compte, à titre personnel :&#x20;
 
 1. [Connectez-vous à votre compte](https://www.data.gouv.fr/fr/login) ;
 2. Rendez-vous sur [votre tableau de bord](https://www.data.gouv.fr/fr/admin/), en cliquant sur **"Administration"** en haut à droite de votre écran ;

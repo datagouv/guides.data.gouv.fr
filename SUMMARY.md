@@ -47,7 +47,7 @@
   * [Créer un compte utilisateur et rejoindre une organisation](publier-des-donnees/guide-data.gouv.fr/creer-un-compte-utilisateur-et-rejoindre-une-organisation.md)
   * [Organisation](publier-des-donnees/guide-data.gouv.fr/creer-et-gerer-une-organisation/README.md)
     * [Créer une organisation](publier-des-donnees/guide-data.gouv.fr/creer-et-gerer-une-organisation/creer-une-organisation.md)
-    * [Suivre l'activité de son organisation](publier-des-donnees/guide-data.gouv.fr/creer-et-gerer-une-organisation/suivre-lactivite-de-son-organisation.md)
+    * [Suivre l'activité et modifier son organisation](publier-des-donnees/guide-data.gouv.fr/organisation/suivre-lactivite-et-modifier-son-organisation.md)
     * [Gérer les membres de son organisation](publier-des-donnees/guide-data.gouv.fr/creer-et-gerer-une-organisation/gerer-les-membres-de-son-organisation.md)
     * [Certifier une organisation](publier-des-donnees/guide-data.gouv.fr/creer-et-gerer-une-organisation/certifier-une-organisation.md)
     * [Supprimer une organisation](publier-des-donnees/guide-data.gouv.fr/creer-et-gerer-une-organisation/supprimer-une-organisation.md)
@@ -102,3 +102,4 @@
   * [Publier les données essentielles d’attribution des marchés](commande-publique/publier-les-donnees-essentielles-dattribution-des-marches.md)
   * [Déclaration d’un profil d’acheteur](commande-publique/declaration-dun-profil-dacheteur.md)
 * [Ressources OpenDataFrance](https://opendatafrance.gitbook.io/kit-de-ressources-odf/)
+* [Documentation de transport.data.gouv.fr](https://doc.transport.data.gouv.fr/)
