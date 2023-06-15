@@ -22,5 +22,5 @@ Les critères sont les suivants :&#x20;
 
 Ce score est encore en phase d’expérimentation :&#x20;
 
-* Le poids de chaque critère sera ajusté en fonction de [vos retours](https://tally.so/r/3NrD1b) ;&#x20;
+* Le poids de chaque critère sera ajusté en fonction de [vos retours](https://support.data.gouv.fr/) ;&#x20;
 * De nouveaux critères seront ajoutés progressivement notamment pour intégrer la notion de schéma de données.

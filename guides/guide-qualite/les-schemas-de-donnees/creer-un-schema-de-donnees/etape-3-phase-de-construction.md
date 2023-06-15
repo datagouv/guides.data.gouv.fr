@@ -91,7 +91,7 @@ Il est conseillé d'utiliser un compte d’organisation (dédié à votre entrep
 Plusieurs dépôts Git de schémas sont disponibles sur [schema.data.gouv.fr](https://schema.data.gouv.fr/) (exemple : [le dépôt Git décrivant les lieux de stationnement](https://github.com/etalab/schema-stationnement) à l’aide d’un schéma TableSchema sur GitHub).&#x20;
 {% endhint %}
 
-Pour faciliter la découverte de votre schéma de données et des données sous-jacentes, il est recommandé de le faire référencer sur [schema.data.gouv.fr](https://schema.data.gouv.fr/). La marche à suivre est détaillée [ici](../../../../guide-qualite/les-schemas-de-donnees/integration-avec-schema.data.gouv.fr.md).&#x20;
+Pour faciliter la découverte de votre schéma de données et des données sous-jacentes, il est recommandé de le faire référencer sur [schema.data.gouv.fr](https://schema.data.gouv.fr/). La marche à suivre est détaillée [ici](../../../../publier-des-donnees/guide-qualite/les-schemas-de-donnees/integrer-un-schema-de-donnees-a-schema.data.gouv.fr.md).&#x20;
 
 ## Points de sortie <a href="#points-de-sortie" id="points-de-sortie"></a>
 

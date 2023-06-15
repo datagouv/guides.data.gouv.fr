@@ -33,7 +33,7 @@ Il est conseillé de :&#x20;
 {% hint style="success" %}
 **Référencer votre schéma**
 
-Référencer votre schéma sur [schema.data.gouv.fr](https://schema.data.gouv.fr/) vous permettra de bénéficier de conseils de la part d’Etalab et de ses partenaires institutionnels et associatifs. La marche à suivre pour référencer votre schéma est détaillée [ici](../../../../guide-qualite/les-schemas-de-donnees/integration-avec-schema.data.gouv.fr.md).
+Référencer votre schéma sur [schema.data.gouv.fr](https://schema.data.gouv.fr/) vous permettra de bénéficier de conseils de la part d’Etalab et de ses partenaires institutionnels et associatifs. La marche à suivre pour référencer votre schéma est détaillée [ici](../../../../publier-des-donnees/guide-qualite/les-schemas-de-donnees/integrer-un-schema-de-donnees-a-schema.data.gouv.fr.md).
 {% endhint %}
 
 ## Construire un schéma de données de qualité <a href="#grands-principes" id="grands-principes"></a>

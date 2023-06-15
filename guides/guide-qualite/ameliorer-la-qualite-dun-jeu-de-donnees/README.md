@@ -1,7 +1,5 @@
 # Améliorer la qualité d'un jeu de données
 
-**Dans cette section, vous apprendrez :**&#x20;
+Dans cette section, vous apprendrez comment :&#x20;
 
-1. Comment améliorer votre score de qualité des métadonnées ;
-2. Comment connaître et mesurer les usages de vos données et ainsi adapter la qualité aux usages nouveaux engendrés par l'ouverture ;
-3. Comment mettre en place une stratégie organisationnelle permettant l'amélioration continue de vos données.&#x20;
+<table data-card-size="large" data-view="cards"><thead><tr><th></th></tr></thead><tbody><tr><td><strong>Améliorer votre score de qualité des métadonnées</strong></td></tr><tr><td><strong>Connaître et suivre les usages d'un jeu de données</strong></td></tr><tr><td><strong>Mettre en place une stratégie organisationnelle</strong></td></tr></tbody></table>
