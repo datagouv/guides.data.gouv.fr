@@ -50,4 +50,15 @@ Nous mettons tous les mois en avant nos réutilisations préférées dans [un ar
 
 Le tutoriel suivant vous guide dans la publication d'une réutilisation sur data.gouv.fr :&#x20;
 
+<details>
+
+<summary>Comment publier une réutilisation ?</summary>
+
+1. Rendez-vous sur : [data.gouv.fr/fr/admin/](https://www.data.gouv.fr/fr/admin/) ;
+2. Cliquer en haut à droite sur le bouton plus et choisir "une réutilisation" ;
+3. Choisissez l'identité avec laquelle vous souhaitez publier ;
+4. Remplissez les informations ;
+
+</details>
+
 {% embed url="https://www.loom.com/share/83c11a1caf2441cb9a5a2d943fa8db2d" %}
