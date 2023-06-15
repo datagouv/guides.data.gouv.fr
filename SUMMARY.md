@@ -96,3 +96,7 @@
   * [Déclaration d’un profil d’acheteur](commande-publique/declaration-dun-profil-dacheteur.md)
 * [Ressources OpenDataFrance](https://opendatafrance.gitbook.io/kit-de-ressources-odf/)
 * [Documentation de transport.data.gouv.fr](https://doc.transport.data.gouv.fr/)
+
+## 💡 Outils
+
+* [Lexique de l'open data](outils/lexique-de-lopen-data.md)
