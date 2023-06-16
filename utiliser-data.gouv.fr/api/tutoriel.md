@@ -243,5 +243,3 @@ HTTP/1.0 410 GONE
     "status": 410
 }
 ```
-
-Consultez la [documentation de référence](https://doc.data.gouv.fr/api/reference/) pour d’autres intéractions avec l’API ou posez-nous vos questions sur le sujet !

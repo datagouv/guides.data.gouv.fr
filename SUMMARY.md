@@ -60,7 +60,7 @@
     * [Analyser le rapport de moissonnage](publier-des-donnees/guide-data.gouv.fr/moissonnage/analyser-le-rapport-de-moissonnage.md)
     * [Récupération des métadonnées via geo.data.gouv.fr](publier-des-donnees/guide-data.gouv.fr/moissonnage/recuperation-des-metadonnees-via-geo.data.gouv.fr.md)
   * [API](utiliser-data.gouv.fr/api/README.md)
-    * [Introduction](utiliser-data.gouv.fr/api/introduction.md)
+    * [Prise en main de l'API](publier-des-donnees/guide-data.gouv.fr/api/prise-en-main-de-lapi.md)
     * [Tutoriel d'utilisation](utiliser-data.gouv.fr/api/tutoriel.md)
     * [Gérer un jeu de données par l'API](utiliser-data.gouv.fr/api/gestion-dun-jeu-de-donnees-par-lapi.md)
     * [Référence](utiliser-data.gouv.fr/api/reference.md)
