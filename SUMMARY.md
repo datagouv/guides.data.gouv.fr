@@ -55,6 +55,7 @@
     * [Gérer une réutilisation](publier-des-donnees/guide-data.gouv.fr/reutilisations/gerer-une-reutilisation.md)
   * [Moissonnage](guides/guide-data.gouv.fr/moissonage.md)
     * [Comprendre les limites du moissonnage](publier-des-donnees/guide-data.gouv.fr/moissonnage/comprendre-les-limites-du-moissonnage.md)
+    * [Les différents types de moissonneurs](publier-des-donnees/guide-data.gouv.fr/moissonnage/les-differents-types-de-moissonneurs.md)
     * [Mettre en place un moissonneur](publier-des-donnees/guide-data.gouv.fr/moissonnage/mettre-en-place-un-moissonneur.md)
     * [Analyser le rapport de moissonnage](publier-des-donnees/guide-data.gouv.fr/moissonnage/analyser-le-rapport-de-moissonnage.md)
     * [Récupération des métadonnées via geo.data.gouv.fr](publier-des-donnees/guide-data.gouv.fr/moissonnage/recuperation-des-metadonnees-via-geo.data.gouv.fr.md)
