@@ -14,15 +14,12 @@ Aujourd’hui, data.gouv.fr peut moissonner les plateformes ou formats suivants 
 * **CKAN**
 * **DKAN**, une variante du moissonneur CKAN
 * **OpenDataSoft (ODS)**
-* **MAAF** : un moissonneur spécifique au Ministère de l’Agriculture et de l’Alimentation
 
 {% tabs %}
 {% tab title="DCAT" %}
 ## DCAT <a href="#dcat" id="dcat"></a>
 
-[DCAT](https://www.w3.org/TR/vocab-dcat/) est une ontologie RDF pour décrire des jeux de données.
-
-L’Europe a publié son extension de DCAT, appelée [DCAT-AP](https://joinup.ec.europa.eu/release/dcat-ap/11).
+[DCAT](https://www.w3.org/TR/vocab-dcat/) est un vocabulaire RDF pour décrire des jeux de données. La Commission européenne a publié son extension de DCAT, appelée [DCAT-AP](https://joinup.ec.europa.eu/release/dcat-ap/11).
 
 ### Spécificités techniques <a href="#specificites-techniques" id="specificites-techniques"></a>
 
@@ -39,6 +36,44 @@ Plusieurs formats sont supportés et découvrables à travers la négociation de
 
 La pagination est supportée via l’ontologie [Hydra](https://www.w3.org/community/hydra/wiki/Pagination) (ainsi que l’ancienne version).
 
+#### Jeu de données <a href="#jeu-de-donnees" id="jeu-de-donnees"></a>
+
+La notion équivalente au jeu de données sur data.gouv.fr (`Dataset`) est un noeud de type `dcat:Dataset` en RDF.
+
+<table><thead><tr><th width="128"></th><th width="148">DATA.GOUV.FR</th><th width="186">RDF</th><th>NOTES</th></tr></thead><tbody><tr><td>Titre</td><td><code>title</code></td><td><code>dct:title</code></td><td> </td></tr><tr><td>Acronyme</td><td><code>acronym</code></td><td><code>skos:altLabel</code></td><td> </td></tr><tr><td>Description</td><td><code>description</code></td><td><code>dct:description</code> + <code>dct:abstract</code></td><td>Éventuellement HTML transformé en Markdown. <code>dct:description</code> est à privilégier</td></tr><tr><td>Mots-clés</td><td><code>tags</code></td><td><code>dcat:keyword</code> + <code>dcat:theme</code></td><td>Les <code>RdfResource</code> ne sont pas supportées pour le champ <code>dcat:theme</code>. <code>dcat:keyword</code> est à privilégier</td></tr><tr><td>Licence</td><td><code>license</code></td><td><code>dct:license</code> et <code>dct:right</code> depuis <code>dcat:distributions</code></td><td><a href="https://doc.data.gouv.fr/moissonnage/licences/">Détection des licences</a></td></tr><tr><td>Couverture spatiale</td><td><code>spatial</code></td><td>❌</td><td> </td></tr><tr><td>Couverture temporelle</td><td><code>temporal_coverage</code></td><td><code>dct:temporal</code></td><td>Séparé par <code>/</code> dans le cas de dates de début et de fin, ex: 2011-01-01/2011-12-31</td></tr><tr><td>Fréquence de mise à jour</td><td><code>frequency</code></td><td><code>dct:accrualPeriodicity</code></td><td><a href="http://dublincore.org/groups/collections/frequency/">Dublin Core Frequency</a> ou un équivalent au plus proche des <a href="https://publications.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/frequency">Fréquences Européennes</a></td></tr></tbody></table>
+
+**Autres métadonnées**
+
+Certaines propriétés additionnelles sont conservées dans l’attribut `harvest` par soucis de traçabilité. Les informations de date sont sauvegardées dans ces métadonnées.
+
+<table><thead><tr><th width="149"></th><th width="243">DATA.GOUV.FR HARVEST</th><th width="127">RDF</th><th>NOTES</th></tr></thead><tbody><tr><td>Identifiant distant</td><td><code>remote_id</code></td><td><code>dct:identifier</code></td><td>Conservé aussi sous <code>dct:identifier</code></td></tr><tr><td>URI</td><td><code>uri</code></td><td>ID du noeud</td><td><code>URIRef</code></td></tr><tr><td>URL de consultation</td><td><code>remote_url</code></td><td><code>dcat:landingPage</code> ou l’identifier RDF s’il s’agit d’une URI</td><td> </td></tr><tr><td>Date de création</td><td><code>created_at</code></td><td><code>dct.issued</code></td><td> </td></tr><tr><td>Date de modification</td><td><code>modified_at</code></td><td><code>dct.modified</code></td><td> </td></tr></tbody></table>
+
+#### Ressource <a href="#ressource" id="ressource"></a>
+
+La notion équivalente à la ressource sur data.gouv.fr (`Resource`) est un noeud de type `dcat:Distribution` en RDF.
+
+<table><thead><tr><th width="140"></th><th>DATA.GOUV.FR</th><th>RDF</th><th>NOTES</th></tr></thead><tbody><tr><td>Titre</td><td><code>title</code></td><td><code>dct:title</code></td><td>Propriété facultative, un nom est généré sinon</td></tr><tr><td>Description</td><td><code>description</code></td><td><code>dct:description</code></td><td>Éventuellement HTML transformé en Markdown</td></tr><tr><td>URL</td><td><code>url</code></td><td><code>dcat:downloadURL</code> et <code>dcat:accessURL</code></td><td>Priorité à <code>dcat:downloadURL</code></td></tr><tr><td>Taille</td><td><code>filesize</code></td><td><code>dcat:bytesSize</code></td><td> </td></tr><tr><td>Type MIME</td><td><code>mime</code></td><td><code>dcat:mediaType</code></td><td> </td></tr><tr><td>Format</td><td><code>format</code></td><td><code>dct:format</code></td><td> </td></tr><tr><td>Somme de contrôle</td><td><code>checksum</code></td><td><code>spdx:checksum</code> (<code>spdx:algorithm</code> + <code>spdx:checksumValue</code>)</td><td> </td></tr></tbody></table>
+
+**Autres métadonnées**
+
+Certaines propriétés sont conservées dans l’attribut `harvest` par souci de traçabilité :
+
+<table><thead><tr><th width="173"></th><th>DATA.GOUV.FR RESOURCE HARVEST</th><th>RDF</th><th>NOTES</th></tr></thead><tbody><tr><td>Identifiant distant</td><td><code>dct:identifier</code></td><td><code>dct:identifier</code></td><td> </td></tr><tr><td>URI</td><td><code>uri</code></td><td><code>dct:identifier</code></td><td>Si <code>dct:identifier</code> est un <code>URIRef</code></td></tr><tr><td>Date de création</td><td><code>created_at</code></td><td><code>dct.issued</code></td><td> </td></tr><tr><td>Date de modification</td><td><code>modified_at</code></td><td><code>dct.modified</code></td><td> </td></tr></tbody></table>
+
+### Logiciels supportés <a href="#logiciels-supportes" id="logiciels-supportes"></a>
+
+La plupart des logiciels exposant du DCAT (v3 à date) devraient être compatibles _a minima_ avec le moissonneur DCAT de data.gouv.fr. Ci-dessous quelques exemples de logiciels supportés.
+
+#### Geonetwork <a href="#geonetwork" id="geonetwork"></a>
+
+Si vous avez une instance de Geonetwork, vous pouvez publier sur data.gouv.fr.
+
+En effet, il existe un endpoint DCAT alternatif au endpoint CSW habituellement utilisé comme [documenté sur la doc Geonetwork officielle](https://geonetwork-opensource.org/manuals/3.10.x/en/api/rdf-dcat.html).
+
+Ainsi [https://geosas.fr/geonetwork/srv/fre/csw](https://geosas.fr/geonetwork/srv/fre/csw) deviendra [https://geosas.fr/geonetwork/srv/fre/rdf.search](https://geosas.fr/geonetwork/srv/fre/rdf.search) par exemple.
+
+GeoNetwork v4 n’est pas encore supporté au moissonnage. Voir [ces discussions](https://github.com/etalab/data.gouv.fr/issues/913).
+
 ### Correspondance des champs du modèle <a href="#correspondance-des-champs-du-modele" id="correspondance-des-champs-du-modele"></a>
 
 Par souci de lisibilité, les namespaces suivants sont déclarés :
@@ -53,72 +88,6 @@ Par souci de lisibilité, les namespaces suivants sont déclarés :
 * `vcard` ⇨ `http://www.w3.org/2006/vcard/ns#`
 * `xsd` ⇨ `http://www.w3.org/2001/XMLSchema#`
 * `freq` ⇨ `http://purl.org/cld/freq/`
-
-#### Jeu de données <a href="#jeu-de-donnees" id="jeu-de-donnees"></a>
-
-La notion équivalente au jeu de données sur data.gouv.fr (`Dataset`) est un noeud de type `dcat:Dataset` en RDF.
-
-|                          | DATA.GOUV.FR        | RDF                                                      | NOTES                                                                                                                                                                                                                                    |
-| ------------------------ | ------------------- | -------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Titre                    | `title`             | `dct:title`                                              |                                                                                                                                                                                                                                          |
-| Acronyme                 | `acronym`           | `skos:altLabel`                                          |                                                                                                                                                                                                                                          |
-| Description              | `description`       | `dct:description` + `dct:abstract`                       | Éventuellement HTML transformé en Markdown. `dct:description` est à privilégier                                                                                                                                                          |
-| Mots-clés                | `tags`              | `dcat:keyword` + `dcat:theme`                            | Les `RdfResource` ne sont pas supportées pour le champ `dcat:theme`. `dcat:keyword` est à privilégier                                                                                                                                    |
-| Licence                  | `license`           | `dct:license` et `dct:right` depuis `dcat:distributions` | [Détection des licences](https://doc.data.gouv.fr/moissonnage/licences/)                                                                                                                                                                 |
-| Couverture spatiale      | `spatial`           | ❌                                                        |                                                                                                                                                                                                                                          |
-| Couverture temporelle    | `temporal_coverage` | `dct:temporal`                                           | Séparé par `/` dans le cas de dates de début et de fin, ex: 2011-01-01/2011-12-31                                                                                                                                                        |
-| Fréquence de mise à jour | `frequency`         | `dct:accrualPeriodicity`                                 | [Dublin Core Frequency](http://dublincore.org/groups/collections/frequency/) ou un équivalent au plus proche des [Fréquences Européennes](https://publications.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/frequency) |
-
-**Autres métadonnées**
-
-Certaines propriétés additionnelles sont conservées dans l’attribut `harvest` par soucis de traçabilité. Les informations de date sont sauvegardées dans ces métadonnées.
-
-|                      | DATA.GOUV.FR `HARVEST` | RDF                                                          | NOTES                                |
-| -------------------- | ---------------------- | ------------------------------------------------------------ | ------------------------------------ |
-| Identifiant distant  | `remote_id`            | `dct:identifier`                                             | Conservé aussi sous `dct:identifier` |
-| URI                  | `uri`                  | ID du noeud                                                  | `URIRef`                             |
-| URL de consultation  | `remote_url`           | `dcat:landingPage` ou l’identifier RDF s’il s’agit d’une URI |                                      |
-| Date de création     | `created_at`           | `dct.issued`                                                 |                                      |
-| Date de modification | `modified_at`          | `dct.modified`                                               |                                      |
-
-#### Ressource <a href="#ressource" id="ressource"></a>
-
-La notion équivalente à la ressource sur data.gouv.fr (`Resource`) est un noeud de type `dcat:Distribution` en RDF.
-
-|                   | DATA.GOUV.FR  | RDF                                                       | NOTES                                          |
-| ----------------- | ------------- | --------------------------------------------------------- | ---------------------------------------------- |
-| Titre             | `title`       | `dct:title`                                               | Propriété facultative, un nom est généré sinon |
-| Description       | `description` | `dct:description`                                         | Éventuellement HTML transformé en Markdown     |
-| URL               | `url`         | `dcat:downloadURL` et `dcat:accessURL`                    | Priorité à `dcat:downloadURL`                  |
-| Taille            | `filesize`    | `dcat:bytesSize`                                          |                                                |
-| Type MIME         | `mime`        | `dcat:mediaType`                                          |                                                |
-| Format            | `format`      | `dct:format`                                              |                                                |
-| Somme de contrôle | `checksum`    | `spdx:checksum` (`spdx:algorithm` + `spdx:checksumValue`) |                                                |
-
-**Autres métadonnées**
-
-Certaines propriétés sont conservées dans l’attribut `harvest` par souci de traçabilité :
-
-|                      | DATA.GOUV.FR RESOURCE `HARVEST` | RDF              | NOTES                               |
-| -------------------- | ------------------------------- | ---------------- | ----------------------------------- |
-| Identifiant distant  | `dct:identifier`                | `dct:identifier` |                                     |
-| URI                  | `uri`                           | `dct:identifier` | Si `dct:identifier` est un `URIRef` |
-| Date de création     | `created_at`                    | `dct.issued`     |                                     |
-| Date de modification | `modified_at`                   | `dct.modified`   |                                     |
-
-### Logiciels supportés <a href="#logiciels-supportes" id="logiciels-supportes"></a>
-
-La plupart des logiciels exposant du DCAT (v1 à date) devraient être compatibles _a minima_ avec le moissonneur DCAT de data.gouv.fr. Ci-dessous quelques exemples de logiciels supportés.
-
-#### Geonetwork <a href="#geonetwork" id="geonetwork"></a>
-
-Si vous avez une instance de Geonetwork, vous pouvez publier sur data.gouv.fr.
-
-En effet, il existe un endpoint DCAT alternatif au endpoint CSW habituellement utilisé comme [documenté sur la doc Geonetwork officielle](https://geonetwork-opensource.org/manuals/3.10.x/en/api/rdf-dcat.html).
-
-Ainsi [https://geosas.fr/geonetwork/srv/fre/csw](https://geosas.fr/geonetwork/srv/fre/csw) deviendra [https://geosas.fr/geonetwork/srv/fre/rdf.search](https://geosas.fr/geonetwork/srv/fre/rdf.search) par exemple.
-
-GeoNetwork v4 n’est pas encore supporté au moissonnage. Voir [ces discussions](https://github.com/etalab/data.gouv.fr/issues/913).
 
 ### Contribuer <a href="#contribuer" id="contribuer"></a>
 
