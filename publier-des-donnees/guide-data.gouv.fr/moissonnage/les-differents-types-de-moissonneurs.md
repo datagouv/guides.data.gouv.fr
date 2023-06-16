@@ -1,4 +1,4 @@
-# Mettre en place un moissonneur
+# Les différents types de moissonneurs
 
 ## Les différents moissonneurs
 
