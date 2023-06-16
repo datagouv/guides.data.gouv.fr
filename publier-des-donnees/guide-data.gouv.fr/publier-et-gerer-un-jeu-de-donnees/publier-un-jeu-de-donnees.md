@@ -2,9 +2,29 @@
 
 Plusieurs modes de mises en ligne sont possibles sur la plateforme data.gouv.fr :&#x20;
 
-* **Par upload direct**
+* **Publication manuelle sur data.gouv.fr**&#x20;
 * **Par API**
 * **Par moissonnage**
+
+<details>
+
+<summary>Quelle différence entre API et moissonage ?</summary>
+
+La publication par l’API vous donne un contrôle total sur le contenu de chaque champ, le moment de la soumission. tandis que le moissonnage, s’il ne nécessite pas de développement spécifique sur votre plateforme, est un fonctionnement fortement contraint.
+
+**Moissonage**&#x20;
+
+* **Pré-requis** **:** métadonnées dans l’un des formats supportés
+* **Déclenchement** **:** contrôlé par data.gouv.fr (quotidien)
+* **Champs :** modèle imposé par protocole
+
+**API**
+
+* **Pré-requis :** capacité de développement
+* **Déclenchement :** déclenché au besoin
+* **Champs :** au choix du développeur
+
+</details>
 
 {% hint style="info" %}
 En amont de la publication de données sur data.gouv.fr, il est important de bien préparer le jeu de données. Pour ce faire, nous vous invitons à consulter [guide qualité](../../../guides/guide-qualite/).
@@ -42,8 +62,6 @@ Lors de l’étape **“Ajoutez vos ressources”**, deux options vous sont prop
 
 1. Vous pouvez télécharger vos ressources depuis votre ordinateur vers le serveur de data.gouv.fr. Vos ressources seront alors hébergées sur les serveurs de data.gouv.fr.
 2. Vous pouvez créer un lien vers une ressource distante existante. Les informations contenues dans le fichier resteront hébergées sur le serveur distant fléché.
-
-
 
 <figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
