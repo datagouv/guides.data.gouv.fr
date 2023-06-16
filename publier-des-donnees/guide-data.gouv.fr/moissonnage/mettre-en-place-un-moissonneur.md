@@ -1,11 +1,5 @@
 # Mettre en place un moissonneur
 
-Cette page présente :&#x20;
-
-* les différents moissonneurs ;&#x20;
-* la possibilité de filtrage ;&#x20;
-* la détection des licences par le moissonnage.
-
 ## Les différents moissonneurs
 
 Aujourd’hui, data.gouv.fr peut moissonner les plateformes ou formats suivants :
@@ -35,6 +29,8 @@ Plusieurs formats sont supportés et découvrables à travers la négociation de
 * `Trig`
 
 La pagination est supportée via l’ontologie [Hydra](https://www.w3.org/community/hydra/wiki/Pagination) (ainsi que l’ancienne version).
+
+### Correspondance des champs du modèle <a href="#correspondance-des-champs-du-modele" id="correspondance-des-champs-du-modele"></a>
 
 #### Jeu de données <a href="#jeu-de-donnees" id="jeu-de-donnees"></a>
 
@@ -74,7 +70,7 @@ Ainsi [https://geosas.fr/geonetwork/srv/fre/csw](https://geosas.fr/geonetwork/sr
 
 GeoNetwork v4 n’est pas encore supporté au moissonnage. Voir [ces discussions](https://github.com/etalab/data.gouv.fr/issues/913).
 
-### Correspondance des champs du modèle <a href="#correspondance-des-champs-du-modele" id="correspondance-des-champs-du-modele"></a>
+### Namespaces utilisés <a href="#correspondance-des-champs-du-modele" id="correspondance-des-champs-du-modele"></a>
 
 Par souci de lisibilité, les namespaces suivants sont déclarés :
 
@@ -117,29 +113,13 @@ Les champs additionnels du modèle sont ignorés.
 
 La notion équivalente au jeu de données sur data.gouv.fr (`Dataset`) est le `Package` dans CKAN.
 
-|                          | DATA.GOUV.FR        | CKAN                                             | NOTES                                                                        |
-| ------------------------ | ------------------- | ------------------------------------------------ | ---------------------------------------------------------------------------- |
-| Slug                     | `slug`              | `name`                                           | Création uniquement, si disponible                                           |
-| Titre                    | `title`             | `title`                                          |                                                                              |
-| Acronyme                 | `acronym`           | ❌                                                |                                                                              |
-| Description              | `description`       | `notes`                                          |                                                                              |
-| Mots-clés                | `tags`              | `tags.name`                                      |                                                                              |
-| Date de création         | `created_at`        | `metadata_created`                               |                                                                              |
-| Date de mise à jour      | `last_modified`     | `metadata_modified`                              |                                                                              |
-| Licence                  | `license`           | `license_id` et `license_title`                  | deviné                                                                       |
-| Couverture spatiale      | `spatial`           | `extras.spatial` et `extras.spatial-test`        | deviné                                                                       |
-| Couverture temporelle    | `temporal_coverage` | `extras.temporal_start` et `extras.temporal_end` |                                                                              |
-| Fréquence de mise à jour | `frequency`         | `extras.frequency`                               | [Dublin Core Frequency](http://dublincore.org/groups/collections/frequency/) |
+<table><thead><tr><th width="137"></th><th width="161">DATA.GOUV.FR</th><th width="216">CKAN</th><th>NOTES</th></tr></thead><tbody><tr><td>Slug</td><td><code>slug</code></td><td><code>name</code></td><td>Création uniquement, si disponible</td></tr><tr><td>Titre</td><td><code>title</code></td><td><code>title</code></td><td> </td></tr><tr><td>Acronyme</td><td><code>acronym</code></td><td>❌</td><td> </td></tr><tr><td>Description</td><td><code>description</code></td><td><code>notes</code></td><td> </td></tr><tr><td>Mots-clés</td><td><code>tags</code></td><td><code>tags.name</code></td><td> </td></tr><tr><td>Date de création</td><td><code>created_at</code></td><td><code>metadata_created</code></td><td> </td></tr><tr><td>Date de mise à jour</td><td><code>last_modified</code></td><td><code>metadata_modified</code></td><td> </td></tr><tr><td>Licence</td><td><code>license</code></td><td><code>license_id</code> et <code>license_title</code></td><td>deviné</td></tr><tr><td>Couverture spatiale</td><td><code>spatial</code></td><td><code>extras.spatial</code> et <code>extras.spatial-test</code></td><td>deviné</td></tr><tr><td>Couverture temporelle</td><td><code>temporal_coverage</code></td><td><code>extras.temporal_start</code> et <code>extras.temporal_end</code></td><td> </td></tr><tr><td>Fréquence de mise à jour</td><td><code>frequency</code></td><td><code>extras.frequency</code></td><td><a href="http://dublincore.org/groups/collections/frequency/">Dublin Core Frequency</a></td></tr></tbody></table>
 
 **Autres métadonnées**
 
 Certaines propriétés additionnelles sont conservées dans l’attribut `harvest` par soucis de traçabilité. Les informations de date sont sauvegardées dans ces métadonnées.
 
-|                     | DATA.GOUV.FR `HARVEST` | CKAN   | NOTES                                       |
-| ------------------- | ---------------------- | ------ | ------------------------------------------- |
-| Identifiant distant | `remote_id`            | `id`   |                                             |
-| Slug                | `ckan_name`            | `name` | Car `slug` peut déjà être pris              |
-| URL de consultation | `remote_url`           | `url`  | Conservé dans `ckan:source` si URL invalide |
+<table><thead><tr><th width="149"></th><th>DATA.GOUV.FR HARVEST</th><th width="105">CKAN</th><th>NOTES</th></tr></thead><tbody><tr><td>Identifiant distant</td><td><code>remote_id</code></td><td><code>id</code></td><td> </td></tr><tr><td>Slug</td><td><code>ckan_name</code></td><td><code>name</code></td><td>Car <code>slug</code> peut déjà être pris</td></tr><tr><td>URL de consultation</td><td><code>remote_url</code></td><td><code>url</code></td><td>Conservé dans <code>ckan:source</code> si URL invalide</td></tr></tbody></table>
 
 Tous les attributs `extras` de CKAN qui ne font pas l’objet d’un traitement particulier sont aussi conservés dans l’attribut `extras`.
 
@@ -147,17 +127,25 @@ Tous les attributs `extras` de CKAN qui ne font pas l’objet d’un traitement 
 
 La notion équivalente à la ressource sur data.gouv.fr (`Resource`) est aussi la `Resource` dans CKAN.
 
-|                     | DATA.GOUV.FR          | CKAN            | NOTES             |
-| ------------------- | --------------------- | --------------- | ----------------- |
-| Identifiant         | `id`                  | `id`            | Un UUID valide    |
-| Titre               | `title`               | `name`          |                   |
-| Description         | `description`         | `description`   |                   |
-| URL                 | `url`                 | `url`           |                   |
-| Type                | `filetype`            | `resource_type` | `api` ou `remote` |
-| Type MIME           | `mime`                | `mimetype`      |                   |
-| Format              | `format`              | `format`        |                   |
-| Date de création    | `harvest.created_at`  | `created`       |                   |
-| Date de mise à jour | `harvest.modified_at` | `last_modified` |                   |
+<table data-full-width="true"><thead><tr><th width="127"></th><th>DATA.GOUV.FR</th><th>CKAN</th><th>NOTES</th></tr></thead><tbody><tr><td>Identifiant</td><td><code>id</code></td><td><code>id</code></td><td>Un UUID valide</td></tr><tr><td>Titre</td><td><code>title</code></td><td><code>name</code></td><td> </td></tr><tr><td>Description</td><td><code>description</code></td><td><code>description</code></td><td> </td></tr><tr><td>URL</td><td><code>url</code></td><td><code>url</code></td><td> </td></tr><tr><td>Type</td><td><code>filetype</code></td><td><code>resource_type</code></td><td><code>api</code> ou <code>remote</code></td></tr><tr><td>Type MIME</td><td><code>mime</code></td><td><code>mimetype</code></td><td> </td></tr><tr><td>Format</td><td><code>format</code></td><td><code>format</code></td><td> </td></tr><tr><td>Date de création</td><td><code>harvest.created_at</code></td><td><code>created</code></td><td> </td></tr><tr><td>Date de mise à jour</td><td><code>harvest.modified_at</code></td><td><code>last_modified</code></td><td> </td></tr></tbody></table>
+
+## Filtrage <a href="#filtrage" id="filtrage"></a>
+
+La filtrage donne la possibilité d’inclure ou d’exclure un sous-ensemble de jeux de données du moissonnage.
+
+Lorsqu’un ou plusieurs filtres sont déclarés, seuls les jeux de données remplissant **toutes** les conditions (**ET**) seront traités.
+
+### **Portail multiproducteur : restriction à une organisation**
+
+![Exemple de restriction à une seule organisation](https://doc.data.gouv.fr/img/moissonnage/harvest-filter-include.png)
+
+### **Exclusion de mots-clés**
+
+![Exemple d'exclusion de mots-clés](https://doc.data.gouv.fr/img/moissonnage/harvest-filter-exclude.png)
+
+### **Combinaisons multiples**
+
+![Exemple de combinaison de filtres](https://doc.data.gouv.fr/img/moissonnage/harvest-filter-combined.png)
 
 ### Contribuer <a href="#contribuer" id="contribuer"></a>
 
@@ -185,29 +173,13 @@ Il est possible de filtrer les jeu de données identifiés comme venant d’Insp
 
 #### Jeu de données <a href="#jeu-de-donnees" id="jeu-de-donnees"></a>
 
-|                          | DATA.GOUV.FR        | OPENDATASOFT          | NOTES                            |
-| ------------------------ | ------------------- | --------------------- | -------------------------------- |
-| Title                    | `title`             | `title`               |                                  |
-| Acronyme                 | `acronym`           | ❌                     |                                  |
-| Description              | `description`       | `description`         | HTML converti en Markdown        |
-| Mots-clés                | `tags`              | `keywords` + `themes` |                                  |
-| Licence                  | `license`           | `license`             | champ libre: deviné sinon `LOv2` |
-| Couverture spatiale      | `spatial`           | ❌                     |                                  |
-| Couverture temporelle    | `temporal_coverage` | ❌                     |                                  |
-| Fréquence de mise à jour | `frequency`         | ❌                     |                                  |
+<table><thead><tr><th width="179"></th><th width="138">DATA.GOUV.FR</th><th width="168">OPENDATASOFT</th><th>NOTES</th></tr></thead><tbody><tr><td>Title</td><td><code>title</code></td><td><code>title</code></td><td> </td></tr><tr><td>Acronyme</td><td><code>acronym</code></td><td>❌</td><td> </td></tr><tr><td>Description</td><td><code>description</code></td><td><code>description</code></td><td>HTML converti en Markdown</td></tr><tr><td>Mots-clés</td><td><code>tags</code></td><td><code>keywords</code> + <code>themes</code></td><td> </td></tr><tr><td>Licence</td><td><code>license</code></td><td><code>license</code></td><td>champ libre: deviné sinon <code>LOv2</code></td></tr><tr><td>Couverture spatiale</td><td><code>spatial</code></td><td>❌</td><td> </td></tr><tr><td>Couverture temporelle</td><td><code>temporal_coverage</code></td><td>❌</td><td> </td></tr><tr><td>Fréquence de mise à jour</td><td><code>frequency</code></td><td>❌</td><td> </td></tr></tbody></table>
 
 **Autres métadonnées**
 
 Certaines propriétés additionnelles sont conservées dans l’attribut `harvest` par soucis de traçabilité. Les informations de date sont sauvegardées dans ces métadonnées.
 
-|                      | DATA.GOUV.FR `HARVEST` | OPENDATASOFT                        | NOTES                     |
-| -------------------- | ---------------------- | ----------------------------------- | ------------------------- |
-| Identifiant distant  | `harvest:remote_id`    | `datasetid`                         | ⚠ Attention au changement |
-| URL de consultation  | `ods_url`              | `site`/explore/dataset/`datasetid`/ |                           |
-| Référence interne    | `ods_reference`        | `reference`                         |                           |
-| Présence de données  | `ods_has_records`      | `has_records`                       |                           |
-| Données spatiales    | `ods_geo`              | `features.geo`                      |                           |
-| Date de modification | `modified_at`          | `metas.modified`                    |                           |
+<table><thead><tr><th width="144"></th><th>DATA.GOUV.FR HARVEST</th><th>OPENDATASOFT</th><th>NOTES</th></tr></thead><tbody><tr><td>Identifiant distant</td><td><code>harvest:remote_id</code></td><td><code>datasetid</code></td><td>⚠ Attention au changement</td></tr><tr><td>URL de consultation</td><td><code>ods_url</code></td><td><code>site</code>/explore/dataset/<code>datasetid</code>/</td><td> </td></tr><tr><td>Référence interne</td><td><code>ods_reference</code></td><td><code>reference</code></td><td> </td></tr><tr><td>Présence de données</td><td><code>ods_has_records</code></td><td><code>has_records</code></td><td> </td></tr><tr><td>Données spatiales</td><td><code>ods_geo</code></td><td><code>features.geo</code></td><td> </td></tr><tr><td>Date de modification</td><td><code>modified_at</code></td><td><code>metas.modified</code></td><td> </td></tr></tbody></table>
 
 #### Ressources <a href="#ressources" id="ressources"></a>
 
@@ -220,27 +192,6 @@ Il existe 3 types de ressources identifiés chez Opendatasoft :
   * un export au format `Shapefile` dans le cas de données spatiales
 * les pièces jointes (`attachments` dans l’API Opendatasoft) qui seront chacune reconnue comme une ressource
 * les exports alternatifs (`alternative_exports` dans l’API Opendatasoft) qui seront chacun reconnu comme une ressource
-
-### Contribuer <a href="#contribuer" id="contribuer"></a>
-
-Le moissonneur Opendatasoft est publié sur github dans le plugin [`udata-ods`](https://github.com/opendatateam/udata-ods). Vous pouvez donc soumettre des améliorations ou signaler des anomalies.
-{% endtab %}
-{% endtabs %}
-
-#### Métadonnées communes <a href="#metadonnees-communes" id="metadonnees-communes"></a>
-
-Les jeux de données moissonnés possèdent les attributs suivants dans leur champ `extras` pour la traçabilité :
-
-| ATTRIBUT              | CONTENU                               |
-| --------------------- | ------------------------------------- |
-| `harvest:domain`      | Nom de domaine moissoné               |
-| `harvest:source_id`   | Identifiant technique du moissonneur  |
-| `harvest:remote_id`   | Identifiant distant du jeu de données |
-| `harvest:last_update` | Date du dernier moissonnage           |
-
-### Options <a href="#options" id="options"></a>
-
-Chaque type de moissonneur possède des options spécifiques, ainsi que des options communes. Aujourd’hui, la seule option commune est la possibilité de filtrage.
 
 ## Filtrage <a href="#filtrage" id="filtrage"></a>
 
@@ -259,6 +210,23 @@ Lorsqu’un ou plusieurs filtres sont déclarés, seuls les jeux de données rem
 ### **Combinaisons multiples**
 
 ![Exemple de combinaison de filtres](https://doc.data.gouv.fr/img/moissonnage/harvest-filter-combined.png)
+
+### Contribuer <a href="#contribuer" id="contribuer"></a>
+
+Le moissonneur Opendatasoft est publié sur github dans le plugin [`udata-ods`](https://github.com/opendatateam/udata-ods). Vous pouvez donc soumettre des améliorations ou signaler des anomalies.
+{% endtab %}
+{% endtabs %}
+
+#### Métadonnées communes <a href="#metadonnees-communes" id="metadonnees-communes"></a>
+
+Les jeux de données moissonnés possèdent les attributs suivants dans leur champ `extras` pour la traçabilité :
+
+| ATTRIBUT              | CONTENU                               |
+| --------------------- | ------------------------------------- |
+| `harvest:domain`      | Nom de domaine moissonné              |
+| `harvest:source_id`   | Identifiant technique du moissonneur  |
+| `harvest:remote_id`   | Identifiant distant du jeu de données |
+| `harvest:last_update` | Date du dernier moissonnage           |
 
 ## Détection des licences par le moissonnage
 

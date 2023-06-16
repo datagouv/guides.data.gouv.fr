@@ -1,4 +1,4 @@
-# Comprendre la récupération des métadonnées via geo.data.gouv.fr
+# Récupération des métadonnées via geo.data.gouv.fr
 
 {% hint style="warning" %}
 [geo.data.gouv.fr](https://geo.data.gouv.fr/) n’est plus activement maintenu.\
