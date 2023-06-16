@@ -15,3 +15,5 @@ Voir la différence entre [API et moissonnage](../../publier-des-donnees/guide-d
 {% endhint %}
 
 Dans cette section, vous apprendrez comment publier un catalogue de données existant par moissonnage.
+
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th data-hidden></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Comprendre les limites du moissonnage</strong></td><td></td><td></td></tr><tr><td><strong>Les différents types de moissonneurs</strong></td><td></td><td></td></tr><tr><td><strong>Mettre en place un moissonneur</strong></td><td></td><td></td></tr><tr><td><strong>Analyser le rapport de moissonnage</strong></td><td></td><td></td></tr></tbody></table>
