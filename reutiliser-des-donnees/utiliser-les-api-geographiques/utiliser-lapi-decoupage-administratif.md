@@ -1,4 +1,4 @@
-# API découpage administratif
+# Utiliser l'API Découpage administratif
 
 ### Pourquoi utiliser l’API découpage administratif ? <a href="#pourquoi-utiliser-l-api-decoupage-administratif" id="pourquoi-utiliser-l-api-decoupage-administratif"></a>
 

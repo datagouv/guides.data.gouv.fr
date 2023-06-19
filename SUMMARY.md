@@ -86,7 +86,7 @@
 * [🗺 Utiliser les API géographiques](reutiliser-des-donnees/utiliser-les-api-geographiques/README.md)
   * [Utiliser l'API Adresse](reutiliser-des-donnees/utiliser-les-api-geographiques/utiliser-lapi-adresse/README.md)
     * [Accéder et utiliser les données d'adresses](reutiliser-des-donnees/utiliser-les-api-geographiques/utiliser-lapi-adresse/acceder-et-utiliser-les-donnees-dadresses.md)
-    * [Géocoder une adresse](reutiliser-des-donnees/utiliser-les-api-geographiques/utiliser-lapi-adresse/geocoder-une-adresse.md)
+    * [Géocoder des adresses](reutiliser-des-donnees/utiliser-les-api-geographiques/utiliser-lapi-adresse/geocoder-des-adresses.md)
   * [Utiliser l'API Découpage administratif](reutiliser-des-donnees/utiliser-les-api-geographiques/utiliser-lapi-decoupage-administratif.md)
   * [Utiliser les tuiles vectorielles](reutiliser-des-donnees/utiliser-les-api-geographiques/utiliser-les-tuiles-vectorielles.md)
 

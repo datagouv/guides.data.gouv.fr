@@ -13,7 +13,7 @@ La donnée adresse qui compose la Base Adresse Nationale (BAN) est soit :
 L’image ci-dessous résume la situation pour consolider les données adresses :&#x20;
 {% endhint %}
 
-<figure><img src="https://guides.etalab.gouv.fr/assets/img/schema-donnees-ban.681a4c32.svg" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://guides.etalab.gouv.fr/assets/img/schema-donnees-ban.681a4c32.svg" alt=""><figcaption><p>Schéma explicatif de la consolidation des données d'adresses</p></figcaption></figure>
 
 ## **Quels sont les usages de l’API Adresse ?** <a href="#quels-sont-les-usages-de-l-api-adresse" id="quels-sont-les-usages-de-l-api-adresse"></a>
 

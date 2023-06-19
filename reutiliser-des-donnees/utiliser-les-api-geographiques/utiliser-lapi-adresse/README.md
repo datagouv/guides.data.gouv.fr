@@ -10,4 +10,4 @@ Familier des APIs ? Vous pouvez directement vous référer à :
 
 Dans cette section, vous apprendrez comment :&#x20;
 
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Accéder et utiliser les données d'adresses</strong></td><td><a href="acceder-et-utiliser-les-donnees-dadresses.md">acceder-et-utiliser-les-donnees-dadresses.md</a></td></tr><tr><td><strong>Géocoder une adresse</strong></td><td><a href="geocoder-une-adresse.md">geocoder-une-adresse.md</a></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Accéder et utiliser les données d'adresses</strong></td><td><a href="acceder-et-utiliser-les-donnees-dadresses.md">acceder-et-utiliser-les-donnees-dadresses.md</a></td></tr><tr><td><strong>Géocoder une adresse</strong></td><td><a href="geocoder-des-adresses.md">geocoder-des-adresses.md</a></td></tr></tbody></table>

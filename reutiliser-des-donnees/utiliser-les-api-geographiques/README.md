@@ -15,8 +15,8 @@ Ce guide propose d'explorer des cas pratiques d'utilisation des API géographiqu
 Ce guide s'adresse donc à plusieurs types de profils :
 
 * Néophytes dans l'utilisation des APIs ;
-* Intégrateur web ;&#x20;
-* Spécialiste du secteur géospatial.&#x20;
+* Intégrateurs web ;&#x20;
+* Spécialistes du secteur géospatial.&#x20;
 
 Il s'agit d'un outil évolutif et ouvert. Vous pouvez contribuer à l'améliorer en proposant une modification sur [GitHub](https://github.com/etalab/guides.etalab.gouv.fr/edit/master/apis-geo/) ou en [contactant directement](mailto:geo@data.gouv.fr) l'équipe Géo d'Etalab.&#x20;
 
@@ -28,7 +28,7 @@ Il s'agit d'un outil évolutif et ouvert. Vous pouvez contribuer à l'améliorer
 L'API Adresse permet d'interroger la Base Adresse Nationale, base de données de l’intégralité des adresses du territoire français. \
 En intégrant l'API dans votre système d'information, vous pouvez facilement rechercher une adresse et notamment faire de l'autocomplétion et de la vérification d'adresse,  géolocaliser une adresse sur une carte ou encore faire une recherche géographique inversée (trouver la rue la plus proche de coordonnées géographiques).
 
-* **API Découpage Administatif (API Geo)**
+* **API Découpage administratif (API Geo)**
 
 L'API Découpage Administratif permet d'interroger les référentiels géographiques plus facilement. \
 En intégrant l'API dans votre système d'information, vous pouvez notamment rechercher une commune par nom, code postal ou coordonnées géographiques, rechercher un département par son nom ou encore rechercher une région par son nom.&#x20;
@@ -36,11 +36,11 @@ En intégrant l'API dans votre système d'information, vous pouvez notamment rec
 * **Les tuiles vectorielles openmaptiles.geo.data.gouv.fr**
 
 L'API permet de mettre à disposition des tuiles vectorielles qui sont affichables sur des cartes géographiques interactives. \
-Elles servent principalement à afficher des fonds de plan mais aussi les contours cadastrales et les limites administratives en France. \
+Elles servent principalement à afficher des fonds de plan mais aussi les contours cadastraux et les limites administratives en France. \
 Cela permet de vous affranchir d'APIs cartographiques comme Google Maps.
 {% endhint %}
 
-{% hint style="info" %}
+{% hint style="success" %}
 **Recommandations logiciels**
 
 Il est recommandé d'avoir un navigateur web en ayant installé [l'extension JSONView](https://jsonview.com/) pour faciliter la compréhension des retours JSON.
