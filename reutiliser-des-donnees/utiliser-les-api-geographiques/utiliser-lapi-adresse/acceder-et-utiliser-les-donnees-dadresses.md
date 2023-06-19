@@ -28,3 +28,6 @@ Pour accéder aux données d'adresses, il est possible de :&#x20;
 
 * **Récupérer directement les données**. Cette méthode s’adresse à des utilisateurs avancés.
 * **Utiliser l’API de recherche**. Cette API peut rechercher des adresses soit via un appel unique par adresse soit en mode "_batch_" : on passe un fichier avec une liste d’adresse, une par ligne et on retourne la première adresse retournée pour chacune des lignes.
+
+<figure><img src="../../../.gitbook/assets/Capture d’écran 2023-06-19 à 11.20.02.png" alt=""><figcaption><p>Page d'accueil d'adresse.data.gouv.fr</p></figcaption></figure>
+
