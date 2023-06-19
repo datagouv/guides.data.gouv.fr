@@ -3,11 +3,10 @@
 ## Qu'est-ce que les tuiles vectorielles ?
 
 {% hint style="info" %}
-Pour mieux comprendre ce que sont que les tuiles vectorielles et leurs usages rendez-vous sur la documentation de l’IGN.
+Pour mieux comprendre ce que sont que les tuiles vectorielles et leurs usages, rendez-vous sur la documentation de l’IGN.
 {% endhint %}
 
-{% hint style="info" %}
-**Pourquoi utiliser les tuiles vectorielles ?**
+### **Pourquoi utiliser les tuiles vectorielles ?**
 
 Le service proposé par Etalab permet de :&#x20;
 
@@ -16,14 +15,11 @@ Le service proposé par Etalab permet de :&#x20;
 
 Ce service s'appuie sur les données du [projet OpenStreetMap](https://openstreetmap.org/).
 
-
-
 OpenStreetMap (ou "OSM") est une carte du monde entier librement modifiable, faite par des gens comme vous. OpenStreetMap vous permet de voir, modifier et utiliser des données géographiques de n'importe quel endroit dans le monde.
 
 Si vous identifiez des données manquantes sur la carte, vous pouvez contribuer sur [https://openstreetmap.org](https://openstreetmap.org/) et vous verrez les changements au plus tard une semaine après. En effet, les tuiles vecteur des fonds de plan sont mises à jour une fois par semaine.
 
 Il faut aussi noter que vous devez obligatoirement [créditer OpenStreetMap et ses contributeurs](https://www.openstreetmap.org/copyright/fr) quand vous utilisez les fonds de plan.
-{% endhint %}
 
 <figure><img src="../../.gitbook/assets/Capture d’écran 2023-06-19 à 12.27.48.png" alt=""><figcaption><p>Page d'accueil d'OpenMapTiles</p></figcaption></figure>
 
@@ -70,18 +66,18 @@ On parle abusivement de tuiles vectorielles pour désigner généralement deux c
 
 ### **Les tuiles vectorielles en elles-même**
 
-On peut les assimiler à des objects vectoriels, des points, des lignes, des polygones qui sont associés à des attributs par exemple un nom. On groupe ces objets par couche, généralement un objet métier, par exemple, les limites communales, les commerces, etc.&#x20;
+On peut les assimiler à des objects vectoriels, des points, des lignes, des polygones qui sont associés à des attributs par exemple un nom. On groupe ces objets par couche, généralement un objet métier, par exemple, les limites communales, les commerces, etc. On découpe ensuite ces vecteurs selon une emprise fixe qui reprend celle historiquement utilisées par les tuiles raster. On peut ainsi voir quelles couches contiennent une tuile.&#x20;
 
-On découpe ensuite ces vecteurs selon une emprise fixe qui reprend celle historiquement utilisées par les tuiles raster. On peut ainsi voir quelles couches contiennent une tuile. Il existe plusieurs standards pour ces tuiles mais celui le plus adopté est celui de la société Mapbox : on parle de "Mapbox Vector Tiles" ou MVT.&#x20;
+Il existe plusieurs standards pour ces tuiles mais celui le plus adopté est celui de la société Mapbox : on parle de "Mapbox Vector Tiles" ou MVT.&#x20;
 
 Leur contenu est encapsulé dans un format binaire appelé Protocol Buffer, non spécifique à la cartographie, c'est pour cela que l'extension des tuiles est souvent `.pbf` même si cela était historiquement `.mvt`.&#x20;
 
-Voici quelques exemples pour inspecter :
-
-* les tuiles du cadastre : [https://stevage.github.io/vector-inspector/#?url=https://openmaptiles.geo.data.gouv.fr/data/cadastre/15/16241/11497.pbf\&loc=13.71/47.21687/-1.55235](https://stevage.github.io/vector-inspector/#?url=https://openmaptiles.geo.data.gouv.fr/data/cadastre/15/16241/11497.pbf\&loc=13.71/47.21687/-1.55235)
-* le fond OpenMapTiles : [https://stevage.github.io/vector-inspector/#?url=https://openmaptiles.geo.data.gouv.fr/data/cadastre/15/16241/11497.pbf\&loc=13.71/47.21687/-1.55235](https://stevage.github.io/vector-inspector/#?url=https://openmaptiles.geo.data.gouv.fr/data/cadastre/15/16241/11497.pbf\&loc=13.71/47.21687/-1.55235)
-
-Vous pouvez aussi aller sur [https://openmaptiles.geo.data.gouv.fr](https://openmaptiles.geo.data.gouv.fr/) puis dans le bloc "DATA", choisir une couche et faire "Inspect".
+> Quelques exemples pour inspecter :
+>
+> * Les tuiles du cadastre : [https://stevage.github.io/vector-inspector/#?url=https://openmaptiles.geo.data.gouv.fr/data/cadastre/15/16241/11497.pbf\&loc=13.71/47.21687/-1.55235](https://stevage.github.io/vector-inspector/#?url=https://openmaptiles.geo.data.gouv.fr/data/cadastre/15/16241/11497.pbf\&loc=13.71/47.21687/-1.55235)
+> * Le fond OpenMapTiles : [https://stevage.github.io/vector-inspector/#?url=https://openmaptiles.geo.data.gouv.fr/data/cadastre/15/16241/11497.pbf\&loc=13.71/47.21687/-1.55235](https://stevage.github.io/vector-inspector/#?url=https://openmaptiles.geo.data.gouv.fr/data/cadastre/15/16241/11497.pbf\&loc=13.71/47.21687/-1.55235)
+>
+> Vous pouvez aussi aller sur [https://openmaptiles.geo.data.gouv.fr](https://openmaptiles.geo.data.gouv.fr/) puis dans le bloc "DATA", choisir une couche et faire "Inspect".
 
 Ici, nous avons choisi de nous concentrer sur la consommation des tuiles. Il existe de nombreux outils pour les générer. Nous vous renvoyons à nouveau à [https://github.com/mapbox/awesome-vector-tiles#servers](https://github.com/mapbox/awesome-vector-tiles#servers) déjà mentionné.
 
@@ -89,7 +85,7 @@ Ici, nous avons choisi de nous concentrer sur la consommation des tuiles. Il exi
 
 Ils permettent d'indiquer pour quelles couches, pour quelles caractéristiques comme la population et quels zooms il faut appliquer un style.&#x20;
 
-Ces styles sont par exemple, l'épaisseur du trait, sa couleur pour le contour communal.&#x20;
+Ces styles peuvent être : l'épaisseur du trait, sa couleur pour le contour communal, etc.
 
 Ils s'appuient sur le standard ["Mapbox/Maplibre GL JS Style Specification"](https://maplibre.org/maplibre-gl-js-docs/style-spec/) qui indique quelles sont les ressources "tuiles" (l'URL) à consommer puis quelles couches de cette ressource doivent être utilisées puis comment les styles doivent être appliqués.
 
@@ -105,15 +101,13 @@ Pour avoir un aperçu, vous pouvez vous rendre sur : [https://openmaptiles.geo.d
 
 Les versions des tuiles pour les fonds de plan ont été mises à jour en mars 2022 et sont mises à jour une fois par semaine.
 
-<figure><img src="../../.gitbook/assets/Jun-19-2023 12-52-57.gif" alt=""><figcaption><p>openmaptiles.geo</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Jun-19-2023 12-52-57.gif" alt=""><figcaption><p>openmaptiles.geo.data.gouv.fr</p></figcaption></figure>
 
 ### Consommer les styles <a href="#consommer-les-styles" id="consommer-les-styles"></a>
 
 Nous abordons principalement l'usage avec MapLibre qui est capable de nativement gérer les tuiles et les styles associés.&#x20;
 
-Nous n'aborderons pas Mapbox GL JS, la bibliothèque JavaScript de Mapbox car elle n'est maintenant plus OpenSource depuis la version 2.x et c'est MapLibre, une version forkée de la dernière version de Mapbox GL JS avant son passage en version non libre qui a pris sa succession.&#x20;
-
-
+Nous n'aborderons pas Mapbox GL JS, la bibliothèque JavaScript de Mapbox, car elle n'est maintenant plus OpenSource depuis la version 2.x et c'est MapLibre, une version forkée de la dernière version de Mapbox GL JS avant son passage en version non libre, qui a pris sa succession.&#x20;
 
 Voici quelques scénarios :&#x20;
 
@@ -162,7 +156,7 @@ npm i -g ThomasG77/mbview#no-api-key
 mbview cadastre-extract-for-nantes-city.mbtiles
 ```
 
-Pour un aperçu, ouvrir :  [http://localhost:3000/#16.17/47.215211/-1.567287](http://localhost:3000/#16.17/47.215211/-1.567287)
+Pour un aperçu, ouvrir : [http://localhost:3000/#16.17/47.215211/-1.567287](http://localhost:3000/#16.17/47.215211/-1.567287)
 
 Si vous souhaitez héberger vous-même, nous vous recommandons de passer par [TileServer-Gl Light](https://www.npmjs.com/package/tileserver-gl-light) combiné avec NGinx.
 
@@ -170,7 +164,7 @@ Si vous souhaitez héberger vous-même, nous vous recommandons de passer par [Ti
 
 Selon vos besoins, vous pouvez choisir d'utiliser l'API de tuiles vectorielles de l'IGN plutôt que celles que nous mettons à disposition.&#x20;
 
-Voici deux exemples:
+Voici deux exemples :
 
 * OpenLayers : [https://bl.ocks.org/ThomasG77/3047b6072f0411d11d23cfed1fdb2c5c](https://bl.ocks.org/ThomasG77/3047b6072f0411d11d23cfed1fdb2c5c)
 * Maplibre : [https://bl.ocks.org/ThomasG77/5a122812635a85af7f762858ecf052a3](https://bl.ocks.org/ThomasG77/5a122812635a85af7f762858ecf052a3)
