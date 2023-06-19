@@ -12,5 +12,5 @@ Dans cette section sont proposés pour chaque phase un processus à suivre, des 
 {% hint style="success" %}
 **Conseil de lecture**
 
-Nous vous recommandons de lire une première fois cette section sur la création de schémas de odnnées **en intégralité** afin de prendre connaissance des différentes phases. Vous pourrez ensuite vous référer aux pages pertinentes au fur et à mesure de votre avancée.
+Nous vous recommandons de lire une première fois cette section sur la création de schémas de données **en intégralité** afin de prendre connaissance des différentes phases. Vous pourrez ensuite vous référer aux pages pertinentes au fur et à mesure de votre avancée.
 {% endhint %}

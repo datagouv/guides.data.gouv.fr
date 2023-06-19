@@ -36,16 +36,9 @@ Pour valider la conformité de ses données par rapport à un schéma particulie
 Les données désormais validées, il ne reste plus qu’à les publier !
 {% endhint %}
 
-**Dans cette section, vous apprendrez à réaliser l'ensemble des étapes du cycle de vie de la donnée ouverte de qualité, notamment :**&#x20;
+Dans cette section, vous apprendrez à réaliser l'ensemble des étapes du cycle de vie de la donnée ouverte de qualité, notamment :&#x20;
 
-* Pourquoi il est intéressant d'utiliser un schéma de données ;
-* Comment créer un schéma de données ;
-* Comment référencer un schéma de données sur [schema.data.gouv.fr](https://schema.data.gouv.fr/) ;
-* Comment produire des données en conformité avec un schéma de données ;
-* Comment valider vos données par rapport à un schéma de données ;
-* Comment indiquer qu'une ressource que vous créez respecte un schéma de données.
-
-
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Pourquoi il est intéressant d'utiliser un schéma de données</strong></td><td><a href="../../guides/guide-qualite/les-schemas-de-donnees/comprendre-les-benefices-dun-schema-de-donnees.md">comprendre-les-benefices-dun-schema-de-donnees.md</a></td></tr><tr><td><strong>Comment créer un schéma de données</strong></td><td><a href="../../guides/guide-qualite/les-schemas-de-donnees/creer-un-schema-de-donnees/">creer-un-schema-de-donnees</a></td></tr><tr><td><strong>Comment intégrer un schéma de données à schema.data.gouv.fr</strong></td><td><a href="../../publier-des-donnees/guide-qualite/les-schemas-de-donnees/integrer-un-schema-de-donnees-a-schema.data.gouv.fr.md">integrer-un-schema-de-donnees-a-schema.data.gouv.fr.md</a></td></tr><tr><td><strong>Comment produire des données en conformité avec un schéma de données</strong></td><td><a href="../../guides/guide-qualite/les-schemas-de-donnees/produire-des-donnees-en-conformite-avec-un-schema.md">produire-des-donnees-en-conformite-avec-un-schema.md</a></td></tr><tr><td><strong>Comment indiquer et vérifier qu'une ressource respecte un schéma de données</strong></td><td><a href="../../guides/guide-qualite/les-schemas-de-donnees/indiquer-et-verifier-quune-ressource-respecte-un-schema-de-donnees.md">indiquer-et-verifier-quune-ressource-respecte-un-schema-de-donnees.md</a></td></tr></tbody></table>
 
 _Ce guide sur les schémas de données résulte d'une co-rédaction entre les équipes d'_[_Etalab_](https://www.etalab.gouv.fr/) _et d'_[_OpenDataFrance_](https://www.opendatafrance.net/)_._\
 \

@@ -8,7 +8,7 @@ Plusieurs modes de mises en ligne sont possibles sur la plateforme data.gouv.fr 
 
 <details>
 
-<summary>Quelle différence entre API et moissonage ?</summary>
+<summary>Quelle différence entre API et moissonnage ?</summary>
 
 La publication par l’API vous donne un contrôle total sur le contenu de chaque champ, le moment de la soumission. tandis que le moissonnage, s’il ne nécessite pas de développement spécifique sur votre plateforme, est un fonctionnement fortement contraint.
 
