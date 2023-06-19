@@ -1,52 +1,13 @@
-# API adresse
-
-Ce guide a pour objectif de compléter la documentation existante par des ressources pratiques pour vous apprendre à utiliser l’API adresse.
+# Géocoder une adresse
 
 {% hint style="info" %}
-Familier des APIs ? Vous pouvez directement vous référer à :
-
-➡️ Consultez [la documentation générale autour de l’adresse](https://doc.adresse.data.gouv.fr/)
-
-➡️ Consultez [la documentation de l’API Adresse](https://adresse.data.gouv.fr/api-doc/adresse)
-{% endhint %}
-
-### Les données d’adresses <a href="#les-donnees-d-adresses" id="les-donnees-d-adresses"></a>
-
-#### Comment les données d’adresses sont-elles constituées ? <a href="#comment-les-donnees-d-adresses-sont-elles-constituees" id="comment-les-donnees-d-adresses-sont-elles-constituees"></a>
-
-La donnée adresse qui compose la Base Adresse Nationale (BAN) est soit :
-
-* issue de données provenant d’acteurs historiques de l’adresse (IGN, Cadastre, etc.) ;
-* issue des BAL (Bases Adresses Locales) qui sont l’inventaire des adresses créé par les communes.
-
-À terme, ces dernières devraient devenir la seule source. La commune doit certifier ces adresses, c’est-à-dire valider que les adresses saisies sont justes.
-
-L’image ci-dessous résume la situation pour consolider les données adresses
-
-![](https://guides.etalab.gouv.fr/assets/img/schema-donnees-ban.681a4c32.svg)
-
-#### Comment accéder aux données d’adresses ? <a href="#comment-acceder-aux-donnees-d-adresses" id="comment-acceder-aux-donnees-d-adresses"></a>
-
-Il existe plusieurs méthodes pour accéder aux données
-
-* **Récupérer directement les données**. Cette méthode s’adresse à des utilisateurs avancés.
-* **Utiliser l’API de recherche**. Cette API peut rechercher des adresses soit via un appel unique par adresse soit en mode "_batch_": on passe un fichier avec une liste d’adresse, une par ligne et on retourne la première adresse retournée pour chacun des lignes.
-
-**Quels sont les usages de l’API adresse ?**
-
-Les usages de l’API adresse sont principalement de deux natures :
-
-* trouver par un formulaire une adresse pour la corriger et/ou récupérer des coordonnées en ayant une liste de choix pour trouver le résultat: c’est l’autocomplétion ;
-* fournir un fichier tabulaire pour obtenir en retour une version enrichie des coordonnées et d’autres informations.
-
-## Qu’est-ce que le géocodage ? <a href="#qu-est-ce-que-le-geocodage" id="qu-est-ce-que-le-geocodage"></a>
-
-{% hint style="info" %}
-**Lexique : Géocodage**\
+**Qu’est-ce que le géocodage ?**\
 Le géocodage consiste à affecter des coordonnées géographiques (longitude/latitude) à une adresse postale (Wikipédia).
 
 Il permet ainsi de positionner des adresses sur une carte ou encore de trouver les points de départ et d’arrivée pour déterminer votre trajet lorsque vous voyagez par exemple.
 {% endhint %}
+
+## Que faut-il pour réaliser un géocodage ?
 
 Pour réaliser un géocodage, il est nécessaire de disposer :
 
@@ -54,11 +15,11 @@ Pour réaliser un géocodage, il est nécessaire de disposer :
 * des **coordonnées géographiques** x et y qui sont généralement la longitude(x) et la latitude(y) ;
 * une entrée correspondant à l’adresse recherchée.
 
-#### Comment fonctionne un géocodeur ? <a href="#comment-fonctionne-un-geocodeur" id="comment-fonctionne-un-geocodeur"></a>
+## Comment fonctionne un géocodeur ? <a href="#comment-fonctionne-un-geocodeur" id="comment-fonctionne-un-geocodeur"></a>
 
 Un géocodeur transforme une donnée textuelle des données de référence en utilisant des algorithmes qui séparent l’adresse en syllabes, mots et groupes de mots.
 
-Les différents éléments sont indexés puis en s’appuyant sur des algorithmes relatifs à du traitement textuel, le géocodeur compare la similarité entre les mots constituant l’adresse à rechercher et ceux qui sont indexés depuis les données de référence.
+Les différents éléments sont indexés, puis en s’appuyant sur des algorithmes relatifs à du traitement textuel, le géocodeur compare la similarité entre les mots constituant l’adresse à rechercher et ceux qui sont indexés depuis les données de référence.
 
 Un algorithme permet généralement d’ordonner les résultats. Il s’agit par exemple de faire apparaitre en premier les résultats ayant les coordonnées fixes les plus proches ou encore ceux dont la population est la plus forte.
 
@@ -68,11 +29,11 @@ En pratique, un certain nombre de géocodeurs visent à réaliser des recherches
 
 Le **géocodage peut aussi se faire de façon inverse**, c’est-à-dire retourner une adresse en envoyant une coordonnée. Dans ce cas de figure, il s’agit de trouver la donnée de référence la plus proche des coordonnées envoyées.
 
-#### Les limites du géocodage <a href="#les-limites-du-geocodage" id="les-limites-du-geocodage"></a>
+## Les limites du géocodage <a href="#les-limites-du-geocodage" id="les-limites-du-geocodage"></a>
 
 Nous nous concentrons ici sur les cas liés aux adresses, le géocodeur utilisé par [adresse.data.gouv.fr](http://adresse.data.gouv.fr/) étant spécifiquement conçu pour répondre à ce besoin.
 
-**La qualité des données de références**
+**La qualité des données de référence**
 
 Les données textuelles de l’adresse de référence ne sont pas toujours uniformes. Par exemple, "rue" peut être représentée par les lettres "r" ou "R" ou "rue" ou "Rue".
 
@@ -83,8 +44,6 @@ Il s’agit également d’omettre les articles lors d’une comparaison. Cherch
 D’un autre côté, les coordonnées géographiques peuvent manquer de précision. Dans certains cas, il arrive de disposer uniquement du centroïde de la commune, de la voie ou du lieu dit (point d’une zone géographique choisi au voisinage de son centre de gravité et dont les coordonnées servent de localisant pour cette zone).
 
 Dans d’autres cas, les coordonnées peuvent avoir été interpolées : les adresses ont été positionnées en fonction du nombre de numéros dans une voie et la longueur de celle-ci.
-
-
 
 <details>
 
