@@ -90,18 +90,6 @@
   * [Utiliser l'API Découpage administratif](reutiliser-des-donnees/utiliser-les-api-geographiques/utiliser-lapi-decoupage-administratif.md)
   * [Utiliser les tuiles vectorielles](reutiliser-des-donnees/utiliser-les-api-geographiques/utiliser-les-tuiles-vectorielles.md)
 
-## Brouillons
-
-* [Identifier les jeux de données pertinents](reutiliser-les-donnees-publiques/faire-une-recherche.md)
-  * [Faire une recherche](reutiliser-les-donnees-publiques/identifier-les-jeux-de-donnees-pertinents/faire-une-recherche.md)
-  * [Trouver les données emblématiques par thématique](reutiliser-les-donnees-publiques/identifier-les-jeux-de-donnees-pertinents/trouver-les-donnees-emblematiques-par-thematique.md)
-  * [S'exercer sur de premiers jeux de données](reutiliser-les-donnees-publiques/identifier-les-jeux-de-donnees-pertinents/sexercer-sur-de-premiers-jeux-de-donnees.md)
-* [Evaluer la qualité d'un jeu de données](reutiliser-les-donnees-publiques/evaluer-la-qualite-dun-jeu-de-donnees.md)
-* [Enjeux](reutiliser-les-donnees-publiques/enjeux.md)
-* [S'inspirer](reutiliser-les-donnees-publiques/sinspirer.md)
-* [Préambule](reutiliser-les-donnees-publiques/preambule.md)
-* [IRVE](group-2/irve.md)
-
 ***
 
 * [Commande publique](commande-publique/README.md)
