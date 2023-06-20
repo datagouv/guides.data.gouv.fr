@@ -1,6 +1,6 @@
 # Indiquer et vérifier qu'une ressource respecte un schéma de données
 
-Une fois qu'un schéma est finalisé et référencé [schema.data.gouv.fr](https://schema.data.gouv.fr/), il est temps de produire des données conformes à ce schéma.
+Une fois qu'un schéma est finalisé et référencé sur [schema.data.gouv.fr](https://schema.data.gouv.fr/), il est temps de produire des données conformes à ce schéma.
 
 [data.gouv.fr](https://data.gouv.fr/) propose de multiples intégrations avec [schema.data.gouv.fr](https://schema.data.gouv.fr/) permettant de spécifier qu'une ressource présente sur [data.gouv.fr](https://data.gouv.fr/) est censée être conforme à un schéma.&#x20;
 

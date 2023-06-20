@@ -21,7 +21,9 @@ Un des formats privilégiés pour les standards de données est le [CSV](https:/
 
 Cependant, ce format simple ne dispose pas de spécifications contraignant la saisie des données. Pour cela un schéma en Json est ajouté dont la structure est défini par le standard [TableSchema](https://specs.frictionlessdata.io/table-schema/). TableSchema permet d'indiquer les formats des données attendus, de spécifier des contraintes (types de valeurs, cardinalité) et de documenter les différents champs composant le schéma.
 
+{% hint style="success" %}
 L'outil de validation utilisé pour vérifier la conformité d'un fichier csv au standard auquel il fait référence s'appuie sur la structure tabulaire des données. Elles peuvent donc être contenues dans un tableur numérique au format .xls, .xlsx ou .ods ou dans un fichier texte au format .csv, .txt ou autre.
+{% endhint %}
 
 La question du séparateur utilisé pour séparer deux champs de données dans un fichier .csv n'est donc pas essentielle. Cependant, certains outils se basent sur la valeur de ce séparateur pour traiter et publier des jeux de données. Nous vous proposons donc un certain nombre de recommandations afin de favoriser la généralisation d'un usage contribuant à l'interopérabilité des données produites.
 
@@ -35,13 +37,13 @@ Les tableurs numériques courants (Excel et Calc) peuvent produire et lire des f
 Lors de l'ouverture d'un fichier csv dans Calc, une fenêtre modale propose plusieurs options permettant de spécifier un caractère de séparation et un encodage des données.
 
 Dans Excel, il faut aller dans l'onglet données et sélectionner l'option Fichier texte pour accéder à l'assistant d'import des données.
+{% endhint %}
 
 L’encodage des caractères à privilégier est l'[UTF-8](https://fr.wikipedia.org/wiki/UTF-8) de manière à garantir une **meilleure interopérabilité des données**.
 
 Pour faciliter la lecture des fichiers publiés en CSV il est recommandé d'y associer dans les outils de publication le **type MIME ou Content-Type "text/csv"**.
 
 **Chaque ligne du fichier doit avoir le même nombre de champs**, ce qui signifie que lorsqu'une cellule est vide elle doit quand même être présente soit avec la valeur Null, soit avec des crochets vides \[] dans le cas des champs de type tableau (array), soit laissée vide mais apparaître à l'export avec 2 virgules qui se suivent ,, .
-{% endhint %}
 
 ## Recommandations de formatage des données <a href="#recommandations-de-formatage-des-donnees" id="recommandations-de-formatage-des-donnees"></a>
 
@@ -120,16 +122,16 @@ Pour le type string, les formats de données suivants sont disponibles :
 * **email** : une adresse email valide.
   * motif de validation :
 * **uri** : une URI valide
-* binary: une chaîne de caractère encodées en base 64 représentant des données binaires.
-* uuid: une chaîne de caractère représentant un identifiant unique.
+* **binary** : une chaîne de caractère encodées en base 64 représentant des données binaires.
+* **uuid** : une chaîne de caractère représentant un identifiant unique.
 
-#### Données de type décimal <a href="#donnees-de-type-decimal" id="donnees-de-type-decimal"></a>
+### Données de type décimal <a href="#donnees-de-type-decimal" id="donnees-de-type-decimal"></a>
 
 * **Description** : Les valeurs décimales doivent utiliser le point afin d'être plus facilement exploitables par les tableurs numériques.
 * **Type** : number
 * **Exemple** : 3900.50
 
-#### Données de type date <a href="#donnees-de-type-date" id="donnees-de-type-date"></a>
+### Données de type date <a href="#donnees-de-type-date" id="donnees-de-type-date"></a>
 
 * **Description** : date au format AAAA-MM-JJ suivant la norme internationale [ISO 8601](https://fr.wikipedia.org/wiki/ISO\_8601).
 * **Type** : date
@@ -137,95 +139,97 @@ Pour le type string, les formats de données suivants sont disponibles :
 * **Format** : "%Y-%m-%d"
 * **Nommage** : abreviation-du-schemaDate
 
-#### Données de type date avec heure <a href="#donnees-de-type-date-avec-heure" id="donnees-de-type-date-avec-heure"></a>
+### Données de type date avec heure <a href="#donnees-de-type-date-avec-heure" id="donnees-de-type-date-avec-heure"></a>
 
 * **Description** : date au format aaaa-mm-jjThh:mi:ssZZZZZZ suivant la norme internationale [ISO 8601](https://fr.wikipedia.org/wiki/ISO\_8601). On considérera que ZZZZZZ (+ou- décalage horaire GMT), est par défaut +01:00 en France et qu'il est inutile de le préciser dans les formats.
 * **Type** : datetime
 * **Exemple** : 1997−07−16T19:20:00
 
-#### Données de type date avec heure de début et de fin <a href="#donnees-de-type-date-avec-heure-de-debut-et-de-fin" id="donnees-de-type-date-avec-heure-de-debut-et-de-fin"></a>
+### Données de type date avec heure de début et de fin <a href="#donnees-de-type-date-avec-heure-de-debut-et-de-fin" id="donnees-de-type-date-avec-heure-de-debut-et-de-fin"></a>
 
 * **Description** : date au format aaaa-mm-jjThh:mi/hh:mi suivant la norme internationale ISO 8601. Ce type de données s'applique pour un créneau horaire dans la même journée, sans les secondes. Pour une extension de ces conditions, voir la norme [ISO 8601](https://fr.wikipedia.org/wiki/ISO\_8601).
 * **Type** : datetime
 * **Exemple** : 1997−07−16T08:30/17:30
 
-#### Données de type horaires d'ouverture <a href="#donnees-de-type-horaires-d-ouverture" id="donnees-de-type-horaires-d-ouverture"></a>
+### Données de type horaires d'ouverture <a href="#donnees-de-type-horaires-d-ouverture" id="donnees-de-type-horaires-d-ouverture"></a>
 
 * **Description** : horaires indiquant les heures d'ouverture d'un service ou d'un commerce. Ce type de données permet de préciser les différents horaires d'ouverture pour les différents jours de la semaine. Il s'agit donc d'un type de données multi-valeur au sein duquel le nom du jour de la semaine est abrégé et suivi par les heures d'ouvertures. Les abréviations pour les jours sont en anglais (Mo, Tu, We, Th, Fr, Sa, Su) et les horaires sont sous la forme HH:MM
 
-TIP
-
+{% hint style="success" %}
 Un assistant graphique en ligne [yohours](https://projets.pavie.info/yohours) permet de générer simplement cette structure de données
+{% endhint %}
 
 * **Type** : string (chaîne de caractères)
 * **Exemple** : Mo 08:15-13:15; Tu 03:15-06:15; We 03:15-09:30; Th 02:30-07:15; Fr 01:30-05:45; Sa 00:30-05:00; Su 02:45-08:30
 * **Nommage** : abreviation-du-schemaHoraires
 
-#### Données de type géolocalisation <a href="#donnees-de-type-geolocalisation" id="donnees-de-type-geolocalisation"></a>
+### Données de type géolocalisation <a href="#donnees-de-type-geolocalisation" id="donnees-de-type-geolocalisation"></a>
 
 La possibilité est laissée de décrire les points de géolocalisation d'une donnée à l'intérieur d'un champ unique (geopoint) ou à l'aide de 2 champs (latitude et longitude).
 
-**Latitude**
+#### **Latitude**
 
 * **Description** : ce type de données permet de saisir la coordonnée de latitude exprimée en [WGS 84](https://fr.wikipedia.org/wiki/WGS\_84) permettant de localiser un équipement. Le signe de séparation entre les parties entière et décimale du nombre est le point. Précision : 6 décimales maximum.
 * **Type** : number
 * **Exemple** : 48.563433
 * **Nommage** : abreviation-du-schemaLat
 
-**Longitude**
+#### **Longitude**
 
 * **Description** : ce type de données permet de saisir la coordonnée de longitude exprimée en [WGS 84](https://fr.wikipedia.org/wiki/WGS\_84) permettant de localiser un équipement. Le signe de séparation entre les parties entière et décimale du nombre est le point. Précision : 6 décimales max.
 * **Type** : number
 * **Exemple** : 2.572875
 * **Nommage** : abreviation-du-schemaLon
 
-**Geopoint**
+#### **Geopoint**
 
 * **Description** : ce type de données permet de saisir les coordonnées de latitude et de longitude exprimée en [WGS 84](https://fr.wikipedia.org/wiki/WGS\_84) permettant de localiser un équipement. Le signe de séparation entre les parties entière et décimale du nombre est le point. Précision : 6 décimales max. Le séparateur de valeur est la virgule. Il est donc nécessaire d'entourer ces valeurs de guillemets. La première valeur est la latitude
 * **Type** : number
 * **Exemple** : "48.563433, 2.572875"
 * **Nommage** : abreviation-du-schemaGeo
 
-**Geoshape**
+#### **Geoshape**
 
 * **Description** : ce type de données permet de décrire la forme géographique d'un équipement. La forme est décrite à l'aide de paires de coordonnées, séparées par un espace vide et chaque paire séparée par une virgule. La description d'une ligne est exprimée à l'aide de 2 ou plus paires de points séparés par des virgules. La description d'un polygone est exprimée par 4 ou plus paires de points séparés par des virgules dont la dernière est identique à la première.
 * **Type** : string
 * **Exemple** : "48.563433 2.572875, 49.234933 2.134432, 49.885311 2.134003, 48.974635 2.1134567, 48.563433 2.572875"
 
-#### Données de type adresse <a href="#donnees-de-type-adresse" id="donnees-de-type-adresse"></a>
+### Données de type adresse <a href="#donnees-de-type-adresse" id="donnees-de-type-adresse"></a>
 
 Ce type de champ permet de décrire l'adresse postale d'un équipement. Il est décomposé entre 3 champs permettant de distinguer et de faciliter le tri à l'intérieur des informations de voirie, de code postal et de commune. Le numéro et le nom de la voie sont séparés par une virgule.
 
-**Voie**
+#### **Voie**
 
 * **Description** : ce type de champs permet de saisir le numéro et le nom de la voie
 * **Type** : string
 * **Exemple** : 34, rue de Latresne
 * **Nommage** : abreviation-du-schemaVoie
 
-**Code postal ou Code INSEE**
+#### **Code postal ou Code INSEE**
 
 * **Description** : ce type de champs permet de saisir le code postal (ou le code INSEE) de la commune
 * **Type** : number
 * **Exemple** : 45800
 * **Nommage** : abreviation-du-schemaCodePostal
 
-**Commune**
+#### **Commune**
 
 * **Description** : ce type de champs permet de saisir le nom de la commune
 * **Type** : string
 * **Exemple** : Saint-Jean-de-Braye
 * **Nommage** : abreviation-du-schemaCommune
 
-### Recommandations de champs obligatoires <a href="#recommandations-de-champs-obligatoires" id="recommandations-de-champs-obligatoires"></a>
+## Recommandations de champs obligatoires <a href="#recommandations-de-champs-obligatoires" id="recommandations-de-champs-obligatoires"></a>
 
-Afin d'unifier la description des données au travers des différentes thématiques abordées par le propositions de standard de données, **il est fortement recommandé de rendre obligatoire la présence d'un certains nombre de champs**. Ceux-ci contribuent à la **portabilité des données** (qui produit la donnée) ou à **leur fiabilité** (quand a été produite la donnée)
+Afin d'unifier la description des données au travers des différentes thématiques abordées par le propositions de standard de données, **il est fortement recommandé de rendre obligatoire la présence d'un certains nombre de champs**.&#x20;
 
-#### Identification du producteur <a href="#identification-du-producteur" id="identification-du-producteur"></a>
+Ceux-ci contribuent à la **portabilité des données** (qui produit la donnée) ou à **leur fiabilité** (quand a été produite la donnée).
 
-Pour l'identification des autorités publiques à l'origine de la production et de la publication des jeux de données, il est recommandé d'indiquer le nom et le numéro de siret sur chaque ligne de chaque jeu de données.
+### Identification du producteur <a href="#identification-du-producteur" id="identification-du-producteur"></a>
 
-**Nom de la collectivité**
+Pour l'identification des autorités publiques à l'origine de la production et de la publication des jeux de données, il est recommandé d'indiquer le nom et le numéro de SIRET sur chaque ligne de chaque jeu de données.
+
+### **Nom de la collectivité**
 
 * **Description** : ce champs permet de saisir le nom de l'autorité publique responsable de la production des données
 * **Type** : string
@@ -247,7 +251,7 @@ Par exemple
 }
 ```
 
-**Siret de la collectivité**
+#### **SIRET de la collectivité**
 
 * **Description** : ce champ permet d'indiquer le numéro d'identification de l'autorité publique au sein de la base nationale des établissements.
 * **Type** : string
@@ -271,15 +275,15 @@ Par exemple :
 }
 ```
 
-**Horodatage des données**
+### **Horodatage des données**
 
-Pour faciliter la réutilisation et la mise à jour des données, il est recommandé de fournir aux réutilisatrices et réutilisateurs potentiels des date de première publication et de dernière modification pour chaque entité du jeu de données.
+Pour faciliter la réutilisation et la mise à jour des données, il est recommandé de fournir aux réutilisatrices et réutilisateurs potentiels **des dates de première publication et de dernière modification pour chaque entité du jeu de données**.
 
 Ces informations au format Date avec horaire peuvent correspondre à la date de première publication et faire apparaître les dates de dernière modification pour l'ensemble des lignes ou en cas de mise à jour partielle pour une ligne de données particulière.
 
-Il est également recommandé d'y associer un champ permettant de décrire la raison ayant entraîné une mise à jour des données depuis leur publication
+Il est également recommandé d'y associer un champ permettant de décrire la raison ayant entraîné une mise à jour des données depuis leur publication.
 
-**Date de création/publication**
+#### **Date de création/publication**
 
 * **Description** : ce champs permet de décrire la date de première publication de la donnée
 * **Type** : datetime
@@ -301,7 +305,7 @@ Par exemple :
 }
 ```
 
-**Date de dernière modification**
+#### **Date de dernière modification**
 
 * **Description** : ce champs permet de décrire la date de dernière modification de la donnée
 * **Type** : datetime
@@ -323,7 +327,7 @@ Par exemple :
 }
 ```
 
-**Information sur les modifications**
+#### **Information sur les modifications**
 
 * **Description** : ce champs permet de décrire la raison d'une modification de la donnée depuis sa publication initiale
 * **Type** : string
@@ -345,7 +349,7 @@ Par exemple :
 }
 ```
 
-### Recommandations pour le nommage des fichiers <a href="#recommandations-pour-le-nommage-des-fichiers" id="recommandations-pour-le-nommage-des-fichiers"></a>
+## Recommandations pour le nommage des fichiers <a href="#recommandations-pour-le-nommage-des-fichiers" id="recommandations-pour-le-nommage-des-fichiers"></a>
 
 Les fichiers doivent, sauf exception et autant que possible, respecter les règles de nommage suivantes :
 
@@ -360,23 +364,27 @@ Les 3 éléments constitutifs de la chaîne principale avant l'extension sont as
 
 * **Exemple** : '20180314\_213502388\_prenoms-nouveaux-nes-rennes-2017.csv'
 
-### Recommnandations pour le nommage des champs <a href="#recommnandations-pour-le-nommage-des-champs" id="recommnandations-pour-le-nommage-des-champs"></a>
+## Recommandations pour le nommage des champs <a href="#recommnandations-pour-le-nommage-des-champs" id="recommnandations-pour-le-nommage-des-champs"></a>
 
-Afin d'uniformiser les fichiers produits dans le cadre de schémas de standardisation, il est recommande de normaliser les intitulés des champs composant chaque standard.
+Afin d'uniformiser les fichiers produits dans le cadre de schémas de standardisation, il est recommandé de **normaliser les intitulés des champs composant chaque standard**.
 
-La règle générale préconisée est l'utilisation de l'écriture camelCase où chaque mot composant l'intitulé du champ est écrit avec une majuscule à l'exception du premier. En complément il est recommandé d'utiliser un préfixe (mot complet ou abréviation) pour l'ensemble des champs d'un standard. En conséquence pour le standard des menus les intitulés des champs sont préfixés par le mot menu suivi des intitulés à proprement dit. Par exemple :
+La règle générale préconisée est l'utilisation de **l'écriture camelCase** où chaque mot composant l'intitulé du champ est écrit avec une majuscule à l'exception du premier.&#x20;
+
+En complément il est recommandé d'utiliser un préfixe (mot complet ou abréviation) pour l'ensemble des champs d'un standard.&#x20;
+
+En conséquence, pour le standard des menus, les intitulés des champs sont préfixés par le mot menu suivi des intitulés à proprement dit. Par exemple :
 
 * menuCollNom
 * menuRestaurantIdType
 * menuRepasType
 
-Aucun caractère accentué ou spécial ne doit être utilisé dans l'intitulé d'un champ. Il est également préconisé de ne pas dépasser 50 caractères pour l'intitulé d'un champ et d'utiliser le singulier pour les mots composant l'intitulé du champ.
+**Aucun caractère accentué ou spécial** ne doit être utilisé dans l'intitulé d'un champ. Il est également préconisé de ne pas dépasser 50 caractères pour l'intitulé d'un champ et d'utiliser le singulier pour les mots composant l'intitulé du champ.
 
-### Recommandations pour la mise en conformité <a href="#recommandations-pour-la-mise-en-conformite" id="recommandations-pour-la-mise-en-conformite"></a>
+## Recommandations pour la mise en conformité <a href="#recommandations-pour-la-mise-en-conformite" id="recommandations-pour-la-mise-en-conformite"></a>
 
 Pour garantir la conformité des jeux de données, il est demandé aux producteurs de s'assurer que la structure, les champs et les contenus attendus sont effectivement respectés.
 
 De fait, les fichiers tabulaires doivent, autant que possible, contenir :
 
-* **Toutes les colonnes**, y compris celles dont les cellules ne sont pas renseignées, dans le bon ordre, et avec des en-têtes correctement nommées sur la première ligne
-* **Autant de lignes que nécessaire** comprenant des cellules dont les valeurs peuvent être **obligatoires** (elles doivent être impérativement renseignées) ou **optionnelles** (elles sont seulement recommandées ou soumises à condition de disponibilité / pertinence)
+* **Toutes les colonnes**, y compris celles dont les cellules ne sont pas renseignées, dans le bon ordre, et avec des en-têtes correctement nommées sur la première ligne ;&#x20;
+* **Autant de lignes que nécessaire** comprenant des cellules dont les valeurs peuvent être **obligatoires** (elles doivent être impérativement renseignées) ou **optionnelles** (elles sont seulement recommandées ou soumises à condition de disponibilité / pertinence).
