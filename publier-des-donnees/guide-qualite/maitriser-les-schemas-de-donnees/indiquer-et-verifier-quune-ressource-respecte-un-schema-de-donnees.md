@@ -16,4 +16,4 @@ Il est possible d'indiquer qu'une ressource d'un jeu de données correspond à u
 
 * Le fait d'indiquer que votre ressource est censée respecter un schéma permet de bénéficier de vérifications de la qualité des données et d'indiquer aux réutilisateurs que vos données respectent un référentiel.
 
-![Capture d'écran de data.gouv.fr des informations disponibles sur la page d'un jeu de données lorsqu'un schéma est spécifié sur une ressource](https://guides.etalab.gouv.fr/assets/img/modal-schema.7ecaa269.png)
+<figure><img src="../../../.gitbook/assets/Jun-20-2023 17-13-07.gif" alt=""><figcaption></figcaption></figure>

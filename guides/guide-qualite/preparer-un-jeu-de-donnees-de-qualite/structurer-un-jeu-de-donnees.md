@@ -185,7 +185,7 @@ Sur l'interface d'administration de data.gouv.fr, il est possible d'indiquer que
 
 * Le fait d'indiquer que votre ressource est censée respecter un schéma permet de bénéficier de vérifications de la qualité des données, d'indiquer aux réutilisateurs que vos données respectent un référentiel, ainsi que de contribuer aux fichiers agrégés (i.e. [pour les données IRVE](https://www.data.gouv.fr/fr/datasets/fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques/)).
 
-![Capture d'écran de data.gouv.fr des informations disponibles sur la page d'un jeu de données lorsqu'un schéma est spécifié sur une ressource](https://guides.etalab.gouv.fr/assets/img/modal-schema.7ecaa269.png)
+<figure><img src="../../../.gitbook/assets/Jun-20-2023 17-13-07.gif" alt=""><figcaption></figcaption></figure>
 
 D'autres solutions en dehors de data.gouv.fr existent : des solutions disponibles en anglais comme [goodtables.io](http://goodtables.io/) ou [CSV Lint](https://csvlint.io/) proposent des validateurs de jeux de données.&#x20;
 

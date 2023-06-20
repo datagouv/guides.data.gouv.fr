@@ -10,4 +10,4 @@ Elle décrit les données et la structure des fichiers publiés.
 
 Dans cette section, vous apprendrez comment :&#x20;
 
-<table data-card-size="large" data-view="cards"><thead><tr><th></th></tr></thead><tbody><tr><td><strong>Bien documenter un jeu de données</strong></td></tr><tr><td><strong>Diffuser la documentation d'un jeu de données</strong></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Bien documenter un jeu de données</strong></td><td><a href="../guides/guide-qualite/documenter-des-donnees/bien-documenter-un-jeu-de-donnees.md">bien-documenter-un-jeu-de-donnees.md</a></td></tr><tr><td><strong>Diffuser la documentation d'un jeu de données</strong></td><td><a href="../guides/guide-qualite/documenter-des-donnees/diffuser-la-documentation-dun-jeu-de-donnees.md">diffuser-la-documentation-dun-jeu-de-donnees.md</a></td></tr></tbody></table>
