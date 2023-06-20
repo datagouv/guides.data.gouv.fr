@@ -7,7 +7,7 @@ layout: landing
 
 # 👋 Bienvenue !
 
-Ces guides sont conçus par l'équipe de data.gouv.fr pour vous accompagner dans votre démarche d'ouverture ou de réutilisation de données.
+Ces guides sont conçus par l'équipe de data.gouv.fr pour vous accompagner dans votre démarche d'ouverture et/ou de réutilisation de données.
 
 Ces guides s'adressent donc à toutes et tous :&#x20;
 
