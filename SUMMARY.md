@@ -89,14 +89,19 @@
   * [Utiliser l'API Découpage administratif](reutiliser-des-donnees/utiliser-les-api-geographiques/utiliser-lapi-decoupage-administratif.md)
   * [Utiliser les tuiles vectorielles](reutiliser-des-donnees/utiliser-les-api-geographiques/utiliser-les-tuiles-vectorielles.md)
 
-## Outils
+## Autres ressources
 
-* [💡 Lexique de l'open data](outils/lexique-de-lopen-data.md)
-
-***
-
-* [Commande publique](commande-publique/README.md)
-  * [Publier les données essentielles d’attribution des marchés](commande-publique/publier-les-donnees-essentielles-dattribution-des-marches.md)
-  * [Déclaration d’un profil d’acheteur](commande-publique/declaration-dun-profil-dacheteur.md)
+* [💡 Lexique de l'open data](autres-ressources/lexique-de-lopen-data.md)
+* [Données de la commande publique](autres-ressources/donnees-de-la-commande-publique/README.md)
+  * [Publier les données essentielles d’attribution des marchés](autres-ressources/donnees-de-la-commande-publique/publier-les-donnees-essentielles-dattribution-des-marches.md)
+  * [Déclaration d’un profil d’acheteur](autres-ressources/donnees-de-la-commande-publique/declaration-dun-profil-dacheteur.md)
 * [Ressources OpenDataFrance](https://opendatafrance.gitbook.io/kit-de-ressources-odf/)
 * [Documentation de transport.data.gouv.fr](https://doc.transport.data.gouv.fr/)
+* [Pseudonymiser des documents grâce à l'IA](autres-ressources/pseudonymiser-des-documents-grace-a-lia/README.md)
+  * [Pourquoi et comment pseudonymiser dans l'administration](autres-ressources/pseudonymiser-des-documents-grace-a-lia/pourquoi-et-comment-pseudonymiser-dans-ladministration.md)
+  * [Les étapes d'un projet de pseudonymisation grâce à l'IA](autres-ressources/pseudonymiser-des-documents-grace-a-lia/les-etapes-dun-projet-de-pseudonymisation-grace-a-lia.md)
+  * [La pseudonymisation par l'IA en pratique](autres-ressources/pseudonymiser-des-documents-grace-a-lia/la-pseudonymisation-par-lia-en-pratique.md)
+  * [Lexique des termes techniques](autres-ressources/pseudonymiser-des-documents-grace-a-lia/lexique-des-termes-techniques.md)
+* [Guide pour préparer et conduire votre campagne d'annotation](autres-ressources/guide-pour-preparer-et-conduire-votre-campagne-dannotation.md)
+* [Les algorithmes publics : pourquoi et comment les expliquer ?](autres-ressources/les-algorithmes-publics-pourquoi-et-comment-les-expliquer.md)
+* [Codes sources du secteur public : lesquels ouvrir, pourquoi et comment ?](autres-ressources/codes-sources-du-secteur-public-lesquels-ouvrir-pourquoi-et-comment.md)
