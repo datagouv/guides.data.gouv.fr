@@ -14,4 +14,4 @@ Une réutilisation désigne communément l’exploitation de données ouvertes. 
 
 Dans cette section, vous apprendrez à :&#x20;
 
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th data-hidden></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Publier une réutilisation</strong></td><td></td><td></td></tr><tr><td><strong>Gérer une réutilisation</strong></td><td></td><td></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th data-hidden></th><th data-hidden></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Publier une réutilisation</strong></td><td></td><td></td><td><a href="../publier-des-donnees/guide-data.gouv.fr/reutilisations/publier-une-reutilisation.md">publier-une-reutilisation.md</a></td></tr><tr><td><strong>Gérer une réutilisation</strong></td><td></td><td></td><td><a href="../publier-des-donnees/guide-data.gouv.fr/reutilisations/gerer-une-reutilisation.md">gerer-une-reutilisation.md</a></td></tr></tbody></table>
