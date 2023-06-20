@@ -9,7 +9,7 @@ Grâce à ce score de qualité des métadonnées, **il est possible d'identifier
 
 <figure><img src="../../../.gitbook/assets/Apr-28-2023 16-33-08.gif" alt=""><figcaption><p>Exemple de score de qualité des métadonnées</p></figcaption></figure>
 
-Les critères sont les suivants :&#x20;
+🧭 Les critères sont les suivants :&#x20;
 
 | Critère                    | Description                                                                                                                                                                       |
 | -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

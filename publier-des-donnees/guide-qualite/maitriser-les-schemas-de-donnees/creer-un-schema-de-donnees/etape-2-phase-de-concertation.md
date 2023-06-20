@@ -20,7 +20,7 @@ Pour spécifier un schéma de données, il est nécessaire de définir :
 * [ ] **la description de chaque champ** ;
 * [ ] **une documentation associée** au schéma de données décrivant le contexte, les acteurs, les cas d’usage.
 
-Pour obtenir ce résultat, il peut être utile de réaliser au préalable un [modèle de données](../../documenter-des-donnees/bien-documenter-un-jeu-de-donnees.md#description-du-modele-de-donnees) qui présente la structuration des informations. La modélisation ne prend pas en compte les contraintes d'implémentation, elle est un outil de dialogue entre les différents intervenants.
+Pour obtenir ce résultat, il peut être utile de réaliser au préalable un [modèle de données](../../../../guides/guide-qualite/documenter-des-donnees/bien-documenter-un-jeu-de-donnees.md#description-du-modele-de-donnees) qui présente la structuration des informations. La modélisation ne prend pas en compte les contraintes d'implémentation, elle est un outil de dialogue entre les différents intervenants.
 
 ## Organiser la collaboration entre les différentes parties prenantes autour d'un schéma de données <a href="#procedure-de-collaboration" id="procedure-de-collaboration"></a>
 
@@ -31,16 +31,17 @@ Il est conseillé de :&#x20;
 * [ ] **impliquer une multitude d'acteurs** : vous devez rassembler des producteurs, experts métiers, experts techniques et réutilisateurs. La richesse des profils et des enjeux permettra d’aboutir à la solution la plus adaptée.
 
 {% hint style="success" %}
-**Référencer votre schéma**
+**Référencer votre schéma de manière anticipée**
 
-Référencer votre schéma sur [schema.data.gouv.fr](https://schema.data.gouv.fr/) vous permettra de bénéficier de conseils de la part d’Etalab et de ses partenaires institutionnels et associatifs. La marche à suivre pour référencer votre schéma est détaillée [ici](../../../../publier-des-donnees/guide-qualite/les-schemas-de-donnees/integrer-un-schema-de-donnees-a-schema.data.gouv.fr.md).
+Référencer votre schéma sur [schema.data.gouv.fr](https://schema.data.gouv.fr/) vous permettra de bénéficier de conseils de la part d’Etalab et de ses partenaires institutionnels et associatifs. \
+\--> La marche à suivre pour référencer votre schéma est détaillée [ici](../integrer-un-schema-de-donnees-a-schema.data.gouv.fr.md).
 {% endhint %}
 
 ## Construire un schéma de données de qualité <a href="#grands-principes" id="grands-principes"></a>
 
 Pour construire un schéma de données de qualité, il est conseillé de :&#x20;
 
-* [ ] **Construire un** [**modèle de données**](../../documenter-des-donnees/bien-documenter-un-jeu-de-donnees.md#description-du-modele-de-donnees)**.** Il est important de disposer d'un outil visuel qui présente les entités "métier" mais surtout les dépendances et relations entre ces "entités". Ce modèle peut être enrichi de tous les attributs nécessaires au fur et à mesure de la concertation.
+* [ ] **Construire un** [**modèle de données**](../../../../guides/guide-qualite/documenter-des-donnees/bien-documenter-un-jeu-de-donnees.md#description-du-modele-de-donnees)**.** Il est important de disposer d'un outil visuel qui présente les entités "métier" mais surtout les dépendances et relations entre ces "entités". Ce modèle peut être enrichi de tous les attributs nécessaires au fur et à mesure de la concertation.
 * [ ] **Profiter de l’existant.** De nombreux standards existent déjà, qu’ils concernent des formats de données ou des formats de champs. Certains standards sont devenus incontournables aujourd’hui, comme [ISO-8601](https://fr.wikipedia.org/wiki/ISO\_8601) pour les dates ou [WGS 84](https://fr.wikipedia.org/wiki/WGS\_84) pour les coordonnées géographiques.
 * [ ] **Identifier et associer l’écosystème.** Les personnes/organisations que vous associez sont la meilleure garantie d’un schéma de données efficace et largement adopté, permettant d'aboutir à un véritable standard :&#x20;
 
@@ -66,7 +67,7 @@ En complément, [le guide dédié à la préparation de jeux de données](../../
 
 ## Points de sortie <a href="#points-de-sortie" id="points-de-sortie"></a>
 
-À l’issue de cette phase, vous devriez :
+À l’issue de cette phase, vous devriez :&#x20;
 
-* Avoir réuni différents partenaires afin de collaborer sur votre schéma de données ;
-* Avoir décidé des différents champs de votre schéma de données, leurs types et définitions et produit une documentation associée.
+* [ ] Avoir réuni différents partenaires afin de collaborer sur votre schéma de données ;
+* [ ] Avoir décidé des différents champs de votre schéma de données, leurs types et définitions et produit une documentation associée.

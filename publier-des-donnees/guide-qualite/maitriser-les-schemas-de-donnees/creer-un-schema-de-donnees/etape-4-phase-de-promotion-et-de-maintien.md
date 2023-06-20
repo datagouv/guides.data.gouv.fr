@@ -3,7 +3,8 @@
 {% hint style="info" %}
 **Lexique : Phase de maintien et de promotion**
 
-La phase de maintien est la dernière phase du cycle de vie d'un schéma. Elle consiste à itérer sur la version actuelle en prenant en compte des évolutions du terrain et des retours des producteurs et des réutilisateurs pour peaufiner la structure du schéma. \
+La phase de maintien est la dernière phase du cycle de vie d'un schéma. \
+Elle consiste à itérer sur la version actuelle en prenant en compte des évolutions du terrain et des retours des producteurs et des réutilisateurs pour peaufiner la structure du schéma. \
 Elle est étroitement liée à la promotion du schéma qui permettra, grâce à son adoption par le plus grand nombre de parties prenantes, une montée en qualité et en quantité d'utilisations.
 
 
@@ -60,8 +61,8 @@ Que ce soit pour des considérations techniques ou "conceptuelles", il est possi
 
 ## Points de sortie <a href="#points-de-sortie" id="points-de-sortie"></a>
 
-À l’issue de cette phase, vous devriez :
+À l’issue de cette phase, vous devriez :&#x20;
 
-* Comprendre l'importance de la proactivité dans la promotion, la diffusion et le maintien d'un schéma ;
-* Avoir des pistes d'actions concrètes pour porter un schéma auprès d'autres parties prenantes ;
-* Savoir pourquoi, quand et comment mettre à jour un schéma de données.
+* [ ] Comprendre l'importance de la proactivité dans la promotion, la diffusion et le maintien d'un schéma ;
+* [ ] Avoir des pistes d'actions concrètes pour porter un schéma auprès d'autres parties prenantes ;
+* [ ] Savoir pourquoi, quand et comment mettre à jour un schéma de données.

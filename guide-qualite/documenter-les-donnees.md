@@ -1,6 +1,6 @@
 # Documenter des données
 
-{% hint style="info" %}
+{% hint style="success" %}
 Les données issues d'une organisation ont été produites dans un contexte métier particulier. Un individu externe à l’organisation n’est pas forcément familier avec cet environnement métier, ce qui peut le freiner dans l’exploitation des données diffusées.
 
 **La documentation d'un jeu de données a une visée pédagogique et facilite la réutilisation des données.**&#x20;

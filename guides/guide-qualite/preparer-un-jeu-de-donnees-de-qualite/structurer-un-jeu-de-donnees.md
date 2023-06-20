@@ -23,7 +23,7 @@ Tant que les données de votre structure sont dans un environnement logiciel, le
 L’ouverture de ces données en dehors de leur environnement impose de **structurer le jeu de données en fonction des attentes des réutilisateurs** et non plus en fonction des besoins propres à l’organisation.
 {% endhint %}
 
-Quelques bonnes pratiques vous permettront de bien structurer votre jeu de données :&#x20;
+✨ Quelques bonnes pratiques vous permettront de bien structurer votre jeu de données :&#x20;
 
 ### Soigner le contenu du jeu de données <a href="#le-contenu-du-jeu" id="le-contenu-du-jeu"></a>
 
@@ -31,9 +31,9 @@ Quelques bonnes pratiques vous permettront de bien structurer votre jeu de donn�
 
 Il est conseillé de :&#x20;
 
-* **Occulter l’ensemble des colonnes dont les champs contiennent des données couvertes par un secret légal** (cf. [guide juridique](../../guide-juridique/)) ;
-* **Occulter l’ensemble des colonnes dont les champs contiennent des données à caractère personnel** dont la publication n’est pas nécessaire à l’information du public (cf. [guide juridique](../../guide-juridique/)) ;
-* **Privilégier la présence de variables pivots** : ces variables proposent des identifiants communs qui permettent de lier plusieurs jeux de données entre eux (ex. le numéro SIRET de la [base Sirene](https://www.data.gouv.fr/fr/datasets/base-sirene-des-entreprises-et-de-leurs-etablissements-siren-siret/)) (cf. [sous section "Focus : Lier des données à un référentiel"](focus-lier-des-donnees-a-un-referentiel.md)).
+* **Occulter l’ensemble des colonnes dont les champs contiennent des données couvertes par un secret légal** (cf. [Guide juridique](../../guide-juridique/)) ;
+* **Occulter l’ensemble des colonnes dont les champs contiennent des données à caractère personnel** dont la publication n’est pas nécessaire à l’information du public (cf. [Guide juridique](../../guide-juridique/)) ;
+* **Privilégier la présence de variables pivots** : ces variables proposent des identifiants communs qui permettent de lier plusieurs jeux de données entre eux (ex. le numéro SIRET de la [base Sirene](https://www.data.gouv.fr/fr/datasets/base-sirene-des-entreprises-et-de-leurs-etablissements-siren-siret/)) (cf. [section "Lier des données à un référentiel"](../../../publier-des-donnees/guide-qualite/preparer-un-jeu-de-donnees-de-qualite/lier-des-donnees-a-un-referentiel.md)).
 
 #### L’entête des colonnes (pour le format tabulaire) <a href="#l-entete-des-colonnes-pour-le-format-tabulaire" id="l-entete-des-colonnes-pour-le-format-tabulaire"></a>
 
@@ -130,7 +130,7 @@ Ces schémas facilitent la montée en qualité et le croisement des données pro
 
 
 
-➡️ **Pour plus de détails sur les schémas de données, consultez** [**la section "Les schémas de données"**](../../../guide-qualite/les-schemas-de-donnees/)
+➡️ **Pour plus de détails sur les schémas de données, consultez** [**la section "Maîtriser les schémas de données"**](../../../publier-des-donnees/guide-qualite/maitriser-les-schemas-de-donnees/)
 {% endhint %}
 
 ### **Identifier un schéma de données déjà existant**
@@ -143,8 +143,10 @@ Lorsque les données que vous souhaitez faire circuler correspondent à un sché
 
 Si les données ne sont pas extraites d’un système d’information mais saisies manuellement, **il est possible d'utiliser** [**l’outil publier.etalab.studio**](https://publier.etalab.studio/) qui permet, à partir d’un schéma de données sélectionné, de saisir les valeurs de chaque information et ainsi de produire un fichier exhaustif et conforme.
 
+<figure><img src="../../../.gitbook/assets/Capture d’écran 2023-06-19 à 17.16.56.png" alt=""><figcaption><p>Page d'accueil de publier.etalab.studio</p></figcaption></figure>
+
 {% hint style="info" %}
-**Guide : Utiliser** [**publier.etalab.studio**](https://publier.etalab.studio/) **pour saisir, valider et publier des données de qualité**
+📖 **Tutoriel : Utiliser** [**publier.etalab.studio**](https://publier.etalab.studio/) **pour saisir, valider et publier des données de qualité**
 
 Cet outil vous permet de créer un fichier CSV en vous assurant qu'il est conforme à un schéma, c'est-à-dire que ses données sont complètes, valides et structurées.
 
@@ -187,9 +189,6 @@ Sur l'interface d'administration de data.gouv.fr, il est possible d'indiquer que
 
 D'autres solutions en dehors de data.gouv.fr existent : des solutions disponibles en anglais comme [goodtables.io](http://goodtables.io/) ou [CSV Lint](https://csvlint.io/) proposent des validateurs de jeux de données.&#x20;
 
-Il est aussi possible d’intégrer une fonction de validation d’un jeu directement dans la procédure de publication (exemple : les données d’adresses locales qui font l’objet d’une validation directement sur le site [adresse.data.gouv.fr](https://adresse.data.gouv.fr/)).&#x20;
+Il est aussi possible d’intégrer une fonction de validation d’un jeu directement dans la procédure de publication (exemple : les données d’adresses locales qui font l’objet d’une validation directement sur le site [adresse.data.gouv.fr](https://adresse.data.gouv.fr/)).
 {% endtab %}
 {% endtabs %}
-
-
-

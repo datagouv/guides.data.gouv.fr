@@ -16,5 +16,5 @@ Les données ouvertes permettent une transparence accrue, de développer des ana
 * [connaître la production d'énergies renouvelables sur son territoire](https://www.data.gouv.fr/fr/pages/onboarding/EnR\_PdlL/)
 * [identifier les entreprises en difficulté](https://www.data.gouv.fr/fr/pages/onboarding/signaux\_faibles/)
 * [connaître le prix de vente des biens immobiliers](https://www.data.gouv.fr/fr/pages/onboarding/dvf/)
-* [proposer un parcours d'orientation professionnel](../../../guides/guide-qualite/les-schemas-de-donnees/creer-un-schema-de-donnees/etape-4-phase-de-promotion-et-de-maintien.md)
+* [proposer un parcours d'orientation professionnel](../../guide-qualite/maitriser-les-schemas-de-donnees/creer-un-schema-de-donnees/etape-4-phase-de-promotion-et-de-maintien.md)
 * etc.

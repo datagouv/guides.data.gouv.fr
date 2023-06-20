@@ -9,25 +9,25 @@
   * [Préparer un jeu de données de qualité](guide-qualite/preparer-le-jeu-de-donnees.md)
     * [Extraire un jeu de données d'un système d'information](guides/guide-qualite/preparer-un-jeu-de-donnees-de-qualite/extraire-un-jeu-de-donnees-dun-systeme-dinformation.md)
     * [Structurer un jeu de données](guides/guide-qualite/preparer-un-jeu-de-donnees-de-qualite/structurer-un-jeu-de-donnees.md)
-    * [Focus : Lier des données à un référentiel](guides/guide-qualite/preparer-un-jeu-de-donnees-de-qualite/focus-lier-des-donnees-a-un-referentiel.md)
+    * [Lier des données à un référentiel](publier-des-donnees/guide-qualite/preparer-un-jeu-de-donnees-de-qualite/lier-des-donnees-a-un-referentiel.md)
   * [Documenter des données](guide-qualite/documenter-les-donnees.md)
     * [Bien documenter un jeu de données](guides/guide-qualite/documenter-des-donnees/bien-documenter-un-jeu-de-donnees.md)
     * [Diffuser la documentation d'un jeu de données](guides/guide-qualite/documenter-des-donnees/diffuser-la-documentation-dun-jeu-de-donnees.md)
-  * [Améliorer la qualité d'un jeu de données](guides/guide-qualite/ameliorer-la-qualite-dun-jeu-de-donnees/README.md)
-    * [Améliorer le score de qualité des métadonnées](guides/guide-qualite/ameliorer-la-qualite-dun-jeu-de-donnees/ameliorer-le-score-de-qualite-des-metadonnees.md)
-    * [Connaître et suivre les usages d'un jeu de données](guides/guide-qualite/ameliorer-la-qualite-dun-jeu-de-donnees/comprendre-les-usages-dun-jeu-de-donnees.md)
-    * [Mettre en place une stratégie organisationnelle](guides/guide-qualite/ameliorer-la-qualite-dun-jeu-de-donnees/mettre-en-place-une-strategie-organisationnelle.md)
-  * [Les schémas de données](guide-qualite/les-schemas-de-donnees/README.md)
-    * [Comprendre les bénéfices d'utiliser un schéma de données](guides/guide-qualite/les-schemas-de-donnees/comprendre-les-benefices-dun-schema-de-donnees.md)
-    * [Créer un schéma de données](guides/guide-qualite/les-schemas-de-donnees/creer-un-schema-de-donnees/README.md)
-      * [Etape 1 : Phase d'investigation](guides/guide-qualite/les-schemas-de-donnees/creer-un-schema-de-donnees/etape-1-phase-dinvestigation.md)
-      * [Etape 2 : Phase de concertation](guides/guide-qualite/les-schemas-de-donnees/creer-un-schema-de-donnees/etape-2-phase-de-concertation.md)
-      * [Etape 3 : Phase de construction](guides/guide-qualite/les-schemas-de-donnees/creer-un-schema-de-donnees/etape-3-phase-de-construction.md)
-      * [Etape 4 : Phase de promotion et de maintien](guides/guide-qualite/les-schemas-de-donnees/creer-un-schema-de-donnees/etape-4-phase-de-promotion-et-de-maintien.md)
-      * [Focus : Construire un schéma TableSchema](guides/guide-qualite/les-schemas-de-donnees/creer-un-schema-de-donnees/focus-construire-un-schema-tableschema.md)
-    * [Intégrer un schéma de données à schema.data.gouv.fr](publier-des-donnees/guide-qualite/les-schemas-de-donnees/integrer-un-schema-de-donnees-a-schema.data.gouv.fr.md)
-    * [Produire des données en conformité avec un schéma](guides/guide-qualite/les-schemas-de-donnees/produire-des-donnees-en-conformite-avec-un-schema.md)
-    * [Indiquer et vérifier qu'une ressource respecte un schéma de données](guides/guide-qualite/les-schemas-de-donnees/indiquer-et-verifier-quune-ressource-respecte-un-schema-de-donnees.md)
+  * [Améliorer la qualité d'un jeu de données en continu](publier-des-donnees/guide-qualite/ameliorer-la-qualite-dun-jeu-de-donnees-en-continu/README.md)
+    * [Améliorer le score de qualité des métadonnées](publier-des-donnees/guide-qualite/ameliorer-la-qualite-dun-jeu-de-donnees-en-continu/ameliorer-le-score-de-qualite-des-metadonnees.md)
+    * [Connaître et suivre les usages d'un jeu de données](publier-des-donnees/guide-qualite/ameliorer-la-qualite-dun-jeu-de-donnees-en-continu/connaitre-et-suivre-les-usages-dun-jeu-de-donnees.md)
+    * [Mettre en place une stratégie organisationnelle](publier-des-donnees/guide-qualite/ameliorer-la-qualite-dun-jeu-de-donnees-en-continu/mettre-en-place-une-strategie-organisationnelle.md)
+  * [Maîtriser les schémas de données](publier-des-donnees/guide-qualite/maitriser-les-schemas-de-donnees/README.md)
+    * [Comprendre les bénéfices d'utiliser un schéma de données](publier-des-donnees/guide-qualite/maitriser-les-schemas-de-donnees/comprendre-les-benefices-dutiliser-un-schema-de-donnees.md)
+    * [Créer un schéma de données](publier-des-donnees/guide-qualite/maitriser-les-schemas-de-donnees/creer-un-schema-de-donnees/README.md)
+      * [Etape 1 : Phase d'investigation](publier-des-donnees/guide-qualite/maitriser-les-schemas-de-donnees/creer-un-schema-de-donnees/etape-1-phase-dinvestigation.md)
+      * [Etape 2 : Phase de concertation](publier-des-donnees/guide-qualite/maitriser-les-schemas-de-donnees/creer-un-schema-de-donnees/etape-2-phase-de-concertation.md)
+      * [Etape 3 : Phase de construction](publier-des-donnees/guide-qualite/maitriser-les-schemas-de-donnees/creer-un-schema-de-donnees/etape-3-phase-de-construction.md)
+      * [Etape 4 : Phase de promotion et de maintien](publier-des-donnees/guide-qualite/maitriser-les-schemas-de-donnees/creer-un-schema-de-donnees/etape-4-phase-de-promotion-et-de-maintien.md)
+      * [Focus : Construire un schéma TableSchema](publier-des-donnees/guide-qualite/maitriser-les-schemas-de-donnees/creer-un-schema-de-donnees/focus-construire-un-schema-tableschema.md)
+    * [Intégrer un schéma de données à schema.data.gouv.fr](publier-des-donnees/guide-qualite/maitriser-les-schemas-de-donnees/integrer-un-schema-de-donnees-a-schema.data.gouv.fr.md)
+    * [Produire des données en conformité avec un schéma](publier-des-donnees/guide-qualite/maitriser-les-schemas-de-donnees/produire-des-donnees-en-conformite-avec-un-schema.md)
+    * [Indiquer et vérifier qu'une ressource respecte un schéma de données](publier-des-donnees/guide-qualite/maitriser-les-schemas-de-donnees/indiquer-et-verifier-quune-ressource-respecte-un-schema-de-donnees.md)
 * [📖 Guide juridique](guides/guide-juridique/README.md)
   * [Producteurs de données](publier-des-donnees/guide-juridique/je-suis-un-producteur-de-donnees/README.md)
     * [Comprendre la notion d'open data](publier-des-donnees/guide-juridique/je-suis-un-producteur-de-donnees/comprendre-la-notion-dopen-data.md)
@@ -90,6 +90,10 @@
   * [Utiliser l'API Découpage administratif](reutiliser-des-donnees/utiliser-les-api-geographiques/utiliser-lapi-decoupage-administratif.md)
   * [Utiliser les tuiles vectorielles](reutiliser-des-donnees/utiliser-les-api-geographiques/utiliser-les-tuiles-vectorielles.md)
 
+## 💡 Outils
+
+* [Lexique de l'open data](outils/lexique-de-lopen-data.md)
+
 ***
 
 * [Commande publique](commande-publique/README.md)
@@ -97,7 +101,3 @@
   * [Déclaration d’un profil d’acheteur](commande-publique/declaration-dun-profil-dacheteur.md)
 * [Ressources OpenDataFrance](https://opendatafrance.gitbook.io/kit-de-ressources-odf/)
 * [Documentation de transport.data.gouv.fr](https://doc.transport.data.gouv.fr/)
-
-## 💡 Outils
-
-* [Lexique de l'open data](outils/lexique-de-lopen-data.md)

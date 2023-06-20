@@ -1,6 +1,6 @@
 # Bien documenter un jeu de données
 
-{% hint style="info" %}
+{% hint style="success" %}
 La bonne documentation d'un jeu de données recouvre, entre autres : &#x20;
 
 * une description générale du jeu de données
@@ -17,10 +17,10 @@ Il est conseillé de commencer la documentation par une **description synthétiq
 
 La description générale peut couvrir les points suivants :&#x20;
 
-* **Une description générale des données** ;
-* **La liste des fichiers mis à disposition** ;
-* **La description du format des fichiers** ;
-* **La fréquence de mise à jour**.
+* [ ] **Une description générale des données** ;
+* [ ] **La liste des fichiers mis à disposition** ;
+* [ ] **La description du format des fichiers** ;
+* [ ] **La fréquence de mise à jour**.
 
 > **Exemple** : Description générale du [jeu de données du Répertoire national des élus](https://www.data.gouv.fr/fr/datasets/repertoire-national-des-elus-1/)&#x20;
 
@@ -34,10 +34,10 @@ La description du mode de production du jeu de données permet au réutilisateur
 
 Il est donc conseillé de préciser :&#x20;
 
-* **comment les données ont été produites** (saisie manuelle, collecte automatique, etc.) ;&#x20;
-* **qui sont les acteurs producteurs des données** et si les données sont produites par plusieurs acteurs, le modèle de gouvernance mis en place pour centraliser les données ;&#x20;
-* **si les données sont exhaustives et si elles présentent des limites dans leur qualité** ;
-* **les points d'attention et précautions d'usage** pour manipuler ces données.
+* [ ] **comment les données ont été produites** (saisie manuelle, collecte automatique, etc.) ;&#x20;
+* [ ] **qui sont les acteurs producteurs des données** et si les données sont produites par plusieurs acteurs, le modèle de gouvernance mis en place pour centraliser les données ;&#x20;
+* [ ] **si les données sont exhaustives et si elles présentent des limites dans leur qualité** ;
+* [ ] **les points d'attention et précautions d'usage** pour manipuler ces données.
 
 {% hint style="info" %}
 Certains jeux de données ne peuvent pas être utilisés à certaines fins ou possèdent des limitations qui rendent impossible certaines analyses.&#x20;
@@ -53,7 +53,9 @@ Par exemple, [l’article R112 A-3 du Livre des procédures fiscale](https://www
 S'ils peuvent être utilisés dans des contextes proches, les termes "schéma" et "modèle" sont bien différents :
 
 * un schéma décrit la structure d'un fichier (ses champs et leur format).
-* un modèle décrit la structure logique du jeu de données sous la forme d'objets (ou entités) et de relations (ou associations). Les objets sont définis par une liste d'attributs. Les champs d'un schéma sont la traduction physique des attributs des entités du modèle. Le modèle de données est avant tout un outil de dialogue entre les différents intervenants.&#x20;
+* un modèle décrit la structure logique du jeu de données sous la forme d'objets (ou entités) et de relations (ou associations). Les objets sont définis par une liste d'attributs.&#x20;
+
+Les champs d'un schéma sont la traduction physique des attributs des entités du modèle. Le modèle de données est avant tout un outil de dialogue entre les différents intervenants.&#x20;
 {% endhint %}
 
 > Exemple : Dans le [jeu de données des IRVE](https://schema.data.gouv.fr/etalab/schema-irve-statique/) (infrastructures de recharge des véhicules électriques), on peut identifier que:
@@ -65,8 +67,8 @@ S'ils peuvent être utilisés dans des contextes proches, les termes "schéma" e
 
 Il est conseillé de :&#x20;
 
-* **Faire apparaître le modèle de données à l’aide de schémas et de tableaux**
-* Si le jeu de données se compose de plusieurs entités, **faire apparaître les relations entre elles**.
+* [ ] **Faire apparaître le modèle de données à l’aide de schémas et de tableaux**
+* [ ] Si le jeu de données se compose de plusieurs entités, **faire apparaître les relations entre elles**.
 
 Une fois le modèle établi, il convient de définir le découpage en fichiers. Il est possible de :&#x20;
 
@@ -75,22 +77,22 @@ Une fois le modèle établi, il convient de définir le découpage en fichiers. 
 
 > **Exemple** : [La documentation](https://mtes-mct.github.io/secmar-documentation/schema.html) du [jeu de données des opérations de sauvetage en mer](https://www.data.gouv.fr/fr/datasets/operations-coordonnees-par-les-cross/) décrit le modèle de données utilisé. Ce modèle de données permet de comprendre rapidement les relations qui unissent les différentes entités du jeu de données. Dans cet exemple, il a été choisi d'associer un fichier par entité.
 
-<figure><img src="https://guides.etalab.gouv.fr/assets/img/schema_secmar.37dd98f3.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://guides.etalab.gouv.fr/assets/img/schema_secmar.37dd98f3.png" alt=""><figcaption><p>Modèle de données du jeu de données des opérations de sauvetage en mer</p></figcaption></figure>
 
 ## Description du schéma de données <a href="#description-du-schema-de-donnees" id="description-du-schema-de-donnees"></a>
 
 Si vous publiez des données tabulaires, il est conseillé de produire un tableau récapitulatif indiquant, pour chaque colonne :&#x20;
 
-* **le nom de la colonne**
-* **son type de données** (entier, chaîne de caractères, nombre décimal, etc.)
-* **la description de la donnée contenue dans cette colonne**
-* **une ou plusieurs valeurs d’exemple**
+* [ ] **le nom de la colonne**
+* [ ] **son type de données** (entier, chaîne de caractères, nombre décimal, etc.)
+* [ ] **la description de la donnée contenue dans cette colonne**
+* [ ] **une ou plusieurs valeurs d’exemple**
 
-Cela constituera une base solide en vue de la création d'un schéma de données, dont le processus est détaillé [ici](../les-schemas-de-donnees/creer-un-schema-de-donnees/).
+Cela constituera une base solide en vue de la création d'un schéma de données, dont le processus est détaillé [ici](../../../publier-des-donnees/guide-qualite/maitriser-les-schemas-de-donnees/creer-un-schema-de-donnees/).
 
 > **Exemple :** La documentation du [jeu de données des opérations de sauvetage en mer](https://www.data.gouv.fr/fr/datasets/operations-coordonnees-par-les-cross/) présente un tableau récapitulatif des différentes colonnes. La description des champs permet de faire le lien avec le fichier de données, ce qui facilite la lecture des données.&#x20;
 
-<figure><img src="https://guides.etalab.gouv.fr/assets/img/table_secmar.561dfb7c.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://guides.etalab.gouv.fr/assets/img/table_secmar.561dfb7c.png" alt=""><figcaption><p>Description du schéma de données du jeu de données des opérations de sauvetage en mer</p></figcaption></figure>
 
 Les termes employés dans un jeu de données sont propres à un environnement métier.&#x20;
 
@@ -100,7 +102,8 @@ S’il existe des termes complexes ou des énumérations, il est conseillé de :
 
 Cet effort de définition fait gagner un temps considérable au réutilisateur et permet de prévenir des contre-sens dans l’exploitation des données.
 
-> **Exemple :** La base de données de [demande de valeur foncière](https://www.data.gouv.fr/fr/datasets/demandes-de-valeurs-foncieres/) recense l’ensemble des transactions immobilières intervenues au cours des cinq dernières années. Le vocabulaire utilisé dans ce jeu de données est issu d’un environnement administratif, parfois difficile à appréhender. La Direction générale des Finances publiques met à disposition une [documentation](https://static.data.gouv.fr/resources/demande-de-valeurs-foncieres/20190419-091745/notice-descriptive-du-fichier-dvf.pdf) qui comprend notamment un lexique de définition des termes rencontrés. Ce lexique facilite l’appropriation et la réutilisation des données par des acteurs tiers. ![Lexique des données du jeu de données Demande de valeur foncière](https://guides.etalab.gouv.fr/assets/img/lexique\_dvf.64d1e5cc.png)
+> **Exemple :** La base de données de [demande de valeur foncière](https://www.data.gouv.fr/fr/datasets/demandes-de-valeurs-foncieres/) recense l’ensemble des transactions immobilières intervenues au cours des cinq dernières années. \
+> Le vocabulaire utilisé dans ce jeu de données est issu d’un environnement administratif, parfois difficile à appréhender. La Direction générale des Finances publiques met à disposition une [documentation](https://static.data.gouv.fr/resources/demande-de-valeurs-foncieres/20190419-091745/notice-descriptive-du-fichier-dvf.pdf) qui comprend notamment un lexique de définition des termes rencontrés. Ce lexique facilite l’appropriation et la réutilisation des données par des acteurs tiers. ![Lexique des données du jeu de données Demande de valeur foncière](https://guides.etalab.gouv.fr/assets/img/lexique\_dvf.64d1e5cc.png)
 
 ## Description des métadonnées <a href="#description-des-metadonnees" id="description-des-metadonnees"></a>
 

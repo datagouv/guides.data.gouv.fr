@@ -31,7 +31,7 @@ Les principaux standards techniques sont les suivants :
 
 Tous ces standards techniques sont supportés par [schema.data.gouv.fr](https://schema.data.gouv.fr/).
 
-{% hint style="info" %}
+{% hint style="success" %}
 **Conseil : Aller au-delà de la documentation texte**
 
 Un schéma de données décrit uniquement par du texte ou par un tableau se prive de nombreux avantages, notamment celui de l'interopérabilité entre différents systèmes informatiques.
@@ -64,11 +64,7 @@ En complément du fichier du schéma de données, il est recommandé de rédiger
 
 La présence de ces fichiers représente un package complet (_documentation, liste des changements et schéma de données décrit dans un standard technique_), apprécié des réutilisateurs. [schema.data.gouv.fr](https://schema.data.gouv.fr/) se repose sur ces éléments pour intégrer votre documentation et votre liste de changements sur une page web.
 
-{% hint style="info" %}
-**Exemples à votre disposition**
-
-L[a documentation](https://github.com/etalab/schema-stationnement/blob/master/README.md) et [la liste des changements](https://github.com/etalab/schema-stationnement/blob/master/CHANGELOG.md) du schéma des lieux de stationnement.
-{% endhint %}
+> **Exemple :** [La documentation](https://github.com/etalab/schema-stationnement/blob/master/README.md) et [la liste des changements](https://github.com/etalab/schema-stationnement/blob/master/CHANGELOG.md) du schéma des lieux de stationnement.
 
 ## Publier et diffuser un schéma de données <a href="#publier-et-diffuser-votre-schema-de-donnees" id="publier-et-diffuser-votre-schema-de-donnees"></a>
 
@@ -85,18 +81,14 @@ Vous bénéficierez alors des avantages habituels des dépôts de code Git en li
 
 Il est conseillé d'utiliser un compte d’organisation (dédié à votre entreprise, direction, service, ministère) et non un compte personnel afin d’assurer une URL stable dans le temps.
 
-{% hint style="info" %}
-**Exemples à votre disposition**
+> **Exemples à votre disposition :** Plusieurs dépôts Git de schémas sont disponibles sur [schema.data.gouv.fr](https://schema.data.gouv.fr/) (exemple : [le dépôt Git décrivant les lieux de stationnement](https://github.com/etalab/schema-stationnement) à l’aide d’un schéma TableSchema sur GitHub).&#x20;
 
-Plusieurs dépôts Git de schémas sont disponibles sur [schema.data.gouv.fr](https://schema.data.gouv.fr/) (exemple : [le dépôt Git décrivant les lieux de stationnement](https://github.com/etalab/schema-stationnement) à l’aide d’un schéma TableSchema sur GitHub).&#x20;
-{% endhint %}
-
-Pour faciliter la découverte de votre schéma de données et des données sous-jacentes, il est recommandé de le faire référencer sur [schema.data.gouv.fr](https://schema.data.gouv.fr/). La marche à suivre est détaillée [ici](../../../../publier-des-donnees/guide-qualite/les-schemas-de-donnees/integrer-un-schema-de-donnees-a-schema.data.gouv.fr.md).&#x20;
+Pour faciliter la découverte de votre schéma de données et des données sous-jacentes, il est recommandé de le faire référencer sur [schema.data.gouv.fr](https://schema.data.gouv.fr/). La marche à suivre est détaillée [ici](../integrer-un-schema-de-donnees-a-schema.data.gouv.fr.md).&#x20;
 
 ## Points de sortie <a href="#points-de-sortie" id="points-de-sortie"></a>
 
-À l’issue de cette phase, vous devriez :
+À l’issue de cette phase, vous devriez :&#x20;
 
-* Avoir implémenté votre schéma de données dans un des standards reconnus ;
-* Avoir publié votre travail en ligne, dans un répertoire Git dédié ;
-* Avoir pris contact avec les équipes de [schema.data.gouv.fr](https://schema.data.gouv.fr/) dans le but de référencer votre schéma de données si nécessaire.
+* [ ] Avoir implémenté votre schéma de données dans un des standards reconnus ;
+* [ ] Avoir publié votre travail en ligne, dans un répertoire Git dédié ;
+* [ ] Avoir pris contact avec les équipes de [schema.data.gouv.fr](https://schema.data.gouv.fr/) dans le but de référencer votre schéma de données si nécessaire.

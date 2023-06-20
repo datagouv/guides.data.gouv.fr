@@ -1,7 +1,7 @@
-# Focus : Lier des données à un référentiel
+# Lier des données à un référentiel
 
 {% hint style="success" %}
-Il est important d'intégrer dans vos jeux de données des données pivots relevant d'un référentiel (cf. section "Structurer un jeu de données" - Cas 1 - La structure de vos données ne correspond à aucun schéma de données).
+Il est important d'intégrer dans vos jeux de données des données pivots relevant d'un référentiel.
 {% endhint %}
 
 > **Exemple** : Mon jeu de données est une liste d'actions culturelles menées par ma région. Certaines de ces actions sont gérées par des associations. Il peut être intéressant de publier un jeu de données recensant ces actions avec un champ correspondant à l'identification des associations. Cet identifiant existe et est standardisé, il s'agit du numéro RNA, identifiant national des associations dont [le répertoire](https://www.data.gouv.fr/fr/datasets/repertoire-national-des-associations/) est opéré par le ministère de l'intérieur.
@@ -89,8 +89,8 @@ Il existe des référentiels pour décrire une adresse de manière unique.&#x20;
 
 Le référentiel officiel d'adresse est la [**Base Adresse Nationale (ou BAN)**](https://www.data.gouv.fr/fr/datasets/base-adresse-nationale/).&#x20;
 
-* Si vous partez de zéro pour constituer un jeu de données, il est pertinent de partir de la Base Adresse Nationale pour décrire vos adresses.
-* Si vous travaillez sur un jeu de données qui contient déjà des adresses saisies, il peut s'avérer fastidieux de corriger manuellement l'ensemble des adresses erronées et vous pouvez obtenir une base d'adresse normalisée grâce à la méthode décrite ci-dessous.
+* Si vous partez de zéro pour constituer un jeu de données --> il est pertinent de partir de la Base Adresse Nationale pour décrire vos adresses.
+* Si vous travaillez sur un jeu de données qui contient déjà des adresses saisies --> il peut s'avérer fastidieux de corriger manuellement l'ensemble des adresses erronées et vous pouvez obtenir une base d'adresse normalisée grâce à la méthode décrite ci-dessous.
 
 ### Le géocodage <a href="#le-geocodage" id="le-geocodage"></a>
 

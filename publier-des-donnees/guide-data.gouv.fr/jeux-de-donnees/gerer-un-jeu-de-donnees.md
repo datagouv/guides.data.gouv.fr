@@ -8,11 +8,11 @@ Une fois votre jeu de données publié, vous pouvez y associer une réutilisatio
 
 ## Suivre l'usage d'un jeu de données
 
-Afin de suivre la vie de votre jeu de données sur data.gouv.fr, vous avez la possibilité de suivre ses statistiques d’utilisation depuis votre compte administrateur. Un tableau de bord centralise les informations relatives au jeu de données. Une méthodologie de suivi des usages d'un jeu de données est explicité sur [cette page](../../../guides/guide-qualite/ameliorer-la-qualite-dun-jeu-de-donnees/comprendre-les-usages-dun-jeu-de-donnees.md).&#x20;
+Afin de suivre la vie de votre jeu de données sur data.gouv.fr, vous avez la possibilité de suivre ses statistiques d’utilisation depuis votre compte administrateur. Un tableau de bord centralise les informations relatives au jeu de données. Une méthodologie de suivi des usages d'un jeu de données est explicité sur [cette page](../../guide-qualite/ameliorer-la-qualite-dun-jeu-de-donnees-en-continu/connaitre-et-suivre-les-usages-dun-jeu-de-donnees.md).&#x20;
 
 ## Suivre la qualité d'un jeu de données
 
-La qualité de votre jeu de données est fondamentale pour qu’il soit réutilisé par le plus d’utilisateurs possible. Assurez vous notamment que vos données soient à jour et de respecter les critères de qualité de données. Nous vous invitons aussi à améliorer le score de qualité des métadonnées : la procédure à suivre est détaillée sur [cette page](../../../guides/guide-qualite/ameliorer-la-qualite-dun-jeu-de-donnees/ameliorer-le-score-de-qualite-des-metadonnees.md).&#x20;
+La qualité de votre jeu de données est fondamentale pour qu’il soit réutilisé par le plus d’utilisateurs possible. Assurez vous notamment que vos données soient à jour et de respecter les critères de qualité de données. Nous vous invitons aussi à améliorer le score de qualité des métadonnées : la procédure à suivre est détaillée sur [cette page](../../guide-qualite/ameliorer-la-qualite-dun-jeu-de-donnees-en-continu/ameliorer-le-score-de-qualite-des-metadonnees.md).&#x20;
 
 ## Mettre à jour ou modifier un jeu de données ou une ressource
 

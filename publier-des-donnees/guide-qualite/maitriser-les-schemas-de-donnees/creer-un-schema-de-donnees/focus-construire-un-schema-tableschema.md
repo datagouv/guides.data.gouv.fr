@@ -1,27 +1,37 @@
 # Focus : Construire un schéma TableSchema
 
-La pertinence de la mise en place d'un standard de données réside dans son adéquation entre les capacités de sa mise en oeuvre par les producteurs de données et les outils permattant l'automatisation des jeux de données valides par rapport à cette spécification. Cette standardisation doit permettre de **faciliter la mise en relation des jeux de données** issus de différents producteurs.
+La pertinence de la mise en place d'un standard de données réside dans son adéquation entre les capacités de sa mise en oeuvre par les producteurs de données et les outils permettant l'automatisation des jeux de données valides par rapport à cette spécification.&#x20;
 
-Il ne s'agit donc pas de règles mais de recommandations, visant à faciliter la création de nouveaux schémas et **leur intégration dans une chaîne de validation et de publication généralisable**.
+Cette standardisation doit permettre de **faciliter la mise en relation des jeux de données** issus de différents producteurs.
 
-### Recommandations pour le formatage des fichiers csv <a href="#formatage-csv" id="formatage-csv"></a>
+{% hint style="info" %}
+Cette page détaille des recommandations, visant à faciliter la création de nouveaux schémas et **leur intégration dans une chaîne de validation et de publication généralisable**, notamment :&#x20;
 
-Un des formats privilégiés pour les standards de données est le [CSV](https://fr.wikipedia.org/wiki/Comma-separated\_values) (Comma Separated Values, valeurs séparées par des virgules). Il s'agit d'un format de données "à plat", **adéquat pour les structures de données simples**. Cependant ce format simple ne dispose pas de spécifications contraignant la saisie des données. Pour cela un schéma en Json est ajouté dont la structure est défini par le standard [TableSchema](https://specs.frictionlessdata.io/table-schema/). TableSchema permet d'indiquer les formats des données attendus, de spécifier des contraintes (types de valeurs, cardinalité) et de documenter les différents champs composant le schéma.
+* Des recommandations pour le formatage des fichiers csv
+* Des recommandations de formatage des données
+* Des recommandations de champs obligatoires&#x20;
+* Des recommandations pour le nommage des fichiers
+* Des recommandations pour le nommage des champs
+* Des recommandations pour la mise en conformité
+{% endhint %}
 
-TIP
+## Recommandations pour le formatage des fichiers csv <a href="#formatage-csv" id="formatage-csv"></a>
+
+Un des formats privilégiés pour les standards de données est le [CSV](https://fr.wikipedia.org/wiki/Comma-separated\_values) (Comma Separated Values, valeurs séparées par des virgules). Il s'agit d'un format de données "à plat", **adéquat pour les structures de données simples**.&#x20;
+
+Cependant, ce format simple ne dispose pas de spécifications contraignant la saisie des données. Pour cela un schéma en Json est ajouté dont la structure est défini par le standard [TableSchema](https://specs.frictionlessdata.io/table-schema/). TableSchema permet d'indiquer les formats des données attendus, de spécifier des contraintes (types de valeurs, cardinalité) et de documenter les différents champs composant le schéma.
 
 L'outil de validation utilisé pour vérifier la conformité d'un fichier csv au standard auquel il fait référence s'appuie sur la structure tabulaire des données. Elles peuvent donc être contenues dans un tableur numérique au format .xls, .xlsx ou .ods ou dans un fichier texte au format .csv, .txt ou autre.
 
-La question du séparateur utilisé pour séparer deux champs de données dans un fichier .csv n'est donc pas essentielle. Cependant, certains outils se basent sur la valeur de ce séparateur pour traiter et publier des jeux de données. Nous vous proposons donc un certain nombre de recommandations afin de favoriser la généralisation d'un usage contribuant à l'interpoérabilité des données produites.
+La question du séparateur utilisé pour séparer deux champs de données dans un fichier .csv n'est donc pas essentielle. Cependant, certains outils se basent sur la valeur de ce séparateur pour traiter et publier des jeux de données. Nous vous proposons donc un certain nombre de recommandations afin de favoriser la généralisation d'un usage contribuant à l'interopérabilité des données produites.
 
-#### Format de fichier csv <a href="#format-de-fichier-csv" id="format-de-fichier-csv"></a>
+### Format de fichier csv <a href="#format-de-fichier-csv" id="format-de-fichier-csv"></a>
 
 Bien que de nombreux jeux de données en CSV utilisent le point-virgule comme séparateur de champs, il a été décidé de privilégier le **séparateur virgule** car plus conforme à l'esprit du format csv.
 
 Les tableurs numériques courants (Excel et Calc) peuvent produire et lire des fichiers csv. Lors de l'enregistrement d'un fichier créé avec l'outil Calc, l'utilisatrice ou utilisateur doit spécifier le format d'encodage des données ainsi que le séparateur de champs. Lorsque le séparateur de champs retenu est la virgule, il est recommandé d'utiliser les guillemets double " comme séparateur de chaîne de caractères. De cette manière, si une virgule est présente à l'intérieur d'une cellule elle ne sera pas considérée comme un séparateur de champs.
 
-TIP
-
+{% hint style="success" %}
 Lors de l'ouverture d'un fichier csv dans Calc, une fenêtre modale propose plusieurs options permettant de spécifier un caractère de séparation et un encodage des données.
 
 Dans Excel, il faut aller dans l'onglet données et sélectionner l'option Fichier texte pour accéder à l'assistant d'import des données.
@@ -31,8 +41,9 @@ L’encodage des caractères à privilégier est l'[UTF-8](https://fr.wikipedia.
 Pour faciliter la lecture des fichiers publiés en CSV il est recommandé d'y associer dans les outils de publication le **type MIME ou Content-Type "text/csv"**.
 
 **Chaque ligne du fichier doit avoir le même nombre de champs**, ce qui signifie que lorsqu'une cellule est vide elle doit quand même être présente soit avec la valeur Null, soit avec des crochets vides \[] dans le cas des champs de type tableau (array), soit laissée vide mais apparaître à l'export avec 2 virgules qui se suivent ,, .
+{% endhint %}
 
-### Recommandations de formatage des données <a href="#recommandations-de-formatage-des-donnees" id="recommandations-de-formatage-des-donnees"></a>
+## Recommandations de formatage des données <a href="#recommandations-de-formatage-des-donnees" id="recommandations-de-formatage-des-donnees"></a>
 
 Les recommandations de formatage pour les données sont généralement issues du standard [TableSchema](https://specs.frictionlessdata.io/table-schema/), lui-même inspiré des spécifications du format [Json](https://www.json.org/json-fr.html), dans lequel sont exprimés les schémas de données permettant l'automatisation de leur validation.
 
@@ -66,9 +77,9 @@ Il est également possible de contraindre les valeurs autorisées dans ce champ 
 * **pattern** : indique une expression régulière à laquelle doivent être conforme les valeurs de ce champ (par exemple pour un numéro SIRET on peut indiquer `^\\d{14}$` ce qui signifie que les valeurs de ce champ doivent contenir exactement 14 chiffres)
 * **enum** : indique une liste de valeurs autorisées pour ce champ
 
-Ci-dessous quelques exemples tirés du schéma des menus de la restauration collective.
+Ci-dessous quelques exemples tirés du [schéma des menus de la restauration collective](https://schema.data.gouv.fr/scdl/menus-collectifs/1.2.1.html).
 
-Le champ permettant d'indiquer le numéro SIRET d'une collectivité est spécifiée de la manière suivante
+Le champ permettant d'indiquer le numéro SIRET d'une collectivité est spécifiée de la manière suivante :
 
 ```
 {
@@ -101,7 +112,7 @@ Le champ permettant d'indiquer la date de publication d'un enregistrement du jeu
 
 Les informations ci-dessous décrivent les différents types de champs disponibles dans la spécification TableSchema.
 
-#### Données de type string <a href="#donnees-de-type-string" id="donnees-de-type-string"></a>
+### Données de type string <a href="#donnees-de-type-string" id="donnees-de-type-string"></a>
 
 Pour le type string, les formats de données suivants sont disponibles :
 
