@@ -90,9 +90,9 @@
   * [Utiliser l'API Découpage administratif](reutiliser-des-donnees/utiliser-les-api-geographiques/utiliser-lapi-decoupage-administratif.md)
   * [Utiliser les tuiles vectorielles](reutiliser-des-donnees/utiliser-les-api-geographiques/utiliser-les-tuiles-vectorielles.md)
 
-## 💡 Outils
+## Outils
 
-* [Lexique de l'open data](outils/lexique-de-lopen-data.md)
+* [💡 Lexique de l'open data](outils/lexique-de-lopen-data.md)
 
 ***
 
