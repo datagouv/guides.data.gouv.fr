@@ -6,7 +6,7 @@ Il existe de nombreuses définitions de l'open data. \
 L'objectif de ce guide n'est pas d'apporter une définition essentielle et exclusive du concept, mais de proposer une interprétation de l'open data public, qu'[Etalab](https://www.etalab.gouv.fr/) a pour mission de mettre en œuvre.
 {% endhint %}
 
-## Qu'est-ce que l'open data public ?
+## Open data public : la mise à disposition libre et gratuite des documents administratifs
 
 Dans le cadre de ses missions de service public, l’administration produit et reçoit des documents administratifs. Ces documents administratifs peuvent contenir des informations publiques, qui peuvent elles-mêmes être représentées sous forme de données publiques.&#x20;
 
@@ -21,7 +21,7 @@ Dans le cadre de ses missions de service public, l’administration produit et r
 * **Donnée publique** : Représentation d’une information publique sous une forme conventionnelle destinée à faciliter son traitement. Cela peut être par exemple des données géographiques (adresses, références cadastrales), financières (budgets, commande publique, subventions, etc.), environnementales (émissions, vente de produits, etc.), etc.
 {% endhint %}
 
-## Quels sont les bénéfices de publier des données en open data ?&#x20;
+## Les bénéfices liés à l'open data public&#x20;
 
 Au-delà du respect du cadre légal, ouvrir vos données présente de multiples intérêts. Cela vous permet notamment de :
 
