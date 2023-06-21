@@ -11,6 +11,10 @@ Le principe du moissonnage sur data.gouv.fr se décompose en plusieurs étapes :
 5. Le moissonneur de data.gouv.fr vient automatiquement récupérer les données de votre plateforme ;
 6. Les données de votre plateforme sont référencées et visibles sur data.gouv.fr. :tada:
 
+{% hint style="info" %}
+Si vous souhaitez tester la mise en place d'un moissonneur et observer le résultat du moissonnage avant une mise en production sur [data.gouv.fr](https://www.data.gouv.fr/), vous pouvez le créer sur la plateforme de démo [https://demo.data.gouv.fr/](https://demo.data.gouv.fr/fr/) pour effectuer vos tests dans un premier temps. L'ensemble des étapes sont les mêmes que celles décrites sur cette page.
+{% endhint %}
+
 ## Créer un moissonneur <a href="#creer-un-moissonneur" id="creer-un-moissonneur"></a>
 
 La création d’un moissonneur sur data.gouv.fr nécessite la création d’un compte gratuit.
@@ -67,7 +71,7 @@ L’URL est obligatoire.
 
 Choisissez ici le format des métadonnées associées aux jeux de données publiés sur votre plateforme. Ce format permet au moissonneur de savoir comment lire et interpréter vos métadonnées, pour bien les retranscrire sur data.gouv.fr.
 
-Certaines implémentations permettent d’ajouter des filtres, dans le but d’inclure ou d’exclure certains jeux de données du moissonnage. (Consultez [la section dédié de la documentation de moissonnage](https://doc.data.gouv.fr/moissonnage/intro/#filtrage) ainsi que les filtres [spécifiques de votre implémentations](https://doc.data.gouv.fr/moissonnage/intro/#moissonneurs-disponibles))
+Certaines implémentations permettent d’ajouter des filtres, dans le but d’inclure ou d’exclure certains jeux de données du moissonnage. Consultez [la section dédiée à votre implémentation dans la documentation de moissonnage](les-differents-types-de-moissonneurs.md).
 
 Le type d’implémentation est obligatoire.
 

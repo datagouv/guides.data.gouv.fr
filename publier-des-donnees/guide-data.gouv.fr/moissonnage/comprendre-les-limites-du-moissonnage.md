@@ -8,9 +8,11 @@ Le moissonnage n’a aucune connaissance de l’usage que vous faites du modèle
 
 Certains champs du modèle de data.gouv.fr possèdent un équivalent qui peut être sous spécifié dans certains protocoles ou sur certaines plateformes, ou bien alors être spécifié différemment, sur plusieurs champs. Dans ce cas, la valeur du champ est récupérée en “best effort’, c’est-à-dire qu’elle va être devinée en fonction des éléments à disposition. Se référer à la page de chaque moissonneur pour savoir lesquels sont dans ce cas pour chaque implémentation.
 
-## Suppression à la source <a href="#suppression-a-la-source" id="suppression-a-la-source"></a>
+## Suppression à la source et archivage <a href="#suppression-a-la-source" id="suppression-a-la-source"></a>
 
-Pour le moment, les moissonneurs ne gèrent pas la suppression à la source et ce pour éviter les suppressions en masse par erreur, ce qui entrainerait une perte des statistiques, des discussions et des ressources communautaires de chaque jeu de données.&#x20;
+Lors d'une suppression à la source (un ou plusieurs jeux de données qui ne sont plus présents sur la plateforme moissonnée), data.gouv.fr conserve les jeux de données sur sa plateforme. Le but est d'éviter les suppressions en masse par erreur, ce qui entraînerait une perte des statistiques, des discussions et des ressources communautaires de chaque jeu de données.
+
+Au bout d'une période de 7 jours, ils sont marqués comme archivés. L'archivage des jeux de données implique qu'ils ne soient plus indexés ou visibles dans les statistiques des producteurs, mais bien accessibles par lien direct pour les utilisateurs qui souhaiteraient continuer à y accéder.
 
 Dans le cas d’une suppression ponctuelle, nous vous invitons à supprimer manuellement le jeu de données moissonné qui a perdu sa source.&#x20;
 

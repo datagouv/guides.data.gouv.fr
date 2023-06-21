@@ -4,18 +4,6 @@ Ceci est la documentation de référence de l’API de [data.gouv.fr](https://ww
 
 Il est recommandé d’avoir lu l'[introduction](../../../../utiliser-data.gouv.fr/api/) et la page [prise en main de l'API](../prise-en-main-de-lapi.md) avant de consulter cette page.
 
-## Site
-
-
-
-
-
-
-
-## Datasets
-
-
-
 ##
 
 

@@ -10,6 +10,6 @@ En plus du moissonnage et de l’utilisation de l’API, il existait un autre mo
 **Du fait de l’extinction de la plateforme geo.data.gouv.fr, vous pouvez au choix** :
 
 * attendre que le Geocatalogue publie directement des flux DCAT depuis vos flux Inspire ;&#x20;
-* si vous utilisez Geonetwork, utilisez [son endpoint DCAT alternatif](https://doc.data.gouv.fr/moissonnage/dcat/#geonetwork) ;&#x20;
-* utiliser [le moissonnage DCAT](https://doc.data.gouv.fr/moissonnage/dcat) avec un grand nombre de logiciels compatibles ou avec un flux à façon ;&#x20;
-* enfin, nous supportons également le moissonnage des plateformes [CKAN](https://doc.data.gouv.fr/moissonnage/ckan) et [OpenDataSoft](https://doc.data.gouv.fr/moissonnage/ods).
+* si vous utilisez Geonetwork, utilisez son[ endpoint DCAT](les-differents-types-de-moissonneurs.md) alternatif ;&#x20;
+* utiliser [le moissonnage DCAT](les-differents-types-de-moissonneurs.md) avec un grand nombre de logiciels compatibles ou avec un flux à façon ;&#x20;
+* enfin, nous supportons également le moissonnage des plateformes[ CKAN ](les-differents-types-de-moissonneurs.md)et [OpenDataSoft](les-differents-types-de-moissonneurs.md).
