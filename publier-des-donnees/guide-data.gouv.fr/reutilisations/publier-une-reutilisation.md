@@ -1,6 +1,6 @@
 # Publier une réutilisation
 
-Les données mises à disposition sur data.gouv.fr peuvent être réutilisées [selon les termes définis dans la licence qui leur est associée](../../../guide-juridique/la-reutilisation-des-donnees.md). Si vous êtes à l’origine d’une réutilisation, vous pouvez la référencer sur la page du jeu de données sur lequel vous vous êtes appuyés.
+Les données mises à disposition sur data.gouv.fr peuvent être réutilisées [selon les termes définis dans la licence qui leur est associée](../../guide-juridique/reutilisateurs-de-donnees/respecter-les-conditions-de-reutilisation.md). Si vous êtes à l’origine d’une réutilisation, vous pouvez la référencer sur la page du jeu de données sur lequel vous vous êtes appuyés.
 
 {% hint style="info" %}
 **Pourquoi référencer une réutilisation ?**

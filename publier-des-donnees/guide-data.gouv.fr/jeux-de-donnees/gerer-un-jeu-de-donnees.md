@@ -4,7 +4,7 @@ Une fois un jeu de données publié, vous pouvez réaliser différentes actions.
 
 ## Publier une réutilisation
 
-Une fois votre jeu de données publié, vous pouvez y associer une réutilisation. Cela permettra notamment aux usagers de comprendre le contexte de production des données et de faire connaître vos données. Pour ce faire, nous vous invitons à vous référer à [cette page](../../../utiliser-data.gouv.fr/publier-une-reutilisation.md).&#x20;
+Une fois votre jeu de données publié, vous pouvez y associer une réutilisation. Cela permettra notamment aux usagers de comprendre le contexte de production des données et de faire connaître vos données. Pour ce faire, nous vous invitons à vous référer à [cette page](../reutilisations/).&#x20;
 
 ## Suivre l'usage d'un jeu de données
 
