@@ -48,6 +48,7 @@
   * [Jeux de données](publier-des-donnees/guide-data.gouv.fr/publier-et-gerer-un-jeu-de-donnees/README.md)
     * [Publier un jeu de données](publier-des-donnees/guide-data.gouv.fr/publier-et-gerer-un-jeu-de-donnees/publier-un-jeu-de-donnees.md)
     * [Gérer un jeu de données](publier-des-donnees/guide-data.gouv.fr/jeux-de-donnees/gerer-un-jeu-de-donnees.md)
+    * [Explorer un jeu de donnée](publier-des-donnees/guide-data.gouv.fr/jeux-de-donnees/explorer-un-jeu-de-donnee.md)
     * [Télécharger le catalogue de données de data.gouv.fr](utiliser-data.gouv.fr/api/telecharger-un-catalogue-de-donnees.md)
   * [Réutilisations](utiliser-data.gouv.fr/publier-une-reutilisation.md)
     * [Publier une réutilisation](publier-des-donnees/guide-data.gouv.fr/reutilisations/publier-une-reutilisation.md)
