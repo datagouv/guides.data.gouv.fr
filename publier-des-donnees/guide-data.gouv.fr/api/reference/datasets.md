@@ -8,7 +8,7 @@ description: Dataset related operations
 [https://www.data.gouv.fr/api/1/swagger.json](https://www.data.gouv.fr/api/1/swagger.json)
 {% endswagger %}
 
-{% swagger src="https://www.data.gouv.fr/api/1/swagger.json" path="/datasets/" method="post" %}
+{% swagger src="https://www.data.gouv.fr/api/1/swagger.json" path="/datasets/" method="post" expanded="false" fullWidth="false" %}
 [https://www.data.gouv.fr/api/1/swagger.json](https://www.data.gouv.fr/api/1/swagger.json)
 {% endswagger %}
 

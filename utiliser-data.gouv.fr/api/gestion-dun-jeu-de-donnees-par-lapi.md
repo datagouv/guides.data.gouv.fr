@@ -12,30 +12,10 @@ Tous les exemples qui suivent sont réalisés avec un compte :
 
 Les exemples portants sur un jeu de données existant utilisent l’identifiant `5bc04b2cff66bd680e499f4a`. Ceux portants sur une ressource existante de ce jeu de données utilisent l’identifiant `54d47250-1daf-483b-965a-3013f8c76617`.
 
-Pour simplifier la lecture de ces exemples, il y sera fait référence par les variables suivantes pour chaque language:
-
-CURL
+Pour simplifier la lecture de ces exemples, il y sera fait référence par les variables suivantes pour chaque langage:
 
 {% tabs %}
 {% tab title="CURL" %}
-```
-// Some code
-```
-{% endtab %}
-
-{% tab title="HTTPie" %}
-```
-// Some code
-```
-{% endtab %}
-
-{% tab title="Python" %}
-```
-// Some code
-```
-{% endtab %}
-{% endtabs %}
-
 ```bash
 # Tous les examples CURL sont executés avec cette convention
 # CURL doit être installé
@@ -45,17 +25,48 @@ export ORG = '5bbb6d6cff66bd4dc17bfd5a'
 export DATASET = '5bc04b2cff66bd680e499f4a'
 export RESOURCE = '54d47250-1daf-483b-965a-3013f8c76617'
 ```
+{% endtab %}
 
-HTTPiePython
+{% tab title="HTTPie" %}
+```bash
+# Tous les examples HTTPie sont executés avec cette convention
+# HTTPie doit être installé
+export API = 'https://www.data.gouv.fr/api/1'
+export API_KEY = 'my-api-key'
+export ORG = '5bbb6d6cff66bd4dc17bfd5a'
+export DATASET = '5bc04b2cff66bd680e499f4a'
+export RESOURCE = '54d47250-1daf-483b-965a-3013f8c76617'
+```
+{% endtab %}
+
+{% tab title="Python" %}
+```python
+# Tous les examples Python sont executés avec cette convention
+
+import requests  # installé avec `pip install requests`
+
+API = 'https://www.data.gouv.fr/api/1'
+API_KEY = 'my-api-key'
+ORG = '5bbb6d6cff66bd4dc17bfd5a'
+DATASET = '5bc04b2cff66bd680e499f4a'
+RESOURCE = '54d47250-1daf-483b-965a-3013f8c76617'
+HEADERS = {
+    'X-API-KEY': API_KEY,
+}
 
 
+def api_url(path):
+    return ''.join(API, path)
+```
+{% endtab %}
+{% endtabs %}
 
 ## Création d’un jeu de données <a href="#creation-dun-jeu-de-donnees" id="creation-dun-jeu-de-donnees"></a>
 
-Pour créer un jeu de données, nous allons utiliser l’API de [création de jeu de données](https://doc.data.gouv.fr/api/reference/#/datasets/create\_dataset).
+Pour créer un jeu de données, nous allons utiliser l’API de création de jeu de données.
 
-CURL
-
+{% tabs %}
+{% tab title="CURL" %}
 ```bash
 curl -H "Content-Type:application/json" \
      -H "Accept:application/json" \
@@ -63,10 +74,31 @@ curl -H "Content-Type:application/json" \
      --data '{"title": "my title", "description": "My description", "organization": "$ORG"}' \
      -X POST $API/datasets/
 ```
+{% endtab %}
 
-HTTPiePython
+{% tab title="HTTPie" %}
+```bash
+http POST $API/datasets/ \
+     X-Api-Key:$API_KEY \
+     title="Mon titre" \
+     description="Ma description" \
+     organization=$ORG
+```
+{% endtab %}
 
-La réponse en JSON contient les metadonnées du jeu de données créé, en particulier l’identifiant et le slug.
+{% tab title="Python" %}
+```python
+url = api_url('/datasets/')
+response = requests.post(url, json={
+    'title': 'Mon titre',
+    'description': 'Ma description',
+    'organization': ORG,
+}, headers=HEADERS)
+```
+{% endtab %}
+{% endtabs %}
+
+La réponse en JSON contient les métadonnées du jeu de données créé, en particulier l’identifiant et le slug.
 
 La fiche du jeu de données est maintenant créée et il est maintenant possible d’y ajouter des ressources.
 
@@ -76,7 +108,7 @@ Par défaut, un jeu de données créé via l’API est public. Afin de créer et
 
 ## Ajout d’une ressource <a href="#ajout-dune-ressource" id="ajout-dune-ressource"></a>
 
-Pour créer une ressource, nous allons utiliser l’API [création d’une ressource](https://doc.data.gouv.fr/api/reference/#/datasets/create\_resource).
+Pour créer une ressource, nous allons utiliser l’API création d’une ressource.
 
 Il existe 2 cas de création de ressource :
 
@@ -85,27 +117,44 @@ Il existe 2 cas de création de ressource :
 
 ### **En envoyant un fichier**
 
-Nous allons utiliser l’API d’[envoi de ressource](https://doc.data.gouv.fr/api/reference/#/datasets/upload\_new\_dataset\_resource) pour envoyer le fichier.
+Nous allons utiliser l’API d’envoi de ressource pour envoyer le fichier.
 
-CURL
-
+{% tabs %}
+{% tab title="CURL" %}
 ```bash
 curl -H "Accept:application/json" \
      -H "X-Api-Key:$API_KEY" \
      -F "file=@/chemin/vers/le/fichier" \
      -X POST $API/datasets/$DATASET/upload/
 ```
+{% endtab %}
 
-HTTPiePython
+{% tab title="HTTPie" %}
+```bash
+http -f POST $API/datasets/$DATASET/upload/ \
+     X-Api-Key:$API_KEY \
+     file@/chemin/vers/le/fichier
+```
+{% endtab %}
 
-La ressource est automatiquement créée et il est possible de modifier _a posteriori_ les metadonnées avec l’[API de mise à jour de ressource](https://doc.data.gouv.fr/api/reference/#/datasets/update\_resource) comme décrit [plus bas](https://doc.data.gouv.fr/api/dataset-workflow/#mise-%C3%A0-jour-des-m%C3%A9tadonn%C3%A9es-dune-ressource)
+{% tab title="Python" %}
+```python
+url = api_url('/datasets/{}/upload/'.format(DATASET))
+response = requests.post(url, files={
+    'file': open('/chemin/vers/le/fichier', 'rb'),
+}, headers=HEADERS)
+```
+{% endtab %}
+{% endtabs %}
+
+La ressource est automatiquement créée et il est possible de modifier _a posteriori_ les métadonnées avec l’API de mise à jour de ressource comme décrit [plus bas](gestion-dun-jeu-de-donnees-par-lapi.md#mise-a-jour-des-metadonnees-dune-ressource).
 
 ### **En référençant une URL existante**
 
-L’API de [création de ressource](https://doc.data.gouv.fr/api/reference/#/datasets/create\_resource) permet de créer une ressource distante. Dans notre cas, un fichier csv hébergé sur l’URL [https://url.to/ressource.csv](https://url.to/ressource.csv).
+L’API de création de ressource permet de créer une ressource distante. Dans notre cas, un fichier csv hébergé sur l’URL [https://url.to/ressource.csv](https://url.to/ressource.csv).
 
-CURL
-
+{% tabs %}
+{% tab title="CURL" %}
 ```bash
 curl -H "Content-Type:application/json" \
      -H "Accept:application/json" \
@@ -113,8 +162,34 @@ curl -H "Content-Type:application/json" \
      --data '{"title": "my title", "description": "My description", "type": "main", filetype: "remote", "format": "csv",  "url": "https://url.to/ressource.csv"}' \
      -X POST $API/datasets/$DATASET/resources/
 ```
+{% endtab %}
 
-HTTPiePython
+{% tab title="HTTPie" %}
+```bash
+http POST $API/datasets/$DATASET/ressources/ \
+     X-Api-Key:$API_KEY \
+     title="Mon titre" \
+     description="Ma description" \
+     url="https://url.to/ressource.csv" \
+     type="main" filetype="remote" format="csv"
+```
+{% endtab %}
+
+{% tab title="Python" %}
+```python
+url = api_url('/datasets/{}/resources/'.format(DATASET))
+response = requests.post(url, json={
+    'title': 'Mon titre',
+    'description': 'Ma description',
+    'url': 'https://url.to/ressource.csv',
+    'type': 'main',
+    'filetype': 'remote',
+    'format': 'csv',
+}, headers=HEADERS)
+
+```
+{% endtab %}
+{% endtabs %}
 
 ## Modification d’un jeu de données <a href="#modification-dun-jeu-de-donnees" id="modification-dun-jeu-de-donnees"></a>
 
@@ -122,10 +197,10 @@ La suite des opérations s’appliquent sur le même jeu de données dont l’id
 
 ### Mise à jour des metadonnées de la fiche <a href="#mise-a-jour-des-metadonnees-de-la-fiche" id="mise-a-jour-des-metadonnees-de-la-fiche"></a>
 
-Cette requête permet de mettre à jour les métadonnées d’un jeu de données en utilisant [l’API de mise à jour de jeu de données](https://doc.data.gouv.fr/api/reference/#/datasets/update\_dataset)
+Cette requête permet de mettre à jour les métadonnées d’un jeu de données en utilisant l’API de mise à jour de jeu de données
 
-CURL
-
+{% tabs %}
+{% tab title="CURL" %}
 ```bash
 curl -H "Content-Type:application/json" \
      -H "Accept:application/json" \
@@ -133,15 +208,34 @@ curl -H "Content-Type:application/json" \
      --data '{"title": "Nouveau titre", "description": "Nouvelle description"}' \
      -X PUT $API/datasets/$DATASET/
 ```
+{% endtab %}
 
-HTTPiePython
+{% tab title="HTTPie" %}
+```bash
+http PUT $API/datasets/$DATASET/ \
+     X-Api-Key:$API_KEY \
+     title="Nouveau titre" \
+     description="Nouvelle description"
+```
+{% endtab %}
+
+{% tab title="Python" %}
+```python
+url = api_url('/datasets/{}/'.format(DATASET))
+response = requests.put(url, json={
+    'title': 'Nouveau titre',
+    'description': 'Nouvelle description',
+}, headers=HEADERS)
+```
+{% endtab %}
+{% endtabs %}
 
 ### Mise à jour des métadonnées d’une ressource <a href="#mise-a-jour-des-metadonnees-dune-ressource" id="mise-a-jour-des-metadonnees-dune-ressource"></a>
 
-Cette requête permet de mettre à jour les métadonnées d’une ressource en utilisant [l’API de mise à jour de ressource](https://doc.data.gouv.fr/api/reference/#/datasets/update\_resource)
+Cette requête permet de mettre à jour les métadonnées d’une ressource en utilisant l’API de mise à jour de ressource
 
-CURL
-
+{% tabs %}
+{% tab title="CURL" %}
 ```bash
 curl -H "Content-Type:application/json" \
      -H "Accept:application/json" \
@@ -149,57 +243,119 @@ curl -H "Content-Type:application/json" \
      --data '{"title": "Nouveau titre", "description": "Nouvelle description"}' \
      -X PUT $API/datasets/$DATASET/resources/$RESOURCE/
 ```
+{% endtab %}
 
-HTTPiePython
+{% tab title="HTTPie" %}
+```bash
+http PUT $API/datasets/$DATASET/resources/$RESOURCE/ \
+     X-Api-Key:$API_KEY \
+     title="Nouveau titre" \
+     description="Nouvelle description"
+```
+{% endtab %}
+
+{% tab title="Python" %}
+```python
+url = api_url('/datasets/{}/resources/{}/'.format(DATASET, RESOUCE))
+response = requests.put(url, json={
+    'title': 'Nouveau titre',
+    'description': 'Nouvelle description',
+}, headers=HEADERS)
+```
+{% endtab %}
+{% endtabs %}
 
 ### Remplacer un fichier de ressource <a href="#remplacer-un-fichier-de-ressource" id="remplacer-un-fichier-de-ressource"></a>
 
-Dans le cas d’une mise à jour de fichier de ressource locale (correction, ajout de données…),il est possible d’utiliser [l’API de mise à jour de fichier](https://doc.data.gouv.fr/api/reference/#/datasets/upload\_dataset\_resource). L’ancien fichier sera supprimé.
+Dans le cas d’une mise à jour de fichier de ressource locale (correction, ajout de données…),il est possible d’utiliser l’API de mise à jour de fichier. L’ancien fichier sera supprimé.
 
-CURL
-
+{% tabs %}
+{% tab title="CURL" %}
 ```bash
 curl -H "Accept:application/json" \
      -H "X-Api-Key:$API_KEY" \
      -F "file=@/chemin/vers/le/nouveau/fichier" \
      -X POST $API/datasets/$DATASET/resources/$RESOURCE/upload/
 ```
+{% endtab %}
 
-HTTPiePython
+{% tab title="HTTPie" %}
+```bash
+http -f POST $API/datasets/$DATASET/resources/$RESOURCE/upload/ \
+     X-Api-Key:$API_KEY \
+     file@/chemin/vers/le/nouveau/fichiers
+```
+{% endtab %}
+
+{% tab title="Python" %}
+```python
+url = api_url('/datasets/{}/resources/{}/upload/'.format(DATASET, RESOURCE))
+response = requests.post(url, files={
+    'file': open('/chemin/vers/le/nouveau/fichier', 'rb'),
+}, headers=HEADERS)
+```
+{% endtab %}
+{% endtabs %}
 
 ### Signaler une mise à jour de fichier distant <a href="#signaler-une-mise-a-jour-de-fichier-distant" id="signaler-une-mise-a-jour-de-fichier-distant"></a>
 
 Dans le cas d’une ressource distante, lorsque le fichier distant est mis à jour, il est important de le signaler afin que la fiche soit mise à jour et que les usagers le sache.
 
-**🚧 Bientôt 🚧**
+**🚧 A venir 🚧**
 
 ### Suppression d’une ressource <a href="#suppression-dune-ressource" id="suppression-dune-ressource"></a>
 
-[l’API de suppression de ressource](https://doc.data.gouv.fr/api/reference/#/datasets/delete\_resource) permet de supprimer une ressource de la fiche d’un jeu de données. Le fichier associé est aussi supprimé.
+l’API de suppression de ressource permet de supprimer une ressource de la fiche d’un jeu de données. Le fichier associé est aussi supprimé.
 
-CURL
-
+{% tabs %}
+{% tab title="CURL" %}
 ```bash
 curl -H "Accept:application/json" \
      -H "X-Api-Key:$API_KEY" \
      -X DELETE $API/datasets/$DATASET/resources/$RESOURCE
 ```
+{% endtab %}
 
-HTTPiePython
+{% tab title="HTTPie" %}
+```bash
+http DELETE $API/datasets/$DATASET/ressources/$RESOURCE/ X-Api-Key:$API_KEY
+```
+{% endtab %}
+
+{% tab title="Python" %}
+```python
+url = api_url('/datasets/{}/resources/{}/'.format(DATASET, RESOURCE))
+response = requests.delete(url, headers=HEADERS)
+```
+{% endtab %}
+{% endtabs %}
 
 ## Suppression d’un jeu de données <a href="#suppression-dun-jeu-de-donnees" id="suppression-dun-jeu-de-donnees"></a>
 
-Pour supprimer un jeu de données, il suffit d’utiliser l’API de [suppression de jeu de données](https://doc.data.gouv.fr/api/reference/#/datasets/delete\_dataset):
+Pour supprimer un jeu de données, il suffit d’utiliser l’API de suppression de jeu de données:
 
-CURL
-
+{% tabs %}
+{% tab title="CURL" %}
 ```bash
 curl -H "Accept:application/json" \
      -H "X-Api-Key:$API_KEY" \
      -X DELETE $API/datasets/$DATASET/
 ```
+{% endtab %}
 
-HTTPiePython
+{% tab title="HTTPie" %}
+```bash
+http DELETE $API/datasets/$DATASET/ X-Api-Key:$API_KEY
+```
+{% endtab %}
+
+{% tab title="Python" %}
+```python
+url = api_url('/datasets/{}/'.format(DATASET))
+response = requests.delete(url, headers=HEADERS)
+```
+{% endtab %}
+{% endtabs %}
 
 Le jeu de données est maintenant **marqué comme supprimé**, il reste visible uniquement par vous et les membres de votre organisation, ainsi que par l’équipe d’administrateur de data.gouv.fr. Il sera purgé (supprimé définitivement de la plateforme), d’ici la fin de la journée.
 
@@ -207,4 +363,4 @@ Le jeu de données est maintenant **marqué comme supprimé**, il reste visible 
 
 Tant que le jeu de données n’a pas été purgé, vous avez la possibilité de le restaurer:
 
-**🚧 Bientôt 🚧**
+**🚧 A venir 🚧**

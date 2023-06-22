@@ -41,7 +41,7 @@ Pour transférer un jeu de données publié avec votre propre compte, à titre p
 
 ## Transférer un jeu de données
 
-Un jeu de données publié au nom d’un individu ou d’une organisation peut être [transféré vers un autre individu ou une autre organisation](https://doc.data.gouv.fr/jeux-de-donnees/transferer-un-jeu-de-donnees/).
+Un jeu de données publié au nom d’un individu ou d’une organisation peut être transféré vers un autre individu ou une autre organisation.
 
 <details>
 
@@ -81,7 +81,7 @@ Pour accepter une demande de transfert vers votre compte :
 
 ## Supprimer un jeu de données ou une ressource
 
-Vous pouvez [supprimer un jeu de données, ou l’une des ressources qui le compose](https://doc.data.gouv.fr/jeux-de-donnees/mettre-a-jour-un-jeu-de-donnees-ou-une-ressource/), si vous êtes l’auteur du jeu de données en question, ou si vous appartenez à l’organisation qui en est à l’origine.&#x20;
+Vous pouvez supprimer un jeu de données, ou l’une des ressources qui le compose, si vous êtes l’auteur du jeu de données en question, ou si vous appartenez à l’organisation qui en est à l’origine.&#x20;
 
 {% hint style="danger" %}
 **La suppression d’un jeu de données ou d’une ressource est irréversible**

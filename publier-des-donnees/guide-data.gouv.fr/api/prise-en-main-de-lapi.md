@@ -50,7 +50,7 @@ Le slug d’un objet peut-être amené à changer si le producteur change le nom
 
 Les listes simples sont renvoyées sous forme d’une liste JSON.
 
-Par exemple, [la liste des types de réutilisations](https://doc.data.gouv.fr/api/reference/#/reuses/reuse\_types):
+Par exemple, la liste des types de réutilisations:
 
 ```
 [
