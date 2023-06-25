@@ -18,6 +18,68 @@ La qualité de votre jeu de données est fondamentale pour qu’il soit réutili
 
 Les données publiées sur data.gouv.fr peuvent être mises à jour après leur publication, que la modification porte sur un jeu de données (sa description, ses tags, etc.) ou sur l’une des ressources qu’il contient.
 
+<details>
+
+<summary>Comment modifier un jeu de données ?</summary>
+
+Pour mettre à jour un jeu de données publié avec votre propre compte, à titre personnel :
+
+1. [Connectez-vous à votre compte](https://www.data.gouv.fr/fr/login) ;
+2. Rendez-vous sur [votre tableau de bord](https://www.data.gouv.fr/fr/admin/), en cliquant sur **Administration** en haut à droite de votre écran ;
+3. Allez sur [la page de suivi de votre compte](https://www.data.gouv.fr/fr/admin/me/edit), en cliquant sur **Profil**, dans la colonne de gauche ;
+4. Naviguez jusqu’à la section **Jeux de données** située en milieu de page ;
+5. Cliquez sur le jeu de données que vous souhaitez modifier ;
+6. Cliquez sur le bouton **Éditer**, en haut à droite de votre écran ;
+7. Modifiez les champs que vous souhaitez mettre à jour ;
+8. Pour sauvegarder vos modifications, cliquez sur le bouton **Enregistrer** qui se trouve en bas à droite de la page.
+
+Pour modifier un jeu de données publié au nom d’une organisation à laquelle vous appartenez :
+
+1. [Connectez-vous à votre compte](https://www.data.gouv.fr/fr/login) ;
+2. Rendez-vous sur [votre tableau de bord](https://www.data.gouv.fr/fr/admin/), en cliquant sur **Administration** en haut à droite de votre écran ;
+3. Allez sur la page de suivi de votre organisation, en cliquant sur le nom de votre organisation, dans la colonne de gauche ;
+4. Naviguez jusqu’à la section **Jeux de données** située en milieu de page ;
+5. Cliquez sur le jeu de données que vous souhaitez supprimer ;
+6. Cliquer sur le bouton **Éditer**, en haut à droite de votre écran ;
+7. Modifiez les champs que vous souhaitez mettre à jour ;
+8. Pour sauvegarder vos modifications, cliquez sur le bouton **Enregistrer** qui se trouve en bas à droite de la page.
+
+</details>
+
+<details>
+
+<summary>Comment modifier une ressource ?</summary>
+
+Pour modifier une ressource publiée avec votre propre compte, à titre personnel :
+
+1. [Connectez-vous à votre compte](https://www.data.gouv.fr/fr/login) ;
+2. Rendez-vous sur [votre tableau de bord](https://www.data.gouv.fr/fr/admin/), en cliquant sur **Administration** en haut à droite de votre écran ;
+3. Allez sur [la page de suivi de votre compte](https://www.data.gouv.fr/fr/admin/me/edit), en cliquant sur **Profil**, dans la colonne de gauche ;
+4. Naviguez jusqu’à la section **Jeux de données** située en milieu de page ;
+5. Cliquez sur le jeu de données qui contient la ressource à modifier ;
+6. Naviguez jusqu’à la section **Ressources** située en milieu de page ;
+7. Cliquez sur la ressource à modifier ;
+8. Cliquez sur le bouton **Éditer** dans la fenêtre qui s’affiche alors en superposition sur votre écran ;
+9. Modifiez les champs que vous souhaitez mettre à jour ;
+10. Pour sauvegarder vos modifications, cliquez sur le bouton **Enregistrer** qui se trouve en bas à droite de la fenêtre.
+
+Pour modifier une ressource publiée au nom d’une organisation à laquelle vous appartenez :
+
+1. [Connectez-vous à votre compte](https://www.data.gouv.fr/fr/login) ;
+2. Rendez-vous sur [votre tableau de bord](https://www.data.gouv.fr/fr/admin/), en cliquant sur **Administration** en haut à droite de votre écran ;
+3. Allez sur la page de suivi de votre organisation, en cliquant sur le nom de votre organisation, dans la colonne de gauche ;
+4. Naviguez jusqu’à la section **Jeux de données** située en milieu de page ;
+5. Cliquez sur le jeu de données qui contient la ressource à modifier ;
+6. Naviguez jusqu’à la section **Ressources** située en milieu de page ;
+7. Cliquez sur la ressource à modifier ;
+8. Cliquez sur le bouton **Éditer** dans la fenêtre qui s’affiche alors en superposition sur votre écran ;
+9. Modifiez les champs que vous souhaitez mettre à jour ;
+10. Pour sauvegarder vos modifications, cliquez sur le bouton **Enregistrer** qui se trouve en bas à droite de la fenêtre.
+
+</details>
+
+{% embed url="https://www.loom.com/share/36127546b0b444edad76d83d05de2e15?sid=cabe9655-6b85-4d0b-b179-5e024944306a" %}
+
 ## Répondre aux discussions
 
 Lorsque vous publiez un jeu de données, tout utilisateur qui dispose d’un compte data.gouv.fr peut ouvrir des discussions sur la page du jeu de données. Ces discussions permettent aux réutilisateurs des données de poser des questions au producteur des données, de faire remonter des erreurs constatées dans le jeu de données ou de proposer des améliorations.
