@@ -133,9 +133,7 @@ Il existe plusieurs solutions pour faire de l’autocomplétion dans un outil we
 
 Vous pouvez vous appuyer sur de nombreuses bibliothèques, celles-ci étant généralement liées à des bibliothèques cartographiques.
 
-{% tabs %}
-{% tab title="Solutions basées sur Leaflet" %}
-## **Solutions basées sur Leaflet**
+#### **Solutions basées sur Leaflet**
 
 * [https://github.com/entrepreneur-interet-general/leaflet-geocoder-ban](https://github.com/entrepreneur-interet-general/leaflet-geocoder-ban)
 * [https://github.com/komoot/leaflet.photon](https://github.com/komoot/leaflet.photon)
@@ -145,10 +143,8 @@ Vous pouvez vous appuyer sur de nombreuses bibliothèques, celles-ci étant gén
 > * [https://entrepreneur-interet-general.github.io/leaflet-geocoder-ban/demo/demo\_control.html](https://entrepreneur-interet-general.github.io/leaflet-geocoder-ban/demo/demo\_control.html)
 > * [https://entrepreneur-interet-general.github.io/leaflet-geocoder-ban/demo/demo\_search\_bar.html](https://entrepreneur-interet-general.github.io/leaflet-geocoder-ban/demo/demo\_search\_bar.html)
 > * [https://gist.githack.com/ThomasG77/0b99013795f76699c5c9a0d7daf4411e/raw/a6b65c033efa73cecb3ea8473ba83aabc973d373/demo-ban-leaflet-photon.html](https://gist.githack.com/ThomasG77/0b99013795f76699c5c9a0d7daf4411e/raw/a6b65c033efa73cecb3ea8473ba83aabc973d373/demo-ban-leaflet-photon.html)
-{% endtab %}
 
-{% tab title="Solutions basées sur OpenLayers" %}
-## **Solutions basées sur OpenLayers**
+#### **Solutions basées sur OpenLayers**
 
 * [https://github.com/webgeodatavore/photon-geocoder-autocomplete](https://github.com/webgeodatavore/photon-geocoder-autocomplete)
 * [https://viglino.github.io/ol-ext/examples/search/map.control.searchban.html](https://viglino.github.io/ol-ext/examples/search/map.control.searchban.html)
@@ -156,10 +152,8 @@ Vous pouvez vous appuyer sur de nombreuses bibliothèques, celles-ci étant gén
 > **Exemples :**
 >
 > * [https://raw.githack.com/webgeodatavore/photon-geocoder-autocomplete/master/demo/index-ol.html](https://raw.githack.com/webgeodatavore/photon-geocoder-autocomplete/master/demo/index-ol.html)
-{% endtab %}
 
-{% tab title="Solutions indépendantes de bibliothèques cartographiques" %}
-## **Solutions indépendantes de bibliothèques cartographiques**
+#### **Solutions indépendantes de bibliothèques cartographiques**
 
 * [https://github.com/webgeodatavore/photon-geocoder-autocomplete](https://github.com/webgeodatavore/photon-geocoder-autocomplete)
 
@@ -169,8 +163,6 @@ Vous pouvez vous appuyer sur de nombreuses bibliothèques, celles-ci étant gén
 > * [Exemple avec OpenLayers, mais non lié à OpenLayers](https://gist.githack.com/ThomasG77/0b99013795f76699c5c9a0d7daf4411e/raw/a6b65c033efa73cecb3ea8473ba83aabc973d373/demo-ban-openlayers.html)
 > * [Formulaire exemple 1](https://raw.githack.com/webgeodatavore/photon-geocoder-autocomplete/master/demo/index-no-map.html)
 > * [Formulaire exemple 2](https://gist.githack.com/ThomasG77/0b99013795f76699c5c9a0d7daf4411e/raw/a6b65c033efa73cecb3ea8473ba83aabc973d373/demo-ban-form-only-alternate.html)
-{% endtab %}
-{% endtabs %}
 
 ## Comment faire du **géocodage par adresse unitaire ?** <a href="#comment-faire-du-geocodage-par-adresse-unitaire" id="comment-faire-du-geocodage-par-adresse-unitaire"></a>
 
@@ -187,9 +179,7 @@ Lorsqu'on choisit cette option, on privilégie l'appel par le endpoint CSV de l'
 
 Il faut préalablement s'assurer que son CSV est bien formaté : il s'avère que le géocodage peut ponctuellement dysfonctionner si le CSV n'est pas bien formaté.
 
-{% tabs %}
-{% tab title="Option manuelle" %}
-## Option manuelle <a href="#option-manuelle" id="option-manuelle"></a>
+#### **Option manuelle** <a href="#option-manuelle" id="option-manuelle"></a>
 
 Il existe une interface graphique pour envoyer des fichiers CSV sur [https://adresse.data.gouv.fr/csv](https://adresse.data.gouv.fr/csv) dont la taille maximum est de 50Mo.&#x20;
 
@@ -198,24 +188,18 @@ Pour tester, téléchargeons [le fichier exemple](https://gist.githubusercontent
 ![](https://guides.etalab.gouv.fr/assets/img/geocodage-csv-manuel.ecc04ebd.gif)
 
 Pour réaliser un géocodage massif, il faut généralement vérifier le formatage de votre CSV.
-{% endtab %}
 
-{% tab title="Python seul" %}
-## **Python seul** <a href="#python-seul" id="python-seul"></a>
+#### **Python seul**
 
 * Solution partant d'appels unitaires plutôt que des appels CSV :  [https://github.com/MTES-MCT/bulk-geocoding-python-client](https://github.com/MTES-MCT/bulk-geocoding-python-client)
 * Solution partant d'appels à l'API CSV. Il suffit de récupérer [le zip](https://gist.github.com/ThomasG77/32329a8557135f11cb5656e3bfd4d35c/archive/3681bd0c070540abfdae55e6ff0bf9a41795cf42.zip), de décompresser le fichier. Ensuite, il vous suffit de lancer le script Python avec `python chunk-csv-python.py`. Cela permettra de faire l'appel vers l'API CSV soit en une fois, soit en plusieurs phases. On obtiendra ainsi le fichier `annuaire-des-debits-de-tabac-2018-utf8-20lines.geocoded.csv` qui est la version géocodée par l'API CSV d'un fichier de 20 lignes ainsi que `myresults.csv` qui est une version qui résulte d'une phase de découpage d'un gros fichier en plusieurs morceaux, d'appels à l'API CSV à partir de chacun de ces fichiers, puis du réassemblage des fichiers ainsi retournés. Vous n'avez plus qu'à adapter le code du fichier `chunk-csv-python.py`.
 * [https://github.com/MTES-MCT/bulk-geocoding-python-client](https://github.com/MTES-MCT/bulk-geocoding-python-client) (attention, la solution fait des appels unitaires plutôt que des appels CSV)
-{% endtab %}
 
-{% tab title="JavaScript" %}
-## **JavaScript** <a href="#javascript" id="javascript"></a>
+#### **JavaScript** <a href="#javascript" id="javascript"></a>
 
 * Géocodage massif avec une solution en ligne de commande utilisant Node.js :  [https://github.com/jdesboeufs/addok-geocode-stream](https://github.com/jdesboeufs/addok-geocode-stream)
-{% endtab %}
 
-{% tab title="Autres outils utilisant la BAN" %}
-## Autres outils utilisant la BAN <a href="#autres-outils-utilisant-la-ban" id="autres-outils-utilisant-la-ban"></a>
+#### **Autres outils utilisant la BAN** <a href="#autres-outils-utilisant-la-ban" id="autres-outils-utilisant-la-ban"></a>
 
 **--> Vous faites du SIG, néophyte comme expert et utilisez le logiciel SIG QGIS ?**
 
@@ -227,8 +211,6 @@ Pour réaliser un géocodage massif, il faut généralement vérifier le formata
 
 * Vous faites du R ? [https://cran.r-project.org/web/packages/banR/index.html](https://cran.r-project.org/web/packages/banR/index.html)
 * Vous souhaitez intégrer la recherche dans le CMS SPIP ? [http://plugins.spip.net/gisban.html](http://plugins.spip.net/gisban.html)
-{% endtab %}
-{% endtabs %}
 
 ## Que faire lorsqu'on est un gros consommateur de l’API [api-adresse.data.gouv.fr](http://api-adresse.data.gouv.fr/) ? <a href="#gros-consommateurs-de-l-api-api-adresse-data-gouv-fr" id="gros-consommateurs-de-l-api-api-adresse-data-gouv-fr"></a>
 
