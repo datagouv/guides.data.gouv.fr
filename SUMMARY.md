@@ -53,6 +53,7 @@
   * [Réutilisations](publier-des-donnees/guide-data.gouv.fr/reutilisations/README.md)
     * [Publier une réutilisation](publier-des-donnees/guide-data.gouv.fr/reutilisations/publier-une-reutilisation.md)
     * [Gérer une réutilisation](publier-des-donnees/guide-data.gouv.fr/reutilisations/gerer-une-reutilisation.md)
+  * [Ressource communautaire](publier-des-donnees/guide-data.gouv.fr/ressource-communautaire.md)
   * [Moissonnage](publier-des-donnees/guide-data.gouv.fr/moissonnage/README.md)
     * [Comprendre les limites du moissonnage](publier-des-donnees/guide-data.gouv.fr/moissonnage/comprendre-les-limites-du-moissonnage.md)
     * [Les différents types de moissonneurs](publier-des-donnees/guide-data.gouv.fr/moissonnage/les-differents-types-de-moissonneurs.md)
