@@ -40,7 +40,7 @@ Une fois que le jeu de données a été créé, vous pouvez y ajouter des `resso
 Exemple de commande :
 
 ```
-curl --request POST --url https://data.gouv.fr/api/1/datasets/<dataset-id>/upload/ --header ’content-type: multipart/form-data’ --header ’x-api-key: <api-key>’ --form "file=<chemin du fichier à téléverser>"
+curl --request POST --url https://data.gouv.fr/api/1/datasets/<dataset-id>/upload/ --header "content-type: multipart/form-data" --header "x-api-key: <api-key>" --form "file=@<chemin du fichier à téléverser>"
 ```
 
 **Nom (`title` dans l’API)**
