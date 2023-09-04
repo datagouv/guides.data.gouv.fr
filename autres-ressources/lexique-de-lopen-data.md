@@ -34,6 +34,30 @@ Une API est une interface, un contrat passé entre deux systèmes informatiques 
 
 ## B
 
+<details>
+
+<summary>Base Adresse Nationale</summary>
+
+La Base Adresse Nationale est l’une des neuf bases de données du [service public des données de référence](https://www.data.gouv.fr/fr/reference). Elle est la seule base de données d’adresses officiellement reconnue par l’administration.
+
+Sous co-pilotage DINUM, ANCT et IGN, sa construction est assurée grâce à de nombreux partenaires et en premier lieu par les communes, seules autorités compétentes en terme d’adressage.
+
+La Base Adresse Nationale est accessible sous forme de fichiers et d’API.
+
+Un [service de géocodage gratuit](https://adresse.data.gouv.fr/api) est mis à disposition par Etalab.
+
+</details>
+
+<details>
+
+<summary>Base Adresse Locale</summary>
+
+Fichier géré par une collectivité locale (habituellement une commune ou un EPCI) et contenant toutes ses adresses géolocalisées. Une Base Adresse Locale publiée et à jour garantit une meilleure prise en compte des adresses dans les différents systèmes d’information des acteurs, qu’ils soient privés ou publics.\
+\
+Depuis 2019, les Bases Adresses Locales sont prioritaires dans la Base Adresse Nationale : une commune qui publie sa Base Adresse Locale devient la seule source d'adresses sur son territoire.
+
+</details>
+
 ## C
 
 ## D
