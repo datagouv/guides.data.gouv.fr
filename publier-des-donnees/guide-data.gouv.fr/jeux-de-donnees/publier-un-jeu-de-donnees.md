@@ -1,5 +1,9 @@
 # Publier un jeu de données
 
+{% hint style="info" %}
+En amont de la publication de données sur data.gouv.fr, il est important de bien préparer le jeu de données. Pour ce faire, nous vous invitons à consulter [guide qualité](../../guide-qualite/).
+{% endhint %}
+
 Plusieurs modes de mises en ligne sont possibles sur la plateforme data.gouv.fr :&#x20;
 
 * **Publication manuelle sur data.gouv.fr**&#x20;
@@ -27,7 +31,8 @@ La publication par l’API vous donne un contrôle total sur le contenu de chaqu
 </details>
 
 {% hint style="info" %}
-En amont de la publication de données sur data.gouv.fr, il est important de bien préparer le jeu de données. Pour ce faire, nous vous invitons à consulter [guide qualité](../../guide-qualite/).
+Certains jeux de données font l'objet de spécificités pour leur publication, comme les **Bases Adresses Locales**.\
+La procédure de publication des Bases Adresses Locales est détaillée dans cette page.
 {% endhint %}
 
 {% tabs %}

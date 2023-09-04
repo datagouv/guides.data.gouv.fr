@@ -50,6 +50,7 @@
     * [Gérer un jeu de données](publier-des-donnees/guide-data.gouv.fr/jeux-de-donnees/gerer-un-jeu-de-donnees.md)
     * [Explorer un jeu de donnée](publier-des-donnees/guide-data.gouv.fr/jeux-de-donnees/explorer-un-jeu-de-donnee.md)
     * [Télécharger le catalogue de données de data.gouv.fr](publier-des-donnees/guide-data.gouv.fr/jeux-de-donnees/telecharger-le-catalogue-de-donnees-de-data.gouv.fr.md)
+    * [Publier une Base Adresse Locale](publier-des-donnees/guide-data.gouv.fr/jeux-de-donnees/publier-une-base-adresse-locale.md)
   * [Réutilisations](publier-des-donnees/guide-data.gouv.fr/reutilisations/README.md)
     * [Publier une réutilisation](publier-des-donnees/guide-data.gouv.fr/reutilisations/publier-une-reutilisation.md)
     * [Gérer une réutilisation](publier-des-donnees/guide-data.gouv.fr/reutilisations/gerer-une-reutilisation.md)
