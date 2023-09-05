@@ -1,10 +1,27 @@
 # Structurer une Base Adresse Locale
 
+{% hint style="info" %}
+**Lexique : Base Adresse Locale**\
+Fichier géré par une collectivité locale (habituellement une commune ou un EPCI) et contenant toutes ses adresses géolocalisées. Elle respecte le schéma Base Adresse Locale et une gouvernance qui prévoit que la commune est au centre du dispositif.\
+\
+Cette base est publiée sous sa responsabilité, ce qui lui confère un caractère officiel.\
+\
+Depuis 2019, les Bases Adresses Locales sont prioritaires dans la Base Adresse Nationale : une commune qui publie sa Base Adresse Locale devient la seule source d'adresses sur son territoire.\
+\
+
+{% endhint %}
+
+<figure><img src="../../../../.gitbook/assets/schema-donnees-ban.681a4c32.svg" alt=""><figcaption><p>Schéma de constitution de la BAN</p></figcaption></figure>
+
 ## Respecter le schéma de données
 
 Les Bases Adresses Locales correspondent à un [schéma de données établi](https://schema.data.gouv.fr/etalab/schema-bal/). Il est conseillé de le suivre au plus près.&#x20;
 
 Ce format garantit une intégration réussie des Bases Adresses Locales dans la Base Adresse Nationale.
+
+Une seule Base Adresse Locale est publiée par commune.
+
+Il est important de veiller à la mise à jour régulière des adresses.
 
 {% hint style="success" %}
 Toute commune peut vérifier que son fichier d'adresses est conforme au schéma et qu'il pourra être intégré à la Base Adresse Nationale grâce au [validateur](https://adresse.data.gouv.fr/bases-locales/validateur) proposé par adresse.data.gouv.fr.\
