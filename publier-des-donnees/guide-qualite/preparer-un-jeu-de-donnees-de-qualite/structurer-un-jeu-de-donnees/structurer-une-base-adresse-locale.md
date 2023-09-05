@@ -2,9 +2,7 @@
 
 {% hint style="info" %}
 **Lexique : Base Adresse Locale**\
-Fichier géré par une collectivité locale (habituellement une commune ou un EPCI) et contenant toutes ses adresses géolocalisées. Elle respecte le schéma Base Adresse Locale et une gouvernance qui prévoit que la commune est au centre du dispositif.\
-\
-Cette base est publiée sous sa responsabilité, ce qui lui confère un caractère officiel.\
+Fichier géré par une collectivité locale (habituellement une commune ou un EPCI) et contenant toutes ses adresses géolocalisées. Elle respecte le schéma Base Adresse Locale et une gouvernance qui prévoit que la commune est au centre du dispositif. Cette base est publiée sous sa responsabilité, ce qui lui confère un caractère officiel.\
 \
 Depuis 2019, les Bases Adresses Locales sont prioritaires dans la Base Adresse Nationale : une commune qui publie sa Base Adresse Locale devient la seule source d'adresses sur son territoire.\
 \
