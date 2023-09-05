@@ -7,7 +7,7 @@ Fichier géré par une collectivité locale (habituellement une commune ou un EP
 Depuis 2019, les Bases Adresses Locales sont prioritaires dans la Base Adresse Nationale : une commune qui publie sa Base Adresse Locale devient la seule source d'adresses sur son territoire.
 {% endhint %}
 
-<figure><img src="../../../../.gitbook/assets/schema-donnees-ban.svg" alt=""><figcaption><p>Rappel : Schéma de constitution de la BAN</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/schema-donnees-ban.681a4c32.svg" alt=""><figcaption><p>Rappel : Schéma de constitution de la BAN</p></figcaption></figure>
 
 ## Respecter le schéma de données
 
