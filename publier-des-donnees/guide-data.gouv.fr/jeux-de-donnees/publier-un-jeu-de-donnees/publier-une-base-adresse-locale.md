@@ -22,6 +22,7 @@ Pour publier manuellement une Base Adresse Locale sur data.gouv.fr :&#x20;
 <figure><img src="../../../../.gitbook/assets/Capture d’écran 2023-09-04 à 18.39.07.png" alt=""><figcaption><p>Validateur BAL</p></figcaption></figure>
 
 2. Suivez ensuite la [procédure standard de publication de données sur data.gouv.fr](./#directement-sur-data.gouv.fr), en veillant à **ajouter le mot clé "base-adresse-locale".**
+3. N'oubliez pas de **mettre à jour vos données** !
 {% endtab %}
 
 {% tab title="Moissonnage" %}
@@ -33,6 +34,8 @@ Pour publier une Base Adresse Locale sur data.gouv.fr par moissonnage, les étap
 * Avant d'automatiser, **vérifiez votre fichier .csv dans le** [**validateur**](https://adresse.data.gouv.fr/bases-locales/validateur) pour vous assurer qu'il est conforme et qu'il pourra être intégré à la Base Adresse Nationale.
 
 <figure><img src="../../../../.gitbook/assets/Capture d’écran 2023-09-04 à 18.39.07 (1).png" alt=""><figcaption><p>Validateur BAL</p></figcaption></figure>
+
+* N'oubliez pas de **mettre à jour vos données** !
 
 La [documentation en ligne](https://github.com/BaseAdresseNationale/moissonneur-bal/wiki/Fonctionnement-du-moissonneur-bal) précise toutes les spécificités de cette méthode de publication.
 {% endtab %}
@@ -53,7 +56,7 @@ Elle ne requiert :&#x20;
 
 Si vous utilisez votre propre outil, il est également possible de publier via :&#x20;
 
-* Un formulaire de dépôt sur [adresse.data.gouv.fr](https://adresse.data.gouv.fr/) ;
-* L'API de dépôt.&#x20;
+* Un [formulaire de dépôt](https://adresse.data.gouv.fr/bases-locales/publication) sur adresse.data.gouv.fr ;
+* [L'API de dépôt](https://github.com/BaseAdresseNationale/api-depot/wiki/Documentation).&#x20;
 
 Pour en savoir plus, nous vous invitons à consulter [la documentation](https://doc.adresse.data.gouv.fr/mettre-a-jour-sa-base-adresse-locale/publier-une-base-adresse-locale) proposée par adresse.data.gouv.fr.
