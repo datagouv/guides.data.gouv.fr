@@ -2,37 +2,33 @@
 
 {% hint style="info" %}
 **Lexique : Base Adresse Locale**\
-Fichier géré par une collectivité locale (habituellement une commune ou un EPCI) et contenant toutes ses adresses géolocalisées. Elle respecte le schéma Base Adresse Locale et une gouvernance qui prévoit que la commune est au centre du dispositif. Cette base est publiée sous sa responsabilité, ce qui lui confère un caractère officiel.\
+Fichier géré par une collectivité locale (habituellement une commune ou un EPCI) et contenant toutes ses adresses géolocalisées. Elle respecte le schéma Base Adresse Locale et une gouvernance qui prévoit que la commune est au centre du dispositif.\
 \
-Depuis 2019, les Bases Adresses Locales sont prioritaires dans la Base Adresse Nationale : une commune qui publie sa Base Adresse Locale devient la seule source d'adresses sur son territoire.\
-\
-
+Depuis 2019, les Bases Adresses Locales sont prioritaires dans la Base Adresse Nationale : une commune qui publie sa Base Adresse Locale devient la seule source d'adresses sur son territoire.
 {% endhint %}
 
-<figure><img src="../../../../.gitbook/assets/schema-donnees-ban.681a4c32.svg" alt=""><figcaption><p>Schéma de constitution de la BAN</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/schema-donnees-ban.681a4c32.svg" alt=""><figcaption><p>Rappel : Schéma de constitution de la BAN</p></figcaption></figure>
 
 ## Respecter le schéma de données
 
-Les Bases Adresses Locales correspondent à un [schéma de données établi](https://schema.data.gouv.fr/etalab/schema-bal/). Il est conseillé de le suivre au plus près.&#x20;
-
-Ce format garantit une intégration réussie des Bases Adresses Locales dans la Base Adresse Nationale.
+Les Bases Adresses Locales correspondent à un [**schéma de données établi**](https://schema.data.gouv.fr/etalab/schema-bal/). Il est conseillé de le suivre au plus près. Le respect de ce schéma garantit une intégration réussie des Bases Adresses Locales dans la Base Adresse Nationale.
 
 Une seule Base Adresse Locale est publiée par commune.
 
-Il est important de veiller à la mise à jour régulière des adresses.
-
 {% hint style="success" %}
-Toute commune peut vérifier que son fichier d'adresses est conforme au schéma et qu'il pourra être intégré à la Base Adresse Nationale grâce au [validateur](https://adresse.data.gouv.fr/bases-locales/validateur) proposé par adresse.data.gouv.fr.\
+Toute commune peut **vérifier que son fichier d'adresses est conforme au schéma** et qu'il pourra être intégré à la Base Adresse Nationale grâce au [validateur](https://adresse.data.gouv.fr/bases-locales/validateur) proposé par adresse.data.gouv.fr.\
 \
 Il suffit de glisser le fichier contenant toutes les adresses au format .csv pour obtenir la liste des erreurs à corriger impérativement (en rouge) et des anomalies (problèmes non bloquants mais réduisant la qualité des adresses et leur utilisation).
 {% endhint %}
 
 {% hint style="info" %}
-Un outil est mis à disposition pour permettre à toutes les communes de gérer directement leurs adresses/bases adresses locales en respectant les normes sans besoin de compétences techniques : [**l'éditeur "Mes Adresses"**](https://mes-adresses.data.gouv.fr/). Il permet à la fois de publier et de modifier sa Base Adresse Locale. La transmission des adresses à la Base Adresse Nationale se fait en temps réel.&#x20;
+**Il est recommandé d'utiliser** [**l'éditeur "Mes Adresses"**](https://mes-adresses.data.gouv.fr/), conçu pour permettre à toutes les communes de gérer directement leurs adresses/bases adresses locales en respectant les normes et le schéma sans besoin de compétences techniques. Il permet à la fois de publier et de modifier sa Base Adresse Locale. La transmission des adresses à la Base Adresse Nationale se fait en temps réel.&#x20;
 
 \
-Celui-ci est gratuit, open source et simple d'utilisation.&#x20;
+L'outil est gratuit, open source et simple d'utilisation.&#x20;
 {% endhint %}
+
+<figure><img src="../../../../.gitbook/assets/Sep-04-2023 18-35-27 (1).gif" alt=""><figcaption><p>L'éditeur "Mes Adresses"</p></figcaption></figure>
 
 ## Suivre les bonnes pratiques&#x20;
 
