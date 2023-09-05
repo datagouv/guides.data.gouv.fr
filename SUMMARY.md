@@ -8,7 +8,7 @@
   * [Evaluer le niveau de qualité d'un jeu de données](publier-des-donnees/guide-qualite/evaluer-le-niveau-de-qualite-dun-jeu-de-donnees.md)
   * [Préparer un jeu de données de qualité](publier-des-donnees/guide-qualite/preparer-un-jeu-de-donnees-de-qualite/README.md)
     * [Extraire un jeu de données d'un système d'information](publier-des-donnees/guide-qualite/preparer-un-jeu-de-donnees-de-qualite/extraire-un-jeu-de-donnees-dun-systeme-dinformation.md)
-    * [Structurer un jeu de données](publier-des-donnees/guide-qualite/preparer-un-jeu-de-donnees-de-qualite/structurer-un-jeu-de-donnees/README.md)
+    * [Structurer un jeu de données](publier-des-donnees/guide-qualite/preparer-un-jeu-de-donnees-de-qualite/structurer-un-jeu-de-donnees.md)
       * [Structurer une Base Adresse Locale](publier-des-donnees/guide-qualite/preparer-un-jeu-de-donnees-de-qualite/structurer-un-jeu-de-donnees/structurer-une-base-adresse-locale.md)
     * [Lier des données à un référentiel](publier-des-donnees/guide-qualite/preparer-un-jeu-de-donnees-de-qualite/lier-des-donnees-a-un-referentiel.md)
   * [Documenter des données](publier-des-donnees/guide-qualite/documenter-des-donnees/README.md)

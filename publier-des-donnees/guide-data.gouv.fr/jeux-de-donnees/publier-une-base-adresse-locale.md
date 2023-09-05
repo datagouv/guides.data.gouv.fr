@@ -9,7 +9,7 @@ Depuis 2019, les Bases Adresses Locales sont prioritaires dans la Base Adresse N
 
 ## Marche à suivre
 
-Deux méthodes de publication d'une Base Adresse Locale pour intégration dans la [Base Adresse Nationale](https://www.data.gouv.fr/fr/datasets/base-adresse-nationale/) sont possibles sur data.gouv.fr :
+Deux méthodes de publication d'une Base Adresse Locale sont possibles sur data.gouv.fr :
 
 {% tabs %}
 {% tab title="Publication manuelle" %}
@@ -40,7 +40,7 @@ La [documentation en ligne](https://github.com/BaseAdresseNationale/moissonneur-
 
 ## Autres méthodes de publication
 
-D'autres méthodes permettent de publier une Base Adresse Locale pour intégration dans la [Base Adresse Nationale](https://www.data.gouv.fr/fr/datasets/base-adresse-nationale/).
+D'autres méthodes permettent de publier une Base Adresse Locale dans la [Base Adresse Nationale](https://www.data.gouv.fr/fr/datasets/base-adresse-nationale/).
 
 **Il est notamment recommandé d'utiliser** [**l'éditeur "Mes Adresses"**](https://mes-adresses.data.gouv.fr/)**.** "Mes Adresses" permet de gérer en ligne (gratuitement), sur un simple navigateur web, une Base Adresse Locale communale et de transmettre des modifications en temps réel à la Base Adresse Nationale.&#x20;
 
