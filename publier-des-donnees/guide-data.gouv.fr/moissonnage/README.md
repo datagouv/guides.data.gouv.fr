@@ -11,7 +11,7 @@ Le service de moissonnage mis à votre disposition permet de référencer sur da
 #### Quand utiliser le service de moissonnage ? <a href="#quand-utiliser-le-service-de-moissonnage" id="quand-utiliser-le-service-de-moissonnage"></a>
 
 Si vous mettez en ligne des données publiques sur une plateforme ouverte, dans un format dont les métadonnées correspondent à la syntaxe ODS, CKAN, ou DCAT vous pouvez les référencer automatiquement sur data.gouv.fr en utilisant notre service de moissonnage.\
-Voir la différence entre [API et moissonnage](../jeux-de-donnees/publier-un-jeu-de-donnees.md).&#x20;
+Voir la différence entre [API et moissonnage](../jeux-de-donnees/publier-un-jeu-de-donnees/).&#x20;
 {% endhint %}
 
 Dans cette section, vous apprendrez comment publier un catalogue de données existant par moissonnage.

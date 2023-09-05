@@ -1,7 +1,7 @@
 # Publier un jeu de données
 
 {% hint style="info" %}
-En amont de la publication de données sur data.gouv.fr, il est important de bien préparer le jeu de données. Pour ce faire, nous vous invitons à consulter [guide qualité](../../guide-qualite/).
+En amont de la publication de données sur data.gouv.fr, il est important de bien préparer le jeu de données. Pour ce faire, nous vous invitons à consulter [guide qualité](../../../guide-qualite/).
 {% endhint %}
 
 Plusieurs modes de mises en ligne sont possibles sur la plateforme data.gouv.fr :&#x20;
@@ -32,7 +32,7 @@ La publication par l’API vous donne un contrôle total sur le contenu de chaqu
 
 {% hint style="info" %}
 Certains jeux de données font l'objet de spécificités pour leur publication, comme les **Bases Adresses Locales**.\
-La procédure de publication des Bases Adresses Locales est détaillée dans cette page.
+La procédure de publication d'une Base Adresse Locale est détaillée dans [cette page](publier-une-base-adresse-locale.md).
 {% endhint %}
 
 {% tabs %}
@@ -68,7 +68,7 @@ Lors de l’étape **“Ajoutez vos ressources”**, deux options vous sont prop
 1. Vous pouvez télécharger vos ressources depuis votre ordinateur vers le serveur de data.gouv.fr. Vos ressources seront alors hébergées sur les serveurs de data.gouv.fr.
 2. Vous pouvez créer un lien vers une ressource distante existante. Les informations contenues dans le fichier resteront hébergées sur le serveur distant fléché.
 
-<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Par API" %}
@@ -101,7 +101,7 @@ L’utilisation de l’API de data.gouv.fr se fait par le point d’entrée raci
 
 Les appels à l’API sont soumis aux mêmes permissions que l’interface web. Par exemple, si vous souhaitez publier ou modifier un jeu de données au nom d’une organisation, vous devez appartenir à cette organisation.
 
-**La procédure pour publier des données sur data.gouv.fr par API est détaillée dans cette** [**sous-section**](../api/)**.**
+**La procédure pour publier des données sur data.gouv.fr par API est détaillée dans cette** [**sous-section**](../../api/)**.**
 {% endtab %}
 
 {% tab title="Par moissonnage" %}
@@ -126,13 +126,13 @@ Il n’est pas nécessaire de créer un moissonneur par jeu de données à impor
 
 Le principe du moissonnage sur data.gouv.fr se décompose en plusieurs étapes :
 
-1. Vous [créez un moissonneur sur data.gouv.fr](../moissonnage/mettre-en-place-un-moissonneur.md#creer-un-moissonneur) afin que data.gouv.fr suive l’activité de votre plateforme ;
+1. Vous [créez un moissonneur sur data.gouv.fr](../../moissonnage/mettre-en-place-un-moissonneur.md#creer-un-moissonneur) afin que data.gouv.fr suive l’activité de votre plateforme ;
 2. Vous publiez des données sur votre plateforme open data ;
 3. Vous demandez la validation de votre moissonneur sur [le support data.gouv.fr](https://support.data.gouv.fr/collectivite-territoriale/referencement/moissonnage#support-tree) ;
 4. La configuration du moissonneur est validée par l’équipe en charge de data.gouv.fr ;
 5. Le moissonneur de data.gouv.fr vient automatiquement récupérer les données de votre plateforme ;
 6. Les données de votre plateforme sont référencées et visibles sur data.gouv.fr. :tada:
 
-**La procédure de moissonnage est détaillée dans** [**cette sous-section**](../moissonnage/)**.**&#x20;
+**La procédure de moissonnage est détaillée dans** [**cette sous-section**](../../moissonnage/)**.**&#x20;
 {% endtab %}
 {% endtabs %}

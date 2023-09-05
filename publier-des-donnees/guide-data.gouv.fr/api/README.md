@@ -19,7 +19,7 @@ L’API de data.gouv.fr propose également des fonctionnalité complémentaires 
 
 À la différence du mode de mise à disposition directe des données sur data.gouv.fr, l’utilisation de l’API permet de réaliser des actions de manière automatisée depuis votre ordinateur ou vos serveurs. \
 Il est par conséquent conseillé d’utiliser une API lorsque la fréquence de publication d’un jeu de données est régulière.\
-Voir la différence entre [API et moissonnage](../jeux-de-donnees/publier-un-jeu-de-donnees.md).&#x20;
+Voir la différence entre [API et moissonnage](../jeux-de-donnees/publier-un-jeu-de-donnees/).&#x20;
 {% endhint %}
 
 L’utilisation de l’API de data.gouv.fr se fait par le point d’entrée racine de l’API. Afin de pouvoir exécuter des opérations d’écriture, il est nécessaire d’obtenir une clé API. Cette clé est accessible depuis les paramètres de votre profil administrateur.
