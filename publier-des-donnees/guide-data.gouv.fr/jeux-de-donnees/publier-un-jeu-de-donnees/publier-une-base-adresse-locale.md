@@ -51,7 +51,7 @@ Elle ne requiert :&#x20;
 
 <figure><img src="../../../../.gitbook/assets/Sep-04-2023 18-35-27.gif" alt=""><figcaption><p>Interface de l'éditeur "Mes Adresses"</p></figcaption></figure>
 
-Il est également possible de publier via :&#x20;
+Si vous utilisez votre propre outil, il est également possible de publier via :&#x20;
 
 * Un formulaire de dépôt sur [adresse.data.gouv.fr](https://adresse.data.gouv.fr/) ;
 * L'API de dépôt.&#x20;
