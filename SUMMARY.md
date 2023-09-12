@@ -92,6 +92,11 @@
     * [Géocoder des adresses](reutiliser-des-donnees/utiliser-les-api-geographiques/utiliser-lapi-adresse/geocoder-des-adresses.md)
   * [Utiliser l'API Découpage administratif](reutiliser-des-donnees/utiliser-les-api-geographiques/utiliser-lapi-decoupage-administratif.md)
   * [Utiliser les tuiles vectorielles](reutiliser-des-donnees/utiliser-les-api-geographiques/utiliser-les-tuiles-vectorielles.md)
+* [Autour du cadastre](reutiliser-des-donnees/autour-du-cadastre/README.md)
+  * [Historique](reutiliser-des-donnees/autour-du-cadastre/historique.md)
+  * [Usages](reutiliser-des-donnees/autour-du-cadastre/usages.md)
+  * [Autres](reutiliser-des-donnees/autour-du-cadastre/autres.md)
+  * [FAQ Cadastre](reutiliser-des-donnees/autour-du-cadastre/faq-cadastre.md)
 
 ## Autres ressources
 
