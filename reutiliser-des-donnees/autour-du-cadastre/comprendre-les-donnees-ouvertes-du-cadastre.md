@@ -1,12 +1,12 @@
 # Comprendre les données ouvertes du cadastre
 
-## Définition du cadastre
+## Définition
 
 Le cadastre est un document administratif qui recense et identifie les propriétés foncières (immeuble, maison, terrain, etc.) de chaque commune afin de permettre le calcul des impôts locaux (Ministère de l'économie, des finances et de la souveraineté industrielle et numérique).
 
 ## Les données en open data
 
-Les données ouvertes sont celles du **plan cadastral**.
+Les données ouvertes sont celles du **plan cadastral** : parcelles, sections, bâti et éléments d'habillage.
 
 Elles sont produites et publiées par la **Direction générale des finances publiques** et font partie [des données de référence du service public de la donnée](https://www.data.gouv.fr/fr/pages/spd/reference/).
 
@@ -24,7 +24,7 @@ Parcelle cadastrale : Portion de terrain appartenant à un même propriétaire. 
 
 Les données du plan cadastral constituent **des données géographiques de référence**, qui peuvent être utilisées dans tous types de cartographie. Vous pouvez notamment : 
 - Construire des zonages basés sur des données parcellaires ;
-- Intégrer les références cadastrales dans les applications ou les formulaires en ligne.
+- Intégrer les références cadastrales dans des applications ou des formulaires en ligne.
 
 Pour inspiration, ces données ont par exemple été utilisées pour développer des solutions permettant de : 
 - [Connaître le prix de vente des biens immobiliers](https://www.data.gouv.fr/fr/pages/onboarding/dvf/) ;
@@ -32,7 +32,7 @@ Pour inspiration, ces données ont par exemple été utilisées pour développer
 
 ## Comment accéder aux données
 
-Pour consulter et télécharger les données cadastrales, vous pouvez vous rendre sur : 
+Pour consulter et télécharger les données cadastrales, vous pouvez vous rendre sur (selon votre besoin) : 
 - [**cadastre.data.gouv.fr**](https://cadastre.data.gouv.fr/)
 - [**cadastre.gouv.fr**](https://www.cadastre.gouv.fr/scpc/accueil.do)
 
