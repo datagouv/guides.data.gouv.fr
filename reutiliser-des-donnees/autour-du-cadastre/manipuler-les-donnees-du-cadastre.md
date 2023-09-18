@@ -9,7 +9,7 @@ Dans cette section, nous vous guidons dans la manipulation des données du cadas
 - **faire l'intégration métiers parcelle et MAJIC (Fichiers des locaux et des parcelles des personnes morales)**
 {% endhint %}
 
-> Si vous avez d'autres questions, ou si vous souhaitez que nous vous aidions sur d'autres aspects de l'utilisation du cadastre, **[n'hésitez pas à nous les indiquer ici](https://tally.so/r/wgdoJl) pour que nous puissions compléter ce guide**. 
+> Si vous avez d'autres questions, ou si vous souhaitez que nous vous aidions sur d'autres aspects de l'utilisation du cadastre, **[n'hésitez pas à nous l'indiquer ici](https://tally.so/r/wgdoJl) pour que nous puissions compléter ce guide**. 
 
 ## Télécharger les données
 
