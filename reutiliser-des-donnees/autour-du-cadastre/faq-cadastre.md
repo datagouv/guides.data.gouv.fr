@@ -16,6 +16,14 @@ Nous ne disposons pas d'informations sur les propriétaires actuels ou anciens. 
 
 <details>
 
+<summary>Le fichier du cadastre téléchargé ne correspond pas à ma commune, comment faire ?</summary>
+
+Vous avez peut-être confondu code INSEE et code postal, dans le cadre de votre recherche. Le code INSEE est unique, alors que le code postal correspond à une ou plusieurs communes. Pour retrouver plus facilement ce code INSEE, passez plutôt par l'"aide au téléchargement" [ici](https://cadastre.data.gouv.fr/datasets/plan-cadastral-informatise) ou [ici](https://cadastre.data.gouv.fr/datasets/cadastre-etalab) selon le format de fichier souhaité. 
+
+</details>
+
+<details>
+
 <summary>Comment remonter une erreur dans les données de valeurs foncières ?</summary>
 
 Nous vous invitons à lire [la partie Questions fréquentes à ce propos](https://app.dvf.etalab.gouv.fr/faq.html). Si l'information vous paraît toujours erronnée, veuillez contacter le bureau CL2A de la DGFiP à l'adresse suivante : bureau.cl2a-dvf@dgfip.finances.gouv.fr.
