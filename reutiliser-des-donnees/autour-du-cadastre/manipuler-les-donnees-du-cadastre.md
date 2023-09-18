@@ -60,7 +60,7 @@ WFS
 
 Pour parser les données Edigeo, plusieurs méthodes sont possibles. Vous pouvez notamment :
 - [Parser en Javascript utilisé pour produire les données Etalab cadastre](https://github.com/etalab/edigeo-parser)
-- [Utiliser GDAL]
+- [Utiliser GDAL](https://gdal.org/drivers/vector/edigeo.html)
 - [Utiliser cet outil](https://github.com/DoFabien/edigeoToGeojson)
 - [Parser en Dotnet utilisé par le GIRTEC pour son intégration en base de données](https://github.com/ChristopheVergon/Integrateur_edigeo)
 
