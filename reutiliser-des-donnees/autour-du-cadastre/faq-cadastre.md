@@ -26,7 +26,7 @@ Vous avez peut-être confondu code INSEE et code postal, dans le cadre de votre 
 
 <summary>Comment remonter une erreur dans les données de valeurs foncières ?</summary>
 
-Nous vous invitons à lire [la partie Questions fréquentes à ce propos](https://app.dvf.etalab.gouv.fr/faq.html). Si l'information vous paraît toujours erronnée, veuillez contacter le bureau CL2A de la DGFiP à l'adresse suivante : bureau.cl2a-dvf@dgfip.finances.gouv.fr.
+Nous vous invitons à lire [la partie Questions fréquentes à ce propos](https://app.dvf.etalab.gouv.fr/faq.html). Si l'information vous paraît toujours erronnée, veuillez contacter le bureau CL2A de la DGFiP à l'adresse suivante : <a href="mailto:bureau.cl2a-dvf@dgfip.finances.gouv.fr">bureau.cl2a-dvf@dgfip.finances.gouv.fr</a>.
 
 </details>
 
@@ -42,6 +42,7 @@ Nous vous invitons à lire la partie [Cadre réglementaire de la publication de 
 
 <summary>Comment s'informer sur la mitoyenneté ?</summary>
 
-Nous vous invitons à consulter [cette page]. Vous pouvez également consulter le plan avec figuré sur [cadastre.gouv.fr](https://www.cadastre.gouv.fr/). 
+Nous vous invitons à consulter [cette page](https://www.service-public.fr/particuliers/vosdroits/F2415). Vous pouvez également consulter le plan avec figuré sur [cadastre.gouv.fr](https://www.cadastre.gouv.fr/). La [page de légende du cadastre](https://www.cadastre.gouv.fr/scpc/pdf/legendes/FR_fr/Legende%20du%20plan%20sur%20internet.pdf#page=3) vous permet de comprendre les figurés liés à la mitoyenneté.
+
 
 </details>

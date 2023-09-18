@@ -93,8 +93,8 @@
   * [Utiliser l'API Découpage administratif](reutiliser-des-donnees/utiliser-les-api-geographiques/utiliser-lapi-decoupage-administratif.md)
   * [Utiliser les tuiles vectorielles](reutiliser-des-donnees/utiliser-les-api-geographiques/utiliser-les-tuiles-vectorielles.md)
 * [Autour du cadastre](reutiliser-des-donnees/autour-du-cadastre/README.md)
-  * [Historique](reutiliser-des-donnees/autour-du-cadastre/historique.md)
-  * [Usages](reutiliser-des-donnees/autour-du-cadastre/usages.md)
+  * [Historique](reutiliser-des-donnees/autour-du-cadastre/comprendre-les-donnees-ouvertes-du-cadastre.md)
+  * [Usages](reutiliser-des-donnees/autour-du-cadastre/manipuler-les-donnees-du-cadastre.md)
   * [Autres](reutiliser-des-donnees/autour-du-cadastre/autres.md)
   * [FAQ Cadastre](reutiliser-des-donnees/autour-du-cadastre/faq-cadastre.md)
 
