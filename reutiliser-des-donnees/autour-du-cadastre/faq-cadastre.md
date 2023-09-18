@@ -1,29 +1,33 @@
-# FAQ Cadastre
+# Foire aux questions - Cadastre (FAQ)
 
-## Recherche de propriétaires
+> Si vous avez une autre question sur le cadastre, ou sur l'utilisation des données ouvertes du plan cadastral, [**n'hésitez pas à nous l'indiquer ici**](https://tally.so/r/wgdoJl). Nous vous répondrons à travers ce guide et cette foire aux questions.
 
-### Vous voulez connaitre un propriétaire
+<summary>Comment rechercher/connaître un propriétaire ?</summary>
 
-Nous ne disposons pas d'informations sur les propriétaires actuels ou anciens. De ce fait, nous ne pouvons pas les communiquer. Il vous est possible de demander ces informations 
+Nous ne disposons pas d'informations sur les propriétaires actuels ou anciens. De ce fait, nous ne pouvons pas les communiquer. Il vous est possible de demander ces informations.
+1. Si vous êtes une collectivité, vous pouvez [vous adresser au Service de Publicité Foncière (SPF) dont dépend votre collectivité](http://www2.impots.gouv.fr/contacts/spf/index.htm).
+2. Si vous êtes un particulier :
+   - Si vous souhaitez connaître le propriétaire d'un bien, vous pouvez obtenir cette information en demandant un extrait de propriété (payant). Les démarches sont indiquées [ici](https://www.service-public.fr/particuliers/vosdroits/F17759).
+   - Si vous êtes propriétaire et que vous cherchez certaines informations relatives à votre bien, que vous devez demander des modifications ou chercher des informations sur la mitoyenneté sur le plan ou un droit de passage, il est recommandé de [vous adresser aux impôts en passant par votre espace sécurisé](https://impots.gouv.fr). 
 
-Si vous êtes une collectivité, adressez-vous au Service de Publicité Foncière (SPF, ex-hypothèque) dont dépend votre collectivité http://www2.impots.gouv.fr/contacts/spf/index.htm
+</details>
 
-Vous êtes un particulier,
+<summary>Comment remonter une erreur dans les données de valeurs foncières ?</summary>
 
-- si vous souhaitez connaitre le propriétaire d'un bien, par exemple celui du pré ou du bien à côté, vous pouvez obtenir cette information en demandant un extrait de propriété (payant). Les démarches sont indiquées sur https://www.service-public.fr/particuliers/vosdroits/F17759. Pour trouver les coordonnées du Service de Publicité Foncière (SPF, ex-hypothèque) vous concernant, passez par http://www2.impots.gouv.fr/contacts/spf/index.htm
+Merci de lire [la partie Questions fréquentes à ce propos](https://app.dvf.etalab.gouv.fr/faq.html). Si l'information vous paraît toujours erronnée, veuillez contacter le bureau CL2A de la DGFiP à l'adresse suivante : bureau.cl2a-dvf@dgfip.finances.gouv.fr.
 
-- si vous êtes propriétaire et que vous cherchez certaines informations relatives à votre bien et que vous ne les retrouvez pas, que vous devez demander des modifications ou chercher des informations sur la mitoyenneté sur le plan ou un droit de passage, il est recommandé de vous adresser aux impôts en passant généralement par votre espace sécurisé sur <https://impots.gouv.fr>
+</details>
 
-## A propos des valeurs foncières
+<summary>Comment faire retirer les informations de vente dans les données de valeurs foncières ?</summary>
 
-- si votre demande concerne des données incorrectes dans les transactions immobilières, merci de lire [la partie Questions fréquentes à ce propos](https://app.dvf.etalab.gouv.fr/faq.html). Si l'information vous parait toujours erronnée, comme indiqué sur [le jeu de données Demandes de valeurs foncières](https://www.data.gouv.fr/fr/datasets/5c4ae55a634f4117716d5656/)
+Merci de lire la partie [Cadre réglementaire de la publication de ces informations](https://app.dvf.etalab.gouv.fr/faq.html).
 
-"Pour toute demande d’information ou toute erreur détectée, veuillez contacter le bureau CL2A de la DGFIP à l’adresse suivante : bureau.cl2a-dvf@dgfip.finances.gouv.fr"
+</details>
 
-- si vous souhaitez faire retirer les informations de vente, merci de lire la partie 
-[Cadre réglementaire de la publication de ces informations](https://app.dvf.etalab.gouv.fr/faq.html)
+</details>
 
-## A propos de la mitoyenneté
+<summary>Comment s'informer sur la mitoyenneté ?</summary>
 
-- https://www.service-public.fr/particuliers/vosdroits/F2415
-- plan avec figuré sur cadastre.gouv.fr
+Nous vous invitons à consulter [cette page]. Vous pouvez également consulter le plan avec figuré sur [cadastre.gouv.fr](https://www.cadastre.gouv.fr/). 
+
+</details>
