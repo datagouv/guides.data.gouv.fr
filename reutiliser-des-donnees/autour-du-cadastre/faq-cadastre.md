@@ -1,6 +1,6 @@
 # Foire aux questions - Cadastre (FAQ)
 
-> Si vous avez une autre question sur le cadastre, ou sur l'utilisation des données ouvertes du plan cadastral, [**n'hésitez pas à nous l'indiquer ici**](https://tally.so/r/wgdoJl). Nous vous répondrons à travers ce guide et cette foire aux questions.
+> Si vous avez une autre question sur le cadastre ou sur l'utilisation des données ouvertes du plan cadastral, [**n'hésitez pas à nous l'indiquer ici**](https://tally.so/r/wgdoJl). Nous vous répondrons à travers ce guide et cette foire aux questions.
 
 <details>
 
@@ -18,7 +18,7 @@ Nous ne disposons pas d'informations sur les propriétaires actuels ou anciens. 
 
 <summary>Comment remonter une erreur dans les données de valeurs foncières ?</summary>
 
-Merci de lire [la partie Questions fréquentes à ce propos](https://app.dvf.etalab.gouv.fr/faq.html). Si l'information vous paraît toujours erronnée, veuillez contacter le bureau CL2A de la DGFiP à l'adresse suivante : bureau.cl2a-dvf@dgfip.finances.gouv.fr.
+Nous vous invitons à lire [la partie Questions fréquentes à ce propos](https://app.dvf.etalab.gouv.fr/faq.html). Si l'information vous paraît toujours erronnée, veuillez contacter le bureau CL2A de la DGFiP à l'adresse suivante : bureau.cl2a-dvf@dgfip.finances.gouv.fr.
 
 </details>
 
@@ -26,7 +26,7 @@ Merci de lire [la partie Questions fréquentes à ce propos](https://app.dvf.eta
 
 <summary>Comment faire retirer les informations de vente dans les données de valeurs foncières ?</summary>
 
-Merci de lire la partie [Cadre réglementaire de la publication de ces informations](https://app.dvf.etalab.gouv.fr/faq.html).
+Nous vous invitons à lire la partie [Cadre réglementaire de la publication de ces informations](https://app.dvf.etalab.gouv.fr/faq.html).
 
 </details>
 
