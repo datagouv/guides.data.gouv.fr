@@ -26,7 +26,7 @@ Vous avez peut-être confondu code INSEE et code postal, dans le cadre de votre 
 
 <summary>Comment remonter une erreur dans les données de valeurs foncières ?</summary>
 
-Nous vous invitons à lire [la partie Questions fréquentes à ce propos](https://app.dvf.etalab.gouv.fr/faq.html). Si l'information vous paraît toujours erronnée, veuillez contacter le bureau CL2A de la DGFiP à l'adresse suivante : <a href="mailto:bureau.cl2a-dvf@dgfip.finances.gouv.fr">bureau.cl2a-dvf@dgfip.finances.gouv.fr</a>.
+Nous vous invitons à lire [la partie Questions fréquentes à ce propos](https://app.dvf.etalab.gouv.fr/faq.html). Si l'information vous paraît toujours erronnée, veuillez contacter le bureau CL2A de la DGFiP à l'adresse suivante : <a href="mailto:bureau.gf3b-dvf@dgfip.finances.gouv.fr">bureau.gf3b-dvf@dgfip.finances.gouv.fr</a>.
 
 </details>
 

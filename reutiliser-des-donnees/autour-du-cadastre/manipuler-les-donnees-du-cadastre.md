@@ -16,28 +16,41 @@ Dans cette section, nous vous guidons dans la manipulation des données du cadas
 {% hint style="info" %} **Les versions du plan cadastral**
 
 Il existe aujourd'hui trois versions des données du plan cadastral :
-- **la version de la Direction générale des finances publiques (DGFiP)** : elle est disponible en prenant les fichiers Edigeo, Edigeo-cc, DXF, DXF-cc et TIFF sur [cadastre.data.gouv.fr](https://cadastre.data.gouv.fr/). La DINUM est le diffuseur des données pour le compte de la DGFIP dans le cadre du Service public de la donnée (SPD);
-- **la version d'Etalab** : elle consiste en un assemblage des données qui s'appuie sur les données Edigeo (PCI issu de la DGFIP) et les données de Strasbourg (hors PCI). Les formats de sortie sont du GeoJSON et du SHP, des formats usuels alors que le format natif de la DGFIP, l'Edigeo et difficile à réutiliser. Il s'agit d'un produit Etalab. Il présente quelques erreurs en particulier du fait de l'interprétation des géométries issues du format Edigeo. Cette version est mise à jour tous les 3 mois.
-- **la version de l'IGN** : proposée via le produit PCI Express (aucune indication sur l'alignement avec les données Edigéo mises à disposition sur cadastre.data.gouv.fr) {% endhint %}
+- **la version de la Direction générale des finances publiques (DGFiP)** : elle est disponible en prenant les fichiers Edigeo, Edigeo-cc, DXF, DXF-cc et TIFF sur [cadastre.data.gouv.fr](https://cadastre.data.gouv.fr/). La DINUM est le diffuseur des données pour le compte de la DGFIP dans le cadre du Service public de la donnée (SPD). Elle est mise à jour tous les 3 mois environ. Cette version est mise à jour tous les 3 mois, théoriquement Au 1er janvier, 1er avril, 1er juillet et 1er octobre. En fait, il faut plutôt considérer ces dates comme celle d'extraction mais il nous faut dans les faits quelques jours après réception des données de la DGFIP pour les mettre à disposition réellement;
+- **la version d'Etalab** : elle consiste en un assemblage des données qui s'appuie sur les données Edigeo (PCI issu de la DGFIP) et les données de Strasbourg (hors PCI). Les formats de sortie sont du GeoJSON et du SHP, des formats usuels alors que le format natif de la DGFIP, l'Edigeo est plus difficile à réutiliser. Il s'agit d'un produit DINUM. Il présente quelques erreurs en particulier du fait de l'interprétation des géométries issues du format Edigeo. Cette version étant dépendante de la version précédente mais nécessitant plus de traitement, il nous faut dans les faits quelques semaines pour les mettre à disposition réellement.
+- **la version de l'IGN** : proposée via le produit PCI Express. La mise à jour n'est pas alignée avec celle des données Edigéo mises à disposition sur cadastre.data.gouv.fr, l'IGN nous a indiqué penser à augmenter sa fréquence de mise à jour en particulier avec son travail en collaboration avec le cadastre dans le cadre de [la RPCU (Représentation Parcellaire Cadastrale Unique)](https://geoservices.ign.fr/rpcu). {% endhint %}
 
-Pour télécharger les données, vous pouvez vous rendre sur : 
+Pour télécharger les données, vous pouvez vous rendre sur :
 - [https://cadastre.data.gouv.fr/datasets/plan-cadastral-informatise](https://cadastre.data.gouv.fr/datasets/plan-cadastral-informatise), pour la version de la DGFiP ;
-- [cadastre.data.gouv.fr](https://cadastre.data.gouv.fr/), pour la version d'Etalab ;
-- [le site Geoservices IGN](https://geoservices.ign.fr/parcellaire-express-pci), pour la version de l'IGN.
+- [cadastre.data.gouv.fr](https://cadastre.data.gouv.fr/data/etalab-cadastre/), pour la version d'Etalab ;
+- [la page "PARCELLAIRE EXPRESS (PCI)" du site Geoservices IGN](https://geoservices.ign.fr/parcellaire-express-pci), pour la version de l'IGN.
 
 ## Rechercher des parcelles
 
-Pour rechercher des parcelles, plusieurs services sont disponibles. Vous pouvez notamment utiliser [**ce module**](https://apicarto.ign.fr/api/doc/cadastre#/Parcelle/get_cadastre_parcelle). Il s'agit d'une surcouche au [WFS de l'IGN](https://github.com/IGNF/apicarto/blob/master/middlewares/gpuWfsClient.js#L14) qui utilise les données de PCI express.
+Il est possible de passer par [le module Cadastre de l'API Carto](https://apicarto.ign.fr/api/doc/cadastre#/Parcelle/get_cadastre_parcelle). C'est une surcouche qui au WFS de l'IGN qui se traduit côté code par <https://github.com/IGNF/apicarto/blob/master/middlewares/gpuWfsClient.js#L14> qui utilise les données cadastre de PCI Express ou de la BD Parcellaire (produit historique non maintenu depuis 2019).
+
+Un exemple est le suivant :
+
+[![Recherche parcelles API carto](images/exemple-recherche-parcelles.png)](https://apicarto.ign.fr/api/cadastre/parcelle?code_insee=44109&section=EX&numero=0080)
+
+Vous pouvez aussi ouvrir [le lien pour voir le résultat dans un navigateur](https://apicarto.ign.fr/api/cadastre/parcelle?code_insee=44109&section=EX&numero=0080)
 
 {% hint style="danger" %} **Limites**
 
-Il peut exister un décalage entre les parcelles PCI Express et le plan cadastral. En effet, il n'y a aucune indication sur les mises à jour réalisées dans le PCI Express par rapport à la mise à disposition des données Edigeo et du Cadastre Etalab. {% endhint %}
+Il existe un décalage dans le temps de mise à jour entre les parcelles PCI Express et les données du cadastre que nous mettons à disposition sur <https://cadastre.data.gouv.fr>. {% endhint %}
 
-## Accéder aux fonds de plan du cadastre 
+## Accéder aux fonds de plan du cadastre
 
 Plusieurs solutions sont disponibles pour accéder aux fonds de plan du cadastre, parmi lesquelles :
 
-- [WMS accès cadastre](https://www.cadastre.gouv.fr/scpc/pdf/Guide_WMS_fr.pdf)
+- [WMS accès cadastre DGFIP](https://www.cadastre.gouv.fr/scpc/pdf/Guide_WMS_fr.pdf). La principale limitation de ce WMS est qu'il faut demander des images dont la taille doit être comprise entre 100x100 et au maximum 1280x1024. Il est possible de passer par un TMS via l'url `http://tms.cadastre.openstreetmap.fr/*/tout/{z}/{x}/{y}.png` (voir https://lists.openstreetmap.org/pipermail/talk-fr/2015-February/075223.html)
+
+![Un aperçu de la configuration du TMS dans QGIS](images/connexion-xyz-qgis-cadastre.png)
+
+- les tuiles vectorielles que nous mettons à disposition. Elles contiennent les géométries du produit Cadastre Etalab. Un tutoriel existant décrit comment les exploiter dans le cadre Web https://guides.etalab.gouv.fr/apis-geo/3-tuiles-vecteur.html#l-alternative-des-tuiles-vecteur-de-l-ign. Il est aussi possible depuis la version 3.14 du [logiciel bureautique SIG OpenSource nommé QGIS](https://www.qgis.org/fr/site/) comme illustré ci-dessous.
+
+![Un aperçu de la configuration de la connexion aux tuiles vectorielles dans QGIS](images/connexion-tuiles-vectorielles-cadastre-qgis.png)
+
 - IGN WMS cadastre
 
 Produits liant l'adresse au bâti
@@ -59,11 +72,18 @@ WFS
 
 ## Parser les données Edigeo
 
+### Rappel
+
+EDIGEO veut dire "Échange de données informatisées dans le domaine de l'information géographique". C'est une norme. C'est principalement la norme d'échange des données du Plan Cadastral Informatisé (PCI). Pour aller plus loin, voir [l'article Wikipedia associé](https://fr.wikipedia.org/wiki/EDIGEO) et [la documentation "STANDARD D’ÉCHANGE DES OBJETS DU PLAN CADASTRAL INFORMATISÉ FONDÉ SUR LA NORME EDIGéO" datant de 2013](https://raw.githubusercontent.com/etalab/edigeo-parser/master/resources/standard_edigeo_2013.pdf)
+
+### Logiciels/bibliothèques pour les exploiter
+
 Pour parser les données Edigeo, plusieurs méthodes sont possibles. Vous pouvez notamment :
 - [Parser en Javascript. C'est ce parser qui est utilisé pour produire les données Etalab cadastre](https://github.com/etalab/edigeo-parser)
 - [Utiliser GDAL](https://gdal.org/drivers/vector/edigeo.html)
 - [Utiliser cet outil edigeoToGeojson](https://github.com/DoFabien/edigeoToGeojson)
 - [Parser en Dotnet. Ce parser est utilisé par le GIRTEC pour son intégration en base de données](https://github.com/ChristopheVergon/Integrateur_edigeo)
+- Parser MAJIC fourni par le connecteur MAJIC associé [au logiciel propriétaire FME](https://www.veremes.com/produits/majic)
 
 ## Faire l'intégration métier parcelles et MAJIC
 
@@ -74,7 +94,7 @@ Le [**jeu de données "Fichiers des locaux et des parcelles des personnes morale
 - Les fichiers des propriétés bâties (locaux) restituent les références cadastrales et l'adresse des locaux, complétés du code droit, de la dénomination et de la forme juridique des personnes morales propriétaires ;
 - Les fichiers des propriétés non bâties (parcelles) restituent les références cadastrales, l'adresse, la contenance et la nature de culture des parcelles, complétées du code droit, de la dénomination et de la forme juridique des personnes morales propriétaires.
 
-**Il est possible de réaliser une intégration métier parcelles et MAJIC.**
+**Il est possible de réaliser une intégration métier parcelles et MAJIC. Plusieurs solutions sont possibles**
 
 ### Open Source
 
