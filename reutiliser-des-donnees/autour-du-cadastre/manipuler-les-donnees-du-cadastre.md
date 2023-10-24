@@ -123,6 +123,7 @@ Deux outils sont possibles :
 
 ## Les données et produits gravitant autour des parcelles de l'IGN
 
+- [les données Demandes de Valeurs Foncières (DVF) géolocalisées](https://www.data.gouv.fr/fr/datasets/demandes-de-valeurs-foncieres-geolocalisees/)
 - [le produit BAN PLUS](https://geoservices.ign.fr/ban-plus) qui permet de lier l'adresse au bâti. Vous pouvez aussi regarder sur le même sujet [la Base de Données Nationale des Bâtiments (BDNB)](https://www.data.gouv.fr/fr/datasets/base-de-donnees-nationale-des-batiments/)
 - le [Registre Parcellaire Graphique (RPG)](https://geoservices.ign.fr/rpg), utilisé pour les instructions des aides européennes de la Politique Agricole Commune (PAC). Vous pouvez aussi aller voir les données des [Parcelles en Agriculture Biologique (AB) déclarées à la PAC](https://www.data.gouv.fr/fr/datasets/parcelles-en-agriculture-biologique-ab-declarees-a-la-pac/)
 - les parcelles protégées du Conservatoire du littoral. Elles sont disponibles sous forme WFS dans les services proposés par l'IGN (voir les CSV déjà mentionnés)
