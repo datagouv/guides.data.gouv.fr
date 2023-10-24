@@ -16,8 +16,8 @@ Dans cette section, nous vous guidons dans la manipulation des données du cadas
 {% hint style="info" %} **Les versions du plan cadastral**
 
 Il existe aujourd'hui trois versions des données du plan cadastral :
-- **la version de la Direction générale des finances publiques (DGFiP)** : elle est disponible en prenant les fichiers Edigeo, Edigeo-cc, DXF, DXF-cc et TIFF sur [cadastre.data.gouv.fr](https://cadastre.data.gouv.fr/). La DINUM est le diffuseur des données pour le compte de la DGFIP dans le cadre du Service public de la donnée (SPD). Elle est mise à jour tous les 3 mois environ. Cette version est mise à jour tous les 3 mois, théoriquement Au 1er janvier, 1er avril, 1er juillet et 1er octobre. En fait, il faut plutôt considérer ces dates comme celle d'extraction mais il nous faut dans les faits quelques jours après réception des données de la DGFIP pour les mettre à disposition réellement;
-- **la version d'Etalab** : elle consiste en un assemblage des données qui s'appuie sur les données Edigeo (PCI issu de la DGFIP) et les données de Strasbourg (hors PCI). Les formats de sortie sont du GeoJSON et du SHP, des formats usuels alors que le format natif de la DGFIP, l'Edigeo est plus difficile à réutiliser. Il s'agit d'un produit DINUM. Il présente quelques erreurs en particulier du fait de l'interprétation des géométries issues du format Edigeo. Cette version étant dépendante de la version précédente mais nécessitant plus de traitement, il nous faut dans les faits quelques semaines pour les mettre à disposition réellement.
+- **la version de la Direction générale des finances publiques (DGFiP)** : elle est disponible en prenant les fichiers Edigeo, Edigeo-cc, DXF, DXF-cc et TIFF sur [cadastre.data.gouv.fr](https://cadastre.data.gouv.fr/). La DINUM est le diffuseur des données pour le compte de la DGFiP dans le cadre du Service public de la donnée (SPD). Elle est mise à jour tous les 3 mois environ. Cette version est mise à jour tous les 3 mois, théoriquement Au 1er janvier, 1er avril, 1er juillet et 1er octobre. En fait, il faut plutôt considérer ces dates comme celle d'extraction mais il nous faut dans les faits quelques jours après réception des données de la DGFiP pour les mettre à disposition réellement;
+- **la version d'Etalab** : elle consiste en un assemblage des données qui s'appuie sur les données Edigeo (PCI issu de la DGFiP) et les données de Strasbourg (hors PCI). Les formats de sortie sont du GeoJSON et du SHP, des formats usuels alors que le format natif de la DGFiP, l'Edigeo est plus difficile à réutiliser. Il s'agit d'un produit DINUM. Il présente quelques erreurs en particulier du fait de l'interprétation des géométries issues du format Edigeo. Cette version étant dépendante de la version précédente mais nécessitant plus de traitement, il nous faut dans les faits quelques semaines pour les mettre à disposition réellement.
 - **la version de l'IGN** : proposée via le produit PCI Express. La mise à jour n'est pas alignée avec celle des données Edigéo mises à disposition sur cadastre.data.gouv.fr, l'IGN nous a indiqué penser à augmenter sa fréquence de mise à jour en particulier avec son travail en collaboration avec le cadastre dans le cadre de [la RPCU (Représentation Parcellaire Cadastrale Unique)](https://geoservices.ign.fr/rpcu). {% endhint %}
 
 Pour télécharger les données, vous pouvez vous rendre sur :
@@ -43,7 +43,7 @@ Il existe un décalage dans le temps de mise à jour entre les parcelles PCI Exp
 
 Plusieurs solutions sont disponibles pour accéder aux fonds de plan du cadastre, parmi lesquelles :
 
-- [WMS accès cadastre DGFIP](https://www.cadastre.gouv.fr/scpc/pdf/Guide_WMS_fr.pdf). La principale limitation de ce WMS est qu'il faut demander des images dont la taille doit être comprise entre 100x100 et au maximum 1280x1024. Il est possible de passer par un TMS via l'url `http://tms.cadastre.openstreetmap.fr/*/tout/{z}/{x}/{y}.png` (voir https://lists.openstreetmap.org/pipermail/talk-fr/2015-February/075223.html)
+- [WMS accès cadastre DGFiP](https://www.cadastre.gouv.fr/scpc/pdf/Guide_WMS_fr.pdf). La principale limitation de ce WMS est qu'il faut demander des images dont la taille doit être comprise entre 100x100 et au maximum 1280x1024. Il est possible de passer par un TMS via l'url `http://tms.cadastre.openstreetmap.fr/*/tout/{z}/{x}/{y}.png` (voir https://lists.openstreetmap.org/pipermail/talk-fr/2015-February/075223.html)
 
 ![Un aperçu de la configuration du TMS dans QGIS](images/connexion-xyz-qgis-cadastre.png)
 
@@ -53,22 +53,15 @@ Plusieurs solutions sont disponibles pour accéder aux fonds de plan du cadastre
 
 - IGN WMS cadastre
 
-Produits liant l'adresse au bâti
+La couche principale est `CADASTRALPARCELS.PARCELLAIRE_EXPRESS` du service WMS https://wxs.ign.fr/essentiels/geoportail/r/wms. Cette couche s'appuie sur le produit PCI Express.
 
-WFS
-- Base Adresse Nationale BAN (DATA.GOUV.FR)
-- BAN PLUS Lien adresse_support
-- BAN PLUS Lien adresse_parcelle
-- BAN PLUS Lien bati_parcelle
-- BAN PLUS Lien adresse_bati
-- BAN PLUS Lien adresse
+Il existe de nombreuses autres couches d'information liées aux cadastre proposées par l'IGN. Nous vous invitons à les chercher depuis la page https://geoservices.ign.fr/documentation/services en prenant les CSV des géoservices et de la Géoplateforme qui remplacera dans les mois à venir les services OGC de l'IGN.
 
-- Parcellaire Express (PCI) parcelle
-- Parcelles cadastrales
-- PARCELLE
-- Parcellaire Express (PCI) parcelle
-- Decalage de la representation cadastrale
-- Parcellaire Express (PCI)
+Une autre couche intéressante est celle de "Décalage de la representation cadastrale" `CADASTRALPARCELS.HEATMAP` disponible sur le WMS https://wxs.ign.fr/parcellaire/geoportail/r/wms et consultable aussi sur [le Géoportail](https://www.geoportail.gouv.fr/carte?c=-1.0309918634157356,46.551302493795134&z=6&l0=ORTHOIMAGERY.ORTHOPHOTOS::GEOPORTAIL:OGC:WMTS(1)&l1=GEOGRAPHICALGRIDSYSTEMS.PLANIGNV2::GEOPORTAIL:OGC:WMTS(1)&l2=CADASTRALPARCELS.HEATMAP::GEOPORTAIL:OGC:WMTS(0.9)&l3=CADASTRALPARCELS.PARCELLAIRE_EXPRESS::GEOPORTAIL:OGC:WMTS(1)&permalink=yes) qui permet de voir le décalage entre les contours des parcelles et le terrain. Cette couche ne couvre pas l'ensemble du territoire même si elle le couvre en grande partie. Beaucoup croient à tort que le contour des parcelles est très fiable alors qu'il ne s'agit que d'une représentation graphique imprécise qui servait à se repérer, seul les actes de vente ayant une valeur juridique, et qui a été établie avant que les photos aériennes soit généralisées et de grande précision. Il faut aussi noter que les parcelles aux limites entre communes se recoupent ou donnent un "no man land" car historiquement, chaque commune gérait séparément ses parcelles, aucune ne se préoccupait de la limite exacte avec les communes limitrophes de son territoire.
+
+Voici un exemple de décalage de parcelles avec différents niveaux de précision
+
+![Décalage parcellaire. Exemple sur le 73](images/exemple-decalage-parcellaire.png)
 
 ## Parser les données Edigeo
 
@@ -101,8 +94,22 @@ Le [**jeu de données "Fichiers des locaux et des parcelles des personnes morale
 Vous pouvez utiliser le [Plugin cadastre QGIS](https://github.com/3liz/QgisCadastrePlugin) et [récupérer les données du cadastre via ce plugin depuis des codes INSEE](https://github.com/3liz/QgisCadastrePlugin/blob/master/docs/extension-qgis/donnees.md).
 
 
-```
+Depuis QGIS, dans la console PyQGIS,
+
+```python
+import processing
+
 processing.run("cadastre:telechargeur_edigeo_communal", {'LISTE_CODE_INSEE':'44109,44143,44162,44026,44190,44215','FILTRE':'','DOSSIER':'/tmp/cadastre-out','DATE':'latest','URL_TEMPLATE':'https://cadastre.data.gouv.fr/data/dgfip-pci-vecteur/{date}/edigeo/feuilles/{departement}/{commune}/'})
+```
+
+En ligne de commande si le plugin cadastre est installé
+
+```bash
+
+qgis_process run cadastre:telechargeur_edigeo_communal -- LISTE_CODE_INSEE=44109,44143,44162,44026,44190,44215 FILTRE= DOSSIER=/tmp/cadastre-out DATE=latest URL_TEMPLATE=https://cadastre.data.gouv.fr/data/dgfip-pci-vecteur/{date}/edigeo/feuilles/{departement}/{commune}/
+
+# déduit de la commande suivante en s'appuyant sur https://docs.qgis.org/3.28/fr/docs/user_manual/processing/standalone.html
+qgis_process help cadastre:telechargeur_edigeo_communal
 ```
 
 ### Propriétaires
@@ -113,3 +120,11 @@ Deux outils sont possibles :
 - [FME MAJIC](https://www.veremes.com/produits/majic)
 
 [https://www.impots.gouv.fr/particulier/questions/comment-puis-je-acceder-la-documentation-cadastrale]
+
+## Les données et produits gravitant autour des parcelles de l'IGN
+
+- [le produit BAN PLUS](https://geoservices.ign.fr/ban-plus) qui permet de lier l'adresse au bâti. Vous pouvez aussi regarder sur le même sujet [la Base de Données Nationale des Bâtiments (BDNB)](https://www.data.gouv.fr/fr/datasets/base-de-donnees-nationale-des-batiments/)
+- le [Registre Parcellaire Graphique (RPG)](https://geoservices.ign.fr/rpg), utilisé pour les instructions des aides européennes de la Politique Agricole Commune (PAC). Vous pouvez aussi aller voir les données des [Parcelles en Agriculture Biologique (AB) déclarées à la PAC](https://www.data.gouv.fr/fr/datasets/parcelles-en-agriculture-biologique-ab-declarees-a-la-pac/)
+- les parcelles protégées du Conservatoire du littoral. Elles sont disponibles sous forme WFS dans les services proposés par l'IGN (voir les CSV déjà mentionnés)
+- [les délimitations parcellaires AOC viticoles (INAO)](https://www.data.gouv.fr/fr/datasets/delimitation-parcellaire-des-aoc-viticoles-de-linao/)
+- [le Géoportail de l'urbanisme](https://www.geoportail-urbanisme.gouv.fr/) dont les PLU s'appuient sur les parcelles du cadastre.
