@@ -136,7 +136,7 @@ Deux outils sont disponibles :
 
 ## Mobiliser d'autres données et produits gravitant autour des parcelles de l'IGN
 
-Voici une liste (non exhaustive) de données et produits graviant autour des parcelles de l'IGN :
+Voici une liste (non exhaustive) de données et produits gravitant autour des parcelles de l'IGN :
 
 - [Les données "Demandes de Valeurs Foncières" (DVF) géolocalisées](https://www.data.gouv.fr/fr/datasets/demandes-de-valeurs-foncieres-geolocalisees/) ;
 - [Le produit BAN PLUS](https://geoservices.ign.fr/ban-plus), qui permet de lier l'adresse au bâti. Sur le même sujet, il existe également [la Base de Données Nationale des Bâtiments (BDNB)](https://www.data.gouv.fr/fr/datasets/base-de-donnees-nationale-des-batiments/) ;
