@@ -20,6 +20,8 @@ Parcelle cadastrale : Portion de terrain appartenant à un même propriétaire. 
 
 ![Capture d'écran plan cadastral](https://user-images.githubusercontent.com/72090652/268529403-e350b687-a132-4b5a-934c-05f132b0e92a.png)
 
+Vous pouvez consulter [la carte du cadastre](https://cadastre.data.gouv.fr/map?style=ortho).
+
 ## Quels usages possibles ?
 
 Les données du plan cadastral constituent **des données géographiques de référence**, qui peuvent être utilisées dans tous types de cartographie. Vous pouvez notamment : 
