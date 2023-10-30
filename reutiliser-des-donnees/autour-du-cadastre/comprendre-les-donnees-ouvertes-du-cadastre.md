@@ -1,10 +1,10 @@
 # Comprendre les données ouvertes du cadastre
 
-## Définition
+## Qu'est-ce que le cadastre ?
 
 Le cadastre est un document administratif qui recense et identifie les propriétés foncières (immeuble, maison, terrain, etc.) de chaque commune afin de permettre le calcul des impôts locaux (Ministère de l'économie, des finances et de la souveraineté industrielle et numérique).
 
-## Les données en open data
+## Quelles données en open data ?
 
 Les données ouvertes sont celles du **plan cadastral** : parcelles, sections, bâti et éléments d'habillage.
 
@@ -20,7 +20,7 @@ Parcelle cadastrale : Portion de terrain appartenant à un même propriétaire. 
 
 ![Capture d'écran plan cadastral](https://user-images.githubusercontent.com/72090652/268529403-e350b687-a132-4b5a-934c-05f132b0e92a.png)
 
-## Les usages possibles
+## Quels usages possibles ?
 
 Les données du plan cadastral constituent **des données géographiques de référence**, qui peuvent être utilisées dans tous types de cartographie. Vous pouvez notamment : 
 - Construire des zonages basés sur des données parcellaires ;
@@ -28,9 +28,10 @@ Les données du plan cadastral constituent **des données géographiques de réf
 
 Pour inspiration, ces données ont par exemple été utilisées pour développer des solutions permettant de : 
 - [Connaître le prix de vente des biens immobiliers](https://www.data.gouv.fr/fr/pages/onboarding/dvf/) ;
-- [Réaliser l'état des risques d'un bien immobilier](https://www.data.gouv.fr/fr/pages/onboarding/errial/).
+- [Réaliser l'état des risques d'un bien immobilier](https://www.data.gouv.fr/fr/pages/onboarding/errial/) ; 
+- [S'informer sur les règles d'urbanisme d'un territoire](https://www.data.gouv.fr/fr/reuses/iudo-app/).
 
-## Comment accéder aux données
+## Comment accéder aux données ?
 
 Pour consulter et télécharger les données cadastrales, vous pouvez vous rendre sur (selon votre besoin) : 
 - [**cadastre.data.gouv.fr**](https://cadastre.data.gouv.fr/)
