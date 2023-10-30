@@ -40,11 +40,11 @@ Il s'agit d'une surcouche qui au WFS de l'IGN qui se traduit côté code par <ht
 
 <figure><img src="images/exemple-recherche-parcelles.png" alt=""><figcaption><p>Un exemple de recherche de parcelles avec l'API Carto</p></figcaption></figure>
 
-*Vous pouvez aussi ouvrir* [*le lien pour voir le résultat dans un navigateur*](https://apicarto.ign.fr/api/cadastre/parcelle?code_insee=44109&section=EX&numero=0080)
+*Vous pouvez aussi ouvrir* [*le lien pour voir le résultat dans un navigateur*](https://apicarto.ign.fr/api/cadastre/parcelle?code_insee=44109&section=EX&numero=0080).
 
 {% hint style="danger" %} **Limites**
 
-Il existe un décalage dans le temps de mise à jour entre les parcelles PCI Express et les données du cadastre que nous mettons à disposition sur <https://cadastre.data.gouv.fr>. {% endhint %}
+Il existe un décalage dans le temps de mise à jour entre les parcelles PCI Express et les données du cadastre que nous mettons à disposition sur [cadastre.data.gouv.fr](https://cadastre.data.gouv.fr). {% endhint %}
 
 ## Accéder aux fonds de plan du cadastre
 
