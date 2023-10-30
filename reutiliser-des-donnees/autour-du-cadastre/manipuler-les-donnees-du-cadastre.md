@@ -38,7 +38,7 @@ Pour télécharger les données, vous pouvez vous rendre sur :
 Pour rechercher des parcelles, il est possible de passer par [**le module Cadastre de l'API Carto**](https://apicarto.ign.fr/api/doc/cadastre#/Parcelle/get_cadastre_parcelle). 
 Il s'agit d'une surcouche qui au WFS de l'IGN qui se traduit côté code par <https://github.com/IGNF/apicarto/blob/master/middlewares/gpuWfsClient.js#L14> qui utilise les données de PCI Express ou de [la BD Parcellaire](https://geoservices.ign.fr/bdparcellaire) (produit historique non maintenu depuis 2019).
 
-<figure><img src="images/exemple-recherche-parcelles.png)](https://apicarto.ign.fr/api/cadastre/parcelle?code_insee=44109&section=EX&numero=0080" alt=""><figcaption><p>Un exemple de recherche de parcelles avec l'API Carto</p></figcaption></figure>
+<figure><img src="images/exemple-recherche-parcelles.png" alt=""><figcaption><p>Un exemple de recherche de parcelles avec l'API Carto</p></figcaption></figure>
 
 *Vous pouvez aussi ouvrir* [*le lien pour voir le résultat dans un navigateur*](https://apicarto.ign.fr/api/cadastre/parcelle?code_insee=44109&section=EX&numero=0080)
 
