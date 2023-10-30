@@ -74,7 +74,9 @@ Il faut aussi noter que les parcelles aux limites entre communes se recoupent ou
 
 ## Parser les données Edigeo
 
-EDIGEO signifie "*Échange de données informatisées dans le domaine de l'information géographique*". Il s'agit d'une norme. C'est principalement la norme d'échange des données du Plan Cadastral Informatisé (PCI). Pour aller plus loin, vous pouvez consulter [l'article Wikipedia associé](https://fr.wikipedia.org/wiki/EDIGEO) et [la documentation "Standard d'échange des objets du Plan Cadastral Informatisé fondé sur la norme EDIGéO" datant de 2013](https://raw.githubusercontent.com/etalab/edigeo-parser/master/resources/standard_edigeo_2013.pdf).
+EDIGEO signifie "*Échange de données informatisées dans le domaine de l'information géographique*". Il s'agit d'une norme. C'est principalement la norme d'échange des données du Plan Cadastral Informatisé (PCI). 
+
+Pour aller plus loin, vous pouvez consulter [l'article Wikipedia associé](https://fr.wikipedia.org/wiki/EDIGEO) et [la documentation "Standard d'échange des objets du Plan Cadastral Informatisé fondé sur la norme EDIGéO" datant de 2013](https://raw.githubusercontent.com/etalab/edigeo-parser/master/resources/standard_edigeo_2013.pdf).
 
 ### Logiciels/Bibliothèques pour les exploiter
 
@@ -134,9 +136,11 @@ Deux outils sont disponibles :
 
 ## Mobiliser d'autres données et produits gravitant autour des parcelles de l'IGN
 
+Voici une liste (non exhaustive) de données et produits graviant autour des parcelles de l'IGN :
+
 - [Les données "Demandes de Valeurs Foncières" (DVF) géolocalisées](https://www.data.gouv.fr/fr/datasets/demandes-de-valeurs-foncieres-geolocalisees/) ;
 - [Le produit BAN PLUS](https://geoservices.ign.fr/ban-plus), qui permet de lier l'adresse au bâti. Sur le même sujet, il existe également [la Base de Données Nationale des Bâtiments (BDNB)](https://www.data.gouv.fr/fr/datasets/base-de-donnees-nationale-des-batiments/) ;
-- Le [Registre Parcellaire Graphique (RPG)](https://geoservices.ign.fr/rpg), utilisé pour les instructions des aides européennes de la Politique Agricole Commune (PAC). Vous pouvez aussi consulter les données des [Parcelles en Agriculture Biologique (AB) déclarées à la PAC](https://www.data.gouv.fr/fr/datasets/parcelles-en-agriculture-biologique-ab-declarees-a-la-pac/) ;
+- [Le Registre Parcellaire Graphique (RPG)](https://geoservices.ign.fr/rpg), utilisé pour les instructions des aides européennes de la Politique Agricole Commune (PAC). Vous pouvez aussi consulter les données des [Parcelles en Agriculture Biologique (AB) déclarées à la PAC](https://www.data.gouv.fr/fr/datasets/parcelles-en-agriculture-biologique-ab-declarees-a-la-pac/) ;
 - Les parcelles protégées du Conservatoire du littoral, disponibles sous forme WFS dans les services proposés par l'IGN (voir les CSV déjà mentionnés) ;
 - [Les délimitations parcellaires AOC viticoles (INAO)](https://www.data.gouv.fr/fr/datasets/delimitation-parcellaire-des-aoc-viticoles-de-linao/) ;
 - [Le Géoportail de l'urbanisme](https://www.geoportail-urbanisme.gouv.fr/), dont les PLU s'appuient sur les parcelles du cadastre.
