@@ -23,15 +23,15 @@ Il existe aujourd'hui **trois versions** des données du plan cadastral :
 - **la version d'Etalab**
     - Elle consiste en un assemblage de données, qui s'appuie sur les données Edigeo (Plan Cadastral Informatisé issu de la DGFiP, ci-dessus) et les données de Strasbourg (hors PCI). Elle peut présenter quelques erreurs, en particulier du fait de l'interprétation des géométries issues du format Edigeo.
     - Les formats proposés sont du *GeoJSON* et du *SHP*.
-    - Cette version étant dépendante de la version précédente mais nécessitant plus de traitement, elle requiert plusieurs semaines opur sa mise à disposition, à partir de la réception des données transmises par la DGFiP. 
+    - Cette version étant dépendante de la version précédente mais nécessitant plus de traitement, elle requiert plusieurs semaines pour sa mise à disposition, à partir de la réception des données transmises par la DGFiP. 
     - Il s'agit d'un produit de la Direction interministérielle du numérique (DINUM). 
-- **la version de l'Institut national de l'information géographique et forestière (IGN)** : proposée via le produit PCI Express
-    - La mise à jour n'est pas alignée avec celle des données Edigéo mises à disposition sur [cadastre.data.gouv.fr](cadastre.data.gouv.fr). Néanmoins, l'IGN a indiqué penser à augmenter sa fréquence de mise à jour, en ligne avec son travail en collaboration avec le cadastre dans le cadre de la [Représentation Parcellaire Cadastrale Unique (RPCU)](https://geoservices.ign.fr/rpcu). {% endhint %}
+- **la version de l'Institut national de l'information géographique et forestière (IGN)** : proposée via le produit PCI Express.
+    - La mise à jour n'est pas alignée avec celle des données Edigéo mises à disposition sur [cadastre.data.gouv.fr](cadastre.data.gouv.fr). Néanmoins, l'IGN a indiqué penser à augmenter sa fréquence de mise à jour, en ligne avec son travail en collaboration avec le cadastre dans le cadre de [la Représentation Parcellaire Cadastrale Unique (RPCU)](https://geoservices.ign.fr/rpcu). {% endhint %}
 
 Pour télécharger les données, vous pouvez vous rendre sur :
 - **Pour la version de la DGFiP** : [cadastre.data.gouv.fr/datasets/plan-cadastral-informatise](https://cadastre.data.gouv.fr/datasets/plan-cadastral-informatise) (formats *Edigeo*, *Edigeo-cc*, *DXF-PCI*, *DXF-PCI-cc*) ;
 - **Pour la version d'Etalab** : [cadastre.data.gouv.fr/data/etalab-cadastre](https://cadastre.data.gouv.fr/data/etalab-cadastre/) (formats *GeoJSON* et *SHP*) ;
-- **Pour la version de l'IGN** : [la page "PARCELLAIRE EXPRESS (PCI)" du site Geoservices IGN](https://geoservices.ign.fr/parcellaire-express-pci).
+- **Pour la version de l'IGN** : [la page "PARCELLAIRE EXPRESS (PCI)" du site Geoservices de l'IGN](https://geoservices.ign.fr/parcellaire-express-pci).
 
 ## Rechercher des parcelles
 
