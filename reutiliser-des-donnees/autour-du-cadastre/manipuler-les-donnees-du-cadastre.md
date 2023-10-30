@@ -50,7 +50,7 @@ Il existe un décalage dans le temps de mise à jour entre les parcelles PCI Exp
 
 Plusieurs solutions sont disponibles pour accéder aux fonds de plan du cadastre, parmi lesquelles :
 
-- [**WMS accès cadastre DGFiP**](https://www.cadastre.gouv.fr/scpc/pdf/Guide_WMS_fr.pdf). La limitation principale de ce WMS est qu'il n'est possible de demander que des images dont la taille est comprise entre *100x100* et *au maximum 1280x1024*. Il est possible de passer par un TMS via l'url `http://tms.cadastre.openstreetmap.fr/*/tout/{z}/{x}/{y}.png` (voir https://lists.openstreetmap.org/pipermail/talk-fr/2015-February/075223.html)
+- [**WMS accès cadastre DGFiP**](https://www.cadastre.gouv.fr/scpc/pdf/Guide_WMS_fr.pdf). La limitation principale de ce WMS est qu'il n'est possible de demander que des images dont la taille est comprise entre *100x100* et *au maximum 1280x1024*. Il est possible de passer par un TMS via l'url `http://tms.cadastre.openstreetmap.fr/*/tout/{z}/{x}/{y}.png` (voir https://lists.openstreetmap.org/pipermail/talk-fr/2015-February/075223.html).
 
 ![Un aperçu de la configuration du TMS dans QGIS](images/connexion-xyz-qgis-cadastre.png)
 
@@ -58,15 +58,19 @@ Plusieurs solutions sont disponibles pour accéder aux fonds de plan du cadastre
 
 ![Un aperçu de la configuration de la connexion aux tuiles vectorielles dans QGIS](images/connexion-tuiles-vectorielles-cadastre-qgis.png)
 
-- **IGN WMS cadastre**. 
+- **IGN WMS cadastre**. La couche principale est `CADASTRALPARCELS.PARCELLAIRE_EXPRESS` du [service WMS](https://wxs.ign.fr/essentiels/geoportail/r/wms). Celle-ci s'appuie sur le produit PCI Express.
 
-La couche principale est `CADASTRALPARCELS.PARCELLAIRE_EXPRESS` du service WMS https://wxs.ign.fr/essentiels/geoportail/r/wms. Cette couche s'appuie sur le produit PCI Express.
+Il existe de nombreuses autres couches d'information liées aux cadastre proposées par l'IGN. Il est possible de les chercher depuis la [page de documentation de geoservices](https://geoservices.ign.fr/documentation/services), en prenant les fichiers CSV des géoservices et de la Géoplateforme, qui remplacera dans les mois à venir les services OGC de l'IGN.
 
-Il existe de nombreuses autres couches d'information liées aux cadastre proposées par l'IGN. Nous vous invitons à les chercher depuis la page https://geoservices.ign.fr/documentation/services en prenant les CSV des géoservices et de la Géoplateforme qui remplacera dans les mois à venir les services OGC de l'IGN.
+Une autre couche intéressante est celle de "**Décalage de la representation cadastrale**" `CADASTRALPARCELS.HEATMAP` disponible sur [le WMS](https://wxs.ign.fr/parcellaire/geoportail/r/wms) et consultable aussi sur [le Géoportail](https://www.geoportail.gouv.fr/carte?c=-1.0309918634157356,46.551302493795134&z=6&l0=ORTHOIMAGERY.ORTHOPHOTOS::GEOPORTAIL:OGC:WMTS(1)&l1=GEOGRAPHICALGRIDSYSTEMS.PLANIGNV2::GEOPORTAIL:OGC:WMTS(1)&l2=CADASTRALPARCELS.HEATMAP::GEOPORTAIL:OGC:WMTS(0.9)&l3=CADASTRALPARCELS.PARCELLAIRE_EXPRESS::GEOPORTAIL:OGC:WMTS(1)&permalink=yes). Elle permet de voir le décalage entre les contours des parcelles et le terrain. Cette couche couvre une grande partie du territoire, mais pas son ensemble. 
 
-Une autre couche intéressante est celle de "Décalage de la representation cadastrale" `CADASTRALPARCELS.HEATMAP` disponible sur le WMS https://wxs.ign.fr/parcellaire/geoportail/r/wms et consultable aussi sur [le Géoportail](https://www.geoportail.gouv.fr/carte?c=-1.0309918634157356,46.551302493795134&z=6&l0=ORTHOIMAGERY.ORTHOPHOTOS::GEOPORTAIL:OGC:WMTS(1)&l1=GEOGRAPHICALGRIDSYSTEMS.PLANIGNV2::GEOPORTAIL:OGC:WMTS(1)&l2=CADASTRALPARCELS.HEATMAP::GEOPORTAIL:OGC:WMTS(0.9)&l3=CADASTRALPARCELS.PARCELLAIRE_EXPRESS::GEOPORTAIL:OGC:WMTS(1)&permalink=yes) qui permet de voir le décalage entre les contours des parcelles et le terrain. Cette couche ne couvre pas l'ensemble du territoire même si elle le couvre en grande partie. Beaucoup croient à tort que le contour des parcelles est très fiable alors qu'il ne s'agit que d'une représentation graphique imprécise qui servait à se repérer, seul les actes de vente ayant une valeur juridique, et qui a été établie avant que les photos aériennes soit généralisées et de grande précision. Il faut aussi noter que les parcelles aux limites entre communes se recoupent ou donnent un "no man land" car historiquement, chaque commune gérait séparément ses parcelles, aucune ne se préoccupait de la limite exacte avec les communes limitrophes de son territoire.
+{% hint style="danger" %} **Attention**
 
-Voici un exemple de décalage de parcelles avec différents niveaux de précision
+Contrairement à une croyance commune, le contour des parcelles n'est pas fiable : il ne s'agit que d'une représentation graphique imprécise qui servait alors à se repérer, établie avant que les photos aériennes soient généralisées et de grande précision. Seuls les acteurs de vente ont une valeur juridique. 
+
+Il faut aussi noter que les parcelles aux limites entre communes se recoupent ou donnent un "no man land" car historiquement, chaque commune gérait séparément ses parcelles et aucune ne se préoccupait de la limite exacte avec les communes limitrophes de son territoire. {% endhint %}
+
+Un exemple de décalage de parcelles avec différents niveaux de précision :
 
 ![Décalage parcellaire. Exemple sur le 73](images/exemple-decalage-parcellaire.png)
 
