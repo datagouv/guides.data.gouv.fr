@@ -70,6 +70,9 @@ Contrairement à une croyance commune, le contour des parcelles n'est pas fiable
 
 Il faut aussi noter que les parcelles aux limites entre communes se recoupent ou donnent un "no man land" car historiquement, chaque commune gérait séparément ses parcelles et aucune ne se préoccupait de la limite exacte avec les communes limitrophes de son territoire. {% endhint %}
 
+<figure><img src="images/exemple-decalage-parcellaire.png" alt=""><figcaption><p>Un exemple de décalage de parcelles avec différents niveaux de précision</p></figcaption></figure>
+
+
 Un exemple de décalage de parcelles avec différents niveaux de précision :
 
 ![Décalage parcellaire. Exemple sur le 73](images/exemple-decalage-parcellaire.png)
