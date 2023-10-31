@@ -59,7 +59,7 @@ Plusieurs solutions sont disponibles pour accéder aux fonds de plan du cadastre
 
 ![Un aperçu de la configuration du TMS dans QGIS](images/connexion-xyz-qgis-cadastre.png)
 
-- **les tuiles vectorielles mises à disposition par la Direction interministérielle du numérique (DINUM)**. Elles contiennent les géométries du produit Cadastre Etalab. Un [tutoriel](https://guides.etalab.gouv.fr/apis-geo/3-tuiles-vecteur.html#l-alternative-des-tuiles-vecteur-de-l-ign) détaille comment les exploiter dans le cadre Web. Il est aussi possible depuis la version 3.14 du [logiciel bureautique SIG OpenSource nommé QGIS](https://www.qgis.org/fr/site/) comme illustré ci-dessous.
+- **les tuiles vectorielles mises à disposition par la Direction interministérielle du numérique (DINUM)**. Elles contiennent les géométries du produit Cadastre Etalab. Un [tutoriel](https://guides.etalab.gouv.fr/apis-geo/3-tuiles-vecteur.html#l-alternative-des-tuiles-vecteur-de-l-ign) détaille comment les exploiter dans le cadre Web. Il est aussi possible d'accéder aux tuiles vectorielles depuis la version 3.14 du [logiciel bureautique SIG OpenSource nommé QGIS](https://www.qgis.org/fr/site/) comme illustré ci-dessous.
 
 ![Un aperçu de la configuration de la connexion aux tuiles vectorielles dans QGIS](images/connexion-tuiles-vectorielles-cadastre-qgis.png)
 
@@ -137,8 +137,6 @@ Deux outils sont disponibles :
 
 - [ESRI (produits ArcGIS)](https://www.arcopole.fr/content/cadastre)
 - [FME MAJIC](https://www.veremes.com/produits/majic)
-
-[https://www.impots.gouv.fr/particulier/questions/comment-puis-je-acceder-la-documentation-cadastrale]
 
 ## Mobiliser d'autres données et produits gravitant autour des parcelles de l'IGN
 
