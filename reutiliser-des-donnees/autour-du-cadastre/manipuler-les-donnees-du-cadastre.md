@@ -14,7 +14,8 @@ Dans cette section, nous vous guidons dans la manipulation des données du cadas
 
 ## Télécharger les données
 
-{% hint style="info" %} **Les versions du plan cadastral**
+{% hint style="info" %} 
+**Les versions du plan cadastral**
 
 Il existe aujourd'hui **trois versions** des données du plan cadastral :
 - **la version de la Direction générale des finances publiques (DGFiP)**
@@ -38,13 +39,15 @@ Pour télécharger les données, vous pouvez vous rendre sur :
 ## Rechercher des parcelles
 
 Pour rechercher des parcelles, il est possible de passer par [**le module Cadastre de l'API Carto**](https://apicarto.ign.fr/api/doc/cadastre#/Parcelle/get_cadastre_parcelle). 
-Il s'agit d'une surcouche qui au WFS de l'IGN qui se traduit côté code par <https://github.com/IGNF/apicarto/blob/master/middlewares/gpuWfsClient.js#L14> qui utilise les données de PCI Express ou de [la BD Parcellaire](https://geoservices.ign.fr/bdparcellaire) (produit historique non maintenu depuis 2019).
+Il s'agit d'une surcouche au WFS de l'IGN qui facilite l'utilisation. Ce service s'appuie sur les données de PCI Express ou de [la BD Parcellaire](https://geoservices.ign.fr/bdparcellaire) (produit historique non maintenu depuis 2019).
+Si vous êtes intéressé par le code de la surcouche, vous pouvez consulter le projet sur https://github.com/IGNF/apicarto/.
 
 <figure><img src="images/exemple-recherche-parcelles.png" alt=""><figcaption><p>Un exemple de recherche de parcelles avec l'API Carto</p></figcaption></figure>
 
 *Vous pouvez aussi ouvrir* [*le lien pour voir le résultat dans un navigateur*](https://apicarto.ign.fr/api/cadastre/parcelle?code_insee=44109&section=EX&numero=0080).
 
-{% hint style="danger" %} **Limites**
+{% hint style="danger" %} 
+**Limites**
 
 Il existe un décalage dans le temps de mise à jour entre les parcelles PCI Express et les données du cadastre que nous mettons à disposition sur [cadastre.data.gouv.fr](https://cadastre.data.gouv.fr). {% endhint %}
 
@@ -66,7 +69,8 @@ Il existe de nombreuses autres couches d'information liées aux cadastre propos�
 
 Une autre couche intéressante est celle de "**Décalage de la representation cadastrale**" `CADASTRALPARCELS.HEATMAP` disponible sur [le WMS](https://wxs.ign.fr/parcellaire/geoportail/r/wms) et aussi consultable sur [le Géoportail](https://www.geoportail.gouv.fr/carte?c=-1.0309918634157356,46.551302493795134&z=6&l0=ORTHOIMAGERY.ORTHOPHOTOS::GEOPORTAIL:OGC:WMTS(1)&l1=GEOGRAPHICALGRIDSYSTEMS.PLANIGNV2::GEOPORTAIL:OGC:WMTS(1)&l2=CADASTRALPARCELS.HEATMAP::GEOPORTAIL:OGC:WMTS(0.9)&l3=CADASTRALPARCELS.PARCELLAIRE_EXPRESS::GEOPORTAIL:OGC:WMTS(1)&permalink=yes). Elle permet de voir le décalage entre les contours des parcelles et le terrain. Cette couche couvre une grande partie du territoire, mais pas son ensemble. 
 
-{% hint style="danger" %} **Attention**
+{% hint style="danger" %} 
+**Attention**
 
 Contrairement à une croyance commune, le contour des parcelles n'est pas fiable : il ne s'agit que d'une représentation graphique imprécise qui servait alors à se repérer, établie avant que les photos aériennes soient généralisées et de grande précision. Seuls les actes de vente ont une valeur juridique. 
 
