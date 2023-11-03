@@ -14,16 +14,17 @@ Le plan cadastral est une représentation graphique d'une commune qui dresse l'i
 
 Le plan cadastral est découpé en plusieurs *sections cadastrales* (identifiées par une lettre). Chaque section est ensuite composée de *parcelles cadastrales* (identifiées par un numéro).
 
+Il est possible de **consulter** [**la carte du cadastre**](https://cadastre.data.gouv.fr/map?style=ortho).
+
 [Ce document](https://bofip.impots.gouv.fr/bofip/5359-PGP.html/identifiant=BOI-CAD-DIFF-10-20191105) détaille les éléments qui figurent dans le plan cadastral (tel que publié par la DGFiP sur cadastre.gouv.fr).
 
 {% hint style="info" %} 
-### Lexique
+
+**Lexique**
 
 Parcelle cadastrale : Portion de terrain appartenant à un même propriétaire. {% endhint %}
 
 ![Illustration du plan cadastral](https://user-images.githubusercontent.com/72090652/268529403-e350b687-a132-4b5a-934c-05f132b0e92a.png)
-
-Il est possible de **consulter** [**la carte du cadastre**](https://cadastre.data.gouv.fr/map?style=ortho).
 
 ## Quels usages possibles ?
 
