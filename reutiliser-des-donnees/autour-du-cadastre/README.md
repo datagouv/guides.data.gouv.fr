@@ -16,7 +16,7 @@ Grâce à ce guide, vous pourrez :&#x20;
         </thead>
         <tbody>
             <tr>
-                <td><strong>Comprendre les données ouvertes du cadastre</strong></td>
+                <td><strong>Comprendre les données du cadastre et ses usages</strong></td>
                 <td><a
                         href="comprendre-les-donnees-ouvertes-du-cadastre.md">comprendre-les-donnees-ouvertes-du-cadastre.md</a>
                 </td>
