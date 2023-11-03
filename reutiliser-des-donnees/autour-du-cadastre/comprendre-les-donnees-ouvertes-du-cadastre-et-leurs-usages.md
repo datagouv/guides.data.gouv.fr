@@ -1,4 +1,4 @@
-# Comprendre les données ouvertes du cadastre et ses usages
+# Comprendre les données ouvertes du cadastre et leurs usages
 
 ## Qu'est-ce que le cadastre ?
 
