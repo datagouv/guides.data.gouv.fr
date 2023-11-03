@@ -30,7 +30,18 @@ Les données du plan cadastral constituent **des données géographiques de réf
 - Construire des zonages basés sur des données parcellaires ;
 - Intégrer les références cadastrales dans des applications ou des formulaires en ligne.
 
-Pour inspiration, ces données ont par exemple été utilisées pour développer des solutions permettant de : 
+### Croiser les données du cadastre avec d'autres données
+Le plan cadastral peut notamment être croisé avec des données qui s'inscrivent à une maille parcellaire, notamment (liste non exhaustive) :
+- [Les données "Demandes de Valeurs Foncières" (DVF) géolocalisées](https://www.data.gouv.fr/fr/datasets/demandes-de-valeurs-foncieres-geolocalisees/) ;
+- [Le produit BAN PLUS](https://geoservices.ign.fr/ban-plus), qui permet de lier l'adresse au bâti. Sur le même sujet, il existe également [la Base de Données Nationale des Bâtiments (BDNB)](https://www.data.gouv.fr/fr/datasets/base-de-donnees-nationale-des-batiments/) ;
+- [Le Registre Parcellaire Graphique (RPG)](https://geoservices.ign.fr/rpg), utilisé pour les instructions des aides européennes de la Politique Agricole Commune (PAC). Vous pouvez aussi consulter les données des [Parcelles en Agriculture Biologique (AB) déclarées à la PAC](https://www.data.gouv.fr/fr/datasets/parcelles-en-agriculture-biologique-ab-declarees-a-la-pac/) ;
+- Les parcelles protégées du Conservatoire du littoral, disponibles sous forme WFS dans les services proposés par l'IGN (voir les CSV déjà mentionnés) ;
+- [Les délimitations parcellaires AOC viticoles (INAO)](https://www.data.gouv.fr/fr/datasets/delimitation-parcellaire-des-aoc-viticoles-de-linao/) ;
+- [Le Géoportail de l'urbanisme](https://www.geoportail-urbanisme.gouv.fr/), dont les PLU s'appuient sur les parcelles du cadastre.
+![image](https://github.com/etalab/guides.data.gouv.fr/assets/72090652/89254d07-4000-4e4f-86f6-58ba7dd6ba0f)
+
+### S'inspirer de projets existants
+Pour inspiration, le plan cadastral a par exemple été utilisé pour développer des solutions permettant de : 
 - [Connaître le prix de vente des biens immobiliers](https://www.data.gouv.fr/fr/pages/onboarding/dvf/) ;
 - [Réaliser l'état des risques d'un bien immobilier](https://www.data.gouv.fr/fr/pages/onboarding/errial/) ;
 - [S'informer sur les règles d'urbanisme d'un territoire](https://www.data.gouv.fr/fr/reuses/iudo-app/).
