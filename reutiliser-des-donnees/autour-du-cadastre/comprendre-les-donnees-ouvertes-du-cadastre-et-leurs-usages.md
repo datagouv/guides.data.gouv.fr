@@ -17,7 +17,7 @@ Le plan cadastral est découpé en plusieurs *sections cadastrales* (identifiée
 [Ce document](https://bofip.impots.gouv.fr/bofip/5359-PGP.html/identifiant=BOI-CAD-DIFF-10-20191105) détaille les éléments qui figurent dans le plan cadastral (tel que publié par la DGFiP sur cadastre.gouv.fr).
 
 {% hint style="info" %} 
-**Lexique**
+### Lexique
 
 Parcelle cadastrale : Portion de terrain appartenant à un même propriétaire. {% endhint %}
 
