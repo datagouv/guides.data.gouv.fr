@@ -12,11 +12,12 @@ Elles sont produites et publiées par la **Direction générale des finances pub
 
 Le plan cadastral est une représentation graphique d'une commune qui dresse l'inventaire de ses propriétés foncières ainsi que l'emprise au sol des bâtiments qui les occupent. Il peut aussi indiquer certains détails facilitant sa compréhension tels que les voies de communication principale, cours d'eau, fossés, etc. (Ministère de l'économie, des finances et de la souveraineté industrielle et numérique)
 
-[Ce document](https://bofip.impots.gouv.fr/bofip/5359-PGP.html/identifiant=BOI-CAD-DIFF-10-20191105) détaille les éléments qui figurent dans le plan cadastral (tel que publié par la DGFiP sur cadastre.gouv.fr).
-
 Le plan cadastral est découpé en plusieurs *sections cadastrales* (identifiées par une lettre). Chaque section est ensuite composée de *parcelles cadastrales* (identifiées par un numéro).
 
-{% hint style="info" %} **Lexique**
+[Ce document](https://bofip.impots.gouv.fr/bofip/5359-PGP.html/identifiant=BOI-CAD-DIFF-10-20191105) détaille les éléments qui figurent dans le plan cadastral (tel que publié par la DGFiP sur cadastre.gouv.fr).
+
+{% hint style="info" %} 
+**Lexique**
 
 Parcelle cadastrale : Portion de terrain appartenant à un même propriétaire. {% endhint %}
 
