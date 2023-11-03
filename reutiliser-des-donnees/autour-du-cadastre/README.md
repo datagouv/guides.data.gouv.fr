@@ -3,7 +3,7 @@ description: >-
   Ce guide a pour vocation de vous accompagner dans l'utilisation des données ouvertes du cadastre.
 ---
 
-# 🧩 Utiliser les données du cadastre
+# 🧭 Utiliser les données du cadastre
 
 Grâce à ce guide, vous pourrez :&#x20;
 
