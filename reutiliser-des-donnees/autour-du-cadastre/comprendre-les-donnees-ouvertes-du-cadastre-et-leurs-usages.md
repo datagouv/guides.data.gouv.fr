@@ -10,13 +10,11 @@ Les données ouvertes sont celles du **plan cadastral** : parcelles, sections, b
 
 Elles sont produites et publiées par la **Direction générale des finances publiques** (DGFiP) et font partie [des données de référence du service public de la donnée](https://www.data.gouv.fr/fr/pages/spd/reference/).
 
-Le plan cadastral est une représentation graphique d'une commune qui dresse l'inventaire de ses propriétés foncières ainsi que l'emprise au sol des bâtiments qui les occupent. Il peut aussi indiquer certains détails facilitant sa compréhension tels que les voies de communication principale, cours d'eau, fossés, etc. (Ministère de l'économie, des finances et de la souveraineté industrielle et numérique)
+Le plan cadastral est une représentation graphique d'une commune qui dresse l'inventaire de ses propriétés foncières ainsi que l'emprise au sol des bâtiments qui les occupent. Il peut aussi indiquer certains détails facilitant sa compréhension tels que les voies de communication principale, cours d'eau, fossés, etc. (Ministère de l'économie, des finances et de la souveraineté industrielle et numérique). Le plan cadastral est découpé en plusieurs *sections cadastrales* (identifiées par une lettre). Chaque section est ensuite composée de *parcelles cadastrales* (identifiées par un numéro).
 
-Le plan cadastral est découpé en plusieurs *sections cadastrales* (identifiées par une lettre). Chaque section est ensuite composée de *parcelles cadastrales* (identifiées par un numéro).
+[Ce document](https://bofip.impots.gouv.fr/bofip/5359-PGP.html/identifiant=BOI-CAD-DIFF-10-20191105) détaille notamment les éléments qui figurent dans le plan cadastral (tel que publié par la DGFiP sur cadastre.gouv.fr).
 
 Il est possible de **consulter** [**la carte du cadastre**](https://cadastre.data.gouv.fr/map?style=ortho).
-
-[Ce document](https://bofip.impots.gouv.fr/bofip/5359-PGP.html/identifiant=BOI-CAD-DIFF-10-20191105) détaille les éléments qui figurent dans le plan cadastral (tel que publié par la DGFiP sur cadastre.gouv.fr).
 
 {% hint style="info" %} 
 
@@ -42,7 +40,7 @@ Le plan cadastral peut notamment être croisé avec des données qui s'inscriven
 - [Le Géoportail de l'urbanisme](https://www.geoportail-urbanisme.gouv.fr/), dont les PLU s'appuient sur les parcelles du cadastre.
 
 ### S'inspirer de projets existants
-Pour inspiration, le plan cadastral a par exemple été utilisé pour développer des solutions permettant de : 
+Pour inspiration, le plan cadastral a été utilisé pour développer des solutions permettant de : 
 - [Connaître le prix de vente des biens immobiliers](https://www.data.gouv.fr/fr/pages/onboarding/dvf/) ;
 - [Réaliser l'état des risques d'un bien immobilier](https://www.data.gouv.fr/fr/pages/onboarding/errial/) ;
 - [S'informer sur les règles d'urbanisme d'un territoire](https://www.data.gouv.fr/fr/reuses/iudo-app/).
