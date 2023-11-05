@@ -42,7 +42,7 @@ Pour rechercher des parcelles, il est possible de passer par [**le module Cadast
 
 Il s'agit d'une surcouche au WFS de l'IGN qui facilite l'utilisation. Ce service s'appuie sur les données de PCI Express ou de [la BD Parcellaire](https://geoservices.ign.fr/bdparcellaire) (produit historique non maintenu depuis 2019).
 
-Si vous êtes intéressé par le code de la surcouche, vous pouvez consulter le projet sur https://github.com/IGNF/apicarto/.
+Si vous êtes intéressé par le code de la surcouche, vous pouvez consulter le projet sur [https://github.com/IGNF/apicarto/](https://github.com/IGNF/apicarto/).
 
 <figure><img src="images/exemple-recherche-parcelles.png" alt=""><figcaption><p>Un exemple de recherche de parcelles avec l'API Carto</p></figcaption></figure>
 
@@ -76,7 +76,7 @@ Une autre couche intéressante est celle du "**Décalage de la representation ca
 
 **Attention**
 
-Contrairement à une croyance commune, le contour des parcelles n'est pas fiable : il ne s'agit que d'une représentation graphique imprécise, établie avant que les photos aériennes soient généralisées et de grande précision. **Seuls les actes de vente ont une valeur juridique.**
+Contrairement à une croyance commune, **le contour des parcelles n'est pas fiable** : il ne s'agit que d'une représentation graphique imprécise, établie avant que les photos aériennes soient généralisées et de grande précision. **Seuls les actes de vente ont une valeur juridique.**
 
 Il faut aussi noter que les parcelles aux limites entre communes se recoupent ou donnent un "no man land" car historiquement, chaque commune gérait séparément ses parcelles et aucune ne se préoccupait de la limite exacte avec les communes limitrophes de son territoire. {% endhint %}
 
@@ -86,7 +86,7 @@ Il faut aussi noter que les parcelles aux limites entre communes se recoupent ou
 
 EDIGEO signifie "*Échange de données informatisées dans le domaine de l'information géographique*". Il s'agit d'une norme. C'est principalement la norme d'échange des données du Plan Cadastral Informatisé (PCI). 
 
-Pour aller plus loin, vous pouvez consulter [l'article Wikipedia associé](https://fr.wikipedia.org/wiki/EDIGEO) et [la documentation "Standard d'échange des objets du Plan Cadastral Informatisé fondé sur la norme EDIGéO" datant de 2013](https://raw.githubusercontent.com/etalab/edigeo-parser/master/resources/standard_edigeo_2013.pdf).
+> Pour aller plus loin, vous pouvez consulter [l'article Wikipedia associé](https://fr.wikipedia.org/wiki/EDIGEO) et [la documentation "Standard d'échange des objets du Plan Cadastral Informatisé fondé sur la norme EDIGéO" datant de 2013](https://raw.githubusercontent.com/etalab/edigeo-parser/master/resources/standard_edigeo_2013.pdf).
 
 ### Logiciels/Bibliothèques pour les exploiter
 
