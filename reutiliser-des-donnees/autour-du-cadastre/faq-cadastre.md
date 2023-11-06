@@ -18,7 +18,7 @@ Nous ne disposons pas d'informations sur les propriétaires actuels ou anciens. 
 
 <summary>Le fichier du cadastre téléchargé ne correspond pas à ma commune, comment faire ?</summary>
 
-Vous avez peut-être confondu code INSEE et code postal, dans le cadre de votre recherche. Le code INSEE est unique, alors que le code postal correspond à une ou plusieurs communes. Pour retrouver plus facilement ce code INSEE, passez plutôt par l'"aide au téléchargement" [ici](https://cadastre.data.gouv.fr/datasets/plan-cadastral-informatise) ou [ici](https://cadastre.data.gouv.fr/datasets/cadastre-etalab) selon le format de fichier souhaité. 
+Vous avez peut-être confondu code INSEE et code postal, dans le cadre de votre recherche. Le code INSEE est unique, alors que le code postal correspond à une ou plusieurs communes. Pour retrouver plus facilement ce code INSEE, passez plutôt par "l'aide au téléchargement"  pour [les données PCI (*Edigeo* ou *DXF*)](https://cadastre.data.gouv.fr/datasets/plan-cadastral-informatise) ou [celle des données Cadastre Etalab (*GeoJSON*/*SHP*)](https://cadastre.data.gouv.fr/datasets/cadastre-etalab) selon le format de fichier souhaité. 
 
 </details>
 
@@ -43,6 +43,13 @@ Nous vous invitons à lire la partie [Cadre réglementaire de la publication de 
 <summary>Comment s'informer sur la mitoyenneté ?</summary>
 
 Nous vous invitons à consulter [cette page](https://www.service-public.fr/particuliers/vosdroits/F2415). Vous pouvez également consulter le plan avec figuré sur [cadastre.gouv.fr](https://www.cadastre.gouv.fr/). La [page de légende du cadastre](https://www.cadastre.gouv.fr/scpc/pdf/legendes/FR_fr/Legende%20du%20plan%20sur%20internet.pdf#page=3) vous permet de comprendre les figurés liés à la mitoyenneté. Il vous est possible d'avoir plus d'informations si vous êtes propriétaire en vous rapprochant des services concernés en passant par votre espace sécurisé sur [impots.gouv.fr](https://impots.gouv.fr).
+
+
+</details>
+
+<details>
+
+<summary>J'ai un décalage entre les parcelles et des photos aériennes et/ou je constate des chevauchements entre des parcelles,  pourquoi?</summary>
 
 
 </details>
