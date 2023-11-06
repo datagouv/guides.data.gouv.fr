@@ -67,7 +67,7 @@ Une autre couche intéressante est celle du "**Décalage de la representation ca
 
 {% hint style="danger" %} 
 
-**Attention**
+### Attention {#decalage-parcelles} 
 
 Contrairement à une croyance commune, **le contour des parcelles n'est pas fiable** : il ne s'agit que d'une représentation graphique imprécise, établie avant que les photos aériennes soient généralisées et de grande précision. **Seuls les actes de vente ont une valeur juridique.**
 
