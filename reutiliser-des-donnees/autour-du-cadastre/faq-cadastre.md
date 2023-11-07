@@ -51,5 +51,6 @@ Nous vous invitons à consulter [cette page](https://www.service-public.fr/parti
 
 <summary>J'ai un décalage entre les parcelles et des photos aériennes et/ou je constate des chevauchements entre des parcelles,  pourquoi?</summary>
 
+Merci de vous référer à [cette partie relative à la réutilisation des données](faq-cadastre.md#decalage-parcelles).
 
 </details>
