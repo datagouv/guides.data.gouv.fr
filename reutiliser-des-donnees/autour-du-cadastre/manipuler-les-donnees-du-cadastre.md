@@ -63,15 +63,17 @@ Plusieurs solutions sont disponibles pour accéder aux fonds de plan du cadastre
 
 Il existe de nombreuses autres couches d'information liées aux cadastre proposées par l'IGN. Il est possible de les chercher depuis la [page de documentation de Geoservices](https://geoservices.ign.fr/documentation/services), en prenant les fichiers CSV des géoservices et de la Géoplateforme, qui remplacera dans les mois à venir les services OGC de l'IGN.
 
-Une autre couche intéressante est celle du "**Décalage de la representation cadastrale**" `CADASTRALPARCELS.HEATMAP` disponible sur [le WMS](https://wxs.ign.fr/parcellaire/geoportail/r/wms) et aussi consultable sur [le Géoportail](https://www.geoportail.gouv.fr/carte?c=-1.0309918634157356,46.551302493795134&z=6&l0=ORTHOIMAGERY.ORTHOPHOTOS::GEOPORTAIL:OGC:WMTS(1)&l1=GEOGRAPHICALGRIDSYSTEMS.PLANIGNV2::GEOPORTAIL:OGC:WMTS(1)&l2=CADASTRALPARCELS.HEATMAP::GEOPORTAIL:OGC:WMTS(0.9)&l3=CADASTRALPARCELS.PARCELLAIRE_EXPRESS::GEOPORTAIL:OGC:WMTS(1)&permalink=yes). Elle permet de voir le décalage entre les contours des parcelles et le terrain. Cette couche couvre une grande partie du territoire, mais pas son ensemble. 
-
 {% hint style="danger" %} 
 
 ### Attention {#decalage-parcelles} 
 
 Contrairement à une croyance commune, **le contour des parcelles n'est pas fiable** : il ne s'agit que d'une représentation graphique imprécise, établie avant que les photos aériennes soient généralisées et de grande précision. **Seuls les actes de vente ont une valeur juridique.**
 
-Il faut aussi noter que les parcelles aux limites entre communes se recoupent ou donnent un "no man land" car historiquement, chaque commune gérait séparément ses parcelles et aucune ne se préoccupait de la limite exacte avec les communes limitrophes de son territoire. {% endhint %}
+Il faut aussi noter que les parcelles aux limites entre communes se recoupent ou donnent un "no man land" car historiquement, chaque commune gérait séparément ses parcelles et aucune ne se préoccupait de la limite exacte avec les communes limitrophes de son territoire.
+
+Pour évaluer ce décalage entre les contours des parcelles et le terrain, il est possible d'utiliser la couche "**Décalage de la representation cadastrale**" `CADASTRALPARCELS.HEATMAP` disponible sur [le WMS](https://wxs.ign.fr/parcellaire/geoportail/r/wms) et aussi consultable sur [le Géoportail](https://www.geoportail.gouv.fr/carte?c=-1.0309918634157356,46.551302493795134&z=6&l0=ORTHOIMAGERY.ORTHOPHOTOS::GEOPORTAIL:OGC:WMTS(1)&l1=GEOGRAPHICALGRIDSYSTEMS.PLANIGNV2::GEOPORTAIL:OGC:WMTS(1)&l2=CADASTRALPARCELS.HEATMAP::GEOPORTAIL:OGC:WMTS(0.9)&l3=CADASTRALPARCELS.PARCELLAIRE_EXPRESS::GEOPORTAIL:OGC:WMTS(1)&permalink=yes). Cette couche couvre une grande partie du territoire, mais pas son ensemble.
+
+{% endhint %}
 
 <figure><img src="images/exemple-decalage-parcellaire.png" alt=""><figcaption><p>Un exemple de décalage de parcelles avec différents niveaux de précision</p></figcaption></figure>
 
