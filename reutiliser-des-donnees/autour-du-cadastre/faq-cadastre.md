@@ -53,4 +53,5 @@ Nous vous invitons à consulter [cette page](https://www.service-public.fr/parti
 
 Merci de vous référer à [cette partie relative à la réutilisation des données](../autour-du-cadastre/manipuler-les-donnees-du-cadastre.md#decalage-parcelles).
 
+
 </details>
