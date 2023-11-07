@@ -19,10 +19,13 @@ Dans cette section, nous vous guidons dans la manipulation des données du cadas
 
 Il existe aujourd'hui **trois versions** des données du plan cadastral :
 - **la version de la Direction générale des finances publiques (DGFiP)**
+
   Elle est mise à jour tous les 3 mois environ, théoriquement aux 01/01, 01/04, 01/07 et 01/10 (il s'agit plutôt des dates d'extraction, les données sont réellement mises à disposition quelques jours après). Dans le cadre du [service public de la donnée (SPD)](https://www.data.gouv.fr/fr/pages/spd/reference/), la Direction interministérielle du numérique (DINUM) diffuse ces données pour le compte de la DGFiP. Plus d'informations sont disponibles sur [cette page](https://cadastre.data.gouv.fr/datasets/plan-cadastral-informatise) ;
 - **la version d'Etalab**
+
   Elle consiste en un assemblage de données, qui s'appuie sur les données Edigeo (Plan Cadastral Informatisé issu de la DGFiP, ci-dessus) et les données de Strasbourg (hors PCI). Elle peut présenter quelques erreurs, en particulier du fait de l'interprétation des géométries issues du format Edigeo. Les formats proposés sont du *GeoJSON* et du *SHP*. Cette version étant dépendante de la version précédente mais nécessitant plus de traitement, elle requiert plusieurs semaines pour sa mise à disposition, à partir de la réception des données transmises par la DGFiP. Il s'agit d'un produit de la Direction interministérielle du numérique (DINUM). Plus d'informations sont disponibles sur [cette page](https://cadastre.data.gouv.fr/datasets/cadastre-etalab) ;
 - **la version de l'Institut national de l'information géographique et forestière (IGN)** : proposée via le produit PCI Express.
+
   La mise à jour est effectuée après la mise à disposition des données Edigeo sur [cadastre.data.gouv.fr](cadastre.data.gouv.fr).
 
   {% endhint %}
