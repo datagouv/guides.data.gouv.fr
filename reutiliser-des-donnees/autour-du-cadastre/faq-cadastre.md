@@ -49,9 +49,12 @@ Nous vous invitons à consulter [cette page](https://www.service-public.fr/parti
 
 <details>
 
-<summary>J'ai un décalage entre les parcelles et des photos aériennes et/ou je constate des chevauchements entre des parcelles,  pourquoi?</summary>
+<summary>J'ai un décalage entre les parcelles cadastrales et des photos aériennes et/ou je constate des chevauchements entre des parcelles,  pourquoi ?</summary>
 
-Nous vous invitons à consulter [cette partie du guide, relative à la manipulation des données du cadastre](./manipuler-les-donnees-du-cadastre.md#attention).
+Contrairement à une croyance commune, **le contour des parcelles n'est pas fiable** : il ne s'agit que d'une représentation graphique imprécise, établie avant que les photos aériennes soient généralisées et de grande précision. **Seuls les actes de vente ont une valeur juridique.**
 
+Il faut aussi noter que les parcelles aux limites entre communes se recoupent ou donnent un "no man land" car historiquement, chaque commune gérait séparément ses parcelles et aucune ne se préoccupait de la limite exacte avec les communes limitrophes de son territoire.
+
+Pour évaluer ce décalage entre les contours des parcelles et le terrain, il est possible d'utiliser la couche "**Décalage de la representation cadastrale**" `CADASTRALPARCELS.HEATMAP` disponible sur [le WMS](https://wxs.ign.fr/parcellaire/geoportail/r/wms) et aussi consultable sur [le Géoportail](https://www.geoportail.gouv.fr/carte?c=-1.0309918634157356,46.551302493795134&z=6&l0=ORTHOIMAGERY.ORTHOPHOTOS::GEOPORTAIL:OGC:WMTS(1)&l1=GEOGRAPHICALGRIDSYSTEMS.PLANIGNV2::GEOPORTAIL:OGC:WMTS(1)&l2=CADASTRALPARCELS.HEATMAP::GEOPORTAIL:OGC:WMTS(0.9)&l3=CADASTRALPARCELS.PARCELLAIRE_EXPRESS::GEOPORTAIL:OGC:WMTS(1)&permalink=yes). Cette couche couvre une grande partie du territoire, mais pas son ensemble.
 
 </details>
