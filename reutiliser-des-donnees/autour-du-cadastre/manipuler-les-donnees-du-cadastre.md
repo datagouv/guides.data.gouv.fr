@@ -32,7 +32,7 @@ Il existe aujourd'hui **trois versions** des données du plan cadastral :
 
 Pour télécharger les données, vous pouvez vous rendre sur :
 - **Pour la version de la DGFiP** : [cadastre.data.gouv.fr/datasets/plan-cadastral-informatise](https://cadastre.data.gouv.fr/datasets/plan-cadastral-informatise) (formats *Edigeo*, *Edigeo-cc*, *DXF-PCI*, *DXF-PCI-cc*, *TIFF*) ;
-- **Pour la version d'Etalab** : [cadastre.data.gouv.fr/data/etalab-cadastre](https://cadastre.data.gouv.fr/data/etalab-cadastre/) (formats *GeoJSON* et *SHP*) ;
+- **Pour la version d'Etalab** : [cadastre.data.gouv.fr/data/etalab-cadastre](https://cadastre.data.gouv.fr/data/etalab-cadastre/) (formats *GeoJSON* et *SHP*). Pour comprendre les identifiants des parcelles utilisés, passez par [cette documentation](https://gist.github.com/ThomasG77/a9b39677d302e2405c18cfe9bc8e462b);
 - **Pour la version de l'IGN** : [la page "Parcellaire Express (PCI)" du site Geoservices de l'IGN](https://geoservices.ign.fr/parcellaire-express-pci).
 
 ## Rechercher des parcelles
