@@ -20,7 +20,7 @@ Il est possible de **consulter** [**la carte du cadastre**](https://cadastre.dat
 
 **Lexique**
 
-Parcelle cadastrale : Portion de terrain appartenant à un même propriétaire. {% endhint %}
+Parcelle cadastrale : Portion de terrain, représentée au plan cadastral, possédant un identifiant unique composé du nom de sa section cadastrale et de son numéro. {% endhint %}
 
 ![Illustration du plan cadastral](https://user-images.githubusercontent.com/72090652/268529403-e350b687-a132-4b5a-934c-05f132b0e92a.png)
 
