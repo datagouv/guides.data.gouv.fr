@@ -64,12 +64,12 @@ Pour évaluer ce décalage entre les contours des parcelles et le terrain, il es
 <summary>Comment rechercher des parcelles anciennes ?</summary>
 
 Pour rechercher des parcelles anciennes, plusieurs solutions se présentent à vous :
-- Si vous ne recherchez pas la représentation graphique, vous pouvez consulter [les documents de filiation informatisés (DFI)](https://www.data.gouv.fr/fr/datasets/documents-de-filiation-informatises-dfi-des-parcelles/) ;
+- Si vous ne recherchez pas la représentation graphique, vous pouvez consulter [les documents de filiation informatisés (DFI)](https://www.data.gouv.fr/fr/datasets/documents-de-filiation-informatises-dfi-des-parcelles/) qui précisent la parenté ;
 - Si les parcelles anciennes que vous recherchez ne figurent pas dans les DFI, nous vous invitons à consulter les remembrements aux archives départementales, ou à contacter le Service de publicité foncière (sans garantie).
 
 Pour retrouver les contours du cadastre de l'époque, vous pouvez vous adresser :
 - à la mairie ;
-- au Service de publicité foncière, dans les annexes gaphiques des actes notariaux.
+- au Service de publicité foncière, dans les annexes graphiques des actes notariaux.
 
 </details>
 
