@@ -99,7 +99,7 @@
 * [📃 Données de la commande publique](autres-ressources/donnees-de-la-commande-publique/README.md)
   * [Publier les données essentielles d’attribution des marchés](autres-ressources/donnees-de-la-commande-publique/publier-les-donnees-essentielles-dattribution-des-marches.md)
   * [Déclaration d’un profil d’acheteur](autres-ressources/donnees-de-la-commande-publique/declaration-dun-profil-dacheteur.md)
-* [🇪🇺 Rapportage High Value Dataset (HVD) pour les producteurs](autres-ressources/rapportage-high-value-dataset-hvd-pour-les-producteurs.md)
+* [🇪🇺 Données de forte valeur : modalités de rapportage](autres-ressources/donnees-de-forte-valeur-modalites-de-rapportage.md)
 * [📚 Ressources OpenDataFrance](https://opendatafrance.gitbook.io/kit-de-ressources-odf/)
 * [🚃 Documentation de transport.data.gouv.fr](https://doc.transport.data.gouv.fr/)
 
