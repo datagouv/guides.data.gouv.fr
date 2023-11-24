@@ -39,11 +39,14 @@ Pour les producteurs concernés (cf. [ouverture.data.gouv.fr](https://ouverture.
 
 Les obligations minimales de description des données pour les données de forte valeur sont les suivantes :
 
-* Un identifiant stable dans le temps. Il est préconisé qu’il suive les bonnes pratiques DCAT-AP (ex : une URI déréférençable). Voir le détail dans le cadre des données de forte valeur : [https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#c2](https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#c2).
+* Un identifiant stable dans le temps. Il est préconisé qu’il suive les bonnes pratiques DCAT-AP, [précisé ici dans le contexte des données de forte valeur](https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#c2).
+  * Dans le cas d'une publication sur data.gouv.fr directement, l'identifiant est géré par data.gouv.fr et les producteurs
+  * Dans le cadre du moissonnage d'une plateforme source, un point de vigilance est à avoir sur les identifiants utilisés et remontés lors du moissonnage.
 * Une métadonnée identifiant la donnée comme une donnée de forte valeur
-  * Proposition [data.gouv.fr](http://data.gouv.fr) : ajout d’un mot clé “**hvd**”
+  * Proposition de [data.gouv.fr](http://data.gouv.fr) : ajout d’un mot clé “**hvd**”.
+  * Cette proposition est en attente de validation lors d'un groupe de travail du CNIG.
 * Une métadonnée identifiant la catégorie HVD à laquelle la donnée appartient
-  * Proposition [data.gouv.fr](http://data.gouv.fr) : ajout de l’un des mots clé suivants :
+  * Proposition de [data.gouv.fr](http://data.gouv.fr) : ajout de l’un des mots clé suivants :
     * **hvd-geospatial**
     * **hvd-earth**
     * **hvd-meteorological**
@@ -51,6 +54,7 @@ Les obligations minimales de description des données pour les données de forte
     * **hvd-companies**
     * **hvd-mobility**
   * Le mapping vers [les codes du référentiel européen](https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/high-value-dataset-category) se fait par [data.gouv.fr](http://data.gouv.fr).
+  * Cette proposition est en attente de validation lors d'un groupe de travail du CNIG.
 * La description de service pour les API
   * Dans le cadre d’une API, une page web de description de la qualité de service de cette API est attendue. Il peut par exemple s’agir d’un lien vers un SLA (service-level agreement).
   * Un lien vers la documentation de l’API (dans un format standard pour les machines ou les utilisateurs humains) est aussi fortement recommandé.
@@ -75,10 +79,10 @@ Aujourd’hui, certaines des métadonnées demandées ne sont pas correctement m
 ### L'articulation entre la Directive INSPIRE et le règlement d'exécution relatif aux données de forte valeur&#x20;
 
 {% hint style="info" %}
-**INSPIRE** est un cadre législatif qui vise à établir une infrastructure d'information géographique pour l'environnement, à l'échelle européenne. \
+**INSPIRE** est une directive qui vise à établir une infrastructure d'information géographique pour l'environnement, à l'échelle européenne. \
 
 
-**"Données de forte valeur"** est un label attribué à des données dont la mise en open data peut générer un impact économique, social et environnemental significatif.
+**"Données de forte valeur"** découle de la directive Open Data et est un label attribué à des données dont la mise en open data peut générer un impact économique, social et environnemental significatif.
 {% endhint %}
 
 La remontée des données INSPIRE se fait via le [géocatalogue](https://www.geocatalogue.fr/), portail national géré par le Bureau de recherches géologiques et minières (BRGM) et dédié aux données géographiques.
