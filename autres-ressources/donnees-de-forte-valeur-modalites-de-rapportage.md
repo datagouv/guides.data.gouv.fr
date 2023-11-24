@@ -14,7 +14,7 @@ La "Directive Open Data" ([Directive 2019/1024](https://eur-lex.europa.eu/legal-
 Les données de forte valeur devront être mises à disposition gratuitement en vue de leur réutilisation pour le **9 juin 2024**.
 {% endhint %}
 
-Les données de forte valeur (HVD) ont vocation à remonter sur la plateforme data.gouv.fr dans le cadre des obligations de rapportage établies dans [le règlement d'exécution](https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32023R0138). Les modalités techniques définies sont issues d'un travail concerté et itératif avec plusieurs parties prenantes, notamment dans le cadre de groupes de travail portés par le CNIG. Elles font toujours l'objet de discussions et de nouvelles précisions sont à venir.
+Les données de forte valeur (HVD) ont vocation à remonter sur la plateforme data.gouv.fr dans le cadre des obligations de rapportage établies dans [le règlement d'exécution](https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32023R0138). Les modalités techniques définies ici font l'objet d'un travail concerté et itératif avec plusieurs parties prenantes, notamment dans le cadre de groupes de travail portés par le CNIG. Des discussions sont en cours sur ces modalités techniques et de nouvelles précisions sont à venir.
 
 Ce guide présente :
 
@@ -40,7 +40,7 @@ Pour les producteurs concernés (cf. [ouverture.data.gouv.fr](https://ouverture.
 Les obligations minimales de description des données pour les données de forte valeur sont les suivantes :
 
 * Un identifiant stable dans le temps. Il est préconisé qu’il suive les bonnes pratiques DCAT-AP, [précisé ici dans le contexte des données de forte valeur](https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#c2).
-  * Dans le cas d'une publication sur data.gouv.fr directement, l'identifiant est géré par data.gouv.fr et les producteurs
+  * Dans le cas d'une publication sur data.gouv.fr directement, l'identifiant est géré par data.gouv.fr et les producteurs n'ont pas à s'en inquiéter.
   * Dans le cadre du moissonnage d'une plateforme source, un point de vigilance est à avoir sur les identifiants utilisés et remontés lors du moissonnage.
 * Une métadonnée identifiant la donnée comme une donnée de forte valeur
   * Proposition de [data.gouv.fr](http://data.gouv.fr) : ajout d’un mot clé “**hvd**”.
@@ -59,7 +59,7 @@ Les obligations minimales de description des données pour les données de forte
   * Dans le cadre d’une API, une page web de description de la qualité de service de cette API est attendue. Il peut par exemple s’agir d’un lien vers un SLA (service-level agreement).
   * Un lien vers la documentation de l’API (dans un format standard pour les machines ou les utilisateurs humains) est aussi fortement recommandé.
 * Un point de contact des données ou APIs
-  * Il peut prendre la forme d’une adresse mail ou d’un formulaire de contact. Il est obligatoire dans le cas d’APIs mais **optionnel pour les données en téléchargement**.
+  * Il peut prendre la forme d’une adresse mail ou d’un formulaire de contact. Il est **obligatoire dans le cas d’APIs** mais **optionnel pour les données en téléchargement**.
 * Une métadonnée décrivant la licence utilisée (équivalente [licence Creative Commons BY 4.0](https://creativecommons.org/licenses/by/4.0/) ou moins restrictive)
   * Identifiant [la licence ouverte Etalab 2.0](https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf) (LOv2) ou l’une des [licences supportées sur data.gouv.fr](https://www.data.gouv.fr/api/1/datasets/licenses/). Plus d’informations [sur cette page](https://www.data.gouv.fr/fr/pages/legal/licences/) sur les licences utilisables par les administrations.
   * L'URL identifiante à utiliser pour la LOv2 dans le cadre d'un moissonnage est [https://www.etalab.gouv.fr/licence-ouverte-open-licence](https://www.etalab.gouv.fr/licence-ouverte-open-licence).
