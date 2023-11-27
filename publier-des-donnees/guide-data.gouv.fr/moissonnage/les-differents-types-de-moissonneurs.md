@@ -94,7 +94,7 @@ Une requête POST est alors effectuée par le moissonneur avec la requête suiva
   </csw:GetRecords>
 ```
 
-Attention, si des entrées du catalogue cible ne sont pas convertibles en DCAT, il faut mettre en place [un sous-portail dédié](https://geonetwork-opensource.org/manuals/4.0.x/fr/administrator-guide/configuring-the-catalog/portal-configuration.html#configuring-a-sub-portal) en filtrant par exemple sur les entrées de type `documentStandard` pour n'exposer que les entrées compatibles.
+Attention, si des entrées du catalogue cible ne sont pas convertibles en DCAT, il faut mettre en place [un sous-portail](https://geonetwork-opensource.org/manuals/4.0.x/fra/users/administrator-guide/configuring-the-catalog/portal-configuration.html#configuring-a-sub-portal) dédié en filtrant par exemple sur les entrées de type `documentStandard` pour n'exposer que les entrées compatibles.
 
 ### Namespaces utilisés <a href="#correspondance-des-champs-du-modele" id="correspondance-des-champs-du-modele"></a>
 
