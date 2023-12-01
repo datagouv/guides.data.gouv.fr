@@ -10,7 +10,7 @@ Comment accéder aux statistiques sur data.gouv.fr.
 {% tab title="Organisations" %}
 Vous trouverez les statistiques dans l’onglet "Informations".
 
-Les statistiques suivantes sont affichées sur l’année en cours et elles sont mises à jour quotidiennement :
+Les statistiques suivantes sont affichées **sur l’année en cours** et elles sont **mises à jour quotidiennement** :
 
 * Des statistiques générales
   * Nombre de jeux de données publiés par l’organisation
@@ -48,7 +48,7 @@ Si vous souhaitez accéder au détail des statistiques sur l’ensemble de vos j
 {% tab title="Jeux de données" %}
 Vous trouverez les statistiques dans l’onglet "Informations".
 
-Les statistiques suivantes sont affichées sur l’année en cours et elles sont mises à jour quotidiennement :
+Les statistiques suivantes sont affichées **sur l’année en cours** et elles sont **mises à jour quotidiennement** :
 
 * Nombre de visites
 * Nombre de téléchargements (manuel et automatisé) des fichiers et ressources
@@ -73,7 +73,7 @@ Il est possible de télécharger les statistiques au format csv (tabulaire). Cel
 {% tab title="Réutilisations" %}
 Vous trouverez les statistiques en dessous de la liste des jeux de données associés à la réutilisation.
 
-Les statistiques suivantes sont affichées sur l’année en cours et elles sont mises à jour quotidiennement :
+Les statistiques suivantes sont affichées **sur l’année en cours** et elles sont **mises à jour quotidiennement** :
 
 * Nombre de visites
 * Nombre d’utilisateurs ayant placé cette réutilisation parmi leurs favoris
