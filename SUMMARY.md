@@ -83,6 +83,7 @@
       * [notifications](publier-des-donnees/guide-data.gouv.fr/api/reference/notifications.md)
       * [avatars](publier-des-donnees/guide-data.gouv.fr/api/reference/avatars.md)
       * [harvest](publier-des-donnees/guide-data.gouv.fr/api/reference/harvest.md)
+  * [🆕 Statistiques](publier-des-donnees/guide-data.gouv.fr/statistiques.md)
 
 ## Réutiliser des données
 
