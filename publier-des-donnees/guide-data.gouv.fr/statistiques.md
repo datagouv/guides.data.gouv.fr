@@ -4,9 +4,7 @@ description: Consultez et téléchargez les statistiques de vos publications
 
 # 🆕 Statistiques
 
-Comment accéder aux statistiques sur data.gouv.fr.\
-\
-VIDEO TUTORIEL&#x20;
+Comment accéder aux statistiques sur data.gouv.fr.
 
 {% tabs %}
 {% tab title="Organisations" %}
@@ -42,27 +40,6 @@ Il est possible de télécharger les statistiques au format csv (tabulaire). Cel
 | _monthly\_download\_resource_ | Nombre de téléchargements sur l’ensemble des fichiers sur le mois en question (manuel et automatisé) |
 | _monthly\_visit\_reuse_       | Nombre de visites sur l’ensemble des réutilisations sur le mois en question                          |
 
-
-
-Exemple avec [l’organisation du Ministère de l'Intérieur et des Outre-Mer](https://www.data.gouv.fr/fr/organizations/ministere-de-linterieur-et-des-outre-mer/#/information) au 1er décembre 2023&#x20;
-
-<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
-
-**IMAGE**
-
-* Statistiques générales
-  * 681 jeux de données
-  * 3 réutilisations
-* Statistiques des jeux de données
-  * 1,5 millions de visites de x à x
-    * Dont
-* xxxx téléchargements de x à x
-* xxxx réutilisations référencées sur les jeux de données de l’organisation
-* xxxx favoris sur les jeux de données
-* Statistiques des réutilisations
-  * x visites
-  * x favoris
-
 {% hint style="info" %}
 Si vous souhaitez accéder au détail des statistiques sur l’ensemble de vos jeux de données, vous pouvez [télécharger votre catalogue](organisation/suivre-lactivite-et-modifier-son-organisation.md#comment-telecharger-et-explorer-le-catalogue-de-donnees-dune-organisation). Vous aurez alors accès aux statistiques consolidées depuis juillet 2022.
 {% endhint %}
@@ -91,18 +68,6 @@ Il est possible de télécharger les statistiques au format csv (tabulaire). Cel
 | _reuse\_id_       | Identifiant de la réutilisation              |
 | _metric\_month_   | Mois durant lequel la mesure a été effectuée |
 | _monthly\_visit_  | Nombre de visites sur le mois en question    |
-
-**IMAGE**
-
-Exemple avec le jeu de données X au mois de novembre 2023 :&#x20;
-
-* xxxx visites de x à x
-  * Dont
-* xxxx téléchargements de x à x
-  * Dont
-* xxxx réutilisations référencées
-  * Dont
-* xxxx favoris
 {% endtab %}
 
 {% tab title="Réutilisations" %}
@@ -126,16 +91,6 @@ Il est possible de télécharger les statistiques au format csv (tabulaire). Cel
 | _reuse\_id_       | Identifiant de la réutilisation              |
 | _metric\_month_   | Mois durant lequel la mesure a été effectuée |
 | _monthly\_visit_  | Nombre de visites sur le mois en question    |
-
-**IMAGE**
-
-Exemple avec la réutilisation X au mois de novembre 2023 :&#x20;
-
-* xxxx visites de x à x
-  * Dont
-* xxxx téléchargements de x à x
-* xxxx réutilisations référencées
-* xxxx favoris
 {% endtab %}
 
 {% tab title="Plateforme data.gouv.fr" %}
