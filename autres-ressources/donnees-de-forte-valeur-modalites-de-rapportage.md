@@ -101,7 +101,7 @@ Pour éviter une double saisie, les producteurs de données ne produisent et ne 
 
 Voici **une proposition de schéma de rapportage** dans le cas de jeux de données concernés à la fois par la directive INSPIRE et le règlement d'exécution se rapportant aux données de forte valeur :
 
-![Schéma de remontées d'une fiche de données HVD et INSPIRE à l'Europe](<../.gitbook/assets/schéma remontée hvd.png>)
+![Schéma de remontées d'une fiche de données HVD et INSPIRE à l'Europe](https://raw.githubusercontent.com/etalab/guides.data.gouv.fr/main/.gitbook/assets/sch%C3%A9ma%20remont%C3%A9e%20hvd.png)
 
 Pour qu’une même fiche de données soit doublement moissonnée mais ne soit pas créée de manière dupliquée au niveau européen, il est important que **l’identifiant de la fiche de données soit stable dans le temps et correctement préservé au cours des différents moissonnages**.
 
