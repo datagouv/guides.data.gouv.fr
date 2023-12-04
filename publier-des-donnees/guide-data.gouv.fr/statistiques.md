@@ -4,7 +4,9 @@ description: Consultez et téléchargez les statistiques de vos publications
 
 # 🆕 Statistiques
 
-Comment accéder aux statistiques sur data.gouv.fr.
+Comment accéder aux statistiques sur data.gouv.fr ?
+
+{% embed url="https://www.loom.com/share/8a8a4707355f4dd3b35db6fdceb1b687?sid=90fa6873-4167-46eb-81e4-f98f3d3b9de2" %}
 
 {% tabs %}
 {% tab title="Organisations" %}
@@ -43,6 +45,8 @@ Il est possible de télécharger les statistiques au format csv (tabulaire). Cel
 {% hint style="info" %}
 Si vous souhaitez accéder au détail des statistiques sur l’ensemble de vos jeux de données, vous pouvez [télécharger votre catalogue](organisation/suivre-lactivite-et-modifier-son-organisation.md#comment-telecharger-et-explorer-le-catalogue-de-donnees-dune-organisation). Vous aurez alors accès aux statistiques consolidées depuis juillet 2022.
 {% endhint %}
+
+<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption><p>Exemple des statistiques du <a href="https://www.data.gouv.fr/fr/organizations/ministere-de-linterieur-et-des-outre-mer/#/information">Ministère de l'Intérieur</a> au 4 décembre 2023.</p></figcaption></figure>
 {% endtab %}
 
 {% tab title="Jeux de données" %}
@@ -68,6 +72,8 @@ Il est possible de télécharger les statistiques au format csv (tabulaire). Cel
 | _reuse\_id_       | Identifiant de la réutilisation              |
 | _metric\_month_   | Mois durant lequel la mesure a été effectuée |
 | _monthly\_visit_  | Nombre de visites sur le mois en question    |
+
+<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption><p>Exemple des statistiques sur le jeu de donnée <a href="https://www.data.gouv.fr/fr/datasets/base-sirene-des-entreprises-et-de-leurs-etablissements-siren-siret/#/information">base Sirene</a> au 4 décembre 2023.</p></figcaption></figure>
 {% endtab %}
 
 {% tab title="Réutilisations" %}
@@ -91,6 +97,8 @@ Il est possible de télécharger les statistiques au format csv (tabulaire). Cel
 | _reuse\_id_       | Identifiant de la réutilisation              |
 | _metric\_month_   | Mois durant lequel la mesure a été effectuée |
 | _monthly\_visit_  | Nombre de visites sur le mois en question    |
+
+<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption><p>Exemples des statistiques sur la réutilisation "<a href="https://www.data.gouv.fr/fr/reuses/visualisation-des-donnees-sur-les-prix-des-carburants/">Visualisation des données sur les prix des carburants</a>" au 4 décembre 2023.</p></figcaption></figure>
 {% endtab %}
 
 {% tab title="Plateforme data.gouv.fr" %}
