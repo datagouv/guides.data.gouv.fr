@@ -50,4 +50,25 @@ Vous pouvez aussi installer un éditeur de texte plus agréable à utiliser que 
 
 Dans ce guide, vous apprendrez comment :&#x20;
 
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Utiliser l'API Adresse</strong> </td><td><a href="utiliser-lapi-adresse/">utiliser-lapi-adresse</a></td></tr><tr><td><strong>Utiliser l'API Découpage administratif</strong></td><td><a href="utiliser-lapi-decoupage-administratif.md">utiliser-lapi-decoupage-administratif.md</a></td></tr><tr><td><strong>Utiliser les tuiles vectorielles</strong></td><td><a href="utiliser-les-tuiles-vectorielles.md">utiliser-les-tuiles-vectorielles.md</a></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards">
+    <thead>
+        <tr>
+            <th></th>
+            <th data-hidden data-card-target data-type="content-ref"></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong>Utiliser l'API Adresse</strong> </td>
+            <td><a href="utiliser-lapi-adresse/">utiliser-lapi-adresse</a></td>
+        </tr>
+        <tr>
+            <td><strong>Utiliser l'API Découpage administratif</strong></td>
+            <td><a href="utiliser-lapi-decoupage-administratif.md">utiliser-lapi-decoupage-administratif.md</a></td>
+        </tr>
+        <tr>
+            <td><strong>Utiliser les tuiles vectorielles</strong></td>
+            <td><a href="utiliser-les-tuiles-vectorielles.md">utiliser-les-tuiles-vectorielles.md</a></td>
+        </tr>
+    </tbody>
+</table>
