@@ -7,7 +7,7 @@ Familier des APIs ? Vous pouvez directement vous référer à :
 
 ➡️ [La documentation de l’API Adresse](https://adresse.data.gouv.fr/api-doc/adresse)
 
-N'hésitez pas non plus à vous rendre à la section technique qui donne des exemples prêts à l'emploi
+N'hésitez pas non plus à vous rendre à la partie <a href="geocoder-des-adresses-pratique.md">"Cas pratiques"</a> qui donne des exemples prêts à l'emploi.
 
 {% endhint %}
 
