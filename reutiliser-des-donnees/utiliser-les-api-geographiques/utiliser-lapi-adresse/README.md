@@ -26,11 +26,11 @@ Dans cette section, vous apprendrez comment :&#x20;
             <td><a href="rappel-donnees-adresses.md">rappel-donnees-adresses.md</a></td>
         </tr>
         <tr>
-            <td><strong>Géocoder des adresses - la théorie</strong></td>
+            <td><strong>Géocoder des adresses - théorie</strong></td>
             <td><a href="geocoder-des-adresses-theorie.md">geocoder-des-adresses-theorie.md</a></td>
         </tr>
         <tr>
-            <td><strong>Géocoder des adresses - pratique</strong></td>
+            <td><strong>Géocoder des adresses - cas pratiques</strong></td>
             <td><a href="geocoder-des-adresses-pratique.md">geocoder-des-adresses-pratique.md</a></td>
         </tr>
         <tr>

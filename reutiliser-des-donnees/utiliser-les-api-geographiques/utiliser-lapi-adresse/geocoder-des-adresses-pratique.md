@@ -1,4 +1,4 @@
-# Géocoder des adresses - Cas pratiques <a href="#cas-pratiques" id="cas-pratiques"></a>
+# Géocoder des adresses - cas pratiques <a href="#cas-pratiques" id="cas-pratiques"></a>
 
 ## Comment faire de l’**autocomplétion d’adresse ?** <a href="#comment-faire-de-l-autocompletion-d-adresse" id="comment-faire-de-l-autocompletion-d-adresse"></a>
 
