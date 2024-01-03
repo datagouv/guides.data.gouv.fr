@@ -18,7 +18,7 @@ Ce guide s'adresse donc à plusieurs types de profils :
 * Intégrateurs web ;&#x20;
 * Spécialistes du secteur géospatial.&#x20;
 
-Il s'agit d'un outil évolutif et ouvert. Vous pouvez contribuer à l'améliorer en proposant une modification sur [GitHub](https://github.com/etalab/guides.etalab.gouv.fr/edit/master/apis-geo/) ou en [contactant directement](mailto:geo@data.gouv.fr) l'équipe Géo d'Etalab.&#x20;
+Il s'agit d'un outil évolutif et ouvert. Vous pouvez contribuer à l'améliorer en proposant une modification sur [GitHub](https://github.com/etalab/guides.data.gouv.fr/tree/main/reutiliser-des-donnees/utiliser-les-api-geographiques) ou en [contactant directement](mailto:geo@data.gouv.fr) l'équipe Géo d'Etalab.&#x20;
 
 {% hint style="info" %}
 **Quelles sont les API géographiques dont il est question dans ce guide ?**&#x20;

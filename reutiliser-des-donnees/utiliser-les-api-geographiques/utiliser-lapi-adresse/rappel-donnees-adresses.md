@@ -17,7 +17,7 @@ L’image ci-dessous résume la situation pour consolider les données adresses 
 
 L'API Adresse est utilisée principalement pour :&#x20;
 
-* trouver par un formulaire une adresse pour la corriger et/ou récupérer des coordonnées en ayant une liste de choix pour trouver le résultat : c’est l’autocomplétion ;
+* trouver par un formulaire une adresse pour la corriger et/ou récupérer des coordonnées en ayant une liste de choix pour trouver le résultat : c’est l’autocomplétion;
 * fournir un fichier tabulaire pour obtenir en retour une version enrichie des coordonnées et d’autres informations.
 
 ## Comment accéder aux données d’adresses ? <a href="#comment-acceder-aux-donnees-d-adresses" id="comment-acceder-aux-donnees-d-adresses"></a>

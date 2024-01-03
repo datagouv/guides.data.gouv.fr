@@ -1,5 +1,7 @@
 # FAQ Adresse
 
+Une majorité des questions sont adressées déjà dans [la FAQ officielle](https://adresse-data-gouv-fr.gitbook.io/faq/manipulations-techniques). Cette FAQ présente surtout l'intérêt d'expliquer comment chercher à comprendre d'où vient une erreur d'adresse: cela peut venir des sources, des données ou bien du service de géocodage lui-même.
+
 ## Comment faire si une recherche d’adresse ne fonctionne pas ? <a href="#comment-faire-si-une-recherche-d-adresse-ne-fonctionne-pas" id="comment-faire-si-une-recherche-d-adresse-ne-fonctionne-pas"></a>
 
 * Vérifier en utilisant l’[autocomplétion](https://adresse.data.gouv.fr/base-adresse-nationale#4.4/46.9/1.7) :
