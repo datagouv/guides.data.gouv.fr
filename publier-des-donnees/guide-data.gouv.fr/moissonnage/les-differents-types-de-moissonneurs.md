@@ -66,7 +66,7 @@ Si vous avez une instance de Geonetwork, vous pouvez publier sur data.gouv.fr.
 
 #### GeoNetwork v2 ou v3
 
-En version 2 ou 3, il existe un endpoint DCAT alternatif au endpoint CSW habituellement utilisé comme [documenté sur la doc Geonetwork officielle](https://geonetwork-opensource.org/manuals/3.10.x/en/api/rdf-dcat.html).
+En version 2 ou 3, il existe un endpoint DCAT alternatif au endpoint CSW habituellement utilisé comme [documenté sur la doc Geonetwork officielle](https://geonetwork-opensource.org/manuals/3.12.x/en/api/rdf-dcat.html).
 
 Ainsi [https://geosas.fr/geonetwork/srv/fre/csw](https://geosas.fr/geonetwork/srv/fre/csw) deviendra [https://geosas.fr/geonetwork/srv/fre/rdf.search](https://geosas.fr/geonetwork/srv/fre/rdf.search) par exemple.
 
