@@ -190,7 +190,7 @@ Le moissonneur CKAN est publié sur github dans le plugin [`udata-ckan`](https:/
 {% tab title="OpenDataSoft (déprécié)" %}
 ## OpenDataSoft <a href="#opendatasoft" id="opendatasoft"></a>
 
-:warning: **Attention : Le moissonnage des plateformes OpenDataSoft se fait maintenant via DCAT. Retrouvez plus d'infos dans la section dédié** [#opendatasoft](les-differents-types-de-moissonneurs.md#opendatasoft "mention") des Logiciels supportés via DCAT.
+:warning: **Attention : Le moissonnage des plateformes OpenDataSoft se fait maintenant via DCAT. Retrouvez plus d'infos dans la section dédié** [#opendatasoft](les-differents-types-de-moissonneurs.md#opendatasoft "mention") **des Logiciels supportés via DCAT.**
 
 [Opendatasoft](https://www.opendatasoft.com/) est un service en PaaS permettant de mettre en œuvre ce qu’on appelle un datastore et le portail de données associé.
 
