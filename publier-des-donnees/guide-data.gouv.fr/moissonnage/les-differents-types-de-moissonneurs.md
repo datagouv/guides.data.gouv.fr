@@ -4,10 +4,9 @@
 
 Aujourd’hui, data.gouv.fr peut moissonner les plateformes ou formats suivants :
 
-* **DCAT**
+* **DCAT** (GeoNetwork, OpenDataSoft, etc.)
 * **CKAN**
 * **DKAN**, une variante du moissonneur CKAN
-* **OpenDataSoft (ODS)**
 
 {% tabs %}
 {% tab title="DCAT" %}
@@ -96,6 +95,16 @@ Une requête POST est alors effectuée par le moissonneur avec la requête suiva
 
 Attention, si des entrées du catalogue cible ne sont pas convertibles en DCAT, il faut mettre en place [un sous-portail dédié](https://geonetwork-opensource.org/manuals/4.0.x/fr/administrator-guide/configuring-the-catalog/portal-configuration.html#configuring-a-sub-portal) en filtrant par exemple sur les entrées de type `documentStandard` pour n'exposer que les entrées compatibles.
 
+#### OpenDataSoft
+
+[Opendatasoft](https://www.opendatasoft.com/) est un service en PaaS permettant de mettre en œuvre ce qu’on appelle un datastore et le portail de données associé.
+
+Le moissonneur utilise l'export au format DCAT de chaque portail OpenDataSoft pour récupérer les métadonnées.
+
+**Spécifications techniques** : Ce moissonneur attend l’URL publique d'export DCAT de votre portail Opendatasoft. Ce sera par exemple `https://data.ma-compagnie.com/api/explore/v2.1/catalog/exports/dcat/`. Il est possible (et souvent nécessaire) de renseigner dans l'URL les filtres des jeux de données cibles à moissonner (afin par exemple de moissonner les jeux de données du producteur X avec le mot clé Y). Vous trouverez plus d'information sur la mise en place d'un moissonneur DCAT pour un portail OpenDataSoft sur [la documentation dédiée d'OpenDataSoft](https://userguide.opendatasoft.com/l/fr/article/vi2xzx1pno-se-faire-moissonner-par-data-gouv-fr).
+
+**Attention**: OpenDataSoft utilise le slug (la portion identifiant le jeu de données dans les URLs) comme identifiant technique. L’outil laisse la possibilité de changer ce slug ce qui pose un vrai problème de pérennité des identifiants. Ayez donc à l’esprit que ce changement d’identifiant créera des doublons au moissonnage.
+
 ### Namespaces utilisés <a href="#correspondance-des-champs-du-modele" id="correspondance-des-champs-du-modele"></a>
 
 Par souci de lisibilité, les namespaces suivants sont déclarés :
@@ -178,8 +187,10 @@ Lorsqu’un ou plusieurs filtres sont déclarés, seuls les jeux de données rem
 Le moissonneur CKAN est publié sur github dans le plugin [`udata-ckan`](https://github.com/opendatateam/udata-ckan). Vous pouvez donc soumettre des améliorations ou signaler des anomalies.
 {% endtab %}
 
-{% tab title="OpenDataSoft" %}
+{% tab title="OpenDataSoft (déprécié)" %}
 ## OpenDataSoft <a href="#opendatasoft" id="opendatasoft"></a>
+
+:warning: **Attention : Le moissonnage des plateformes OpenDataSoft se fait maintenant via DCAT. Retrouvez plus d'infos dans la section dédié** [#opendatasoft](les-differents-types-de-moissonneurs.md#opendatasoft "mention") des Logiciels supportés via DCAT.
 
 [Opendatasoft](https://www.opendatasoft.com/) est un service en PaaS permettant de mettre en œuvre ce qu’on appelle un datastore et le portail de données associé.
 
