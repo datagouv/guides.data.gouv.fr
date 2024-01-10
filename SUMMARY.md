@@ -108,6 +108,7 @@
 * [🇪🇺 Données de forte valeur : modalités de rapportage](autres-ressources/donnees-de-forte-valeur-modalites-de-rapportage.md)
 * [📚 Ressources OpenDataFrance](https://opendatafrance.gitbook.io/kit-de-ressources-odf/)
 * [🚃 Documentation de transport.data.gouv.fr](https://doc.transport.data.gouv.fr/)
+* [🔦 Prise en main de l'API "Adresse" portée par l'IGN](autres-ressources/prise-en-main-de-lapi-adresse-portee-par-lign.md)
 
 ## Anciens guides
 
