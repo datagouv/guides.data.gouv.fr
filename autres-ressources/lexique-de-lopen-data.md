@@ -4,7 +4,7 @@ description: >-
   dans le cadre d'une démarche d'ouverture ou de réutilisation de données.
 ---
 
-# 💡 Lexique de l'open data
+# Lexique de l'open data
 
 ## A
 

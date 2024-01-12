@@ -5,7 +5,7 @@ description: >-
   facilement.
 ---
 
-# 📖 Guide juridique
+# Guide juridique
 
 La première partie de c_e guide s'adresse notamment aux organismes publics et privés en charge d'une mission de service public. La seconde partie de ce guide s'adresse aux réutilisateurs de données._
 

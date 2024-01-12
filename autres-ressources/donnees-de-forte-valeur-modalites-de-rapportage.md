@@ -2,7 +2,7 @@
 description: Précisions pratiques pour les producteurs de données de forte valeur
 ---
 
-# 🇪🇺 Données de forte valeur : modalités de rapportage
+# Données de forte valeur : modalités de rapportage
 
 {% hint style="info" %}
 **Rappel juridique**

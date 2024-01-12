@@ -4,7 +4,7 @@ description: >-
   données de qualité, notamment dans le cadre d'une démarche d'ouverture.
 ---
 
-# 💎 Guide qualité
+# Guide qualité
 
 {% hint style="info" %}
 **Lexique : Jeu de données**\

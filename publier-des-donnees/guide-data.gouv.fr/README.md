@@ -4,7 +4,7 @@ description: >-
   plateforme data.gouv.fr.
 ---
 
-# ⚙ Guide data.gouv.fr
+# Guide data.gouv.fr
 
 {% hint style="info" %}
 **Qu'est-ce que data.gouv.fr ?** \

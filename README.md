@@ -1,25 +1,38 @@
 ---
-cover: >-
-  https://images.unsplash.com/photo-1481627834876-b7833e8f5570?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHNlYXJjaHw1fHxib29rfGVufDB8fHx8MTY4Njg0MDU0Mnww&ixlib=rb-4.0.3&q=85
-coverY: 0
-layout: landing
+description: >-
+  Ces guides sont conçus par l'équipe de data.gouv.fr pour vous accompagner dans
+  votre démarche d'ouverture et de réutilisation de données.
 ---
 
-# 👋 Bienvenue !
+# Bienvenue sur les guides de data.gouv.fr
+
+***
+
+## Utilisation de data.gouv.fr
+
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Compte</strong></td><td>Comment et pourquoi créer un compte</td><td><a href="publier-des-donnees/guide-data.gouv.fr/creer-un-compte-utilisateur-et-rejoindre-une-organisation.md">creer-un-compte-utilisateur-et-rejoindre-une-organisation.md</a></td></tr><tr><td><strong>Organisation</strong></td><td>Créer et gérer son organisation</td><td><a href="publier-des-donnees/guide-data.gouv.fr/organisation/">organisation</a></td></tr><tr><td><strong>Jeux de données</strong></td><td>Publier et gérer ses jeux de données</td><td><a href="publier-des-donnees/guide-data.gouv.fr/jeux-de-donnees/">jeux-de-donnees</a></td></tr><tr><td><strong>Réutilisation</strong></td><td>Publier et gérer ses réutilisations</td><td><a href="publier-des-donnees/guide-data.gouv.fr/reutilisations/">reutilisations</a></td></tr><tr><td><strong>Statistiques</strong></td><td>Suivre l'activité sur ses données</td><td><a href="publier-des-donnees/guide-data.gouv.fr/statistiques.md">statistiques.md</a></td></tr></tbody></table>
+
+***
+
+## Réutiliser des données
+
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>API Base Adresse Nationale</strong></td><td>Comment utiliser l'API BAN</td><td><a href="reutiliser-des-donnees/utiliser-les-api-geographiques/utiliser-lapi-adresse/">utiliser-lapi-adresse</a></td></tr><tr><td><strong>API découpage administratif</strong></td><td>Comment à utiliser l'API découpage administratif</td><td><a href="reutiliser-des-donnees/utiliser-les-api-geographiques/utiliser-lapi-decoupage-administratif.md">utiliser-lapi-decoupage-administratif.md</a></td></tr><tr><td><strong>Tuiles vectorielles</strong></td><td>Comment utiliser les tuiles vectorielles</td><td><a href="reutiliser-des-donnees/utiliser-les-api-geographiques/utiliser-les-tuiles-vectorielles.md">utiliser-les-tuiles-vectorielles.md</a></td></tr><tr><td><strong>Données du cadastre</strong></td><td>Comment utiliser les données cadastrales</td><td><a href="reutiliser-des-donnees/autour-du-cadastre/">autour-du-cadastre</a></td></tr><tr><td><strong>API Adresse</strong></td><td>Prendre en main l'API Adresse de l'IGN</td><td><a href="reutiliser-des-donnees/prendre-en-main-lapi-adresse-portee-par-lign.md">prendre-en-main-lapi-adresse-portee-par-lign.md</a></td></tr></tbody></table>
+
+***
+
+## Documentation technique
+
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Moissonnage</strong></td><td>Comprendre et mettre en place un moissonneur</td><td><a href="publier-des-donnees/guide-data.gouv.fr/moissonnage/">moissonnage</a></td></tr><tr><td><strong>API de data.gouv.fr</strong></td><td>Comment utiliser l'API de data.gouv.fr</td><td><a href="publier-des-donnees/guide-data.gouv.fr/api/">api</a></td></tr></tbody></table>
+
+***
+
+## Guides
+
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th data-hidden></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-type="rating" data-max="5"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><strong>Guide qualité</strong></td><td>Comment améliorer la qualité de ses données ?</td><td></td><td><a href="publier-des-donnees/guide-qualite/">guide-qualite</a></td><td>null</td><td></td></tr><tr><td><strong>Guide juridique</strong></td><td>Quelles données doivent être publiées en open data ?</td><td></td><td><a href="publier-des-donnees/guide-juridique/">guide-juridique</a></td><td>null</td><td></td></tr></tbody></table>
 
 {% hint style="info" %}
-Cette nouvelle version des guides est en version beta. \
-_Le contenu des guides a vocation à évoluer et à être amélioré grâce à_ [_vos retours et suggestions_](https://tally.so/r/wLzkgv)_. Vous avez des questions ?_ [_N'hésitez pas à nous écrire_](https://support.data.gouv.fr/) _!_
+Vous ne trouvez pas ce que vous cherchez ?&#x20;
+
+Jeter un oeil sur notre [**foire aux questions**](foire-aux-questions.md)**❓**
 {% endhint %}
 
-Ces guides sont conçus par l'équipe de data.gouv.fr pour vous accompagner dans votre démarche d'ouverture et/ou de réutilisation de données.
-
-Ces guides s'adressent donc à toutes et tous :&#x20;
-
-* administrations ;&#x20;
-* entreprises ;&#x20;
-* société civile ;&#x20;
-* grand public ;&#x20;
-* etc.&#x20;
-
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th data-hidden></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-type="rating" data-max="5"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><strong>Guide qualité</strong></td><td>Comment améliorer la qualité de ses données ?</td><td></td><td><a href="publier-des-donnees/guide-qualite/">guide-qualite</a></td><td>null</td><td><a href=".gitbook/assets/Frame 1995.png">Frame 1995.png</a></td></tr><tr><td><strong>Guide juridique</strong></td><td>Quelles données doivent être publiées en open data ?</td><td></td><td><a href="publier-des-donnees/guide-juridique/">guide-juridique</a></td><td>null</td><td><a href=".gitbook/assets/Frame 1994.png">Frame 1994.png</a></td></tr><tr><td><strong>Guide data.gouv.fr</strong></td><td>Comment utiliser data.gouv.fr ?</td><td></td><td><a href="publier-des-donnees/guide-data.gouv.fr/">guide-data.gouv.fr</a></td><td>null</td><td><a href=".gitbook/assets/Frame 1997.png">Frame 1997.png</a></td></tr><tr><td><strong>Guide API géographiques</strong></td><td>Comment utiliser l'API Adresse et l'API Découpage administratif ?</td><td></td><td><a href="reutiliser-des-donnees/utiliser-les-api-geographiques/">utiliser-les-api-geographiques</a></td><td>null</td><td><a href=".gitbook/assets/Frame 1996.png">Frame 1996.png</a></td></tr><tr><td><strong>Guide Cadastre</strong></td><td>Comment utiliser les données du cadastre ?</td><td></td><td><a href="reutiliser-des-donnees/autour-du-cadastre/">utiliser-les-donnees-du-cadastre</a></td><td>null</td><td><a href=".gitbook/assets/Frame 1887.png">Frame 1887.png</a></td></tr></tbody></table>

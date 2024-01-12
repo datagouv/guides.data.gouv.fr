@@ -2,7 +2,7 @@
 description: Consultez et téléchargez les statistiques de vos publications
 ---
 
-# 🆕 Statistiques
+# Statistiques
 
 Comment accéder aux statistiques sur data.gouv.fr ?
 

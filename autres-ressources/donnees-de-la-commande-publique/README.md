@@ -1,2 +1,2 @@
-# 📃 Données de la commande publique
+# Données de la commande publique
 

@@ -1,12 +1,12 @@
-# 🔦 Prise en main de l'API "Adresse" portée par l'IGN
+# Prendre en main l'API "Adresse" portée par l'IGN
 
 Ce guide a vocation à accompagner les utilisateurs de l'API "Adresse", dans le cadre de son transfert de la DINUM à l'IGN.
 
 Il présente :&#x20;
 
-* [Le transfert de l'API "Adresse" de la Base Adresse Nationale, de la DINUM à l'IGN](prise-en-main-de-lapi-adresse-portee-par-lign.md#transfert-de-lapi-adresse-de-la-base-adresse-nationale-de-la-dinum-a-lign) ;
-* [Les modalités d’évaluation de l’API “Adresse” portée par l’IGN](prise-en-main-de-lapi-adresse-portee-par-lign.md#modalites-devaluation-de-lapi-adresse-portee-par-lign) ;
-* [Comment utiliser l'API "Adresse" portée par l'IGN et les différences avec l'API "Adresse" portée par la DINUM](prise-en-main-de-lapi-adresse-portee-par-lign.md#utilisation-de-lapi-adresse-portee-par-lign-et-les-differences-avec-lapi-adresse-portee-par-la-dinum).
+* [Le transfert de l'API "Adresse" de la Base Adresse Nationale, de la DINUM à l'IGN](prendre-en-main-lapi-adresse-portee-par-lign.md#transfert-de-lapi-adresse-de-la-base-adresse-nationale-de-la-dinum-a-lign) ;
+* [Les modalités d’évaluation de l’API “Adresse” portée par l’IGN](prendre-en-main-lapi-adresse-portee-par-lign.md#modalites-devaluation-de-lapi-adresse-portee-par-lign) ;
+* [Comment utiliser l'API "Adresse" portée par l'IGN et les différences avec l'API "Adresse" portée par la DINUM](prendre-en-main-lapi-adresse-portee-par-lign.md#utilisation-de-lapi-adresse-portee-par-lign-et-les-differences-avec-lapi-adresse-portee-par-la-dinum).
 
 ## Transfert de l’API “Adresse” de la Base Adresse Nationale, de la DINUM à l’IGN
 
@@ -110,7 +110,7 @@ SQLITE_DB_PATH = '/home/debian/addok-data/addok.db'
 
 **L’API “Adresse” portée par l’IGN est rétrocompatible/iso-fonctionnelle avec celle jusqu’alors portée par la DINUM** pour la recherche via les points d’entrée `/search/` et `/reverse/` qui se font en GET.
 
-**Nous vous invitons donc à consulter la documentation “**[**Utiliser l’API Adresse**](../reutiliser-des-donnees/utiliser-les-api-geographiques/utiliser-lapi-adresse/)**” des guides de** [**data.gouv.fr**](http://data.gouv.fr)**.**
+**Nous vous invitons donc à consulter la documentation “**[**Utiliser l’API Adresse**](utiliser-les-api-geographiques/utiliser-lapi-adresse/)**” des guides de** [**data.gouv.fr**](http://data.gouv.fr)**.**
 
 {% hint style="danger" %}
 **La fonction géocodage CSV fortement utilisée n’est pas implémentée et reste un point majeur pour la rétrocompatibilité avec les fonctionnalités existantes.**

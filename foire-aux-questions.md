@@ -7,13 +7,19 @@ description: >-
 
 # ❓ Foire aux questions
 
+<details>
 
+<summary>Question sur le Répertoire National des Associations (RNA)</summary>
+
+Si vous êtes une association et recherchez votre numéro RNA, vous pouvez consulter le moteur de recherche des associations du [journal officiel](https://www.journal-officiel.gouv.fr/associations/recherche/) (dont nous ne sommes pas responsables). Pour plus d'informations, vous pouvez consulter le site [Service-Public.fr](https://www.service-public.fr/associations).
+
+</details>
 
 <details>
 
-<summary>Question sur une procédure administrative ?</summary>
+<summary>Question sur le fichier des personnes décédées</summary>
 
-Notre support n'est pas en mesure de vous aider sur ces sujets. Vous pouvez vous référer au site [Service-Public.fr](https://doc.data.gouv.fr/).
+Les fichiers des personnes décédées disponibles sur data.gouv.fr sont recueillis par l'INSEE à partir des informations reçues des communes. Pour faire une recherche dans ces fichiers vous pouvez utilisez le service suivant [Match\_Id](https://deces.matchid.io/search) (dont nous ne sommes pas responsable). Pour plus d'informations, vous pouvez consulter [cette page](https://www.insee.fr/fr/information/4190491).
 
 </details>
 
@@ -28,26 +34,37 @@ Adressez vous directement au producteur dans l'espace de discussion en bas de pa
 
 <details>
 
+<summary>Question sur une procédure administrative ?</summary>
+
+Notre support n'est pas en mesure de vous aider sur ces sujets. Vous pouvez vous référer au site [Service-Public.fr](https://doc.data.gouv.fr/).
+
+</details>
+
+<details>
+
+<summary>Question sur un organisme de formation ou une certification Qualiopi</summary>
+
+Notre équipe n'est pas en mesure de vous aider sur ces questions. Si vous ne trouvez pas réponse à votre question ici vous pouvez contacter [le Ministère du Travail. ](https://travail-emploi.gouv.fr/ministere/article/nous-contacter).
+
+**Vous ne trouvez pas votre organismes de formation dans la liste ?**\
+Retrouvez toutes les informations utiles pour déclarer votre organisme ou transmettre votre Bilan Pédagogique et Financier sur le site du Ministère du travail: [les formalités de création et de fonctionnement des organismes de formation ](http://travail-emploi.gouv.fr/formation-professionnelle/organismes-de-formation-fonctionnement/organismes-formation).\
+
+
+**Vous souhaitez modifier certaines informations ?**\
+Les informations sont issues des déclarations annuelles effectuées par l'organisme de formation auprès du services régional de contrôle de sa DREETS, mais vous pouvez demander à tout moment la modification de certaines informations en contactant votre DREETS ou en accédant à votre espace personnel sur [l'application Mon Activité Formation](https://www.monactiviteformation.emploi.gouv.fr/).\
+
+
+**Les informations concernant votre certification QUALIOPI vous semblent erronées ?**\
+Contactez votre organisme certificateur afin qu'il transmette votre certification. Attention de bien lui fournir votre nouveau NDA si celui-ci a changé récemment.
+
+</details>
+
+<details>
+
 <summary>Question sur la base SIRENE et les données d’entreprises</summary>
 
 Si vous rechercher votre numéro SIRET ou SIREN vous pouvez vous rendre sur le site [Annuaire des Entreprises](https://annuaire-entreprises.data.gouv.fr/).\
 Si vous souhaitez rendre privées les données de votre entreprise, vous devez en [faire la demande auprès de l'INSEE ](https://statut-diffusion-sirene.insee.fr/) qui publie ces données dans le répertoire SIRENE.
-
-</details>
-
-<details>
-
-<summary>Question sur le Répertoire National des Associations (RNA)</summary>
-
-Si vous êtes une association et recherchez votre numéro RNA, vous pouvez consulter le moteur de recherche des associations du [journal officiel](https://www.journal-officiel.gouv.fr/associations/recherche/) (dont nous ne sommes pas responsables). Pour plus d'informations, vous pouvez consulter le site [Service-Public.fr](https://www.service-public.fr/associations).
-
-</details>
-
-<details>
-
-<summary>Question sur le fichier des personnes décédées</summary>
-
-Les fichiers des personnes décédées disponibles sur data.gouv.fr sont recueillis par l'INSEE à partir des informations reçues des communes. Pour faire une recherche dans ces fichiers vous pouvez utilisez le service suivant [Match\_Id](https://deces.matchid.io/search) (dont nous ne sommes pas responsable). Pour plus d'informations, vous pouvez consulter [cette page](https://www.insee.fr/fr/information/4190491).
 
 </details>
 
@@ -138,24 +155,5 @@ Notre équipe n'est pas en mesure de vous aider sur ces questions. Vous pouvez v
 <summary>Question sur le compte professionnel de formation (CPF)</summary>
 
 Notre équipe n'est pas en mesure de vous aider sur ces questions. Vous pouvez vous référez à [la fiche pratique sur Service-Public.fr](https://www.service-public.fr/particuliers/vosdroits/F10705).
-
-</details>
-
-<details>
-
-<summary>Question sur un organisme de formation ou une certification Qualiopi</summary>
-
-Notre équipe n'est pas en mesure de vous aider sur ces questions. Si vous ne trouvez pas réponse à votre question ici vous pouvez contacter [le Ministère du Travail. ](https://travail-emploi.gouv.fr/ministere/article/nous-contacter).
-
-**Vous ne trouvez pas votre organismes de formation dans la liste ?**\
-Retrouvez toutes les informations utiles pour déclarer votre organisme ou transmettre votre Bilan Pédagogique et Financier sur le site du Ministère du travail: [les formalités de création et de fonctionnement des organismes de formation ](http://travail-emploi.gouv.fr/formation-professionnelle/organismes-de-formation-fonctionnement/organismes-formation).\
-
-
-**Vous souhaitez modifier certaines informations ?**\
-Les informations sont issues des déclarations annuelles effectuées par l'organisme de formation auprès du services régional de contrôle de sa DREETS, mais vous pouvez demander à tout moment la modification de certaines informations en contactant votre DREETS ou en accédant à votre espace personnel sur [l'application Mon Activité Formation](https://www.monactiviteformation.emploi.gouv.fr/).\
-
-
-**Les informations concernant votre certification QUALIOPI vous semblent erronées ?**\
-Contactez votre organisme certificateur afin qu'il transmette votre certification. Attention de bien lui fournir votre nouveau NDA si celui-ci a changé récemment.
 
 </details>
