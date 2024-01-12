@@ -31,7 +31,7 @@ Pour les producteurs concernés (cf. [ouverture.data.gouv.fr](https://ouverture.
 
 1. Les données sont identifiées comme étant de forte valeur et sont classées dans l’une des 6 grandes catégories précisées dans les 6 annexes du règlement d'exécution (géospatiales, météorologiques, etc.). Selon la catégorie associée, les conditions de mise à disposition et les métadonnées obligatoires diffèrent.
 2. Les données ainsi identifiées remontent au niveau national en étant :
-   * soit moissonnées sur [data.gouv.fr](http://data.gouv.fr/) (cf. [Moissonnage](../publier-des-donnees/guide-data.gouv.fr/moissonnage/)) et éventuellement le [geocatalogue](https://www.geocatalogue.fr/) selon leur nature ;
+   * soit moissonnées sur [data.gouv.fr](http://data.gouv.fr/) (cf. [Moissonnage](../guide-data.gouv.fr/moissonnage/)) et éventuellement le [geocatalogue](https://www.geocatalogue.fr/) selon leur nature ;
    * soit publiées directement sur [data.gouv.fr](https://www.data.gouv.fr/).
 3. Les données sont moissonnées par [data.europa.eu](https://data.europa.eu/en) pour proposer un catalogue européen des données de forte valeur.
 

@@ -12,7 +12,7 @@ Deux approches sont possibles pour structurer un jeu de données, selon le cas d
 * **Cas 2 : La structure de vos données correspond à un schéma de données existant**, comme par exemple s'il s'agit d'une Base Adresse Locale.
 
 {% hint style="info" %}
-Les préconisations pour structurer une Base Adresse Locale sont détaillées sur [cette page](structurer-un-jeu-de-donnees/structurer-une-base-adresse-locale.md).
+Les préconisations pour structurer une Base Adresse Locale sont détaillées sur [cette page](structurer-une-base-adresse-locale.md).
 {% endhint %}
 
 {% tabs %}
@@ -35,9 +35,9 @@ L’ouverture de ces données en dehors de leur environnement impose de **struct
 
 Il est conseillé de :&#x20;
 
-* **Occulter l’ensemble des colonnes dont les champs contiennent des données couvertes par un secret légal** (cf. [Guide juridique](../../guide-juridique/)) ;
-* **Occulter l’ensemble des colonnes dont les champs contiennent des données à caractère personnel** dont la publication n’est pas nécessaire à l’information du public (cf. [Guide juridique](../../guide-juridique/)) ;
-* **Privilégier la présence de variables pivots** : ces variables proposent des identifiants communs qui permettent de lier plusieurs jeux de données entre eux (ex. le numéro SIRET de la [base Sirene](https://www.data.gouv.fr/fr/datasets/base-sirene-des-entreprises-et-de-leurs-etablissements-siren-siret/)) (cf. [section "Lier des données à un référentiel"](lier-des-donnees-a-un-referentiel.md)).
+* **Occulter l’ensemble des colonnes dont les champs contiennent des données couvertes par un secret légal** (cf. [Guide juridique](../../../guide-juridique/)) ;
+* **Occulter l’ensemble des colonnes dont les champs contiennent des données à caractère personnel** dont la publication n’est pas nécessaire à l’information du public (cf. [Guide juridique](../../../guide-juridique/)) ;
+* **Privilégier la présence de variables pivots** : ces variables proposent des identifiants communs qui permettent de lier plusieurs jeux de données entre eux (ex. le numéro SIRET de la [base Sirene](https://www.data.gouv.fr/fr/datasets/base-sirene-des-entreprises-et-de-leurs-etablissements-siren-siret/)) (cf. [section "Lier des données à un référentiel"](../lier-des-donnees-a-un-referentiel.md)).
 
 #### L’entête des colonnes (pour le format tabulaire) <a href="#l-entete-des-colonnes-pour-le-format-tabulaire" id="l-entete-des-colonnes-pour-le-format-tabulaire"></a>
 
@@ -134,7 +134,7 @@ Ces schémas facilitent la montée en qualité et le croisement des données pro
 
 
 
-➡️ **Pour plus de détails sur les schémas de données, consultez** [**la section "Maîtriser les schémas de données"**](../maitriser-les-schemas-de-donnees/)
+➡️ **Pour plus de détails sur les schémas de données, consultez** [**la section "Maîtriser les schémas de données"**](../../maitriser-les-schemas-de-donnees/)
 {% endhint %}
 
 ### **Identifier un schéma de données déjà existant**
@@ -147,7 +147,7 @@ Lorsque les données que vous souhaitez faire circuler correspondent à un sché
 
 Si les données ne sont pas extraites d’un système d’information mais saisies manuellement, **il est possible d'utiliser** [**l’outil publier.etalab.studio**](https://publier.etalab.studio/) qui permet, à partir d’un schéma de données sélectionné, de saisir les valeurs de chaque information et ainsi de produire un fichier exhaustif et conforme.
 
-<figure><img src="../../../.gitbook/assets/Capture d’écran 2023-06-19 à 17.16.56.png" alt=""><figcaption><p>Page d'accueil de publier.etalab.studio</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Capture d’écran 2023-06-19 à 17.16.56.png" alt=""><figcaption><p>Page d'accueil de publier.etalab.studio</p></figcaption></figure>
 
 {% hint style="info" %}
 📖 **Tutoriel : Utiliser** [**publier.etalab.studio**](https://publier.etalab.studio/) **pour saisir, valider et publier des données de qualité**
@@ -171,7 +171,7 @@ Les étapes à suivre sont les suivantes :&#x20;
 
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/Capture d’écran 2023-04-25 à 18.05.30 (5).png" alt=""><figcaption><p>Schéma synthétisant la procédure pour saisir, valider et publier des données à l'aide de publier.etalab.studio</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Capture d’écran 2023-04-25 à 18.05.30 (5).png" alt=""><figcaption><p>Schéma synthétisant la procédure pour saisir, valider et publier des données à l'aide de publier.etalab.studio</p></figcaption></figure>
 
 ### **Valider la conformité d’un fichier avec un schéma de données**
 
@@ -189,7 +189,7 @@ Sur l'interface d'administration de data.gouv.fr, il est possible d'indiquer que
 
 * Le fait d'indiquer que votre ressource est censée respecter un schéma permet de bénéficier de vérifications de la qualité des données, d'indiquer aux réutilisateurs que vos données respectent un référentiel, ainsi que de contribuer aux fichiers agrégés (i.e. [pour les données IRVE](https://www.data.gouv.fr/fr/datasets/fichier-consolide-des-bornes-de-recharge-pour-vehicules-electriques/)).
 
-<figure><img src="../../../.gitbook/assets/Jun-20-2023 17-13-07.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Jun-20-2023 17-13-07.gif" alt=""><figcaption></figcaption></figure>
 
 D'autres solutions en dehors de data.gouv.fr existent : des solutions disponibles en anglais comme [goodtables.io](http://goodtables.io/) ou [CSV Lint](https://csvlint.io/) proposent des validateurs de jeux de données.&#x20;
 

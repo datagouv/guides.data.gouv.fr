@@ -1,10 +1,10 @@
 ---
 description: >-
-  Ce guide a pour vocation de vous accompagner dans l'utilisation de la
-  plateforme data.gouv.fr.
+  Cette documentation a pour vocation de vous accompagner dans l'utilisation de
+  la plateforme data.gouv.fr.
 ---
 
-# Guide data.gouv.fr
+# Documentation de data.gouv.fr
 
 {% hint style="info" %}
 **Qu'est-ce que data.gouv.fr ?** \

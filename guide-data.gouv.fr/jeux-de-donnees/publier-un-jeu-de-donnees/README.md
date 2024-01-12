@@ -1,7 +1,7 @@
 # Publier un jeu de données
 
 {% hint style="info" %}
-En amont de la publication de données sur data.gouv.fr, il est important de bien préparer le jeu de données. Pour ce faire, nous vous invitons à consulter [guide qualité](../../../guide-qualite/).
+En amont de la publication de données sur data.gouv.fr, il est important de bien préparer le jeu de données. Pour ce faire, nous vous invitons à consulter [guide qualité](../../../guides-open-data/guide-qualite/).
 {% endhint %}
 
 Plusieurs modes de mises en ligne sont possibles sur la plateforme data.gouv.fr :&#x20;
@@ -68,7 +68,7 @@ Lors de l’étape **“Ajoutez vos ressources”**, deux options vous sont prop
 1. Vous pouvez télécharger vos ressources depuis votre ordinateur vers le serveur de data.gouv.fr. Vos ressources seront alors hébergées sur les serveurs de data.gouv.fr.
 2. Vous pouvez créer un lien vers une ressource distante existante. Les informations contenues dans le fichier resteront hébergées sur le serveur distant fléché.
 
-<figure><img src="../../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Par API" %}
