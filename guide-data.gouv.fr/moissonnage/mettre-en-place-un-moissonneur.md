@@ -6,7 +6,7 @@ Le principe du moissonnage sur data.gouv.fr se décompose en plusieurs étapes :
 
 1. Vous créez un moissonneur sur data.gouv.fr afin que data.gouv.fr suive l’activité de votre plateforme ;
 2. Vous publiez des données sur votre plateforme open data ;
-3. Vous demandez la validation de votre moissonneur sur [le support data.gouv.fr](https://support.data.gouv.fr/collectivite-territoriale/referencement/moissonnage#support-tree) ;
+3. Vous demandez la validation de votre moissonneur sur [le support data.gouv.fr](https://support.data.gouv.fr/help/datagouv/moissonnage) ;
 4. La configuration du moissonneur est validée par l’équipe en charge de data.gouv.fr ;
 5. Le moissonneur de data.gouv.fr vient automatiquement récupérer les données de votre plateforme ;
 6. Les données de votre plateforme sont référencées et visibles sur data.gouv.fr. :tada:
@@ -28,7 +28,7 @@ Pour créer un nouveau moissonneur :
 
 À partir de là, la création du moissonneur se déroule en 3 étapes.
 
-## 1. Définir qui publie les données moissonnées <a href="#1-definir-qui-publie-les-donnees-moissonnees" id="1-definir-qui-publie-les-donnees-moissonnees"></a>
+## 1. Définir qui publie les données moissonnées <a href="#id-1-definir-qui-publie-les-donnees-moissonnees" id="id-1-definir-qui-publie-les-donnees-moissonnees"></a>
 
 Une fois moissonnées, c’est-à-dire récupérées sur votre plateforme, vos données sont publiées sur data.gouv.fr. L’étape 1 vous permet de choisir le compte qui sera associé à la publication sur data.gouv.fr des données moissonnées sur votre site.
 
@@ -39,7 +39,7 @@ Il peut s’agir de :
 
 Si vous êtes membre d’une organisation, nous vous conseillons de publier vos jeux de données en son nom. Une fois votre choix effectué, cliquez sur le bouton **Suivant** pour accéder à l’étape 2.
 
-## 2. Configurer le moissonneur <a href="#2-configurer-le-moissonneur" id="2-configurer-le-moissonneur"></a>
+## 2. Configurer le moissonneur <a href="#id-2-configurer-le-moissonneur" id="id-2-configurer-le-moissonneur"></a>
 
 L’étape 2 vous permet de configurer votre moissonneur. Cette étape est importante pour que les données récupérées par data.gouv.fr soient aussi complètes que celles publiées sur votre plateforme à l’origine.
 
@@ -83,7 +83,7 @@ Ce champ est obligatoire.
 
 Une fois tous les champs obligatoires remplis, cliquez sur le bouton **Suivant** pour terminer la création de votre moissonneur.
 
-## 3. Demander la validation du moissonneur <a href="#3-demander-la-validation-du-moissonneur" id="3-demander-la-validation-du-moissonneur"></a>
+## 3. Demander la validation du moissonneur <a href="#id-3-demander-la-validation-du-moissonneur" id="id-3-demander-la-validation-du-moissonneur"></a>
 
 Une fois votre moissonneur configuré, demandez validation de votre moissonneur sur [le support data.gouv.fr](https://support.data.gouv.fr/collectivite-territoriale/referencement/moissonnage#support-tree). Il va être examiné par l’équipe en charge de data.gouv.fr, pour vérifier qu’il est bien réglé. Si c’est le cas, le moissonneur sera validé et vous recevrez une notification.
 
