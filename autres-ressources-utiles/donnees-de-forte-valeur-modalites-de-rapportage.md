@@ -42,19 +42,9 @@ Les obligations minimales de description des données pour les données de forte
 * Un identifiant stable dans le temps. Il est préconisé qu’il suive les bonnes pratiques DCAT-AP, [précisé ici dans le contexte des données de forte valeur](https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#c2).
   * Dans le cas d'une publication sur data.gouv.fr directement, l'identifiant est géré par data.gouv.fr et les producteurs n'ont pas à s'en inquiéter.
   * Dans le cadre du moissonnage d'une plateforme source, un point de vigilance est à avoir sur les identifiants utilisés et remontés lors du moissonnage.
-* Une métadonnée identifiant la donnée comme une donnée de forte valeur
-  * Proposition de [data.gouv.fr](http://data.gouv.fr) : ajout d’un mot clé “**hvd**”.
-  * Cette proposition est en attente de validation lors d'un groupe de travail du CNIG.
 * Une métadonnée identifiant la catégorie HVD à laquelle la donnée appartient
-  * Proposition de [data.gouv.fr](http://data.gouv.fr) : ajout de l’un des mots clé suivants :
-    * **hvd-geospatial**
-    * **hvd-earth**
-    * **hvd-meteorological**
-    * **hvd-statistics**
-    * **hvd-companies**
-    * **hvd-mobility**
-  * Le mapping vers [les codes du référentiel européen](https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/high-value-dataset-category) se fait par [data.gouv.fr](http://data.gouv.fr).
-  * Cette proposition est en attente de validation lors d'un groupe de travail du CNIG.
+  * Utilisation du vocabulaire issu du [référentiel européen](https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/high-value-dataset-category).
+  * La liste des libellés est la suivante : Météorologiques, Entreprises et propriété d'entreprises, Géospatiales, Mobilité, Observation de la terre et environnement et Statistiques.
 * La description de service pour les API
   * Dans le cadre d’une API, une page web de description de la qualité de service de cette API est attendue. Il peut par exemple s’agir d’un lien vers un SLA (service-level agreement).
   * Un lien vers la documentation de l’API (dans un format standard pour les machines ou les utilisateurs humains) est aussi fortement recommandé.
@@ -72,9 +62,9 @@ Les Etats membres de l'Union européenne sont soumis à une obligation de rappor
 
 **Les producteurs de données ne sont pas responsables de ce rapportage. Celui-ci se fait par le catalogue** [**data.gouv.fr**](http://data.gouv.fr) **via** [**Data Catalogue Vocabulary**](https://w3c.github.io/dxwg/dcat/) **(DCAT)**.&#x20;
 
-Les [nouvelles lignes directrices](https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/) pour la description en DCAT de ces jeux de données de forte valeur font l’objet d’un travail concerté au niveau européen et des Etats membres. Elles sont toujours en cours de discussion, avec [un certain nombre de points toujours ouverts](https://github.com/SEMICeu/DCAT-AP/issues?q=is%3Aissue+is%3Aopen+label%3AHVD).
+Les [nouvelles lignes directrices](https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/) pour la description en DCAT de ces jeux de données de forte valeur ont fait l'objet d’un travail concerté au niveau européen et des Etats membres.
 
-Aujourd’hui, certaines des métadonnées demandées ne sont pas correctement modélisées ou moissonnées dans [data.gouv.fr](http://data.gouv.fr). C’est le cas de la notion de point de contact ou des informations de description de service pour les APIs. **Ces points sont bien identifiés et seront résolus en amont de l’application du règlement relatif aux données de forte valeur**. Ils pourront faire l'objet de discussions lors du [groupe de travail métadonnées du CNIG](https://cnig.gouv.fr/gt-metadonnees-a958.html).
+Aujourd’hui, certaines des métadonnées demandées ne sont pas correctement modélisées ou moissonnées dans [data.gouv.fr](http://data.gouv.fr). C’est le cas des informations de description de service pour les APIs. **Ces points sont bien identifiés et seront résolus en amont de l’application du règlement relatif aux données de forte valeur**. Ils pourront faire l'objet de discussions lors du [groupe de travail métadonnées du CNIG](https://cnig.gouv.fr/gt-metadonnees-a958.html).
 
 ### L'articulation entre la Directive INSPIRE et le règlement d'exécution relatif aux données de forte valeur&#x20;
 
