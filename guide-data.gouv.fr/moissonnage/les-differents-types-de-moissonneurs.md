@@ -105,6 +105,12 @@ Le moissonneur utilise l'export au format DCAT de chaque portail OpenDataSoft po
 
 **Attention**: OpenDataSoft utilise le slug (la portion identifiant le jeu de données dans les URLs) comme identifiant technique. L’outil laisse la possibilité de changer ce slug ce qui pose un vrai problème de pérennité des identifiants. Ayez donc à l’esprit que ce changement d’identifiant créera des doublons au moissonnage.
 
+#### Isogeo <a href="#isogeo" id="isogeo"></a>
+
+Les portails Isogeo exposent du DCAT et sont donc moissonnables par data.gouv.fr.
+
+Cette [documentation officielle](https://help.isogeo.com/admin/fr/features/publish/harvest\_datagouv\_fr.html) explique en détail la mise en place d’un moissonneur DCAT pour un portail Isogeo.
+
 ### Namespaces utilisés <a href="#correspondance-des-champs-du-modele" id="correspondance-des-champs-du-modele"></a>
 
 Par souci de lisibilité, les namespaces suivants sont déclarés :
