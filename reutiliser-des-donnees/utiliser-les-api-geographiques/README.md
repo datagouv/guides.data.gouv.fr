@@ -4,7 +4,7 @@ description: >-
   principalement opérées par Etalab.
 ---
 
-# 🗺 Utiliser les API géographiques
+# Utiliser les API géographiques
 
 {% hint style="danger" %}
 [La Base Adresse Nationale est désormais portée par l'IGN](https://www.numerique.gouv.fr/espace-presse/la-base-adresse-nationale-ban-franchit-de-nouvelles-etapes-en-poursuivant-son-action-au-sein-de-lign/).&#x20;

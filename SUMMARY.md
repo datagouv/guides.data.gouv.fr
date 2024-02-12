@@ -105,4 +105,3 @@
   * [Données de forte valeur : modalités de rapportage](autres-ressources-utiles/donnees-de-forte-valeur-modalites-de-rapportage.md)
   * [Ressources OpenDataFrance](https://opendatafrance.gitbook.io/kit-de-ressources-odf/)
   * [Documentation de transport.data.gouv.fr](https://doc.transport.data.gouv.fr/)
-
