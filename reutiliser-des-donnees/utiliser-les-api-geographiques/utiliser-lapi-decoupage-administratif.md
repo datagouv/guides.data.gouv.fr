@@ -17,7 +17,7 @@ Les usages départements ou régions bien que pratiques semblent moins intéress
 
 ## Comment utiliser l'API dans un site web ? <a href="#utilisation-de-l-api-dans-un-site-web" id="utilisation-de-l-api-dans-un-site-web"></a>
 
-L’API est très utile pour permettre de faire **l'auto-complétion** qu’il s’agisse d’un formulaire ou pour permettre de zoomer sur une commune trouvée dans un contexte web : [http://bl.ocks.org/ThomasG77/0b99013795f76699c5c9a0d7daf4411e](http://bl.ocks.org/ThomasG77/0b99013795f76699c5c9a0d7daf4411e)
+L’API est très utile pour permettre de faire **l'auto-complétion** qu’il s’agisse d’un formulaire ou pour permettre de zoomer sur une commune trouvée dans un contexte web : [https://gist.githack.com/ThomasG77/0b99013795f76699c5c9a0d7daf4411e/raw/a6b65c033efa73cecb3ea8473ba83aabc973d373/index.html](https://gist.githack.com/ThomasG77/0b99013795f76699c5c9a0d7daf4411e/raw/a6b65c033efa73cecb3ea8473ba83aabc973d373/index.html)
 
 La partie importante se base sur un simple [Fetch](https://developer.mozilla.org/fr/docs/Web/API/Fetch\_API).&#x20;
 
