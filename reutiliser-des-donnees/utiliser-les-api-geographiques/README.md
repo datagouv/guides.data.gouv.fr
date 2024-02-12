@@ -18,7 +18,7 @@ Ce guide s'adresse donc à plusieurs types de profils :
 * Intégrateurs web ;&#x20;
 * Spécialistes du secteur géospatial.&#x20;
 
-Il s'agit d'un outil évolutif et ouvert. Vous pouvez contribuer à l'améliorer en proposant une modification sur [GitHub](https://github.com/etalab/guides.etalab.gouv.fr/edit/master/apis-geo/) ou en [contactant directement](mailto:geo@data.gouv.fr) l'équipe Géo d'Etalab.&#x20;
+Il s'agit d'un outil évolutif et ouvert. Vous pouvez contribuer à l'améliorer en proposant une modification sur [GitHub](https://github.com/etalab/guides.data.gouv.fr/tree/main/reutiliser-des-donnees/utiliser-les-api-geographiques) ou en [contactant directement](mailto:geo@data.gouv.fr) l'équipe Géo d'Etalab.&#x20;
 
 {% hint style="info" %}
 **Quelles sont les API géographiques dont il est question dans ce guide ?**&#x20;
@@ -50,4 +50,25 @@ Vous pouvez aussi installer un éditeur de texte plus agréable à utiliser que 
 
 Dans ce guide, vous apprendrez comment :&#x20;
 
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Utiliser l'API Adresse</strong> </td><td><a href="utiliser-lapi-adresse/">utiliser-lapi-adresse</a></td></tr><tr><td><strong>Utiliser l'API Découpage administratif</strong></td><td><a href="utiliser-lapi-decoupage-administratif.md">utiliser-lapi-decoupage-administratif.md</a></td></tr><tr><td><strong>Utiliser les tuiles vectorielles</strong></td><td><a href="utiliser-les-tuiles-vectorielles.md">utiliser-les-tuiles-vectorielles.md</a></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards">
+    <thead>
+        <tr>
+            <th></th>
+            <th data-hidden data-card-target data-type="content-ref"></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong>Utiliser l'API Adresse</strong> </td>
+            <td><a href="utiliser-lapi-adresse/">utiliser-lapi-adresse</a></td>
+        </tr>
+        <tr>
+            <td><strong>Utiliser l'API Découpage administratif</strong></td>
+            <td><a href="utiliser-lapi-decoupage-administratif.md">utiliser-lapi-decoupage-administratif.md</a></td>
+        </tr>
+        <tr>
+            <td><strong>Utiliser les tuiles vectorielles</strong></td>
+            <td><a href="utiliser-les-tuiles-vectorielles.md">utiliser-les-tuiles-vectorielles.md</a></td>
+        </tr>
+    </tbody>
+</table>
