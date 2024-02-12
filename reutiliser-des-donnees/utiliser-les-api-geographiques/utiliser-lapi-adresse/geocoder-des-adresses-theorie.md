@@ -13,9 +13,9 @@ Il permet ainsi de positionner des adresses sur une carte ou encore de trouver l
 
 Pour réaliser un géocodage, il est nécessaire de disposer :
 
-* [ ] des **données de référence** contenant numéro, nom de rue, [code INSEE](https://www.data.gouv.fr/en/datasets/code-officiel-geographique-cog/), code postal, nom de commune ;
-* [ ] des **coordonnées géographiques** x et y qui sont généralement la longitude(x) et la latitude(y) ;
-* [ ] une **entrée correspondant à l’adresse recherchée**.
+* des **données de référence** contenant numéro, nom de rue, [code INSEE](https://www.data.gouv.fr/en/datasets/code-officiel-geographique-cog/), code postal, nom de commune ;
+* des **coordonnées géographiques** x et y qui sont généralement la longitude(x) et la latitude(y) ;
+* une **entrée correspondant à l’adresse recherchée**.
 
 ### Le fonctionnement d'un géocodeur <a href="#comment-fonctionne-un-geocodeur" id="comment-fonctionne-un-geocodeur"></a>
 
