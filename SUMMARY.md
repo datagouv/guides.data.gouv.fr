@@ -102,6 +102,6 @@
   * [Données de la commande publique](autres-ressources-utiles/donnees-de-la-commande-publique/README.md)
     * [Publier les données essentielles d’attribution des marchés](autres-ressources-utiles/donnees-de-la-commande-publique/publier-les-donnees-essentielles-dattribution-des-marches.md)
     * [Déclaration d’un profil d’acheteur](autres-ressources-utiles/donnees-de-la-commande-publique/declaration-dun-profil-dacheteur.md)
-  * [Données de forte valeur : modalités de rapportage](autres-ressources-utiles/donnees-de-forte-valeur-modalites-de-rapportage.md)
+  * [Données de forte valeur : métadonnées obligatoires et modalités de rapportage](autres-ressources-utiles/donnees-de-forte-valeur-modalites-de-rapportage.md)
   * [Ressources OpenDataFrance](https://opendatafrance.gitbook.io/kit-de-ressources-odf/)
   * [Documentation de transport.data.gouv.fr](https://doc.transport.data.gouv.fr/)
