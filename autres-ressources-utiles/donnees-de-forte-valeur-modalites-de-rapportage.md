@@ -37,48 +37,70 @@ Pour les producteurs concernés (cf. [ouverture.data.gouv.fr](https://ouverture.
 
 ## Métadonnées obligatoires pour les données de forte valeur
 
-Il y a 5 métadonnées obligatoires à renseigner à minima pour les données de forte valeur.
+Plusieurs métadonnées sont obligatoires dans le cadre des données de forte valeur.&#x20;
 
-Nous considérons différents cas de publications des données sur data.gouv.fr :
+{% tabs %}
+{% tab title="Pour les jeux de données" %}
+1. **Une métadonnée identifiant le jeu de données comme étant un HVD** via l'utilisation d'un mot clé "**hvd**".
+2.  **Une métadonnée identifiant la catégorie HVD à laquelle la donnée appartient**
 
-1️⃣ Publication directe sur data.gouv.fr (manuelle ou par API).\
-2️⃣ Publication via moissonnage de plateformes open data (ex: CKAN / ODS).\
-3️⃣ Publication via moissonnage des plateformes géographiques supportant les thèmes de vocabulaires contrôlés (ex: GeoNetwork).
+    via les mots clés suivant :&#x20;
 
-**La liste des métadonnées obligatoires pour les données de forte valeur est la suivante :**
+    _Météorologiques_
 
-1. Une métadonnée identifiant le jeu de données comme étant un HVD
-   * Dans le cas 1️⃣ et 2️⃣, via l'utilisation d'un mot clé "**hvd**".
-   * Dans le cas 3️⃣, cette métadonnée est directement déduite de la catégorie HVD via son URI (voir point suivant).
-2.  Une métadonnée identifiant la catégorie HVD à laquelle la donnée appartient
+    _Entreprises et propriété d'entreprises_
 
-    * Dans le cas 1️⃣ et 2️⃣, l'information est remplie via les mots clés. La liste des libellés est la suivante :
-      * **Météorologiques**
-      * **Entreprises et propriété d'entreprises**
-      * **Géospatiales**
-      * **Mobilité**
-      * **Observation de la terre et environnement**
-      * **Statistiques**
-    * Dans le cas 3️⃣, cette métadonnée doit être renseignée via une URI du vocabulaire issue du [référentiel européen](https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/high-value-dataset-category) (ex: [http://data.europa.eu/bna/c\_164e0bf5](http://data.europa.eu/bna/c\_164e0bf5) pour la catégorie météorologique).
+    _Géospatiales_
 
-    :information\_source: Les mots clés sur data.gouv.fr sont automatiquement normalisés (mis en minuscule, etc.).
-3. **Dans le cadre d’une API**, une page web de description de la qualité de service de cette API est attendue.
-   * Il peut par exemple s’agir d’un lien vers un SLA (service-level agreement).
-4.  **Dans le cadre d’une API**, un lien vers la documentation de l’API est aussi fortement recommandé
+    _Mobilité_\
+    _Observation de la terre et environnement_\
+    _Statistiques_\
+    Les mots clés sur data.gouv.fr sont automatiquement normalisés (mis en minuscule, etc.).
+3. **La licence des données**. Celle-ci doit être équivalente ou moins restrictive que la [CC BY 4.0 DEED](https://creativecommons.org/licenses/by/4.0/). Nous recommandons la [licence ouverte 2.0](https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf). \
+   En savoir plus sur les [licences utilisables par les administrations](https://www.data.gouv.fr/fr/pages/legal/licences/) ou sur les [conditions de réutilisations qui s'appliquent si aucune licence n'est indiquée](https://www.legifrance.gouv.fr/codes/article\_lc/LEGIARTI000032255220).&#x20;
 
-    * Dans un format standard pour les machines ou les utilisateurs humains, par exemple au format OpenAPI.
+{% hint style="info" %}
+**Si vous publiez par moissonnage** il est préconisé de suivre les bonnes pratiques DCAT-AP, [précisé ici dans le contexte des données de forte valeur](https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#c2) pour disposer d'un **identifiant stable dans le temps**.\
+\
+**Si vous publiez via moissonnage de plateformes géographiques** supportant les thèmes de vocabulaires contrôlés (ex: GeoNetwork) **les mots clés sont déduits**  \
+**via une URI du vocabulaire issue du** [**référentiel européen**](https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/high-value-dataset-category) ([exemple pour la catégorie météorologique](http://data.europa.eu/bna/c\_164e0bf5)).
+{% endhint %}
+{% endtab %}
 
-    :information\_source: Aujourd’hui, [data.gouv.fr](http://data.gouv.fr) ne permet pas de modéliser et de moissonner les métadonnées d'API comme attendu dans le cadre des HVD. [Des travaux](https://github.com/etalab/data.gouv.fr/issues/1294) sont en cours sur le sujet.
-5. Un point de contact des données ou API
-   * Il peut prendre la forme d’une adresse mail ou d’un formulaire de contact. Il est **obligatoire dans le cas d’une API** mais **optionnel pour les données en téléchargement**.
-6. Une métadonnée décrivant la licence utilisée (équivalente [licence Creative Commons BY 4.0](https://creativecommons.org/licenses/by/4.0/) ou moins restrictive)
-   * Identifiant [la licence ouverte Etalab 2.0](https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf) (LOv2) ou l’une des [licences supportées sur data.gouv.fr](https://www.data.gouv.fr/api/1/datasets/licenses/). Plus d’informations [sur cette page](https://www.data.gouv.fr/fr/pages/legal/licences/) sur les licences utilisables par les administrations.
-   * L'URL à utiliser pour la LOv2 dans le cadre d'un moissonnage est [https://www.etalab.gouv.fr/licence-ouverte-open-licence](https://www.etalab.gouv.fr/licence-ouverte-open-licence).
-   * Aujourd’hui, aucune licence en dehors de celles supportées ne sera correctement moissonnée par [data.gouv.fr](http://data.gouv.fr).
-   * En l’absence de licence indiquée, le Code des Relations entre le Public et l'Administration précise les [conditions de réutilisations qui s'appliquent](https://www.legifrance.gouv.fr/codes/article\_lc/LEGIARTI000032255220).
-7. Un identifiant stable dans le temps. Il est préconisé qu’il suive les bonnes pratiques DCAT-AP, [précisé ici dans le contexte des données de forte valeur](https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#c2).
-   * Dans le cas 1️⃣, l'identifiant est géré par data.gouv.fr et les producteurs n'ont pas à s'en inquiéter.
-   * Dans les cas 2️⃣ et 3️⃣, l'identifiant est géré par la plateforme d'origine et est moissonné par data.gouv.fr.
+{% tab title="Pour les API" %}
+1. **Une métadonnée identifiant le jeu de données comme étant un HVD** via l'utilisation d'un mot clé "**hvd**".
+2.  **Une métadonnée identifiant la catégorie HVD à laquelle la donnée appartient**
+
+    via les mots clés suivant :&#x20;
+
+    _Météorologiques_
+
+    _Entreprises et propriété d'entreprises_
+
+    _Géospatiales_
+
+    _Mobilité_\
+    _Observation de la terre et environnement_\
+    _Statistiques_\
+    Les mots clés sur data.gouv.fr sont automatiquement normalisés (mis en minuscule, etc.).
+3. **Un point de contact de l'API** : adresse mail ou formulaire de contact.&#x20;
+4. **La licence des données**. Celle-ci doit être équivalente ou moins restrictive que la [CC BY 4.0 DEED](https://creativecommons.org/licenses/by/4.0/). Nous recommandons la [licence ouverte 2.0](https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf). \
+   En savoir plus sur les [licences utilisables par les administrations](https://www.data.gouv.fr/fr/pages/legal/licences/) ou sur les [conditions de réutilisations qui s'appliquent si aucune licence n'est indiquée](https://www.legifrance.gouv.fr/codes/article\_lc/LEGIARTI000032255220).&#x20;
+5. **Un lien vers une page web de description de la qualité de service de cette API**. Par exemple un lien vers un SLA (service-level agreement).
+6. **Un lien vers la documentation dans un format standard** pour les machines ou les utilisateurs humains, par exemple au format OpenAPI est aussi fortement recommandé.
+
+{% hint style="info" %}
+**Si vous publiez par moissonnage** il est préconisé de suivre les bonnes pratiques DCAT-AP, [précisé ici dans le contexte des données de forte valeur](https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#c2) pour disposer d'un **identifiant stable dans le temps**.\
+\
+**Si vous publiez via moissonnage de plateformes géographiques** supportant les thèmes de vocabulaires contrôlés (ex: GeoNetwork) **les mots clés sont déduits**  \
+**via une URI du vocabulaire issue du** [**référentiel européen**](https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/high-value-dataset-category) ([exemple pour la catégorie météorologique](http://data.europa.eu/bna/c\_164e0bf5)).
+{% endhint %}
+
+{% hint style="warning" %}
+**Aujourd’hui,** [**data.gouv.fr**](http://data.gouv.fr) **ne permet pas de modéliser et de moissonner les métadonnées d'API comme attendu dans le cadre des HVD.** [Des travaux](https://github.com/etalab/data.gouv.fr/issues/1294) sont en cours sur le sujet.
+{% endhint %}
+{% endtab %}
+{% endtabs %}
 
 ## Les modalités de rapportage à la Commission européenne depuis [data.gouv.fr](http://data.gouv.fr)
 
