@@ -1,7 +1,7 @@
 # Utiliser l'API Découpage administratif
 
 {% hint style="info" %}
-### Pourquoi utiliser l’API Découpage administratif ? <a href="#pourquoi-utiliser-l-api-decoupage-administratif" id="pourquoi-utiliser-l-api-decoupage-administratif"></a>
+#### Pourquoi utiliser l’API Découpage administratif ? <a href="#pourquoi-utiliser-l-api-decoupage-administratif" id="pourquoi-utiliser-l-api-decoupage-administratif"></a>
 
 L’API Découpage administratif permet d’obtenir des données administratives françaises :
 
@@ -19,19 +19,19 @@ Les usages départements ou régions bien que pratiques semblent moins intéress
 
 L’API est très utile pour permettre de faire **l'auto-complétion** qu’il s’agisse d’un formulaire ou pour permettre de zoomer sur une commune trouvée dans un contexte web : [https://gist.githack.com/ThomasG77/0b99013795f76699c5c9a0d7daf4411e/raw/a6b65c033efa73cecb3ea8473ba83aabc973d373/index.html](https://gist.githack.com/ThomasG77/0b99013795f76699c5c9a0d7daf4411e/raw/a6b65c033efa73cecb3ea8473ba83aabc973d373/index.html)
 
-La partie importante se base sur un simple [Fetch](https://developer.mozilla.org/fr/docs/Web/API/Fetch\_API).&#x20;
+La partie importante se base sur un simple [Fetch](https://developer.mozilla.org/fr/docs/Web/API/Fetch\_API).
 
-Il est aussi possible de [remplir les informations de coordonnées dans un tableur comme Libre Office](https://medium.com/@ThomasG77/api-et-g%C3%A9ocodage-dans-libre-office-calc-488ab78dc360).&#x20;
+Il est aussi possible de [remplir les informations de coordonnées dans un tableur comme Libre Office](https://medium.com/@ThomasG77/api-et-g%C3%A9ocodage-dans-libre-office-calc-488ab78dc360).
 
 ## Quels sont les exemples officiels d'utilisation de l'API ? <a href="#rappels-des-exemples-officiels" id="rappels-des-exemples-officiels"></a>
 
-Ici sont présentés les exemples les plus courants.&#x20;
+Ici sont présentés les exemples les plus courants.
 
-Pour des usages plus spécifiques, vous pouvez utiliser [les exemples de la documentation officielle](https://geo.api.gouv.fr/decoupage-administratif).&#x20;
+Pour des usages plus spécifiques, vous pouvez utiliser [les exemples de la documentation officielle](https://geo.api.gouv.fr/decoupage-administratif).
 
 {% tabs %}
 {% tab title="Pour récupérer des communes" %}
-## Utilisation de l’API pour récupérer des communes <a href="#utilisation-de-l-api-pour-recuperer-des-communes" id="utilisation-de-l-api-pour-recuperer-des-communes"></a>
+### Utilisation de l’API pour récupérer des communes <a href="#utilisation-de-l-api-pour-recuperer-des-communes" id="utilisation-de-l-api-pour-recuperer-des-communes"></a>
 
 * Rechercher par code postal : [https://geo.api.gouv.fr/communes?codePostal=78000](https://geo.api.gouv.fr/communes?codePostal=78000)
 * Rechercher par code INSEE : [https://geo.api.gouv.fr/communes?code=44109](https://geo.api.gouv.fr/communes?code=44109)
@@ -46,12 +46,10 @@ Tous les exemples ci-dessus ne filtrent pas les champs, ne permettent pas de cho
 La meilleure manière de comprendre comment cela fonctionne est d'utiliser [la démo recherche avancée de la documentation officielle](https://geo.api.gouv.fr/decoupage-administratif/communes#advanced). Elle permet, en cochant, de voir comment l'URL d'appel change en particulier l'option `fields` pour ne retourner que les colonnes/champs nécessaires.
 
 {% hint style="info" %}
-**Ce qu'il faut retenir pour les aspects géo :**&#x20;
+**Ce qu'il faut retenir pour les aspects géo :**
 
 * Si vous souhaitez les GeoJSON avec le centre de la commune --> rajoutez aux URLs de la première partie `&format=geojson&geometry=centre` si votre URL contient déjà un `?` sinon il faut ajouter plutôt `?format=geojson&geometry=centre`
 * Si vous souhaitez les GeoJSON avec le contour de la commune --> rajoutez aux URLs de la première partie `&format=geojson&geometry=contour` si votre URL contient déjà un `?` sinon il faut ajouter plutôt `?format=geojson&geometry=contour`
-
-
 
 Un exemple pour illustrer
 
@@ -72,7 +70,7 @@ Vous pouvez très bien sauvegarder dans un fichier le résultat des URLs ci-dess
 {% endtab %}
 
 {% tab title="Pour récupérer des régions et des départements" %}
-## Utilisation de l’API pour récupérer des régions et des départements <a href="#utilisation-de-l-api-pour-recuperer-des-regions-et-des-departements" id="utilisation-de-l-api-pour-recuperer-des-regions-et-des-departements"></a>
+### Utilisation de l’API pour récupérer des régions et des départements <a href="#utilisation-de-l-api-pour-recuperer-des-regions-et-des-departements" id="utilisation-de-l-api-pour-recuperer-des-regions-et-des-departements"></a>
 
 Dans ce cas de figure, le principal intérêt est la correspondance entre un nom et un code.
 
@@ -104,7 +102,7 @@ Si vous avez besoin de récupérer toutes les communes, il est plutôt recommand
 
 Son principal intérêt est de pallier à certains scénarios que n'adresse pas pour le moment l'API Découpage administratif. Il nécessite de comprendre quelques préalables.
 
-#### **Lister les couches d'un endpoint WFS**
+**Lister les couches d'un endpoint WFS**
 
 On doit pouvoir lister les couches du service fournissant les communes.
 
@@ -126,7 +124,7 @@ ogrinfo --DEBUG ON -so WFS:https://wxs.ign.fr/administratif/geoportail/wfs
 
 L'intérêt de la manoeuvre est de pouvoir comprendre les appels HTTP utilisés lors de l'usage du WFS plutôt que devoir apprendre la spécification WFS.
 
-#### **Trouver la structure du WFS**
+**Trouver la structure du WFS**
 
 Trouver la structure du WFS est important car pour pouvoir filtrer, vous pouvez soit utiliser des filtres qui jouent sur les attributs soit sur des propriétés spatiales. Il s’agit donc de connaître le nom des champs. Il s’agit également potentiellement de connaitre le nom de la colonne contenant la géométrie pour pouvoir effectuer les requêtes spatiales.
 
@@ -144,7 +142,7 @@ ogrinfo -so -noextent WFS:https://wxs.ign.fr/administratif/geoportail/wfs "ADMIN
 
 Dans les deux cas, on sait quelles sont les colonnes disponibles. On pourra réutiliser leur nom pour faire des filtres ou choisir les colonnes qui seront retournées.
 
-#### **Usages du WFS**
+**Usages du WFS**
 
 Nous avons appris quelles couches contiennent un WFS et quelle est la structure d'une couche comme ses noms de champs. Maintenant nous allons pouvoir consommer la couche pour la filtrer.
 
@@ -201,7 +199,7 @@ depuis un point qui est est contenu dans l'EPCI :
 ogr2ogr -f GeoJSON epci-with-44109-from-geom.geojson WFS:https://wxs.ign.fr/administratif/geoportail/wfs -sql "SELECT * FROM \"ADMINEXPRESS-COG.LATEST:epci\" WHERE ST_Contains(ST_GeomFromText('POINT(-1.54241 47.21791)', 'EPSG:4326'), the_geom)"
 ```
 
-#### **FAQ WFS**
+**FAQ WFS**
 
 * **Pourquoi ne pas passer par le WFS pour de l'autocomplétion ?** --> Cela demeure nettement plus lent qu'une API dédiée car il n'y a pas d'index spécifiques pour cet usage.
 
@@ -211,9 +209,9 @@ ogr2ogr -f GeoJSON epci-with-44109-from-geom.geojson WFS:https://wxs.ign.fr/admi
 
 <summary>Passer par les fichiers Admin Express</summary>
 
-Il s'agit de la solution à privilégier lorsque l'on a besoin de travailler avec les données France entière et qu'on dispose d'un back-end.&#x20;
+Il s'agit de la solution à privilégier lorsque l'on a besoin de travailler avec les données France entière et qu'on dispose d'un back-end.
 
-#### **Contexte**
+**Contexte**
 
 Historiquement, il existait un produit nommé Geofla pour avoir les communes, qui depuis a été remplacé par un nouveau jeu de données dit **Admin Express** qui contient les données suivantes :
 
@@ -232,9 +230,9 @@ Historiquement, il existait un produit nommé Geofla pour avoir les communes, qu
 
 Le jeu de données et la documentation officielle sont disponibles [la page officielle Admin Express](https://geoservices.ign.fr/adminexpress).
 
-#### **Choisir entre les différents produits Admin Express**
+**Choisir entre les différents produits Admin Express**
 
-Il existe des **différences entre les produits Admin Express** et nous vous invitons à consulter cet [article qui résume ces différences](https://geoservices.ign.fr/admin-express-passe-la-grande-echelle).&#x20;
+Il existe des **différences entre les produits Admin Express** et nous vous invitons à consulter cet [article qui résume ces différences](https://geoservices.ign.fr/admin-express-passe-la-grande-echelle).
 
 Ce qu'il faut retenir pour choisir les produits :
 
@@ -242,20 +240,20 @@ Ce qu'il faut retenir pour choisir les produits :
 * Si vous voulez faire des cartes thématiques qui utilisent les données INSEE --> prenez les données "Admin Express COG Carto" qui sont généralisées c'est-à-dire avec moins de points pour les contours.
 * Si vous avez besoin de compter par exemple les commerces qui sont dans une commune mais aussi de faire des cartes thématiques --> prenez "Admin Express COG" car les coordonnées sont plus précises.
 
-#### **Eviter le "piège" des projections**
+**Eviter le "piège" des projections**
 
-L'autre difficulté lors de la récupération de ces données est de prendre les données dans les "bonnes projections" : il existe des jeux de données dont la description mentionne "par territoire" et "France entière".&#x20;
+L'autre difficulté lors de la récupération de ces données est de prendre les données dans les "bonnes projections" : il existe des jeux de données dont la description mentionne "par territoire" et "France entière".
 
-Pour comprendre (en empruntant des raccourcis), il faut savoir que la France utilise "des systèmes de projection officiels" qui définissent comment "bien placer les coordonnées mesurées".&#x20;
+Pour comprendre (en empruntant des raccourcis), il faut savoir que la France utilise "des systèmes de projection officiels" qui définissent comment "bien placer les coordonnées mesurées".
 
-Ces systèmes sont choisis pour pouvoir garder une grande précision de mesure qui permettent ensuite d'être sûr de l'emplacement de votre maison au centimètre près. L'inconvénient est qu'ils fonctionnent sur des étendues faibles : ils sont différents sur la métropole et sur les DOM.&#x20;
+Ces systèmes sont choisis pour pouvoir garder une grande précision de mesure qui permettent ensuite d'être sûr de l'emplacement de votre maison au centimètre près. L'inconvénient est qu'ils fonctionnent sur des étendues faibles : ils sont différents sur la métropole et sur les DOM.
 
-* Si vous prenez les données "par territoire", vous récupérerez les données pour chaque territoire séparément avec chacun sa projection officielle.&#x20;
+* Si vous prenez les données "par territoire", vous récupérerez les données pour chaque territoire séparément avec chacun sa projection officielle.
 * Si vous prenez France entière, vous aurez les données assemblées dans une projection mondiale indépendamment des territoires.
 
-Ainsi :&#x20;
+Ainsi :
 
-* Si vous devez travailler sur France métropolitaine et DOM --> vous pouvez prendre les données "France entière".&#x20;
+* Si vous devez travailler sur France métropolitaine et DOM --> vous pouvez prendre les données "France entière".
 * Si vous travaillez uniquement sur un DOM ou uniquement la métropole --> vous pourrez travailler tant avec les données "par territoire" que "France entière".
 
 </details>

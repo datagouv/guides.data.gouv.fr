@@ -117,4 +117,4 @@ Pour géocoder davantage de données (plusieurs millions de lignes), il est reco
 
 Quelle que soit la méthode utilisée, le processus de géocodage retournera une liste d'adresses standardisées avec leurs coordonnées géographiques associées. Il donne aussi accès à une information `geo_score` correspondant au score de confiance que le géocodeur accorde à l'adresse retournée. Cet indicateur peut être utile à garder dans un jeu de données final, il donnera une indication aux utilisateurs sur la performance du géocodage de chaque adresse.
 
-**--> Le géocodage est détaillé** [**ici**](../../../reutiliser-des-donnees/utiliser-les-api-geographiques/utiliser-lapi-adresse/geocoder-des-adresses.md)**.**&#x20;
+**--> Le géocodage est détaillé** [**ici**](broken-reference)**.**&#x20;

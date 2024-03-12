@@ -27,7 +27,7 @@ Il existe aujourd'hui **trois versions** des données du plan cadastral :
     Elle consiste en un assemblage de données, qui s'appuie sur les données Edigeo (Plan Cadastral Informatisé issu de la DGFiP, ci-dessus) et les données de Strasbourg (hors PCI). Elle peut présenter quelques erreurs, en particulier du fait de l'interprétation des géométries issues du format Edigeo. Les formats proposés sont du _GeoJSON_ et du _SHP_. Cette version étant dépendante de la version précédente mais nécessitant plus de traitement, elle requiert plusieurs semaines pour sa mise à disposition, à partir de la réception des données transmises par la DGFiP. Il s'agit d'un produit de la Direction interministérielle du numérique (DINUM). Plus d'informations sont disponibles sur [cette page](https://cadastre.data.gouv.fr/datasets/cadastre-etalab) ;
 *   **la version de l'Institut national de l'information géographique et forestière (IGN)** : proposée via le produit PCI Express.
 
-    La mise à jour est effectuée après la mise à disposition des données Edigeo sur [cadastre.data.gouv.fr](cadastre.data.gouv.fr).
+    La mise à jour est effectuée après la mise à disposition des données Edigeo sur [cadastre.data.gouv.fr](https://github.com/etalab/guides.data.gouv.fr/blob/main/reutiliser-des-donnees/autour-du-cadastre/cadastre.data.gouv.fr).
 {% endhint %}
 
 Pour télécharger les données, vous pouvez vous rendre sur :
@@ -44,7 +44,7 @@ Il s'agit d'une surcouche au WFS de l'IGN qui facilite l'utilisation. Ce service
 
 Si vous êtes intéressé par le code de la surcouche, vous pouvez consulter le projet sur [https://github.com/IGNF/apicarto/](https://github.com/IGNF/apicarto/).
 
-<figure><img src="images/exemple-recherche-parcelles.png" alt=""><figcaption><p>Un exemple de recherche de parcelles avec l'API Carto</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/exemple-recherche-parcelles.png" alt=""><figcaption><p>Un exemple de recherche de parcelles avec l'API Carto</p></figcaption></figure>
 
 _Vous pouvez aussi ouvrir_ [_ce lien pour voir le résultat dans un navigateur_](https://apicarto.ign.fr/api/cadastre/parcelle?code\_insee=44109\&section=EX\&numero=0080).
 
@@ -60,11 +60,11 @@ Plusieurs solutions sont disponibles pour accéder aux fonds de plan du cadastre
 
 * [**WMS accès cadastre DGFiP**](https://www.cadastre.gouv.fr/scpc/pdf/Guide\_WMS\_fr.pdf). La limitation principale de ce WMS est qu'il n'est possible de demander que des images dont la taille est comprise entre _100x100_ et _au maximum 1280x1024_. Il est possible de passer par un TMS via l'url `http://tms.cadastre.openstreetmap.fr/*/tout/{z}/{x}/{y}.png` pour contourner cette limitation (voir https://lists.openstreetmap.org/pipermail/talk-fr/2015-February/075223.html).
 
-![Un aperçu de la configuration du TMS dans QGIS](images/connexion-xyz-qgis-cadastre.png)
+![Un aperçu de la configuration du TMS dans QGIS](../../.gitbook/assets/connexion-xyz-qgis-cadastre.png)
 
 * **les tuiles vectorielles mises à disposition par la Direction interministérielle du numérique (DINUM)**. Elles contiennent les géométries du produit Cadastre Etalab. Un [tutoriel](https://guides.etalab.gouv.fr/apis-geo/3-tuiles-vecteur.html#l-alternative-des-tuiles-vecteur-de-l-ign) détaille comment les exploiter dans le cadre Web. Il est aussi possible d'accéder aux tuiles vectorielles depuis la version 3.14 du [logiciel bureautique SIG OpenSource nommé QGIS](https://www.qgis.org/fr/site/) comme illustré ci-dessous.
 
-![Un aperçu de la configuration de la connexion aux tuiles vectorielles dans QGIS](images/connexion-tuiles-vectorielles-cadastre-qgis.png)
+![Un aperçu de la configuration de la connexion aux tuiles vectorielles dans QGIS](../../.gitbook/assets/connexion-tuiles-vectorielles-cadastre-qgis.png)
 
 * **IGN WMS cadastre**. La couche principale est `CADASTRALPARCELS.PARCELLAIRE_EXPRESS` du [service WMS](https://wxs.ign.fr/essentiels/geoportail/r/wms). Celle-ci s'appuie sur le produit PCI Express.
 
@@ -80,7 +80,7 @@ Il faut aussi noter que les parcelles aux limites entre communes se recoupent ou
 Pour évaluer ce décalage entre les contours des parcelles et le terrain, il est possible d'utiliser la couche "**Décalage de la representation cadastrale**" `CADASTRALPARCELS.HEATMAP` disponible sur [le WMS](https://wxs.ign.fr/parcellaire/geoportail/r/wms) et aussi consultable sur [le Géoportail](https://www.geoportail.gouv.fr/carte?c=-1.0309918634157356,46.551302493795134\&z=6\&l0=ORTHOIMAGERY.ORTHOPHOTOS::GEOPORTAIL:OGC:WMTS\(1\)\&l1=GEOGRAPHICALGRIDSYSTEMS.PLANIGNV2::GEOPORTAIL:OGC:WMTS\(1\)\&l2=CADASTRALPARCELS.HEATMAP::GEOPORTAIL:OGC:WMTS\(0.9\)\&l3=CADASTRALPARCELS.PARCELLAIRE\_EXPRESS::GEOPORTAIL:OGC:WMTS\(1\)\&permalink=yes). Cette couche couvre une grande partie du territoire, mais pas son ensemble.
 {% endhint %}
 
-<figure><img src="images/exemple-decalage-parcellaire.png" alt=""><figcaption><p>Un exemple de décalage de parcelles avec différents niveaux de précision</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/exemple-decalage-parcellaire.png" alt=""><figcaption><p>Un exemple de décalage de parcelles avec différents niveaux de précision</p></figcaption></figure>
 
 ## Parser les données Edigeo
 
