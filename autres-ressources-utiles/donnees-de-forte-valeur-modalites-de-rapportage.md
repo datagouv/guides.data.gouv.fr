@@ -41,10 +41,10 @@ Plusieurs métadonnées sont obligatoires dans le cadre des données de forte va
 
 {% tabs %}
 {% tab title="Pour les jeux de données" %}
-1. **Une métadonnée identifiant le jeu de données comme étant un HVD** via l'utilisation d'un mot clé "**hvd**".
+1. **Une métadonnée identifiant le jeu de données comme étant un HVD** via l'utilisation d'un mot clé "**hvd**"\*.&#x20;
 2.  **Une métadonnée identifiant la catégorie HVD à laquelle la donnée appartient**
 
-    via les mots clés suivant :&#x20;
+    via les mots clés suivant\* :&#x20;
 
     _Météorologiques_
 
@@ -59,21 +59,21 @@ Plusieurs métadonnées sont obligatoires dans le cadre des données de forte va
 3. **La licence des données**. Celle-ci doit être équivalente ou moins restrictive que la [CC BY 4.0 DEED](https://creativecommons.org/licenses/by/4.0/). Nous recommandons la [licence ouverte 2.0](https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf). \
    En savoir plus sur les [licences utilisables par les administrations](https://www.data.gouv.fr/fr/pages/legal/licences/) ou sur les [conditions de réutilisations qui s'appliquent si aucune licence n'est indiquée](https://www.legifrance.gouv.fr/codes/article\_lc/LEGIARTI000032255220).&#x20;
 
-{% hint style="info" %}
-**Si vous publiez par moissonnage** il est préconisé de suivre les bonnes pratiques DCAT-AP, [précisé ici dans le contexte des données de forte valeur](https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#c2) pour disposer d'un **identifiant stable dans le temps**.\
-\
-**Si vous publiez via moissonnage de plateformes géographiques** supportant les thèmes de vocabulaires contrôlés (ex: GeoNetwork) **les mots clés sont déduits**  \
+**\*Si vous publiez via moissonnage à partir de plateformes géographiques** supportant les thèmes de vocabulaires contrôlés (ex: GeoNetwork) **les mots clés sont déduits**  \
 **via une URI du vocabulaire issue du** [**référentiel européen**](https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/high-value-dataset-category) ([exemple pour la catégorie météorologique](http://data.europa.eu/bna/c\_164e0bf5)).
+
+{% hint style="info" %}
+**Si vous publiez par moissonnage** il est préconisé de suivre les bonnes pratiques DCAT-AP, [précisé ici dans le contexte des données de forte valeur](https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#c2) pour disposer d'un **identifiant stable dans le temps**.
 {% endhint %}
 {% endtab %}
 
 {% tab title="Pour les API" %}
-1. **Une métadonnée identifiant le jeu de données comme étant un HVD** via l'utilisation d'un mot clé "**hvd**".
+1. **Une métadonnée identifiant le jeu de données comme étant un HVD** via l'utilisation d'un mot clé "**hvd**".\*
 2.  **Une métadonnée identifiant la catégorie HVD à laquelle la donnée appartient**
 
-    via les mots clés suivant :&#x20;
+    via les mots clés suivant:&#x20;
 
-    _Météorologiques_
+    _Météorologiques\*_
 
     _Entreprises et propriété d'entreprises_
 
@@ -89,11 +89,11 @@ Plusieurs métadonnées sont obligatoires dans le cadre des données de forte va
 5. **Un lien vers une page web de description de la qualité de service de cette API**. Par exemple un lien vers un SLA (service-level agreement).
 6. **Un lien vers la documentation dans un format standard** pour les machines ou les utilisateurs humains, par exemple au format OpenAPI est aussi fortement recommandé.
 
-{% hint style="info" %}
-**Si vous publiez par moissonnage** il est préconisé de suivre les bonnes pratiques DCAT-AP, [précisé ici dans le contexte des données de forte valeur](https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#c2) pour disposer d'un **identifiant stable dans le temps**.\
-\
-**Si vous publiez via moissonnage de plateformes géographiques** supportant les thèmes de vocabulaires contrôlés (ex: GeoNetwork) **les mots clés sont déduits**  \
+**\*Si vous publiez via moissonnage à partir de plateformes géographiques** supportant les thèmes de vocabulaires contrôlés (ex: GeoNetwork) **les mots clés sont déduits**  \
 **via une URI du vocabulaire issue du** [**référentiel européen**](https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/high-value-dataset-category) ([exemple pour la catégorie météorologique](http://data.europa.eu/bna/c\_164e0bf5)).
+
+{% hint style="info" %}
+**Si vous publiez par moissonnage** il est préconisé de suivre les bonnes pratiques DCAT-AP, [précisé ici dans le contexte des données de forte valeur](https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/#c2) pour disposer d'un **identifiant stable dans le temps**.
 {% endhint %}
 
 {% hint style="warning" %}
