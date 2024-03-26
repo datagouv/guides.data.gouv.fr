@@ -1,0 +1,7 @@
+# Pendant le hackathon : Règles et bonnes pratiques
+
+Pour le Hackathon, vous serez invités à travailler en équipe de 3 à 8 personnes pour répondre à l’un des défis proposés. Cette partie du guide détaille les règles définies et les bonnes pratiques recommandées.
+
+
+
+<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Choix du défi</strong></td><td></td><td></td><td><a href="choix-du-defi.md">choix-du-defi.md</a></td></tr><tr><td><strong>Constitution des équipes</strong></td><td></td><td></td><td><a href="constitution-des-equipes.md">constitution-des-equipes.md</a></td></tr><tr><td><strong>Sollicitation des mentors</strong></td><td></td><td></td><td><a href="sollicitation-des-mentors.md">sollicitation-des-mentors.md</a></td></tr><tr><td><strong>Documentation des réalisations</strong></td><td></td><td></td><td><a href="documentation-des-realisations.md">documentation-des-realisations.md</a></td></tr><tr><td><strong>Rendu intermédiaire jour 1</strong></td><td></td><td></td><td><a href="rendu-intermediaire-jour-1.md">rendu-intermediaire-jour-1.md</a></td></tr><tr><td><strong>Soumission du projet</strong></td><td></td><td></td><td><a href="soumission-du-projet.md">soumission-du-projet.md</a></td></tr><tr><td><strong>Evaluation des projets</strong></td><td></td><td></td><td><a href="evaluation-des-projets.md">evaluation-des-projets.md</a></td></tr></tbody></table>
