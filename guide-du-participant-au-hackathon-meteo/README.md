@@ -1,4 +1,4 @@
-# Guide du participant au Hackathon Météo
+# 🚀 Guide du participant au Hackathon Météo
 
 Bienvenue ! Nous sommes ravis de vous compter parmi nous pour cet événement.
 
