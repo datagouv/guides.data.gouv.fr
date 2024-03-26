@@ -47,13 +47,6 @@ Le 9 avril, à 17 heures, les 9 projets présélectionnés seront invités à pr
 * Les présentations devront respecter les règles explicitées dans la partie "[Présentation orale](evaluation-des-projets.md#presentation-orale)" ;
 * Les projets seront évalués selon la [grille d'évaluation ci-dessus](evaluation-des-projets.md#grille-devaluation-des-projets).&#x20;
 
-Les membres du jury seront les suivants :
-
-* Stéphanie Schaer, Directrice interministérielle du numérique
-* Virginie Schwarz, Présidente Directrice Générale de Météo-France
-* Valérie Masson Delmotte,&#x20;
-* Christophe Morel, Directeur de la stratégie de Météo-France
-
 ## Présentation orale
 
 Votre présentation orale :&#x20;
