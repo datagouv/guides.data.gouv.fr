@@ -5,6 +5,7 @@ Pour vos projets, vous aurez à votre disposition **des données météorologiqu
 * [**Les données climatologiques de base**](https://meteo.data.gouv.fr/datasets?topic=6571f26dc009674feb726be9) : données climatologiques pour toutes les stations françaises depuis leur ouverture, pour tous les paramètres disponibles ;
 * [**Les données climatologiques de référence pour le changement climatique**](https://meteo.data.gouv.fr/datasets?topic=6571f2db0273fc306408f265) : intégralité des séries de données observées homogénéisées, mensuelles et quotidiennes, données spécialement conçues pour l’analyse du changement climatique ;
 * [**Les données des modèles de prévision numérique du temps AROME et ARPEGE**](https://meteo.data.gouv.fr/datasets?topic=65e0c82c2da27c1dff5fa66f) : Accès en temps réel aux résultats des dernières prévisions des modèles de prévision numérique jusqu’à 4 jours d’échéance ;
+* **Les données de prévision d'ensemble** (à venir) ;
 * [**Les APIs mises à disposition par Météo-France**](https://portail-api.meteofrance.fr/web/fr/).&#x20;
 
 **Les données publiques météorologiques disponibles pour le hackathon sont à retrouver sur** [**meteo.data.gouv.fr**](https://meteo.data.gouv.fr/)**.**
