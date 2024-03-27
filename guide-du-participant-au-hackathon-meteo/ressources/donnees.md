@@ -71,7 +71,7 @@ Pour vos projets, vous aurez à votre disposition **des données météorologiqu
 * [Base nationale de Gestion ASsistée des Procédures Administratives relatives aux Risques (GASPAR)](https://www.data.gouv.fr/fr/datasets/base-nationale-de-gestion-assistee-des-procedures-administratives-relatives-aux-risques-gaspar/)
 * [Données de GéoLittoral](https://www.geolittoral.developpement-durable.gouv.fr/telechargement-en-ligne-donnees-geolittoral-a802.html#sommaire\_12)
 * [BD Topo](https://www.data.gouv.fr/fr/datasets/bd-topo-r/) : Description vectorielle 3D (structurée en objets) des éléments du territoire et de ses infrastructures
-* [BD Ortho ](https://app.gitbook.com/s/cccd1rMVr8ooPvsgugcw/class-names-type-safety): Orthophotographies du territoire français
+* [BD Ortho](https://www.data.gouv.fr/fr/datasets/bd-ortho-r/) : Orthophotographies du territoire français
 * [CORINE Land Cover - Occupation des sols en France](https://www.data.gouv.fr/fr/datasets/corine-land-cover-occupation-des-sols-en-france/)
 * [OCS GE](https://www.data.gouv.fr/fr/datasets/ocs-ge/) : Base de données de référence pour la description de l'occupation du sol
 * [Données Infoterre OGC](https://infoterre.brgm.fr/page/geoservices-ogc)
