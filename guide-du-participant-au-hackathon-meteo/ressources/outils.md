@@ -2,8 +2,8 @@
 
 Dans le cadre du Hackathon, plusieurs outils sont mis à votre disposition :
 
-* **Pour communiquer (chats et appels)** : un serveur Discord “Hackathon Météo”
-* **Pour proposer des défis et constituer les équipes** : un Figjam
+* **Pour communiquer (chats et appels)** : [un serveur Discord “Hackathon Météo”](https://discord.gg/znxPT2S9dq)
+* **Pour constituer les équipes** : un Figjam (lien à venir)
 
 Pour toute question sur l’utilisation de ces outils, vous pouvez vous référer aux guides associés, notamment :
 
