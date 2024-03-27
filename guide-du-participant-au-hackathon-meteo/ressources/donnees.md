@@ -10,10 +10,11 @@ Pour vos projets, vous aurez à votre disposition **des données météorologiqu
 
 **Les données publiques météorologiques disponibles pour le hackathon sont à retrouver sur** [**meteo.data.gouv.fr**](https://meteo.data.gouv.fr/)**.**
 
-**Vous pourrez largement vous appuyer sur :** &#x20;
+**Vous pourrez également vous appuyer sur :** &#x20;
 
 * [**Les données de référence du service public de la donnée**](https://www.data.gouv.fr/fr/pages/spd/reference/) ;
-* Des données à composante géographique [consolidées dans cet inventaire](https://www.data.gouv.fr/fr/pages/donnees-geographiques/)
+* Des données à composante géographique [consolidées dans cet inventaire](https://www.data.gouv.fr/fr/pages/donnees-geographiques/) ;
+* toutes les données disponibles sur [data.gouv.fr](https://www.data.gouv.fr/fr/).
 
 **En complément, nous vous proposons de premières listes de jeux de données, qu'il pourrait être intéressant d'exploiter dans le cadre de chaque défi.** Ces listes constituent une première base : elles sont non exhaustives et nous vous encourageons à explorer davantage de données ouvertes.
 
