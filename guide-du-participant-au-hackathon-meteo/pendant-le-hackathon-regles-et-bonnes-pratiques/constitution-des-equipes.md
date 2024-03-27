@@ -10,7 +10,7 @@ Le webinaire de présentation et de constitution des équipes se tiendra le 3 av
 **Il aura lieu dans** [**ce salon**](https://webinaire.numerique.gouv.fr/meeting/signin/31695/creator/1000/hash/071b39912b67c3d37dfc33e6f5f5fd83753187fc)**.**
 {% endhint %}
 
-Pour les participantes et participants qui ne pourraient pas se joindre au webinaire, nous vous invitons à trouver votre équipe à l'aide du Figjam (où vous pourrez identifier sur quels défis se sont positionnés les autres participants et les équipes qui recherchent d'autres membres) et en échangeant avec les autres participants sur le [serveur Discord](https://discord.gg/7y9u8TCUqk).
+Pour les participantes et participants qui ne pourraient pas se joindre au webinaire, nous vous inviterons à trouver votre équipe à l'aide du Figjam (où vous pourrez identifier sur quels défis se sont positionnés les autres participants et les équipes qui recherchent d'autres membres) et en échangeant avec les autres participants sur le [serveur Discord](https://discord.gg/7y9u8TCUqk).
 
 Pour la constitution des équipes, quelques bonnes pratiques à garder en tête :
 

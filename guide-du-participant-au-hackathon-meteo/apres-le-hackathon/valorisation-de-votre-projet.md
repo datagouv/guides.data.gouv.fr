@@ -4,7 +4,8 @@
 
 * Mise en avant sur la plateforme ;
 * Articles de blog ;
-* Communications sur les réseaux sociaux.
+* Communications sur les réseaux sociaux ;&#x20;
+* Création de guides d'utilisation des données météorologiques.
 
 Il est possible que nous vous contactions pour vous interroger plus en détail sur votre projet et votre expérience du Hackathon.
 

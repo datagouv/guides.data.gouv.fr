@@ -1,5 +1,13 @@
 # Programme
 
+## Avant le hackathon
+
+| Jour     | Heures      | Description                                              | Lieu                                                                                                                                                                   |
+| -------- | ----------- | -------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 3 avril  | 13h30-14h30 | Webinaire de présentation et de constitution des équipes | [Salon "Hackathon Données Ouvertes Météo-France"](https://webinaire.numerique.gouv.fr/meeting/signin/31695/creator/1000/hash/071b39912b67c3d37dfc33e6f5f5fd83753187fc) |
+
+## Les deux journées de hackathon
+
 | Heures      | Description                                                                                                   | Lieu              | Jour   |
 | ----------- | ------------------------------------------------------------------------------------------------------------- | ----------------- | ------ |
 | 09:00-09:30 | ☕️ Accueil des participants et présentation fonctionnement des outils.                                        | Plénière          | JOUR 1 |

@@ -1,8 +1,8 @@
 ---
 description: >-
   Cette section du guide répertorie les ressources à la disposition des
-  participants du Hackathon Météo pour mener à bien leurs projets : données,
-  prise en main des données, outils, etc.
+  participantes et participans du Hackathon Météo pour mener à bien leurs
+  projets : données, prise en main des données, outils, etc.
 ---
 
 # Ressources
