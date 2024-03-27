@@ -1,6 +1,6 @@
 # Valorisation de votre projet
 
-**Après le hackathon, l’équipe éditoriale de** [**data.gouv.fr**](http://data.gouv.fr) **valorisera les projets proposés à travers différents canaux** :
+**Après le hackathon, l’équipe éditoriale de** [**data.gouv.fr**](http://data.gouv.fr) **valorisera les travaux réalisés et les projets proposés à travers différents canaux** :
 
 * Mise en avant sur la plateforme ;
 * Articles de blog ;

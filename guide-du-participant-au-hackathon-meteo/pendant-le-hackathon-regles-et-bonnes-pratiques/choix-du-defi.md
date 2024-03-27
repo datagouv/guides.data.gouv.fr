@@ -2,7 +2,7 @@
 
 Vous travaillerez en équipe sur le défi de votre choix.
 
-Nous vous proposons **une première liste de défis**, définie à partir des idées proposées par les participantes et participants :&#x20;
+Nous vous proposons **une première liste de thèmes**, définie à partir des idées proposées par les participantes et participants :&#x20;
 
 * Faciliter l'accès et la compréhension des données météorologiques
 * Faciliter la manipulation et l'exploitation des données météorologiques
