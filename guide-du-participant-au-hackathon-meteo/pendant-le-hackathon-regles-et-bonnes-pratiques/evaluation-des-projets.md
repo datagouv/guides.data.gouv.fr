@@ -29,7 +29,8 @@ Le 9 avril, à partir de 15 heures, vous serez invités à présenter oralement 
 Le 9 avril, à 17 heures, les 9 projets présélectionnés seront invités à présenter oralement leurs projets devant les membres du jury ainsi que l'ensemble des participantes et participants au hackathon, en séance plénière :
 
 * Les présentations devront respecter les règles explicitées dans la partie "[Présentation orale](evaluation-des-projets.md#presentation-orale)" ;
-* Les projets seront évalués par les membres du jury selon la [grille d'évaluation ci-dessus](evaluation-des-projets.md#grille-devaluation-des-projets).&#x20;
+* Les projets seront évalués par les membres du jury selon la [grille d'évaluation ci-dessus](evaluation-des-projets.md#grille-devaluation-des-projets) ;
+* Les lauréats seront annoncés à 18 heures.
 
 ## Présentation orale
 
