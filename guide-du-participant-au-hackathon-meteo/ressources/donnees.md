@@ -6,7 +6,8 @@ Pour vos projets, vous aurez à votre disposition **des données météorologiqu
 * [**Les données climatologiques de référence pour le changement climatique**](https://meteo.data.gouv.fr/datasets?topic=6571f2db0273fc306408f265) : intégralité des séries de données observées homogénéisées mensuelles et des séries de référence de données observées quotidiennes de référence, données spécialement conçues pour l’analyse du changement climatique ;
 * [**Les données des modèles de prévision numérique du temps**](https://meteo.data.gouv.fr/datasets?topic=65e0c82c2da27c1dff5fa66f) : Accès en temps réel aux résultats des dernières prévisions des modèles de prévision numérique jusqu’à 4 jours d’échéance ;
 * **Les données de prévision d'ensemble** (à venir) ;
-* [**Les APIs mises à disposition par Météo-France**](https://portail-api.meteofrance.fr/web/fr/).&#x20;
+* [**Les APIs mises à disposition par Météo-France**](https://portail-api.meteofrance.fr/web/fr/) **;**
+* [**Les données METEONET**](https://meteonet.umr-cnrm.fr/)**.**
 
 **Les données publiques météorologiques disponibles pour le hackathon sont à retrouver sur** [**meteo.data.gouv.fr**](https://meteo.data.gouv.fr/)**.**
 
@@ -22,7 +23,6 @@ Pour vos projets, vous aurez à votre disposition **des données météorologiqu
 
 <summary>Réaliser des prévisions météorologiques</summary>
 
-* [Données Météo-Net](https://meteonet.umr-cnrm.fr/)
 * [Données DRIAS](https://www.drias-climat.fr/) : Projections climatiques régionalisées réalisées dans les laboratoires français de modélisation du climat
 
 </details>
