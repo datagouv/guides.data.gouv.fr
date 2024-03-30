@@ -20,7 +20,6 @@ L'évaluation des projets aura lieu **à partir du 9 avril, 15 heures**. Elle se
 | **Qualité technique**                            | Les données météorologiques sont-elles correctement intégrées et traitées ? L'expérience utilisateur est-elle agréable ? |
 | **Durabilité et faisabilité**                    | Le projet est-il conçu pour être pérenne ? Est-il réalisable ?                                                           |
 | **Originalité et innovation**                    | Le projet présente-t-il des éléments techniques ou conceptuels innovants ?                                               |
-| TOTAL                                            |                                                                                                                          |
 
 ## Présélection et soutenance devant les mentors
 
