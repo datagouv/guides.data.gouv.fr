@@ -13,7 +13,14 @@ L'évaluation des projets aura lieu **à partir du 9 avril, 15 heures**. Elle se
 
 ## Grille d'évaluation des projets
 
-A venir.
+| Critères                                         | Description                                                                                                              |
+| ------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------ |
+| **Pertinence et impact du projet**               | Le projet répond-il de manière pertinente au défi météorologique identifié ? A-t-il un potentiel d'impact positif ?      |
+| **Facilitation de la réutilisation des données** | Le projet facilite-t-il l'accès et la réutilisation des données météorologiques ?                                        |
+| **Qualité technique**                            | Les données météorologiques sont-elles correctement intégrées et traitées ? L'expérience utilisateur est-elle agréable ? |
+| **Durabilité et faisabilité**                    | Le projet est-il conçu pour être pérenne ? Est-il réalisable ?                                                           |
+| **Originalité et innovation**                    | Le projet présente-t-il des éléments techniques ou conceptuels innovants ?                                               |
+| TOTAL                                            |                                                                                                                          |
 
 ## Présélection et soutenance devant les mentors
 
