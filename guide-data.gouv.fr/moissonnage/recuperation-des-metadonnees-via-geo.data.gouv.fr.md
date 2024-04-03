@@ -26,7 +26,7 @@ Dans le cas d'une plateforme référençant des données de différentes organis
 Une documentation est disponible sur les étapes générales de configuration d'un point de moissonnage dans [cette page dédiée](mettre-en-place-un-moissonneur.md). Il faut choisir le moissonneur `csw-iso-19139` au niveau de l'implémentation.
 
 {% hint style="info" %}
-Afin que la conversion depuis ISO-19139 vers DCAT se passe au mieux, des préconisations sont en cours de rédaction pour assurer le meilleur moissonnage.
+Toutes les métadonnées ne sont pas encore correctement transformés par ce convertisseur ISO-19139 vers DCAT. En lien avec les équipes du projet Ecosphères, nous travaillons à augmenter régulièrement le périmètre des métadonnées moissonnées.
 {% endhint %}
 
 ### Configurer un portail GeoNetwork
