@@ -9,7 +9,7 @@ L'évaluation des projets se déroulera en deux phases :
 
 L'évaluation des projets aura lieu **à partir du 9 avril, 15 heures**. Elle se déroulera comme suit :&#x20;
 
-<table><thead><tr><th width="167">Horaires</th><th>Etape</th></tr></thead><tbody><tr><td>jusqu'à 15:00</td><td><a href="soumission-du-projet.md">Soumission des projets sur data.gouv.fr</a></td></tr><tr><td>15:00</td><td>Soutenance devant les mentors et présélection</td></tr><tr><td>16:00</td><td>Annonce des 9 projets présélectionnés et pause</td></tr><tr><td>16:30</td><td>Arrivée et mots des membres du jury</td></tr><tr><td>17:00</td><td>Présentation des 9 projets présélectionnés devant les membres du jury et les autres participants</td></tr><tr><td>17:30</td><td>Délibération des membres du jury</td></tr><tr><td>18:00</td><td>Annonce des résultats et clôture</td></tr></tbody></table>
+<table><thead><tr><th width="167">Horaires</th><th>Etape</th></tr></thead><tbody><tr><td>jusqu'à 14:15</td><td><a href="soumission-du-projet.md">Soumission des projets sur data.gouv.fr</a></td></tr><tr><td>14:15</td><td>Soutenance devant les mentors et présélection</td></tr><tr><td>16:00</td><td>Annonce des 9 projets présélectionnés et pause</td></tr><tr><td>16:30</td><td>Arrivée et mots des membres du jury</td></tr><tr><td>17:00</td><td>Présentation des 9 projets présélectionnés devant les membres du jury et les autres participants</td></tr><tr><td>17:30</td><td>Délibération des membres du jury</td></tr><tr><td>18:00</td><td>Annonce des résultats et clôture</td></tr></tbody></table>
 
 ## Grille d'évaluation des projets
 

@@ -1,6 +1,6 @@
 # Soumission du projet
 
-**Il vous sera demandé de soumettre votre projet le mardi 9 avril, avant 15 heures.**
+**Il vous sera demandé de soumettre votre projet le mardi 9 avril, avant 14h15.**
 
 **Pour soumettre votre projet, il vous sera demandé de le publier comme réutilisation sur** [**data.gouv.fr**](http://data.gouv.fr)**.** La marche à suivre est détaillée [ici](../../guide-data.gouv.fr/reutilisations/publier-une-reutilisation.md).  Vous pourrez toujours modifier votre réutilisation à la suite de l'événement.
 
