@@ -38,6 +38,18 @@ Le 9 avril, à 17 heures, les 6 projets présélectionnés seront invités à pr
 * Les projets seront évalués par les membres du jury selon la [grille d'évaluation ci-dessus](evaluation-des-projets.md#grille-devaluation-des-projets) ;
 * Les lauréats seront annoncés à 18 heures.
 
+
+
+Le jury sera composé de :&#x20;
+
+* Stéphanie Schaer, Directrice interministérielle du numérique ;
+* Virginie Schwarz, Présidente Directrice Générale de Météo-France ;
+* Guillaume Rozier, Conseiller numérique du Président de la République ;&#x20;
+* Thomas Lesueur, Commissaire général au développement durable ;&#x20;
+* Valérie Masson-Delmotte, Directrice de recherche CEA au Laboratoire des Sciences du Climat et de l’Environnement et membre du Haut conseil pour le Climat ;
+* Christophe Morel, Directeur de la Stratégie de Météo-France ;&#x20;
+* Olivier Vacheret, Chef du département data d'Île-de-France Mobilités.
+
 ## Présentation orale
 
 Votre présentation orale :&#x20;
