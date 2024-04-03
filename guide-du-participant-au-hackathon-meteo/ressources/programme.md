@@ -23,7 +23,7 @@
 | 09:00-09:30 | ☕️ Accueil des participants et conseils pour la dernière journée                                              | Plénière          | JOUR 2 |
 | 09:30-12:30 | ⚒ DEEP WORK                                                                                                   | Salles de travail | JOUR 2 |
 | 12:30-13:30 | 🍜 Pause déjeuner                                                                                             | Plénière          | JOUR 2 |
-| 13:30-15:00 | ⚒ DEEP WORK                                                                                                   | Salles de travail | JOUR 2 |
+| 13:30-14:15 | ⚒ DEEP WORK                                                                                                   | Salles de travail | JOUR 2 |
 | 14:15-16:00 | ✨ Démonstration devant les mentors et présélection                                                            | Salle Aquarium    | JOUR 2 |
 | 16:00-16:30 | 🥁 Annonce des 9 présélectionnés et pause                                                                     | Plénière          | JOUR 2 |
 | 16:30-17:00 | 🎙 Mots des membres du jury                                                                                   | Plénière          | JOUR 2 |
