@@ -63,7 +63,7 @@ La plupart des logiciels exposant du DCAT (v3 à date) devraient être compatibl
 
 Si vous avez une instance de Geonetwork, vous pouvez publier sur data.gouv.fr.
 
-Une documentation détaillée est précisée sur la [page du moissonnage des données géographiques](recuperation-des-metadonnees-via-geo.data.gouv.fr.md#configurer-un-portail-geonetwork).
+Une documentation détaillée est précisée sur la [page du moissonnage des données géographiques](moissonnage-des-plateformes-geographiques.md#configurer-un-portail-geonetwork).
 
 #### OpenDataSoft
 
