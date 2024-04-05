@@ -1,12 +1,15 @@
 # Prise en main des données météorologiques
 
-Utiliser meteo.data.gouv.fr, récupérer les données météorologiques en utilisant l'API de data.gouv.fr, comprendre les formats de fichiers grib2 et netcdf, connaître les mises à jour de données, exemples de manipulation de données, etc.
-
 ## Récupérer les données météorologiques en utilisant l’API de data.gouv.fr
 
-Souvent, les personnes assimilent <https://data.gouv.fr> uniquement à un site web. C'est plus que ça. Il permet de moissonner des ressources distantes comme des catalogues. Il est aussi possible de consulter via une API les pages, les jeux de données associés à des pages, les organisations, leurs jeux de données, les réutilisations. Il est même possible de mettre à jour les jeux de données via l'API. Il existe une référence à ce propos sur <https://doc.data.gouv.fr/api/reference/>. Un guide est disponible sur https://guides.data.gouv.fr/guide-data.gouv.fr/api.
+<https://data.gouv.fr> est souvent uniquement assimilé à un site web. Or, il permet aussi :
+- de moissonner des ressources distantes comme des catalogues ;
+- de consulter via une API les pages, les jeux de données associés à des pages, les organisations, leurs jeux de données, les réutilisations, etc. 
+- de mettre à jour les jeux de données via l'API.
 
-Nous allons, dans ce cas précis, aborder des exemples spécifiques aux données publiées par Météo France. 
+Il existe une référence à ce propos sur <https://doc.data.gouv.fr/api/reference/>. Un guide est disponible sur https://guides.data.gouv.fr/guide-data.gouv.fr/api.
+
+Nous allons, dans ce cas précis, aborder des exemples spécifiques aux données publiées par Météo-France. 
 
 Nos exemples sont réalisés soit en ligne de commande en Bash, soit en Python.
 
@@ -14,7 +17,7 @@ Pour les exemples Bash, il faut disposer de [curl](https://curl.se/), [wget](htt
 
 ### Lister les ressources et les jeux de données d'une organisation
 
-On cible ici Météo France
+On cible ici Météo-France.
 
 **En bash**, on passe en CSV.
 
@@ -214,7 +217,9 @@ done;
 
 ## Utiliser les données météorologiques
 
-Les formats de données météorologiques sont des formats multidimensionnels en particulier pour les données liés aux satellites car ils nécessitent de gérer les coordonnées soit ponctuells soit associées à une grille (déjà 2 dimensions), des dates d'acquisition (Une autre dimension) et des mesures diverses (encore une dimension). Pour cela, plusieurs formats sont utilisés. Généralement, on stocke les données brutes sous forme de fichier dit GRIB, un format standardisé par l'OMM (Organisation Mondiale de la Météorologie). Vous pouvez savoir plus en passant par [la page Wikipédia GRIB](https://fr.wikipedia.org/wiki/GRIB).
+Les formats de données météorologiques sont **des formats multidimensionnels**, en particulier pour les données liées aux satellites car ils nécessitent de gérer les coordonnées soit ponctuelles soit associées à une grille (déjà 2 dimensions), des dates d'acquisition (une autre dimension) et des mesures diverses (encore une dimension). 
+
+Pour cela, plusieurs formats sont utilisés. On stocke généralement les données brutes sous forme de fichiers dits GRIB, un format standardisé par l'OMM (Organisation Mondiale de la Météorologie). Vous pouvez en savoir plus en passant par [la page Wikipédia GRIB](https://fr.wikipedia.org/wiki/GRIB).
 
 ### Manipuler les formats de fichiers grib2
 
@@ -242,7 +247,7 @@ for grb in grbs:
 
 ### Mettre les données en bases de données
 
-Cela peut surtout s'avérer utile pour mettre des données attributaires comme les stations ou les mesures associées prise sur les stations. Il est ensuite plus facile de les manipuler si vous avez des connaissances en SQL. Néanmoins, rien ne vous empêche selon vos préférences de faire tous vos traitements dans des dataframes en Python ou en R.
+Cela peut surtout s'avérer utile pour mettre des données attributaires comme les stations ou les mesures associées prises sur les stations. Il est ensuite plus facile de les manipuler si vous avez des connaissances en SQL. Néanmoins, rien ne vous empêche selon vos préférences de faire tous vos traitements dans des dataframes en Python ou en R.
 
 #### SQLite
 
@@ -264,7 +269,7 @@ Pour en savoir plus, lire [la documentation sur la partie ligne de commande](htt
 
 #### GPKG
 
-C'est un format qui s'appuie sur la base de données SQLite. La particularité est qu'ils permettent de gérer de la donnée géographique en intégrant des fonctionnalités spatiales du type "recherche toutes stations à moins de 10 km de chez moi".
+C'est un format qui s'appuie sur la base de données SQLite. La particularité est qu'il permet de gérer de la donnée géographique en intégrant des fonctionnalités spatiales du type "recherche toutes stations à moins de 10 km de chez moi".
 
 ```bash
 ogr2ogr -f GPKG meteo_hor.gpkg -dialect SQLite -sql "SELECT *, MakePoint(cast(LON AS REAL), cast(LAT AS REAL), 4326) AS geometry FROM \"H_01_latest-2023-2024\"" /vsigzip/H_01_latest-2023-2024.csv.gz -nln csv_hor
@@ -277,7 +282,8 @@ ogr2ogr -f GPKG meteo_hor.gpkg -dialect SQLite -sql @query.sql /vsigzip/H_01_lat
 
 #### Parquet
 
-Ce format venant du monde du "Big Data" a le vent en poupe. Il devient de plus en plus utilisé. Il permet des sélections rapides même en passant par des fichiers distants évitant par exemple des téléchargements complets sur votre machine. Il existe une variation dite GeoParquet qui permet de stocker les données géographiques.
+Ce format permet des sélections rapides même en passant par des fichiers distants, évitant par exemple des téléchargements complets sur votre machine. Il existe une variation dite GeoParquet qui permet de stocker les données géographiques.
+
 L'outil pour facilement manipuler ces fichiers est [l'outil duckdb](https://duckdb.org/) qui peut être appelé en R, Python, dans le navigateur comme en ligne de commande.
 
 ```bash
@@ -288,7 +294,9 @@ La différence notable est que la taille du GPKG généré est de l’ordre de 2
 
 #### PostgreSQL/PostGIS
 
-PostgreSQL est une base de données client/serveur. Elle nécessite une installation sur votre machine ou un serveur distant. Ce qui fait sa force est qu'elle peur gérer des très gros volumes de données, étant en concurrence avec des SGBD type Oracle ou MySQL Server. Si vous manipulez de la donnée géographique, vous ne pourrez pas passer à côté de sa cartouche spatiale PostGIS qui est à ce jour la meilleure du marché dans les SGBD existants.
+PostgreSQL est une base de données client/serveur. Elle nécessite une installation sur votre machine ou un serveur distant. Elle peut gérer de très gros volumes de données, étant en concurrence avec des SGBD type Oracle ou MySQL Server. 
+
+Si vous manipulez de la donnée géographique, vous ne pourrez pas passer à côté de sa cartouche spatiale PostGIS qui est à ce jour la meilleure du marché dans les SGBD existants.
 
 Vous pouvez si nécessaire consulter [un guide d'installation](https://data.sigea.educagri.fr/download/sigea/supports/PostGIS/distance/initiation/PostGIS_Installation/co/PostGIS_Installation.html)
 
