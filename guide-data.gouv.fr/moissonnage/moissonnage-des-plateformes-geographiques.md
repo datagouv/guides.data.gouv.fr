@@ -1,6 +1,12 @@
 # Moissonnage des plateformes géographiques
 
-Il est possible de faire moissonner les données de sa plateforme géographique par [data.gouv.fr](https://www.data.gouv.fr/).
+Il est possible de faire moissonner les données de sa plateforme géographique par [data.gouv.fr](https://www.data.gouv.fr/).\
+
+
+{% hint style="info" %}
+**Qu'est-ce que le moissonnage sur data.gouv.fr ?**\
+Le moissonnage est un mécanisme permettant de collecter les métadonnées sur un catalogue distant et de les stocker sur une autre plateforme afin de proposer un second point d’accès aux données.
+{% endhint %}
 
 {% hint style="warning" %}
 Historiquement, le moissonnage des métadonnées géographiques se faisait via [geo.data.gouv.fr](https://geo.data.gouv.fr/). La plateforme est aujourd'hui éteinte. Vous retrouverez plus d’informations à propos de [l'extinction de geo.data.gouv.fr ici](https://www.data.gouv.fr/fr/posts/extinction-de-geo-data-gouv-fr/).
