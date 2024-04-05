@@ -245,6 +245,10 @@ for grb in grbs:
     print(grb)
 ```
 
+#### Inspection dans QGIS
+
+![Inspection grib2 dans Qgis](https://raw.githubusercontent.com/thanhhale7/images/main/open-grib-qgis-resized.gif)
+
 ### Mettre les données en bases de données
 
 Cela peut surtout s'avérer utile pour mettre des données attributaires comme les stations ou les mesures associées prises sur les stations. Il est ensuite plus facile de les manipuler si vous avez des connaissances en SQL. Néanmoins, rien ne vous empêche selon vos préférences de faire tous vos traitements dans des dataframes en Python ou en R.
