@@ -245,6 +245,26 @@ for grb in grbs:
     print(grb)
 ```
 
+Pour l'exemple ci-dessous, passez par conda avec `conda install --channel conda-forge xarray cfgrib eccodes -y`
+
+```python
+import numpy as np
+import xarray as xr
+import matplotlib.pyplot as plt
+
+openpath = 'arome__001__HP1__01H__2024-04-02T12:00:00Z.grib2'
+# Below commeneted due to https://github.com/meteofrance/meteonet/issues/20
+# ds = xr.open_dataset(openpath,engine='cfgrib',backend_kwargs={'indexpath': ''})
+meteodata = xr.open_dataset(openpath, engine='cfgrib',
+                            backend_kwargs={'filter_by_keys': {'cfVarName': 'ws'}})
+                            backend_kwargs={'filter_by_keys': {'name': 'Relative humidity'}})
+print(meteodata['ws'])
+ds_heightAboveGround50 = meteodata.sel(heightAboveGround=50)
+plt.contourf(ds_heightAboveGround50['ws'])
+plt.colorbar()
+plt.savefig('ds_heightAboveGround50.png')
+```
+
 #### Inspection dans QGIS
 
 ![Inspection grib2 dans Qgis](https://raw.githubusercontent.com/thanhhale7/images/main/open-grib-qgis-resized.gif)
