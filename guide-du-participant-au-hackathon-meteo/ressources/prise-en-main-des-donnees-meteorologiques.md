@@ -72,7 +72,7 @@ with open('datasets_organization_meteo_france.csv', 'w') as csvfile:
 print(len(results))
 ```
 
-Il est aussi possible de passer par les fichiers du catalogue de données de data.gouv.fr pour obtenir un contenu similaire. Le lien web est : https://www.data.gouv.fr/fr/datasets/catalogue-des-donnees-de-data-gouv-fr/#/resources
+Il est aussi possible de passer par les fichiers du catalogue de données de data.gouv.fr pour obtenir un contenu similaire. Le lien web est : <https://www.data.gouv.fr/fr/datasets/catalogue-des-donnees-de-data-gouv-fr/#/resources>
 
 {% hint style="info" %}
 Inconvénient : il est mis à jour tous les jours, cette fréquence bien qu'importante ne convient pas forcément à tous les utilisateurs. 
@@ -91,7 +91,7 @@ xsv search -d ';' -s "dataset.organization" 'Météo-France' $local_file >| data
 
 ### Récupérer les jeux de données d'un dataset
 
-Il s'agit de pages de jeux de données comme https://www.data.gouv.fr/fr/datasets/donnees-climatologiques-de-base-horaires/
+Il s'agit de pages de jeux de données comme <https://www.data.gouv.fr/fr/datasets/donnees-climatologiques-de-base-horaires/>
 
 #### En Bash
 
@@ -122,9 +122,9 @@ print(urls)
 1. Passez par [data.gouv.fr](http://data.gouv.fr/) ;
 2. Cherchez l'organisation Météo-France et rendez-vous sur sa page ;
 3. Allez dans l'onglet "Informations" ;
-4. Descendez en bas pour voir mentionné l'id comme sur : https://www.data.gouv.fr/fr/organizations/meteo-france/#/information
+4. Descendez en bas pour voir mentionné l'id comme sur : <https://www.data.gouv.fr/fr/organizations/meteo-france/#/information>
 
-Vous pouvez réexploiter cette id via une URL du type https://www.data.gouv.fr/api/1/organizations/534fff8ba3a7292c64a77ed4/datasets/?page=1&page_size=10 pour l'organisation `534fff8ba3a7292c64a77ed4`
+Vous pouvez réexploiter cette id via une URL du type <https://www.data.gouv.fr/api/1/organizations/534fff8ba3a7292c64a77ed4/datasets/?page=1&page_size=10> pour l'organisation `534fff8ba3a7292c64a77ed4`
 
 {% hint style="danger" %}
 Il existe pour les organisations un système de pagination. Ainsi, il faut vérifier si dans le retour de l'URL précédente si `next_page` contient une URL. Il faut alors l'appeler et répéter l'opération autant de fois que nécessaire.
@@ -132,10 +132,10 @@ Il existe pour les organisations un système de pagination. Ainsi, il faut véri
 
 #### Pour récupérer les id des jeux de données
 
-1. Allez sur un jeu de données des "Données climatologiques de base - horaires", https://www.data.gouv.fr/fr/datasets/donnees-climatologiques-de-base-horaires/
+1. Allez sur un jeu de données des "Données climatologiques de base - horaires", <https://www.data.gouv.fr/fr/datasets/donnees-climatologiques-de-base-horaires/>
 2. Rendez-vous dans l'onglet "Informations" pour retrouver l'id du jeu de données.
 
-Ensuite, il faudra entrer comme URL https://www.data.gouv.fr/api/1/datasets/6569b4473bedf2e7abad3b72/ avec l'id `6569b4473bedf2e7abad3b72` pour accéder au json des ressources associées au jeu de données.
+Ensuite, il faudra entrer comme URL <https://www.data.gouv.fr/api/1/datasets/6569b4473bedf2e7abad3b72/> avec l'id `6569b4473bedf2e7abad3b72` pour accéder au json des ressources associées au jeu de données.
 
 ### Le "raccourci" possible 
 
@@ -145,10 +145,10 @@ Nous avons tendance à préférer les identifiants techniques mais un autre moye
 Le slug correspond à du texte qui s'appuie sur le titre de l'organisation ou du jeu de données en remplaçant les espaces par des tirets et les lettres accentuées en lettres sans accents avec des minuscules partout dans l'URL.
 {% endhint %}
 
-Pour l'organisation https://www.data.gouv.fr/fr/organizations/meteo-france/, il suffit de copier la partie meteo-france de l'url et d'ouvrir la page https://www.data.gouv.fr/api/1/organizations/meteo-france/datasets/?page=1&page_size=10 pour avoir le même résultat que https://www.data.gouv.fr/api/1/organizations/534fff8ba3a7292c64a77ed4/datasets/?page=1&page_size=10.
+Pour l'organisation <https://www.data.gouv.fr/fr/organizations/meteo-france/>, il suffit de copier la partie meteo-france de l'url et d'ouvrir la page <https://www.data.gouv.fr/api/1/organizations/meteo-france/datasets/?page=1&page_size=10> pour avoir le même résultat que <https://www.data.gouv.fr/api/1/organizations/534fff8ba3a7292c64a77ed4/datasets/?page=1&page_size=10>.
 
-Pour le jeu de données https://www.data.gouv.fr/fr/datasets/donnees-climatologiques-de-base-horaires/, les URLs
-https://www.data.gouv.fr/api/1/datasets/donnees-climatologiques-de-base-horaires/ ou https://www.data.gouv.fr/api/1/datasets/6569b4473bedf2e7abad3b72/ sont équivalentes.
+Pour le jeu de données <https://www.data.gouv.fr/fr/datasets/donnees-climatologiques-de-base-horaires/>, les URLs
+<https://www.data.gouv.fr/api/1/datasets/donnees-climatologiques-de-base-horaires/> ou <https://www.data.gouv.fr/api/1/datasets/6569b4473bedf2e7abad3b72/> sont équivalentes.
 
 ### meteo.data.gouv.fr : les "topics"
 
@@ -317,7 +317,7 @@ with psycopg2.connect(connexion) as conn:
 
 #### PostgreSQL/PostGIS - Python avec Pandas
 
-Voir https://pandas.pydata.org/docs/user_guide/io.html#insertion-method
+Voir <https://pandas.pydata.org/docs/user_guide/io.html#insertion-method>
 
 ### Manipuler les données : quelques outils
 
@@ -362,6 +362,7 @@ La page d’accueil du site reproduite ci-dessous est très claire à ce propos.
 ![Page d'accueil du site des API de Météo-France](https://raw.githubusercontent.com/thanhhale7/images/main/Se%CC%81lection_999(025).png)
 
 #### Exemple avec QGIS
+
 Ajout de WMS Arome
 
 ![Exemple d'ajout de WMS Arome](https://raw.githubusercontent.com/thanhhale7/images/main/qgis-arome-wms-resized-1280w.gif)
