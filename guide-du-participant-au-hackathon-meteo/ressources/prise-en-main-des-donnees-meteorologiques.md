@@ -2,14 +2,15 @@
 
 ## Récupérer les données météorologiques en utilisant l’API de data.gouv.fr
 
-<https://data.gouv.fr> est souvent uniquement assimilé à un site web. Or, il permet aussi :
-- de moissonner des ressources distantes comme des catalogues ;
-- de consulter via une API les pages, les jeux de données associés à des pages, les organisations, leurs jeux de données, les réutilisations, etc. 
-- de mettre à jour les jeux de données via l'API.
+[data.gouv.fr](https://data.gouv.fr) est souvent uniquement assimilé à un site web. Or, il permet aussi :
 
-Il existe une référence à ce propos sur <https://doc.data.gouv.fr/api/reference/>. Un guide est disponible sur https://guides.data.gouv.fr/guide-data.gouv.fr/api.
+* de moissonner des ressources distantes comme des catalogues ;
+* de consulter via une API les pages, les jeux de données associés à des pages, les organisations, leurs jeux de données, les réutilisations, etc.
+* de mettre à jour les jeux de données via l'API.
 
-Nous allons, dans ce cas précis, aborder des exemples spécifiques aux données publiées par Météo-France. 
+Il existe une référence à ce propos sur [https://doc.data.gouv.fr/api/reference/](https://doc.data.gouv.fr/api/reference/). Un guide est disponible sur https://guides.data.gouv.fr/guide-data.gouv.fr/api.
+
+Nous allons, dans ce cas précis, aborder des exemples spécifiques aux données publiées par Météo-France.
 
 Nos exemples sont réalisés soit en ligne de commande en Bash, soit en Python.
 
@@ -81,12 +82,12 @@ with open('datasets_organization_meteo_france.csv', 'w') as csvfile:
 print(len(results))
 ```
 
-Il est aussi possible de passer par les fichiers du catalogue de données de data.gouv.fr pour obtenir un contenu similaire. Le lien web est : <https://www.data.gouv.fr/fr/datasets/catalogue-des-donnees-de-data-gouv-fr/#/resources>
+Il est aussi possible de passer par les fichiers du catalogue de données de data.gouv.fr pour obtenir un contenu similaire. Le lien web est : [https://www.data.gouv.fr/fr/datasets/catalogue-des-donnees-de-data-gouv-fr/#/resources](https://www.data.gouv.fr/fr/datasets/catalogue-des-donnees-de-data-gouv-fr/#/resources)
 
 {% hint style="info" %}
-Inconvénient : il est mis à jour tous les jours, cette fréquence bien qu'importante ne convient pas forcément à tous les utilisateurs. 
+**Inconvénient** : il est mis à jour tous les jours, cette fréquence bien qu'importante ne convient pas forcément à tous les utilisateurs.
 
-Avantage : les fichiers sont exploitables via des logiciels de type tableur
+**Avantage** : les fichiers sont exploitables via des logiciels de type tableur
 {% endhint %}
 
 ```bash
@@ -100,7 +101,7 @@ xsv search -d ';' -s "dataset.organization" 'Météo-France' $local_file >| data
 
 ### Récupérer les jeux de données d'un dataset
 
-Il s'agit de pages de jeux de données comme <https://www.data.gouv.fr/fr/datasets/donnees-climatologiques-de-base-horaires/>
+Il s'agit de pages de jeux de données comme [https://www.data.gouv.fr/fr/datasets/donnees-climatologiques-de-base-horaires/](https://www.data.gouv.fr/fr/datasets/donnees-climatologiques-de-base-horaires/)
 
 #### En Bash
 
@@ -125,6 +126,7 @@ with urllib.request.urlopen(url) as resp:
 urls = [resource.get('url') for resource in json_content.get('resources') if resource.get('type') != 'documentation']
 print(urls)
 ```
+
 ### Récupérer les id des organisations ("organizations") ou des jeux de données ("datasets")
 
 #### Pour récupérer les id des organisations
@@ -132,9 +134,9 @@ print(urls)
 1. Passez par [data.gouv.fr](http://data.gouv.fr/) ;
 2. Cherchez l'organisation Météo-France et rendez-vous sur sa page ;
 3. Allez dans l'onglet "Informations" ;
-4. Descendez en bas pour voir mentionné l'id comme sur : <https://www.data.gouv.fr/fr/organizations/meteo-france/#/information>
+4. Descendez en bas pour voir mentionné l'id comme sur : [https://www.data.gouv.fr/fr/organizations/meteo-france/#/information](https://www.data.gouv.fr/fr/organizations/meteo-france/#/information)
 
-Vous pouvez réexploiter cette `id` via une URL du type <https://www.data.gouv.fr/api/1/organizations/534fff8ba3a7292c64a77ed4/datasets/?page=1&page_size=10> pour l'organisation `534fff8ba3a7292c64a77ed4`
+Vous pouvez réexploiter cette `id` via une URL du type [https://www.data.gouv.fr/api/1/organizations/534fff8ba3a7292c64a77ed4/datasets/?page=1\&page\_size=10](https://www.data.gouv.fr/api/1/organizations/534fff8ba3a7292c64a77ed4/datasets/?page=1\&page\_size=10) pour l'organisation `534fff8ba3a7292c64a77ed4`
 
 {% hint style="danger" %}
 Il existe pour les organisations un système de pagination. Ainsi, il faut vérifier si dans le retour de l'URL précédente si `next_page` contient une URL. Il faut alors l'appeler et répéter l'opération autant de fois que nécessaire.
@@ -142,10 +144,10 @@ Il existe pour les organisations un système de pagination. Ainsi, il faut véri
 
 #### Pour récupérer les id des jeux de données
 
-1. Allez sur un jeu de données des "Données climatologiques de base - horaires", <https://www.data.gouv.fr/fr/datasets/donnees-climatologiques-de-base-horaires/>
+1. Allez sur un jeu de données des "Données climatologiques de base - horaires", [https://www.data.gouv.fr/fr/datasets/donnees-climatologiques-de-base-horaires/](https://www.data.gouv.fr/fr/datasets/donnees-climatologiques-de-base-horaires/)
 2. Rendez-vous dans l'onglet "Informations" pour retrouver l'`id` du jeu de données.
 
-Ensuite, il faudra entrer comme URL <https://www.data.gouv.fr/api/1/datasets/6569b4473bedf2e7abad3b72/> avec l'id `6569b4473bedf2e7abad3b72` pour accéder au json des ressources associées au jeu de données.
+Ensuite, il faudra entrer comme URL [https://www.data.gouv.fr/api/1/datasets/6569b4473bedf2e7abad3b72/](https://www.data.gouv.fr/api/1/datasets/6569b4473bedf2e7abad3b72/) avec l'id `6569b4473bedf2e7abad3b72` pour accéder au json des ressources associées au jeu de données.
 
 ### Le "raccourci" possible
 
@@ -155,22 +157,21 @@ Nous avons tendance à préférer les identifiants techniques mais un autre moye
 Le slug correspond à du texte qui s'appuie sur le titre de l'organisation ou du jeu de données en remplaçant les espaces par des tirets et les lettres accentuées en lettres sans accents avec des minuscules partout dans l'URL.
 {% endhint %}
 
-Pour l'organisation <https://www.data.gouv.fr/fr/organizations/meteo-france/>, il suffit de copier la partie meteo-france de l'url et d'ouvrir la page <https://www.data.gouv.fr/api/1/organizations/meteo-france/datasets/?page=1&page_size=10> pour avoir le même résultat que <https://www.data.gouv.fr/api/1/organizations/534fff8ba3a7292c64a77ed4/datasets/?page=1&page_size=10>.
+Pour l'organisation [https://www.data.gouv.fr/fr/organizations/meteo-france/](https://www.data.gouv.fr/fr/organizations/meteo-france/), il suffit de copier la partie meteo-france de l'url et d'ouvrir la page [https://www.data.gouv.fr/api/1/organizations/meteo-france/datasets/?page=1\&page\_size=10](https://www.data.gouv.fr/api/1/organizations/meteo-france/datasets/?page=1\&page\_size=10) pour avoir le même résultat que [https://www.data.gouv.fr/api/1/organizations/534fff8ba3a7292c64a77ed4/datasets/?page=1\&page\_size=10](https://www.data.gouv.fr/api/1/organizations/534fff8ba3a7292c64a77ed4/datasets/?page=1\&page\_size=10).
 
-Pour le jeu de données <https://www.data.gouv.fr/fr/datasets/donnees-climatologiques-de-base-horaires/>, les URLs
-<https://www.data.gouv.fr/api/1/datasets/donnees-climatologiques-de-base-horaires/> ou <https://www.data.gouv.fr/api/1/datasets/6569b4473bedf2e7abad3b72/> sont équivalentes.
+Pour le jeu de données [https://www.data.gouv.fr/fr/datasets/donnees-climatologiques-de-base-horaires/](https://www.data.gouv.fr/fr/datasets/donnees-climatologiques-de-base-horaires/), les URLs [https://www.data.gouv.fr/api/1/datasets/donnees-climatologiques-de-base-horaires/](https://www.data.gouv.fr/api/1/datasets/donnees-climatologiques-de-base-horaires/) ou [https://www.data.gouv.fr/api/1/datasets/6569b4473bedf2e7abad3b72/](https://www.data.gouv.fr/api/1/datasets/6569b4473bedf2e7abad3b72/) sont équivalentes.
 
 ### meteo.data.gouv.fr : les "topics"
 
-Derrière [meteo.data.gouv.fr](http://meteo.data.gouv.fr) se cache un site dérivé de [data.gouv.fr](http://data.gouv.fr/). 
+Derrière [meteo.data.gouv.fr](http://meteo.data.gouv.fr) se cache un site dérivé de [data.gouv.fr](http://data.gouv.fr/).
 
-L'API de [data.gouv.fr](http://data.gouv.fr/) expose ce que l’on appelle des "topics", qui sont des regroupements de données et qui sont consommés via le front de meteo.data.gouv.fr. 
+L'API de [data.gouv.fr](http://data.gouv.fr/) expose ce que l’on appelle des "topics", qui sont des regroupements de données et qui sont consommés via le front de meteo.data.gouv.fr.
 
 3 topics sont actuellement utilisés sur [meteo.data.gouv.fr](http://meteo.data.gouv.fr/) :
 
-- Données climatologiques de base
-- Données climatologiques de référence pour le changement climatique
-- Données de prévision numérique du temps (PNT)
+* Données climatologiques de base
+* Données climatologiques de référence pour le changement climatique
+* Données de prévision numérique du temps (PNT)
 
 **Boucler sur les topics**
 
@@ -217,7 +218,7 @@ done;
 
 ## Utiliser les données météorologiques
 
-Les formats de données météorologiques sont **des formats multidimensionnels**, en particulier pour les données liées aux satellites car ils nécessitent de gérer les coordonnées soit ponctuelles soit associées à une grille (déjà 2 dimensions), des dates d'acquisition (une autre dimension) et des mesures diverses (encore une dimension). 
+Les formats de données météorologiques sont **des formats multidimensionnels**, en particulier pour les données liées aux satellites car ils nécessitent de gérer les coordonnées soit ponctuelles soit associées à une grille (déjà 2 dimensions), des dates d'acquisition (une autre dimension) et des mesures diverses (encore une dimension).
 
 Pour cela, plusieurs formats sont utilisés. On stocke généralement les données brutes sous forme de fichiers dits GRIB, un format standardisé par l'OMM (Organisation Mondiale de la Météorologie). Vous pouvez en savoir plus en passant par [la page Wikipédia GRIB](https://fr.wikipedia.org/wiki/GRIB).
 
@@ -318,11 +319,11 @@ La différence notable est que la taille du GPKG généré est de l’ordre de 2
 
 #### PostgreSQL/PostGIS
 
-PostgreSQL est une base de données client/serveur. Elle nécessite une installation sur votre machine ou un serveur distant. Elle peut gérer de très gros volumes de données, étant en concurrence avec des SGBD type Oracle ou MySQL Server. 
+PostgreSQL est une base de données client/serveur. Elle nécessite une installation sur votre machine ou un serveur distant. Elle peut gérer de très gros volumes de données, étant en concurrence avec des SGBD type Oracle ou MySQL Server.
 
 Si vous manipulez de la donnée géographique, vous ne pourrez pas passer à côté de sa cartouche spatiale PostGIS qui est à ce jour la meilleure du marché dans les SGBD existants.
 
-Vous pouvez si nécessaire consulter [un guide d'installation](https://data.sigea.educagri.fr/download/sigea/supports/PostGIS/distance/initiation/PostGIS_Installation/co/PostGIS_Installation.html)
+Vous pouvez si nécessaire consulter [un guide d'installation](https://data.sigea.educagri.fr/download/sigea/supports/PostGIS/distance/initiation/PostGIS\_Installation/co/PostGIS\_Installation.html).
 
 Charger les données dans PostgreSQL avec le client psql (fourni dès l'installation de PostgreSQL/PostGIS) en ligne de commande
 
@@ -373,7 +374,7 @@ with psycopg2.connect(connexion) as conn:
 
 #### PostgreSQL/PostGIS - Python avec Pandas
 
-Voir <https://pandas.pydata.org/docs/user_guide/io.html#insertion-method>
+Voir [https://pandas.pydata.org/docs/user\_guide/io.html#insertion-method](https://pandas.pydata.org/docs/user\_guide/io.html#insertion-method)
 
 ### Manipuler les données : quelques outils
 
@@ -381,29 +382,29 @@ Voir <https://pandas.pydata.org/docs/user_guide/io.html#insertion-method>
 
 Quelques utilitaires intéressants :
 
-- Pour récupérer les données : curl/wget
-- Pour manipuler du JSON : jq
-- Pour manipuler du CSV : xsv/csvkit
-- Pour manipuler des données géographiques vecteur ou raster : ogrinfo/ogr2ogr/gdalinfo/gdalwarp fournis par GDAL
-- Pour manipuler des données csv ou passer par du parquet facilement : duckdb
+* Pour récupérer les données : curl/wget
+* Pour manipuler du JSON : jq
+* Pour manipuler du CSV : xsv/csvkit
+* Pour manipuler des données géographiques vecteur ou raster : ogrinfo/ogr2ogr/gdalinfo/gdalwarp fournis par GDAL
+* Pour manipuler des données csv ou passer par du parquet facilement : duckdb
 
 #### En Python
 
 Pensez à passer par des Notebooks Jupyter. Utilisez conda/mamba et des environnements virtuels
 
-Les bibliothèques qui pourraient vous être utiles : 
+Les bibliothèques qui pourraient vous être utiles :
 
-- pandas avec son module “géo” geopandas
-- xarray, cfgrib, eccodes pour manipuler les grib2 type Arome ou Arpège
-- matplotlib avec cartopy et basemap
+* pandas avec son module “géo” geopandas
+* xarray, cfgrib, eccodes pour manipuler les grib2 type Arome ou Arpège
+* matplotlib avec cartopy et basemap
 
 Un bon point d’entrée pour des exemples (en particulier pour les données type Arome/Arpege) : [https://github.com/meteofrance/meteonet/](https://github.com/meteofrance/meteonet/tree/master).
 
 #### Logiciel SIG QGIS
 
-Pour une analyse visuelle rapide, vous pouvez passer par QGIS qui permet de gérer les WMS, les CSV et les GeoJSON. 
+Pour une analyse visuelle rapide, vous pouvez passer par QGIS qui permet de gérer les WMS, les CSV et les GeoJSON.
 
-Vous pouvez vous référer pour un tuto rapide à [https://tutoqgis.cnrs.fr](https://tutoqgis.cnrs.fr/). 
+Vous pouvez vous référer pour un tuto rapide à [https://tutoqgis.cnrs.fr](https://tutoqgis.cnrs.fr/).
 
 Vous pouvez également vous référer à [la documentation officielle du projet QGIS](https://www.qgis.org/fr/docs/index.html).
 
@@ -411,11 +412,11 @@ Vous pouvez également vous référer à [la documentation officielle du projet 
 
 Bien que les données soient ouvertes sous licence Etalab, les APIs nécessitent de créer un compte sur [https://portail-api.meteofrance.fr](https://portail-api.meteofrance.fr/) (pour éviter les abus et pouvoir suivre les usages).
 
-Après création d’un compte, il est possible souscrire à des APIs. Par défaut, le compte ne permet rien sauf de souscrire à des APIs. Quand on a choisi une API, on peut souscrire puis commencer à utiliser pour son usage. 
+Après création d’un compte, il est possible souscrire à des APIs. Par défaut, le compte ne permet rien sauf de souscrire à des APIs. Quand on a choisi une API, on peut souscrire puis commencer à utiliser pour son usage.
 
 La page d’accueil du site reproduite ci-dessous est très claire à ce propos.
 
-![Page d'accueil du site des API de Météo-France](https://raw.githubusercontent.com/thanhhale7/images/main/Se%CC%81lection_999(025).png)
+![Page d'accueil du site des API de Météo-France](https://raw.githubusercontent.com/thanhhale7/images/main/Se%CC%81lection\_999\(025\).png)
 
 #### Exemple avec QGIS
 
