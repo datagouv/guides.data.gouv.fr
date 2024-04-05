@@ -4,11 +4,17 @@ Utiliser meteo.data.gouv.fr, récupérer les données météorologiques en utili
 
 ## Récupérer les données météorologiques en utilisant l’API de data.gouv.fr
 
+Souvent, les personnes assimilent <https://data.gouv.fr> uniquement à un site web. C'est plus que ça. Il permet de moissonner des ressources distantes comme des catalogues. Il est aussi possible de consulter via une API les pages, les jeux de données associés à des pages, les organisations, leurs jeux de données, les réutilisations. Il est même possible de mettre à jour les jeux de données via l'API. Il existe une référence à ce propos sur <https://doc.data.gouv.fr/api/reference/>. Un guide est disponible sur https://guides.data.gouv.fr/guide-data.gouv.fr/api.
+
+Nous allons, dans ce cas précis, aborder des exemples spécifiques aux données publiées par Météo France. 
+
 Nos exemples sont réalisés soit en ligne de commande en Bash, soit en Python.
 
 Pour les exemples Bash, il faut disposer de [curl](https://curl.se/), [wget](https://www.gnu.org/software/wget/), [jq](https://jqlang.github.io/jq/) et [xsv](https://github.com/BurntSushi/xsv?tab=readme-ov-file#installation) installés sur votre machine.
 
 ### Lister les ressources et les jeux de données d'une organisation
+
+On cible ici Météo France
 
 **En bash**, on passe en CSV.
 
@@ -119,12 +125,13 @@ print(urls)
 ### Récupérer les id des organisations ("organizations") ou des jeux de données ("datasets")
 
 #### Pour récupérer les id des organisations
+
 1. Passez par [data.gouv.fr](http://data.gouv.fr/) ;
 2. Cherchez l'organisation Météo-France et rendez-vous sur sa page ;
 3. Allez dans l'onglet "Informations" ;
 4. Descendez en bas pour voir mentionné l'id comme sur : <https://www.data.gouv.fr/fr/organizations/meteo-france/#/information>
 
-Vous pouvez réexploiter cette id via une URL du type <https://www.data.gouv.fr/api/1/organizations/534fff8ba3a7292c64a77ed4/datasets/?page=1&page_size=10> pour l'organisation `534fff8ba3a7292c64a77ed4`
+Vous pouvez réexploiter cette `id` via une URL du type <https://www.data.gouv.fr/api/1/organizations/534fff8ba3a7292c64a77ed4/datasets/?page=1&page_size=10> pour l'organisation `534fff8ba3a7292c64a77ed4`
 
 {% hint style="danger" %}
 Il existe pour les organisations un système de pagination. Ainsi, il faut vérifier si dans le retour de l'URL précédente si `next_page` contient une URL. Il faut alors l'appeler et répéter l'opération autant de fois que nécessaire.
@@ -133,11 +140,11 @@ Il existe pour les organisations un système de pagination. Ainsi, il faut véri
 #### Pour récupérer les id des jeux de données
 
 1. Allez sur un jeu de données des "Données climatologiques de base - horaires", <https://www.data.gouv.fr/fr/datasets/donnees-climatologiques-de-base-horaires/>
-2. Rendez-vous dans l'onglet "Informations" pour retrouver l'id du jeu de données.
+2. Rendez-vous dans l'onglet "Informations" pour retrouver l'`id` du jeu de données.
 
 Ensuite, il faudra entrer comme URL <https://www.data.gouv.fr/api/1/datasets/6569b4473bedf2e7abad3b72/> avec l'id `6569b4473bedf2e7abad3b72` pour accéder au json des ressources associées au jeu de données.
 
-### Le "raccourci" possible 
+### Le "raccourci" possible
 
 Nous avons tendance à préférer les identifiants techniques mais un autre moyen plus rapide est **de passer le slug de la page ou de l'organisation**.
 
@@ -192,7 +199,7 @@ Ainsi, on a la correspondance suivante :
 
 ```
 
-Si on veut toutes les données du portail [meteo.data.gouv.fr](http://meteo.data.gouv.fr/) :
+Si on veut toutes les données du portail [meteo.data.gouv.fr](http://meteo.data.gouv.fr/), voici un recette en bash :
 
 ```bash
 topic_ids_meteo=("65e0c82c2da27c1dff5fa66f" "6571f2db0273fc306408f265" "6571f26dc009674feb726be9")
@@ -207,15 +214,18 @@ done;
 
 ## Utiliser les données météorologiques
 
-### Comprendre les formats de fichiers grib2
+Les formats de données météorologiques sont des formats multidimensionnels en particulier pour les données liés aux satellites car ils nécessitent de gérer les coordonnées soit ponctuells soit associées à une grille (déjà 2 dimensions), des dates d'acquisition (Une autre dimension) et des mesures diverses (encore une dimension). Pour cela, plusieurs formats sont utilisés. Généralement, on stocke les données brutes sous forme de fichier dit GRIB, un format standardisé par l'OMM (Organisation Mondiale de la Météorologie). Vous pouvez savoir plus en passant par [la page Wikipédia GRIB](https://fr.wikipedia.org/wiki/GRIB).
+
+### Manipuler les formats de fichiers grib2
 
 #### Inspection en Bash
 
 ```bash
 wget <https://object.data.gouv.fr/meteofrance-pnt/pnt/2024-04-02T12:00:00Z/arome/001/HP1/arome__001__HP1__01H__2024-04-02T12:00:00Z.grib2>
+# On va généralement inspecter avec less ou filtrer avec des outils type grep
 gdalinfo arome__001__HP1__01H__2024-04-02T12\\:00\\:00Z.grib2
+# On a une sortie JSON potentiellement plus facilement exploitable avec par exemple jq
 gdalinfo -json arome__001__HP1__01H__2024-04-02T12\\:00\\:00Z.grib2
-
 ```
 
 #### Inspection en Python
@@ -232,7 +242,11 @@ for grb in grbs:
 
 ### Mettre les données en bases de données
 
+Cela peut surtout s'avérer utile pour mettre des données attributaires comme les stations ou les mesures associées prise sur les stations. Il est ensuite plus facile de les manipuler si vous avez des connaissances en SQL. Néanmoins, rien ne vous empêche selon vos préférences de faire tous vos traitements dans des dataframes en Python ou en R.
+
 #### SQLite
+
+C'est un format de fichier qui contient une base de données relationnelle ne nécessitant aucune installation.
 
 En utilisant l’utilitaire `sqlite-utils`, installable via `pip install sqlite-utils`
 
@@ -248,7 +262,9 @@ sqlite-utils query meteo_hor.db "SELECT * FROM meteo_hor" --csv
 
 Pour en savoir plus, lire [la documentation sur la partie ligne de commande](https://sqlite-utils.datasette.io/en/stable/cli.html#sqlite-utils-command-line-tool)
 
-#### Spatialite/GPKG
+#### GPKG
+
+C'est un format qui s'appuie sur la base de données SQLite. La particularité est qu'ils permettent de gérer de la donnée géographique en intégrant des fonctionnalités spatiales du type "recherche toutes stations à moins de 10 km de chez moi".
 
 ```bash
 ogr2ogr -f GPKG meteo_hor.gpkg -dialect SQLite -sql "SELECT *, MakePoint(cast(LON AS REAL), cast(LAT AS REAL), 4326) AS geometry FROM \"H_01_latest-2023-2024\"" /vsigzip/H_01_latest-2023-2024.csv.gz -nln csv_hor
@@ -261,17 +277,25 @@ ogr2ogr -f GPKG meteo_hor.gpkg -dialect SQLite -sql @query.sql /vsigzip/H_01_lat
 
 #### Parquet
 
+Ce format venant du monde du "Big Data" a le vent en poupe. Il devient de plus en plus utilisé. Il permet des sélections rapides même en passant par des fichiers distants évitant par exemple des téléchargements complets sur votre machine. Il existe une variation dite GeoParquet qui permet de stocker les données géographiques.
+L'outil pour facilement manipuler ces fichiers est [l'outil duckdb](https://duckdb.org/) qui peut être appelé en R, Python, dans le navigateur comme en ligne de commande.
+
 ```bash
 ogr2ogr -f Parquet meteo_hor.parquet -dialect SQLite -sql "SELECT *, MakePoint(cast(LON AS REAL), cast(LAT AS REAL), 4326) AS geometry FROM \"H_01_latest-2023-2024\"" /vsigzip/H_01_latest-2023-2024.csv.gz
 ```
 
-Différence notable de taille sur le GPKG qui est de l’ordre de 20 fois plus gros que le GeoParquet.
+La différence notable est que la taille du GPKG généré est de l’ordre de 20 fois plus gros que le fichier GeoParquet.
 
 #### PostgreSQL/PostGIS
 
-Charger les données dans PostgreSQL avec le client psql en ligne de commande
+PostgreSQL est une base de données client/serveur. Elle nécessite une installation sur votre machine ou un serveur distant. Ce qui fait sa force est qu'elle peur gérer des très gros volumes de données, étant en concurrence avec des SGBD type Oracle ou MySQL Server. Si vous manipulez de la donnée géographique, vous ne pourrez pas passer à côté de sa cartouche spatiale PostGIS qui est à ce jour la meilleure du marché dans les SGBD existants.
+
+Vous pouvez si nécessaire consulter [un guide d'installation](https://data.sigea.educagri.fr/download/sigea/supports/PostGIS/distance/initiation/PostGIS_Installation/co/PostGIS_Installation.html)
+
+Charger les données dans PostgreSQL avec le client psql (fourni dès l'installation de PostgreSQL/PostGIS) en ligne de commande
 
 ```bash
+# Les types pourraient être améliorés dans le CREATE TABLE...
 # Attention, on passe ici par un service pour la connexion mais il est possible de
 # passer la connexion à la base via une connexion de la forme suivante
 # psql 'postgres://YourUserName:YourPassword@YourHostname:5432/YourDatabaseName'
@@ -333,9 +357,9 @@ Quelques utilitaires intéressants :
 
 #### En Python
 
-Pensez à passer par des Notebooks Jupyter.
+Pensez à passer par des Notebooks Jupyter. Utilisez conda/mamba et des environnements virtuels
 
-Les bibliothèques qui pourraient être utiles : 
+Les bibliothèques qui pourraient vous être utiles : 
 
 - pandas avec son module “géo” geopandas
 - xarray, cfgrib, eccodes pour manipuler les grib2 type Arome ou Arpège
