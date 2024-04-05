@@ -10,11 +10,11 @@
 
 Il existe une référence à ce propos sur [https://doc.data.gouv.fr/api/reference/](https://doc.data.gouv.fr/api/reference/). Un guide est disponible sur https://guides.data.gouv.fr/guide-data.gouv.fr/api.
 
-Nous allons, dans ce cas précis, aborder des exemples spécifiques aux données publiées par Météo-France.
+**Pour le hackathon** nous vous avons préparé un dépôt github contenant des utilitaires vous permettant de télécharger les données.&#x20;
 
-Nos exemples sont réalisés soit en ligne de commande en Bash, soit en Python.
+[Dépôt Github d'assistance au téléchargement des données météos](https://github.com/datagouv/hackathon-meteo-utils)
 
-Pour les exemples Bash, il faut disposer de [curl](https://curl.se/), [wget](https://www.gnu.org/software/wget/), [jq](https://jqlang.github.io/jq/) et [xsv](https://github.com/BurntSushi/xsv?tab=readme-ov-file#installation) installés sur votre machine.
+Vous trouverez ci-dessous des exemples plus génériques vous expliquant en détail comment télécharger les données sur la plateforme data.gouv.fr. Nos exemples sont réalisés soit en ligne de commande en Bash, soit en Python. Pour les exemples Bash, il faut disposer de [curl](https://curl.se/), [wget](https://www.gnu.org/software/wget/), [jq](https://jqlang.github.io/jq/) et [xsv](https://github.com/BurntSushi/xsv?tab=readme-ov-file#installation) installés sur votre machine.
 
 ### Lister les ressources et les jeux de données d'une organisation
 
