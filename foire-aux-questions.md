@@ -34,7 +34,7 @@ Adressez vous directement au producteur dans l'espace de discussion en bas de pa
 
 <details>
 
-<summary>Question <strong>sur le cadastre ?</strong></summary>
+<summary>Question <strong>sur le cadastre</strong> </summary>
 
 Si vous avez une question sur le cadastre (rechercher un propriétaire, remonter une erreur dans les données de valeur foncière, s’informer sur la mitoyenneté, etc.), nous vous invitons à consulter [notre « Foire aux questions sur le cadastre »](https://guides.data.gouv.fr/reutiliser-des-donnees/autour-du-cadastre/faq-cadastre).\
 \
@@ -44,7 +44,7 @@ Pour toute question sur l’utilisation et la manipulation des données du cadas
 
 <details>
 
-<summary>Question sur une procédure administrative ?</summary>
+<summary>Question sur une procédure administrative </summary>
 
 Notre support n'est pas en mesure de vous aider sur ces sujets. Vous pouvez vous référer au site [Service-Public.fr](https://doc.data.gouv.fr/).
 
