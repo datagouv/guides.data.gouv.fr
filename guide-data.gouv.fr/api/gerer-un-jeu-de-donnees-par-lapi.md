@@ -8,7 +8,7 @@ Tous les exemples qui suivent sont réalisés avec un compte :
 
 * qui est actif
 * dont la clé d’API est `my-api-key`
-* qui est membre d’une organization dont l’identifiant est `5bbb6d6cff66bd4dc17bfd5a`.
+* qui est membre d’une organisation dont l’identifiant est `5bbb6d6cff66bd4dc17bfd5a`.
 
 Les exemples portants sur un jeu de données existant utilisent l’identifiant `5bc04b2cff66bd680e499f4a`. Ceux portants sur une ressource existante de ce jeu de données utilisent l’identifiant `54d47250-1daf-483b-965a-3013f8c76617`.
 
