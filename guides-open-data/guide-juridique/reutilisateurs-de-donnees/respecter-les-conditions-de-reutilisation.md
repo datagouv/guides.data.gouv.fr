@@ -26,6 +26,8 @@ Dans le cas de données publiées sous une **licence ODbL**, vous êtes tenu(e) 
 
 Le réutilisateur est aussi tenu de se conformer aux obligations légales qui découlent du [**Règlement général sur la protection des données**](https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000037085952\&categorieLien=id).
 
+Vous pouvez retrouver les conditions de réutilisation des autres licences existantes sur [cette page](https://www.data.gouv.fr/fr/pages/legal/licences/).
+
 ## Quelles sont les restrictions à la réutilisation de données publiques ?  <a href="#faut-il-utiliser-une-licence" id="faut-il-utiliser-une-licence"></a>
 
 ### Le cas de la propriété intellectuelle <a href="#le-cas-de-la-propriete-intellectuelle" id="le-cas-de-la-propriete-intellectuelle"></a>
