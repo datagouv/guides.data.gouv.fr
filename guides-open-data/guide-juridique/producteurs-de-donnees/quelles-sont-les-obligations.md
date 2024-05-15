@@ -104,3 +104,4 @@ Les administrations peuvent choisir parmi cette liste de licences lorsqu'elles p
 Vous pouvez consulter [la liste des licences autorisées par décret](https://www.data.gouv.fr/fr/licences).
 {% endhint %}
 
+OpenDataFrance propose [un guide sur le choix d'une licence](https://opendatafrance.gitbook.io/odl-ressources/fiches-pratiques/aspects-juridiques/choix-des-licences-open-data).
