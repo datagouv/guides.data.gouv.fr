@@ -100,7 +100,7 @@ Même s'il est possible de retrouver comment fonctionne le WFS en regardant le [
 
 Si vous avez besoin de récupérer toutes les communes, il est plutôt recommandé de récupérer les données brutes depuis [Admin Express](https://geoservices.ign.fr/adminexpress), documenté aussi sur cette page. Nous vous recommandons d'avoir installé [GDAL](https://gdal.org/), un utilitaire en ligne de commande.
 
-Son principal intérêt est de pallier à certains scénarios que n'adresse pas pour le moment l'API Découpage administratif. Il nécessite de comprendre quelques préalables.
+Son principal intérêt est de pallier à certains scénarios que n'adresse pas l'API Découpage administratif. Il nécessite de comprendre quelques préalables.
 
 **Lister les couches d'un endpoint WFS**
 
