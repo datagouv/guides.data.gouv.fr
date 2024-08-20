@@ -16,6 +16,7 @@
     * [Gérer un jeu de données](guide-data.gouv.fr/jeux-de-donnees/gerer-un-jeu-de-donnees.md)
     * [Explorer un jeu de donnée](guide-data.gouv.fr/jeux-de-donnees/explorer-un-jeu-de-donnee.md)
     * [Télécharger le catalogue de données de data.gouv.fr](guide-data.gouv.fr/jeux-de-donnees/telecharger-le-catalogue-de-donnees-de-data.gouv.fr.md)
+    * [Faire une recherche SPARQL](guide-data.gouv.fr/jeux-de-donnees/faire-une-recherche-sparql.md)
   * [Réutilisations](guide-data.gouv.fr/reutilisations/README.md)
     * [Publier une réutilisation](guide-data.gouv.fr/reutilisations/publier-une-reutilisation.md)
     * [Gérer une réutilisation](guide-data.gouv.fr/reutilisations/gerer-une-reutilisation.md)
