@@ -34,7 +34,7 @@ Adressez vous directement au producteur dans l'espace de discussion en bas de pa
 
 <details>
 
-<summary>Question <strong>sur le cadastre</strong> </summary>
+<summary>Question sur le cadastre </summary>
 
 Si vous avez une question sur le cadastre (rechercher un propriétaire, remonter une erreur dans les données de valeur foncière, s’informer sur la mitoyenneté, etc.), nous vous invitons à consulter [notre « Foire aux questions sur le cadastre »](https://guides.data.gouv.fr/reutiliser-des-donnees/autour-du-cadastre/faq-cadastre).\
 \
