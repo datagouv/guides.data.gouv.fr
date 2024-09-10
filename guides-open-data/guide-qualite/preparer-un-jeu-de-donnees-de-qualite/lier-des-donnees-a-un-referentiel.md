@@ -116,5 +116,3 @@ Le site [adresse.data.gouv.fr](https://adresse.data.gouv.fr/) est limité à des
 Pour géocoder davantage de données (plusieurs millions de lignes), il est recommandé d'installer votre propre environnement de géocodage, en utilisant par exemple le géocodeur [Addok](https://addok.readthedocs.io/fr/latest/). Des ressources sont disponibles sur [GitHub](https://github.com/etalab/addok-docker) pour vous aider dans l'installation de votre environnement.
 
 Quelle que soit la méthode utilisée, le processus de géocodage retournera une liste d'adresses standardisées avec leurs coordonnées géographiques associées. Il donne aussi accès à une information `geo_score` correspondant au score de confiance que le géocodeur accorde à l'adresse retournée. Cet indicateur peut être utile à garder dans un jeu de données final, il donnera une indication aux utilisateurs sur la performance du géocodage de chaque adresse.
-
-**--> Le géocodage est détaillé** [**ici**](broken-reference)**.**&#x20;
