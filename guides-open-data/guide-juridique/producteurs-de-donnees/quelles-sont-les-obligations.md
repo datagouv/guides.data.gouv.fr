@@ -48,6 +48,18 @@ Les documents administratifs, informations publiques et données doivent être p
 * **Aisément réutilisable** : le producteur prend en considération les connaissances et besoins du réutilisateur lors de la publication ;
 * **Exploitable par un système de traitement automatisé** : la publication est optimisée pour une utilisation par un système de traitement automatisé et non pour une exploitation immédiate par des humains.
 
+{% hint style="warning" %}
+L'accès aux données uniquement via des filtres (liste déroulante, sélection d'une zone sur une carte) limite la récupération des données brutes et ne correspond pas à une diffusion publique. Cependant, une application permettant de filtrer les données peut être créée en complément d'un espace de téléchargement libre.
+{% endhint %}
+
+{% hint style="info" %}
+Concernant l'accès aux données via la création d'un compte validé automatiquement :
+
+* Il est possible pour l’administration, dans le but de répondre favorablement à une demande de communication, de soumettre la consultation de documents administratifs à la création d’un compte automatique, sans intervention de la part de l’administration ;
+* Cette procédure de création de compte automatique n’emporte pas la qualification de diffusion publique conformément aux dispositions du CRPA ;
+* [data.gouv.fr](http://data.gouv.fr/), portail unique interministériel destiné à rassembler et à mettre à disposition les informations publiques de l’État et de ses établissements publics conformément à l’article [R. 321-8 du CRPA](https://www.legifrance.gouv.fr/codes/article\_lc/LEGIARTI000034196216) et aux circulaires du [26 mai 2011](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000024072788) et du [27 avril 2021](https://www.legifrance.gouv.fr/download/pdf/circ?id=45162), est chargé de “_veiller à ce que la mise à disposition des données de référence s’effectue dans le respect des dispositions législatives et réglementaires en vigueur_” et recommande un accès aux documents administratifs librement communicables le plus simple possible sans création de compte
+{% endhint %}
+
 ### Occultation des secrets légaux
 
 **Si vos documents administratifs contiennent des secrets légaux, vous êtes tenus d'occulter ces secrets par un traitement d'usage courant**, sans que cette opération implique des efforts disproportionnés ou que le document soit dénaturé ou vidé de son sens. Le cas échéant, vous n'êtes pas tenu de diffuser le document administratif.
