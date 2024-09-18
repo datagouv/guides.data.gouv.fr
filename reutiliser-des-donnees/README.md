@@ -1,2 +1,9 @@
-# Réutiliser des données
+---
+description: >-
+  L'équipe de data.gouv.fr propose 6 guides pratiques qui ont vocation à vous
+  accompagner dans vos travaux d'exploitation de données ouvertes.
+---
 
+# Guides sur l'utilisation des données
+
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><p><strong>Introduction à l'open data</strong></p><p>Qu'est-ce que l'open data et comment l'utiliser ?</p></td><td></td><td></td><td><a href="introduction-a-lopen-data/">introduction-a-lopen-data</a></td></tr><tr><td><strong>Guide traitement et analyse de données</strong></td><td>Quelles sont les techniques pour exploiter des données ouvertes ?</td><td></td><td><a href="guide-traitement-et-analyse-de-donnees/">guide-traitement-et-analyse-de-donnees</a></td></tr><tr><td><strong>Guide API géographiques</strong></td><td>Comment utiliser l'API Adresse, l'API Découpage Administratif et les tuiles vectorielles ?</td><td></td><td><a href="utiliser-les-api-geographiques/">utiliser-les-api-geographiques</a></td></tr><tr><td><strong>Guides données du cadastre</strong></td><td>Comment manipuler les données du cadastre ?</td><td></td><td><a href="autour-du-cadastre/">autour-du-cadastre</a></td></tr><tr><td><strong>Guide données météorologiques</strong></td><td>Comment récupérer et manipuler les formats de données météorologiques ?</td><td></td><td><a href="prise-en-main-des-donnees-meteorologiques.md">prise-en-main-des-donnees-meteorologiques.md</a></td></tr><tr><td><strong>Guide API Adresse de l'IGN</strong></td><td>Comment utiliser l'API Adresse de l'IGN ?</td><td></td><td><a href="prendre-en-main-lapi-adresse-portee-par-lign.md">prendre-en-main-lapi-adresse-portee-par-lign.md</a></td></tr></tbody></table>

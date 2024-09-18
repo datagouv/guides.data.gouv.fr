@@ -16,7 +16,7 @@ description: >-
 
 ## Réutiliser des données
 
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>API Base Adresse Nationale</strong></td><td>Comment utiliser l'API BAN</td><td><a href="reutiliser-des-donnees/utiliser-les-api-geographiques/utiliser-lapi-adresse/">utiliser-lapi-adresse</a></td></tr><tr><td><strong>API découpage administratif</strong></td><td>Comment à utiliser l'API découpage administratif</td><td><a href="reutiliser-des-donnees/utiliser-les-api-geographiques/utiliser-lapi-decoupage-administratif.md">utiliser-lapi-decoupage-administratif.md</a></td></tr><tr><td><strong>Tuiles vectorielles</strong></td><td>Comment utiliser les tuiles vectorielles</td><td><a href="reutiliser-des-donnees/utiliser-les-api-geographiques/utiliser-les-tuiles-vectorielles.md">utiliser-les-tuiles-vectorielles.md</a></td></tr><tr><td><strong>Données du cadastre</strong></td><td>Comment utiliser les données cadastrales</td><td><a href="reutiliser-des-donnees/autour-du-cadastre/">autour-du-cadastre</a></td></tr><tr><td><strong>API Adresse</strong></td><td>Prendre en main l'API Adresse de l'IGN</td><td><a href="reutiliser-des-donnees/prendre-en-main-lapi-adresse-portee-par-lign.md">prendre-en-main-lapi-adresse-portee-par-lign.md</a></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Traitement et analyse de données</strong></td><td>Connaître les éléments essentiels pour exploiter des données</td><td><a href="reutiliser-des-donnees/guide-traitement-et-analyse-de-donnees/">guide-traitement-et-analyse-de-donnees</a></td></tr><tr><td><strong>API Base Adresse Nationale</strong></td><td>Comment utiliser l'API BAN</td><td><a href="reutiliser-des-donnees/utiliser-les-api-geographiques/utiliser-lapi-adresse/">utiliser-lapi-adresse</a></td></tr><tr><td><strong>API découpage administratif</strong></td><td>Comment utiliser l'API découpage administratif</td><td><a href="reutiliser-des-donnees/utiliser-les-api-geographiques/utiliser-lapi-decoupage-administratif.md">utiliser-lapi-decoupage-administratif.md</a></td></tr><tr><td><strong>Tuiles vectorielles</strong></td><td>Comment utiliser les tuiles vectorielles</td><td><a href="reutiliser-des-donnees/utiliser-les-api-geographiques/utiliser-les-tuiles-vectorielles.md">utiliser-les-tuiles-vectorielles.md</a></td></tr><tr><td><strong>Données du cadastre</strong></td><td>Comment utiliser les données cadastrales</td><td><a href="reutiliser-des-donnees/autour-du-cadastre/">autour-du-cadastre</a></td></tr><tr><td><strong>API Adresse</strong></td><td>Prendre en main l'API Adresse de l'IGN</td><td><a href="reutiliser-des-donnees/prendre-en-main-lapi-adresse-portee-par-lign.md">prendre-en-main-lapi-adresse-portee-par-lign.md</a></td></tr></tbody></table>
 
 ***
 
@@ -33,6 +33,6 @@ description: >-
 {% hint style="info" %}
 Vous ne trouvez pas ce que vous cherchez ?&#x20;
 
-Jeter un oeil sur notre [**foire aux questions**](foire-aux-questions.md)**.**
+Jetez un oeil à notre [**foire aux questions**](foire-aux-questions.md)**.**
 {% endhint %}
 

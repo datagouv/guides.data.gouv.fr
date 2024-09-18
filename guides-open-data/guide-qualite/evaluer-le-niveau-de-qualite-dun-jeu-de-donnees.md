@@ -22,7 +22,7 @@ Plusieurs critères permettent d'évaluer le niveau de qualité d'un jeu de donn
 
 <details>
 
-<summary>Des éléments sur les données elles-mêmes et leur structure</summary>
+<summary><strong>Des éléments sur les données elles-mêmes et leur structure</strong></summary>
 
 * **Le format de fichier,** qui doit permettre de facilement récupérer les données pour les réutiliser de la manière souhaitée (CSV, JSON plutôt que des formats propriétaires comme Excel) ;
 * **La structure du fichier**, avec notamment des propriétés au nom explicite, compréhensible rapidement et interprétable facilement par des machines ;&#x20;

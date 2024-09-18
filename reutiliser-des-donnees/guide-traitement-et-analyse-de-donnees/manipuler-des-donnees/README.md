@@ -1,0 +1,5 @@
+# Manipuler des données
+
+Cette section vous propose des méthodes, recommandations et outils pour :&#x20;
+
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Ouvrir des données</strong></td><td></td><td></td><td><a href="ouvrir-des-donnees.md">ouvrir-des-donnees.md</a></td></tr><tr><td><strong>Filtrer des données</strong></td><td></td><td></td><td><a href="filtrer-des-donnees.md">filtrer-des-donnees.md</a></td></tr><tr><td><strong>Nettoyer des données</strong></td><td></td><td></td><td><a href="nettoyer-des-donnees.md">nettoyer-des-donnees.md</a></td></tr><tr><td><strong>Croiser des données</strong></td><td></td><td></td><td><a href="croiser-des-donnees.md">croiser-des-donnees.md</a></td></tr><tr><td><strong>Géocoder des adresses</strong></td><td></td><td></td><td><a href="geocoder-des-adresses.md">geocoder-des-adresses.md</a></td></tr></tbody></table>
