@@ -28,7 +28,7 @@
     * [Mettre en place un moissonneur](guide-data.gouv.fr/moissonnage/mettre-en-place-un-moissonneur.md)
     * [Analyser le rapport de moissonnage](guide-data.gouv.fr/moissonnage/analyser-le-rapport-de-moissonnage.md)
     * [Moissonnage des plateformes géographiques](guide-data.gouv.fr/moissonnage/moissonnage-des-plateformes-geographiques.md)
-  * [API](guide-data.gouv.fr/api/README.md)
+  * [API de data.gouv.fr](guide-data.gouv.fr/api/README.md)
     * [Prise en main de l'API](guide-data.gouv.fr/api/prise-en-main-de-lapi.md)
     * [Tutoriel d'utilisation](guide-data.gouv.fr/api/tutoriel-dutilisation.md)
     * [Gérer un jeu de données par l'API](guide-data.gouv.fr/api/gerer-un-jeu-de-donnees-par-lapi.md)
