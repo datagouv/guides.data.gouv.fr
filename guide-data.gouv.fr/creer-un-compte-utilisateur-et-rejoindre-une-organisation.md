@@ -14,6 +14,10 @@ Le téléchargement de jeux de données ne requiert pas d’inscription sur la p
 
 ## Créer un compte utilisateur <a href="#comment-sinscrire" id="comment-sinscrire"></a>
 
+{% hint style="info" %}
+Pour des raisons de sécurité, il est recommandé d'utiliser un compte nominatif sur data.gouv.fr et d'éviter l'usage d'un compte partagé entre plusieurs utilisateurs.
+{% endhint %}
+
 <details>
 
 <summary>Comment créer un compte utilisateur </summary>
