@@ -140,3 +140,4 @@
   * [Codes sources du secteur public : lesquels ouvrir, pourquoi et comment ?](autres-ressources-utiles/codes-sources-du-secteur-public-lesquels-ouvrir-pourquoi-et-comment/README.md)
     * [Ce document n'est pas...](autres-ressources-utiles/codes-sources-du-secteur-public-lesquels-ouvrir-pourquoi-et-comment/ce-document-nest-pas....md)
     * [Cadre juridique](autres-ressources-utiles/codes-sources-du-secteur-public-lesquels-ouvrir-pourquoi-et-comment/cadre-juridique.md)
+  * [Catalogage de données - GRIST](autres-ressources-utiles/catalogage-de-donnees-grist.md)
