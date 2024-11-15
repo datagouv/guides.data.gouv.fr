@@ -104,13 +104,30 @@ Plusieurs métadonnées sont obligatoires dans le cadre des données de forte va
 
 ## Les modalités de rapportage à la Commission européenne depuis [data.gouv.fr](http://data.gouv.fr)
 
-Les Etats membres de l'Union européenne sont soumis à une obligation de rapportage auprès de la Commission européenne, dans le cadre du règlement d'exécution.
+Les Etats membres de l'Union européenne sont soumis à une obligation de rapportage tous les deux ans auprès de la Commission européenne, dans le cadre du [règlement d'exécution](https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=PI\_COM:C\(2022\)9562) (article 5).
 
-**Les producteurs de données ne sont pas responsables de ce rapportage. Celui-ci se fait par le catalogue** [**data.gouv.fr**](http://data.gouv.fr) **via** [**Data Catalogue Vocabulary**](https://w3c.github.io/dxwg/dcat/) **(DCAT)**.&#x20;
+**Les producteurs de données ne sont pas responsables de ce rapportage. Celui-ci se base sur le catalogue** [**data.europa.eu**](https://data.europa.eu/) **qui moissonne les informations depuis** [**data.gouv.fr**](http://data.gouv.fr) **via un vocabulaire spécifique** [**Data Catalogue Vocabulary**](https://w3c.github.io/dxwg/dcat/) **(DCAT) HVD**.&#x20;
 
-Les [nouvelles lignes directrices](https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/) pour la description en DCAT de ces jeux de données de forte valeur ont fait l'objet d’un travail concerté au niveau européen et des Etats membres.
+Avec les données correctement remontées au niveau européen, [data.europa.eu](https://data.europa.eu/) a une vision générale des HVDs par Etat Membre ([exemple pour la France](https://data.europa.eu/data/datasets?locale=en\&minScoring=0\&is\_hvd=true\&page=1\&dataScope=countryData\&country=fr)). Afin de faciliter la création du rapport, data.europa.eu propose des requêtes Sparql pour construire l'ensemble des métadonnées attendues (les ensembles de données, les licences, les liens API, etc.) à partir des informations disponibles sur [data.europa.eu](https://data.europa.eu/).
 
-Aujourd’hui, certaines des métadonnées demandées ne sont pas correctement modélisées ou moissonnées dans [data.gouv.fr](http://data.gouv.fr). C’est le cas des informations de description de service pour les APIs. **Ces points sont bien identifiés et seront résolus en amont de l’application du règlement relatif aux données de forte valeur**. Ils font l'objet de discussions lors du [groupe de travail métadonnées du CNIG](https://cnig.gouv.fr/gt-metadonnees-a958.html).
+[Voir plus d'information sur ces outils de rapportage via data.europa.eu](https://dataeuropa.gitlab.io/data-provider-manual/hvd/Reporting\_guidelines\_for\_HVDs/).
+
+Nous avons préparé un premier [tableau de bord](http://reporting-hvd.dataeng.etalab.studio/) afin de donner un aperçu des métadonnées disponibles par producteur sur [data.europa.eu](https://data.europa.eu/). Nous allons itérer pour intégrer l'entièreté des requêtes et donc métadonnées attendues pour le rapportage.
+
+### Chronologie
+
+* **Avant le 10 décembre 2024,** les organisations/ministères doivent s’assurer que leurs jeux de données HVD sont :
+  * accessibles via API
+  * accompagnés des métadonnées attendues
+  * directement consultables depuis la fiche associée
+  * correctement renseignés sur [tableau de bord du rapportage](http://reporting-hvd.dataeng.etalab.studio/) (basé sur [data.europa.eu](https://data.europa.eu/))
+* A partir du 10 décembre 2024, l’équipe data.gouv.fr
+  * commence à constituer le rapport basé sur les données HVD collectées depuis [data.europa.eu](http://data.europa.eu/)
+  * vérifie en parallèle un par un que les jeux de données respectent bien les exigences
+* A partir de fin décembre, l'équipe data.gouv.fr&#x20;
+  * fige le rapport
+  * complète avec les autres infos demandées par la Commission (analyse d’impact, documentation d’orientation sur la publication, réutilisation, etc.)
+  * envoi le rapport complet à l’Europe
 
 ## L'articulation entre la Directive INSPIRE et le règlement d'exécution relatif aux données de forte valeur&#x20;
 
