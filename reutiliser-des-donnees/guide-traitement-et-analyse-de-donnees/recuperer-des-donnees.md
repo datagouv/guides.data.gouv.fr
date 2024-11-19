@@ -53,6 +53,6 @@ Les documentations de chaque API sont à retrouver sur leurs pages respectives s
 
 Pour récupérer des données en utilisant l'API de data.gouv.fr, nous vous invitons à consulter **la documentation de la plateforme** :&#x20;
 
-{% content-ref url="../../guide-data.gouv.fr/api/" %}
-[api](../../guide-data.gouv.fr/api/)
+{% content-ref url="../../guide-data.gouv.fr/api-1/" %}
+[api-1](../../guide-data.gouv.fr/api-1/)
 {% endcontent-ref %}
