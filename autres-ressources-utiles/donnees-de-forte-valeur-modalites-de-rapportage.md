@@ -126,7 +126,7 @@ Nous avons préparé un premier [tableau de bord](http://reporting-hvd.dataeng.e
 Les producteurs sont également tenus de justifier la non disponibilité des données, que ce soit en téléchargement ou via une API, en détaillant : **les raisons** de cette non disponibilité, les **actions en cours** pour y remédier, et le **calendrier prévisionnel** détaillant les étapes de mise à disposition. Ces informations peuvent être transmises sous forme d’un tableau à data.gouv.fr (voir exemple ci-dessous) :
 {% endhint %}
 
-<table><thead><tr><th width="181">API/Téléchargement</th><th width="128">Nom du HVD</th><th width="170">URL du jeu de données</th><th width="120">Producteur</th><th>Raisons</th><th>Actions n cours</th><th>Calendrier prévisionnel</th></tr></thead><tbody><tr><td><em>Ex : API</em></td><td><em>Ex : Domaine de l'eau</em></td><td></td><td></td><td></td><td></td><td></td></tr></tbody></table>
+<table><thead><tr><th width="181">API/Téléchargement</th><th width="128">Nom du HVD</th><th width="170">URL du jeu de données</th><th width="120">Producteur</th><th>Raisons</th><th>Actions en cours</th><th>Calendrier prévisionnel</th></tr></thead><tbody><tr><td><em>Ex : API</em></td><td><em>Ex : Domaine de l'eau</em></td><td></td><td></td><td></td><td></td><td></td></tr></tbody></table>
 
 * **A partir du 10 décembre 2024**, l’équipe data.gouv.fr
   * commence à constituer le rapport basé sur les données HVD collectées depuis [data.europa.eu](http://data.europa.eu/)
