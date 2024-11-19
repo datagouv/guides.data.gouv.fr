@@ -44,7 +44,7 @@ En complément de la description, les données et services publiquement accessib
 
 La description d’une donnée doit référencer les API qui l’exposent. L’exemple ci-dessous présente les API disponibles pour la [base Sirene des entreprises et de leurs établissements](https://www.data.gouv.fr/fr/datasets/base-sirene-des-entreprises-et-de-leurs-etablissements-siren-siret/), sur la page correspondant à ce jeu de données sur data.gouv.fr :
 
-![](https://api.gouv.fr/images/guides/sirene-data.png)
+<figure><img src="../../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 
 Exemples:
 

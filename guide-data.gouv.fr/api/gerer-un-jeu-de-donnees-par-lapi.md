@@ -2,7 +2,7 @@
 
 Cette page documente les principales interactions que vous pouvez avoir avec un jeu de données par l’API.
 
-Il est recommandé d’avoir lu l'[introduction](./) et la page [prise en main de l'API](prise-en-main-de-lapi.md) avant de consulter cette page.
+Il est recommandé d’avoir lu l'[introduction](<README (1).md>) et la page [prise en main de l'API](prise-en-main-de-lapi.md) avant de consulter cette page.
 
 Tous les exemples qui suivent sont réalisés avec un compte :
 

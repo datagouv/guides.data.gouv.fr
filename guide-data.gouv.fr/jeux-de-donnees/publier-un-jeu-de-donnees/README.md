@@ -101,7 +101,7 @@ L’utilisation de l’API de data.gouv.fr se fait par le point d’entrée raci
 
 Les appels à l’API sont soumis aux mêmes permissions que l’interface web. Par exemple, si vous souhaitez publier ou modifier un jeu de données au nom d’une organisation, vous devez appartenir à cette organisation.
 
-**La procédure pour publier des données sur data.gouv.fr par API est détaillée dans cette** [**sous-section**](../../api-1/)**.**
+**La procédure pour publier des données sur data.gouv.fr par API est détaillée dans cette** [**sous-section**](<../../api/README (1).md>)**.**
 {% endtab %}
 
 {% tab title="Par moissonnage" %}

@@ -18,4 +18,4 @@ Une API est une interface, un contrat passé entre deux systèmes informatiques 
 
 ***
 
-Pour en savoir plus sur l'API spécifique de de data.gouv, veuillez consulter [cette page](../api-1/).
+Pour en savoir plus sur l'API spécifique de de data.gouv, veuillez consulter [cette page](<README (1).md>).

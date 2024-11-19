@@ -9,7 +9,7 @@ description: >-
 _Vous êtes une administration ? une collectivité ? un opérateur d'État ? et vous souhaitez exposer votre API dans le catalogue data.gouv.fr ?_\
 ➡️ Le **pôle circulation de la donnée de la DINUM** (direction interministérielle du numérique) **est là pour vous accompagner !**
 
-### **Pourquoi exposer son API sur data.gouv ?**
+### **Pourquoi exposer son API sur data.gouv.fr ?**
 
 Data.gouv.fr est la plateforme ouverte des données publiques françaises. Depuis fin 2024, elle recense également les [API](https://www.data.gouv.fr/fr/dataservices/). Pour les usagers, ce recensement large de la donnée permet de trouver au même endroit toutes les données disponibles quel que soit leur format. Data.gouv.fr est utilisé par de nombreux agents publics en quête de données pour simplifier les démarches en ligne qu'ils proposent à leurs usagers.
 
