@@ -49,6 +49,7 @@
       * [spatial](guide-data.gouv.fr/api/reference/spatial.md)
       * [users](guide-data.gouv.fr/api/reference/users.md)
       * [me](guide-data.gouv.fr/api/reference/me.md)
+      * [contacts](guide-data.gouv.fr/api-1/reference/contacts.md)
       * [workers](guide-data.gouv.fr/api/reference/workers.md)
       * [tags](guide-data.gouv.fr/api/reference/tags.md)
       * [topics](guide-data.gouv.fr/api/reference/topics.md)
