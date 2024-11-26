@@ -71,7 +71,7 @@ Une documentation détaillée est précisée sur la [page du moissonnage des don
 
 Le moissonneur utilise l'export au format DCAT de chaque portail OpenDataSoft pour récupérer les métadonnées.
 
-**Spécifications techniques** : Ce moissonneur attend l’URL publique d'export DCAT de votre portail Opendatasoft. Ce sera par exemple `https://data.ma-compagnie.com/api/explore/v2.1/catalog/exports/dcat/`. Il est possible (et souvent nécessaire) de renseigner dans l'URL les filtres des jeux de données cibles à moissonner (afin par exemple de moissonner les jeux de données du producteur X avec le mot clé Y). Vous trouverez plus d'information sur la mise en place d'un moissonneur DCAT pour un portail OpenDataSoft sur [la documentation dédiée d'OpenDataSoft](https://userguide.opendatasoft.com/l/fr/article/vi2xzx1pno-se-faire-moissonner-par-data-gouv-fr).
+**Spécifications techniques** : Ce moissonneur attend l’URL publique d'export DCAT de votre portail Opendatasoft. Ce sera par exemple `https://data.ma-compagnie.com/api/explore/v2.1/catalog/exports/dcat/`. Il est possible (et souvent nécessaire) de renseigner dans l'URL les filtres des jeux de données cibles à moissonner (afin par exemple de moissonner les jeux de données du producteur X avec le mot clé Y). Vous trouverez plus d'information sur la mise en place d'un moissonneur DCAT pour un portail OpenDataSoft sur la [documentation dédiée d'OpenDataSoft](https://user-guide.opendatasoft.com/fr/articles/2032322).
 
 **Attention**: OpenDataSoft utilise le slug (la portion identifiant le jeu de données dans les URLs) comme identifiant technique. L’outil laisse la possibilité de changer ce slug ce qui pose un vrai problème de pérennité des identifiants. Ayez donc à l’esprit que ce changement d’identifiant créera des doublons au moissonnage.
 
@@ -79,7 +79,7 @@ Le moissonneur utilise l'export au format DCAT de chaque portail OpenDataSoft po
 
 Les portails Isogeo exposent du DCAT et sont donc moissonnables par data.gouv.fr.
 
-Cette [documentation officielle](https://help.isogeo.com/admin/fr/features/publish/harvest\_datagouv\_fr.html) explique en détail la mise en place d’un moissonneur DCAT pour un portail Isogeo.
+Cette [documentation officielle](https://help.isogeo.com/admin/fr/features/publish/harvest_datagouv_fr.html) explique en détail la mise en place d’un moissonneur DCAT pour un portail Isogeo.
 
 #### Namespaces utilisés <a href="#correspondance-des-champs-du-modele" id="correspondance-des-champs-du-modele"></a>
 
