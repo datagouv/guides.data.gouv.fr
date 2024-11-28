@@ -1,6 +1,6 @@
 # Guide traitement et analyse de données
 
-Ce guide a pour vocation de vous **fournir les éléments essentiels vous permettant d'exploiter des données ouvertes** et de vous orienter sur la plateforme data.gouv.fr, afin que vous puissiez rapidement réaliser ce que vous souhaitez faire. Il propose des méthodes, des recommandations, des ressources et des outils.
+Ce guide a pour vocation de vous **fournir les éléments essentiels vous permettant d'exploiter des données ouvertes** et de vous orienter sur la plateforme data.gouv.fr, afin que vous puissiez rapidement réaliser ce que vous souhaitez faire. Il propose des méthodes, des recommandations, des ressources et des outils autour du traitement de données brutes.
 
 Ce guide :&#x20;
 

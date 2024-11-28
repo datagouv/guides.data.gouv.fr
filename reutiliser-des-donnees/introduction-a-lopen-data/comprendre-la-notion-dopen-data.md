@@ -10,13 +10,13 @@ Les données ouvertes (en open data) sont des données **en accès libre et grat
 
 Il est possible de trouver des données ouvertes **sur tout type de sujet** :
 
-* [des données relatives aux élections](https://www.data.gouv.fr/fr/pages/donnees-des-elections/) ;
-* [des données relatives à la santé](https://www.data.gouv.fr/fr/pages/donnees\_sante/) ;
-* [des données relatives aux transports et aux mobilités](https://transport.data.gouv.fr/) ;
-* [des données relatives à l’éducation](https://www.data.gouv.fr/fr/pages/donnees\_education/) ;
+* [des données relatives aux élections](https://www.data.gouv.fr/fr/pages/donnees-des-elections/) (comme les [résultats des élections législatives de 2024](https://www.data.gouv.fr/fr/datasets/elections-legislatives-des-30-juin-et-7-juillet-2024-resultats-definitifs-du-2nd-tour/)) ;
+* [des données relatives à la santé](https://www.data.gouv.fr/fr/pages/donnees_sante/) (comme la [base de données publiques sur les médicaments](https://www.data.gouv.fr/fr/datasets/base-de-donnees-publique-des-medicaments-base-officielle/)) ;
+* [des données relatives aux transports et aux mobilités](https://transport.data.gouv.fr/) (comme la [base nationale des lieux de stationnement](https://www.data.gouv.fr/fr/datasets/base-nationale-des-lieux-de-stationnement/)) ;
+* [des données relatives à l’éducation](https://www.data.gouv.fr/fr/pages/donnees_education/) (comme le [calendrier scolaire](https://www.data.gouv.fr/fr/datasets/le-calendrier-scolaire/)) ;
 * etc.
 
-> Il existe par exemple des données sur [les loyers](https://www.data.gouv.fr/fr/datasets/carte-des-loyers-indicateurs-de-loyers-dannonce-par-commune-en-2023/), [les offres d’emploi](https://www.data.gouv.fr/fr/datasets/offres-demploi-diffusees-a-france-travail/), [les interventions réalisées par les services d’incendie et de secours](https://www.data.gouv.fr/fr/datasets/interventions-realisees-par-les-services-d-incendie-et-de-secours/#/community-reuses), les [résultats au baccalauréat](https://www.data.gouv.fr/fr/datasets/le-baccalaureat-par-academie/), [les résultats des contrôles sanitaires dans le secteur alimentaire](https://www.data.gouv.fr/fr/datasets/resultats-des-controles-officiels-sanitaires-dispositif-dinformation-alimconfiance/), etc.
+> Il existe par exemple des données sur [les loyers](https://www.data.gouv.fr/fr/datasets/carte-des-loyers-indicateurs-de-loyers-dannonce-par-commune-en-2023/), [les offres d’emploi](https://www.data.gouv.fr/fr/datasets/offres-demploi-diffusees-a-france-travail/), [les interventions réalisées par les services d’incendie et de secours](https://www.data.gouv.fr/fr/datasets/interventions-realisees-par-les-services-d-incendie-et-de-secours/#/community-reuses), les [résultats au baccalauréat](https://www.data.gouv.fr/fr/datasets/le-baccalaureat-par-academie/), [les résultats des contrôles sanitaires dans le secteur alimentaire](https://www.data.gouv.fr/fr/datasets/resultats-des-controles-officiels-sanitaires-dispositif-dinformation-alimconfiance/), sur [la météo et le climat](https://meteo.data.gouv.fr/) (Météo-France), etc.
 
 Ces données sont produites et mises à disposition par des administrations (ministères, collectivités territoriales), des entreprises (SNCF, Enedis, etc.), des acteurs de la société civile ou encore des citoyens.
 
@@ -40,13 +40,13 @@ Ces usages peuvent prendre **des formes variées** : visualisations, application
 
 Elles ont par exemple été utilisées pour élaborer des solutions permettant de :
 
-* [connaître la production d’énergies renouvelables sur son territoire](https://www.data.gouv.fr/fr/pages/onboarding/EnR\_PdlL/) ;
-* [identifier les entreprises en difficulté](https://www.data.gouv.fr/fr/pages/onboarding/signaux\_faibles/) ;
+* [connaître la production d’énergies renouvelables sur son territoire](https://www.data.gouv.fr/fr/pages/onboarding/EnR_PdlL/) ;
+* [identifier les entreprises en difficulté](https://www.data.gouv.fr/fr/pages/onboarding/signaux_faibles/) ;
 * [connaître le prix de vente des biens immobiliers](https://www.data.gouv.fr/fr/pages/onboarding/dvf/) ;
 * [proposer un parcours d’orientation professionnel](https://www.data.gouv.fr/fr/pages/onboarding/diagoriente/) ;
 * etc.
 
-De nombreux autres usages existent, et il est possible d’en découvrir davantage [en parcourant le catalogue de réutilisations référencées sur data.gouv.fr](https://www.data.gouv.fr/fr/reuses/?page\_size=21\&topic=education\_and\_research).
+De nombreux autres usages existent, et il est possible d’en découvrir davantage [en parcourant le catalogue de réutilisations référencées sur data.gouv.fr](https://www.data.gouv.fr/fr/reuses/?page_size=21\&topic=education_and_research).
 
 ## Ressources externes pour aller plus loin
 

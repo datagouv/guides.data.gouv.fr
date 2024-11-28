@@ -12,11 +12,11 @@ _Source : LibreOffice_
 
 L’équipe de [data.gouv.fr](http://data.gouv.fr) propose un parcours d’initiation pour apprendre à utiliser LibreOffice Calc, qui repose sur [la documentation de LibreOffice](https://wiki.documentfoundation.org/FR/Documentation/Publications).
 
-**Objectif :** Connaître les concepts et outils de base d’un tableur comme LibreOffice Calc pour réaliser des opérations de traitement et d’analyse de données. Les techniques sont similaires sur d’autres logiciels de tableur (Excel, etc.).
-
+**Objectif :** Connaître les concepts et outils de base d’un tableur comme LibreOffice Calc pour réaliser des opérations de traitement et d’analyse de données. Vous pourrez analyser des données avec Excel de la même manière. \
+\
 **Cible :** Tout public, sans aucun pré-requis de connaissances.
 
-**Modalités :** Réalisable en autonomie. Pour réaliser et mettre en pratique ce parcours, nous vous invitons à vous appuyer sur les données et les consignes des exercices suivants : [Exercice 1 (Culture D, OpenDataFrance)](https://opendatafrance.gitbook.io/culture-d-parcours-dacculturation-aux-donnees/culture-d-le-parcours-dacculturation/sequence-mise-en-pratique) ; [Exercice 2 (Formation Cerema Med)](https://datagistips.github.io/cours-data-ente/presentations/session2/session2\_3\_explorer.html#1)
+**Modalités :** Réalisable en autonomie. Pour réaliser et mettre en pratique ce parcours, nous vous invitons à vous appuyer sur les données et les consignes des exercices suivants : [Exercice 1 (Culture D, OpenDataFrance)](https://opendatafrance.gitbook.io/culture-d-parcours-dacculturation-aux-donnees/culture-d-le-parcours-dacculturation/sequence-mise-en-pratique) ; [Exercice 2 (Formation Cerema Med)](https://datagistips.github.io/cours-data-ente/presentations/session2/session2_3_explorer.html#1)
 
 **Parcours d'initiation :**
 
@@ -204,7 +204,7 @@ Voici un catalogue (non exhaustif) d'autres ressources pédagogiques pour appren
 
 <summary><strong>[Formation]</strong> Introduction à LibreOffice Calc par l'Université Lille 3 (Emilien Ruiz)</summary>
 
-[**Accéder au cours**](https://boiteaoutils.info/wp-content/uploads/2015/05/Introduction-a-LibreOffice5\_CALC.pdf)
+[**Accéder au cours**](https://boiteaoutils.info/wp-content/uploads/2015/05/Introduction-a-LibreOffice5_CALC.pdf)
 
 **Niveau** : Débutant\
 \
