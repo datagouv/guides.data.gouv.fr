@@ -1,6 +1,6 @@
 # Récupérer des données
 
-Vous avez trouvé un jeu de données qui vous intéresse (cf. "[Trouver des données](trouver-des-donnees.md)") et confirmé qu’il correspondait bien à votre besoin (cf. "[Prendre connaissance et évaluer la qualité de données](prendre-connaissance-et-evaluer-la-qualite-de-donnees.md)"). Vous souhaitez désormais récupérer les données.
+Vous avez trouvé un jeu de données qui vous intéresse (cf. "[Trouver des données](trouver-des-donnees.md)") et confirmé qu’il correspondait bien à votre besoin (cf. "[Prendre connaissance et évaluer la qualité de données](prendre-connaissance-et-evaluer-la-qualite-de-donnees.md)" et "[Explorer des données](explorer-des-donnees.md)"). Vous souhaitez désormais récupérer les données.
 
 Pour cela, il est possible de :&#x20;
 
@@ -43,7 +43,7 @@ Il est possible d’accéder à des données en utilisant une API. Pour cela, [*
 
 * [API Adresse](https://api.gouv.fr/les-api/base-adresse-nationale) : permet d'interroger facilement la Base Adresse Nationale ;
 * [API Recherche d’entreprises](https://api.gouv.fr/les-api/api-recherche-entreprises) : permet à tout le monde de rechercher et de trouver une entreprise française ;
-* [API Sirene](https://api.gouv.fr/les-api/sirene\_v3) : donne accès aux informations concernant les entreprises ;
+* [API Sirene](https://api.gouv.fr/les-api/sirene_v3) : donne accès aux informations concernant les entreprises ;
 * [API Géorisques](https://api.gouv.fr/les-api/api-georisques) : permet d'afficher pour un territoire donné la liste des données et documents relatifs aux risques naturels et technologiques existants ;
 * etc.
 

@@ -2,7 +2,7 @@
 
 Une première exploration d’un jeu de données permet :
 
-* **de parcourir les données, et d’en savoir plus sur les différents champs ;**
+* **de parcourir les données, et d’en savoir plus sur les différents champs (complément de "**[**Prendre connaissance et évaluer la qualité de données**](prendre-connaissance-et-evaluer-la-qualite-de-donnees.md)**") ;**
 * **de trouver de premières informations ;**
 * **de disposer de premiers éléments statistiques.**
 
