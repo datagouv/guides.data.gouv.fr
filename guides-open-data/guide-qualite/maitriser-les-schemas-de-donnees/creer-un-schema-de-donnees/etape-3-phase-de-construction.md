@@ -25,7 +25,7 @@ Le standard est à choisir en fonction :&#x20;
 
 Les principaux standards techniques sont les suivants :
 
-* [**Table Schema**](https://frictionlessdata.io/specs/table-schema/) : adapté pour la description de données tabulaires (sous forme de tableurs ou de CSV). Ce standard technique utilise le format JSON ;
+* [**Table Schema**](https://frictionlessdata.io/specs/table-schema/) : adapté pour la description de données tabulaires (sous forme de tableurs ou de CSV). Ce standard technique utilise le format JSON. NB : il est possible de contraindre les colonnes avec [des formats spécifiques et des corrélations](https://gitlab.com/validata-table/validata-table/-/tree/main/src/validata_core/custom_checks?ref_type=heads) ;
 * [**JSON Schema**](https://json-schema.org/) : adapté pour la description de données avec une notion de hiérarchie. Ce standard utilise le format JSON ,
 * [**XML Schema Definition (XSD)**](https://www.w3.org/TR/xmlschema11-1/) : adapté pour la description de données avec une notion de hiérarchie. Ce standard utilise le format XML.
 
