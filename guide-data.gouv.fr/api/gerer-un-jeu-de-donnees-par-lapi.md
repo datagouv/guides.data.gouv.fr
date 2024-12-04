@@ -103,7 +103,7 @@ La réponse en JSON contient les métadonnées du jeu de données créé, en par
 La fiche du jeu de données est maintenant créée et il est maintenant possible d’y ajouter des ressources.
 
 {% hint style="warning" %}
-Par défaut, un jeu de données créé via l’API est public. Afin de créer et maintenir un jeu de données en privé, il faut mettre l’attribut `private: true` dans chaque appel à l’API. Sinon, chaque modification d’un jeu de données par l’API va le passer en public.
+Par défaut, un jeu de données créé via l’API est public. Afin de créer et maintenir un jeu de données en brouillon, il faut mettre l’attribut `private: true` dans chaque appel à l’API. Sinon, chaque modification d’un jeu de données par l’API va le passer en public.
 {% endhint %}
 
 ## Ajout d’une ressource <a href="#ajout-dune-ressource" id="ajout-dune-ressource"></a>

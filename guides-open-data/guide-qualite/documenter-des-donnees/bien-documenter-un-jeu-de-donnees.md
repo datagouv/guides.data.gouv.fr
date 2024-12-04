@@ -103,7 +103,7 @@ S’il existe des termes complexes ou des énumérations, il est conseillé de :
 Cet effort de définition fait gagner un temps considérable au réutilisateur et permet de prévenir des contre-sens dans l’exploitation des données.
 
 > **Exemple :** La base de données de [demande de valeur foncière](https://www.data.gouv.fr/fr/datasets/demandes-de-valeurs-foncieres/) recense l’ensemble des transactions immobilières intervenues au cours des cinq dernières années. \
-> Le vocabulaire utilisé dans ce jeu de données est issu d’un environnement administratif, parfois difficile à appréhender. La Direction générale des Finances publiques met à disposition une [documentation](https://static.data.gouv.fr/resources/demande-de-valeurs-foncieres/20190419-091745/notice-descriptive-du-fichier-dvf.pdf) qui comprend notamment un lexique de définition des termes rencontrés. Ce lexique facilite l’appropriation et la réutilisation des données par des acteurs tiers. ![Lexique des données du jeu de données Demande de valeur foncière](https://guides.etalab.gouv.fr/assets/img/lexique\_dvf.64d1e5cc.png)
+> Le vocabulaire utilisé dans ce jeu de données est issu d’un environnement administratif, parfois difficile à appréhender. La Direction générale des Finances publiques met à disposition une [documentation](https://static.data.gouv.fr/resources/demande-de-valeurs-foncieres/20190419-091745/notice-descriptive-du-fichier-dvf.pdf) qui comprend notamment un lexique de définition des termes rencontrés. Ce lexique facilite l’appropriation et la réutilisation des données par des acteurs tiers. ![Lexique des données du jeu de données Demande de valeur foncière](https://guides.etalab.gouv.fr/assets/img/lexique_dvf.64d1e5cc.png)
 
 ## Description des métadonnées <a href="#description-des-metadonnees" id="description-des-metadonnees"></a>
 
@@ -128,7 +128,7 @@ Sur data.gouv.fr, il est possible de renseigner directement les métadonnées d�
 * Couverture temporelle
 * Couverture spatiale
 * Granularité spatiale
-* Mode privé
+* Mode brouillon
 
 La description des métadonnées apportera à un jeu de données une meilleure visibilité sur les catalogues.
 
@@ -154,7 +154,7 @@ Si nécessaire, il est possible d’indiquer des liens, comme par exemple lorsqu
 > * La nature du changement
 > * Les liens associés au changement
 >
-> &#x20;![Liste des modifications réalisées sur le jeu de données SECMAR](https://guides.etalab.gouv.fr/assets/img/maj\_secmar.02c31ca5.png)
+> &#x20;![Liste des modifications réalisées sur le jeu de données SECMAR](https://guides.etalab.gouv.fr/assets/img/maj_secmar.02c31ca5.png)
 
 ## Points de contact <a href="#points-de-contact" id="points-de-contact"></a>
 
