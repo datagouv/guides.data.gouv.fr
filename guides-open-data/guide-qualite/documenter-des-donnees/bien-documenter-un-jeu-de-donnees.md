@@ -128,7 +128,7 @@ Sur data.gouv.fr, il est possible de renseigner directement les métadonnées d�
 * Couverture temporelle
 * Couverture spatiale
 * Granularité spatiale
-* Mode privé
+* Mode brouillon
 
 La description des métadonnées apportera à un jeu de données une meilleure visibilité sur les catalogues.
 
