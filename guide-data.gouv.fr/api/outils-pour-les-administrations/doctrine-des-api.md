@@ -44,7 +44,7 @@ En complément de la description, les données et services publiquement accessib
 
 La description d’une donnée doit référencer les API qui l’exposent. L’exemple ci-dessous présente les API disponibles pour la [base Sirene des entreprises et de leurs établissements](https://www.data.gouv.fr/fr/datasets/base-sirene-des-entreprises-et-de-leurs-etablissements-siren-siret/), sur la page correspondant à ce jeu de données sur data.gouv.fr :
 
-<figure><img src="../../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (12) (1).png" alt=""><figcaption></figcaption></figure>
 
 Exemples:
 
@@ -76,7 +76,7 @@ Les API peuvent s’appuyer sur un mécanisme d’authentification de l’utilis
 
 Si le droit d’accès n’est pas préétabli, le processus de demande se fait de la manière la plus simple possible pour le réutilisateur.
 
-Dans le cadre de demandes d’accès prévues par la loi et si le demandeur est éligible, une réponse sera transmise aux réutilisateurs **dans un délai recommandé de 15 jours calendaires.** Le code des relations entre le public et l’administration prévoit un délai légal maximum de 30 jours pour répondre à une demande [(article R311-13)](https://www.legifrance.gouv.fr/codes/article\_lc/LEGIARTI000031370409).
+Dans le cadre de demandes d’accès prévues par la loi et si le demandeur est éligible, une réponse sera transmise aux réutilisateurs **dans un délai recommandé de 15 jours calendaires.** Le code des relations entre le public et l’administration prévoit un délai légal maximum de 30 jours pour répondre à une demande [(article R311-13)](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000031370409).
 
 **Ressource utile :** [🔎 DataPass : Délivrer des habilitations juridiques d'accès aux données de l'État](datapass-outil-dhabilitations.md)
 
@@ -144,7 +144,7 @@ L’état de l’API représente sa capacité à être appelée dans les conditi
 
 La disponibilité de l'API Particulier est accessible à cette page : [https://status.particulier.api.gouv.fr/](https://status.particulier.api.gouv.fr/)
 
-![](../../../.gitbook/assets/image.png)
+![](<../../../.gitbook/assets/image (12).png>)
 
 </details>
 

@@ -11,7 +11,7 @@ R permet, entre autres, de :
 * présenter les résultats (tableaux, graphiques, cartes).
 
 \
-_Source : Ministère de la transition écologique_&#x20;
+&#xNAN;_&#x53;ource : Ministère de la transition écologique_&#x20;
 {% endhint %}
 
 ## Apprendre à utiliser R
@@ -61,7 +61,7 @@ Voici un catalogue (non exhaustif) d'autres ressources pédagogiques pour appren
 
 <summary><strong>[Guide]</strong> Introduction au langage de programmation R par Datactivist (Diane Thierry) </summary>
 
-[**Accéder au guide**](https://dianethy.github.io/cours\_R/Introduction\_R.html)
+[**Accéder au guide**](https://dianethy.github.io/cours_R/Introduction_R.html)
 
 **Programme** :&#x20;
 
