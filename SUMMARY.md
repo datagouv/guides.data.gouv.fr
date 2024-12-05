@@ -150,8 +150,3 @@
     * [Ce document n'est pas...](autres-ressources-utiles/codes-sources-du-secteur-public-lesquels-ouvrir-pourquoi-et-comment/ce-document-nest-pas....md)
     * [Cadre juridique](autres-ressources-utiles/codes-sources-du-secteur-public-lesquels-ouvrir-pourquoi-et-comment/cadre-juridique.md)
   * [Catalogage de données - GRIST](autres-ressources-utiles/catalogage-de-donnees-grist.md)
-  * [La fabrique des standards](autres-ressources-utiles/la-fabrique-des-standards/README.md)
-    * [Emergence d'un besoin ou d'une évolution](autres-ressources-utiles/la-fabrique-des-standards/emergence-dun-besoin-ou-dune-evolution.md)
-    * [Exploration de l'existant et saisie du CNIG](autres-ressources-utiles/la-fabrique-des-standards/exploration-de-lexistant-et-saisie-du-cnig.md)
-    * [Initialisation des travaux](autres-ressources-utiles/la-fabrique-des-standards/initialisation-des-travaux.md)
-    * [Cadrage du groupe de travail](autres-ressources-utiles/la-fabrique-des-standards/cadrage-du-groupe-de-travail.md)
