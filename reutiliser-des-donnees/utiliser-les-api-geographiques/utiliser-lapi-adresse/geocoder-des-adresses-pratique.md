@@ -10,6 +10,7 @@ Vous pouvez vous appuyer sur de nombreuses bibliothèques, celles-ci étant gén
 
 * [https://github.com/entrepreneur-interet-general/leaflet-geocoder-ban](https://github.com/entrepreneur-interet-general/leaflet-geocoder-ban)
 * [https://github.com/komoot/leaflet.photon](https://github.com/komoot/leaflet.photon)
+* [https://github.com/perliedman/leaflet-control-geocoder](https://github.com/perliedman/leaflet-control-geocoder) qui implémente plusieurs "geocoders" dont Photon pour l'API Adresse
 
 > **Exemples :**
 >
