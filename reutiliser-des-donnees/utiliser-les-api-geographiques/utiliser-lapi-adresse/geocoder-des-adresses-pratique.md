@@ -10,12 +10,14 @@ Vous pouvez vous appuyer sur de nombreuses bibliothèques, celles-ci étant gén
 
 * [https://github.com/entrepreneur-interet-general/leaflet-geocoder-ban](https://github.com/entrepreneur-interet-general/leaflet-geocoder-ban)
 * [https://github.com/komoot/leaflet.photon](https://github.com/komoot/leaflet.photon)
+* [https://github.com/perliedman/leaflet-control-geocoder](https://github.com/perliedman/leaflet-control-geocoder) qui implémente plusieurs geocodeurs dont "Photon" qui permet d'interagir avec l'API BAN
 
 > **Exemples :**
 >
 > * [https://entrepreneur-interet-general.github.io/leaflet-geocoder-ban/demo/demo\_control.html](https://entrepreneur-interet-general.github.io/leaflet-geocoder-ban/demo/demo\_control.html)
 > * [https://entrepreneur-interet-general.github.io/leaflet-geocoder-ban/demo/demo\_search\_bar.html](https://entrepreneur-interet-general.github.io/leaflet-geocoder-ban/demo/demo\_search\_bar.html)
 > * [https://gist.githack.com/ThomasG77/0b99013795f76699c5c9a0d7daf4411e/raw/a6b65c033efa73cecb3ea8473ba83aabc973d373/demo-ban-leaflet-photon.html](https://gist.githack.com/ThomasG77/0b99013795f76699c5c9a0d7daf4411e/raw/a6b65c033efa73cecb3ea8473ba83aabc973d373/demo-ban-leaflet-photon.html)
+> * [leaflet-control-geocoder Photon avec BAN](https://cyrille37.github.io/leaflet-control-geocoder-banfrance/demo_photon-with-ban.html)
 
 #### **Solutions basées sur OpenLayers**
 
