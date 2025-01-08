@@ -43,7 +43,7 @@ Une fois le formulaire d’inscription validé, rendez-vous dans la boîte de r�
 
 Nous vous conseillons de rejoindre une organisation existante si vous souhaitez :
 
-* publier des jeux de données pour le compte d’une organisation publique ou privée (administration, collectivité, association, entreprise, etc. ) ;
+* publier/modifier des pages "jeux de données" ou "API" pour le compte d’une organisation publique ou privée (administration, collectivité, association, entreprise, etc. ) ;
 * permettre à des utilisateurs différents de publier et modifier des jeux de données sous le même nom, la même bannière.
 {% endhint %}
 
@@ -55,9 +55,11 @@ La marche à suivre est explicitée ci-dessous :&#x20;
 
 <summary>Comment rejoindre une organisation </summary>
 
-1. Rendez-vous sur la page organisation ;
-2. Rendez-vous sur l'onglet information ;
-3. Cliquez sur "Demander à rejoindre l'organisation en tant que producteur" ;
+1. Rendez-vous sur la page publique de l'organisation, trouvable depuis [cet index](https://www.data.gouv.fr/fr/organizations/) ;
+2. Cliquez sur l'onglet "informations" ;\
+   ![](<../.gitbook/assets/image (14).png>)
+3. Cliquez sur "Demander à rejoindre l'organisation en tant que producteur".\
+   ![](<../.gitbook/assets/image (16).png>)
 
 </details>
 
