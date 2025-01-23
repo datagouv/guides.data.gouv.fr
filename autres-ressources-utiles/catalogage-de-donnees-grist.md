@@ -1,22 +1,100 @@
 # Catalogage de données - GRIST
 
+##
+
 ## Objectif
 
-L'objectif principal du catalogage des données avec Grist est de **simplifier la gestion et la publication des données par les administrations**. Actuellement, les producteurs de données gèrent souvent leurs données de manière redondante, avec des catalogues internes distincts de leurs publications sur data.gouv.fr. L'outil Grist proposé par la DINUM vise à créer **un catalogue unique et collaboratif** pour une gestion plus efficace et une fonction de publication directe sur data.gouv.fr.
+L'objectif principal du catalogage des données avec Grist est de s**implifier la gestion et la publication des données par les administrations** en ayant une vue d’ensemble de ce qu’elles détiennent. Actuellement, les producteurs de données gèrent souvent leurs données de manière redondante, avec des catalogues internes distincts de leurs publications sur data.gouv.fr. L'outil Grist proposé par la DINUM vise à créer un **catalogue unique et collaboratif** pour une gestion plus efficace et une fonction de publication directe sur data.gouv.fr.
 
-## Enjeux juridiques
+Ainsi, l’administration pourra recenser l’ensemble des données qu’elle **détient**. C’est-à-dire les données que l’administration concernée **produit ou reçoit** dans le cadre de sa mission de service public.
 
-Le catalogage des données répond à des obligations légales importantes :
 
-* **Data Governance Act (art. 8 §2) :** Le point d'information unique doit fournir une liste de toutes les ressources de données disponibles, y compris des informations sur le format, la taille et les conditions de réutilisation.
-* **Code de la Relation entre le Public et l'Administration (art. L322-6) :** Le catalogue de données est un document administratif communicable.
 
-De plus, le catalogage peut servir à :
+## Différents enjeux
 
-* Gérer les politiques publiques basées sur les données en offrant une vue d'ensemble des données détenues par les administrations.
-* Faciliter la proactivité en identifiant les données nécessaires aux dispositifs et au “Dites le nous une fois”.
-* Simplifier la constitution du registre de traitement des données à caractère personnel pour les DPO.
-* Améliorer le partage de données dans le cadre du Data Governance Act.
+### Enjeux juridiques
+
+Le catalogage des données permet aux administrations de répondre et/ou de faciliter le respect à diverses obligations légales.
+
+<details>
+
+<summary>Le Data governance Act (DGA)</summary>
+
+Dans le cadre du DGA, la Direction interministérielle du numérique (DINUM) a été désigné comme **point d’information unique** au titre de l’article 8 du règlement. Le chapitre II du DGA ne s’applique qu’aux données détenues par des organismes publics et protégées par un secret (comme le secret statistique, le secret des affaires …).&#x20;
+
+La DINUM a vocation à **informer** et **orienter** les demandeurs qui souhaitent réutiliser des données détenues par les administrations. Pour cela, elle doit pouvoir **référencer et rendre accessibles** toutes les informations pertinentes relatives aux conditions applicables à la **réutilisation et aux redevances** des données protégées détenues par les administrations.
+
+A ce titre, la DINUM a, notamment, pour mission de mettre « _à disposition par voie électronique **une liste de ressources consultable contenant un aperçu de toutes les ressources en données disponibles**, \[…], avec des informations pertinentes décrivant les données disponibles, y compris au minimum le format et la taille des données ainsi que les conditions applicables à leur réutilisation_ ».
+
+Ainsi, à travers le catalogage de ces données, les demandeurs d’accès aux fins de réutilisation des données protégées pourront savoir quelles administrations détiennent quelles données et quelles sont les conditions pour y accéder.&#x20;
+
+</details>
+
+<details>
+
+<summary>Le principe du "Dites le nous une fois"</summary>
+
+Le principe du DLNUF est une obligation légale qui consiste à ce qu’**un usager n’a pas à donner à une administration une information qu’une administration (différente ou non) détient déjà** ([article L. 113-12 du code des relations entre le public et l’administration](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037313155) (CRPA)).
+
+Le concept d’administration proactive repose sur la notion « d’aller-vers », c’est-à-dire que l’administration décide **d’aller au-devant de l’usager afin de l’informer ou lui attribuer une éventuelle prestation ou avantage** ([article L. 114- 8 du CRPA](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000045213315)).&#x20;
+
+Pour accomplir ces objectifs deux cas sont possibles :
+
+* Soit l’administration détient déjà la donnée correspondante ;
+* Soit l’administration ne la détient pas et donc doit la demander à une autre administration.
+
+Dans le second cas les administrations devront s’échanger des données entre elles. Certaines administrations sont **déjà désignées** dans le CRPA comme chargées de mettre à la disposition d’autres administrations certains types de données (voir le tableau [article D. 114-9-1 du CRPA](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000047543529?idSecParent=LEGISCTA000031367388)). Cependant, hors tableau, l’administration doit **savoir où se trouve la donnée correspondante**. Ainsi, avoir une vue de l’ensemble des données disponibles dans les administrations, à l’aide du catalogage, permettra aux administrations de savoir à quelle administration demander la donnée correspondante non listée dans le tableau et donc de répondre au principe de DLNUF et à la proactivité.&#x20;
+
+</details>
+
+<details>
+
+<summary>La diffusion des documents administratifs</summary>
+
+Les administrations ont la possibilité de diffuser des documents administratifs qu’elles produisent ou reçoivent. Dans certains cas, certaines administrations **doivent diffuser publiquement des documents administratifs**, dans les conditions prévues par le [Livre III du CRPA](https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000031366350/LEGISCTA000031367685/2020-06-18/#LEGISCTA000031367685), notamment le Chapitre II du Titre Ier.
+
+Pour rappel : sont considérés comme documents administratifs quels que soient leur date, leur lieu de conservation, leur forme et leur support, les documents produits ou reçus, dans le cadre de leur mission de service public, par l'Etat, les collectivités territoriales ainsi que par les autres personnes de droit public ou les personnes de droit privé chargées d'une telle mission. Constituent de tels documents notamment les dossiers, rapports, études, comptes rendus, procès-verbaux, statistiques, instructions, circulaires, notes et réponses ministérielles, correspondances, avis, prévisions, codes sources, bases de données et décisions.
+
+Le catalogage des données permettra aux administrations de savoir quelles données, contenues dans des documents administratifs, peuvent ou doivent être diffusées, et s’il est nécessaire d’occulter certaines mentions pour mettre en œuvre cette diffusion.
+
+_Pour en savoir plus voir : Guide pratique de la publication en ligne et de la réutilisation des données publiques (« open data »), CNIL, CADA._
+
+</details>
+
+<details>
+
+<summary> Le registre des activités de traitement de données à caractère personnel</summary>
+
+En tant que responsable de traitement de données à caractère personnel l’administration doit tenir un registre des activités de traitement de données à caractère personnel (article 30 du Règlement général sur la protection des données).&#x20;
+
+Le catalogage des données permettra ainsi au délégué à la protection des données (DPO / DPD) de savoir quelles sont les activités de traitement de données à caractère personnel au sein de son administration et facilitera ainsi la constitution de son registre de traitement.
+
+</details>
+
+<details>
+
+<summary>Le répertoire d’informations publiques (RIP)</summary>
+
+En application de l’article L. 322-6 du CRPA les administrations doivent **tenir un répertoire en ligne** qui regroupe l’ensemble des principaux documents administratifs communicables contenant les informations publiques qu’elles détiennent ou produisent.&#x20;
+
+Ce répertoire permet, entre autres, de mettre à disposition du public les conditions de réutilisations des informations publiques ainsi que, lorsque c’est le cas, le montant des redevances et les bases de calcul retenues pour la fixation de ce montant dans un standard ouvert.&#x20;
+
+Le catalogage des données implique de recenser et catégoriser les informations publiques et donc permettra de faciliter la constitution du RIP.&#x20;
+
+</details>
+
+### Enjeux de politiques publiques
+
+Le catalogage des données permet également aux administrations de mieux gérer **les politiques publiques basées sur les données** en offrant une vue d'ensemble des données détenues par les administrations.
+
+### Le catalogue des données; un document administratif
+
+Le catalogue est, au sens de l’article L. 300-2 du CRPA, un document administratif communicable dans les conditions du livre III du même code.
+
+Ainsi, les administrations devront publier ce catalogue de données, en application de l’article L. 312-1-1 du CRPA, en indiquant s’il s’agit de :&#x20;
+
+* Données communicables à tous et donc accessibles sans autorisation (qu’elles soient déjà diffusées ou non sur data.gouv.fr) ;
+* Données non communicables à tous et s’il est possible et comment, sous réserve de remplir certaines conditions, y accéder (par exemple il est possible de renvoyer à un lien annexe détaillant l’ensemble ou encore une adresse courriel générique).
 
 ## Fonctionnalités et mise en place
 
