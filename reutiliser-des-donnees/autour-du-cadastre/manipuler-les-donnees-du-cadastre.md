@@ -36,44 +36,49 @@ Pour télécharger les données, vous pouvez vous rendre sur :
 * **Pour la version d'Etalab** : [cadastre.data.gouv.fr/data/etalab-cadastre](https://cadastre.data.gouv.fr/data/etalab-cadastre/) (formats _GeoJSON_ et _SHP_). Pour comprendre les identifiants des parcelles utilisés, passez par [cette documentation](https://gist.github.com/ThomasG77/a9b39677d302e2405c18cfe9bc8e462b);
 * **Pour la version de l'IGN** : [la page "Parcellaire Express (PCI)" du site Geoservices de l'IGN](https://geoservices.ign.fr/parcellaire-express-pci).
 
-## Focus sur les différentes manières de consommer les données DINUM issues de la DGFIP
+## Focus sur les différentes manières de consommer les données DINUM issues de la DGFiP
 
-### Dans les données version  DGFiP
+### Dans les données version DGFiP
 
-Vous pouvez prendre les données:
+Il est possible de prendre les données :
 - en choisissant par millésime et par types de fichiers souhaités https://cadastre.data.gouv.fr/datasets/plan-cadastral-informatise#millesimes-disponibles-telechargement-direct
-- en passant par l'aide au téléchargement qui permet de chercher les données par nom de ressource plutôt qu'avec des codes. L'outil permet aussi de témécharger une commune complète ou un EPCI complet sans devoir prendre chaque feuille de chaque commune
+- en passant par l'aide au téléchargement qui permet de chercher les données par nom de ressource plutôt qu'avec des codes. L'outil permet aussi de télécharger une commune complète ou un EPCI complet sans devoir prendre chaque feuille de chaque commune
 
 ### Dans les données version Etalab
 
-Il existe exactement le même principe que pour les données versions DGFIP avec 
+Il existe exactement le même principe que pour les données version DGFIP avec :
 - le téléchargement direct https://cadastre.data.gouv.fr/datasets/cadastre-etalab#millesimes-disponibles-telechargement-direct
 - l'aide au téléchargement https://cadastre.data.gouv.fr/datasets/plan-cadastral-informatise#aide-au-telechargement
 
-Derrière ces outils se cachent deux URLs:
-
+Derrière ces outils se cachent deux URLs :
 - la première pour les données les plus récentes, de 2022/2023 à aujourd'hui https://cadastre.data.gouv.fr/data/
 - les autres pour les données les plus anciennes, avant 2022 https://files.data.gouv.fr/cadastre/
 
-La bascule de l'un à l'autre est lié au fait qu'on souhaite pouvoir gagner de l'espace disque sur le serveur mettant à disposition les données récentes.
-Cette bascule permet de supprimer un certain nombre de jeu de données redondant qui facilite certes la consommation mais qui fait plus que doubler la taille des données pour un millésime.
-Nous avons commencé pour des raisons de sauvegarde et d'espace disque à basculer certaines données sur un bucket Minio. Ainsi, à terme https://files.data.gouv.fr/cadastre/ sera amené à disparaitre.
+{% hint style="info" %}
+La bascule de l'un à l'autre est liée au fait que l'on souhaite pouvoir gagner de l'espace disque sur le serveur mettant à disposition les données récentes.
+Cette bascule permet de supprimer un certain nombre de jeu de données redondants. Cela facilite la consommation mais fait plus que doubler la taille des données pour un millésime.
+Nous avons commencé pour des raisons de sauvegarde et d'espace disque à basculer certaines données sur un bucket Minio. **Ainsi, à terme https://files.data.gouv.fr/cadastre/ sera amené à disparaitre.**
+{% endhint %}
 
 ### Accès aux anciennes données via Minio
 
 Comme évoqué, cette manière de récupérer les données s'appuie sur Minio.
 
-Vous pouvez passer par une interface graphique navigable https://object.infra.data.gouv.fr/browser/cadastre/ pour télécharger. L'inconvénient est que l'interface ne permet pas de copier/coller une URL, vous devez cliquer de manière répétée sur chaque fichier souhaité. Cela n'est pas pratique pour automatiser.
+Il est possible de passer par une interface graphique navigable https://object.infra.data.gouv.fr/browser/cadastre/ pour télécharger. 
 
-Nous vous proposons deux choix pour cela:
-- passez par des métadonnées qui listent toutes les URLs directes
-- passez par le protocole S3 pour lister et copier les fichiers
+{% hint style="info" %}
+L'interface ne permet pas de copier/coller une URL, il faut cliquer de manière répétée sur chaque fichier souhaité. Cela reste peu pratique dans le cadre d'une automatisation.
+{% endhint %}
+
+Deux options sont alors proposées :
+- passer par des métadonnées qui listent toutes les URLs directes
+- passer par le protocole S3 pour lister et copier les fichiers
 
 #### Approche métadonnées
 
 Pour avoir une liste complète pour un millésime, prenez les fichiers metadata-cadastre-XXXX-XX-XX.csv.gz et metadata-cadastre-XXXX-XX-XX.json.gz
 
-Pour cela, l'URL sera https://object.data.gouv.fr/cadastre/ suivi du nom de fichier soit les URLs suivantes:
+Pour cela, l'URL sera https://object.data.gouv.fr/cadastre/ suivi du nom de fichier, soit les URLs suivantes :
 
 
 |   Année    |                                   CSV                                    |                                    JSON                                    |
@@ -111,11 +116,13 @@ curl -s https://object.data.gouv.fr/cadastre/metadata-cadastre-2023-01-01.csv.gz
 
 #### Approche protocole S3
 
-Pour héberger les données plus anciennes, nous utilisons un produit nommé Minio Server qui permet d'utiliser le protocole S3 défini par Amazon mais sans dépendre d'un hébergeur.
-Pour pouvoir facilement consommer les données, vous devez d'abord installer le client qui lui correspond, minio-client ici.
+Pour héberger les données plus anciennes, nous utilisons un produit nommé Minio Server qui permet d'utiliser le protocole S3 défini par Amazon, mais sans dépendre d'un hébergeur.
+Pour pouvoir facilement consommer les données, il faut d'abord installer le client qui lui correspond, minio-client ici.
 Il vous faudra ensuite suivre les instructions d'installation sur https://min.io/docs/minio/linux/reference/minio-mc.html#quickstart
 
+{% hint style="warning" %}
 Attention, la manière de définir l'alias est pour Linux
+{% endhint %}
 
 ```bash
 mc alias set cadastre_gouv_no_authent https://object.data.gouv.fr '' ''
@@ -256,11 +263,11 @@ _Vous pouvez aussi ouvrir_ [_ce lien pour voir le résultat dans un navigateur_]
 
 ### Alternative au module Cadastre de l'API Carto
 
-Il est aussi de nos jours possible de passer par le géocodeur https://geoservices.ign.fr/documentation/services/services-geoplateforme/geocodage qui fait la recherche d'adresses, de POI (Points d'intérêts) et de parcelles cadastrales.
+Il est aussi possible de passer par le géocodeur https://geoservices.ign.fr/documentation/services/services-geoplateforme/geocodage qui fait la recherche d'adresses, de POI (Points d'intérêts) et de parcelles cadastrales.
 
-Pour cela, il vous faudra renseigner les champs `index` à `parcelle`, le champ `departmentcode` avec le code du département, celui `municipalitycode` avec les 3 chiffres du code INSEE après le département, la `section` pour la section et le `number` pour le numéro de parcelle. Le retour de cet appel retourne un GeoJSON dont la représentation pour la parcelle est un point et pas un contour. Si vous souhaitez obtenir le contour, vous devrez passez l'option `returntruegeometry` à `true`. Attention car dans ce cas de figure, le GeoJSON restera un point mais un nouveau champ `truegeometry` dans les "properties" du GeoJSON sera retourné. Si vous voulee que votre GeoJSON contienne uniquement le contour, vous allez devoir faire un appel puis écraser la géométrie ponctuelle du GeoJSON avec celle du champ `truegeometry`.
+Pour cela, il vous faudra renseigner les champs `index` à `parcelle`, le champ `departmentcode` avec le code du département, celui `municipalitycode` avec les 3 chiffres du code INSEE après le département, la `section` pour la section et le `number` pour le numéro de parcelle. Le retour de cet appel retourne un GeoJSON dont la représentation pour la parcelle est un point et non pas un contour. Si vous souhaitez obtenir le contour, vous devrez passer l'option `returntruegeometry` à `true`. Attention : dans ce cas de figure, le GeoJSON restera un point mais un nouveau champ `truegeometry` dans les "properties" du GeoJSON sera retourné. Si vous souhaitez que votre GeoJSON contienne uniquement le contour, vous allez devoir faire un appel puis écraser la géométrie ponctuelle du GeoJSON avec celle du champ `truegeometry`.
 
-Cela se traduit en code JavaScript par exemple avec
+Cela se traduit en code JavaScript par exemple avec : 
 
  ```javascript
 const params = new URLSearchParams({
