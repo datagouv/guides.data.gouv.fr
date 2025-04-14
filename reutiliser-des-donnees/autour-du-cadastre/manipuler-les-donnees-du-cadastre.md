@@ -36,7 +36,220 @@ Pour télécharger les données, vous pouvez vous rendre sur :
 * **Pour la version d'Etalab** : [cadastre.data.gouv.fr/data/etalab-cadastre](https://cadastre.data.gouv.fr/data/etalab-cadastre/) (formats _GeoJSON_ et _SHP_). Pour comprendre les identifiants des parcelles utilisés, passez par [cette documentation](https://gist.github.com/ThomasG77/a9b39677d302e2405c18cfe9bc8e462b);
 * **Pour la version de l'IGN** : [la page "Parcellaire Express (PCI)" du site Geoservices de l'IGN](https://geoservices.ign.fr/parcellaire-express-pci).
 
+## Focus sur les différentes manières de consommer les données DINUM issues de la DGFiP
+
+### Dans les données version DGFiP
+
+Il est possible de prendre les données :
+- en choisissant par millésime et par types de fichiers souhaités https://cadastre.data.gouv.fr/datasets/plan-cadastral-informatise#millesimes-disponibles-telechargement-direct
+- en passant par l'aide au téléchargement qui permet de chercher les données par nom de ressource plutôt qu'avec des codes. L'outil permet aussi de télécharger une commune complète ou un EPCI complet sans devoir prendre chaque feuille de chaque commune
+
+### Dans les données version Etalab
+
+Il existe exactement le même principe que pour les données version DGFIP avec :
+- le téléchargement direct https://cadastre.data.gouv.fr/datasets/cadastre-etalab#millesimes-disponibles-telechargement-direct
+- l'aide au téléchargement https://cadastre.data.gouv.fr/datasets/plan-cadastral-informatise#aide-au-telechargement
+
+Derrière ces outils se cachent deux URLs :
+- la première pour les données les plus récentes, de 2022/2023 à aujourd'hui https://cadastre.data.gouv.fr/data/
+- les autres pour les données les plus anciennes, avant 2022 https://files.data.gouv.fr/cadastre/
+
+{% hint style="info" %}
+La bascule de l'un à l'autre est liée au fait que l'on souhaite pouvoir gagner de l'espace disque sur le serveur mettant à disposition les données récentes.
+Cette bascule permet de supprimer un certain nombre de jeu de données redondants. Cela facilite la consommation mais fait plus que doubler la taille des données pour un millésime.
+Nous avons commencé pour des raisons de sauvegarde et d'espace disque à basculer certaines données sur un bucket Minio. **Ainsi, à terme https://files.data.gouv.fr/cadastre/ sera amené à disparaitre.**
+{% endhint %}
+
+### Accès aux anciennes données via Minio
+
+Comme évoqué, cette manière de récupérer les données s'appuie sur Minio.
+
+Il est possible de passer par une interface graphique navigable https://object.infra.data.gouv.fr/browser/cadastre/ pour télécharger. 
+
+{% hint style="info" %}
+L'interface ne permet pas de copier/coller une URL, il faut cliquer de manière répétée sur chaque fichier souhaité. Cela reste peu pratique dans le cadre d'une automatisation.
+{% endhint %}
+
+Deux options sont alors proposées :
+- passer par des métadonnées qui listent toutes les URLs directes
+- passer par le protocole S3 pour lister et copier les fichiers
+
+#### Approche métadonnées
+
+Pour avoir une liste complète pour un millésime, prenez les fichiers metadata-cadastre-XXXX-XX-XX.csv.gz et metadata-cadastre-XXXX-XX-XX.json.gz
+
+Pour cela, l'URL sera https://object.data.gouv.fr/cadastre/ suivi du nom de fichier, soit les URLs suivantes :
+
+
+|   Année    |                                   CSV                                    |                                    JSON                                    |
+|------------|--------------------------------------------------------------------------|----------------------------------------------------------------------------|
+| 2017-07-06 | https://object.data.gouv.fr/cadastre/metadata-cadastre-2017-07-06.csv.gz | https://object.data.gouv.fr/cadastre/metadata-cadastre-2017-07-06.json.gz  |
+| 2017-10-12 | https://object.data.gouv.fr/cadastre/metadata-cadastre-2017-10-12.csv.gz | https://object.data.gouv.fr/cadastre/metadata-cadastre-2017-10-12.json.gz  |
+| 2018-01-02 | https://object.data.gouv.fr/cadastre/metadata-cadastre-2018-01-02.csv.gz | https://object.data.gouv.fr/cadastre/metadata-cadastre-2018-01-02.json.gz  |
+| 2018-04-03 | https://object.data.gouv.fr/cadastre/metadata-cadastre-2018-04-03.csv.gz | https://object.data.gouv.fr/cadastre/metadata-cadastre-2018-04-03.json.gz  |
+| 2018-06-29 | https://object.data.gouv.fr/cadastre/metadata-cadastre-2018-06-29.csv.gz | https://object.data.gouv.fr/cadastre/metadata-cadastre-2018-06-29.json.gz  |
+| 2018-10-01 | https://object.data.gouv.fr/cadastre/metadata-cadastre-2018-10-01.csv.gz | https://object.data.gouv.fr/cadastre/metadata-cadastre-2018-10-01.json.gz  |
+| 2019-01-01 | https://object.data.gouv.fr/cadastre/metadata-cadastre-2019-01-01.csv.gz | https://object.data.gouv.fr/cadastre/metadata-cadastre-2019-01-01.json.gz  |
+| 2019-04-01 | https://object.data.gouv.fr/cadastre/metadata-cadastre-2019-04-01.csv.gz | https://object.data.gouv.fr/cadastre/metadata-cadastre-2019-04-01.json.gz  |
+| 2019-07-01 | https://object.data.gouv.fr/cadastre/metadata-cadastre-2019-07-01.csv.gz | https://object.data.gouv.fr/cadastre/metadata-cadastre-2019-07-01.json.gz  |
+| 2019-10-01 | https://object.data.gouv.fr/cadastre/metadata-cadastre-2019-10-01.csv.gz | https://object.data.gouv.fr/cadastre/metadata-cadastre-2019-10-01.json.gz  |
+| 2020-01-01 | https://object.data.gouv.fr/cadastre/metadata-cadastre-2020-01-01.csv.gz | https://object.data.gouv.fr/cadastre/metadata-cadastre-2020-01-01.json.gz  |
+| 2020-07-01 | https://object.data.gouv.fr/cadastre/metadata-cadastre-2020-07-01.csv.gz | https://object.data.gouv.fr/cadastre/metadata-cadastre-2020-07-01.json.gz  |
+| 2020-10-01 | https://object.data.gouv.fr/cadastre/metadata-cadastre-2020-10-01.csv.gz | https://object.data.gouv.fr/cadastre/metadata-cadastre-2020-10-01.json.gz  |
+| 2021-02-01 | https://object.data.gouv.fr/cadastre/metadata-cadastre-2021-02-01.csv.gz | https://object.data.gouv.fr/cadastre/metadata-cadastre-2021-02-01.json.gz  |
+| 2021-04-01 | https://object.data.gouv.fr/cadastre/metadata-cadastre-2021-04-01.csv.gz | https://object.data.gouv.fr/cadastre/metadata-cadastre-2021-04-01.json.gz  |
+| 2021-07-01 | https://object.data.gouv.fr/cadastre/metadata-cadastre-2021-07-01.csv.gz | https://object.data.gouv.fr/cadastre/metadata-cadastre-2021-07-01.json.gz  |
+| 2021-10-01 | https://object.data.gouv.fr/cadastre/metadata-cadastre-2021-10-01.csv.gz | https://object.data.gouv.fr/cadastre/metadata-cadastre-2021-10-01.json.gz  |
+| 2022-01-01 | https://object.data.gouv.fr/cadastre/metadata-cadastre-2022-01-01.csv.gz | https://object.data.gouv.fr/cadastre/metadata-cadastre-2022-01-01.json.gz  |
+| 2022-07-01 | https://object.data.gouv.fr/cadastre/metadata-cadastre-2022-07-01.csv.gz | https://object.data.gouv.fr/cadastre/metadata-cadastre-2022-07-01.json.gz  |
+| 2022-10-01 | https://object.data.gouv.fr/cadastre/metadata-cadastre-2022-10-01.csv.gz | https://object.data.gouv.fr/cadastre/metadata-cadastre-2022-10-01.json.gz  |
+| 2023-01-01 | https://object.data.gouv.fr/cadastre/metadata-cadastre-2023-01-01.csv.gz | https://object.data.gouv.fr/cadastre/metadata-cadastre-2023-01-01.json.gz  |
+
+Sous Linux ou MacOS, il est possible de décompresser les fichiers gz par défaut. Si vous êtes sous Windows, nous vous recommandons d'installer le logiciel libre 7zip en le récupérant depuis https://www.7-zip.fr
+
+En ligne de commande, vous pouvez accéder à la donnée ainsi
+
+```bash
+curl -s https://object.data.gouv.fr/cadastre/metadata-cadastre-2017-07-06.csv.gz | zcat - | head
+curl -s https://object.data.gouv.fr/cadastre/metadata-cadastre-2023-01-01.csv.gz | zcat - | grep departement
+```
+
+#### Approche protocole S3
+
+Pour héberger les données plus anciennes, nous utilisons un produit nommé Minio Server qui permet d'utiliser le protocole S3 défini par Amazon, mais sans dépendre d'un hébergeur.
+Pour pouvoir facilement consommer les données, il faut d'abord installer le client qui lui correspond, minio-client ici.
+Il vous faudra ensuite suivre les instructions d'installation sur https://min.io/docs/minio/linux/reference/minio-mc.html#quickstart
+
+{% hint style="warning" %}
+Attention, la manière de définir l'alias est pour Linux
+{% endhint %}
+
+```bash
+mc alias set cadastre_gouv_no_authent https://object.data.gouv.fr '' ''
+mc ls cadastre_gouv_no_authent/cadastre/
+# Pour lister les années possibles selon les dossiers
+mc tree -d 1 cadastre_gouv_no_authent/cadastre
+# Liste par type d'entrée
+mc ls cadastre_gouv_no_authent/cadastre/etalab-cadastre/
+mc ls cadastre_gouv_no_authent/cadastre/dgfip-pci-vecteur/
+mc ls cadastre_gouv_no_authent/cadastre/dgfip-pci-image/
+
+# Obtenir les statistiques pour savoir la place que vont prendre les fichiers si on souhaite les télécharger
+mc du cadastre_gouv_no_authent/cadastre/dgfip-pci-image/2023-01-01/
+
+# Copier un fichier spécifique
+mc cp cadastre_gouv_no_authent/cadastre/dgfip-pci-vecteur/2021-10-01/edigeo/feuilles/44/44109/edigeo-44109000XC01.tar.bz2 .
+
+# Copier un dossier complet
+mc cp --recursive cadastre_gouv_no_authent/cadastre/dgfip-pci-image/2023-01-01/ .
+
+# Faire une recherche
+# Marche mais à éviter car plutôt lent de faire une recherche sur un répertoire avec des millions de fichiers
+mc find cadastre_gouv_no_authent/cadastre --name "*02001*"
+# Choisir plutôt
+mc find cadastre_gouv_no_authent/cadastre/dgfip-pci-vecteur/2021-10-01/edigeo/feuilles/ --name "*02001*"
+
+# Les principaux points d'entrée pour une année
+year=2022-01-01
+
+# SHP
+# Retourne des dossiers
+mc ls cadastre_gouv_no_authent/cadastre/etalab-cadastre/${year}/shp/departements/
+# Retourne une liste de fichiers pour un département
+mc ls cadastre_gouv_no_authent/cadastre/etalab-cadastre/${year}/shp/departements/44/
+# Retourne une liste de fichiers pour la France
+mc ls cadastre_gouv_no_authent/cadastre/etalab-cadastre/${year}/shp/france/
+
+# GeoJSON
+# Retourne des dossiers
+mc ls cadastre_gouv_no_authent/cadastre/etalab-cadastre/${year}/geojson/communes/
+# Retourne une liste de fichiers pour une commune selon son code département, son code insee
+# avec un dossier raw pour les données extraites du cadastre "moins importantes"
+mc ls cadastre_gouv_no_authent/cadastre/etalab-cadastre/${year}/geojson/communes/44/44109/
+
+# TIFF
+# Retourne des dossiers
+mc ls cadastre_gouv_no_authent/cadastre/dgfip-pci-image/${year}/tiff/feuilles/
+# Retourne une liste de fichiers pour une commune selon son code département, son code insee
+# Attention, il n'y a presque plus de fichiers de ce type car ils sont supplantés par les fichiers
+# vecteur quand le cadastre est vectorisé
+mc ls cadastre_gouv_no_authent/cadastre/dgfip-pci-image/${year}/tiff/feuilles/08/08462/
+
+# DXF
+# Retourne des dossiers
+mc ls cadastre_gouv_no_authent/cadastre/dgfip-pci-vecteur/${year}/dxf/feuilles/
+# Retourne une liste de fichiers pour une commune selon son code département, son code insee
+mc ls cadastre_gouv_no_authent/cadastre/dgfip-pci-vecteur/${year}/dxf/feuilles/73/73065/
+# Vous pouvez filtrer cette liste avec une recherche sur une feuille
+mc find cadastre_gouv_no_authent/cadastre/dgfip-pci-vecteur/${year}/dxf/feuilles/73/73065/ --name '*DL*'
+
+# DXF-CC
+# Retourne des dossiers
+mc ls cadastre_gouv_no_authent/cadastre/dgfip-pci-vecteur/${year}/dxf-cc/feuilles/
+# Retourne une liste de fichiers pour une commune selon son code département, son code insee
+mc ls cadastre_gouv_no_authent/cadastre/dgfip-pci-vecteur/${year}/dxf-cc/feuilles/73/73008/
+
+# EDIGEO
+# Retourne des dossiers
+mc ls cadastre_gouv_no_authent/cadastre/dgfip-pci-vecteur/${year}/edigeo/feuilles/
+# Retourne une liste de fichiers pour une commune selon son code département, son code insee
+mc ls cadastre_gouv_no_authent/cadastre/dgfip-pci-vecteur/${year}/edigeo/feuilles/38/38027/
+
+# EDIGEO-CC
+# Retourne des dossiers
+mc ls cadastre_gouv_no_authent/cadastre/dgfip-pci-vecteur/${year}/edigeo-cc/feuilles/
+# Retourne une liste de fichiers pour une commune selon son code département, son code insee
+mc ls cadastre_gouv_no_authent/cadastre/dgfip-pci-vecteur/${year}/edigeo-cc/feuilles/69/69266/
+```
+
+
+Vous pouvez aussi avoir besoin d'automatiser avec un language de programmation. Voici ci-dessous un exemple en Python dont la documentation est disponible sur https://min.io/docs/minio/linux/developers/python/minio-py.html. Il existe d'autres librairies/SDK, en Java, Javascript, .Net, Haskell, C++ pour accéder aux données https://min.io/docs/minio/linux/developers/minio-drivers.html
+
+
+```python
+#!/usr/bin/env python
+
+import minio
+
+from minio import Minio
+
+client = Minio(
+    'object.files.data.gouv.fr',
+    access_key='',
+    secret_key='',
+    secure=True
+)
+
+print(client.list_buckets())
+
+bucket_name = 'cadastre'
+for i in client.list_objects(bucket_name):
+    print(i.metadata, i.is_dir, i.object_name, i.size)
+
+# Obtenir des informations
+for i in client.list_objects(bucket_name, prefix="dgfip-pci-image/"):
+    print(i.metadata, i.is_dir, i.object_name, i.size)
+
+# Pour avoir la liste des fichiers/dossiers qui sont dans l'arborescence
+print([i.object_name for i in client.list_objects(bucket_name, prefix="dgfip-pci-image/")])
+print([i.object_name for i in client.list_objects(bucket_name, prefix="dgfip-pci-image/2023-01-01/")])
+print([i.object_name for i in client.list_objects(bucket_name, prefix="dgfip-pci-image/2023-01-01/tiff/")])
+print([i.object_name for i in client.list_objects(bucket_name, prefix="dgfip-pci-image/2023-01-01/tiff/feuilles/")])
+# Même principe mais en rajoutant des retours à la ligne pour la lisibilité
+print('\n'.join([i.object_name for i in client.list_objects(bucket_name, prefix="dgfip-pci-image/2023-01-01/tiff/feuilles/08/")]))
+
+# Listing recursive d'un dossier puis copie avec la même structure
+for i in client.list_objects(bucket_name, prefix="dgfip-pci-image/2023-01-01/tiff/", recursive=True):
+    if not i.is_dir:
+        print(i.object_name, i.size)
+        # first i.object_name is for the object name, the second is to copy with the same structure
+        client.fget_object(bucket_name, i.object_name, i.object_name)
+```
+
+
 ## Rechercher des parcelles
+
+### Module Cadastre de l'API Carto
 
 Pour rechercher des parcelles, il est possible de passer par [**le module Cadastre de l'API Carto**](https://apicarto.ign.fr/api/doc/cadastre#/Parcelle/get\_cadastre\_parcelle).
 
@@ -47,6 +260,43 @@ Si vous êtes intéressé par le code de la surcouche, vous pouvez consulter le 
 <figure><img src="../../.gitbook/assets/exemple-recherche-parcelles.png" alt=""><figcaption><p>Un exemple de recherche de parcelles avec l'API Carto</p></figcaption></figure>
 
 _Vous pouvez aussi ouvrir_ [_ce lien pour voir le résultat dans un navigateur_](https://apicarto.ign.fr/api/cadastre/parcelle?code\_insee=44109\&section=EX\&numero=0080).
+
+### Alternative au module Cadastre de l'API Carto
+
+Il est aussi possible de passer par le géocodeur https://geoservices.ign.fr/documentation/services/services-geoplateforme/geocodage qui fait la recherche d'adresses, de POI (Points d'intérêts) et de parcelles cadastrales.
+
+Pour cela, il vous faudra renseigner les champs `index` à `parcelle`, le champ `departmentcode` avec le code du département, celui `municipalitycode` avec les 3 chiffres du code INSEE après le département, la `section` pour la section et le `number` pour le numéro de parcelle. Le retour de cet appel retourne un GeoJSON dont la représentation pour la parcelle est un point et non pas un contour. Si vous souhaitez obtenir le contour, vous devrez passer l'option `returntruegeometry` à `true`. Attention : dans ce cas de figure, le GeoJSON restera un point mais un nouveau champ `truegeometry` dans les "properties" du GeoJSON sera retourné. Si vous souhaitez que votre GeoJSON contienne uniquement le contour, vous allez devoir faire un appel puis écraser la géométrie ponctuelle du GeoJSON avec celle du champ `truegeometry`.
+
+Cela se traduit en code JavaScript par exemple avec : 
+
+ ```javascript
+const params = new URLSearchParams({
+  'index': 'parcel',
+  'limit': 10,
+  'returntruegeometry': true,
+  'departmentcode': '44',
+  'municipalitycode': '109',
+  'section': 'EX',
+  'number': 68
+})
+
+const apiUrl = `https://data.geopf.fr/geocodage/search?${params}`;
+
+fetch(apiUrl)
+  .then(response => response.json())
+  .then(data => {
+    console.log('GeoJSON point', data)
+    data.features.forEach(feature => {
+        feature.geometry = feature.properties.truegeometry
+        delete feature.properties.truegeometry
+    })
+    console.log(data)
+  })
+  .catch(error => {
+    console.log('GeoJSON polygon', error)
+  });
+```
+
 
 {% hint style="danger" %}
 **Limites**
@@ -68,7 +318,7 @@ Plusieurs solutions sont disponibles pour accéder aux fonds de plan du cadastre
 
 * **IGN WMS cadastre**. La couche principale est `CADASTRALPARCELS.PARCELLAIRE_EXPRESS` du [service WMS](https://wxs.ign.fr/essentiels/geoportail/r/wms). Celle-ci s'appuie sur le produit PCI Express.
 
-Il existe de nombreuses autres couches d'information liées aux cadastre proposées par l'IGN. Il est possible de les chercher depuis la [page de documentation de Geoservices](https://geoservices.ign.fr/documentation/services), en prenant les fichiers CSV des géoservices et de la Géoplateforme, qui remplacera dans les mois à venir les services OGC de l'IGN.
+Il existe de nombreuses autres couches d'information liées aux cadastre proposées par l'IGN. Il est possible de les chercher depuis la [page de documentation de Geoservices](https://geoservices.ign.fr/documentation/services), en prenant les fichiers CSV des géoservices de la Géoplateforme.
 
 {% hint style="danger" %}
 #### Attention
