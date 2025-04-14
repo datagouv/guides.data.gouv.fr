@@ -68,13 +68,17 @@ Ces inventaires ont été conçus par l'équipe de data.gouv.fr pour recenser et
 {% embed url="https://www.data.gouv.fr/fr/pages/thematiques-a-la-une/" %}
 
 > Exemples d'inventaires thématiques : \
-> \- [Inventaire des données ouvertes relatives à la santé](https://www.data.gouv.fr/fr/pages/donnees\_sante/)\
-> \- [Inventaire des données ouvertes relatives à l’emploi](https://www.data.gouv.fr/fr/pages/donnees\_emploi/)\
+> \- [Inventaire des données ouvertes relatives à la santé](https://www.data.gouv.fr/fr/pages/donnees_sante/)\
+> \- [Inventaire des données ouvertes relatives à l’emploi](https://www.data.gouv.fr/fr/pages/donnees_emploi/)\
 > \- [Inventaire des données ouvertes relatives aux énergies](https://www.data.gouv.fr/fr/pages/donnees-energie/)\
-> \- [Inventaire des données ouvertes relatives à l’éducation](https://www.data.gouv.fr/fr/pages/donnees\_education/)
+> \- [Inventaire des données ouvertes relatives à l’éducation](https://www.data.gouv.fr/fr/pages/donnees_education/)
 
 {% hint style="success" %}
 Il est également possible de se référer au [**service public de la donnée**](https://www.data.gouv.fr/fr/pages/spd/reference/) qui se compose de données de référence qui présentent le plus fort impact économique et social et qui sont mises à disposition avec un haut niveau de qualité.
+{% endhint %}
+
+{% hint style="success" %}
+L'équipe de data.gouv.fr met à disposition [**un calendrier des actualités en données ouvertes**](https://www.data.gouv.fr/fr/pages/donnees_actualites/) pour permettre à chacune et chacun d'accéder aux données en open data liées à l'actualité et de demander l'ouverture d'autres données associées à ces thématiques.
 {% endhint %}
 
 ### Effectuer une recherche en partant de l'organisation productrice
@@ -280,4 +284,4 @@ La saisine de la CADA se fait dans les 2 mois suivant la notification de la déc
   * [Inventaire des données environnementales](https://opendatafrance.gitbook.io/la-donnee-verte/2-outils-et-productions/2.1-inventaire-de-bases-de-donnees-environnementales) proposé par OpenDataFrance.
 * OpenDataFrance propose un outil, [**GéoDataMine**](https://geodatamine.fr/), qui facilite l’extraction de données thématiques depuis OpenStreetMap, sous la forme de fichiers tableurs ou géographiques. OpenStreetMap est une base de données géographique où il est possible de trouver des données sur les routes, les bâtiments, les commerces, les services publics, etc.
 * [Culture D : Identifier et trouver des sources de données pertinentes - OpenDataFrance](https://opendatafrance.gitbook.io/culture-d-parcours-dacculturation-aux-donnees/culture-d-le-parcours-dacculturation/sequence-8)
-* [Portails OpenData - Cerema Med (Mathieu Rajerison)](https://datagistips.github.io/cours-data-ente/presentations/session1/session1\_3\_portails.html#1)
+* [Portails OpenData - Cerema Med (Mathieu Rajerison)](https://datagistips.github.io/cours-data-ente/presentations/session1/session1_3_portails.html#1)
