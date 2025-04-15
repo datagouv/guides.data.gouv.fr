@@ -262,7 +262,7 @@ Un fichier KML est un document XML avec une structure hiérarchique, où chaque 
 
 ### Avec le logiciel de cartographie QGIS
 
-* Ouvrez [QGIS](https://app.gitbook.com/s/aR5Xnbp0nwO8PvuTp9dy/overview/what-we-do) et allez dans "Layer" > "Add Layer" > "Add Vector Layer"
+* Ouvrez [QGIS](broken-reference) et allez dans "Layer" > "Add Layer" > "Add Vector Layer"
 * Sélectionnez le fichier KML.
 * QGIS charge les fichiers KML et affiche les données géospatiales sur la carte
 
@@ -274,4 +274,4 @@ Python avec fastkml, R avec sf, etc.
 
 ## Ressources externes pour aller plus loin
 
-* [Cours Open Data : Avant de vous présenter à la data - Cerema Med (Mathieu Rajerison)](https://datagistips.github.io/cours-data-ente/presentations/session1/session1\_5\_avant\_data.html#1)
+* [Cours Open Data : Avant de vous présenter à la data - Cerema Med (Mathieu Rajerison)](https://datagistips.github.io/cours-data-ente/presentations/session1/session1_5_avant_data.html#1)
