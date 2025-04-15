@@ -36,10 +36,12 @@ Il n’est pas nécessaire de disposer d’un compte sur [data.gouv.fr](http://d
 ## Utiliser une API
 
 {% hint style="info" %}
-API : Outil informatique qui permet à un site internet ou à un logiciel de communiquer avec un autre ordinateur et échanger de la donnée.
+API (_Application Programming Interface_) : Outil informatique qui permet à un site internet ou à un logiciel de communiquer avec un autre ordinateur et échanger de la donnée.
 {% endhint %}
 
-Il est possible d’accéder à des données en utilisant une API. Pour cela, [**vous pouvez utiliser les API référencées sur api.gouv.fr**](https://api.gouv.fr/), une plateforme qui référence les API du service public (APIs ouvertes et APIs sous habilitation) :
+Les API sont un mode d'accès aux données en expansion : plutôt que de laisser l'utilisateur consulter directement des bases de données, les API proposent de formuler une requête qui est traitée par le serveur hébergeant la base de données, puis de recevoir des données en réponse à sa requête. Elles s'avèrent notamment précieuses pour récupérer de petits volumes de données, typiquement pour des interfaces interactives et récupérer des données transformées complexes, typiquement issues d'inférence de modèles (_Lino Galiana, Insee_).
+
+La plateforme data.gouv.fr propose [**un large catalogue d'API**](https://www.data.gouv.fr/fr/dataservices/) (API ouvertes et API sous habilitation), telles que :&#x20;
 
 * [API Adresse](https://api.gouv.fr/les-api/base-adresse-nationale) : permet d'interroger facilement la Base Adresse Nationale ;
 * [API Recherche d’entreprises](https://api.gouv.fr/les-api/api-recherche-entreprises) : permet à tout le monde de rechercher et de trouver une entreprise française ;
@@ -47,7 +49,11 @@ Il est possible d’accéder à des données en utilisant une API. Pour cela, [*
 * [API Géorisques](https://api.gouv.fr/les-api/api-georisques) : permet d'afficher pour un territoire donné la liste des données et documents relatifs aux risques naturels et technologiques existants ;
 * etc.
 
-Les documentations de chaque API sont à retrouver sur leurs pages respectives sur [api.gouv.fr](http://api.gouv.fr).
+Les documentations de chaque API sont à retrouver sur leurs pages respectives sur data.gouv.fr.&#x20;
+
+{% hint style="success" %}
+Pour aller plus loin, il est possible de consulter **l'**[**atelier pour découvrir la récupération de données via des API**](https://inseefrlab.github.io/ssphub-ateliers/sessions/api.html), proposé par l'Insee.
+{% endhint %}
 
 ## Utiliser l’API de [data.gouv.fr](http://data.gouv.fr)
 
