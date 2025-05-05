@@ -58,7 +58,7 @@ Les fichiers ne peuvent être déplacés que via l’interface d’édition de f
 
 ### La gestion des droits&#x20;
 
-Par défaut, un dépôt public ne peut être modifié que par son administrateur bien qu’il soit visible de tous. Pour permettre à un co-animateur, par exemple, de le modifier, il faut l’ajouter en tant que contributeur (Settings/Access/Contributors/Add people). Il est recommandé de privilégier les “issues” pour les membres du GT moins familier avec Github, où ils peuvent faire des retours sous la forme de commentaires. Il n’est pas nécessaire de les inscrire en tant que “contributeurs” pour cela.&#x20;
+Par défaut, un dépôt public ne peut être modifié que par son administrateur bien qu’il soit visible de tous. Pour permettre à un autre membre de le modifier, il faut l’ajouter en tant que contributeur (Settings/Access/Contributors/Add people). Il est recommandé de privilégier les “issues” pour les membres du GT moins familier avec Github, où ils peuvent faire des retours sous la forme de commentaires. Il n’est pas nécessaire de les inscrire en tant que “contributeurs” pour cela.&#x20;
 
 ### La gestion des contributions
 

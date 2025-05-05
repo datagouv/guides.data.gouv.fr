@@ -23,7 +23,7 @@ layout:
 
 ***
 
-## <mark style="background-color:purple;">Repères sur la durée et la complexité du processus</mark> <a href="#docs-internal-guid-83c04feb-7fff-03ff-6e5d-f35d999c09a2" id="docs-internal-guid-83c04feb-7fff-03ff-6e5d-f35d999c09a2"></a>
+## <mark style="background-color:purple;">Quelques repères sur la durée et la complexité du processus</mark> <a href="#docs-internal-guid-83c04feb-7fff-03ff-6e5d-f35d999c09a2" id="docs-internal-guid-83c04feb-7fff-03ff-6e5d-f35d999c09a2"></a>
 
 Pour vous projeter dans la réalisation du standard, voici quelques repères temporels pour chacune des étapes.
 
@@ -45,7 +45,7 @@ La réalisation du standard est une étape plus ou moins exigeante selon la comp
 
 Une présentation bien préparée devant la commission des standards et le sérieux des travaux tout au long de la procédure garantissent généralement l’adoption du standard. Il est alors possible de poursuivre directement avec la validation par le conseil plénier sans attendre.
 
-La validation par la commission des standards et par le plénier peuvent créer des délais incompressibles avant  l’adoption officielle du standard lorsque les calendriers ne sont pas bien alignés. Dans ce cas, le Secrétariat Général peut vous accompagner pour passer directement au déploiement avant la validation officielle du standard.&#x20;
+Dans le cas d'un conflit de calendrier, le Secrétariat Général peut vous accompagner pour identifier des solutions en lien avec le président ou la présidente de la commission des standards.&#x20;
 
 * **Déploiement du standard - variable**
 
@@ -59,21 +59,20 @@ Le déploiement du standard sort du cadre du GT du CNIG. La durée de cette éta
 **Note** : Ces durées sont purement indicatives et fondées sur les pratiques observées avant la création de la Fabrique des standards. Dans un objectif “d’industrialisation” des standards, nous espérons bien permettre aux porteurs d’améliorer l’efficacité du processus
 {% endhint %}
 
-***
+## <mark style="background-color:purple;">Avant de se lancer : le rôle du pilote</mark>&#x20;
 
+Le pilote est un organisme qui accepte de supporter les travaux par un soutien qui peut prendre différentes formes. Il voit généralement un intérêt direct pour lui-même dans l'élaboration du standard (ou dans le cadre d'une politique qu'il est en charge de mettre en œuvre), et décide ainsi de s'impliquer directement dans sa création. En pratique, son rôle peut être :&#x20;
 
+* d'assurer la cohérence avec les politiques publiques,
+* d'apporter sa légitimité et sa visibilité aux travaux, notamment en mobilisant son carnet d'adresse (pour trouver des participants au GT, des testeurs, des utilisateurs, etc.),&#x20;
+* de coordonner les travaux avec ses équipes métiers (futures utilisatrices du standard en projet ou en charge d'élaborer la réglementation ayant conduit au besoin de standard par exemple),
+* de financer ou d'identifier un sponsor pour financer les travaux.
 
-## <mark style="background-color:purple;">Ressources utiles</mark>
+### <mark style="background-color:blue;">Le rôle du secrétariat général du CNIG</mark>
 
-_\[_:construction: _en construction_ :construction:_]_
+Lors de l'initialisation des travaux, le secrétariat général vous accompagne pour :&#x20;
 
-***
-
-
-
-## <mark style="background-color:purple;">Foire aux questions</mark> ↓
-
-_\[_:construction: _en construction_ :construction:_]_
+* la planification des travaux, en vous apportant davantage d'informations sur la procédure.
 
 ***
 

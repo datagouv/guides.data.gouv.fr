@@ -19,11 +19,9 @@ layout:
 
 # Déploiement du standard
 
-**L’accompagnement au déploiement n’est pas nécessairement du ressort du groupe de travail d’élaboration du standard, il est parfois pris en charge par le CNIG.**&#x20;
+**Le déploiement n’est pas nécessairement du ressort du groupe de travail d’élaboration du standard au CNIG, mais ce dernier tient parfois un rôle dans son adoption.**&#x20;
 
 ***
-
-
 
 ## <mark style="background-color:purple;">Actions de la phase</mark>
 
@@ -117,12 +115,6 @@ Afin d’évaluer l’adoption d’un standard, plusieurs bonnes pratiques exist
 Lorsque le groupe de travail sur le déploiement, le commanditaire, la communauté d’utilisateurs ou tout autre usager du standard identifie un besoin d’évolution, une demande d’évolution peut être proposée.
 
 Pour identifier quand une évolution est nécessaire, il est utile d’assurer une veille sur les technologies employées (stockage et traitement des données) et sur les autres standards de données du même écosystème ou du CNIG.
-
-{% hint style="info" %}
-**Versionner un standard**&#x20;
-
-Si un numéro de version est utilisé pour le standard, il doit être cohérent avec celui de ses dépendances, et notamment du schéma (s’il en contient un). Ainsi, il doit suivre la gestion sémantique des versions utilisée par schema.data.gouv : [Semver](https://semver.org/lang/fr/).
-{% endhint %}
 {% endstep %}
 {% endstepper %}
 
@@ -190,10 +182,6 @@ Le déploiement se fait au rythme d’amélioration de la maturité des outils e
 
 {% embed url="https://cnig.gouv.fr/les-standards-cnig-a18959.html#H_Tableau-et-liste-des-standards-CNIG" %}
 
-### \[:construction:] Exemple de formats et modalités de déploiement
-
-_\[en construction]_
-
 ***
 
 
@@ -205,14 +193,6 @@ _\[en construction]_
 <summary>A qui dois-je m'adresser pour proposer ma demande d'évolution d'un standard ? </summary>
 
 La procédure pour faire évoluer un standard est similaire à celle pour la création d'un nouveau standard. Elle est décrite dans la page "[Émergence d'un besoin ou d'une évolution](emergence-dun-besoin-ou-dune-evolution.md)", où il est indiqué de contacter le secrétariat général du CNIG par message sur la [page contact ](https://cnig.gouv.fr/spip.php?page=contact)du site du CNIG ou à [cnig@cnig.gouv.fr](mailto:cnig@cnig.gouv.fr). Il peut également être utile de contacter les rédacteurs du standard en question (leurs organismes d'appartenance, _a minima_, et parfois leurs noms, sont indiqués dans le standard lui-même).&#x20;
-
-</details>
-
-<details>
-
-<summary>[<span data-gb-custom-inline data-tag="emoji" data-code="1f6a7">🚧</span>] Comment des standards peuvent-ils s'articuler entre eux ? </summary>
-
-_\[_:construction: _en construction_ :construction:_]_
 
 </details>
 

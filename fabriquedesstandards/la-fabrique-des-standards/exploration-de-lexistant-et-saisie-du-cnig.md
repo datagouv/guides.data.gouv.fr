@@ -38,7 +38,7 @@ Avant de saisir le CNIG, il revient aux personnes à l’initiative du projet d�
 * **Via la liste des standards sur le site du** [**CNIG**](https://cnig.gouv.fr/les-standards-cnig-a18959.html)**,**
 * **Via le site** [**schema.data.gouv**](https://schema.data.gouv.fr)**,**
 * **Via un autre organisme**\
-  &#xNAN;_&#x56;oir la page dédiée sur le site du CNIG \[_:construction: _en construction_ :construction:_]_
+  &#xNAN;_&#x56;oir la page dédiée sur_ [_le site du CNIG_](https://cnig.gouv.fr/le-cnig-et-son-environnement-r21434.html) _\[_:construction: _en construction_ :construction:_]_
 
 
 {% endstep %}
@@ -56,21 +56,18 @@ Après une phase d’évaluation de la maturité du sujet avec le pilote, le sec
 * saisie de la commission Besoins et usages pour **la création d’un GT standard** : le sujet est prêt à être démarré,
 * Saisie de la commission des standards pour **le lancement des travaux** : le projet de GT est prêt, animateurs et parties prenantes identifiées, ou bien il s’agit de réactiver un GT existant pour une évolution ou mise à jour du standard.
 
-**Le porteur de projet présente son projet à la commission mobilisée**. Le temps dédié est l’opportunité de mobiliser l’expertise des membres de la commission et d’insister sur les interrogations que le porteur pourrait avoir. Il est conseillé de clarifier tout ce qui relève de la procédure avant cette étape pour se focaliser sur les enjeux liés à la thématique.
+**Le porteur de projet, appelé** [**pilote**](https://app.gitbook.com/o/w6D6SnLwCXQaMMSzcTvp/s/weZQRU1RV5So9WzNyxlW/~/changes/19/la-fabrique-des-standards/glossaire-de-la-fabrique-des-standards#pilote) **dans la suite, présente son projet à la commission mobilisée**. Le temps dédié est l’opportunité de mobiliser l’expertise des membres de la commission et d’insister sur les interrogations que le porteur pourrait avoir. Il est conseillé de clarifier tout ce qui relève de la procédure avant cette étape pour se focaliser sur les enjeux liés à la thématique.
 {% endstep %}
 {% endstepper %}
 
+### <mark style="background-color:blue;">Le rôle du secrétariat général du CNIG</mark>
+
+Lors de l'exploration de l'existant, le secrétariat général vous accompagne pour :&#x20;
+
+* l'instruction de la demande,&#x20;
+* la coordination avec les commissions concernées.
+
 ***
-
-
-
-## <mark style="background-color:purple;">Ressources utiles</mark>
-
-_\[_:construction: _en construction_ :construction:_]_
-
-***
-
-
 
 ## <mark style="background-color:purple;">Foire aux questions</mark> ↓
 
@@ -81,14 +78,6 @@ _\[_:construction: _en construction_ :construction:_]_
 Un message peut être envoyé sur la [page contact ](https://cnig.gouv.fr/spip.php?page=contact)du site du CNIG ou à [cnig@cnig.gouv.fr](mailto:cnig@cnig.gouv.fr)&#x20;
 
 A la suite du message le secrétariat du CNIG prendra contact, organisera éventuellement une réunion avec le porteur du projet, et si l’exploration semble suffisante programmera le passage en commission.
-
-</details>
-
-<details>
-
-<summary>Qui sont les autres producteurs de standards et où les trouver ?</summary>
-
-_\[_:construction: _en construction_ :construction:_]_ Une cartographie des organismes producteurs de standards ou de spécifications est en cours d'élaboration et sera publiée sur le site du CNIG.
 
 </details>
 

@@ -28,18 +28,17 @@ layout:
 
 La création d’un standard de données peut résoudre certaines difficultés expérimentées par des acteurs pour produire des données, les documenter, les partager, les agréger ou encore pour les utiliser. Toutefois, cette liste n’est pas exhaustive, et un standard ne sera pas toujours la solution pertinente dans chacun de ces cas. Alors dans quelles situations la création d’un standard de données est-elle une solution adaptée ?
 
-\
 Comme résumé en deux phrases dans [un cahier de l’observatoire Data Publica](https://hal.science/hal-03986670/document), la standardisation “réduit les frictions en facilitant la découverte de données similaires ouvertes dans différents territoires et en permettant de consolider les données produites localement dans une base nationale exploitable facilement. Les standards, en tant qu’ensemble de recommandations préconisées par un groupe d’utilisateurs, permettent à différents outils numériques de communiquer pour construire un tout cohérent au service d’un ou plusieurs objectifs”. Votre besoin spécifique pourrait ne pas correspondre exactement à cette description générale, voici donc plus bas quelques exemples de situations plus particulières. Tout d’abord, avant de vous interroger sur son utilité, revenons sur ce que recoupe le terme de “standard de données”.
 
 ## <mark style="background-color:purple;">Les standards de données</mark>
 
 Un standard de données est avant tout un standard. Mais qu’est ce qu’un standard ? Repartons des bases. &#x20;
 
-Dans le langage commun, un standard correspond à une règle qui fixe un seuil d’exigence ou un cahier des charges, et cherche à uniformiser et à stabiliser des pratiques dans le temps et dans l’espace. Le terme de standard en français est dérivé du terme anglais standard, le français effectue ainsi une distinction avec la norme qui n’existe pas en anglais (et est souvent source de confusions). La différence entre ces deux termes réside dans le caractère prescriptif de la norme. Comme décrit par [l’Observatoire du SIG](https://cnig.gouv.fr/IMG/pdf/_c_vpw_sigmag_sigtv.fr_n34_obervatoire_du_sig_enquete_normes_standards_-_octobre_2022.pdf), les standards de facto s’imposent par des utilisations répandues dans la communauté des fournisseurs et des utilisateurs. Le format SHP ou le DWG en sont deux exemples bien connus.  Les normes gouvernementales sont élaborées pour répondre à des usages souvent limités à un écosystème national, comme le sont les spécifications du CNIG pour les métiers. Elles peuvent alors avoir un statut réglementaire, comme dans le cas des documents d’urbanisme. Enfin, les normes formelles sont élaborées par le biais d'un processus plus rigide, géré par un organisme de normalisation patenté, tel que l’ISO, l’AFNOR ou l’OGC. Nous parlons donc ici de standards puisque le CNIG n’a pas d’accréditation pour la production de normes, et bien que certains standards du CNIG soient rendus obligatoires par des textes. La valeur des standards du CNIG provient de leur processus d’élaboration fondé sur le travail collectif et de leur validation par la communauté large et représentative de ses membres.
+Dans le langage commun, un standard correspond à une règle qui fixe un seuil d’exigence ou un cahier des charges, et cherche à uniformiser et à stabiliser des pratiques dans le temps et dans l’espace. Le terme de standard en français est dérivé du terme anglais _standard_, le français effectue ainsi une distinction avec la norme qui n’existe pas en anglais (et est souvent source de confusions). La différence entre ces deux termes réside dans le caractère prescriptif de la norme. Comme décrit par [l’Observatoire du SIG](https://cnig.gouv.fr/IMG/pdf/_c_vpw_sigmag_sigtv.fr_n34_obervatoire_du_sig_enquete_normes_standards_-_octobre_2022.pdf), les standards de facto s’imposent par des utilisations répandues dans la communauté des fournisseurs et des utilisateurs. Le format SHP ou le DWG en sont deux exemples bien connus.  Les normes gouvernementales sont élaborées pour répondre à des usages souvent limités à un écosystème national, comme le sont les spécifications du CNIG pour les métiers. Elles peuvent alors avoir un statut réglementaire, comme dans le cas des documents d’urbanisme. Enfin, les normes formelles sont élaborées par le biais d'un processus plus rigide, géré par un organisme de normalisation patenté, tel que l’ISO, l’AFNOR ou l’OGC. Nous parlons donc ici de standards puisque le CNIG n’a pas d’accréditation pour la production de normes, et bien que certains standards du CNIG soient rendus obligatoires par des textes. La valeur des standards du CNIG provient de leur processus d’élaboration fondé sur le travail collectif et de leur validation par la communauté large et représentative de ses membres.
 
 Les standards peuvent porter sur différents types d’objets : produits, procédés (de production, organisationnelles, etc.), techniques, données, etc. Les standards produits par le CNIG sont des standards de données, mais ils ont en réalité une portée plus large. Ils portent toujours sur les données et leurs métadonnées, en indiquant leur structure (grâce à un modèle conceptuel, à un schéma de données, etc.) et leur contenu (grâce à une ontologie, un catalogue d’objets, une description des types, des règles de qualité, etc.). Ils peuvent aussi porter, selon les cas, sur les méthodes de collecte et d’utilisation des données, et même prescrire des outils pour cela.&#x20;
 
-Ainsi, un standard élaboré par un GT du CNIG pourra contenir diverses informations, en complément d’une structure commune, en fonction du besoin auquel le GT cherche à répondre.
+Ainsi, un standard élaboré par un groupe de travail (GT) du CNIG pourra contenir diverses informations, en complément d’une structure commune, en fonction du besoin auquel le GT cherche à répondre.
 
 <figure><img src="../.gitbook/assets/Standard CNIG_définition.png" alt="" width="375"><figcaption></figcaption></figure>
 
@@ -70,6 +69,13 @@ Le [standard GraceTHD](https://cnig.gouv.fr/gt-gracethd-a17477.html) vise à fac
 
 Si le besoin est encore mal défini, le CNIG peut dans certains cas apporter une aide en mettant en place un groupe de travail exploratoire au sein de la commission besoins et usages (exemples GT données géolocalisées en santé, GT Assurances, …).
 {% endhint %}
+
+### <mark style="background-color:blue;">Le rôle du secrétariat général du CNIG</mark>
+
+Lors de l'émergence d'un besoin, le secrétariat général vous accompagne pour :&#x20;
+
+* solliciter les bons interlocuteurs (si besoin),&#x20;
+* identifier la procédure adaptée à votre cas.
 
 ***
 
