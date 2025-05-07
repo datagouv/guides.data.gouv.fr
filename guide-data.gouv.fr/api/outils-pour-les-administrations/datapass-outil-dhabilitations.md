@@ -5,14 +5,13 @@ description: >-
 ---
 
 # Datapass : Outil d'habilitations
-
-En tant qu'administration souhaitant diffuser des données restreintes, vous pouvez avoir besoin de **délivrer des habilitations aux usagers**.\
+Lorsque vous souhaiter donner accès à des données restreintes par API ou donner accès un service, vous pouvez avoir besoin d'un outil  qui permet de **délivrer des habilitations aux administrations**.\
 ➡️ L'outil Datapass  est fait pour ça !&#x20;
 
 {% hint style="info" %}
 ### <mark style="color:blue;">**Les fonctionnalités de Datapass**</mark>
 
-* **Créer des formulaires de demandes d'habilitation**, configurables et conçus spécialement pour permettre à vos usagers de :&#x20;
+* **Créer des formulaires de demandes d'habilitation**, configurables et conçus spécialement pour permettre à vos partenaires de :&#x20;
   * sélectionner les données/API dont ils ont besoin ;
   * compléter leur cadre juridique ;&#x20;
   * renseigner leurs contacts
@@ -21,6 +20,7 @@ En tant qu'administration souhaitant diffuser des données restreintes, vous pou
   * converser avec l'usager au cours de sa demande pour lui demander des précisions ;
   * valider / refuser les demandes d'habilitation.
   * consulter l'historique des demandes délivrées et des organisations habilitées
+  * automatiser la création des tokens / jetons dans votre API manager à partir des habilitations délivrées 
 {% endhint %}
 
 **Pour utiliser Datapass, prenez contact dès maintenant avec l'équipe :** [**datapass@api.gouv.fr**](mailto:datapass@api.gouv.fr)
