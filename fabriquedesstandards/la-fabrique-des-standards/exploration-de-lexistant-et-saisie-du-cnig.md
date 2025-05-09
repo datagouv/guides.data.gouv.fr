@@ -19,7 +19,7 @@ layout:
 
 # Exploration de l'existant et saisie du CNIG
 
-Les personnes intéressées prennent connaissance de l'existant et saisissent le CNIG selon le résultat de l’exploration.
+Les personnes intéressées par la prise en charge d'une nouvelle thématique prennent connaissance de l'existant et saisissent le CNIG selon le résultat de l’exploration.
 
 ***
 
@@ -44,7 +44,7 @@ Avant de saisir le CNIG, il revient aux personnes à l’initiative du projet d�
 {% endstep %}
 
 {% step %}
-### <mark style="color:purple;">SAISIE DU CNIG</mark>&#x20;
+### <mark style="color:purple;">SAISINE DU CNIG</mark>&#x20;
 
 Selon les résultats de l'exploration, le porteur du sujet saisit le CNIG.&#x20;
 
@@ -78,6 +78,14 @@ Lors de l'exploration de l'existant, le secrétariat général vous accompagne p
 Un message peut être envoyé sur la [page contact ](https://cnig.gouv.fr/spip.php?page=contact)du site du CNIG ou à [cnig@cnig.gouv.fr](mailto:cnig@cnig.gouv.fr)&#x20;
 
 A la suite du message le secrétariat du CNIG prendra contact, organisera éventuellement une réunion avec le porteur du projet, et si l’exploration semble suffisante programmera le passage en commission.
+
+</details>
+
+<details>
+
+<summary>Qui sont les autres producteurs de standards et où les trouver ?</summary>
+
+_\[_:construction: _en construction_ :construction:_]_ Une cartographie des organismes producteurs de standards ou de spécifications est en cours d'élaboration et sera publiée sur le site du CNIG.
 
 </details>
 

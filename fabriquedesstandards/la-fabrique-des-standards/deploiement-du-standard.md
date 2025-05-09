@@ -37,7 +37,7 @@ L’accompagnement au déploiement est important mais n’est pas du ressort du 
 
 Le déploiement du standard est essentiel à son appropriation par l’ensemble des producteurs de données. Tous n’ayant pas participé au GT, l’accompagnement à sa compréhension et à sa prise en main sont nécessaires à son utilisation. Il s’agit aussi de mobiliser plus largement sur les enjeux portés par une politique publique lors de cette phase.
 
-A cette étape, les services de communication des entités portant le standard peuvent être contactées pour établir une stratégie de diffusion.
+A cette étape, les services de communication des entités portant le standard peuvent être contactés pour établir une stratégie de diffusion.
 
 * **Quand ?**
 
@@ -51,7 +51,7 @@ Le déploiement doit viser l’ensemble des acteurs concernés :&#x20;
 * [ ] Les gestionnaires de données,
 * [ ] Les bureaux métiers concernés,
 * [ ] Les utilisateurs des données et services liés,
-* [ ] Les acteurs agissant dans le domaine de la politique publique concernée (un SI fédérateur sur la thématique par exemple),
+* [ ] Les acteurs agissant dans le domaine de la politique publique concernée (un système d'information fédérateur sur la thématique par exemple),
 * [ ] Les acteurs du domaine privé développant des outils en lien avec ces données (éditeurs de logiciels, etc.).
 
 
@@ -66,11 +66,11 @@ Une fois les acteurs identifiés, un groupe de travail dédié à l’accompagne
 
 Plusieurs moyens d’actions s’offrent à vous :
 
-* [ ] la publication de documents explicatifs accompagnant le standards comme une note explicative (exemple de [StarEau](https://cnig.gouv.fr/gt-reseaux-enterres-des-eaux-a23994.html)), une recommandation pour la mise en oeuvre (exemple des standards [GraceTHD](https://cnig.gouv.fr/gt-gracethd-a17477.html) et Plan de sauvegarde et mise en valeur ou PSMV) ou un wiki (exemples des standards [StarEau ](https://github.com/cnigfr/StaR-Eau)et [Paysages](https://github.com/cnigfr/schema-paysage/wiki)),
+* [ ] la publication de documents explicatifs accompagnant le standard comme une note explicative (exemple de [StarEau](https://cnig.gouv.fr/gt-reseaux-enterres-des-eaux-a23994.html)), une recommandation pour la mise en œuvre (exemple des standards [GraceTHD](https://cnig.gouv.fr/gt-gracethd-a17477.html) et Plan de sauvegarde et mise en valeur ou PSMV) ou un wiki (exemples des standards [StarEau ](https://github.com/cnigfr/StaR-Eau)et [Paysages](https://github.com/cnigfr/schema-paysage/wiki)),
 * [ ] la publication d’articles dans diverses lettres d’information (des structures des participants, des partenaires, etc.) et dans des revues spécialisées,
-* [ ] les publications sur les réseaux sociaux et forums thématiques (Géorézo) ou génériques (forum.data.gouv),
+* [ ] les publications sur les réseaux sociaux et forums thématiques (GeoRezo) ou génériques (forum.data.gouv),
 * [ ] la publication d’actualité sur les sites Internet,
-* [ ] l’organisation de webinaires en direction des producteurs de données (un binôme SI métier et géomaticien est conseillé), des professionnels impactés dans la production de connaissance (comme par exemple les prestataires venant à l’appui de l’Etat en tant que maîtres d’oeuvre sur la thématique),
+* [ ] l’organisation de webinaires en direction des producteurs de données (un binôme SI métier et géomaticien est conseillé), des professionnels impactés dans la production de connaissance (comme par exemple les prestataires venant à l’appui de l’Etat en tant que maîtres d’œuvre sur la thématique),
 * [ ] la participation à des conférences, ou l’organisation de séminaire ou atelier dédiés,
 * [ ] l’organisation de sessions d’accompagnement dédiées à la prise en main.
 

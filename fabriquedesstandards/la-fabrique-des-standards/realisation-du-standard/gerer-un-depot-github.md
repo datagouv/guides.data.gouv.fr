@@ -18,9 +18,9 @@ layout:
 
 Utiliser un dépôt github est nécessaire pour que le standard soit référencé sur le site schema.data.gouv, qu’il contienne un schéma de données ou non. C’est donc obligatoire pour la publication d’un standard CNIG. Les étapes à suivre pour créer le dépôt et l’alimenter sont décrites dans \[le modèle de dépôt Github]\([https://github.com/cnigfr/cnig-template](https://github.com/cnigfr/cnig-template)).&#x20;
 
-Github peut également être un outil collaboratif utile pour la réalisation du standard. Il est prévu pour travailler en commun sur du code informatique principalement, mais il est tout à fait pertinent pour travailler sur des documents texte, à condition d’utiliser le format markdown, qui est le mieux géré par l’outil (les formats textuels habituels comme le word ou le pdf sont sauvegardés au format binaire, ce qui rend plus difficile la gestion des versions). Sa prise en main n’est pas très exigeante lorsqu’on est à l’aise avec l’informatique, mais cette option est tout de même déconseillée pour un animateur qui n’aurait jamais utilisé Github.&#x20;
+Github peut également être un outil collaboratif utile pour la réalisation du standard. Il est prévu pour travailler en commun sur du code informatique principalement, mais il est tout à fait pertinent pour travailler sur des documents texte, à condition d’utiliser le format markdown, qui est le mieux géré par l’outil (les formats textuels habituels comme le word ou le pdf sont sauvegardés au format binaire, ce qui rend plus difficile la gestion des versions). Sa prise en main n’est pas très exigeante lorsqu’on est à l’aise avec l’informatique, mais cette option est tout de même déconseillée sans un minimum d'initiation ou de formation pour un animateur qui n’aurait jamais utilisé Github.&#x20;
 
-Pour les deux cas précédents, voici quelques conseils pour la prise en main.
+Voici quelques conseils pour la prise en main.
 
 ## <mark style="background-color:purple;">Comment fonctionne Github</mark>
 
@@ -44,7 +44,7 @@ Plusieurs méthodes existent pour créer un fichier. Il est possible d’en cré
 
 ### Créer un dossier
 
-Github ne supporte pas les dossier vides. L’unique solution pour créer un dossier est donc de créer un fichier. Pour créer un fichier dans un nouveau dossier, il faut cliquer sur “Add a file”, puis “Create”, et enfin créer le nouveau dossier dans le nom du fichier. Dans le nom du fichier, commencer par taper le nom du nouveau dossier “Dossier1”, puis faites suivre ce nom d’une barre oblique “/”. L’interface devrait interpréter directement ce symbole et vous verrez qu’un dossier a été ajouté dans le chemin conduisant au fichier.&#x20;
+Github ne supporte pas les dossiers vides. L’unique solution pour créer un dossier est donc de créer un fichier. Pour créer un fichier dans un nouveau dossier, il faut cliquer sur “Add a file”, puis “Create”, et enfin créer le nouveau dossier dans le nom du fichier. Dans le nom du fichier, commencer par taper le nom du nouveau dossier “Dossier1”, puis faites suivre ce nom d’une barre oblique “/”. L’interface devrait interpréter directement ce symbole et vous verrez qu’un dossier a été ajouté dans le chemin conduisant au fichier.&#x20;
 
 Une bonne pratique est de créer un fichier “README.md” pour chaque dossier.&#x20;
 
@@ -58,21 +58,21 @@ Les fichiers ne peuvent être déplacés que via l’interface d’édition de f
 
 ### La gestion des droits&#x20;
 
-Par défaut, un dépôt public ne peut être modifié que par son administrateur bien qu’il soit visible de tous. Pour permettre à un autre membre de le modifier, il faut l’ajouter en tant que contributeur (Settings/Access/Contributors/Add people). Il est recommandé de privilégier les “issues” pour les membres du GT moins familier avec Github, où ils peuvent faire des retours sous la forme de commentaires. Il n’est pas nécessaire de les inscrire en tant que “contributeurs” pour cela.&#x20;
+Par défaut, un dépôt public ne peut être modifié que par son administrateur bien qu’il soit visible de tous. Pour permettre à un co-animateur, par exemple, de le modifier, il faut l’ajouter en tant que contributeur (Settings/Access/Contributors/Add people). Il est recommandé de privilégier les “issues” pour les membres du GT moins familiers avec Github, où ils peuvent faire des retours sous la forme de commentaires. Il n’est pas nécessaire de les inscrire en tant que “contributeurs” pour cela.&#x20;
 
 ### La gestion des contributions
 
 Les membres de la communauté n'ayant pas de droit de modification sur le dépôt peuvent utiliser deux méthodes pour proposer des modifications :&#x20;
 
-* les “issues”, sous la forme de commentaires libres, et&#x20;
-* les “pull requests”, où les modifications sont réalisées dans une version de travail des fichiers.&#x20;
+* les “issues” (ou "contribution"), sous la forme de commentaires libres, et&#x20;
+* les “pull requests” (ou "demande de tirage"), où les modifications sont réalisées dans une version de travail des fichiers.&#x20;
 
 Pour les besoins d’un standard, les issues sont généralement suffisantes, mais les pull requests peuvent permettre de proposer des modifications plus précises. Le rôle de l’administrateur est de relire ces issues et pull requests et d’en vérifier le contenu. L’administrateur modifie les fichiers pour prendre en compte une issue. Pour une pull request, il n’a pas besoin de prendre la plume et peut directement accepter les suggestions (ce qui entraîne une modification des fichiers, bien qu’elle soit toujours réversible) ou les refuser.&#x20;
 
 ## <mark style="background-color:purple;">Maintenir un dépôt</mark>
 
-Après la publication initiale, une maintenance peut être assurée pour prendre en compte les retours lors de l’appel à commentaire, mais aussi sur le plus long terme si le standard doit être mis à jour.&#x20;
+Après la publication initiale, une maintenance peut être assurée pour prendre en compte les retours lors de l’appel à commentaires, mais aussi sur le plus long terme si le standard doit être mis à jour.&#x20;
 
 Il est recommandé de ne mettre à jour la branche principale “master” (c’est-à-dire la version utilisée par le public) que lorsqu’une nouvelle version est prête pour publication. Le nom du commit doit alors indiquer le numéro de version correspondant.&#x20;
 
-Les modifications sont automatiquement répercutées sur schema.data.gouv, il faut donc être prudent dans les changements apportés. Il peut également être utile de communiquer sur la publication d’une nouvelle version pour s’assurer que celle-ci est prise en compte par les utilisateurs.&#x20;
+Les modifications sont automatiquement répercutées sur schema.data.gouv, il faut donc être prudent dans les changements apportés. Il est nécessaire de communiquer sur la publication d’une nouvelle version pour s’assurer que celle-ci est prise en compte par les utilisateurs.&#x20;

@@ -5,7 +5,7 @@
   * [Émergence d'un besoin ou d'une évolution](la-fabrique-des-standards/emergence-dun-besoin-ou-dune-evolution.md)
   * [Exploration de l'existant et saisie du CNIG](la-fabrique-des-standards/exploration-de-lexistant-et-saisie-du-cnig.md)
   * [Initialisation des travaux](la-fabrique-des-standards/initialisation-des-travaux.md)
-  * [Cadrage du groupe de travail](la-fabrique-des-standards/cadrage-du-groupe-de-travail.md)
+  * [Cadrage du groupe de travail](la-fabrique-des-standards/cadrage-du-groupe-de-travail/README.md)
   * [Réalisation du standard](la-fabrique-des-standards/realisation-du-standard/README.md)
     * [Atteindre un consensus](la-fabrique-des-standards/realisation-du-standard/atteindre-un-consensus.md)
     * [Utiliser le modèle de dépôt Github](la-fabrique-des-standards/realisation-du-standard/utiliser-le-modele-de-depot-github.md)

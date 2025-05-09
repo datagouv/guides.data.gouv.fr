@@ -19,7 +19,7 @@ layout:
 
 # Validation du standard
 
-**A l’issue de l’appel à commentaires, le projet de standard est soumis à validation. Il sera ensuite publié.**&#x20;
+**Avant sa publication le standard doit encore franchir différentes étapes, décrites ci-dessous.**
 
 ***
 
@@ -42,7 +42,7 @@ Identifier un acteur volontaire pour tester concrètement le standard. Il est co
 {% step %}
 ### <mark style="color:purple;">APPEL A COMMENTAIRES</mark>
 
-L’appel à commentaire est la dernière étape avant la validation du standard par la commission des standards, il ne peut ainsi avoir lieu qu’à la fin de la phase de rédaction du standard et des autres livrables éventuels (schéma, Github, annexes, documentation, etc.). L’appel à commentaire doit viser un public large, en s’assurant que les principaux intéressés en sont informés (parfois avant même le lancement pour s’assurer que cela sera pris en compte dans leur calendrier). Le traitement des commentaires peut représenter une charge importante pour les animateurs qu’il est préférable d’anticiper.
+L’appel à commentaires est une consultation publique. Il s'agit d'une étape indispensable avant la validation du standard par la commission des standards. L'appel à commentaires CNIG ne peut se dérouler qu’à la fin de la phase de rédaction du standard et des autres livrables éventuels (schéma, Github, annexes, documentation, etc.). L’appel à commentaires doit viser un public large, en s’assurant que les principaux intéressés en sont informés (parfois avant même le lancement pour s’assurer que cela sera pris en compte dans leur calendrier). Le traitement des commentaires peut représenter une charge importante pour les animateurs qu’il est préférable d’anticiper.
 
 La démarche à suivre est détaillée dans [une page dédiée](https://app.gitbook.com/o/w6D6SnLwCXQaMMSzcTvp/s/weZQRU1RV5So9WzNyxlW/~/changes/17/la-fabrique-des-standards/validation-du-standard/realiser-un-appel-a-commentaires).
 {% endstep %}
@@ -57,12 +57,12 @@ S’il est impossible de donner tous les critères de validation d’un standard
 
 * le **respect de la procédure** du CNIG décrite ici ;&#x20;
 * **l’ouverture** et **la représentativité** du groupe de travail et **l’atteinte d’un consensus** sur le standard obtenu ;
-* la soumission du standard à **un appel à commentaire** et la prise en compte des retours ;
-* **l’utilisation** (conforme) **des modèles** proposés ;
+* la soumission du standard à **un appel à commentaires** et la prise en compte des retours ;
+* **l’utilisation** (conforme) **des méthodes et modèles** proposés par la Fabrique des standards ;
 * plusieurs conditions additionnelles :&#x20;
   * publication des documents de travail du GT (mandat, CR des réunions, etc.),&#x20;
-  * publication sur schema.data.gouv,&#x20;
-  * publication du standard sur le site du CNIG sous une licence ouverte.
+  * publication du standard sur le site du CNIG sous une licence ouverte,
+  * publication sur schema.data.gouv.
 {% endhint %}
 {% endstep %}
 
@@ -73,7 +73,7 @@ Le projet de standard est soumis à validation à la **Commission des Standards*
 
 * **Présentation à la commission des standards**
 
-[La commission des standards ](https://cnig.gouv.fr/commission-des-standards-a640.html)se réunit environ une fois par trimestre, il est donc préférable d’anticiper la date visée dans votre calendrier. Une fois la date trouvée, la commission doit être contactée pour inscrire la présentation du standard dans l’ordre du jour. Pour cela, il convient d’envoyer une demande à la présidente de la commission ou au secrétariat général en indiquant le lien vers le standard. Il sera également demandé de préparer une présentation. Aucun modèle n'est proposé pour cette présentation car nous vous encourageons à utiliser une identité visuelle pour le standard, ou à utiliser celle de votre institution d'appartenance. Voici les informations qu'il est conseillé de faire figurer dans cette présentation :&#x20;
+[La commission des standards ](https://cnig.gouv.fr/commission-des-standards-a640.html)se réunit environ une fois par trimestre, il est donc préférable d’anticiper la date visée dans votre calendrier. Une fois la date identifiée, la commission doit être contactée pour inscrire la présentation du standard à son ordre du jour. Pour cela, il convient d’envoyer une demande à la présidente de la commission ou au secrétariat général en indiquant le lien vers le standard. Il sera également demandé de préparer une présentation. Aucun modèle n'est proposé pour cette présentation car nous vous encourageons à utiliser une identité visuelle pour le standard, ou à utiliser celle de votre institution d'appartenance. Voici les informations qu'il est conseillé de faire figurer dans cette présentation :&#x20;
 
 * <mark style="background-color:blue;">Le contexte</mark>
   * **Définir les termes** si cela est nécessaires à la compréhension du sujet,
@@ -93,7 +93,7 @@ Le projet de standard est soumis à validation à la **Commission des Standards*
   * Décrire **le standard**, à qui il s'adresse et ses cas d'usage,
   * Lister **les interactions** avec les standards et normes existants ou en projet,&#x20;
   * Indiquer **les limitations** du standard (ce qu'il ne couvre pas par exemple),
-  * Présenter **le** **modèle conceptuel de données** dans les grandes lignes, **le catalogue d'objet**, **le schéma** de données éventuel, **le jeu de test** construit et comment trouver ces documents,
+  * Présenter **le** **modèle conceptuel de données** dans les grandes lignes, **le catalogue d'objet**, **le schéma** de données éventuel, **l'éventuel jeu de données de test** construit et comment trouver ces documents,
   * Indiquer les ressources documentaires complémentaires.
 * <mark style="background-color:blue;">La démarche suivie et les suites prévues</mark>
   * Décrire les **décisions et partis pris** par le GT lors de l'élaboration du standard présentant un intérêt pour la commission,&#x20;
@@ -104,9 +104,9 @@ Suite à la présentation, la commission vote l’adoption du standard ou demand
 
 * **Présentation au conseil plénier du CNIG**
 
-Le standard doit être validé par [le conseil plénier](https://cnig.gouv.fr/conseil-plenier-a972.html) pour être formellement adopté par le CNIG. Lors du plénier, le standard n’est pas toujours présenté, mais il doit être décrit dans un dossier transmis en amont au conseil. Ce dossier est rédigé par le secrétariat général en lien avec l'animateur du GT (il se présente sous la forme du [modèle proposé plus bas](./#modele-de-dossier-de-presentation-en-plenier) pour information). Ce dossier sera transmis au conseil plénier par le secrétariat du CNIG avec l'ensemble des pièces 2 semaines avant la séance.&#x20;
+Le standard doit être validé par [le conseil plénier](https://cnig.gouv.fr/conseil-plenier-a972.html) pour être formellement adopté par le CNIG. Lors du plénier, le standard n’est pas toujours présenté, mais il doit être décrit dans un dossier transmis en amont au conseil. Ce dossier est rédigé par le secrétariat général en lien avec l'animateur du GT (il se présente sous la forme du [modèle proposé plus bas](./#modele-de-dossier-de-presentation-en-plenier) pour information). Ce dossier sera transmis au conseil plénier par le secrétariat du CNIG, avec l'ensemble des pièces, 2 semaines avant la séance.&#x20;
 
-Des questions ou demandes peuvent être formulées à l’oral par les membres du conseil. Les animateurs du GT sont invités à répondre aux questions à ce moment-là, ou à prendre note des demandes pour modification ultérieure. Ici encore, si la présentation a été suffisamment anticipée, les retours du conseil ne bloquent généralement pas l’adoption du standard.
+Des questions ou demandes peuvent être formulées à l’oral par les membres du conseil. S'ils participent au conseil plénier, les animateurs du GT sont invités à répondre aux questions à ce moment-là, ou à prendre note des demandes pour modification ultérieure. Ici encore, si la présentation a été suffisamment anticipée, les retours du conseil ne bloquent généralement pas l’adoption du standard.
 {% endstep %}
 
 {% step %}

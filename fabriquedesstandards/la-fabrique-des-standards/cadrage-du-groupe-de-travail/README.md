@@ -1,5 +1,5 @@
 ---
-cover: ../.gitbook/assets/bandereau7b.png
+cover: ../../.gitbook/assets/bandereau7b.png
 coverY: 0
 layout:
   cover:
@@ -33,13 +33,13 @@ Le [pilote ](https://app.gitbook.com/o/w6D6SnLwCXQaMMSzcTvp/s/weZQRU1RV5So9WzNyx
 * s’il s’agit d’une mise à jour d’un standard existant, contacter les participants au groupe de travail ayant élaboré la version précédente du standard,
 * lancer **un appel à volontaires** pour participer aux travaux.
 
-&#x20;
+Le cadrage du groupe de travail comprend différentes phases :&#x20;
 
 {% stepper %}
 {% step %}
 ### <mark style="color:purple;">RÉDACTION DU MANDAT</mark>
 
-Le mandat du groupe de travail est un document précisant l’objectif des travaux et les besoins auxquels un nouveau standard cherche à répondre. Il cadre le groupe de travail en définissant un plan d’action et les modalités des travaux. Il n’a pas de valeur contraignante (notamment pour les participants qui y sont listés), et n’engage pas juridiquement au respect des échéances décidées ou à la participation au GT. Il doit être rédigé selon [le modèle proposé](cadrage-du-groupe-de-travail.md#modele-de-mandat-specifique-au-groupe-de-travail). Il donne un certain nombre d'indications sur les travaux à venir (il peut ainsi être utile de s'approprier certaines notions avant la rédaction, comme celle de ["schéma de données"](https://schema.data.gouv.fr/apropos.html)).
+Le mandat du groupe de travail est un document précisant l’objectif des travaux et les besoins auxquels un nouveau standard cherche à répondre. Il cadre le groupe de travail en définissant un plan d’action et les modalités des travaux. Il n’a pas de valeur contraignante (notamment pour les participants qui y sont listés), et n’engage pas juridiquement au respect des échéances envisagées ou à la participation au GT. Il doit être rédigé selon [le modèle proposé](./#modele-de-mandat-specifique-au-groupe-de-travail). Il donne un certain nombre d'indications sur les travaux à venir (il peut ainsi être utile de s'approprier certaines notions avant la rédaction, comme celle de ["schéma de données"](https://schema.data.gouv.fr/apropos.html)).
 
 * **Choix du rédacteur du mandat**&#x20;
 
@@ -47,7 +47,7 @@ Selon les cas, un projet de mandat est rédigé par le porteur initial de la dem
 
 * **Présentation du projet de mandat**
 
-Le projet de mandat est présenté pour validation à la Commission des Standards lors de l’une de ses réunions (dont la fréquence est trimestrielle dans la mesure du possible). La date de la prochaine réunion de la Commission peut être trouvée [sur sa page web](https://cnig.gouv.fr/commission-des-standards-a640.html).&#x20;
+Le projet de mandat est présenté pour validation à la Commission des Standards lors de l’une de ses réunions (dont la fréquence est trimestrielle). La date de la prochaine réunion de la Commission peut être trouvée [sur sa page web](https://cnig.gouv.fr/commission-des-standards-a640.html).&#x20;
 
 La présentation doit reprendre les éléments du mandat et dure généralement une quinzaine de minutes. Un résumé du projet de mandat doit être fourni en amont de la réunion pour être ensuite publié dans son compte-rendu.&#x20;
 
@@ -59,16 +59,15 @@ Le mandat est validé par la Commission des Standards au cours de la réunion ap
 {% step %}
 ### <mark style="color:purple;">CONSTITUTION DU GROUPE DE TRAVAIL</mark>
 
-Le groupe de travail doit être **représentatif** des acteurs concernés par le projet de standard. Le pilote a la responsabilité d’y veiller. Parmi les participants peuvent se trouver des producteurs ou utilisateurs de données, ou d’autres parties prenantes (fournisseurs de services intermédiaires, fournisseurs de logiciels traitant les données, métiers liés à la connaissance, à la régulation, aux politiques publiques, etc.). D’une manière générale, il est important de veiller à ce que les connaissances “métier” et “informatique” se complètent au sein du GT.
+Le groupe de travail doit être **représentatif** des acteurs concernés par le projet de standard. Le pilote a la responsabilité d’y veiller. Parmi les participants peuvent se trouver des producteurs ou utilisateurs de données, ou d’autres parties prenantes (fournisseurs de services intermédiaires, fournisseurs de logiciels traitant les données, métiers liés à la connaissance, à la régulation, aux politiques publiques, grands acteurs de l'information géographique et de la donnée, etc.). D’une manière générale, il est important de veiller à ce que les connaissances “métier” et “numérique / géomatique / informatique” se complètent au sein du groupe de travail.
 
 **Voici quelques recommandations pour la constitution du GT :**&#x20;
 
 * Veiller à l’efficacité de la gouvernance (dans le processus de décision notamment) et à la représentativité (associations/fédérations),
-* Obtenir le soutien des acteurs tiers (utilisateurs de données, éditeurs de logiciels, etc.),
-* Considérer l’accompagnement  par un cabinet expert,
+* Obtenir le soutien des acteurs tiers (utilisateurs de données, éditeurs de logiciels, etc.)
 * Organiser des consultations et des points d'information réguliers (en présentiel et en visioconférence), ainsi que des réunions de travail pour les acteurs sous-représentés dans le GT ou défavorisés par des décisions collectives.
 
-Des outils de travail sont créés. Une liste de diffusion est créée (comme décrit [dans la FAQ plus bas](cadrage-du-groupe-de-travail.md#comment-creer-une-liste-de-diffusion)). Une page dédiée au groupe de travail est créée sur le site du CNIG par le secrétariat général. Cette page donnera des informations à jour sur les travaux et hébergera les ressources du GT (mandat, compte-rendus de réunions passées, ordre du jour et agenda des réunions à venir, etc.).&#x20;
+Des outils de travail sont créés ainsi qu'une liste de diffusion (comme décrit [dans la FAQ plus bas](./#comment-creer-une-liste-de-diffusion)). Une page dédiée au groupe de travail est créée sur le site du CNIG par le secrétariat général. Cette page donnera des informations à jour sur les travaux et hébergera les ressources du GT (mandat, compte-rendus de réunions passées, ordre du jour et agenda des réunions à venir, etc.).&#x20;
 
 **Ressources utiles :**&#x20;
 
@@ -91,7 +90,7 @@ Plus généralistes, les outils de data.gouv touchent une communauté d’acteur
 
 * **les canaux spécialisés**
 
-L’annonce de la création du GT est plus efficace si elle vise directement les personnes les plus concernées. Il peut s’agir d’une expertise liée à la thématique du standard (les réseaux, fédérations, ou regroupements d’acteurs du domaine par exemple), à la nature de la donnée (l’information géographique, satellitaire, RADAR, statistique, comptable, etc.), ou encore à l’informatique (réseaux ou associations de professionnels, groupes d’utilisateurs d’un logiciel, etc.). La publication est vivement recommandée sur [le forum GeoRezo](https://georezo.net/forum/) qui compte parmi ses membres des experts de la donnée géographique mais également de nombreuses personnes ayant contribué à l’élaboration de standards. Quand la thématique concerne une compétence des collectivités territoriales, il est également pertinent de communiquer vers le forum SIG-Topo de l’AITF. Toutefois, ce forum étant réservé aux acteurs des collectivités territoriales, il faut contacter l’un des animateurs sur [le site de l'AITF](https://www.aitf.fr/groupe-travail/sig-topographie).
+L’annonce de la création du groupe de travail est plus efficace si elle vise directement les personnes les plus concernées. Il peut s’agir d’une expertise liée à la thématique métier du standard (les réseaux, fédérations, ou regroupements d’acteurs du domaine par exemple), à la nature de la donnée (l’information géographique, satellitaire, RADAR, statistique, comptable, etc.), ou encore à l’informatique (réseaux ou associations de professionnels, groupes d’utilisateurs d’un logiciel, etc.). La publication est vivement recommandée sur [le forum GeoRezo](https://georezo.net/forum/) qui compte parmi ses membres des experts de la donnée géographique mais également de nombreuses personnes ayant contribué à l’élaboration de standards. Quand la thématique concerne une compétence des collectivités territoriales, il est également pertinent de communiquer vers le forum SIG-Topo de l’AITF. Toutefois, ce forum étant réservé aux acteurs des collectivités territoriales, il faut contacter l’un des animateurs sur [le site de l'AITF](https://www.aitf.fr/groupe-travail/sig-topographie).
 
 {% hint style="success" %}
 La participation à un GT du CNIG est **libre et ouverte**. Les demandes de participation peuvent être faites sur le site du CNIG ou directement auprès de l’animateur. Il est demandé à un nouveau participant de se présenter, de présenter ses liens d'appartenance ou d’intérêt en lien avec le domaine étudié.
@@ -118,7 +117,7 @@ Quelques conseils :&#x20;
 {% hint style="success" %}
 Quelques conseils :&#x20;
 
-* Expliquer l’émergence du besoin, les problématiques observées, et le cadre réglementaire,&#x20;
+* En parcourant le mandat du GT, expliquer l’émergence du besoin, les problématiques observées, et le cadre réglementaire,&#x20;
 * Construire l’image de la situation “idéale” à atteindre avant de discuter des livrables pour y aboutir,
 * Utiliser des exemples, notamment pour illustrer ce qu’est un standard CNIG, son contenu et comment il est utilisé,
 * Ouvrir la discussion.&#x20;
@@ -130,7 +129,7 @@ Quelques conseils :&#x20;
 Quelques conseils :&#x20;
 
 * Présenter les outils du GT, proposer certaines modalités pour les travaux (en plénier/ en sous-groupe, l’utilité des réunions et au contraire ce qui doit être fait hors-ligne, etc.),&#x20;
-* Discuter de ce sujet en amont, et s’inspirer de l’expérience de personnes ayant déjà réalisé des standards.
+* Discuter de ce sujet en amont, et s’inspirer de l’expérience de personnes ayant déjà participé à l'élaboration de standards.
 {% endhint %}
 
 4. **Définir un calendrier**
@@ -138,12 +137,13 @@ Quelques conseils :&#x20;
 {% hint style="success" %}
 Quelques conseils :&#x20;
 
-* Tenir compte des contraintes (réglementaires, en termes de disponibilité, etc.) et adapter le calendrier à l’ambition des travaux,&#x20;
+* Tenir compte des contraintes (réglementaires, en termes de disponibilité, etc.) et adapter le calendrier à l’ambition des travaux et au potentiel du groupe de travail,
+* Rappeler le processus du CNIG, lister les points d’étape,&#x20;
 * Prévoir des points d’étape,&#x20;
-* Garder en tête le calendrier du CNIG (et notamment des réunions de la Commission des standards et des réunions du Conseil Plénier). Communiquer au secrétariat général les dates des réunions afin de les communiquer sur le site du CNIG.
+* Garder en tête le calendrier du CNIG (et notamment des réunions de la Commission des standards et des réunions du Conseil Plénier). Communiquer au secrétariat général les dates des réunions afin qu'elles soient communiquées sur le site du CNIG.
 {% endhint %}
 
-Comme pour toutes les réunions du groupe de travail, un compte-rendu doit être rédigé et publié à l'issue de la réunion de lancement (plus d'informations sur la page ["Réalisation du standard"](realisation-du-standard/#comment-publier-un-compte-rendu-cr-de-reunion)).
+Comme pour toutes les réunions du groupe de travail, un compte-rendu doit être rédigé et publié à l'issue de la réunion de lancement (plus d'informations sur la page ["Réalisation du standard"](../realisation-du-standard/#comment-publier-un-compte-rendu-cr-de-reunion)).
 {% endstep %}
 {% endstepper %}
 
@@ -166,7 +166,7 @@ Lors du cadrage du GT, le secrétariat général vous accompagne pour :&#x20;
 
 ### Modèle de mandat spécifique au groupe de travail
 
-{% file src="../.gitbook/assets/GT CNIG - Modèle de mandat.docx" %}
+{% file src="../../.gitbook/assets/GT CNIG - Modèle de mandat.docx" %}
 _Modèle de mandat de GT_&#x20;
 {% endfile %}
 
@@ -202,19 +202,21 @@ Parmi les ressources développées par les services publics, une référence uti
 
 <summary>Comment lancer un appel à participation ? </summary>
 
-En s’appuyant sur les différents canaux indiqués [plus haut](cadrage-du-groupe-de-travail.md#annonce-en-ligne-de-la-creation-du-gt), l’appel à participation doit être lancé avec une visée large (les GT sont ouverts à tous les participants). Les informations suivantes doivent figurer dans l’appel :
+En s’appuyant sur les différents canaux indiqués [plus haut](./#annonce-en-ligne-de-la-creation-du-gt), l’appel à participation doit être lancé avec une visée large et rappeler que les GT sont ouverts à tous les participants. Les informations suivantes doivent figurer dans l’appel :
 
 * qui sont les acteurs à l’origine de l’appel,&#x20;
 * quel est le périmètre de la thématique du GT et son objectif,&#x20;
 * à qui s’adresse l’appel,
 * quel intérêt les participants peuvent trouver aux travaux (prise en compte du standard dans leurs systèmes d’informations existants, transition vers l’interopérabilité, respect de la réglementation, etc.),
 * les liens vers le mandat (ou le projet) et la page du GT sur le site du CNIG,&#x20;
-* les modalités de travail prévues (fréquence des réunions, présence obligatoire ou non, durée du mandat, lien vers outils de travail publics).
+* les modalités de travail prévues (fréquence des réunions, présence souhaitée, durée du mandat, lien vers les outils de travail publics envisagés).
 
 {% hint style="info" %}
 **Voici un modèle d'appel à participation qui peut être réutilisé :**&#x20;
 
-Quelques acteurs impliqués dans la thématique …. ont sollicité le CNIG pour élaborer un standard de (géo)données relatif aux données des … .Pour prendre en compte l’existant dans vos systèmes d’information, les besoins d’interopérabilité entre les système (et éventuellement tenir compte de la législation), nous vous sollicitons pour travailler collectivement dans un groupe de travail animé par … .
+Quelques acteurs impliqués dans la thématique …. ont sollicité le CNIG pour élaborer un standard de (géo)données relatif aux données des … .
+
+Pour prendre en compte l’existant dans vos systèmes d’information, les besoins d’interopérabilité entre les système (et éventuellement tenir compte de la législation), nous vous sollicitons pour travailler collectivement dans un groupe de travail animé par … .
 
 Le mandat du GT est disponible ici _\[insérer le lien]_.
 
@@ -224,7 +226,7 @@ Pour participer aux échanges, les acteurs disposeront d’une plateforme collab
 
 Les travaux seront publiés régulièrement sur la page dédiée du GT _\[insérer le lien vers la page du GT]_.
 
-Nous vous invitons à rejoindre le GT si vous travaillez dans le domaine de … .
+Nous vous invitons à rejoindre le GT si vous travaillez dans le domaine de … et êtes motivés par l'émergence d'un standard dans le cadre d'une démarche institutionnelle et collaborative.
 {% endhint %}
 
 </details>
@@ -254,8 +256,8 @@ Constituez votre liste de diffusion dans un simple fichier texte en séparant le
 
 **Avantages de cette méthode :**&#x20;
 
-* la souplesse d’utilisation : il est facile de faire évoluer cette liste, et notamment de gérer le GT et ses sous-groupes,
-* vous pouvez réserver une partie de la liste pour les invitations, et la liste entière pour l’envoi des compte-rendus,
+* la souplesse d’utilisation : il est facile de faire évoluer cette liste, et notamment de gérer le groupe de travail et ses sous-groupes,
+* vous pouvez réserver une partie de la liste pour les invitations, pour la relecture des participants à la dernière réunion, et la liste entière pour les annonces importantes et l’envoi des compte-rendus,
 * le choix entre les trois options “pour :” ou “copie à :” ou “copie cachée à :” (voir un, mix des trois)
 
 Chaque destinataire peut résilier son abonnement en vous le demandant explicitement.&#x20;
@@ -281,8 +283,8 @@ Le service repose sur le logiciel libre Sympa. Un [tutoriel vidéo](https://fram
 
 ## Retour à la page d'accueil ↓
 
-{% content-ref url="./" %}
-[.](./)
+{% content-ref url="../" %}
+[..](../)
 {% endcontent-ref %}
 
 ## Page précédente et page suivante ↓

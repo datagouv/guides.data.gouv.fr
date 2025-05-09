@@ -14,7 +14,7 @@ layout:
 
 # Atteindre un consensus
 
-La rédaction d’un standard nécessite la confrontation de profils diversifiés aux points de vue souvent divergents. La prise de décision dans le groupe peut sembler difficile lorsque les désaccords sont très prononcés. La méthodologie suivante aidera l’animateur à organiser une session d’atteinte de consensus sur un sujet spécifique. Elle est issue de la littérature sur le sujet, adaptée au cas de la production d’un standard.&#x20;
+La rédaction d’un standard nécessite la confrontation de profils diversifiés aux points de vue potentiellement divergents. La prise de décision dans le groupe peut sembler difficile lorsque les désaccords sont très prononcés. Lorsque le consensus n'est pas atteint dans le fil de discussion portant sur un sujet spécifique, la méthodologie suivante aidera l’animateur à organiser une session d’atteinte de consensus sur ce sujet. Elle est issue de la littérature sur le sujet, adaptée au cas de la production d’un standard.&#x20;
 
 {% stepper %}
 {% step %}
@@ -47,7 +47,7 @@ A partir des discussions précédentes, la piste pour laquelle les désaccords s
 Une fois que tous les points ont été débattus, la proposition peut être proposée à l’adoption du groupe. Les participants doivent exprimer leur accord ou leur désaccord selon plusieurs types :&#x20;
 
 * **accord** : le participant accepte la proposition sans réserve ;
-* **réserves** : le participant n'est pas convaincu par la proposition, mais ne s’y oppose pas et s'impliquera dans sa mise en oeuvre ;
+* **réserves** : le participant n'est pas convaincu par la proposition, mais ne s’y oppose pas et s'impliquera dans sa mise en œuvre ;
 * **retrait** : le participant ne cautionne pas la décision pour des raisons qui peuvent être diverses - faute de temps, désaccord total avec la proposition, etc. - mais ne veut pas empêcher le groupe d'avancer. Il laisse la décision se prendre, mais ne s'impliquera pas dans sa mise en œuvre.
 * **blocage** : le participant n'adhère pas du tout à la proposition et demande la recherche d'une nouvelle proposition. Le groupe devra soit accepter le blocage et trouver une nouvelle proposition ou bien solutionner les points qui bloquent le consensus.
 

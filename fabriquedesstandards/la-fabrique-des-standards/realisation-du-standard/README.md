@@ -89,16 +89,18 @@ Pour aller plus loin : voir [les ressources du SEMIC](https://interoperable-euro
 {% step %}
 ### <mark style="color:purple;">CAHIER DES CHARGES A RESPECTER</mark>
 
+Le standard doit respecter le modèle proposé (cf. les ressources utiles de cette page) et suivre les indications qui y sont données. Plus généralement, voici plusieurs recommandations ci-dessous.
+
 **Les standards du CNIG doivent obligatoirement détailler :**&#x20;
 
 * [ ] Leur raison d’être (enjeux, objectifs, réglementation, etc.),
 * [ ] La méthodologie d’élaboration suivie (composition du GT, étapes suivies, etc.),&#x20;
 * [ ] Leurs conditions d’utilisation (destinataires, cas d’usage, applications, etc.),
 * [ ] Les concepts utilisés (définitions, ontologies, standards liés, systèmes de référence, etc.),&#x20;
-* [ ] Le modèle conceptuel de données,
+* [ ] Le modèle conceptuel de données suivant le formalisme UML,
 * [ ] Les règles concernant les données et métadonnées (qualité, application d’INSPIRE, etc.).
 
-**Additionnellement, le standard peut contenir :**&#x20;
+**Additionnellement, le standard peut être complété par :**&#x20;
 
 * [ ] un schéma de données,&#x20;
 * [ ] des éléments méthodologiques sur la collecte et l’utilisation des données,&#x20;
@@ -156,17 +158,17 @@ _Exemple de données de test pour le standard Friches_
 
 <summary>Comment référencer le standard sur schema.data.gouv ?</summary>
 
-Le référencement sur schéma.data.gouv n’est pas automatique. Il est nécessaire de demander à l’équipe de la DINUM de le réaliser en suivant les étapes suivantes :&#x20;
+L'annonce sur schéma.data.gouv n’est pas automatique. Il est nécessaire de demander à l’équipe de la DINUM de le réaliser en suivant les étapes suivantes :&#x20;
 
 * Sur la page Github de schema.data.gouv, [créer une “issue”](https://github.com/datagouv/schema.data.gouv.fr/issues/new/choose), et sélectionner “Référencer un schéma”,&#x20;
 * Remplir le modèle fourni (sans modifier les titres indiqués par les symboles #),
 
 {% hint style="info" %}
 **Note** : pour vous familiariser avec la syntaxe markdown, [ce guide publié par Github ](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)peut être utile.
+{% endhint %}
 
 * Cliquer sur “Create”,
-* Attendre le retour de la DINUM en commentaire de l’issue créée et prendre en compte les suggestions (il peut être nécessaire de mettre à jour votre abonnement aux alertes de github, ou de vous connecter régulièrement au site).
-{% endhint %}
+* Attendre le retour de la DINUM en commentaire de l’issue créée et prendre en compte les suggestions (il peut être nécessaire de mettre à jour votre abonnement aux alertes de Github dans l'onglet "Notifications" des paramètres de votre compte, ou de vous connecter régulièrement au site).
 
 </details>
 
@@ -174,20 +176,19 @@ Le référencement sur schéma.data.gouv n’est pas automatique. Il est nécess
 
 <summary>Comment publier un compte rendu (CR) de réunion ?</summary>
 
-Le compte rendu de réunion est rédigé par les animateurs du GT quelques jours après la réunion (voir le modèle proposé plus haut). Il est d'abord soumis au groupe de travail pour relecture sous un délai raisonnable (une semaine convient) à indiquer aux membres.&#x20;
+Le compte rendu de réunion est rédigé par l'animateur du GT quelques jours après la réunion (voir le modèle proposé plus haut). Il est d'abord soumis au groupe de travail pour relecture sous un délai raisonnable (une semaine convient) à indiquer aux membres.&#x20;
 
 {% hint style="info" %}
-A noter que le CNIG ne propose pas d’outils de travail collaboratif en ligne. Les outils gratuits permettent généralement de répondre aux besoins des GT lorsque les institutions d’appartenance des animateurs ne peuvent pas mettre ces services à disposition (en prêtant attention à la protection des données confidentielles avec ces outils).
+A l'heure actuelle le CNIG ne propose pas d’outils de travail collaboratif en ligne. Les outils gratuits de type suite bureautique en ligne ou autres permettent généralement de répondre aux besoins des GT lorsque les institutions d’appartenance des animateurs ne peuvent pas mettre ces services à disposition (en prêtant attention à la protection des données confidentielles avec ces outils).
 {% endhint %}
 
-Après avoir tenu compte des retours, le CR est publié dans sa version finale dans l'espace de travail du GT (Github ou autre espace partagé) et sur la page du GT du site du CNIG. Pour cela, le CR doit être envoyé au secrétariat général du CNIG. &#x20;
+Après avoir tenu compte les retours de ses relecteurs, le CR est publié dans sa version finale dans l'espace de travail du GT (Github ou autre espace partagé) et sur la page du GT du site du CNIG, par le secrétariat général du CNIG à qui il aura été transmis
 
-Les animateurs informent ensuite sur la publication du CR :&#x20;
+L'animateur informe ensuite sur la publication du CR :&#x20;
 
 * le GT,&#x20;
 * les personnes à informer au sein du CNIG,&#x20;
-* les personnes externes concernées (comme la hiérarchie des animateurs),
-* le secrétariat général si cela n'a pas déjà été fait (notamment pour proposer que l'information soit relayée dans l'infolettre du CNIG).
+* les personnes externes concernées (comme la hiérarchie des animateurs).
 
 </details>
 

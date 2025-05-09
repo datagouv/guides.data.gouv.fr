@@ -19,7 +19,7 @@ layout:
 
 # Initialisation des travaux
 
-**Cette phase vous permet de vous projeter dans les travaux avant de lancer la construction du standard.**
+**Cette phase vous permet de vous projeter dans les travaux avant de lancer la réalisation du standard.**
 
 ***
 
@@ -43,20 +43,20 @@ La réalisation du standard est une étape plus ou moins exigeante selon la comp
 
 * **Validation du standard - de quelques jours à quelques semaines**
 
-Une présentation bien préparée devant la commission des standards et le sérieux des travaux tout au long de la procédure garantissent généralement l’adoption du standard. Il est alors possible de poursuivre directement avec la validation par le conseil plénier sans attendre.
+Une présentation bien préparée devant la commission des standards, le suivi rigoureux du processus CNIG et le sérieux des travaux tout au long de la procédure garantissent généralement l’adoption du standard. La validation formelle de la commission des standards sera suivie de la validation définitive par le conseil plénier du CNIG, qui se réunit deux à trois fois par an.
 
 Dans le cas d'un conflit de calendrier, le Secrétariat Général peut vous accompagner pour identifier des solutions en lien avec le président ou la présidente de la commission des standards.&#x20;
 
 * **Déploiement du standard - variable**
 
-Le déploiement du standard sort du cadre du GT du CNIG. La durée de cette étape dépendra des situations et peut se poursuivre dans le temps avec l’arrivée de nouveaux acteurs à former, des évolutions à apporter au standard, le développement de nouveaux outils, etc.&#x20;
+Le déploiement du standard sort du cadre du GT du CNIG. La durée de cette étape dépendra des situations à mettre en œuvre et peut se poursuivre dans le temps avec l’arrivée de nouveaux acteurs à former, des évolutions à apporter au standard, le développement de nouveaux outils, etc.&#x20;
 
 
 
 **En résumé, les standards sont réalisés en 18 mois en moyenne, bien que la durée du processus soit assez variable : de 9 mois pour les plus rapides à plusieurs années pour les plus complexes (selon le nombre d’acteurs impliqués, le périmètre des travaux, les difficultés de calendrier…).**&#x20;
 
 {% hint style="info" %}
-**Note** : Ces durées sont purement indicatives et fondées sur les pratiques observées avant la création de la Fabrique des standards. Dans un objectif “d’industrialisation” des standards, nous espérons bien permettre aux porteurs d’améliorer l’efficacité du processus
+**Note** : Ces durées sont purement indicatives et fondées sur les pratiques observées avant la création de la Fabrique des standards, qui vise à optimiser le processus. Dans un objectif “d’industrialisation” des standards, nous espérons permettre aux porteurs d’améliorer l’efficacité du processus.
 {% endhint %}
 
 ## <mark style="background-color:purple;">Avant de se lancer : le rôle du pilote</mark>&#x20;

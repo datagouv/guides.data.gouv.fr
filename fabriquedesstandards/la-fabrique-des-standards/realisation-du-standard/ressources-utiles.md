@@ -24,11 +24,13 @@ La modélisation des données est une compétence du domaine de l'informatique p
 * \[débutant] le [module "Introduction à la modélisation conceptuelle de données avec UML"](https://nf18.ens.utc.fr/cours/02Cmod1-uml_web/co/mod1.html) de l'UTC,
 * \[avancé] les [ressources produites par Stéphane Pelle](http://pelle.stephane.free.fr/) à l'ENSG,
 
-
-
-**Directive INSPIRE**&#x20;
+### **Directive INSPIRE**&#x20;
 
 * le [guide de saisie des éléments de métadonnées INSPIRE ](https://cnig.gouv.fr/IMG/pdf/guide-de-saisie-des-elements-de-metadonnees-inspire-v2.0-allege.pdf)du CNIG,&#x20;
+
+## <mark style="background-color:purple;">Outils</mark>
+
+<mark style="background-color:purple;">\[</mark>:construction: en construction :construction:]
 
 ## <mark style="background-color:purple;">Besoin d'inspiration ?</mark>
 
