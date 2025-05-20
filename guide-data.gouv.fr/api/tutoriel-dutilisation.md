@@ -1,5 +1,7 @@
 # Tutoriel d'utilisation
 
+> Si vous souhaitez utiliser `python` pour gérer vos jeux de données, l'équipe de data.gouv.fr maintient un package qui facilite les interactions : [`datagouv-client`](https://github.com/datagouv/datagouv_client) . Son fonctionnement est détaillé dans [la section suivante](gerer-un-jeu-de-donnees-par-lapi.md).
+
 Tous les exemples utilisent [httpie](http://httpie.org/) et [jq](http://stedolan.github.io/jq/) pour faciliter la lisibilité. Vous n’êtes pas contraint d’utiliser ces bibliothèques pour votre code, ce sont juste des outils pour mieux comprendre l’API.
 
 ### Vérifier que httpie fonctionne <a href="#verifier-que-httpie-fonctionne" id="verifier-que-httpie-fonctionne"></a>
