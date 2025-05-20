@@ -41,7 +41,7 @@ export RESOURCE = '54d47250-1daf-483b-965a-3013f8c76617'
 
 {% tab title="Python" %}
 ```python
-# Tous les examples Python sont executés avec cette convention
+# Tous les exemples Python sont executés avec cette convention
 
 import requests  # installé avec `pip install requests`
 
@@ -57,6 +57,23 @@ HEADERS = {
 
 def api_url(path):
     return ''.join(API, path)
+```
+{% endtab %}
+
+{% tab title="datagouv-client" %}
+```python
+# Tous les exemples Python sont executés avec cette convention
+
+from datagouv import Client, Dataset, Resource  # installé avec `pip install datagouv-client`
+
+# vous devez avoir les droits sur les objets que vous souhaitez modifier modifier
+ORG = "5bbb6d6cff66bd4dc17bfd5a"
+DATASET = "5bc04b2cff66bd680e499f4a"
+RESOURCE = "54d47250-1daf-483b-965a-3013f8c76617"
+client = Client(
+    environment="www",  # pour cibler la plateforme de production, également possible de cibler demo ou dev
+    api_key="my-api-key",  # utilisez bien la clé API de la plateforme spécifiée ci-dessus
+)
 ```
 {% endtab %}
 {% endtabs %}
@@ -94,6 +111,18 @@ response = requests.post(url, json={
     'description': 'Ma description',
     'organization': ORG,
 }, headers=HEADERS)
+```
+{% endtab %}
+
+{% tab title="datagouv-client" %}
+```python
+dataset = client.dataset().create(
+    {
+        "title": "Mon titre", 
+        "description": "Ma description",
+        "organization": ORG,
+    },
+)
 ```
 {% endtab %}
 {% endtabs %}
@@ -145,6 +174,29 @@ response = requests.post(url, files={
 }, headers=HEADERS)
 ```
 {% endtab %}
+
+{% tab title="datagouv-client" %}
+```
+resource = client.resource().create_static(
+    file_to_upload="/chemin/vers/le/fichier",
+    payload={
+        "title": "Nouvelle ressource",
+        "type": "main",  # optionnel, "main" par défaut
+    },
+    dataset_id=DATASET,
+)
+
+# ou alternativement au sein du dataset
+dataset = client.dataset(DATASET)
+resource = dataset.create_static(
+    file_to_upload="/chemin/vers/le/fichier",
+    payload={
+        "title": "Nouvelle ressource",
+        "type": "main",  # optionnel, "main" par défaut
+    },
+)
+```
+{% endtab %}
 {% endtabs %}
 
 La ressource est automatiquement créée et il est possible de modifier _a posteriori_ les métadonnées avec l’API de mise à jour de ressource comme décrit [plus bas](gerer-un-jeu-de-donnees-par-lapi.md#mise-a-jour-des-metadonnees-dune-ressource).
@@ -189,6 +241,28 @@ response = requests.post(url, json={
 
 ```
 {% endtab %}
+
+{% tab title="datagouv-client" %}
+<pre class="language-python"><code class="lang-python">resource = client.resource().create_remote(
+    payload={
+        "url": "https://url.to/ressource.csv",
+        "title": "Nouvelle ressource distante",
+        "type": "main",  # optionnel, "main" par défaut
+    },
+    dataset_id=DATASET,
+)
+
+# ou alternativement au sein du dataset
+dataset = client.dataset(DATASET)
+<strong>resource = dataset.create_remote(
+</strong>    payload={
+        "url": "https://url.to/ressource.csv",
+        "title": "Nouvelle ressource distante",
+        "type": "main",  # optionnel, "main" par défaut
+    },
+)
+</code></pre>
+{% endtab %}
 {% endtabs %}
 
 ## Modification d’un jeu de données <a href="#modification-dun-jeu-de-donnees" id="modification-dun-jeu-de-donnees"></a>
@@ -228,6 +302,18 @@ response = requests.put(url, json={
 }, headers=HEADERS)
 ```
 {% endtab %}
+
+{% tab title="datagouv-client" %}
+```python
+dataset = client.dataset(DATASET)
+dataset.update(
+    {
+        "title": "Nouveau titre",
+        "description": "Nouvelle description",
+    },
+)
+```
+{% endtab %}
 {% endtabs %}
 
 ### Mise à jour des métadonnées d’une ressource <a href="#mise-a-jour-des-metadonnees-dune-ressource" id="mise-a-jour-des-metadonnees-dune-ressource"></a>
@@ -263,6 +349,21 @@ response = requests.put(url, json={
 }, headers=HEADERS)
 ```
 {% endtab %}
+
+{% tab title="datagouv-client" %}
+```python
+resource = client.resource(
+    id=RESOURCE,
+    dataset_id=DATASET,  # optionnel, il est récupéré si non renseigné 
+)
+resource.update(
+    {
+        "title": "Nouveau titre",
+        "description": "Nouvelle description",
+    },
+)
+```
+{% endtab %}
 {% endtabs %}
 
 ### Remplacer un fichier de ressource <a href="#remplacer-un-fichier-de-ressource" id="remplacer-un-fichier-de-ressource"></a>
@@ -293,6 +394,18 @@ url = api_url('/datasets/{}/resources/{}/upload/'.format(DATASET, RESOURCE))
 response = requests.post(url, files={
     'file': open('/chemin/vers/le/nouveau/fichier', 'rb'),
 }, headers=HEADERS)
+```
+{% endtab %}
+
+{% tab title="datagouv-client" %}
+```python
+resource = client.resource(
+    id=RESOURCE,
+    dataset_id=DATASET,  # optionnel, il est récupéré si non renseigné 
+)
+resource.update(
+    file_to_upload="/chemin/vers/le/nouveau/fichier"
+)
 ```
 {% endtab %}
 {% endtabs %}
@@ -328,6 +441,16 @@ url = api_url('/datasets/{}/resources/{}/'.format(DATASET, RESOURCE))
 response = requests.delete(url, headers=HEADERS)
 ```
 {% endtab %}
+
+{% tab title="datagouv-client" %}
+```python
+resource = client.resource(
+    id=RESOURCE,
+    dataset_id=DATASET,  # optionnel, il est récupéré si non renseigné 
+)
+resource.delete()
+```
+{% endtab %}
 {% endtabs %}
 
 ## Suppression d’un jeu de données <a href="#suppression-dun-jeu-de-donnees" id="suppression-dun-jeu-de-donnees"></a>
@@ -353,6 +476,13 @@ http DELETE $API/datasets/$DATASET/ X-Api-Key:$API_KEY
 ```python
 url = api_url('/datasets/{}/'.format(DATASET))
 response = requests.delete(url, headers=HEADERS)
+```
+{% endtab %}
+
+{% tab title="datagouv-client" %}
+```python
+dataset = client.dataset(DATASET)
+dataset.delete()
 ```
 {% endtab %}
 {% endtabs %}
