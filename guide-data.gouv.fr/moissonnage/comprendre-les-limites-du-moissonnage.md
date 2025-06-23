@@ -12,7 +12,7 @@ Certains champs du modèle de data.gouv.fr possèdent un équivalent qui peut ê
 
 Lors d'une suppression à la source (un ou plusieurs jeux de données qui ne sont plus présents sur la plateforme moissonnée), data.gouv.fr conserve les jeux de données sur sa plateforme. Le but est d'éviter les suppressions en masse par erreur, ce qui entraînerait une perte des statistiques, des discussions et des ressources communautaires de chaque jeu de données.
 
-Au bout d'une période de 7 jours, ils sont marqués comme archivés. L'archivage des jeux de données implique qu'ils ne soient plus indexés ou visibles dans les statistiques des producteurs, mais bien accessibles par lien direct pour les utilisateurs qui souhaiteraient continuer à y accéder.
+Au bout d'une période de 2 jours, ils sont marqués comme archivés. L'archivage des jeux de données implique qu'ils ne soient plus indexés ou visibles dans les statistiques des producteurs, mais bien accessibles par lien direct pour les utilisateurs qui souhaiteraient continuer à y accéder.
 
 Dans le cas d’une suppression ponctuelle, nous vous invitons à supprimer manuellement le jeu de données moissonné qui a perdu sa source.&#x20;
 
