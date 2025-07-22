@@ -41,30 +41,30 @@ Pour télécharger les données, vous pouvez vous rendre sur :
 ### Dans les données version DGFiP
 
 Il est possible de prendre les données :
-- en choisissant par millésime et par types de fichiers souhaités https://cadastre.data.gouv.fr/datasets/plan-cadastral-informatise#millesimes-disponibles-telechargement-direct
-- en passant par l'aide au téléchargement qui permet de chercher les données par nom de ressource plutôt qu'avec des codes. L'outil permet aussi de télécharger une commune complète ou un EPCI complet sans devoir prendre chaque feuille de chaque commune
+- en choisissant [par millésime et par types de fichiers souhaités](https://cadastre.data.gouv.fr/datasets/plan-cadastral-informatise#millesimes-disponibles-telechargement-direct)
+- en passant par [l'aide au téléchargement](https://cadastre.data.gouv.fr/datasets/plan-cadastral-informatise#aide-au-telechargement) qui permet de chercher les données par nom de ressource plutôt qu'avec des codes. L'outil permet aussi de télécharger une commune complète ou un EPCI complet sans devoir prendre chaque feuille de chaque commune
 
 ### Dans les données version Etalab
 
 Il existe exactement le même principe que pour les données version DGFIP avec :
-- le téléchargement direct https://cadastre.data.gouv.fr/datasets/cadastre-etalab#millesimes-disponibles-telechargement-direct
-- l'aide au téléchargement https://cadastre.data.gouv.fr/datasets/plan-cadastral-informatise#aide-au-telechargement
+- (le téléchargement direct)[https://cadastre.data.gouv.fr/datasets/cadastre-etalab#millesimes-disponibles-telechargement-direct)
+- [l'aide au téléchargement](https://cadastre.data.gouv.fr/datasets/plan-cadastral-informatise#aide-au-telechargement)
 
 Derrière ces outils se cachent deux URLs :
-- la première pour les données les plus récentes, de 2022/2023 à aujourd'hui https://cadastre.data.gouv.fr/data/
-- les autres pour les données les plus anciennes, avant 2022 https://files.data.gouv.fr/cadastre/
+- la première pour les données les plus récentes, de 2022/2023 à aujourd'hui <https://cadastre.data.gouv.fr/data/>
+- les autres pour les données les plus anciennes, avant 2022 <https://files.data.gouv.fr/cadastre/>
 
 {% hint style="info" %}
 La bascule de l'un à l'autre est liée au fait que l'on souhaite pouvoir gagner de l'espace disque sur le serveur mettant à disposition les données récentes.
 Cette bascule permet de supprimer un certain nombre de jeu de données redondants. Cela facilite la consommation mais fait plus que doubler la taille des données pour un millésime.
-Nous avons commencé pour des raisons de sauvegarde et d'espace disque à basculer certaines données sur un bucket Minio. **Ainsi, à terme https://files.data.gouv.fr/cadastre/ sera amené à disparaitre.**
+Nous avons commencé pour des raisons de sauvegarde et d'espace disque à basculer certaines données sur un bucket Minio. **Ainsi, à terme <https://files.data.gouv.fr/cadastre/> sera amené à disparaitre.**
 {% endhint %}
 
 ### Accès aux anciennes données via Minio
 
 Comme évoqué, cette manière de récupérer les données s'appuie sur Minio.
 
-Il est possible de passer par une interface graphique navigable https://object.infra.data.gouv.fr/browser/cadastre/ pour télécharger. 
+Il est possible de passer par [une interface graphique navigable)[https://object.infra.data.gouv.fr/browser/cadastre/) pour télécharger. 
 
 {% hint style="info" %}
 L'interface ne permet pas de copier/coller une URL, il faut cliquer de manière répétée sur chaque fichier souhaité. Cela reste peu pratique dans le cadre d'une automatisation.
@@ -76,9 +76,9 @@ Deux options sont alors proposées :
 
 #### Approche métadonnées
 
-Pour avoir une liste complète pour un millésime, prenez les fichiers metadata-cadastre-XXXX-XX-XX.csv.gz et metadata-cadastre-XXXX-XX-XX.json.gz
+Pour avoir une liste complète pour un millésime, prenez les fichiers `metadata-cadastre-XXXX-XX-XX.csv.gz` et `metadata-cadastre-XXXX-XX-XX.json.gz`
 
-Pour cela, l'URL sera https://object.data.gouv.fr/cadastre/ suivi du nom de fichier, soit les URLs suivantes :
+Pour cela, l'URL sera <https://object.data.gouv.fr/cadastre/> suivi du nom de fichier, soit les URLs suivantes :
 
 
 |   Année    |                                   CSV                                    |                                    JSON                                    |
@@ -105,7 +105,7 @@ Pour cela, l'URL sera https://object.data.gouv.fr/cadastre/ suivi du nom de fich
 | 2022-10-01 | https://object.data.gouv.fr/cadastre/metadata-cadastre-2022-10-01.csv.gz | https://object.data.gouv.fr/cadastre/metadata-cadastre-2022-10-01.json.gz  |
 | 2023-01-01 | https://object.data.gouv.fr/cadastre/metadata-cadastre-2023-01-01.csv.gz | https://object.data.gouv.fr/cadastre/metadata-cadastre-2023-01-01.json.gz  |
 
-Sous Linux ou MacOS, il est possible de décompresser les fichiers gz par défaut. Si vous êtes sous Windows, nous vous recommandons d'installer le logiciel libre 7zip en le récupérant depuis https://www.7-zip.fr
+Sous Linux ou MacOS, il est possible de décompresser les fichiers gz par défaut. Si vous êtes sous Windows, nous vous recommandons d'installer le logiciel libre 7zip en le récupérant depuis <https://www.7-zip.fr>
 
 En ligne de commande, vous pouvez accéder à la donnée ainsi
 
@@ -118,7 +118,7 @@ curl -s https://object.data.gouv.fr/cadastre/metadata-cadastre-2023-01-01.csv.gz
 
 Pour héberger les données plus anciennes, nous utilisons un produit nommé Minio Server qui permet d'utiliser le protocole S3 défini par Amazon, mais sans dépendre d'un hébergeur.
 Pour pouvoir facilement consommer les données, il faut d'abord installer le client qui lui correspond, minio-client ici.
-Il vous faudra ensuite suivre les instructions d'installation sur https://min.io/docs/minio/linux/reference/minio-mc.html#quickstart
+Il vous faudra ensuite suivre les instructions d'installation sur <https://min.io/docs/minio/linux/reference/minio-mc.html#quickstart>
 
 {% hint style="warning" %}
 Attention, la manière de définir l'alias est pour Linux
@@ -203,7 +203,7 @@ mc ls cadastre_gouv_no_authent/cadastre/dgfip-pci-vecteur/${year}/edigeo-cc/feui
 ```
 
 
-Vous pouvez aussi avoir besoin d'automatiser avec un language de programmation. Voici ci-dessous un exemple en Python dont la documentation est disponible sur https://min.io/docs/minio/linux/developers/python/minio-py.html. Il existe d'autres librairies/SDK, en Java, Javascript, .Net, Haskell, C++ pour accéder aux données https://min.io/docs/minio/linux/developers/minio-drivers.html
+Vous pouvez aussi avoir besoin d'automatiser avec un language de programmation. Voici ci-dessous un exemple en Python dont la documentation est disponible sur <https://min.io/docs/minio/linux/developers/python/minio-py.html>. Il existe d'autres librairies/SDK, en Java, Javascript, .Net, Haskell, C++ pour accéder aux données <https://min.io/docs/minio/linux/developers/minio-drivers.html>
 
 
 ```python
@@ -320,6 +320,7 @@ Plusieurs solutions sont disponibles pour accéder aux fonds de plan du cadastre
 
 Il existe de nombreuses autres couches d'information liées aux cadastre proposées par l'IGN. Il est possible de les chercher depuis la [page de documentation de Geoservices](https://geoservices.ign.fr/documentation/services), en prenant les fichiers CSV des géoservices de la Géoplateforme.
 
+<a id="faq-decalage-parcelles"></a>
 {% hint style="danger" %}
 #### Attention
 

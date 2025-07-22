@@ -4,6 +4,14 @@
 
 <details>
 
+<summary>Je constate des décalages entre le plan et le terrain</summary>
+
+Nous vous invitons à consulter [cette explication concernant ce décalage](https://guides.data.gouv.fr/reutiliser-des-donnees/autour-du-cadastre/manipuler-les-donnees-du-cadastre#faq-decalage-parcelles)
+
+</details>
+
+<details>
+
 <summary>Comment rechercher/connaître un propriétaire ?</summary>
 
 Nous ne disposons pas d'informations sur les propriétaires actuels ou anciens. De ce fait, nous ne pouvons pas les communiquer. Il vous est possible de demander ces informations.
