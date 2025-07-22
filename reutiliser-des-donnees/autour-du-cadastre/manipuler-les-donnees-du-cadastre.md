@@ -83,27 +83,27 @@ Pour cela, l'URL sera <https://object.data.gouv.fr/cadastre/> suivi du nom de fi
 
 |   Année    |                                   CSV                                    |                                    JSON                                    |
 |------------|--------------------------------------------------------------------------|----------------------------------------------------------------------------|
-| 2017-07-06 | https://object.data.gouv.fr/cadastre/metadata-cadastre-2017-07-06.csv.gz | https://object.data.gouv.fr/cadastre/metadata-cadastre-2017-07-06.json.gz  |
-| 2017-10-12 | https://object.data.gouv.fr/cadastre/metadata-cadastre-2017-10-12.csv.gz | https://object.data.gouv.fr/cadastre/metadata-cadastre-2017-10-12.json.gz  |
-| 2018-01-02 | https://object.data.gouv.fr/cadastre/metadata-cadastre-2018-01-02.csv.gz | https://object.data.gouv.fr/cadastre/metadata-cadastre-2018-01-02.json.gz  |
-| 2018-04-03 | https://object.data.gouv.fr/cadastre/metadata-cadastre-2018-04-03.csv.gz | https://object.data.gouv.fr/cadastre/metadata-cadastre-2018-04-03.json.gz  |
-| 2018-06-29 | https://object.data.gouv.fr/cadastre/metadata-cadastre-2018-06-29.csv.gz | https://object.data.gouv.fr/cadastre/metadata-cadastre-2018-06-29.json.gz  |
-| 2018-10-01 | https://object.data.gouv.fr/cadastre/metadata-cadastre-2018-10-01.csv.gz | https://object.data.gouv.fr/cadastre/metadata-cadastre-2018-10-01.json.gz  |
-| 2019-01-01 | https://object.data.gouv.fr/cadastre/metadata-cadastre-2019-01-01.csv.gz | https://object.data.gouv.fr/cadastre/metadata-cadastre-2019-01-01.json.gz  |
-| 2019-04-01 | https://object.data.gouv.fr/cadastre/metadata-cadastre-2019-04-01.csv.gz | https://object.data.gouv.fr/cadastre/metadata-cadastre-2019-04-01.json.gz  |
-| 2019-07-01 | https://object.data.gouv.fr/cadastre/metadata-cadastre-2019-07-01.csv.gz | https://object.data.gouv.fr/cadastre/metadata-cadastre-2019-07-01.json.gz  |
-| 2019-10-01 | https://object.data.gouv.fr/cadastre/metadata-cadastre-2019-10-01.csv.gz | https://object.data.gouv.fr/cadastre/metadata-cadastre-2019-10-01.json.gz  |
-| 2020-01-01 | https://object.data.gouv.fr/cadastre/metadata-cadastre-2020-01-01.csv.gz | https://object.data.gouv.fr/cadastre/metadata-cadastre-2020-01-01.json.gz  |
-| 2020-07-01 | https://object.data.gouv.fr/cadastre/metadata-cadastre-2020-07-01.csv.gz | https://object.data.gouv.fr/cadastre/metadata-cadastre-2020-07-01.json.gz  |
-| 2020-10-01 | https://object.data.gouv.fr/cadastre/metadata-cadastre-2020-10-01.csv.gz | https://object.data.gouv.fr/cadastre/metadata-cadastre-2020-10-01.json.gz  |
-| 2021-02-01 | https://object.data.gouv.fr/cadastre/metadata-cadastre-2021-02-01.csv.gz | https://object.data.gouv.fr/cadastre/metadata-cadastre-2021-02-01.json.gz  |
-| 2021-04-01 | https://object.data.gouv.fr/cadastre/metadata-cadastre-2021-04-01.csv.gz | https://object.data.gouv.fr/cadastre/metadata-cadastre-2021-04-01.json.gz  |
-| 2021-07-01 | https://object.data.gouv.fr/cadastre/metadata-cadastre-2021-07-01.csv.gz | https://object.data.gouv.fr/cadastre/metadata-cadastre-2021-07-01.json.gz  |
-| 2021-10-01 | https://object.data.gouv.fr/cadastre/metadata-cadastre-2021-10-01.csv.gz | https://object.data.gouv.fr/cadastre/metadata-cadastre-2021-10-01.json.gz  |
-| 2022-01-01 | https://object.data.gouv.fr/cadastre/metadata-cadastre-2022-01-01.csv.gz | https://object.data.gouv.fr/cadastre/metadata-cadastre-2022-01-01.json.gz  |
-| 2022-07-01 | https://object.data.gouv.fr/cadastre/metadata-cadastre-2022-07-01.csv.gz | https://object.data.gouv.fr/cadastre/metadata-cadastre-2022-07-01.json.gz  |
-| 2022-10-01 | https://object.data.gouv.fr/cadastre/metadata-cadastre-2022-10-01.csv.gz | https://object.data.gouv.fr/cadastre/metadata-cadastre-2022-10-01.json.gz  |
-| 2023-01-01 | https://object.data.gouv.fr/cadastre/metadata-cadastre-2023-01-01.csv.gz | https://object.data.gouv.fr/cadastre/metadata-cadastre-2023-01-01.json.gz  |
+| 2017-07-06 | <https://object.data.gouv.fr/cadastre/metadata-cadastre-2017-07-06.csv.gz> | <https://object.data.gouv.fr/cadastre/metadata-cadastre-2017-07-06.json.gz>  |
+| 2017-10-12 | <https://object.data.gouv.fr/cadastre/metadata-cadastre-2017-10-12.csv.gz> | <https://object.data.gouv.fr/cadastre/metadata-cadastre-2017-10-12.json.gz>  |
+| 2018-01-02 | <https://object.data.gouv.fr/cadastre/metadata-cadastre-2018-01-02.csv.gz> | <https://object.data.gouv.fr/cadastre/metadata-cadastre-2018-01-02.json.gz>  |
+| 2018-04-03 | <https://object.data.gouv.fr/cadastre/metadata-cadastre-2018-04-03.csv.gz> | <https://object.data.gouv.fr/cadastre/metadata-cadastre-2018-04-03.json.gz>  |
+| 2018-06-29 | <https://object.data.gouv.fr/cadastre/metadata-cadastre-2018-06-29.csv.gz> | <https://object.data.gouv.fr/cadastre/metadata-cadastre-2018-06-29.json.gz>  |
+| 2018-10-01 | <https://object.data.gouv.fr/cadastre/metadata-cadastre-2018-10-01.csv.gz> | <https://object.data.gouv.fr/cadastre/metadata-cadastre-2018-10-01.json.gz>  |
+| 2019-01-01 | <https://object.data.gouv.fr/cadastre/metadata-cadastre-2019-01-01.csv.gz> | <https://object.data.gouv.fr/cadastre/metadata-cadastre-2019-01-01.json.gz>  |
+| 2019-04-01 | <https://object.data.gouv.fr/cadastre/metadata-cadastre-2019-04-01.csv.gz> | <https://object.data.gouv.fr/cadastre/metadata-cadastre-2019-04-01.json.gz>  |
+| 2019-07-01 | <https://object.data.gouv.fr/cadastre/metadata-cadastre-2019-07-01.csv.gz> | <https://object.data.gouv.fr/cadastre/metadata-cadastre-2019-07-01.json.gz>  |
+| 2019-10-01 | <https://object.data.gouv.fr/cadastre/metadata-cadastre-2019-10-01.csv.gz> | <https://object.data.gouv.fr/cadastre/metadata-cadastre-2019-10-01.json.gz>  |
+| 2020-01-01 | <https://object.data.gouv.fr/cadastre/metadata-cadastre-2020-01-01.csv.gz> | <https://object.data.gouv.fr/cadastre/metadata-cadastre-2020-01-01.json.gz>  |
+| 2020-07-01 | <https://object.data.gouv.fr/cadastre/metadata-cadastre-2020-07-01.csv.gz> | <https://object.data.gouv.fr/cadastre/metadata-cadastre-2020-07-01.json.gz>  |
+| 2020-10-01 | <https://object.data.gouv.fr/cadastre/metadata-cadastre-2020-10-01.csv.gz> | <https://object.data.gouv.fr/cadastre/metadata-cadastre-2020-10-01.json.gz>  |
+| 2021-02-01 | <https://object.data.gouv.fr/cadastre/metadata-cadastre-2021-02-01.csv.gz> | <https://object.data.gouv.fr/cadastre/metadata-cadastre-2021-02-01.json.gz>  |
+| 2021-04-01 | <https://object.data.gouv.fr/cadastre/metadata-cadastre-2021-04-01.csv.gz> | <https://object.data.gouv.fr/cadastre/metadata-cadastre-2021-04-01.json.gz>  |
+| 2021-07-01 | <https://object.data.gouv.fr/cadastre/metadata-cadastre-2021-07-01.csv.gz> | <https://object.data.gouv.fr/cadastre/metadata-cadastre-2021-07-01.json.gz>  |
+| 2021-10-01 | <https://object.data.gouv.fr/cadastre/metadata-cadastre-2021-10-01.csv.gz> | <https://object.data.gouv.fr/cadastre/metadata-cadastre-2021-10-01.json.gz>  |
+| 2022-01-01 | <https://object.data.gouv.fr/cadastre/metadata-cadastre-2022-01-01.csv.gz> | <https://object.data.gouv.fr/cadastre/metadata-cadastre-2022-01-01.json.gz>  |
+| 2022-07-01 | <https://object.data.gouv.fr/cadastre/metadata-cadastre-2022-07-01.csv.gz> | <https://object.data.gouv.fr/cadastre/metadata-cadastre-2022-07-01.json.gz>  |
+| 2022-10-01 | <https://object.data.gouv.fr/cadastre/metadata-cadastre-2022-10-01.csv.gz> | <https://object.data.gouv.fr/cadastre/metadata-cadastre-2022-10-01.json.gz>  |
+| 2023-01-01 | <https://object.data.gouv.fr/cadastre/metadata-cadastre-2023-01-01.csv.gz> | <https://object.data.gouv.fr/cadastre/metadata-cadastre-2023-01-01.json.gz>  |
 
 Sous Linux ou MacOS, il est possible de décompresser les fichiers gz par défaut. Si vous êtes sous Windows, nous vous recommandons d'installer le logiciel libre 7zip en le récupérant depuis <https://www.7-zip.fr>
 
