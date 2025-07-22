@@ -320,9 +320,8 @@ Plusieurs solutions sont disponibles pour accéder aux fonds de plan du cadastre
 
 Il existe de nombreuses autres couches d'information liées aux cadastre proposées par l'IGN. Il est possible de les chercher depuis la [page de documentation de Geoservices](https://geoservices.ign.fr/documentation/services), en prenant les fichiers CSV des géoservices de la Géoplateforme.
 
-<a id="faq-decalage-parcelles"></a>
 {% hint style="danger" %}
-#### Attention
+#### Attention {#faq-decalage-parcelles}
 
 Contrairement à une croyance commune, **le contour des parcelles n'est pas fiable** : il ne s'agit que d'une représentation graphique imprécise, établie avant que les photos aériennes soient généralisées et de grande précision. **Seuls les actes de vente ont une valeur juridique.**
 
