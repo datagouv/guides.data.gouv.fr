@@ -43,6 +43,7 @@
     * [Référence](guide-data.gouv.fr/api/reference/README.md)
       * [site](guide-data.gouv.fr/api/reference/site.md)
       * [datasets](guide-data.gouv.fr/api/reference/datasets.md)
+      * [dataservices](guide-data.gouv.fr/readme-1/reference/dataservices.md)
       * [reuses](guide-data.gouv.fr/api/reference/reuses.md)
       * [discussions](guide-data.gouv.fr/api/reference/discussions.md)
       * [organizations](guide-data.gouv.fr/api/reference/organizations.md)
