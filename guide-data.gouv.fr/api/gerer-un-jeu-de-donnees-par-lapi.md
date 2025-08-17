@@ -265,6 +265,10 @@ dataset = client.dataset(DATASET)
 {% endtab %}
 {% endtabs %}
 
+{% hint style="info" %}
+NB : pour qu'une ressource distante puisse bénéficier de toutes les fonctionnalités de data.gouv.fr, il faut impérativement que son `Content-Type` soit correctement exposé par la plateforme qui l'héberge (par exemple : `text/csv` pour un fichier csv, `application/json` pour un fichier JSON, etc.).
+{% endhint %}
+
 ## Modification d’un jeu de données <a href="#modification-dun-jeu-de-donnees" id="modification-dun-jeu-de-donnees"></a>
 
 La suite des opérations s’appliquent sur le même jeu de données dont l’identifiant est `5bc04b2cff66bd680e499f4a` sur lequel vous avez les permissions nécéssaires à la modification. Ce jeu de données possède une ressource `54d47250-1daf-483b-965a-3013f8c76617` qui est soit distante soit locale suivant les exemples.
