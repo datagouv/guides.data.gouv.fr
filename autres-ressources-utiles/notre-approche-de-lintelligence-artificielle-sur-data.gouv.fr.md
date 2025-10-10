@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Notre approche de l’intelligence artificielle sur data.gouv.fr
 
 Nous expérimentons l’intelligence artificielle pour améliorer la publication et la découverte des données publiques. Ces fonctionnalités sont encore en construction, et nous les faisons évoluer en fonction de vos retours.
