@@ -22,7 +22,7 @@ Nous ne collectons ni ne stockons de données personnelles lorsque vous utilisez
 
 **Une fiabilité relative**
 
-Les suggestions des LLM ne sont pas une vérité absolue. Ses suggestions peuvent être incomplètes, approximatives ou erronées. Elles doivent toujours être relues et validées par un humain.
+Les suggestions des LLM ne sont pas une vérité absolue. Ces suggestions peuvent être incomplètes, approximatives ou erronées. Elles doivent toujours être relues et validées par un humain.
 
 **Sobriété et impact écologique**
 
