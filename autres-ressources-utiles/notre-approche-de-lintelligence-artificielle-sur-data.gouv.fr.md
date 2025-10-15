@@ -8,7 +8,7 @@ Nous expérimentons l’intelligence artificielle, en particulier les [grands mo
 
 Ces expérimentations se font dans le respect de plusieurs principes :
 
-**L’IA au service de l’humain**
+**L’intelligence artificielle comme aide, pas comme arbitre**
 
 L’intelligence artificielle propose mais ne décide jamais à votre place. Vous restez libre d’accepter, de modifier ou de rejeter ses suggestions.
 
