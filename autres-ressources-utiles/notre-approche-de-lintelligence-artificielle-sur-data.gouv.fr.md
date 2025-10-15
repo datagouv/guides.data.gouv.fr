@@ -4,7 +4,16 @@ hidden: true
 
 # Notre approche de l’intelligence artificielle sur data.gouv.fr
 
-Nous expérimentons l’intelligence artificielle, en particulier les [grands modèles de langage](https://fr.wikipedia.org/wiki/Grand_mod%C3%A8le_de_langage) (LLM) pour faciliter l’accès et faciliter les usages des données publiques. Ces fonctionnalités sont encore en construction, et nous les faisons évoluer en fonction de vos retours.
+Nous expérimentons l’intelligence artificielle, en particulier les [grands modèles de langage](https://fr.wikipedia.org/wiki/Grand_mod%C3%A8le_de_langage) (LLM) pour faciliter l’accès et faciliter les usages des données publiques. Ces fonctionnalités sont encore en construction, et nous les faisons évoluer en fonction de vos retours.\
+
+
+{% hint style="info" %}
+#### 🧪 Nos expérimentations en cours
+
+* La génération automatique de description courte, pour aider les producteurs à rédiger des descriptions claires et accessibles pour faciliter la découvrabilité des données ;
+* La suggestion de mots-clés, combinant vocabulaire libre et vocabulaires contrôlés (DCAT, EuroVoc) ;
+* La mise en place d’un “Model Context Protocol”, pour mieux encadrer et documenter les échanges entre les modèles et la plateforme.
+{% endhint %}
 
 Ces expérimentations se font dans le respect de plusieurs principes :
 
