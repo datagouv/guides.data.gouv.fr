@@ -5,9 +5,7 @@ icon: browsers
 
 # Créer une verticale thématique de data.gouv.fr
 
-### 1. Introduction
-
-#### C’est quoi [data.gouv.fr](https://data.gouv.fr) ?
+### 1. Qu'est-ce que [data.gouv.fr](https://data.gouv.fr) ?
 
 [data.gouv.fr](https://data.gouv.fr) est la plateforme nationale de la donnée publique, opérée par la DINUM.\
 Elle a pour mission de permettre à tous — administrations, entreprises, chercheurs, citoyens — d’accéder, partager et réutiliser les données publiques.
@@ -16,7 +14,7 @@ La plateforme repose sur le logiciel [**udata**](https://github.com/opendatateam
 
 ***
 
-### 2. C’est quoi une verticale thématique ?
+### 2. Qu'est-ce qu'une verticale thématique ?
 
 Une **verticale thématique** est une **surcouche spécialisée** de data.gouv.fr :\
 elle s’appuie sur la même base technique et les mêmes données, mais propose une **expérience thématique**, ciblée sur un domaine précis (écologie, transport, météo, culture, logistique, etc.).
@@ -112,7 +110,7 @@ Cependant, pour utiliser un **domaine officiel `*.data.gouv.fr`**, il faut :
 
 * obtenir l’accord de la **DINUM** ;
 * respecter les **principes de la charte data.gouv.fr** :\
-  👉 [Charte de data.gouv.fr](https://www.data.gouv.fr/pages/legal/charter)
+  [Charte de data.gouv.fr](https://www.data.gouv.fr/pages/legal/charter)
 * signer, le cas échéant, une **convention de délégation de gestion**.
 
 #### 7.2. Gouvernance partagée
