@@ -172,3 +172,4 @@
       * [Evaluation du hackathon](autres-ressources-utiles/guide-du-participant-au-hackathon-meteo/apres-le-hackathon/evaluation-du-hackathon.md)
       * [Valorisation de votre projet](autres-ressources-utiles/guide-du-participant-au-hackathon-meteo/apres-le-hackathon/valorisation-de-votre-projet.md)
   * [Notre approche de l’intelligence artificielle sur data.gouv.fr](autres-ressources-utiles/notre-approche-de-lintelligence-artificielle-sur-data.gouv.fr.md)
+  * [Créer une verticale thématique de data.gouv.fr](autres-ressources-utiles/creer-une-verticale-thematique-de-data.gouv.fr.md)
