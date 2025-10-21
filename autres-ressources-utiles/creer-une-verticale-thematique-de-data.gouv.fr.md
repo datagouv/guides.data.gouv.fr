@@ -202,29 +202,54 @@ Le **club utilisateurs** réunit régulièrement les gestionnaires de verticales
 
 ### 12. Verticales existantes
 
-| Nom                                                      | Thématique                                       | Porteur                                 |
-| -------------------------------------------------------- | ------------------------------------------------ | --------------------------------------- |
-| [transport.data.gouv.fr](https://transport.data.gouv.fr) | Mobilité et transport public                     | DINUM / Ministère chargé des Transports |
-| [ecologie.data.gouv.fr](https://ecologie.data.gouv.fr)   | Données environnementales                        | CGDD / Ecolab                           |
-| [meteo.data.gouv.fr](https://meteo.data.gouv.fr)         | Données climatiques et météorologiques           | Météo-France / DINUM                    |
-| [culture.data.gouv.fr](https://culture.data.gouv.fr)     | Données culturelles                              | Ministère de la Culture / DINUM         |
-| [logistique.dtg](https://logistique.dtg)                 | Données logistiques et transport de marchandises | DINUM / DGITM                           |
+| Nom                                                         | Thématique                                       | Porteur                                 |
+| ----------------------------------------------------------- | ------------------------------------------------ | --------------------------------------- |
+| [transport.data.gouv.fr](https://transport.data.gouv.fr)    | Mobilité et transport public                     | DINUM / Ministère chargé des Transports |
+| [ecologie.data.gouv.fr](https://ecologie.data.gouv.fr)      | Données environnementales                        | CGDD / Ecolab                           |
+| [meteo.data.gouv.fr](https://meteo.data.gouv.fr)            | Données climatiques et météorologiques           | Météo-France / DINUM                    |
+| [culture.data.gouv.fr](https://culture.data.gouv.fr)        | Données culturelles                              | Ministère de la Culture / DINUM         |
+| [logistique.data.gouv.fr](https://logistique.data.gouv.fr/) | Données logistiques et transport de marchandises | DINUM / DGITM                           |
 
 ***
 
-### 13. FAQ
+## Foire aux questions
 
-**Puis-je créer ma propre verticale ?**\
+<details>
+
+<summary><strong>Puis-je créer ma propre verticale ?</strong></summary>
+
 Oui, le code est ouvert. Pour utiliser un domaine officiel `*.data.gouv.fr`, une validation de la DINUM est nécessaire.
 
-**Ai-je besoin d’un développeur ?**\
+</details>
+
+<details>
+
+<summary><strong>Ai-je besoin d’un développeur ?</strong></summary>
+
 Non, pour une configuration standard ; oui, pour des fonctionnalités avancées.
 
-**Combien de temps pour la mise en place ?**\
+</details>
+
+<details>
+
+<summary><strong>Combien de temps pour la mise en place ?</strong></summary>
+
 Quelques jours à quelques semaines selon la complexité et la disponibilité des données.
 
-**Puis-je ajouter des données locales ?**\
+</details>
+
+<details>
+
+<summary><strong>Puis-je ajouter des données locales ?</strong></summary>
+
 Oui, à condition qu’elles soient publiées sur data.gouv.fr.
 
-**Comment rejoindre la communauté ?**\
+</details>
+
+<details>
+
+<summary><strong>Comment rejoindre la communauté ?</strong></summary>
+
 En contactant l’équipe data.gouv.fr et en participant au club utilisateurs.
+
+</details>
