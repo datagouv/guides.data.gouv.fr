@@ -1,20 +1,6 @@
 ---
 cover: ../.gitbook/assets/bandereau5 (5).png
 coverY: 0
-layout:
-  cover:
-    visible: true
-    size: hero
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: false
-  pagination:
-    visible: true
 ---
 
 # Exploration de l'existant et saisie du CNIG
@@ -95,8 +81,8 @@ _\[_:construction: _en construction_ :construction:_]_ Une cartographie des orga
 
 ## Retour à la page d'accueil ↓
 
-{% content-ref url="./" %}
-[.](./)
+{% content-ref url="../" %}
+[..](../)
 {% endcontent-ref %}
 
 ## Page précédente et page suivante ↓

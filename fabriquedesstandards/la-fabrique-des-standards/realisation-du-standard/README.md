@@ -1,20 +1,6 @@
 ---
 cover: ../../.gitbook/assets/Gitbook bandereau6.png
 coverY: 0
-layout:
-  cover:
-    visible: true
-    size: hero
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: false
-  pagination:
-    visible: true
 ---
 
 # Réalisation du standard
@@ -138,7 +124,7 @@ _Modèle de standard_&#x20;
 
 ### Modèle de compte rendu de réunion&#x20;
 
-{% file src="../../.gitbook/assets/GT CNIG - Modèle de CR de réunion.docx" %}
+{% file src="../../.gitbook/assets/GT CNIG - Modèle de CR de réunion (1).docx" %}
 _Modèle de compte-rendu de réunion de GT_
 {% endfile %}
 
@@ -198,8 +184,8 @@ L'animateur informe ensuite sur la publication du CR :&#x20;
 
 ## Retour à la page d'accueil ↓
 
-{% content-ref url="../" %}
-[..](../)
+{% content-ref url="../../" %}
+[..](../../)
 {% endcontent-ref %}
 
 ## Page précédente et page suivante ↓

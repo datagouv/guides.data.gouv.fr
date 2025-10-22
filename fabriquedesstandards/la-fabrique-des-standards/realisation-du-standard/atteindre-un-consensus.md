@@ -1,17 +1,3 @@
----
-layout:
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
----
-
 # Atteindre un consensus
 
 La rédaction d’un standard nécessite la confrontation de profils diversifiés aux points de vue potentiellement divergents. La prise de décision dans le groupe peut sembler difficile lorsque les désaccords sont très prononcés. Lorsque le consensus n'est pas atteint dans le fil de discussion portant sur un sujet spécifique, la méthodologie suivante aidera l’animateur à organiser une session d’atteinte de consensus sur ce sujet. Elle est issue de la littérature sur le sujet, adaptée au cas de la production d’un standard.&#x20;

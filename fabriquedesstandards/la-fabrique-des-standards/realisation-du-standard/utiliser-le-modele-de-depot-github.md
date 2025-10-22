@@ -1,17 +1,3 @@
----
-layout:
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
----
-
 # Utiliser le modèle de dépôt Github
 
 Tout d'abord, pour accéder au modèle de dépôt, suivez le lien suivant :&#x20;
@@ -20,7 +6,7 @@ Tout d'abord, pour accéder au modèle de dépôt, suivez le lien suivant :&#x20
 _lien vers le modèle de dépôt_
 {% endembed %}
 
-Le modèle de dépôt Github du CNIG contient les fichiers nécessaires pour démarrer la création d'un dépôt de standard, il est également conforme à ce qui est demandé par schema.data.gouv pour un schéma au format [Table Schema](https://specs.frictionlessdata.io/table-schema/). A noter que la création d'un schéma n'est pas obligatoire pour la création d'un standard CNIG. En revanche, il est obligatoire de créer un dépôt Github afin que le standard soit référencé sur schema.data.gouv.
+Le modèle de dépôt Github du CNIG contient les fichiers nécessaires pour démarrer la création d'un dépôt de standard, il est également conforme à ce qui est demandé par schema.data.gouv pour un schéma au format [Table Schema](https://specs.frictionlessdata.io/table-schema/). A noter que la création d'un schéma n'est pas obligatoire pour la création d'un standard CNIG. En revanche, il est obligatoire de créer un dépôt Github afin que le standard soit référencé sur schema.data.gouv. Dans le cas où un standard possède différent profils, il sera nécessaire de créer un dépôt par profil (le site schema.data.gouv ne permettant pas de référencer plusieurs schémas ou standards à partir d'un seul dépôt).
 
 ## <mark style="background-color:purple;">Utiliser le modèle</mark>
 

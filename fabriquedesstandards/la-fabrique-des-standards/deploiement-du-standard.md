@@ -1,20 +1,6 @@
 ---
 cover: ../.gitbook/assets/Bandereau88.png
 coverY: 0
-layout:
-  cover:
-    visible: true
-    size: hero
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: false
-  pagination:
-    visible: true
 ---
 
 # Déploiement du standard
@@ -122,7 +108,7 @@ Pour identifier quand une évolution est nécessaire, il est utile d’assurer u
 
 <details>
 
-<summary><mark style="background-color:orange;">Le standard Accessibilité</mark></summary>
+<summary>Le standard Accessibilité</summary>
 
 <img src="../.gitbook/assets/2019-06-07_11_25_05-03_lsaby_le_programme_ville_accessible_a_tous_vat_du_cerema.pdf_-_opera_-_copie.png" alt="logo &#x22;Ville accessible à tous&#x22;" data-size="original">
 
@@ -172,6 +158,139 @@ Le déploiement se fait au rythme d’amélioration de la maturité des outils e
 
 </details>
 
+<details>
+
+<summary>Le standard GraceTHD</summary>
+
+_Ces propos ont été recueillis auprès des animateurs de l'entreprise Dotic._
+
+Le standard GraceTHD s’adresse principalement aux **collectivités** dans le cadre des RIP (réseaux d’initiative publique), aux **opérateurs télécoms** (Orange, SFR, etc.), ainsi qu’aux **sous-traitants et bureaux d’études** chargés de la production et du contrôle des données FTTH (de l’anglais _fiber-to-the-home_).
+
+Son déploiement répond à plusieurs enjeux principaux :
+
+* Respecter une **obligation réglementaire** : en 2017, GraceTHD est devenu le format de restitution obligatoire auprès des collectivités, et en 2025, les subventions de l’ANCT (Agence Nationale de la Cohésion des Territoires) sont conditionnées à la qualité des données.
+* Répondre à une forte **diversité d’usages** et à des interlocuteurs peu acculturés au numérique.
+* Assurer la **fiabilisation des données** et leur exploitation par les SI.
+* Moderniser les **processus d’injection et de restitution** dans le SI Exploitant
+
+
+
+Plusieurs difficultés ont été rencontrées lors du déploiement du standard :
+
+* Le modèle GraceTHD a été lancé **après le démarrage du déploiement FTTH**, ce qui a généré un décalage.
+* **Les "métiers" n'ont pas été associés** dès la conception, entraînant une faible appropriation initiale.
+* Les contrôles de cohérence ont été insuffisamment intégrés.
+* **Les coûts d’intégration**, complexes, n'ont pas été pris en compte dans l’équation économique.
+* La résistance au changement, du fait des habitudes papier, des critiques et rejets du modèle, et de la faible sensibilisation à la notion de qualité des données.
+
+&#x20;
+
+En réponse, nous avons mis en œuvre les stratégies suivantes, ce qui nous a permis de contourner ces difficultés :
+
+* Mise en avant du **levier réglementaire** et de l’obligation de conformité.
+* Appui de **sponsors/prescripteurs** (donneurs d’ordre, collectivités, opérateurs) pour légitimer le modèle.
+* Déploiement d’applications facilitant l’**automatisation des flux entrants et sortants** (exports en 2020, imports en 2023).
+* Centralisation progressive des **validations et injections dans le SI** (2021–2025).
+* Accompagnement de l’écosystème (sous-traitants, clients) avec un plan de communication et d’évolution continue du modèle.
+
+De plus, nous recommanderions les actions suivantes aux nouveaux groupes de travail, à mettre en place par anticipation, dès la phase d’élaboration du standard :
+
+* A**ssocier les métiers dès l’élaboration** du standard, pour éviter le rejet et l’incompréhension.
+
+- Prévoir une **politique du changement** claire et progressive (formation, communication).
+
+* Inclure des **mécanismes de contrôle qualité** dès la conception du modèle.
+
+- **Avancer pas à pas**, en rationalisant les processus et en accompagnant l’écosystème.
+
+* Réviser régulièrement le modèle et encourager son **évolution continue.**
+
+
+
+En complément, nous avons utilisé les outils suivants que nous recommandons :
+
+* Outils de **contrôle qualité des données** (exemple : ConnectControl pour l’intégration SI).
+
+- Outils d’**automatisation des flux** (applications import/export GraceTHD).
+
+* Supports de **communication et d’accompagnement** (guides, formations, webinaires).
+
+- Mise en place d’instances de suivi type **groupe de travail** regroupant producteurs de données et destinataires.
+
+&#x20;
+
+A noter, que le calendrier du standard GraceTHD s’étale sur plus de dix ans, avec un déploiement **progressif par paliers** et une montée en maturité continue :
+
+**2015** : lancement du projet GraceTHDv2 (soutenu par les collectivités).
+
+**2017** : obligation réglementaire → adoption massive.
+
+**2018–2021** : intégration progressive au SI, automatisation partielle.
+
+**2021** : GraceTHDv3 (soutenu par les collectivités et les acteurs privés).
+
+**2023** : mise en place d’outils d’import automatisé.
+
+**2024–2025** : centralisation des validations et injections, obligation de qualité ANCT.
+
+</details>
+
+<details>
+
+<summary>Le standard Récostar (StarElec)</summary>
+
+_Ces propos ont été recueillis auprès de l'entreprise Sogelink_
+
+Le standard Récostar, déclinaison du standard StarElec, s’adresse aux géomètres ou entreprises de travaux publics (TP) qui doivent relever (mesurer la position 3D) des réseaux enterrés nouvellement créés. L’enjeu principal est de s’assurer que toutes les informations sur la position exact des réseaux, la composition des ceux-ci (quel type de câbles, quel équipement dans les coffrets etc.) et la relation topologique entre tous les éléments du réseaux nouvellement créés, sont bien fournis à l’exploitant de réseau. Pour l’exploitant de réseaux, ce type de standard permet d’automatiser la vérification de la qualité des données fournies et ainsi d’intégrer plus facilement ces éléments dans sa cartographie. C’est un projet très long sur plusieurs années entre les réunions de travail, les maquettes, les premières versions, les retours clients, etc.
+
+&#x20;Le changement apporté par le standard est assez important pour les géomètres et les entreprises de TP car elles doivent renseigner plus d’informations qu’avant avec des compétences en électricité nouvelle. Le changement d’organisation va nécessiter donc de la formation pour prendre en main les outils mais également des formations sur la compréhension d’un réseau électrique beaucoup plus fin et complet que jusqu’à présent.
+
+&#x20;Nous avons travaillé sur une meilleure ergonomie et une interface qui va permettre aux utilisateurs de conserver en grande partie la façon de travailler historique. De plus, des commandes spécifiques permettent d’automatiser un grand nombre de tâches.
+
+Nous avons organisé des présentations via des webinaires et prévus des formations dédiées à ce nouveau format d’échange. Notre centre d’aide s’est également étoffé avec de nombreux documents, vidéos, exemples permettant aux utilisateurs de rapidement se mettre au nouveau format d’échange Récostar
+
+&#x20;Nous recommanderions aux nouveaux groupes de travail :
+
+* D’accentuer les tests en grandeur nature avec des futurs utilisateurs afin de s’assurer au plus tôt que ce genre de nouveau format sera facilement intégrable dans leur façon de travailler,
+
+- D’inclure les destinataires du standard (producteurs de données, utilisateurs du standard) à son élaboration, et de communiquer dès la phase d’élaboration,
+
+* De faire des cas concrets pour simplifier la compréhension. Ça a été fait sur le Récostar et ça s’est avéré être une très bonne idée.
+
+</details>
+
+<details>
+
+<summary>Le standard StaR-Eau</summary>
+
+_Ces propos ont été recueillis auprès de la direction eau et assainissement de la communauté d'agglomération d'Epernay._&#x20;
+
+Le **standard StaR-Eau** s’adresse aux collectivités ayant la compétence sur l’eau potable et l’assainissement, aux exploitants de réseaux (Régie, DSP), aux bureaux d’études en charge des schémas directeurs, aux entreprises produisant les plans de récolement. Dans notre cas, les enjeux principaux étaient d’harmoniser les bases de données, d’avoir un socle de travail pour une amélioration qualitative de la donnée, de faciliter les échanges avec les bureaux d’études et autres partenaires.
+
+&#x20;Peu de difficultés ont été rencontrées, car de nombreuses ressources sont accessibles en ligne (webinaires, GitHub, …). Un validateur aurait été un plus pour valider la migration et améliorer la cohérence de la base de données. Pour pallier ce manque, un contrôle manuel et par échantillonnage a été fait par la collectivité. De plus, pour faciliter l’acculturation des utilisateurs, des communications régulières ont été réalisées : présentation en réunion, newsletters, etc. Nous recommanderions également d’anticiper les difficultés de la phase d’adoption du standard en mobilisant l’ensemble des acteurs du secteur : publics et privés lors de l’élaborations du standard. Les outils suivants nous ont aidé dans nos travaux :
+
+* Ressources sur le GitHub du géostandard : présentation, gabarit, documentation
+
+- Webinaires de présentation : IdealCo, FNCCR
+
+* Outils de communication auprès des utilisateurs internes et des partenaires
+
+Pour le StaR-Eau, la documentation en ligne est complète et permet une acculturation rapide au modèle.&#x20;
+
+
+
+&#x20;Pour information, notre calendrier a été le suivant :
+
+**2023-2024** : documentation, échanges avec les utilisateurs et la direction du service Eau et Assainissement,
+
+**Janvier 2025** : annonce des changements à venir via des réunions et des newsletters,
+
+**Févier-Mars 2025** : migration des bases de données,
+
+**Avril-Mai 2025** : présentation de la nouvelle base et accompagnement des utilisateurs.
+
+</details>
+
 ***
 
 
@@ -202,8 +321,8 @@ La procédure pour faire évoluer un standard est similaire à celle pour la cr�
 
 ## Retour à la page d'accueil ↓
 
-{% content-ref url="./" %}
-[.](./)
+{% content-ref url="../" %}
+[..](../)
 {% endcontent-ref %}
 
 ## Page précédente et page suivante ↓

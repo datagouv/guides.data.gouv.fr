@@ -1,20 +1,6 @@
 ---
 cover: ../../.gitbook/assets/bandereau7b.png
 coverY: 0
-layout:
-  cover:
-    visible: true
-    size: hero
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: false
-  pagination:
-    visible: true
 ---
 
 # Cadrage du groupe de travail
@@ -166,9 +152,7 @@ Lors du cadrage du GT, le secrétariat général vous accompagne pour :&#x20;
 
 ### Modèle de mandat spécifique au groupe de travail
 
-{% file src="../../.gitbook/assets/GT CNIG - Modèle de mandat.docx" %}
-_Modèle de mandat de GT_&#x20;
-{% endfile %}
+{% include "../../.gitbook/includes/untitled.md" %}
 
 ### Le règlement intérieur du CNIG&#x20;
 
@@ -194,7 +178,7 @@ Le [Règlement intérieur du CNIG](https://cnig.gouv.fr/IMG/pdf/reglement_interi
 
 Animer une réunion de travail est une compétence qui s’acquiert, de nombreuses ressources existent sur internet pour se former.
 
-Parmi les ressources développées par les services publics, une référence utile est la [boîte à outils de la Fabrique à projet ](https://www.innovation-transformations.ecologie.gouv.fr/pages/la-boite-a-outils-de-lintelligence-collective)(DITP).
+Parmi les ressources développées par les services publics, on trouve la [boîte à outils de la Fabrique à projet ](https://www.innovation-transformations.ecologie.gouv.fr/pages/la-boite-a-outils-de-lintelligence-collective)(DITP), ou encore le [guide des communautés](https://www.modernisation.gouv.fr/files/2024-10/202410_Le_guide_des_communautes_mooc.pdf) (DITP).
 
 </details>
 
@@ -283,8 +267,8 @@ Le service repose sur le logiciel libre Sympa. Un [tutoriel vidéo](https://fram
 
 ## Retour à la page d'accueil ↓
 
-{% content-ref url="../" %}
-[..](../)
+{% content-ref url="../../" %}
+[..](../../)
 {% endcontent-ref %}
 
 ## Page précédente et page suivante ↓

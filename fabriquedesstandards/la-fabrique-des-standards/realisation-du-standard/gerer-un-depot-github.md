@@ -1,22 +1,8 @@
----
-layout:
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
----
-
 # Gérer un dépôt Github
 
 ## <mark style="background-color:purple;">Pourquoi un dépôt Github</mark>
 
-Utiliser un dépôt github est nécessaire pour que le standard soit référencé sur le site schema.data.gouv, qu’il contienne un schéma de données ou non. C’est donc obligatoire pour la publication d’un standard CNIG. Les étapes à suivre pour créer le dépôt et l’alimenter sont décrites dans \[le modèle de dépôt Github]\([https://github.com/cnigfr/cnig-template](https://github.com/cnigfr/cnig-template)).&#x20;
+Utiliser un dépôt github est nécessaire pour que le standard soit référencé sur le site schema.data.gouv, qu’il contienne un schéma de données ou non. C’est donc obligatoire pour la publication d’un standard CNIG. Les étapes à suivre pour créer le dépôt et l’alimenter sont décrites dans [le modèle de dépôt Github](https://github.com/cnigfr/cnig-template). A noter que dans le cas où un standard possède différent profils, il sera nécessaire de créer un dépôt Github par profil (le site schema.data.gouv ne permettant pas de référencer plusieurs schémas ou standards à partir d'un seul dépôt).
 
 Github peut également être un outil collaboratif utile pour la réalisation du standard. Il est prévu pour travailler en commun sur du code informatique principalement, mais il est tout à fait pertinent pour travailler sur des documents texte, à condition d’utiliser le format markdown, qui est le mieux géré par l’outil (les formats textuels habituels comme le word ou le pdf sont sauvegardés au format binaire, ce qui rend plus difficile la gestion des versions). Sa prise en main n’est pas très exigeante lorsqu’on est à l’aise avec l’informatique, mais cette option est tout de même déconseillée sans un minimum d'initiation ou de formation pour un animateur qui n’aurait jamais utilisé Github.&#x20;
 
@@ -76,3 +62,9 @@ Après la publication initiale, une maintenance peut être assurée pour prendre
 Il est recommandé de ne mettre à jour la branche principale “master” (c’est-à-dire la version utilisée par le public) que lorsqu’une nouvelle version est prête pour publication. Le nom du commit doit alors indiquer le numéro de version correspondant.&#x20;
 
 Les modifications sont automatiquement répercutées sur schema.data.gouv, il faut donc être prudent dans les changements apportés. Il est nécessaire de communiquer sur la publication d’une nouvelle version pour s’assurer que celle-ci est prise en compte par les utilisateurs.&#x20;
+
+{% hint style="warning" %}
+**Et la souveraineté ?**
+
+Github est une entreprise domiciliée aux Etats-Unis. Sa gratuité et sa praticité nous ont conduits à le choisir, bien qu'il ne s'agisse pas d'un outil souverain. **Dans les cas où votre organisation peut financer l'hébergement du dépôt (via l'offre Gitlab de Github par exemple), cela peut apporter davantage de sécurité et de maîtrise sur vos données. Lorsque cela n'est pas possible, nous vous recommandons de réaliser des copies locales du dépôt et des informations liées à la gestion des versions.** Cela vous permettra d'importer votre dépôt dans un autre outil ou de le sécuriser si l'utilisation de Github devenait impossible ou problématique.
+{% endhint %}

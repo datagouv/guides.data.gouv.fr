@@ -1,20 +1,6 @@
 ---
 cover: ../.gitbook/assets/bandereau6.png
 coverY: 0
-layout:
-  cover:
-    visible: true
-    size: hero
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: false
-  pagination:
-    visible: true
 ---
 
 # Initialisation des travaux
@@ -80,8 +66,8 @@ Lors de l'initialisation des travaux, le secrétariat général vous accompagne 
 
 ## Retour à la page d'accueil ↓
 
-{% content-ref url="./" %}
-[.](./)
+{% content-ref url="../" %}
+[..](../)
 {% endcontent-ref %}
 
 ## Page précédente et page suivante ↓

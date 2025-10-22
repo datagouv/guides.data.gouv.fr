@@ -4,20 +4,6 @@ description: >-
   s'interroge sur l'existence ou le besoin d'un standard.
 cover: ../.gitbook/assets/bandereauv4b (2).png
 coverY: 74
-layout:
-  cover:
-    visible: true
-    size: hero
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
 ---
 
 # Émergence d'un besoin ou d'une évolution
@@ -119,8 +105,8 @@ De même que pour la création d’un standard, le besoin d’une évolution doi
 
 ## Retour à la page d'accueil ↓
 
-{% content-ref url="./" %}
-[.](./)
+{% content-ref url="../" %}
+[..](../)
 {% endcontent-ref %}
 
 ## Page précédente et page suivante ↓

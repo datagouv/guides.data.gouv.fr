@@ -1,20 +1,6 @@
 ---
 cover: ../../.gitbook/assets/Bandereau87.png
 coverY: 0
-layout:
-  cover:
-    visible: true
-    size: hero
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: false
-  pagination:
-    visible: true
 ---
 
 # Validation du standard
@@ -146,8 +132,8 @@ _Modèle de dossier de présentation pour le conseil plénier_
 
 ## Retour à la page d'accueil ↓
 
-{% content-ref url="../" %}
-[..](../)
+{% content-ref url="../../" %}
+[..](../../)
 {% endcontent-ref %}
 
 ## Page précédente et page suivante ↓
