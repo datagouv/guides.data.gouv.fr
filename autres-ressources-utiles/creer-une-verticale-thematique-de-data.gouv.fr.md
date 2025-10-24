@@ -1,6 +1,5 @@
 ---
 hidden: true
-icon: browsers
 ---
 
 # Créer une verticale thématique de data.gouv.fr
