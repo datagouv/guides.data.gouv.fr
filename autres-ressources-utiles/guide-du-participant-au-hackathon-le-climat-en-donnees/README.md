@@ -12,7 +12,7 @@ Nous sommes ravis de vous compter parmi nous pour cet événement !
 Ce guide a été conçu pour vous accompagner pendant toute la durée du hackathon avec des informations, des ressources et des bonnes pratiques.
 
 {% hint style="info" %}
-**Qu’est-ce que le hackathon “Le climat en données” ?**
+<mark style="color:blue;">Qu’est-ce que le hackathon “Le climat en données” ?</mark>
 
 Le hackathon “Le climat en données” est un événement de 4 demi-journées (du 2 décembre après-midi au 4 décembre matin) pendant lequel il s’agira :
 
@@ -22,4 +22,4 @@ Le hackathon “Le climat en données” est un événement de 4 demi-journées 
 Il est organisé par Météo-France et la Direction interministérielle du numérique.
 {% endhint %}
 
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="image">Cover image</th></tr></thead><tbody><tr><td>Données, aide à la prise en main des données, serveur Discord, etc.</td><td><a href="../../.gitbook/assets/Group 15629.png">Group 15629.png</a></td></tr><tr><td>Checklist des actions à réaliser avant le début du hackathon</td><td><a href="../../.gitbook/assets/Group 15633.png">Group 15633.png</a></td></tr><tr><td>Choix du défi, constitution des équipes, sollicitation des mentors, évaluation des projets, etc.</td><td><a href="../../.gitbook/assets/Group 15634.png">Group 15634.png</a></td></tr><tr><td>Evaluation du hackathon, valorisation des projets, etc.</td><td><a href="../../.gitbook/assets/Group 15635.png">Group 15635.png</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>Ressources du hackathon</td><td>Données, aide à la prise en main des données, serveur Discord, etc.</td><td><a href="ressources-du-hackathon/">ressources-du-hackathon</a></td></tr><tr><td>Avant le hackathon</td><td></td><td></td></tr><tr><td>Pendant le hackathon</td><td></td><td></td></tr><tr><td>Après le hackathon</td><td></td><td></td></tr></tbody></table>
