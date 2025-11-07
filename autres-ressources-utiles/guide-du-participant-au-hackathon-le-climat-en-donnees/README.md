@@ -1,5 +1,5 @@
 ---
-cover: ../../.gitbook/assets/Group 15629.png
+cover: ../../.gitbook/assets/Group 15629 (1).png
 coverY: 0
 ---
 
@@ -22,4 +22,4 @@ Le hackathon “Le climat en données” est un événement de 4 demi-journées 
 Il est organisé par Météo-France et la Direction interministérielle du numérique.
 {% endhint %}
 
-<table data-card-size="large" data-view="cards"><thead><tr><th data-hidden data-card-cover data-type="image">Cover image</th></tr></thead><tbody><tr><td data-object-fit="contain"><a href="../../.gitbook/assets/Group 15628.png">Group 15628.png</a></td></tr><tr><td></td></tr><tr><td></td></tr><tr><td></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="image">Cover image</th></tr></thead><tbody><tr><td>Données, aide à la prise en main des données, serveur Discord, etc.</td><td><a href="../../.gitbook/assets/Group 15629.png">Group 15629.png</a></td></tr><tr><td>Checklist des actions à réaliser avant le début du hackathon</td><td><a href="../../.gitbook/assets/Group 15633.png">Group 15633.png</a></td></tr><tr><td>Choix du défi, constitution des équipes, sollicitation des mentors, évaluation des projets, etc.</td><td><a href="../../.gitbook/assets/Group 15634.png">Group 15634.png</a></td></tr><tr><td>Evaluation du hackathon, valorisation des projets, etc.</td><td><a href="../../.gitbook/assets/Group 15635.png">Group 15635.png</a></td></tr></tbody></table>
