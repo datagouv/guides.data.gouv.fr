@@ -22,4 +22,4 @@ Le hackathon “Le climat en données” est un événement de 4 demi-journées 
 Il est organisé par Météo-France et la Direction interministérielle du numérique.
 {% endhint %}
 
-<table data-card-size="large" data-view="cards"><thead><tr><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><a href="ressources-du-hackathon/">ressources-du-hackathon</a></td></tr><tr><td><a href="avant-le-hackathon.md">avant-le-hackathon.md</a></td></tr><tr><td><a href="pendant-le-hackathon-regles-et-bonnes-pratiques/">pendant-le-hackathon-regles-et-bonnes-pratiques</a></td></tr><tr><td><a href="apres-le-hackathon/">apres-le-hackathon</a></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards"><thead><tr><th data-hidden data-card-cover data-type="image">Cover image</th></tr></thead><tbody><tr><td data-object-fit="contain"><a href="../../.gitbook/assets/Group 15628.png">Group 15628.png</a></td></tr><tr><td></td></tr><tr><td></td></tr><tr><td></td></tr></tbody></table>
