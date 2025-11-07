@@ -1,11 +1,18 @@
+---
+cover: ../../../.gitbook/assets/Rectangle.png
+coverY: 0
+---
+
 # Sollicitation des mentors
+
+{% hint style="success" %}
+Besoin d'aide ? Faites appel à un mentor !
+{% endhint %}
 
 Durant l’événement, des mentors seront à votre disposition pour vous appuyer dans la réalisation de vos projets (aide méthodologique, technique, sur les données, etc.) :
 
 * **des mentors experts métiers de Météo-France**, qui pourront répondre à vos questions sur les données et vous éclairer sur leurs enjeux ;
 * **des mentors tech de la Direction interministérielle du numérique**.
-
-N’hésitez pas à faire appel à eux !
 
 ## Pour les participants en physique
 

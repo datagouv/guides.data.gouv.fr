@@ -1,7 +1,12 @@
+---
+cover: ../../../.gitbook/assets/Rectangle.png
+coverY: 0
+---
+
 # Serveur Discord
 
 {% hint style="success" %}
-Rejoignez dès maintenant [le serveur Discord dédié au hackathon](https://discord.gg/BJGYXKFRan), et commencez à échanger avec les autres participants !
+**Rejoignez** [**le serveur Discord dédié au hackathon**](https://discord.gg/BJGYXKFRan) **et commencez à échanger avec les autres participants !**
 {% endhint %}
 
 Dans le cadre du hackathon, un [serveur Discord](https://discord.gg/BJGYXKFRan) est mis à votre disposition pour :

@@ -1,3 +1,8 @@
+---
+cover: ../../../.gitbook/assets/Rectangle.png
+coverY: 0
+---
+
 # Evaluation du hackathon
 
 Nous aimerions connaître votre avis sur le déroulement du hackathon et la qualité des projets proposés. Nous souhaitons veiller à votre satisfaction et vos retours nous seront précieux pour les prochains événements !

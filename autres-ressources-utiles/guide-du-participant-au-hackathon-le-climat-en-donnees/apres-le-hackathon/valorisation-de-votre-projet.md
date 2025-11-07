@@ -1,3 +1,8 @@
+---
+cover: ../../../.gitbook/assets/Rectangle.png
+coverY: 0
+---
+
 # Valorisation de votre projet
 
 **Après le hackathon, les équipes éditoriales de la Direction interministérielle du numérique et de Météo-France valoriseront les travaux réalisés et les projets proposés à travers différents canaux :**

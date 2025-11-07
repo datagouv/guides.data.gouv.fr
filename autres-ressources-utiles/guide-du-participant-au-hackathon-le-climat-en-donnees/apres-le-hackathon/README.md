@@ -1,4 +1,9 @@
-# Après le hackathon
+---
+cover: ../../../.gitbook/assets/Rectangle.png
+coverY: 0
+---
+
+# ✨ Après le hackathon
 
 Le hackathon n’est pas encore tout à fait terminé !
 

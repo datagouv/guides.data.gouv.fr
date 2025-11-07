@@ -1,6 +1,17 @@
+---
+cover: ../../../.gitbook/assets/Rectangle.png
+coverY: 0
+---
+
 # Choix du défi
 
 Vous travaillerez en équipe sur le défi de votre choix, parmi la liste suivante :
+
+{% hint style="info" %}
+Votre projet peut répondre **à plusieurs défis à la fois**.
+
+Vous êtes libres de travailler sur toute autre problématique pertinente.
+{% endhint %}
 
 <details>
 
@@ -89,9 +100,3 @@ Il s’agira notamment de synthétiser différents types de données climatiques
 Il s’agira de proposer des formats pertinents de visualisation des données climatiques, seules ou croisées avec d’autres jeux de données non climatiques, pensés pour des publics comme des décideurs publics, des citoyens, des acteurs territoriaux, des professionnels, etc. Il faudra notamment veiller à intégrer visuellement l’incertitude climatique de manière lisible.
 
 </details>
-
-{% hint style="info" %}
-Votre projet peut répondre à plusieurs défis à la fois.
-
-Vous êtes libres de travailler sur toute autre problématique pertinente.
-{% endhint %}

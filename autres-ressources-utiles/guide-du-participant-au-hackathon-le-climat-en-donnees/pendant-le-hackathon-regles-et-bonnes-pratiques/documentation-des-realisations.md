@@ -1,3 +1,8 @@
+---
+cover: ../../../.gitbook/assets/Rectangle.png
+coverY: 0
+---
+
 # Documentation des réalisations
 
 La documentation des projets est essentielle pour s’assurer que les projets réalisés soient exploitables par la suite.
