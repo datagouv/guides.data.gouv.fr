@@ -11,7 +11,7 @@ coverY: 0
 
 Dans le cadre du hackathon, un [serveur Discord](https://discord.gg/BJGYXKFRan) est mis à votre disposition pour :
 
-* **échanger avec les autres participants ;**
+* **échanger avec toute la communauté de participants ;**
 * **poser vos questions (à l’équipe organisatrice, aux mentors, etc.) ;**
 * **recevoir toutes les informations utiles.**
 
@@ -19,3 +19,5 @@ Pour toute question concernant l’utilisation de Discord, vous pouvez vous réf
 
 * [Comment rejoindre un serveur ?](https://support.discord.com/hc/fr/articles/360034842871-Comment-rejoindre-un-serveur)
 * [Guide de Discord pour débutants](https://support.discord.com/hc/fr/articles/360045138571-Guide-de-Discord-pour-d%C3%A9butants#h_d33e3809-909b-4720-899d-db26c17bafa9)
+
+<figure><img src="../../../.gitbook/assets/discord.gif" alt=""><figcaption></figcaption></figure>
