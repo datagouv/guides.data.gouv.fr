@@ -5,14 +5,14 @@ coverY: 0
 
 # Evaluation des projets
 
+<figure><img src="../../../.gitbook/assets/Group 15642-bis.png" alt=""><figcaption></figcaption></figure>
+
 L’évaluation des projets se déroulera en **deux phases** :
 
 * Les mentors auditionneront l’ensemble des projets et **en présélectionneront 8** ;
 * Les membres du jury auditionneront les 8 projets présélectionnés par les mentors et **désigneront 3 lauréats**.
 
 Un **4e prix spécial** sera également décerné : **le "Prix du public"**. Après les présentations des 8 projets présélectionnés, l'audience (dont vous) sera invitée à voter pour celui qu'elle considère comme le plus pertinent. Le projet qui remportera le plus de suffrages recevra ce prix.
-
-<figure><img src="../../../.gitbook/assets/Group 15642-bis.png" alt=""><figcaption></figcaption></figure>
 
 ## Programme
 
