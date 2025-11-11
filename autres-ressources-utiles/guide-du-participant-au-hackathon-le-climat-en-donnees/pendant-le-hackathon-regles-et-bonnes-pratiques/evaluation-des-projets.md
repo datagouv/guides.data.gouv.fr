@@ -12,6 +12,8 @@ L’évaluation des projets se déroulera en **deux phases** :
 
 Un **4e prix spécial** sera également décerné : **le "Prix du public"**. Après les présentations des 8 projets présélectionnés, l'audience (dont vous) sera invitée à voter pour celui qu'elle considère comme le plus pertinent. Le projet qui remportera le plus de suffrages recevra ce prix.
 
+<figure><img src="../../../.gitbook/assets/Group 15642-bis.png" alt=""><figcaption></figcaption></figure>
+
 ## Programme
 
 La [soutenance devant les mentors et la présélection](evaluation-des-projets.md#preselection-et-soutenance-devant-les-mentors) **aura lieu à partir du 3 décembre, 17h00**. Elle se déroulera comme suit :
