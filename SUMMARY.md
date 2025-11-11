@@ -167,7 +167,7 @@
       * [Choix du défi](autres-ressources-utiles/guide-du-participant-au-hackathon-le-climat-en-donnees/pendant-le-hackathon-regles-et-bonnes-pratiques/choix-du-defi.md)
       * [Constitution des équipes](autres-ressources-utiles/guide-du-participant-au-hackathon-le-climat-en-donnees/pendant-le-hackathon-regles-et-bonnes-pratiques/constitution-des-equipes.md)
       * [Sollicitation des mentors](autres-ressources-utiles/guide-du-participant-au-hackathon-le-climat-en-donnees/pendant-le-hackathon-regles-et-bonnes-pratiques/sollicitation-des-mentors.md)
-      * [Remontée des équipes et rendu intermédiaire](autres-ressources-utiles/guide-du-participant-au-hackathon-le-climat-en-donnees/pendant-le-hackathon-regles-et-bonnes-pratiques/remontee-des-equipes-et-rendu-intermediaire.md)
+      * [Remontée des équipes et rendu intermédiaire](autres-ressources-utiles/guide-du-participant-au-hackathon-le-climat-en-donnees/pendant-le-hackathon-regles-et-bonnes-pratiques/rendu-intermediaire-et-remontee-des-equipes.md)
       * [Soumission du projet](autres-ressources-utiles/guide-du-participant-au-hackathon-le-climat-en-donnees/pendant-le-hackathon-regles-et-bonnes-pratiques/soumission-du-projet.md)
       * [Evaluation des projets](autres-ressources-utiles/guide-du-participant-au-hackathon-le-climat-en-donnees/pendant-le-hackathon-regles-et-bonnes-pratiques/evaluation-des-projets.md)
     * [✨ Après le hackathon](autres-ressources-utiles/guide-du-participant-au-hackathon-le-climat-en-donnees/apres-le-hackathon/README.md)

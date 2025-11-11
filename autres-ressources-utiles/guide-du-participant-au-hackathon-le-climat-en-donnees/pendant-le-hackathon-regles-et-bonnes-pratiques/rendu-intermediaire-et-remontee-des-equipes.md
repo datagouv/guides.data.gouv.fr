@@ -3,7 +3,7 @@ cover: ../../../.gitbook/assets/Rectangle.png
 coverY: 0
 ---
 
-# Rendu intermédiaire et remontée des équipes
+# Remontée des équipes et rendu intermédiaire
 
 {% hint style="success" %}
 **Faites-nous remonter votre équipe au plus tard le 2 décembre, à 19h45, en remplissant** [**ce formulaire**](https://grist.numerique.gouv.fr/o/datagouv/forms/nTkP3UdFxSBkTVzKGmj8RR/13)**.**
