@@ -51,7 +51,7 @@ Le **4 décembre, à 9h45**, les 8 projets présélectionnés seront invités à
 Le jury sera composé de :
 
 * **Sophie Martinoni-Lapierre**, Directrice de la climatologie et des services climatiques de Météo-France
-* **Julia Hidalgo**, Directrice de recherche climatologie et météorologie urbaines au au sein du Laboratoire Interdisciplinaire Solidarités Sociétés Territoires (LISST)
+* **Julia Hidalgo**, Directrice de recherche climatologie et météorologie urbaines au sein du Laboratoire Interdisciplinaire Solidarités Sociétés Territoires (LISST)
 * **Johan Ransquin**, Directeur Adaptation, Aménagement et Trajectoires bas carbone à l’ADEME
 * **Christophe Biernacki**, Directeur scientifique adjoint à l’Inria
 * **Olivier Vacheret**, Responsable data à Île-de-France Mobilités
