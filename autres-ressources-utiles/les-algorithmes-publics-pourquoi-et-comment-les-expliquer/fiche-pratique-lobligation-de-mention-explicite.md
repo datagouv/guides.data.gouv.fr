@@ -22,12 +22,12 @@ Si :
 * À l’aide de ce traitement, vous prenez des [décisions administratives individuelles](https://www.legifrance.gouv.fr/affichCodeArticle.do?idArticle=LEGIARTI000031367495\&cidTexte=LEGITEXT000031366350\&dateTexte=20160101) envers des personnes physiques ou morales, de droit public ou privé nommément désignées,
 * Ce traitement n’est pas couvert par l’un des secrets définis par la loi ([2° de l'article L.311-5 du CRPA](https://www.legifrance.gouv.fr/affichCodeArticle.do?idArticle=LEGIARTI000033265181\&cidTexte=LEGITEXT000031366350\&dateTexte=20170701)), et notamment: délibérations du gouvernement, défense nationale, conduite de la politique extérieure, sûreté de l’État, sécurité publique, sécurité des personnes ou des systèmes d’information, recherche et prévention d’infractions, etc.
 
-Alors vous devez remplir les [obligations liées à la transparence des algorithmes](https://guides.etalab.gouv.fr/algorithmes/guide/#quelles-sont-ces-obligations-en-matiere-de-transparence), dont l'obligation de mention explicite.
+Alors vous devez remplir les obligations liées à la transparence des algorithmes, dont l'obligation de mention explicite.
 
 Rappels :
 
 * La notion de « traitement algorithmique » s'étend au-delà de l'intelligence artificielle ou des algorithmes de _machine learning_. **Un classeur Excel constitue un traitement algorithmique.** De même, un traitement algorithmique peut aussi exister sous la forme d'un document non-informatisé (par exemple une grille de notation d'un projet).
-* L'obligation de mention explicite s'applique également aux décisions non automatisées. Cependant, une disposition est spécifique aux traitements entièrement automatisés : **à compter du 1er juillet 2020, une décision prise sur le seul fondement d'un traitement entièrement automatisé ne comportant pas mention explicite est nulle** (voir l'[article 47 de la loi n° 78-17 du 6 janvier 1978 relative à l'informatique, aux fichiers et aux libertés](https://www.legifrance.gouv.fr/affichTexteArticle.do;jsessionid=BA2A3F5899F111B7EABC111BA4B752CE.tplgfr34s\_2?idArticle=LEGIARTI000037823131\&cidTexte=JORFTEXT000000886460\&categorieLien=id\&dateTexte=)).
+* L'obligation de mention explicite s'applique également aux décisions non automatisées. Cependant, une disposition est spécifique aux traitements entièrement automatisés : **à compter du 1er juillet 2020, une décision prise sur le seul fondement d'un traitement entièrement automatisé ne comportant pas mention explicite est nulle** (voir l'[article 47 de la loi n° 78-17 du 6 janvier 1978 relative à l'informatique, aux fichiers et aux libertés](https://www.legifrance.gouv.fr/affichTexteArticle.do;jsessionid=BA2A3F5899F111B7EABC111BA4B752CE.tplgfr34s_2?idArticle=LEGIARTI000037823131\&cidTexte=JORFTEXT000000886460\&categorieLien=id\&dateTexte=)).
 * Cette obligation s'applique pour les décisions individuelles envers des personnes physiques **et morales**.&#x20;
 
 ### À quels moments dois-je intégrer la mention explicite ?
@@ -38,7 +38,7 @@ Cette mention doit être visible par les personnes concernées.
 
 ### Quelles informations dois-je donner ?
 
-L'article [R. 311-3-1-1 du CRPA](https://www.legifrance.gouv.fr/affichCodeArticle.do;jsessionid=3BD4AC70ED5800EEB9A01985D717BA0E.tplgfr34s\_2?idArticle=LEGIARTI000034195878\&cidTexte=LEGITEXT000031366350\&dateTexte=20200622) fixe les catégories d'informations devant être contenues dans la mention explicite.
+L'article [R. 311-3-1-1 du CRPA](https://www.legifrance.gouv.fr/affichCodeArticle.do;jsessionid=3BD4AC70ED5800EEB9A01985D717BA0E.tplgfr34s_2?idArticle=LEGIARTI000034195878\&cidTexte=LEGITEXT000031366350\&dateTexte=20200622) fixe les catégories d'informations devant être contenues dans la mention explicite.
 
 La mention explicite doit préciser :
 
