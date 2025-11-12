@@ -20,4 +20,6 @@ Pour toute question concernant l’utilisation de Discord, vous pouvez vous réf
 * [Comment rejoindre un serveur ?](https://support.discord.com/hc/fr/articles/360034842871-Comment-rejoindre-un-serveur)
 * [Guide de Discord pour débutants](https://support.discord.com/hc/fr/articles/360045138571-Guide-de-Discord-pour-d%C3%A9butants#h_d33e3809-909b-4720-899d-db26c17bafa9)
 
+En cas de problème, **n’hésitez pas à** [**nous écrire**](https://www.data.gouv.fr/support/help/datagouv/autre/#support-tree) **!**
+
 <figure><img src="../../../.gitbook/assets/discord2.gif" alt=""><figcaption></figcaption></figure>
