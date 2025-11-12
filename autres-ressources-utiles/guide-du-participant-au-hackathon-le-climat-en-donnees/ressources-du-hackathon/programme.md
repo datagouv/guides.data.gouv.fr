@@ -11,7 +11,7 @@ coverY: 0
 
 ## Pendant le hackathon
 
-### Aperçu du programme
+### Aperçu des trois jours de programme
 
 <figure><img src="../../../.gitbook/assets/Group 15628.png" alt=""><figcaption></figcaption></figure>
 
