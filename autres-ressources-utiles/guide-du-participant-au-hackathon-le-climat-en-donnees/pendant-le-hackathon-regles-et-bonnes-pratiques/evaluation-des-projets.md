@@ -9,46 +9,70 @@ coverY: 0
 
 L’évaluation des projets se déroulera en **deux phases** :
 
-* Les mentors auditionneront l’ensemble des projets et **en présélectionneront 8** ;
-* Les membres du jury auditionneront les 8 projets présélectionnés par les mentors et **désigneront 3 lauréats**.
+* **Phase de présélection** : Les mentors auditionneront l’ensemble des projets et **en présélectionneront 8** ;
+* **Sélection finale** : Les membres du jury auditionneront les 8 projets présélectionnés par les mentors et **désigneront 3 lauréats**.
 
 Un **4e prix spécial** sera également décerné : **le "Prix du public"**. Après les présentations des 8 projets présélectionnés, l'audience (dont vous) sera invitée à voter pour celui qu'elle considère comme le plus pertinent. Le projet qui remportera le plus de suffrages recevra ce prix.
 
 ## Programme
 
-La [soutenance devant les mentors et la présélection](evaluation-des-projets.md#preselection-et-soutenance-devant-les-mentors) **aura lieu à partir du 3 décembre, 17h00**. Elle se déroulera comme suit :
+**La phase de présélection aura lieu à partir du 3 décembre, 17:00**. Elle se déroulera comme suit :
 
 <table><thead><tr><th width="139.8203125">Horaires</th><th>Etape</th></tr></thead><tbody><tr><td>Jusqu’à 17:00</td><td><a href="soumission-du-projet.md">Soumission des projets sur data.gouv.fr</a></td></tr><tr><td>17:00</td><td>Soutenance devant les mentors et présélection</td></tr><tr><td>19:50</td><td>Annonce des 8 projets présélectionnés</td></tr><tr><td>19:50 -</td><td>Poursuite des travaux pour les 8 projets présélectionnés (s’ils le souhaitent) et préparation de la présentation devant le jury</td></tr></tbody></table>
 
-[L’audition des projets par le jury](evaluation-des-projets.md#presentation-devant-les-membres-du-jury) aura lieu **à partir du 4 décembre, 9h45**. Elle se déroulera comme suit :
+**La sélection finale aura lieu à partir du 4 décembre, 9h45**. Elle se déroulera comme suit :
 
 <table><thead><tr><th width="124.7109375">Horaires</th><th>Etape</th></tr></thead><tbody><tr><td>9:45-11:30</td><td>Présentation des 8 projets présélectionnés devant les membres du jury et les autres participants</td></tr><tr><td>11:30-12:00</td><td>Délibération des membres du jury</td></tr><tr><td>12:00-12:15</td><td>Annonce des résultats et clôture</td></tr></tbody></table>
 
 ## Modalités
 
-### Présélection et soutenance devant les mentors
+### Phase de présélection
 
-Le **3 décembre, à partir de 17:00**, vous serez invités à présenter oralement votre projet devant les mentors, en chambre :
+#### Toutes les équipes devront être prêtes à présenter leurs projets devant les mentors le 3 décembre, à partir de 17:00
 
-* Votre présentation se déroulera de la façon suivante : **3 minutes de présentation + 4 minutes de questions/réponses**.
+{% hint style="success" %}
+Les équipes passeront les unes après les autres et l'ordre de passage sera défini par tirage au sort. **Nous vous invitons à bien vérifier votre heure et salle de passage. Ces éléments vous seront communiqués le 3 décembre, à midi.**\
+\
+**Nous vous demanderons également de vous présenter en salle d'attente 5 minutes avant votre heure de passage** pour veiller au bon enchaînement des présentations.
+{% endhint %}
+
+#### Présentation devant les mentors
+
+{% hint style="success" %}
+Votre présentation se déroulera de la façon suivante : **3 minutes de présentation + 4 minutes de questions/réponses.**
+{% endhint %}
+
+Vous serez invités à présenter oralement votre projet devant les mentors, en chambre :
+
 * Votre présentation pourra suivre les bonnes pratiques précisées dans la section “[Présentation orale](evaluation-des-projets.md#presentation-orale)”.
 * Votre présentation pourra être appuyée par un support de présentation.
-* Les équipes passeront les unes après les autres et l’ordre de passage sera défini par tirage au sort. Votre heure de passage vous sera indiquée.
 * **8 projets seront présélectionnés** selon la [grille d’évaluation](evaluation-des-projets.md#grille-devaluation-des-projets) ci-dessous.
 * Les projets présélectionnés **seront annoncés le mercredi 3 décembre, à 19:50**.
 
-### Présentation devant les membres du jury
+### Sélection finale
 
-Le **4 décembre, à 9h45**, les 8 projets présélectionnés seront invités à présenter oralement leurs projets devant les membres du jury ainsi que l’ensemble des participantes et participants au hackathon, en séance plénière :
+#### Les 8 équipes présélectionnées devront être prêtes à présenter leurs projets en plénière le 4 décembre, à partir de 9:45
 
-* Les présentations se dérouleront de la façon suivante : **5 minutes de présentation + 5 minutes de questions**.
+{% hint style="success" %}
+**Assurez-vous d'arriver à l'avance (au plus tard à 9:15)**. Nous vous attribuerons des places dans l'amphithéâtre afin que vous puissiez facilement monter sur scène.\
+\
+Les équipes passeront les unes après les autres et l'ordre de passage sera défini par tirage au sort. **Votre heure de passage vous sera indiquée le 3 décembre, à 20h30.**
+{% endhint %}
+
+#### Présentation devant les membres du jury
+
+{% hint style="success" %}
+Votre présentation se déroulera de la façon suivante : **5 minutes de présentation + 5 minutes de questions.**
+{% endhint %}
+
+Les 8 projets présélectionnés seront invités à présenter oralement leurs projets devant les membres du jury ainsi que l’ensemble des participantes et participants au hackathon, en séance plénière :
+
 * Les présentations pourront suivre les bonnes pratiques précisées dans la section “[Présentation orale](evaluation-des-projets.md#presentation-orale)”.
 * Votre présentation pourra être appuyée par un support de présentation.
-* Les équipes passeront les unes après les autres et l’ordre de passage sera défini par tirage au sort. **Votre heure de passage vous sera indiquée le 3 décembre, à 20h30**.
 * Les projets seront évalués par les membres du jury selon [la grille d’évaluation](evaluation-des-projets.md#grille-devaluation-des-projets) ci-dessous.
 * **Les lauréats seront annoncés à 12 heures**.
 
-Le jury sera composé de :
+#### Membres du jury
 
 <figure><img src="../../../.gitbook/assets/Group 15651.png" alt=""><figcaption></figcaption></figure>
 
