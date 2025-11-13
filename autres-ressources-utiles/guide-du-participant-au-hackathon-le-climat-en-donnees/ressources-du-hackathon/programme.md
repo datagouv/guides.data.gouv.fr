@@ -7,7 +7,7 @@ coverY: 0
 
 ## Avant le hackathon
 
-<table><thead><tr><th width="128.09375">Jour</th><th width="121.58203125">Heures</th><th width="290.2578125">Description</th><th>Lieu</th></tr></thead><tbody><tr><td>19 novembre</td><td>10:00-11:00</td><td>Session de formation et d’introduction aux données</td><td><em>A venir.</em></td></tr><tr><td>26 novembre</td><td>13:30-14:30</td><td>Webinaire de constitution des équipes</td><td><em>A venir.</em></td></tr></tbody></table>
+<table><thead><tr><th width="128.09375">Jour</th><th width="121.58203125">Heures</th><th width="290.2578125">Description</th><th>Lieu</th></tr></thead><tbody><tr><td>19 novembre</td><td>10:00-11:00</td><td>Session de formation et d’introduction aux données</td><td><a href="https://webinaire.numerique.gouv.fr/meeting/signin/invite/67825/creator/1000/hash/664e882ed40639e20eacee81603c87b7f740ea7a">Salon</a></td></tr><tr><td>26 novembre</td><td>13:30-14:30</td><td>Webinaire de constitution des équipes</td><td><a href="https://webinaire.numerique.gouv.fr/meeting/signin/invite/67826/creator/1000/hash/5d5b1587807b98c9615ea4b4d0de0d1c2f603277">Salon</a></td></tr></tbody></table>
 
 ## Pendant le hackathon
 
