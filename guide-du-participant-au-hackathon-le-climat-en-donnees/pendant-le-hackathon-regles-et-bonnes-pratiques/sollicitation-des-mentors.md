@@ -1,5 +1,5 @@
 ---
-cover: ../../../.gitbook/assets/Rectangle.png
+cover: ../../.gitbook/assets/Rectangle.png
 coverY: 0
 ---
 
@@ -16,7 +16,7 @@ Durant l’événement, des mentors seront à votre disposition pour vous appuye
 
 ## Pour les participants en physique
 
-Les mentors sont **disponibles à la demande**. Ils sont identifiables à un point de couleur verte.
+Les mentors sont **disponibles à la demande**. Ils sont identifiables à <mark style="color:$success;">un point de couleur verte</mark>.
 
 Ils passeront également dans les équipes pour vous conseiller.
 
@@ -25,7 +25,7 @@ Ils passeront également dans les équipes pour vous conseiller.
 Pour faire appel aux mentors :
 
 * Posez vos questions dans les **canaux #questions-donnees ou #general** du [serveur Discord](https://discord.gg/BJGYXKFRan), auxquelles ils pourront répondre directement ;
-* Participez aux **permanences** organisées sur le serveur Discord (une équipe à la fois) :
+* Participez aux **permanences** organisées sur le serveur Discord (passez dans le bureau ouvert dédié, une équipe à la fois) :
   * Avec les mentors tech :
     * **le mardi 2 décembre, de 17h à 18h**
     * **le mercredi 3 décembre, de 11h à 12h**
