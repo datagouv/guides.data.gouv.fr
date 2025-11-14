@@ -1,5 +1,5 @@
 ---
-cover: ../../../.gitbook/assets/Rectangle.png
+cover: ../../.gitbook/assets/Rectangle.png
 coverY: 0
 ---
 
@@ -9,6 +9,6 @@ Nous aimerions connaître votre avis sur le déroulement du hackathon et la qual
 
 **Nous vous invitons donc à nous faire part de vos remarques, commentaires et suggestions d’amélioration dans** [**ce formulaire d’évaluation**](https://tally.so/r/rjydz2)**.**
 
-<figure><img src="../../../.gitbook/assets/chrome-capture-2025-11-12.gif" alt=""><figcaption></figcaption></figure>
-
 Un très grand merci par avance !
+
+<figure><img src="../../.gitbook/assets/chrome-capture-2025-11-12.gif" alt=""><figcaption></figcaption></figure>
