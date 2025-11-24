@@ -41,4 +41,4 @@ Pour déterminer s’il est nécessaire de créer ou non un schéma de données,
 
 * [ ] Connaître les schémas de données ;
 * [ ] Être en mesure de décider si votre projet requiert la création d’un schéma de données ;
-* [ ] Savoir si votre schéma de données devra être référencé à terme sur schema.data.gouv.fr.\
+* [ ] Savoir si votre schéma de données devra être référencé à terme sur schema.data.gouv.fr.<br>

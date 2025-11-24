@@ -16,13 +16,12 @@ Le cadre juridique de l’open data public repose principalement sur **les texte
 {% hint style="info" %}
 **La communication de vos documents administratifs**&#x20;
 
-Le régime de droit d’accès aux documents administratifs a peu évolué depuis [la loi dite “CADA” de 1978](https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000000339241) : toute administration ou délégation de service public doit communiquer à un administré le document dont il a fait la demande.\
-
+Le régime de droit d’accès aux documents administratifs a peu évolué depuis [la loi dite “CADA” de 1978](https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000000339241) : toute administration ou délégation de service public doit communiquer à un administré le document dont il a fait la demande.<br>
 
 Si l’administré demande en outre la diffusion en ligne de ce document administratif, toute administration, quelle que soit sa taille, doit répondre à cette obligation. Si le document contient des données couvertes par un secret légal ou des données à caractère personnel, ces données devront au préalable faire l’objet d’une occultation ou d’une anonymisation.
 {% endhint %}
 
-Si vous êtes concernés par l'obligation légale, vous êtes tenus de diffuser en open data ([Article L. 312-1-1 du CRPA](https://www.legifrance.gouv.fr/affichCodeArticle.do;jsessionid=699E85A138CEA30E2185BB71F8735F9A.tplgfr24s\_3?idArticle=LEGIARTI000033205512\&cidTexte=LEGITEXT000031366350\&dateTexte=20161009)) :
+Si vous êtes concernés par l'obligation légale, vous êtes tenus de diffuser en open data ([Article L. 312-1-1 du CRPA](https://www.legifrance.gouv.fr/affichCodeArticle.do;jsessionid=699E85A138CEA30E2185BB71F8735F9A.tplgfr24s_3?idArticle=LEGIARTI000033205512\&cidTexte=LEGITEXT000031366350\&dateTexte=20161009)) :
 
 * **Les documents administratifs que vous avez communiqué à des demandeurs** ;
 * **L'inventaire des documents administratifs que vous produisez dans le cadre de vos missions de service public** ;
@@ -57,7 +56,7 @@ Concernant l'accès aux données via la création d'un compte validé automatiqu
 
 * Il est possible pour l’administration, dans le but de répondre favorablement à une demande de communication, de soumettre la consultation de documents administratifs à la création d’un compte automatique, sans intervention de la part de l’administration ;
 * Cette procédure de création de compte automatique n’emporte pas la qualification de diffusion publique conformément aux dispositions du CRPA ;
-* [data.gouv.fr](http://data.gouv.fr/), portail unique interministériel destiné à rassembler et à mettre à disposition les informations publiques de l’État et de ses établissements publics conformément à l’article [R. 321-8 du CRPA](https://www.legifrance.gouv.fr/codes/article\_lc/LEGIARTI000034196216) et aux circulaires du [26 mai 2011](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000024072788) et du [27 avril 2021](https://www.legifrance.gouv.fr/download/pdf/circ?id=45162), est chargé de “_veiller à ce que la mise à disposition des données de référence s’effectue dans le respect des dispositions législatives et réglementaires en vigueur_” et recommande un accès aux documents administratifs librement communicables le plus simple possible sans création de compte
+* [data.gouv.fr](http://data.gouv.fr/), portail unique interministériel destiné à rassembler et à mettre à disposition les informations publiques de l’État et de ses établissements publics conformément à l’article [R. 321-8 du CRPA](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000034196216) et aux circulaires du [26 mai 2011](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000024072788) et du [27 avril 2021](https://www.legifrance.gouv.fr/download/pdf/circ?id=45162), est chargé de “_veiller à ce que la mise à disposition des données de référence s’effectue dans le respect des dispositions législatives et réglementaires en vigueur_” et recommande un accès aux documents administratifs librement communicables le plus simple possible sans création de compte
 {% endhint %}
 
 ### Occultation des secrets légaux
@@ -67,8 +66,8 @@ Concernant l'accès aux données via la création d'un compte validé automatiqu
 {% hint style="info" %}
 **Quels sont les documents couverts par un secret légal ?**
 
-* Les documents qui ne sont aucunement communicables. Ce sont par exemple les documents dont la diffusion porterait atteinte au secret des délibérations du Gouvernement, au secret de la défense nationale ou de la sûreté de l’État, etc ([Article L. 311-5 du CRPA](https://www.legifrance.gouv.fr/affichCodeArticle.do;jsessionid=B12CCBE39831FB4644322E0902EB97B9.tplgfr34s\_1?idArticle=LEGIARTI000033265181\&cidTexte=LEGITEXT000031366350\&dateTexte=20170701)).
-* Les documents dont la diffusion porterait atteinte à la protection de la vie privée, au secret médical et au secret des affaires. Les documents qui portent une appréciation ou un jugement de valeur sur une personne physique ou qui font apparaître le comportement d’une personne ([Article L. 311-6 du CRPA](https://www.legifrance.gouv.fr/affichCodeArticle.do;jsessionid=B12CCBE39831FB4644322E0902EB97B9.tplgfr34s\_1?idArticle=LEGIARTI000033218964\&cidTexte=LEGITEXT000031366350\&dateTexte=20170701)).
+* Les documents qui ne sont aucunement communicables. Ce sont par exemple les documents dont la diffusion porterait atteinte au secret des délibérations du Gouvernement, au secret de la défense nationale ou de la sûreté de l’État, etc ([Article L. 311-5 du CRPA](https://www.legifrance.gouv.fr/affichCodeArticle.do;jsessionid=B12CCBE39831FB4644322E0902EB97B9.tplgfr34s_1?idArticle=LEGIARTI000033265181\&cidTexte=LEGITEXT000031366350\&dateTexte=20170701)).
+* Les documents dont la diffusion porterait atteinte à la protection de la vie privée, au secret médical et au secret des affaires. Les documents qui portent une appréciation ou un jugement de valeur sur une personne physique ou qui font apparaître le comportement d’une personne ([Article L. 311-6 du CRPA](https://www.legifrance.gouv.fr/affichCodeArticle.do;jsessionid=B12CCBE39831FB4644322E0902EB97B9.tplgfr34s_1?idArticle=LEGIARTI000033218964\&cidTexte=LEGITEXT000031366350\&dateTexte=20170701)).
 {% endhint %}
 
 {% hint style="info" %}

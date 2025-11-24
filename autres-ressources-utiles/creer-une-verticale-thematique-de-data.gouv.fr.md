@@ -78,8 +78,7 @@ Le code est **ouvert à tous** : toute organisation peut créer sa verticale sur
 Cependant, pour utiliser un **domaine officiel `*.data.gouv.fr`**, il faut :
 
 * obtenir l’accord de la **DINUM** ;
-* respecter les **principes de la** [**charte data.gouv.fr**](https://www.data.gouv.fr/pages/legal/charter)**.**\
-
+* respecter les **principes de la** [**charte data.gouv.fr**](https://www.data.gouv.fr/pages/legal/charter)**.**<br>
 * En fonction des modalités de partenariat, signer une **convention de délégation de gestion**.
 
 ### Gouvernance partagée

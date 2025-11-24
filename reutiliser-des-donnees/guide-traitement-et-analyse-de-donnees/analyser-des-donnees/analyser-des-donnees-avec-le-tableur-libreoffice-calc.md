@@ -28,14 +28,12 @@ L’équipe de [data.gouv.fr](http://data.gouv.fr) propose un parcours d’initi
    Un tableur comme LibreOffice Calc s’articule autour des objets suivants : classeur, feuille, colonne, ligne, cellule, etc. \
    \
    Pour en savoir plus, consulter :\
-   [“Classeurs, feuilles de calcul et cellules”, p.1](https://wiki.documentfoundation.org/images/8/8c/CG6401FR-Introduction.pdf) \
-
+   [“Classeurs, feuilles de calcul et cellules”, p.1](https://wiki.documentfoundation.org/images/8/8c/CG6401FR-Introduction.pdf) <br>
 2. **Ouvrir un fichier** \
    Un tableur comme Libre Office Calc permet d’ouvrir et de manipuler des données tabulaires (csv, etc.). \
    \
    Pour en savoir plus, consulter :\
-   [“Ouverture des fichiers CSV”, p.9-11](https://wiki.documentfoundation.org/images/8/8c/CG6401FR-Introduction.pdf) \
-
+   [“Ouverture des fichiers CSV”, p.9-11](https://wiki.documentfoundation.org/images/8/8c/CG6401FR-Introduction.pdf) <br>
 3. **Se repérer et naviguer dans une feuille de calcul** \
    \
    Pour en savoir plus, consulter :\
@@ -53,28 +51,24 @@ L’équipe de [data.gouv.fr](http://data.gouv.fr) propose un parcours d’initi
    Pour en savoir plus, consulter :\
    [“Saisir des données”, p.1 à 4](https://wiki.documentfoundation.org/images/8/89/CG6402FR-SaisieDonnees.pdf)\
    [“Modifier les données”, p.19-21](https://wiki.documentfoundation.org/images/8/89/CG6402FR-SaisieDonnees.pdf)\
-   [“Recherche et remplacement”, p.51-55](https://wiki.documentfoundation.org/images/8/89/CG6402FR-SaisieDonnees.pdf)\
-
+   [“Recherche et remplacement”, p.51-55](https://wiki.documentfoundation.org/images/8/89/CG6402FR-SaisieDonnees.pdf)<br>
 2. **Mettre en forme le contenu**\
    Dans un tableur, il est possible de mettre en forme le contenu des cellules : la mise en forme et l’alignement du texte à l’intérieur des cellules, la mise en forme des bordures et de l’arrière plan, etc.\
    \
    Pour en savoir plus, consulter :\
    [“Formater la police”, p.28](https://wiki.documentfoundation.org/images/8/89/CG6402FR-SaisieDonnees.pdf)\
    [“Formater les bordures des cellules”, p.31](https://wiki.documentfoundation.org/images/8/89/CG6402FR-SaisieDonnees.pdf)\
-   [“Formater l’arrière-plan des cellules”, p.32](https://wiki.documentfoundation.org/images/8/89/CG6402FR-SaisieDonnees.pdf)\
-
+   [“Formater l’arrière-plan des cellules”, p.32](https://wiki.documentfoundation.org/images/8/89/CG6402FR-SaisieDonnees.pdf)<br>
 3. **Formater des données**\
    Dans un tableur, il est possible de définir le format des cellules : nombre, pourcentage, monnaie, date, heure, texte, etc.\
    \
    Pour en savoir plus, consulter :\
-   [“Formater les données”, p.24-27](https://wiki.documentfoundation.org/images/8/89/CG6402FR-SaisieDonnees.pdf)\
-
+   [“Formater les données”, p.24-27](https://wiki.documentfoundation.org/images/8/89/CG6402FR-SaisieDonnees.pdf)<br>
 4. **Trier des données**\
    Dans un tableur, il est possible de trier les données pour modifier la disposition des cellules dans la feuille. Le tri des données peut se faire selon plusieurs critères, par exemple dans l’ordre croissant ou décroissant.\
    \
    Pour en savoir plus, consulter :\
-   [“Trier les enregistrements”, p.48-51 ](https://wiki.documentfoundation.org/images/8/89/CG6402FR-SaisieDonnees.pdf)\
-
+   [“Trier les enregistrements”, p.48-51 ](https://wiki.documentfoundation.org/images/8/89/CG6402FR-SaisieDonnees.pdf)<br>
 5. **Filtrer des données**\
    Dans un tableur, il est possible de filtrer les données : sélectionner et afficher des lignes spécifiques en fonction de critères. \
    \
@@ -164,8 +158,7 @@ Dans un tableur, il est possible de créer facilement des représentations graph
 1. **Créer une visualisation de données**\
    \
    Pour en savoir plus, consulter :\
-   [”Créer un diagramme”, p.1-9](https://wiki.documentfoundation.org/images/b/b0/CG6403FR-Diagrammes.pdf)\
-
+   [”Créer un diagramme”, p.1-9](https://wiki.documentfoundation.org/images/b/b0/CG6403FR-Diagrammes.pdf)<br>
 2. **Modifier une visualisation de données**\
    \
    Pour en savoir plus, consulter :\
