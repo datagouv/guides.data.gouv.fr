@@ -7,13 +7,13 @@ coverY: 0
 
 ## Accéder et télécharger les données de projections climatiques
 
-### France hexagonale
+### SOCLE Métropole (France hexagonale et Corse)
 
 Les données sont disponibles ici ⤵️
 
 {% embed url="https://www.data.gouv.fr/datasets/projections-climatiques-pour-le-hackathon-2025-socle-metropole/" %}
 
-### Outre-Mer
+### SOCLE Outre-Mer
 
 Les données sont disponibles ici ⤵️
 
