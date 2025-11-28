@@ -20,7 +20,7 @@ Les données sont disponibles ici ⤵️
 {% embed url="https://www.data.gouv.fr/datasets/projections-climatiques-pour-le-hackathon-2025-socle-outre-mer" %}
 
 {% hint style="success" %}
-Pour faciliter le téléchargement : \
+**Pour faciliter le téléchargement** \
 Les URLs réels des fichiers sont de la forme : `https://object.files.data.gouv.fr/meteofrance-drias/chemin/vers/le/fichier.csv` par exemple `https://object.files.data.gouv.fr/meteofrance-drias/Antilles-C3AF-2019/CNRM-CM5/ARPEGE62/Csv-files/lisezmoi.txt`
 {% endhint %}
 
