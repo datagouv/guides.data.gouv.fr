@@ -25,6 +25,7 @@
       * [Accompagnement humain](guide-data.gouv.fr/api/outils-pour-les-administrations/accompagnement-humain.md)
       * [Datapass : Outil d'habilitations](guide-data.gouv.fr/api/outils-pour-les-administrations/datapass-outil-dhabilitations.md)
       * [Bouquets API Entreprise et API Particulier](guide-data.gouv.fr/api/outils-pour-les-administrations/bouquets-api-entreprise-et-api-particulier.md)
+      * [Simplifions.data.gouv.fr](https://simplifions.data.gouv.fr/)
   * [Réutilisations](guide-data.gouv.fr/reutilisations/README.md)
     * [Publier une réutilisation](guide-data.gouv.fr/reutilisations/publier-une-reutilisation.md)
     * [Gérer une réutilisation](guide-data.gouv.fr/reutilisations/gerer-une-reutilisation.md)
