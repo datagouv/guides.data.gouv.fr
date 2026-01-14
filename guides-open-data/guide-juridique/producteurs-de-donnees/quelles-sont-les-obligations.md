@@ -7,7 +7,7 @@ Voici une synthèse des principales obligations de diffusion des documents admin
 {% hint style="info" %}
 Le cadre juridique de l’open data public repose principalement sur **les textes applicables en matière d'accès, de diffusion et de réutilisation des documents administratifs**.&#x20;
 
-* Le [livre III du Code des relations entre le public et l’administration (CRPA)](https://search.piaf.etalab.studio/crpa) définit le cadre général de l’ouverture des données publiques. Il intègre tous les textes applicables en matière de communication, de diffusion et de réutilisation des documents administratifs.
+* Le [livre III du Code des relations entre le public et l’administration (CRPA)](https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000031366350/LEGISCTA000031367685/) définit le cadre général de l’ouverture des données publiques. Il intègre tous les textes applicables en matière de communication, de diffusion et de réutilisation des documents administratifs.
 * Le cadre juridique relatif à l’ouverture de l’information publique a considérablement évolué au fil des décennies, jusqu’à la [loi pour une République numérique](https://www.legifrance.gouv.fr/affichLoiPubliee.do?idDocument=JORFDOLE000031589829\&type=general\&legislature=14), promulguée en 2016, qui fait de l’ouverture des données publiques par défaut la règle.
 {% endhint %}
 
