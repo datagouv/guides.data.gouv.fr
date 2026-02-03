@@ -14,7 +14,7 @@
     * [Publier un jeu de données](guide-data.gouv.fr/jeux-de-donnees/publier-un-jeu-de-donnees/README.md)
       * [Publier une Base Adresse Locale](guide-data.gouv.fr/jeux-de-donnees/publier-un-jeu-de-donnees/publier-une-base-adresse-locale.md)
     * [Gérer un jeu de données](guide-data.gouv.fr/jeux-de-donnees/gerer-un-jeu-de-donnees.md)
-    * [Explorer un jeu de donnée](guide-data.gouv.fr/jeux-de-donnees/explorer-un-jeu-de-donnee.md)
+    * [Explorer un jeu de données](guide-data.gouv.fr/jeux-de-donnees/explorer-un-jeu-de-donnee.md)
     * [Télécharger le catalogue de données de data.gouv.fr](guide-data.gouv.fr/jeux-de-donnees/telecharger-le-catalogue-de-donnees-de-data.gouv.fr.md)
     * [Accéder au catalogue via SPARQL](guide-data.gouv.fr/jeux-de-donnees/acceder-au-catalogue-via-sparql.md)
   * [API](guide-data.gouv.fr/api/README.md)

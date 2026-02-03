@@ -26,7 +26,7 @@ Cette plateforme de référencement national permet un accès aux schémas produ
 Les schémas de données sont acceptés dès lors que leur l’existence est justifiée par voie :
 
 * **réglementaire** : c'est une disposition réglementaire qui est à l'origine de la définition du schéma de données ;
-* **d’usage** : la réutilisation des données décrites par le schéma bénéficie à un grand nombre ou de nombreux producteurs sont amenés à utiliser ce schéma de données.
+* **d’usage** : la réutilisation des données décrites par le schéma bénéficie à un grand nombre, ou de nombreux producteurs sont amenés à utiliser ce schéma de données.
 {% endhint %}
 
 * **Des schémas de données décrits par un standard technique** (cf. page ["Phase de construction"](creer-un-schema-de-donnees/etape-3-phase-de-construction.md)) : les schémas de données décrits uniquement par de la documentation textuelle ou des tableaux ne sont pas acceptés.

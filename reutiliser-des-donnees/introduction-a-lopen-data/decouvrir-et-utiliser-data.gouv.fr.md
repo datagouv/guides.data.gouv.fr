@@ -12,17 +12,17 @@ La plateforme est [développée et opérée](https://github.com/datagouv/data.go
 
 Sur [data.gouv.fr](http://data.gouv.fr), vous trouverez des informations sous forme **de données numériques brutes**. Il s’agit de **données ouvertes/en open data** (cf. section "[Comprendre la notion d'open data](../../guides-open-data/guide-juridique/producteurs-de-donnees/comprendre-la-notion-dopen-data.md)"). Elles peuvent être téléchargées et utilisées par toutes et tous **de manière libre et gratuite**.
 
-La plateforme permet, entre autres, d’accéder à **un vaste catalogue de données** issus de milliers d’organisations. Le catalogue de [data.gouv.fr](http://data.gouv.fr) est disponible [ici](https://www.data.gouv.fr/fr/datasets/catalogue-des-donnees-de-data-gouv-fr/) (liste des jeux de données publiés, des ressources publiées, etc.).
+La plateforme permet, entre autres, d’accéder à **un vaste catalogue de données** issues de milliers d’organisations. Le catalogue de [data.gouv.fr](http://data.gouv.fr) est disponible [ici](https://www.data.gouv.fr/fr/datasets/catalogue-des-donnees-de-data-gouv-fr/) (liste des jeux de données publiés, des ressources publiées, etc.).
 
 <figure><img src="../../.gitbook/assets/Sep-11-2024 10-26-25.gif" alt=""><figcaption><p>Page de recherche de données sur la plateforme data.gouv.fr</p></figcaption></figure>
 
-## A qui s’adresse [data.gouv.fr](http://data.gouv.fr) ?
+## À qui s’adresse [data.gouv.fr](http://data.gouv.fr) ?
 
 [data.gouv.fr](http://data.gouv.fr) est une plateforme communautaire qui s’adresse :
 
-* **A ceux qui produisent des données** (producteurs de données) et qui souhaitent ouvrir leurs données ;
-* **A ceux qui exploitent des données** (réutilisateurs de données) et qui veulent récupérer des données et partager leurs réalisations ;
-* **A tout citoyen** qui souhaite découvrir des données ou trouver une information.
+* **À ceux qui produisent des données** (producteurs de données) et qui souhaitent ouvrir leurs données ;
+* **À ceux qui exploitent des données** (réutilisateurs de données) et qui veulent récupérer des données et partager leurs réalisations ;
+* **À tout citoyen** qui souhaite découvrir des données ou trouver une information.
 
 ## Comment utiliser [data.gouv.fr](http://data.gouv.fr) ?
 

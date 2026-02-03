@@ -9,7 +9,7 @@ Les producteurs ouvrent leurs données :
 
 [**data.gouv.fr**](http://data.gouv.fr) **a vocation à centraliser et structurer les données ouvertes en France**. Elle permet à toutes les structures en charge d’une mission de service public, notamment les administrations, de répondre à leur obligation de publication par défaut de leurs données.
 
-A partir des données disponibles sur [data.gouv.fr](http://data.gouv.fr) :
+À partir des données disponibles sur [data.gouv.fr](http://data.gouv.fr) :
 
 * **Des portails thématiques de données peuvent être créés** : ils visent à recenser l’intégralité de l’offre de données ouvertes dans un domaine particulier pour en faciliter la diffusion auprès des réutilisateurs ([meteo.data.gouv.fr](http://meteo.data.gouv.fr), [transport.data.gouv.fr](http://transport.data.gouv.fr), [ecologie.data.gouv.fr](http://ecologie.data.gouv.fr)). Il ne s’agit pas de nouveaux portails open data, mais d’expositions thématiques du catalogue de [data.gouv.fr](http://data.gouv.fr). Les données qui y sont exposées sont disponibles dans les mêmes conditions que sur [data.gouv.fr](http://data.gouv.fr).
 * **Des projets et services sont développés par des réutilisateurs** (ex : [l’Annuaire des Entreprises](https://www.data.gouv.fr/fr/reuses/lannuaire-des-entreprises/)) qui contribuent en retour à la communauté open data et à la plateforme [data.gouv.fr](http://data.gouv.fr) en :

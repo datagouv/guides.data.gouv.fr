@@ -61,7 +61,7 @@ Lors de l'exploration de l'existant, le secrétariat général vous accompagne p
 
 <summary>Comment saisir le CNIG ?</summary>
 
-Un message peut être envoyé sur la [page contact ](https://cnig.gouv.fr/spip.php?page=contact)du site du CNIG ou à [cnig@cnig.gouv.fr](mailto:cnig@cnig.gouv.fr)&#x20;
+Un message peut être envoyé sur la [page contact](https://cnig.gouv.fr/spip.php?page=contact) du site du CNIG ou à [cnig@cnig.gouv.fr](mailto:cnig@cnig.gouv.fr)&#x20;
 
 A la suite du message le secrétariat du CNIG prendra contact, organisera éventuellement une réunion avec le porteur du projet, et si l’exploration semble suffisante programmera le passage en commission.
 

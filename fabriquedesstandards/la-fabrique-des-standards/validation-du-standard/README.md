@@ -22,7 +22,7 @@ Identifier un acteur volontaire pour tester concrètement le standard. Il est co
 * le standard risques - profil applicatif PPR testé par la DDT de l’Isère (voir ce [retour d’expérience dans une présentation](https://youtu.be/1-OFlNQiGtw?feature=shared\&t=3504)),
 * le standard paysage testé par plusieurs collectivités (voir le [Compte-rendu GT du 19 mars 2024](https://cnig.gouv.fr/IMG/pdf/240319_cr_gt6_standard_paysages_diffusion.pdf) sur [la page du GT Paysages](https://cnig.gouv.fr/gt-paysages-a25941.html)). Plusieurs documents de travail du GT peuvent être utiles à titre d'exemple :&#x20;
   * [une présentation à destination des testeurs](https://github.com/cnigfr/schema-paysage/blob/main/test%20standard/2023.11.13%20Pr%C3%A9sentation%20Standard%20Paysage%20pour%20tests%20v1.3.pdf), leur donnant notamment des consignes,
-  * [un modèle de rapport pour les testeurs ](https://github.com/cnigfr/schema-paysage/blob/main/test%20standard/231113_Rapport%20de%20test%20-%20formulaire%20v2023-11.pdf)visant à recueillir les résultats.
+  * [un modèle de rapport pour les testeurs](https://github.com/cnigfr/schema-paysage/blob/main/test%20standard/231113_Rapport%20de%20test%20-%20formulaire%20v2023-11.pdf) visant à recueillir les résultats.
 {% endstep %}
 
 {% step %}
@@ -59,7 +59,7 @@ Le projet de standard est soumis à validation à la **Commission des Standards*
 
 * **Présentation à la commission des standards**
 
-[La commission des standards ](https://cnig.gouv.fr/commission-des-standards-a640.html)se réunit environ une fois par trimestre, il est donc préférable d’anticiper la date visée dans votre calendrier. Une fois la date identifiée, la commission doit être contactée pour inscrire la présentation du standard à son ordre du jour. Pour cela, il convient d’envoyer une demande à la présidente de la commission ou au secrétariat général en indiquant le lien vers le standard. Il sera également demandé de préparer une présentation. Aucun modèle n'est proposé pour cette présentation car nous vous encourageons à utiliser une identité visuelle pour le standard, ou à utiliser celle de votre institution d'appartenance. Voici les informations qu'il est conseillé de faire figurer dans cette présentation :&#x20;
+[La commission des standards](https://cnig.gouv.fr/commission-des-standards-a640.html) se réunit environ une fois par trimestre, il est donc préférable d’anticiper la date visée dans votre calendrier. Une fois la date identifiée, la commission doit être contactée pour inscrire la présentation du standard à son ordre du jour. Pour cela, il convient d’envoyer une demande à la présidente de la commission ou au secrétariat général en indiquant le lien vers le standard. Il sera également demandé de préparer une présentation. Aucun modèle n'est proposé pour cette présentation car nous vous encourageons à utiliser une identité visuelle pour le standard, ou à utiliser celle de votre institution d'appartenance. Voici les informations qu'il est conseillé de faire figurer dans cette présentation :&#x20;
 
 * <mark style="background-color:blue;">Le contexte</mark>
   * **Définir les termes** si cela est nécessaires à la compréhension du sujet,

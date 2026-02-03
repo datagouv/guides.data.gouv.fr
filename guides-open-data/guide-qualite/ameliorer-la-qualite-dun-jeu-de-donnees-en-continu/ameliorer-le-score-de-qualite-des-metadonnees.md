@@ -2,7 +2,7 @@
 
 Un score de qualité des métadonnées a été mis en place sur data.gouv.fr pour répondre principalement à deux problématiques :
 
-* Les réutilisateurs de données peinent à identifier les jeux de données de qualité et à évaluer si tel ou tel jeu de donnée est digne d’intérêt ;
+* Les réutilisateurs de données peinent à identifier les jeux de données de qualité et à évaluer si tel ou tel jeu de données est digne d’intérêt ;
 * Les producteurs de données ne sont pas suffisamment incités et accompagnés à améliorer la qualité de leurs données.
 
 Grâce à ce score de qualité des métadonnées, **il est possible d'identifier les axes sur lesquels travailler pour améliorer la qualité de vos données**.

@@ -50,7 +50,7 @@ Exemples:
 
 * [Data.gouv.fr/dataservices](https://www.data.gouv.fr/fr/dataservices/) (_anciennement API.gouv.fr_) vise à référencer toutes les API publiques de l’État ;
 * [API Impôt Particulier](https://api.gouv.fr/les-api/impot-particulier) vise à référencer toute la verticale métier des finances publiques.
-* [API Entreprise](https://entreprise.api.gouv.fr/) vise à référencer toutes les API délivrant des données administratives des entreprises et des associations. De même pour[ API Particulier](https://particulier.api.gouv.fr/), pour les données administratives des particuliers.
+* [API Entreprise](https://entreprise.api.gouv.fr/) vise à référencer toutes les API délivrant des données administratives des entreprises et des associations. De même pour [API Particulier](https://particulier.api.gouv.fr/), pour les données administratives des particuliers.
 
 #### <mark style="background-color:yellow;">**Recommandation 2**</mark>
 
@@ -92,7 +92,7 @@ Pour les API ouvertes, le bac à sable potentiel est accessible au grand public,
 
 Les données et services sont exposés selon des standards techniques communément partagés et adoptés afin de faciliter l'interopérabilité.
 
-En 2022, le principe d’architecture et d’encodage le plus connu et pratiqué est le **standard REST Json** pour les API synchrones. Il est utilisé par exemple pour les spécifications du standard OpenAPI ([https://spec.openapis.org/oas/v3.1.0](https://spec.openapis.org/oas/v3.1.0)) ou les standards "API" de l'OGC ([https://ogcapi.ogc.org](https://ogcapi.ogc.org)). Concernant les API asynchrones, le principe AsyncAPI est le plus répandu.
+En 2022, le principe d’architecture et d’encodage le plus connu et pratiqué est le **standard REST JSON** pour les API synchrones. Il est utilisé par exemple pour les spécifications du standard OpenAPI ([https://spec.openapis.org/oas/v3.1.0](https://spec.openapis.org/oas/v3.1.0)) ou les standards "API" de l'OGC ([https://ogcapi.ogc.org](https://ogcapi.ogc.org)). Concernant les API asynchrones, le principe AsyncAPI est le plus répandu.
 
 > _**👍 Bonne pratique :**_ _L’approche « contract first », par opposition à l’approche « code first », est recommandée dans le développement de nouvelles interfaces car elle permet de les stabiliser et de faire travailler plusieurs équipes en parallèle au sein d’une même architecture._
 

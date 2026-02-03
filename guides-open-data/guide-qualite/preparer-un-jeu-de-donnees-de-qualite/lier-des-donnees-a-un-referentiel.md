@@ -102,7 +102,7 @@ Le géocodage consiste à affecter des coordonnées géographiques à une adress
 
 Le géocodage peut être en partie automatisé grâce à des outils proposés par Etalab.
 
-**Le site** [**https://adresse.data.gouv.fr/**](https://adresse.data.gouv.fr/) permet de géocoder une liste d'adresse via un appel à une API ou par le dépôt de fichier csv.
+**Le site** [**https://adresse.data.gouv.fr/**](https://adresse.data.gouv.fr/) permet de géocoder une liste d'adresses via un appel à une API ou par le dépôt de fichier csv.
 
 Il permet aussi, à partir d'un jeu de données contenant des adresses déjà saisies, de retourner un jeu de données enrichi :
 

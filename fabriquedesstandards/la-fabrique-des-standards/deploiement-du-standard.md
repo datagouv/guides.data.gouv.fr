@@ -52,11 +52,11 @@ Une fois les acteurs identifiés, un groupe de travail dédié à l’accompagne
 
 Plusieurs moyens d’actions s’offrent à vous :
 
-* [ ] la publication de documents explicatifs accompagnant le standard comme une note explicative (exemple de [StarEau](https://cnig.gouv.fr/gt-reseaux-enterres-des-eaux-a23994.html)), une recommandation pour la mise en œuvre (exemple des standards [GraceTHD](https://cnig.gouv.fr/gt-gracethd-a17477.html) et Plan de sauvegarde et mise en valeur ou PSMV) ou un wiki (exemples des standards [StarEau ](https://github.com/cnigfr/StaR-Eau)et [Paysages](https://github.com/cnigfr/schema-paysage/wiki)),
+* [ ] la publication de documents explicatifs accompagnant le standard comme une note explicative (exemple de [StarEau](https://cnig.gouv.fr/gt-reseaux-enterres-des-eaux-a23994.html)), une recommandation pour la mise en œuvre (exemple des standards [GraceTHD](https://cnig.gouv.fr/gt-gracethd-a17477.html) et Plan de sauvegarde et mise en valeur ou PSMV) ou un wiki (exemples des standards [StarEau](https://github.com/cnigfr/StaR-Eau) et [Paysages](https://github.com/cnigfr/schema-paysage/wiki)),
 * [ ] la publication d’articles dans diverses lettres d’information (des structures des participants, des partenaires, etc.) et dans des revues spécialisées,
 * [ ] les publications sur les réseaux sociaux et forums thématiques (GeoRezo) ou génériques (forum.data.gouv),
 * [ ] la publication d’actualité sur les sites Internet,
-* [ ] l’organisation de webinaires en direction des producteurs de données (un binôme SI métier et géomaticien est conseillé), des professionnels impactés dans la production de connaissance (comme par exemple les prestataires venant à l’appui de l’Etat en tant que maîtres d’œuvre sur la thématique),
+* [ ] l’organisation de webinaires en direction des producteurs de données (un binôme SI métier et géomaticien est conseillé), des professionnels impactés dans la production de connaissance (par exemple les prestataires venant à l’appui de l’État en tant que maîtres d’œuvre sur la thématique),
 * [ ] la participation à des conférences, ou l’organisation de séminaire ou atelier dédiés,
 * [ ] l’organisation de sessions d’accompagnement dédiées à la prise en main.
 
@@ -64,15 +64,15 @@ Plusieurs moyens d’actions s’offrent à vous :
 
 * **Avec quel budget ?**
 
-La question du budget peut être un obstacle lors de cette phase, il faut généralement prévoir le coûts liés à :&#x20;
+La question du budget peut être un obstacle lors de cette phase, il faut généralement prévoir les coûts liés à :&#x20;
 
-\- l’ingénierie interne lié à l’hébergement des données, outils et supports liés à la thématique,&#x20;
+\- l’ingénierie interne liée à l’hébergement des données, outils et supports liés à la thématique,&#x20;
 
 \- la publication dans des revues spécialisées parfois payantes,&#x20;
 
 \- l’animation de sessions, ateliers, etc.,
 
-\- la formation de l’animateur pour le déploiement s’il ne dispose pas de compétences en géomatique ou au domaine métier, qui lui seraient nécessaires pour le déploiement.
+\- la formation de l’animateur pour le déploiement s’il ne dispose pas de compétences en géomatique ou dans le domaine métier, nécessaires au déploiement.
 
 ### <mark style="color:purple;">DU CÔTÉ DU PILOTE</mark>&#x20;
 
@@ -91,7 +91,7 @@ La commission des standards du CNIG pourrait faire régulièrement une **revue d
 Afin d’évaluer l’adoption d’un standard, plusieurs bonnes pratiques existent :&#x20;
 
 * Utiliser les outils de référencement de la DINUM :
-  * schéma.data.gouv pour le standard ce qui permet d’y faire référence lorsque des données s’y conforment (ce référencement est obligatoire),
+  * schéma.data.gouv pour le standard, ce qui permet d’y faire référence lorsque des données s’y conforment (ce référencement est obligatoire),
   * data.gouv pour les données conformes au standard.
 {% endstep %}
 
@@ -122,7 +122,7 @@ Le standard est accompagné d’un guide méthodologique de collecte, dont la r�
 
 L’État a financé le développement de l’outil Accèslibre Mobilités, suite logicielle open source mise gratuitement à disposition des utilisateurs (Collectivités territoriales, bureaux d’études…). Il s’appuie sur le modèle de données défini dans le standard CNIG et permet aux acteurs de préparer et de réaliser la collecte. Il a été testé par de nombreuses  collectivités de façon à améliorer ses fonctionnalités et son ergonomie. Accèslibre Mobilités est utilisé de façon opérationnelle depuis mi-2024 par trois collectivités dans le cadre d’appels d’offre de collecte de données d’accessibilité qui serviront aussi à la programmation de travaux dans le cadre des PAVE.
 
-En parallèle, La plateforme nationale collaborative Accèslibre s’appuie également sur le modèle CNIG et recense l’accessibilité des établissements recevant du public grâce à des contributions individuelles ou collectives. Certaines collectivités impulsent ainsi la démarche de collecte des données d’accessibilité par l’entrée « PAVE » pour ensuite alimenter les services de guidage. Pour ces collectivités pionnières, le GT CNIG Accessibilité est un lieu de ressources, d’échanges entre pairs, qui permet de discuter à la fois objectifs, méthodes, outils… Plusieurs membres du GT CNIG ont par exemple produit un outil de collecte reposant sur le logiciel QGis, libre et gratuit d’utilisation, qui propose, en plus de la collecte, des analyses automatiques de type PAVE à partir des données collectées.
+En parallèle, la plateforme nationale collaborative Accèslibre s’appuie également sur le modèle CNIG et recense l’accessibilité des établissements recevant du public grâce à des contributions individuelles ou collectives. Certaines collectivités impulsent ainsi la démarche de collecte des données d’accessibilité par l’entrée « PAVE » pour ensuite alimenter les services de guidage. Pour ces collectivités pionnières, le GT CNIG Accessibilité est un lieu de ressources, d’échanges entre pairs, qui permet de discuter à la fois objectifs, méthodes, outils… Plusieurs membres du GT CNIG ont par exemple produit un outil de collecte reposant sur le logiciel QGis, libre et gratuit d’utilisation, qui propose, en plus de la collecte, des analyses automatiques de type PAVE à partir des données collectées.
 
 Nous accompagnons ces acteurs locaux investis dans le test des outils avec l’aide des administrations centrales concernées. Les ministères de la transition écologique et des transports animent, depuis courant 2024, 5 groupes de travail régionaux, chacun centré autour d’une collectivité utilisant Accèslibre Mobilités, et rassemblant la région (ou son syndicat de transport), le Centre Régional d’Information Géographique (CRIGE), la DREAL, (via le service SIG, Observatoire régional des Transports, ou service transport), et d’autres collectivités intéressées. Ces groupes de travail œuvrent avec l’appui des acteurs de l’écosystème national tant du côté transport public (Transport.data.gouv, GT7 Information voyageurs, services de mobilité de l’AFNOR/BNTRA) que du côté de la donnée géographique (CGDD, Afigéo, réseau des CRIGEs, membres d’autres GT du CNIG). Ces groupes de travail régionaux sont l’occasion de créer une dynamique locale, d’identifier les difficultés, les stratégies, de travailler des outils…. Ils sont complétés, depuis octobre 2024, par des groupes de travail interrégionaux thématiques, animés par la Fabrique des Mobilités, pour approfondir des problématiques communes et aboutir au printemps 2025 à des livrables rassemblant conseils et recommandations pour tous les nouveaux acteurs se lançant dans le chantier. L’expression des besoins des utilisateurs permet également de régulièrement actualiser le standard.
 
@@ -132,7 +132,7 @@ Par ailleurs, les réunions du GT CNIG Accessibilité, quatre par an, comprennen
 
 Aux ressources apportées par le CNIG s’ajoutera prochainement un modèle de projet géomatique open-source sous QGIS, exemplaire du modèle de données CNIG, assorti de jeux de données exemples.
 
-### A qui s’adresse votre standard, et, en quelques mots, quels sont les enjeux principaux de la phase de déploiement dans votre cas ?
+### À qui s’adresse votre standard, et, en quelques mots, quels sont les enjeux principaux de la phase de déploiement dans votre cas ?
 
 Instruire et outiller les nouvelles exigences réglementaires (LOM) concernant l’accessibilité du cheminement en voirie espace public pour en assurer l’effectivité sur l’ensemble du territoire, en cohérence avec les exigences analogues dans le domaine des transports en commun.
 
@@ -140,7 +140,7 @@ Instruire et outiller les nouvelles exigences réglementaires (LOM) concernant l
 
 Il est en général primordial d’associer en un binôme une compétence métier avec une compétence géomatique/numérique. Le projet doit également être en mesure de s’associer des ressources pour traduire le modèle de données en un ensemble de schémas JSON pour schema.data.gouv.fr, également pour développer un projet géomatique illustrant la structure de données, des jeux-test et des cas d’utilisation.
 
-Le cas du standard CNIG Accessibilité exige également des ressources particulières pour assurer la conversion entre le modèle de collecte CNIG pour les données du cheminement en voirie) et le format d’échange et de diffusion normalisé NeTEx pour les données relatives au cheminement en voirie et aux transports en commun.
+Le cas du standard CNIG Accessibilité exige également des ressources particulières pour assurer la conversion entre le modèle de collecte CNIG pour les données du cheminement en voirie et le format d’échange et de diffusion normalisé NeTEx pour les données relatives au cheminement en voirie et aux transports en commun.
 
 ### Quel calendrier avez-vous suivi pour l’accompagnement du déploiement ?
 
@@ -154,7 +154,7 @@ Le déploiement se fait au rythme d’amélioration de la maturité des outils e
 
 * Fédérer toutes les parties prenantes tout au long du projet
 
-- Dégager des ressources permettant de concrétiser l’utilisation du standard de données (dans certains cas, une preuve de concept peut être très utile. S’appuyer sur les startups d’État.
+- Dégager des ressources permettant de concrétiser l’utilisation du standard de données (dans certains cas, une preuve de concept peut être très utile). S’appuyer sur les startups d’État.
 
 </details>
 
@@ -219,7 +219,7 @@ En complément, nous avons utilisé les outils suivants que nous recommandons :
 
 &#x20;
 
-A noter, que le calendrier du standard GraceTHD s’étale sur plus de dix ans, avec un déploiement **progressif par paliers** et une montée en maturité continue :
+À noter, que le calendrier du standard GraceTHD s’étale sur plus de dix ans, avec un déploiement **progressif par paliers** et une montée en maturité continue :
 
 **2015** : lancement du projet GraceTHDv2 (soutenu par les collectivités).
 
@@ -241,13 +241,13 @@ A noter, que le calendrier du standard GraceTHD s’étale sur plus de dix ans, 
 
 _Ces propos ont été recueillis auprès de l'entreprise Sogelink_
 
-Le standard Récostar, déclinaison du standard StarElec, s’adresse aux géomètres ou entreprises de travaux publics (TP) qui doivent relever (mesurer la position 3D) des réseaux enterrés nouvellement créés. L’enjeu principal est de s’assurer que toutes les informations sur la position exact des réseaux, la composition des ceux-ci (quel type de câbles, quel équipement dans les coffrets etc.) et la relation topologique entre tous les éléments du réseaux nouvellement créés, sont bien fournis à l’exploitant de réseau. Pour l’exploitant de réseaux, ce type de standard permet d’automatiser la vérification de la qualité des données fournies et ainsi d’intégrer plus facilement ces éléments dans sa cartographie. C’est un projet très long sur plusieurs années entre les réunions de travail, les maquettes, les premières versions, les retours clients, etc.
+Le standard Récostar, déclinaison du standard StarElec, s’adresse aux géomètres ou entreprises de travaux publics (TP) qui doivent relever (mesurer la position 3D) des réseaux enterrés nouvellement créés. L’enjeu principal est de s’assurer que toutes les informations sur la position exact des réseaux, la composition de ceux-ci (quel type de câbles, quel équipement dans les coffrets etc.) et la relation topologique entre tous les éléments du réseau nouvellement créés, sont bien fournis à l’exploitant de réseau. Pour l’exploitant de réseaux, ce type de standard permet d’automatiser la vérification de la qualité des données fournies et ainsi d’intégrer plus facilement ces éléments dans sa cartographie. C’est un projet très long sur plusieurs années entre les réunions de travail, les maquettes, les premières versions, les retours clients, etc.
 
-&#x20;Le changement apporté par le standard est assez important pour les géomètres et les entreprises de TP car elles doivent renseigner plus d’informations qu’avant avec des compétences en électricité nouvelle. Le changement d’organisation va nécessiter donc de la formation pour prendre en main les outils mais également des formations sur la compréhension d’un réseau électrique beaucoup plus fin et complet que jusqu’à présent.
+&#x20;Le changement apporté par le standard est assez important pour les géomètres et les entreprises de TP car elles doivent renseigner plus d’informations qu’avant avec des compétences en électricité nouvelle. Le changement d’organisation nécessitera donc de la formation pour prendre en main les outils mais également des formations sur la compréhension d’un réseau électrique beaucoup plus fin et complet que jusqu’à présent.
 
 &#x20;Nous avons travaillé sur une meilleure ergonomie et une interface qui va permettre aux utilisateurs de conserver en grande partie la façon de travailler historique. De plus, des commandes spécifiques permettent d’automatiser un grand nombre de tâches.
 
-Nous avons organisé des présentations via des webinaires et prévus des formations dédiées à ce nouveau format d’échange. Notre centre d’aide s’est également étoffé avec de nombreux documents, vidéos, exemples permettant aux utilisateurs de rapidement se mettre au nouveau format d’échange Récostar
+Nous avons organisé des présentations via des webinaires et prévu des formations dédiées à ce nouveau format d’échange. Notre centre d’aide s’est également étoffé avec de nombreux documents, vidéos, exemples permettant aux utilisateurs de se mettre rapidement au nouveau format d’échange Récostar
 
 &#x20;Nous recommanderions aux nouveaux groupes de travail :
 
@@ -267,7 +267,7 @@ _Ces propos ont été recueillis auprès de la direction eau et assainissement d
 
 Le **standard StaR-Eau** s’adresse aux collectivités ayant la compétence sur l’eau potable et l’assainissement, aux exploitants de réseaux (Régie, DSP), aux bureaux d’études en charge des schémas directeurs, aux entreprises produisant les plans de récolement. Dans notre cas, les enjeux principaux étaient d’harmoniser les bases de données, d’avoir un socle de travail pour une amélioration qualitative de la donnée, de faciliter les échanges avec les bureaux d’études et autres partenaires.
 
-&#x20;Peu de difficultés ont été rencontrées, car de nombreuses ressources sont accessibles en ligne (webinaires, GitHub, …). Un validateur aurait été un plus pour valider la migration et améliorer la cohérence de la base de données. Pour pallier ce manque, un contrôle manuel et par échantillonnage a été fait par la collectivité. De plus, pour faciliter l’acculturation des utilisateurs, des communications régulières ont été réalisées : présentation en réunion, newsletters, etc. Nous recommanderions également d’anticiper les difficultés de la phase d’adoption du standard en mobilisant l’ensemble des acteurs du secteur : publics et privés lors de l’élaborations du standard. Les outils suivants nous ont aidé dans nos travaux :
+&#x20;Peu de difficultés ont été rencontrées, car de nombreuses ressources sont accessibles en ligne (webinaires, GitHub, …). Un validateur aurait été un plus pour valider la migration et améliorer la cohérence de la base de données. Pour pallier ce manque, un contrôle manuel et par échantillonnage a été fait par la collectivité. De plus, pour faciliter l’acculturation des utilisateurs, des communications régulières ont été réalisées : présentation en réunion, newsletters, etc. Nous recommanderions également d’anticiper les difficultés de la phase d’adoption du standard en mobilisant l’ensemble des acteurs du secteur : publics et privés lors de l’élaboration du standard. Les outils suivants nous ont aidé dans nos travaux :
 
 * Ressources sur le GitHub du géostandard : présentation, gabarit, documentation
 
@@ -309,9 +309,9 @@ Pour le StaR-Eau, la documentation en ligne est complète et permet une accultur
 
 <details>
 
-<summary>A qui dois-je m'adresser pour proposer ma demande d'évolution d'un standard ? </summary>
+<summary>À qui dois-je m'adresser pour proposer ma demande d'évolution d'un standard ? </summary>
 
-La procédure pour faire évoluer un standard est similaire à celle pour la création d'un nouveau standard. Elle est décrite dans la page "[Émergence d'un besoin ou d'une évolution](emergence-dun-besoin-ou-dune-evolution.md)", où il est indiqué de contacter le secrétariat général du CNIG par message sur la [page contact ](https://cnig.gouv.fr/spip.php?page=contact)du site du CNIG ou à [cnig@cnig.gouv.fr](mailto:cnig@cnig.gouv.fr). Il peut également être utile de contacter les rédacteurs du standard en question (leurs organismes d'appartenance, _a minima_, et parfois leurs noms, sont indiqués dans le standard lui-même).&#x20;
+La procédure pour faire évoluer un standard est similaire à celle pour la création d'un nouveau standard. Elle est décrite dans la page "[Émergence d'un besoin ou d'une évolution](emergence-dun-besoin-ou-dune-evolution.md)", où il est indiqué de contacter le secrétariat général du CNIG par message sur la [page contact](https://cnig.gouv.fr/spip.php?page=contact) du site du CNIG ou à [cnig@cnig.gouv.fr](mailto:cnig@cnig.gouv.fr). Il peut également être utile de contacter les rédacteurs du standard en question (leurs organismes d'appartenance, _a minima_, et parfois leurs noms, sont indiqués dans le standard lui-même).&#x20;
 
 </details>
 

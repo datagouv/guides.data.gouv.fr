@@ -25,7 +25,7 @@ Si vous êtes concernés par l'obligation légale, vous êtes tenus de diffuser 
 
 * **Les documents administratifs que vous avez communiqué à des demandeurs** ;
 * **L'inventaire des documents administratifs que vous produisez dans le cadre de vos missions de service public** ;
-* **Les bases de données produites et reçues dans le cadre des missions de service public** : ces bases de données doivent êtres mises à jour régulièrement ;
+* **Les bases de données produites et reçues dans le cadre des missions de service public** : ces bases de données doivent être mises à jour régulièrement ;
 * **Les données dont la publication représente un intérêt économique, social, sanitaire ou environnemental**.
 
 **Les documents administratifs diffusés doivent être achevés**, c'est-à-dire qu'ils ont atteint leur version finale, à date (les brouillons, documents de travail, notes préalables ne sont pas considérés comme des documents achevés). Si le document administratif contient une décision, cette dernière ne doit pas être en cours de délibération mais bien prise.

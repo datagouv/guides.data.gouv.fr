@@ -126,7 +126,7 @@ L'intérêt de la manoeuvre est de pouvoir comprendre les appels HTTP utilisés 
 
 **Trouver la structure du WFS**
 
-Trouver la structure du WFS est important car pour pouvoir filtrer, vous pouvez soit utiliser des filtres qui jouent sur les attributs soit sur des propriétés spatiales. Il s’agit donc de connaître le nom des champs. Il s’agit également potentiellement de connaitre le nom de la colonne contenant la géométrie pour pouvoir effectuer les requêtes spatiales.
+Trouver la structure du WFS est important car pour pouvoir filtrer, vous pouvez soit utiliser des filtres qui jouent sur les attributs soit sur des propriétés spatiales. Il s’agit donc de connaître le nom des champs. Il s’agit également potentiellement de connaître le nom de la colonne contenant la géométrie pour pouvoir effectuer les requêtes spatiales.
 
 On part dans cet exemple de la couche `ADMINEXPRESS-COG.LATEST:commune`
 
@@ -163,7 +163,7 @@ ogr2ogr -f GeoJSON communes-44-35.geojson \
         -lco RFC7946=YES
 ```
 
-Nous vous proposons des recettes ci-dessous. La majorité n'utilise que les communes mais nous employons ponctuellement les EPCI, ayant parfois des demandes pour adresser comment les récupérer ou récupérer leurs communes.
+Nous vous proposons des recettes ci-dessous. La majorité n'utilise que les communes mais nous employons ponctuellement les EPCI, ayant parfois des demandes pour expliquer comment les récupérer ou récupérer leurs communes.
 
 On peut dans un premier temps récupérer la commune qui a un code INSEE car elle contient aussi le SIRET de l'EPCI.
 
@@ -193,7 +193,7 @@ depuis un code SIREN :
 ogr2ogr -f GeoJSON epci-with-44109-from-siren.geojson WFS:https://wxs.ign.fr/administratif/geoportail/wfs -sql "SELECT * FROM \"ADMINEXPRESS-COG.LATEST:epci\" WHERE code_siren = '244400404'"
 ```
 
-depuis un point qui est est contenu dans l'EPCI :
+depuis un point qui est contenu dans l'EPCI :
 
 ```
 ogr2ogr -f GeoJSON epci-with-44109-from-geom.geojson WFS:https://wxs.ign.fr/administratif/geoportail/wfs -sql "SELECT * FROM \"ADMINEXPRESS-COG.LATEST:epci\" WHERE ST_Contains(ST_GeomFromText('POINT(-1.54241 47.21791)', 'EPSG:4326'), the_geom)"
@@ -228,7 +228,7 @@ Historiquement, il existait un produit nommé Geofla pour avoir les communes, qu
 * CHFLIEU\_ARRONDISSEMENT\_MUNICIPAL (Point)
 * ARRONDISSEMENT (Polygon)
 
-Le jeu de données et la documentation officielle sont disponibles [la page officielle Admin Express](https://geoservices.ign.fr/adminexpress).
+Le jeu de données et la documentation officielle sont disponibles sur [la page officielle Admin Express](https://geoservices.ign.fr/adminexpress).
 
 **Choisir entre les différents produits Admin Express**
 
@@ -240,13 +240,13 @@ Ce qu'il faut retenir pour choisir les produits :
 * Si vous voulez faire des cartes thématiques qui utilisent les données INSEE --> prenez les données "Admin Express COG Carto" qui sont généralisées c'est-à-dire avec moins de points pour les contours.
 * Si vous avez besoin de compter par exemple les commerces qui sont dans une commune mais aussi de faire des cartes thématiques --> prenez "Admin Express COG" car les coordonnées sont plus précises.
 
-**Eviter le "piège" des projections**
+**Éviter le "piège" des projections**
 
 L'autre difficulté lors de la récupération de ces données est de prendre les données dans les "bonnes projections" : il existe des jeux de données dont la description mentionne "par territoire" et "France entière".
 
 Pour comprendre (en empruntant des raccourcis), il faut savoir que la France utilise "des systèmes de projection officiels" qui définissent comment "bien placer les coordonnées mesurées".
 
-Ces systèmes sont choisis pour pouvoir garder une grande précision de mesure qui permettent ensuite d'être sûr de l'emplacement de votre maison au centimètre près. L'inconvénient est qu'ils fonctionnent sur des étendues faibles : ils sont différents sur la métropole et sur les DOM.
+Ces systèmes sont choisis pour pouvoir garder une grande précision de mesure qui permet ensuite d'être sûr de l'emplacement de votre maison au centimètre près. L'inconvénient est qu'ils fonctionnent sur des étendues faibles : ils sont différents sur la métropole et sur les DOM.
 
 * Si vous prenez les données "par territoire", vous récupérerez les données pour chaque territoire séparément avec chacun sa projection officielle.
 * Si vous prenez France entière, vous aurez les données assemblées dans une projection mondiale indépendamment des territoires.
@@ -267,7 +267,7 @@ Ainsi :
 * [La longueur des noms de commune peut être problématique](https://twitter.com/JulesGrandin/status/1448563444601532422).
 * [Il existe une normalisation des noms de communes](https://www.collectivites-locales.gouv.fr/sites/default/files/Accueil/Notes).
 * Il existe des communes homonymes, le nom n'est donc pas un identifiant fiable.
-* Le code postal ne correspond pas à toujours à une seule commune.
+* Le code postal ne correspond pas toujours à une seule commune.
 * Certaines communes ont plusieurs codes postaux.
 * Le code postal peut contenir le code d'un autre département que son département réel.
 
@@ -277,8 +277,8 @@ Ainsi :
 
 <summary>Bonnes pratiques à adopter</summary>
 
-Partout où vous le pouvez, utilisez le code INSEE du COG ([Code Officiel Géographique](https://www.data.gouv.fr/fr/datasets/code-officiel-geographique-cog/)) plutôt qu'un code postal ou un nom. Celui-ci est le plus fiable dans le temps même si des cas particuliers emergent parfois suite aux évolutions des communes (fusions ou séparation).
+Partout où vous le pouvez, utilisez le code INSEE du COG ([Code Officiel Géographique](https://www.data.gouv.fr/fr/datasets/code-officiel-geographique-cog/)) plutôt qu'un code postal ou un nom. Celui-ci est le plus fiable dans le temps même si des cas particuliers émergent parfois suite aux évolutions des communes (fusions ou séparations).
 
-Avec l'API Découpage Administratif, cette complexité du COG est cachée. Si vous avez des besoins avancés, vous pouvez utiliser soit [les fichiers du COG](https://www.insee.fr/fr/information/2560452) soit pour une recherche ponctuel, passer par [l'interface de recherche de commune](https://www.insee.fr/fr/recherche/recherche-geographique?debut=0).
+Avec l'API Découpage Administratif, cette complexité du COG est cachée. Si vous avez des besoins avancés, vous pouvez utiliser soit [les fichiers du COG](https://www.insee.fr/fr/information/2560452) soit pour une recherche ponctuelle, passer par [l'interface de recherche de commune](https://www.insee.fr/fr/recherche/recherche-geographique?debut=0).
 
 </details>

@@ -97,9 +97,9 @@ Le standard doit respecter le modèle proposé (cf. les ressources utiles de cet
 {% step %}
 ### <mark style="color:purple;">PROCESSUS DE RÉFÉRENCEMENT DU STANDARD</mark>
 
-Dès son lancement, **un standard peut être référencé sur le site du CNIG et sur le site schema.data.douv.fr .**&#x20;
+Dès son lancement, **un standard peut être référencé sur le site du CNIG et sur le site schema.data.gouv.fr.**&#x20;
 
-Pour être référencé, le standard doit être identifié sur [schema.data.gouv.fr ](https://schema.data.gouv.fr)avec le label "en construction".
+Pour être référencé, le standard doit être identifié sur [schema.data.gouv.fr](https://schema.data.gouv.fr) avec le label "en construction".
 {% endstep %}
 {% endstepper %}
 
@@ -130,7 +130,7 @@ _Modèle de compte-rendu de réunion de GT_
 
 ### Exemple de données de test
 
-Les schémas répertoriés sur schema.data.gouv sont généralement pourvu d'un échantillon de données de test, comme c'est le cas pour le [schéma Friches](https://schema.data.gouv.fr/cnigfr/schema-friches/).
+Les schémas répertoriés sur schema.data.gouv sont généralement pourvus d'un échantillon de données de test, comme c'est le cas pour le [schéma Friches](https://schema.data.gouv.fr/cnigfr/schema-friches/).
 
 {% embed url="https://github.com/cnigfr/schema-friches/blob/main/fichier-valide.csv" %}
 _Exemple de données de test pour le standard Friches_
@@ -150,7 +150,7 @@ L'annonce sur schéma.data.gouv n’est pas automatique. Il est nécessaire de d
 * Remplir le modèle fourni (sans modifier les titres indiqués par les symboles #),
 
 {% hint style="info" %}
-**Note** : pour vous familiariser avec la syntaxe markdown, [ce guide publié par Github ](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)peut être utile.
+**Note** : pour vous familiariser avec la syntaxe markdown, [ce guide publié par Github](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) peut être utile.
 {% endhint %}
 
 * Cliquer sur “Create”,
@@ -165,10 +165,10 @@ L'annonce sur schéma.data.gouv n’est pas automatique. Il est nécessaire de d
 Le compte rendu de réunion est rédigé par l'animateur du GT quelques jours après la réunion (voir le modèle proposé plus haut). Il est d'abord soumis au groupe de travail pour relecture sous un délai raisonnable (une semaine convient) à indiquer aux membres.&#x20;
 
 {% hint style="info" %}
-A l'heure actuelle le CNIG ne propose pas d’outils de travail collaboratif en ligne. Les outils gratuits de type suite bureautique en ligne ou autres permettent généralement de répondre aux besoins des GT lorsque les institutions d’appartenance des animateurs ne peuvent pas mettre ces services à disposition (en prêtant attention à la protection des données confidentielles avec ces outils).
+À l'heure actuelle le CNIG ne propose pas d’outils de travail collaboratif en ligne. Les outils gratuits de type suite bureautique en ligne ou autres permettent généralement de répondre aux besoins des GT lorsque les institutions d’appartenance des animateurs ne peuvent pas mettre ces services à disposition (en prêtant attention à la protection des données confidentielles avec ces outils).
 {% endhint %}
 
-Après avoir tenu compte les retours de ses relecteurs, le CR est publié dans sa version finale dans l'espace de travail du GT (Github ou autre espace partagé) et sur la page du GT du site du CNIG, par le secrétariat général du CNIG à qui il aura été transmis
+Après avoir tenu compte des retours de ses relecteurs, le CR est publié dans sa version finale dans l'espace de travail du GT (Github ou autre espace partagé) et sur la page du GT du site du CNIG, par le secrétariat général du CNIG à qui il aura été transmis.
 
 L'animateur informe ensuite sur la publication du CR :&#x20;
 

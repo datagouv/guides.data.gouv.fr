@@ -138,7 +138,7 @@ Information contenue dans un document administratif communicable à tous ou fais
 
 <summary>Jeu de données</summary>
 
-Un jeu de donnée sur data.gouv.fr est un ensemble de ressources ou d’informations (fichiers de données, fichiers d’explications, API etc.) et de métadonnées (description, producteur, date de publication, mots-clefs, couverture géographique temporelle etc.) sur un thème donné.
+Un jeu de données sur data.gouv.fr est un ensemble de ressources ou d’informations (fichiers de données, fichiers d’explications, API etc.) et de métadonnées (description, producteur, date de publication, mots-clefs, couverture géographique temporelle etc.) sur un thème donné.
 
 </details>
 
