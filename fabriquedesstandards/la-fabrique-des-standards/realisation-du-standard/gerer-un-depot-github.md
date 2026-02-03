@@ -40,7 +40,7 @@ Les fichiers ne peuvent être déplacés que via l’interface d’édition de f
 
 ## <mark style="background-color:purple;">Gérer un dépôt</mark>
 
-[La documentation de Github pour la gestion de projet ](https://docs.github.com/fr/issues/planning-and-tracking-with-projects/learning-about-projects/best-practices-for-projects)est une référence utile, à compléter au cas par cas par des recherches en ligne, sur des forums dédiés par exemple.&#x20;
+[La documentation de Github pour la gestion de projet](https://docs.github.com/fr/issues/planning-and-tracking-with-projects/learning-about-projects/best-practices-for-projects) est une référence utile, à compléter au cas par cas par des recherches en ligne, sur des forums dédiés par exemple.&#x20;
 
 ### La gestion des droits&#x20;
 

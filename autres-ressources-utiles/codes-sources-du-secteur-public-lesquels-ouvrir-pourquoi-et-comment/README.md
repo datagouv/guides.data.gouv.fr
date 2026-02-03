@@ -91,7 +91,7 @@ En général, on ouvre le code source d'un logiciel parce qu'on espère des cont
 
 #### Prévenir les équipes qui développent le logiciel
 
-Dès qu'on annonce un logiciel libre, il faut s'attendre à ce qu'il soit testé et à ce que des questions soient posés ou des retours de bugs envoyés. Le mieux est de prévenir les équipes qui développent le logiciel pour que celles-ci puissent se montrer réactives. La première impression qu'on donne à la communauté des utilisateurs et des contributeurs potentiels est importante.
+Dès qu'on annonce un logiciel libre, il faut s'attendre à ce qu'il soit testé et à ce que des questions soient posées ou des retours de bugs envoyés. Le mieux est de prévenir les équipes qui développent le logiciel pour que celles-ci puissent se montrer réactives. La première impression qu'on donne à la communauté des utilisateurs et des contributeurs potentiels est importante.
 
 #### Rappeler pourquoi le code source est libre
 

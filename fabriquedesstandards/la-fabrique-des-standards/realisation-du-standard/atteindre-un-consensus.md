@@ -24,7 +24,7 @@ Dans cette phase de débat, les points d’adhésion et de divergence doivent ê
 {% step %}
 ## <mark style="color:purple;">Construire une première proposition</mark>&#x20;
 
-A partir des discussions précédentes, la piste pour laquelle les désaccords semblent résolvables est approfondie et détaillée dans une proposition. On cherche à en peaufiner tous les aspects, et notamment les points de divergence restants. La solution doit essayer de répondre aux besoins des parties prenantes pour lever les blocages. Un délai de réflexion peut être utile pour une décision complexe.
+À partir des discussions précédentes, la piste pour laquelle les désaccords semblent résolvables est approfondie et détaillée dans une proposition. On cherche à en peaufiner tous les aspects, et notamment les points de divergence restants. La solution doit essayer de répondre aux besoins des parties prenantes pour lever les blocages. Un délai de réflexion peut être utile pour une décision complexe.
 {% endstep %}
 
 {% step %}

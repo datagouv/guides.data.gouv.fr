@@ -128,10 +128,10 @@ Les producteurs sont également tenus de justifier la non disponibilité des don
 
 <table><thead><tr><th width="181">API/Téléchargement</th><th width="128">Nom du HVD</th><th width="170">URL du jeu de données</th><th width="120">Producteur</th><th>Raisons</th><th>Actions en cours</th><th>Calendrier prévisionnel</th></tr></thead><tbody><tr><td><em>Ex : API</em></td><td><em>Ex : Domaine de l'eau</em></td><td></td><td></td><td></td><td></td><td></td></tr></tbody></table>
 
-* **A partir du 10 décembre 2024**, l’équipe data.gouv.fr
+* **À partir du 10 décembre 2024**, l’équipe data.gouv.fr
   * commence à constituer le rapport basé sur les données HVD collectées depuis [data.europa.eu](http://data.europa.eu/)
   * vérifie en parallèle un par un que les jeux de données respectent bien les exigences
-* **A partir de fin décembre**, l'équipe data.gouv.fr&#x20;
+* **À partir de fin décembre**, l'équipe data.gouv.fr&#x20;
   * fige le rapport
   * complète avec les autres infos demandées par la Commission (analyse d’impact, documentation d’orientation sur la publication, réutilisation, etc.)
   * envoi le rapport complet à l’Europe

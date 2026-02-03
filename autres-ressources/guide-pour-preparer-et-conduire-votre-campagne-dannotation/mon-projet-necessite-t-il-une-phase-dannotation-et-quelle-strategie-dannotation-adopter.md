@@ -29,7 +29,7 @@ On parle alors de structuration de la donnée ou d'annotation par moteur de règ
 
 Un moteur de règles est un ensemble de règles prédéfinies « à l'avance ». Par exemple, une règle de pseudonymisation pourrait être « si le mot qui suit "Monsieur" ou "Madame" commence par une majuscule, alors ce mot est un prénom ». La complexité du langage naturel et la diversité des formulations rencontrées dans les documents fait que ce type de moteur de règles a de fortes chances de faire beaucoup d'erreurs dans des textes complexes, ou dont la forme varie souvent. :::
 
-Concrètement, avec un moteur de règles, le passage de la donnée non-structurée à de la données structurée se fait par un programme informatique qui implémente des règles déterministes. Si cette méthode fournit des résultats satisfaisants, elle s'avère alors beaucoup moins coûteuse que l'annotation manuelle. Si en revanche, un moteur de règles ne permet pas d'attendre des résultats avec le niveau de précision souhaité, vous devrez probablement avoir recours à l'annotation manuelle. Nous verrons dans la partie [Conduire votre campagne d'annotation](https://github.com/etalab/guides.etalab.gouv.fr/blob/master/annotation/3-conduire-campagne-annotation.md) comment les moteurs de règles, lorsqu'ils ne donnent pas de résultats assez satisfaisant pour se passer d'annotation, peuvent tout de même permettre d'accélérer le processus d'annotation grâce à la pré-annotation.
+Concrètement, avec un moteur de règles, le passage de la donnée non-structurée à des données structurées se fait par un programme informatique qui implémente des règles déterministes. Si cette méthode fournit des résultats satisfaisants, elle s'avère alors beaucoup moins coûteuse que l'annotation manuelle. Si en revanche, un moteur de règles ne permet pas d'attendre des résultats avec le niveau de précision souhaité, vous devrez probablement avoir recours à l'annotation manuelle. Nous verrons dans la partie [Conduire votre campagne d'annotation](https://github.com/etalab/guides.etalab.gouv.fr/blob/master/annotation/3-conduire-campagne-annotation.md) comment les moteurs de règles, lorsqu'ils ne donnent pas de résultats assez satisfaisant pour se passer d'annotation, peuvent tout de même permettre d'accélérer le processus d'annotation grâce à la pré-annotation.
 
 Exemple avec des données textuelles : Extraction d'informations à partir de formulaires au format _word_ Vous disposez d'un ensemble de documents textuels comme des réponses à un questionnaire. Vous cherchez à extraire un certain nombre d'informations de ces documents (nom, prénom, adresse par exemple). Des règles informatiques simples de recherche textuelle (le texte entre "Nom" et "Prénom" permet d'extraire le nom, le texte entre "Prénom" et "Adresse" permet d'extraire le prénom) peuvent dans certains cas permettre d'extraire les informations.&#x20;
 
@@ -66,8 +66,8 @@ Les exemples de projets comportant une phase d'annotation sont nombreux. Par exe
 
 Le projet en quelques chiffres :
 
-* Le projet : Annoter des paragraphes _Wikipedia_ afin de constituer une jeu de données francophone de questions-réponses
-* Le temps moyen pour annoter un paragraphe : eniron 5 min par paragraphe
+* Le projet : Annoter des paragraphes _Wikipedia_ afin de constituer un jeu de données francophone de questions-réponses
+* Le temps moyen pour annoter un paragraphe : environ 5 min par paragraphe
 * L'équipe d'annotateurs : équipe de contributeurs volontaires ( 640 contributeurs en septembre 2020)
 * Le nombre de paires de questions-réponses réalisées en septembre 2020: 8640
 * Le schéma synthétique d'annotation : trouver 5 questions portant sur un paragraphe donné et souligner la réponse correspondante dans le texte du paragraphe&#x20;

@@ -11,7 +11,7 @@ coverY: 0
 
 ## <mark style="background-color:purple;">Actions de la phase</mark>
 
-Le [pilote ](https://app.gitbook.com/o/w6D6SnLwCXQaMMSzcTvp/s/weZQRU1RV5So9WzNyxlW/~/changes/19/la-fabrique-des-standards/glossaire-de-la-fabrique-des-standards#pilote)sollicite le secrétariat général du CNIG pour l’aider à constituer le groupe de travail de la manière suivante :&#x20;
+Le [pilote](https://app.gitbook.com/o/w6D6SnLwCXQaMMSzcTvp/s/weZQRU1RV5So9WzNyxlW/~/changes/19/la-fabrique-des-standards/glossaire-de-la-fabrique-des-standards#pilote) sollicite le secrétariat général du CNIG pour l’aider à constituer le groupe de travail de la manière suivante :&#x20;
 
 * **identifier les parties prenantes** au standard, personnes ou organisations,
 * **les solliciter** pour rejoindre le GT en tant que [participant](https://app.gitbook.com/o/w6D6SnLwCXQaMMSzcTvp/s/weZQRU1RV5So9WzNyxlW/~/changes/19/la-fabrique-des-standards/glossaire-de-la-fabrique-des-standards#participant-participante),&#x20;

@@ -73,7 +73,7 @@ Il est possible de télécharger les statistiques au format csv (tabulaire). Cel
 | _metric\_month_   | Mois durant lequel la mesure a été effectuée |
 | _monthly\_visit_  | Nombre de visites sur le mois en question    |
 
-<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption><p>Exemple des statistiques sur le jeu de donnée <a href="https://www.data.gouv.fr/fr/datasets/base-sirene-des-entreprises-et-de-leurs-etablissements-siren-siret/#/information">base Sirene</a> au 4 décembre 2023.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption><p>Exemple des statistiques sur le jeu de données <a href="https://www.data.gouv.fr/fr/datasets/base-sirene-des-entreprises-et-de-leurs-etablissements-siren-siret/#/information">base Sirene</a> au 4 décembre 2023.</p></figcaption></figure>
 {% endtab %}
 
 {% tab title="Réutilisations" %}
@@ -102,7 +102,7 @@ Il est possible de télécharger les statistiques au format csv (tabulaire). Cel
 {% endtab %}
 
 {% tab title="Plateforme data.gouv.fr" %}
-Un [tableau de bord](https://www.data.gouv.fr/fr/dashboard/) sur l’ensemble de [data.gouv.fr](http://data.gouv.fr/) est également disponible. Celui-ci présente les statistiques de la plateforme **pour les 12 derniers mois**, elles sont mise à jour quotidiennement.
+Un [tableau de bord](https://www.data.gouv.fr/fr/dashboard/) sur l’ensemble de [data.gouv.fr](http://data.gouv.fr/) est également disponible. Celui-ci présente les statistiques de la plateforme **pour les 12 derniers mois**, elles sont mises à jour quotidiennement.
 
 <figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}

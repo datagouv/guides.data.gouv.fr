@@ -1,4 +1,4 @@
-# Explorer un jeu de donnée
+# Explorer un jeu de données
 
 Sur les jeux de données au format tabulaires vous pouvez utiliser notre explorateur de données pour avoir un aperçu des données, d’en savoir plus sur les différentes colonnes, mais aussi par exemple de réaliser des filtres et des tris.
 

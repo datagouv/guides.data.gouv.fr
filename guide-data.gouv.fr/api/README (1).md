@@ -6,13 +6,13 @@
 Une API est une interface, un contrat passé entre deux systèmes informatiques pour leur permettre de communiquer. Cette solution informatique permet d’automatiser des tâches depuis votre ordinateur ou vos serveurs.
 {% endhint %}
 
-A partir de l’API de data.gouv.fr, vous pouvez réaliser les mêmes actions que sur la plateforme :
+À partir de l’API de data.gouv.fr, vous pouvez réaliser les mêmes actions que sur la plateforme :
 
 * **Créer un jeu de données au nom de votre compte utilisateur ou au nom de votre organisation** ;
 * **Décrire votre jeu de données et les ressources associées** ;
 * **Ajouter ou supprimer une ressource ou un jeu de données**.
 
-L’API de data.gouv.fr propose également des fonctionnalité complémentaires à la publication de jeux de données comme la possibilité de récupérer les métadonnées des jeux de données ou de fichiers ou encore d'accéder au contenu des fichiers d’un jeu de données.
+L’API de data.gouv.fr propose également des fonctionnalités complémentaires à la publication de jeux de données comme la possibilité de récupérer les métadonnées des jeux de données ou de fichiers ou encore d'accéder au contenu des fichiers d’un jeu de données.
 
 {% hint style="info" %}
 #### Quand utiliser l’API de data.gouv.fr ? <a href="#quand-utiliser-l-api-de-data-gouv-fr" id="quand-utiliser-l-api-de-data-gouv-fr"></a>

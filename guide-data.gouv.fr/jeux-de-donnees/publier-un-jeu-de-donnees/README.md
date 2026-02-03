@@ -1,7 +1,7 @@
 # Publier un jeu de données
 
 {% hint style="info" %}
-En amont de la publication de données sur data.gouv.fr, il est important de bien préparer le jeu de données. Pour ce faire, nous vous invitons à consulter [guide qualité](../../../guides-open-data/guide-qualite/).
+En amont de la publication de données sur data.gouv.fr, il est important de bien préparer le jeu de données. Pour ce faire, nous vous invitons à consulter le [guide qualité](../../../guides-open-data/guide-qualite/).
 {% endhint %}
 
 Plusieurs modes de mises en ligne sont possibles sur la plateforme data.gouv.fr :&#x20;
@@ -14,7 +14,7 @@ Plusieurs modes de mises en ligne sont possibles sur la plateforme data.gouv.fr 
 
 <summary>Quelle différence entre API et moissonnage ?</summary>
 
-La publication par l’API vous donne un contrôle total sur le contenu de chaque champ, le moment de la soumission. tandis que le moissonnage, s’il ne nécessite pas de développement spécifique sur votre plateforme, est un fonctionnement fortement contraint.
+La publication par l’API vous donne un contrôle total sur le contenu de chaque champ et le moment de la soumission, tandis que le moissonnage, s’il ne nécessite pas de développement spécifique sur votre plateforme, est un fonctionnement fortement contraint.
 
 **Moissonage**&#x20;
 
@@ -49,9 +49,9 @@ Nous vous conseillons de publier un jeu de données sous le nom de votre compte 
 
 ### 2. Décrire le jeu de données
 
-L'étape de description est cruciale pour que vos jeux de données soient bien référencés et faciliter la réutilisation.
+L'étape de description est cruciale pour que vos jeux de données soient bien référencés et pour faciliter la réutilisation.
 
-<table><thead><tr><th width="288">Information</th><th>Description de l'information</th></tr></thead><tbody><tr><td>Titre* </td><td>Le titre de votre jeu de données doit être le plus précis et spécifique possible. Il doit également correspondre au vocabulaire employé par les utilisateurs. Ces derniers recherchent les données le plus souvent dans un moteur de recherche.</td></tr><tr><td>Sigle</td><td>Vous avez la possibilité d’apposer un sigle à votre jeu de données. Les lettres qui composent ce sigle n’ont pas besoin d’être séparées par des points.</td></tr><tr><td>Description*</td><td>La description de votre jeu de données permet aux personnes qui le consultent d’obtenir des informations sur le contenu et la structure des ressources publiées, le contexte de production des données, les contacts producteurs etc. </td></tr><tr><td>Licence</td><td>Les licences définissent les règles de réutilisation des jeux de données publiés. En choisissant une licence de réutilisation, vous vous assurez que le jeu de données publié sera réutilisé selon les conditions d’usage que vous avez définies. Afin d’éviter la multiplication des licences, la<a href="https://www.legifrance.gouv.fr/affichTexteArticle.do?cidTexte=JORFTEXT000033202746&#x26;idArticle=JORFARTI000033203004&#x26;categorieLien=cid"> loi pour une République numérique</a> a prévu la création d’une liste de licences qui peuvent être utilisées par les administrations. Le site data.gouv.fr<a href="https://www.data.gouv.fr/fr/licences"> a référencé la liste des licences applicables</a> aux informations publiques (données, documents…).</td></tr><tr><td>Fréquence de mise à jour*</td><td>La fréquence de mise à jour correspond à la fréquence à laquelle vous prévoyez de mettre à jour les données publiées. Cette fréquence de mise à jour reste indicative.</td></tr><tr><td>Mots clés</td><td>Les mots clés caractérisent votre jeu de données. Ils apparaissent sur la page de présentation et apportent un meilleur référencement du jeu de données lors d’une recherche utilisateur.</td></tr><tr><td>Couverture temporelle</td><td>La couverture temporelle indique la portée dans le temps des données publiées.</td></tr><tr><td>Granularité spatiale</td><td>La granularité spatiale indique le niveau de détail géographique le plus fin que peut couvrir vos données.</td></tr><tr><td>Mode brouillon</td><td>L’activation du mode brouillon permet de ne pas mettre en ligne le jeu de données. Cela laisse la possibilité de l’éditer avant sa publication.</td></tr></tbody></table>
+<table><thead><tr><th width="288">Information</th><th>Description de l'information</th></tr></thead><tbody><tr><td>Titre* </td><td>Le titre de votre jeu de données doit être le plus précis et spécifique possible. Il doit également correspondre au vocabulaire employé par les utilisateurs. Ces derniers recherchent les données le plus souvent dans un moteur de recherche.</td></tr><tr><td>Sigle</td><td>Vous avez la possibilité d’apposer un sigle à votre jeu de données. Les lettres qui composent ce sigle n’ont pas besoin d’être séparées par des points.</td></tr><tr><td>Description*</td><td>La description de votre jeu de données permet aux personnes qui le consultent d’obtenir des informations sur le contenu et la structure des ressources publiées, le contexte de production des données, les contacts producteurs etc. </td></tr><tr><td>Licence</td><td>Les licences définissent les règles de réutilisation des jeux de données publiés. En choisissant une licence de réutilisation, vous vous assurez que le jeu de données publié sera réutilisé selon les conditions d’usage que vous avez définies. Afin d’éviter la multiplication des licences, la<a href="https://www.legifrance.gouv.fr/affichTexteArticle.do?cidTexte=JORFTEXT000033202746&#x26;idArticle=JORFARTI000033203004&#x26;categorieLien=cid"> loi pour une République numérique</a> a prévu la création d’une liste de licences qui peuvent être utilisées par les administrations. Le site data.gouv.fr<a href="https://www.data.gouv.fr/fr/licences"> a référencé la liste des licences applicables</a> aux informations publiques (données, documents…).</td></tr><tr><td>Fréquence de mise à jour*</td><td>La fréquence de mise à jour correspond à la fréquence à laquelle vous prévoyez de mettre à jour les données publiées. Cette fréquence de mise à jour reste indicative.</td></tr><tr><td>Mots clés</td><td>Les mots clés caractérisent votre jeu de données. Ils apparaissent sur la page de présentation et apportent un meilleur référencement du jeu de données lors d’une recherche utilisateur.</td></tr><tr><td>Couverture temporelle</td><td>La couverture temporelle indique la portée dans le temps des données publiées.</td></tr><tr><td>Granularité spatiale</td><td>La granularité spatiale indique le niveau de détail géographique le plus fin que peuvent couvrir vos données.</td></tr><tr><td>Mode brouillon</td><td>L’activation du mode brouillon permet de ne pas mettre en ligne le jeu de données. Cela laisse la possibilité de l’éditer avant sa publication.</td></tr></tbody></table>
 
 _\*Les champs identifiés par un astérisque sont obligatoires._
 
@@ -80,13 +80,13 @@ Lors de l’étape **“Ajoutez vos ressources”**, deux options vous sont prop
 Une API est une interface, un contrat passé entre deux systèmes informatiques pour leur permettre de communiquer. Cette solution informatique permet d’automatiser des tâches depuis votre ordinateur ou vos serveurs.
 {% endhint %}
 
-A partir de l’API de data.gouv.fr, vous pouvez réaliser les mêmes actions que sur la plateforme :
+À partir de l’API de data.gouv.fr, vous pouvez réaliser les mêmes actions que sur la plateforme :
 
 * **Créer un jeu de données au nom de votre compte utilisateur ou au nom de votre organisation** ;
 * **Décrire votre jeu de données et les ressources associées** ;
 * **Ajouter ou supprimer une ressource ou un jeu de données**.
 
-L’API de data.gouv.fr propose également des fonctionnalité complémentaires à la publication de jeux de données comme la possibilité de récupérer les métadonnées des jeux de données ou de fichiers ou encore d'accéder au contenu des fichiers d’un jeu de données.
+L’API de data.gouv.fr propose également des fonctionnalités complémentaires à la publication de jeux de données comme la possibilité de récupérer les métadonnées des jeux de données ou de fichiers ou encore d'accéder au contenu des fichiers d’un jeu de données.
 
 {% hint style="info" %}
 #### Quand utiliser l’API de data.gouv.fr ? <a href="#quand-utiliser-l-api-de-data-gouv-fr" id="quand-utiliser-l-api-de-data-gouv-fr"></a>

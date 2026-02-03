@@ -36,7 +36,7 @@ Le standard Schéma de Cohérence Territoriale (SCOT) a été réalisé et mis �
 
 ### <mark style="color:purple;">→</mark> Des acteurs se disent : « **il faut s’entendre entre nous** »&#x20;
 
-Constatant que l’existence, le contenu et l’accès à la donnée sur l’éclairage extérieur sont très inégaux en fonction des territoires, un ensemble d’acteurs s’est emparé du sujet en montant[ le groupe de travail Eclairage Extérieur ](https://cnig.gouv.fr/eclairage-exterieur-a25020.html)au CNIG. Ce GT s’est ensuite élargi autour d’autres acteurs, privés notamment, pour élaborer le standard. Le groupe restreint à l’origine du projet a su convaincre le reste de l’écosystème qu’un standard permettrait de lever les freins à l’avancement de travaux opérationnels pour lesquels les données de points lumineux constituent une matière première quasi indispensable.
+Constatant que l’existence, le contenu et l’accès à la donnée sur l’éclairage extérieur sont très inégaux en fonction des territoires, un ensemble d’acteurs s’est emparé du sujet en montant [ le groupe de travail Eclairage Extérieur ](https://cnig.gouv.fr/eclairage-exterieur-a25020.html) au CNIG. Ce GT s’est ensuite élargi autour d’autres acteurs, privés notamment, pour élaborer le standard. Le groupe restreint à l’origine du projet a su convaincre le reste de l’écosystème qu’un standard permettrait de lever les freins à l’avancement de travaux opérationnels pour lesquels les données de points lumineux constituent une matière première quasi indispensable.
 
 ### <mark style="color:purple;">→</mark> **Un projet commun** qui nécessite le passage par un standard
 
@@ -67,7 +67,7 @@ Lors de l'émergence d'un besoin, le secrétariat général vous accompagne pour
 
 ## <mark style="background-color:purple;">Ressources utiles</mark>
 
-* Guide data.gouv sur [la phase d'investigation ](https://guides.data.gouv.fr/guides-open-data/guide-qualite/maitriser-les-schemas-de-donnees/creer-un-schema-de-donnees/etape-1-phase-dinvestigation)préalable à la création d'un schéma de données.
+* Guide data.gouv sur [la phase d'investigation](https://guides.data.gouv.fr/guides-open-data/guide-qualite/maitriser-les-schemas-de-donnees/creer-un-schema-de-donnees/etape-1-phase-dinvestigation) préalable à la création d'un schéma de données.
 
 ***
 

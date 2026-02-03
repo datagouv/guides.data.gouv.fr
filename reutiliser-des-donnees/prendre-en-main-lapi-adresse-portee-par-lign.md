@@ -27,7 +27,7 @@ Ce nouveau portage s’inscrit dans le cadre du transfert de la BAN initié en m
 **Geoplateforme** : Espace public de l’information géographique visant à optimiser la production et la diffusion des géodatas au service de la décision publique.
 {% endhint %}
 
-Une période minimum de transition est mise en place pendant les 6 premiers mois de l’année 2024, au cours de laquelle “l’API DINUM” et “l’API IGN” coexisteront. **A partir du début 2024, l’IGN sera le point de contact principal pour les questions relatives à l’API “Adresse”.**
+Une période minimum de transition est mise en place pendant les 6 premiers mois de l’année 2024, au cours de laquelle “l’API DINUM” et “l’API IGN” coexisteront. **À partir du début 2024, l’IGN sera le point de contact principal pour les questions relatives à l’API “Adresse”.**
 
 ## Modalités d’évaluation de l’API “Adresse” portée par l’IGN
 
@@ -39,7 +39,7 @@ L’évaluation sera réalisée selon le protocole suivant :
 
 ### **Documentation**
 
-* Code publié en open source[https://gitlab.gpf-tech.ign.fr/geoplateforme/geocodage/geocodeur/](https://gitlab.gpf-tech.ign.fr/geoplateforme/geocodage/geocodeur/)
+* Code publié en open source [https://gitlab.gpf-tech.ign.fr/geoplateforme/geocodage/geocodeur/](https://gitlab.gpf-tech.ign.fr/geoplateforme/geocodage/geocodeur/)
 * Documentation claire sur les réglages effectués sur Addok (joue sur le ranking et le scoring)
 
 Actuellement on a `addok.conf` qui contient
