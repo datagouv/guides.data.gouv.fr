@@ -9,8 +9,8 @@ L'équipe data.gouv.fr expérimente l’intelligence artificielle, en particulie
 {% hint style="info" %}
 **🧪 Nos expérimentations en cours**
 
-* La génération automatique de descriptions, pour aider les producteurs à rédiger des descriptions claires et accessibles pour faciliter la découvrabilité des données ;
-* La suggestion de mots-clés, combinant vocabulaire libre et vocabulaires contrôlés (DCAT, EuroVoc) ;
+* La suggestion automatique de descriptions, pour aider les producteurs à rédiger des descriptions claires et accessibles pour faciliter la découvrabilité des données ;
+* La suggestion automatique de mots-clés, combinant vocabulaire libre et vocabulaires contrôlés (DCAT, EuroVoc) ;
 * La mise en place d'un [serveur Model Context Protocol](https://github.com/datagouv/datagouv-mcp), pour mieux encadrer et documenter les échanges entre les modèles et la plateforme ;
 * Le développement d'un [skill data.gouv.fr](https://github.com/datagouv/datagouv-skill), une documentation structurée à destination des LLMs pour leur permettre d'interagir efficacement avec la plateforme et ses données.
 {% endhint %}
