@@ -1,7 +1,3 @@
----
-hidden: true
----
-
 # Créer une verticale thématique de data.gouv.fr
 
 ## Qu'est-ce que data.gouv.fr ?
