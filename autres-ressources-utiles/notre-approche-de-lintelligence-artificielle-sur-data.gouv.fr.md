@@ -11,8 +11,8 @@ L'équipe data.gouv.fr expérimente l’intelligence artificielle, en particulie
 
 * La suggestion automatique de descriptions, pour aider les producteurs à rédiger des descriptions claires et accessibles pour faciliter la découvrabilité des données ;
 * La suggestion automatique de mots-clés, combinant vocabulaire libre et vocabulaires contrôlés (DCAT, EuroVoc) ;
-* La mise en place d'un [serveur Model Context Protocol](https://github.com/datagouv/datagouv-mcp), pour mieux encadrer et documenter les échanges entre les modèles et la plateforme ;
-* Le développement d'un [skill data.gouv.fr](https://github.com/datagouv/datagouv-skill), une documentation structurée à destination des LLMs pour leur permettre d'interagir efficacement avec la plateforme et ses données.
+* L'ouverture d'un **[serveur Model Context Protocol (MCP)](https://github.com/datagouv/datagouv-mcp)** en ligne. Ce standard permet de connecter directement data.gouv.fr à votre chatbot pour qu'il puisse chercher et analyser des données en temps réel. Retrouvez comment configurer votre outil (Claude, ChatGPT, Mistral...) sur le dépôt [datagouv-mcp](https://github.com/datagouv/datagouv-mcp) ;
+* La mise à disposition d'un **[skill data.gouv.fr](https://github.com/datagouv/datagouv-skill)** via un dépôt collaboratif. Il s'agit d'une documentation structurée à destination des LLMs pour leur apprendre à utiliser nativement les APIs de la plateforme (catalogue, métriques et données tabulaires).
 {% endhint %}
 
 Ces expérimentations se font dans le respect de plusieurs principes :
