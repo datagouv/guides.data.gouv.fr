@@ -20,7 +20,7 @@ Ce guide présente :
 
 * [Le processus global de remontée des données sur data.gouv.fr ;](donnees-de-forte-valeur-modalites-de-rapportage.md#processus-global-de-remontee-des-fiches-de-donnees-sur-data.gouv.fr)
 * [Les métadonnées obligatoires à renseigner pour les données de forte valeur ;](donnees-de-forte-valeur-modalites-de-rapportage.md#metadonnees-obligatoires-pour-les-donnees-de-forte-valeur)
-* [Les modalités de rapportage à la Commission européenne ; ](donnees-de-forte-valeur-modalites-de-rapportage.md#les-modalites-de-rapportage-a-la-commission-europeenne-depuis-data.gouv.fr)
+* [Les modalités de rapportage à la Commission européenne ;](donnees-de-forte-valeur-modalites-de-rapportage.md#les-modalites-de-rapportage-a-la-commission-europeenne-depuis-data.gouv.fr)
 * [L'articulation entre la directive INSPIRE et le règlement d'exécution relatif aux données de forte valeur.](donnees-de-forte-valeur-modalites-de-rapportage.md#larticulation-entre-la-directive-inspire-et-le-reglement-dexecution-relatif-aux-donnees-de-forte-val)
 
 Il a vocation à être enrichi au gré des nouvelles précisions. Une foire aux questions sera également alimentée.
@@ -37,14 +37,14 @@ Pour les producteurs concernés (cf. [ouverture.data.gouv.fr](https://ouverture.
 
 ## Métadonnées obligatoires pour les données de forte valeur
 
-Plusieurs métadonnées sont obligatoires dans le cadre des données de forte valeur.&#x20;
+Plusieurs métadonnées sont obligatoires dans le cadre des données de forte valeur.
 
 {% tabs %}
 {% tab title="Pour les jeux de données" %}
-1. **Une métadonnée identifiant le jeu de données comme étant un HVD** via l'utilisation d'un mot clé "**hvd**"\*.&#x20;
+1. **Une métadonnée identifiant le jeu de données comme étant un HVD** via l'utilisation d'un mot clé "**hvd**"\*.
 2.  **Une métadonnée identifiant la catégorie HVD à laquelle la donnée appartient**
 
-    via les mots clés suivant\* :&#x20;
+    via les mots clés suivant\* :
 
     _Météorologiques_
 
@@ -53,13 +53,13 @@ Plusieurs métadonnées sont obligatoires dans le cadre des données de forte va
     _Géospatiales_
 
     _Mobilité_\
-    _Observation de la terre et environnement_\
-    _Statistiques_\
+    &#xNAN;_&#x4F;bservation de la terre et environnement_\
+    &#xNAN;_&#x53;tatistiques_\
     Les mots clés sur data.gouv.fr sont automatiquement normalisés (mis en minuscule, etc.).
-3. **La licence des données**. Celle-ci doit être équivalente ou moins restrictive que la [CC BY 4.0 DEED](https://creativecommons.org/licenses/by/4.0/). Nous recommandons la [licence ouverte 2.0](https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf). \
-   En savoir plus sur les [licences utilisables par les administrations](https://www.data.gouv.fr/fr/pages/legal/licences/) ou sur les [conditions de réutilisations qui s'appliquent si aucune licence n'est indiquée](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000032255220).&#x20;
+3. **La licence des données**. Celle-ci doit être équivalente ou moins restrictive que la [CC BY 4.0 DEED](https://creativecommons.org/licenses/by/4.0/). Nous recommandons la [licence ouverte 2.0](https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf).\
+   En savoir plus sur les [licences utilisables par les administrations](https://www.data.gouv.fr/fr/pages/legal/licences/) ou sur les [conditions de réutilisations qui s'appliquent si aucune licence n'est indiquée](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000032255220).
 
-**\*Si vous publiez via moissonnage à partir de plateformes géographiques** supportant les thèmes de vocabulaires contrôlés (ex: GeoNetwork) **les mots clés sont déduits**  \
+**\*Si vous publiez via moissonnage à partir de plateformes géographiques** supportant les thèmes de vocabulaires contrôlés (ex: GeoNetwork) **les mots clés sont déduits**\
 **via une URI du vocabulaire issue du** [**référentiel européen**](https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/high-value-dataset-category) ([exemple pour la catégorie météorologique](http://data.europa.eu/bna/c_164e0bf5)).
 
 {% hint style="info" %}
@@ -71,7 +71,7 @@ Plusieurs métadonnées sont obligatoires dans le cadre des données de forte va
 1. **Une métadonnée identifiant le jeu de données comme étant un HVD** via l'utilisation d'un mot clé "**hvd**".\*
 2.  **Une métadonnée identifiant la catégorie HVD à laquelle la donnée appartient**
 
-    via les mots clés suivant:&#x20;
+    via les mots clés suivant:
 
     _Météorologiques\*_
 
@@ -80,16 +80,16 @@ Plusieurs métadonnées sont obligatoires dans le cadre des données de forte va
     _Géospatiales_
 
     _Mobilité_\
-    _Observation de la terre et environnement_\
-    _Statistiques_\
+    &#xNAN;_&#x4F;bservation de la terre et environnement_\
+    &#xNAN;_&#x53;tatistiques_\
     Les mots clés sur data.gouv.fr sont automatiquement normalisés (mis en minuscule, etc.).
-3. **Un point de contact de l'API** : adresse mail ou formulaire de contact.&#x20;
-4. **La licence des données**. Celle-ci doit être équivalente ou moins restrictive que la [CC BY 4.0 DEED](https://creativecommons.org/licenses/by/4.0/). Nous recommandons la [licence ouverte 2.0](https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf). \
-   En savoir plus sur les [licences utilisables par les administrations](https://www.data.gouv.fr/fr/pages/legal/licences/) ou sur les [conditions de réutilisations qui s'appliquent si aucune licence n'est indiquée](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000032255220).&#x20;
+3. **Un point de contact de l'API** : adresse mail ou formulaire de contact.
+4. **La licence des données**. Celle-ci doit être équivalente ou moins restrictive que la [CC BY 4.0 DEED](https://creativecommons.org/licenses/by/4.0/). Nous recommandons la [licence ouverte 2.0](https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf).\
+   En savoir plus sur les [licences utilisables par les administrations](https://www.data.gouv.fr/fr/pages/legal/licences/) ou sur les [conditions de réutilisations qui s'appliquent si aucune licence n'est indiquée](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000032255220).
 5. **Un lien vers une page web de description de la qualité de service de cette API**. Par exemple un lien vers un SLA (service-level agreement).
 6. **Un lien vers la documentation dans un format standard** pour les machines ou les utilisateurs humains, par exemple au format OpenAPI est aussi fortement recommandé.
 
-**\*Si vous publiez via moissonnage à partir de plateformes géographiques** supportant les thèmes de vocabulaires contrôlés (ex: GeoNetwork) **les mots clés sont déduits**  \
+**\*Si vous publiez via moissonnage à partir de plateformes géographiques** supportant les thèmes de vocabulaires contrôlés (ex: GeoNetwork) **les mots clés sont déduits**\
 **via une URI du vocabulaire issue du** [**référentiel européen**](https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/high-value-dataset-category) ([exemple pour la catégorie météorologique](http://data.europa.eu/bna/c_164e0bf5)).
 
 {% hint style="info" %}
@@ -106,7 +106,7 @@ Plusieurs métadonnées sont obligatoires dans le cadre des données de forte va
 
 Les Etats membres de l'Union européenne sont soumis à une obligation de rapportage tous les deux ans auprès de la Commission européenne, dans le cadre du [règlement d'exécution](https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=PI_COM:C\(2022\)9562) (article 5).
 
-**Les producteurs de données ne sont pas responsables de ce rapportage. Celui-ci se base sur le catalogue** [**data.europa.eu**](https://data.europa.eu/) **qui moissonne les informations depuis** [**data.gouv.fr**](http://data.gouv.fr) **via un vocabulaire spécifique** [**Data Catalogue Vocabulary**](https://w3c.github.io/dxwg/dcat/) **(DCAT) HVD**.&#x20;
+**Les producteurs de données ne sont pas responsables de ce rapportage. Celui-ci se base sur le catalogue** [**data.europa.eu**](https://data.europa.eu/) **qui moissonne les informations depuis** [**data.gouv.fr**](http://data.gouv.fr) **via un vocabulaire spécifique** [**Data Catalogue Vocabulary**](https://w3c.github.io/dxwg/dcat/) **(DCAT) HVD**.
 
 Avec les données correctement remontées au niveau européen, [data.europa.eu](https://data.europa.eu/) a une vision générale des HVDs par Etat Membre ([exemple pour la France](https://data.europa.eu/data/datasets?locale=en\&minScoring=0\&is_hvd=true\&page=1\&dataScope=countryData\&country=fr)). Afin de faciliter la création du rapport, data.europa.eu propose des requêtes Sparql pour construire l'ensemble des métadonnées attendues (les ensembles de données, les licences, les liens API, etc.) à partir des informations disponibles sur [data.europa.eu](https://data.europa.eu/).
 
@@ -131,15 +131,15 @@ Les producteurs sont également tenus de justifier la non disponibilité des don
 * **À partir du 10 décembre 2024**, l’équipe data.gouv.fr
   * commence à constituer le rapport basé sur les données HVD collectées depuis [data.europa.eu](http://data.europa.eu/)
   * vérifie en parallèle un par un que les jeux de données respectent bien les exigences
-* **À partir de fin décembre**, l'équipe data.gouv.fr&#x20;
+* **À partir de fin décembre**, l'équipe data.gouv.fr
   * fige le rapport
   * complète avec les autres infos demandées par la Commission (analyse d’impact, documentation d’orientation sur la publication, réutilisation, etc.)
   * envoi le rapport complet à l’Europe
 
-## L'articulation entre la Directive INSPIRE et le règlement d'exécution relatif aux données de forte valeur&#x20;
+## L'articulation entre la Directive INSPIRE et le règlement d'exécution relatif aux données de forte valeur
 
 {% hint style="info" %}
-**INSPIRE** est une directive qui vise à établir une infrastructure d'information géographique pour l'environnement, à l'échelle européenne. <br>
+**INSPIRE** est une directive qui vise à établir une infrastructure d'information géographique pour l'environnement, à l'échelle européenne.<br>
 
 **"Données de forte valeur"** découle de la directive Open Data et est un label attribué à des données dont la mise en open data peut générer un impact économique, social et environnemental significatif.
 {% endhint %}
@@ -148,7 +148,7 @@ La remontée des données INSPIRE se fait via le [géocatalogue](https://www.geo
 
 La remontée des données de forte valeur, quant à elle, se fait via [data.gouv.fr](https://www.data.gouv.fr/fr/), la plateforme nationale des données publiques françaises, gérée par la Direction interministérielle du numérique (DINUM).
 
-Cependant, pour 3 catégories d'ensembles de données de forte valeur, [la Directive INSPIRE](https://eur-lex.europa.eu/legal-content/FR/ALL/?uri=celex%3A32007L0002) et le règlement d'exécution se rapportant aux données de forte valeur se recoupent et se renforcent :&#x20;
+Cependant, pour 3 catégories d'ensembles de données de forte valeur, [la Directive INSPIRE](https://eur-lex.europa.eu/legal-content/FR/ALL/?uri=celex%3A32007L0002) et le règlement d'exécution se rapportant aux données de forte valeur se recoupent et se renforcent :
 
 * **Les données géospatiales**
 * **Les données sur l’observation de la Terre et l’environnement**

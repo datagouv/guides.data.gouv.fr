@@ -4,10 +4,8 @@ description: Ce guide référence la doctrine des API dans les administrations.
 
 # Doctrine des API
 
-
-
 {% hint style="info" %}
-### <mark style="color:blue;">Pourquoi une doctrine pour les API ?</mark>&#x20;
+#### <mark style="color:blue;">Pourquoi une doctrine pour les API ?</mark>
 
 Élaboré par la DINUM avec les administrateurs ministériels des données, des algorithmes et des codes sources (AMDAC), ce cadre de recommandations précise le cadre d’action et identifie les bonnes pratiques à poursuivre en matière d’usage et d’exposition d’API par les administrations. L’objectif : favoriser le partage de données entre elles et ainsi faciliter les démarches des usagers.
 
@@ -34,7 +32,7 @@ description: Ce guide référence la doctrine des API dans les administrations.
 
 ***
 
-### 🔭 Découvrabilité&#x20;
+### 🔭 Découvrabilité
 
 Cette partie concerne à la fois la visibilité de l'API qui doit être exposée dans les catalogues de données adéquats, ainsi que la découvrabilité de la donnée elle-même qui doit être documentée pour être réellement accessible.
 
@@ -144,7 +142,7 @@ L’état de l’API représente sa capacité à être appelée dans les conditi
 
 La disponibilité de l'API Particulier est accessible à cette page : [https://status.particulier.api.gouv.fr/](https://status.particulier.api.gouv.fr/)
 
-![](<../../../.gitbook/assets/image (12).png>)
+![](<../../../.gitbook/assets/image (13).png>)
 
 </details>
 

@@ -59,6 +59,6 @@ Pour aller plus loin, il est possible de consulter **l'**[**atelier pour découv
 
 Pour récupérer des données en utilisant l'API de data.gouv.fr, nous vous invitons à consulter **la documentation de la plateforme** :&#x20;
 
-{% content-ref url="../../guide-data.gouv.fr/api/README (1).md" %}
-[README (1).md](<../../guide-data.gouv.fr/api/README (1).md>)
+{% content-ref url="../../guide-data.gouv.fr/readme-1/" %}
+[readme-1](../../guide-data.gouv.fr/readme-1/)
 {% endcontent-ref %}

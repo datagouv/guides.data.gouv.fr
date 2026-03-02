@@ -12,7 +12,7 @@ Comment accéder aux statistiques sur data.gouv.fr ?
 {% tab title="Organisations" %}
 Vous trouverez les statistiques dans l’onglet "Informations".
 
-Les statistiques suivantes sont affichées **pour les 12 derniers mois** et  elles sont **mises à jour quotidiennement** :
+Les statistiques suivantes sont affichées **pour les 12 derniers mois** et elles sont **mises à jour quotidiennement** :
 
 * Des statistiques générales
   * Nombre de jeux de données publiés par l’organisation
@@ -46,7 +46,7 @@ Il est possible de télécharger les statistiques au format csv (tabulaire). Cel
 Si vous souhaitez accéder au détail des statistiques sur l’ensemble de vos jeux de données, vous pouvez [télécharger votre catalogue](organisation/suivre-lactivite-et-modifier-son-organisation.md#comment-telecharger-et-explorer-le-catalogue-de-donnees-dune-organisation). Vous aurez alors accès aux statistiques consolidées depuis juillet 2022.
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption><p>Exemple des statistiques du <a href="https://www.data.gouv.fr/fr/organizations/ministere-de-linterieur-et-des-outre-mer/#/information">Ministère de l'Intérieur</a> au 4 décembre 2023.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption><p>Exemple des statistiques du <a href="https://www.data.gouv.fr/fr/organizations/ministere-de-linterieur-et-des-outre-mer/#/information">Ministère de l'Intérieur</a> au 4 décembre 2023.</p></figcaption></figure>
 {% endtab %}
 
 {% tab title="Jeux de données" %}
@@ -73,7 +73,7 @@ Il est possible de télécharger les statistiques au format csv (tabulaire). Cel
 | _metric\_month_   | Mois durant lequel la mesure a été effectuée |
 | _monthly\_visit_  | Nombre de visites sur le mois en question    |
 
-<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption><p>Exemple des statistiques sur le jeu de données <a href="https://www.data.gouv.fr/fr/datasets/base-sirene-des-entreprises-et-de-leurs-etablissements-siren-siret/#/information">base Sirene</a> au 4 décembre 2023.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption><p>Exemple des statistiques sur le jeu de données <a href="https://www.data.gouv.fr/fr/datasets/base-sirene-des-entreprises-et-de-leurs-etablissements-siren-siret/#/information">base Sirene</a> au 4 décembre 2023.</p></figcaption></figure>
 {% endtab %}
 
 {% tab title="Réutilisations" %}
@@ -89,7 +89,7 @@ Pour chacune des statistiques :
 * Un graphique donne une idée générale de l’évolution sur l’année
 * Une indication de la variation sur le mois en cours est fournie
 
-Il est possible de télécharger les statistiques au format csv (tabulaire). Celles-ci sont disponibles avec les colonnes suivantes :&#x20;
+Il est possible de télécharger les statistiques au format csv (tabulaire). Celles-ci sont disponibles avec les colonnes suivantes :
 
 | Nom de la colonne | Description                                  |
 | ----------------- | -------------------------------------------- |
@@ -98,13 +98,12 @@ Il est possible de télécharger les statistiques au format csv (tabulaire). Cel
 | _metric\_month_   | Mois durant lequel la mesure a été effectuée |
 | _monthly\_visit_  | Nombre de visites sur le mois en question    |
 
-<figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption><p>Exemples des statistiques sur la réutilisation "<a href="https://www.data.gouv.fr/fr/reuses/visualisation-des-donnees-sur-les-prix-des-carburants/">Visualisation des données sur les prix des carburants</a>" au 4 décembre 2023.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption><p>Exemples des statistiques sur la réutilisation "<a href="https://www.data.gouv.fr/fr/reuses/visualisation-des-donnees-sur-les-prix-des-carburants/">Visualisation des données sur les prix des carburants</a>" au 4 décembre 2023.</p></figcaption></figure>
 {% endtab %}
 
 {% tab title="Plateforme data.gouv.fr" %}
 Un [tableau de bord](https://www.data.gouv.fr/fr/dashboard/) sur l’ensemble de [data.gouv.fr](http://data.gouv.fr/) est également disponible. Celui-ci présente les statistiques de la plateforme **pour les 12 derniers mois**, elles sont mises à jour quotidiennement.
 
-<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
-

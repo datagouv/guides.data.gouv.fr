@@ -57,9 +57,9 @@ La marche à suivre est explicitée ci-dessous :&#x20;
 
 1. Rendez-vous sur la page publique de l'organisation, trouvable depuis [cet index](https://www.data.gouv.fr/fr/organizations/) ;
 2. Cliquez sur l'onglet "informations" ;\
-   ![](<../.gitbook/assets/image (14).png>)
+   ![](<../.gitbook/assets/image (15).png>)
 3. Cliquez sur "Demander à rejoindre l'organisation en tant que producteur".\
-   ![](<../.gitbook/assets/image (16).png>)
+   ![](<../.gitbook/assets/image (17).png>)
 
 </details>
 
