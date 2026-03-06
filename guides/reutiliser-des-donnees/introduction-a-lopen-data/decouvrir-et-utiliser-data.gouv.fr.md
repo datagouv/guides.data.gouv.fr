@@ -20,8 +20,6 @@ Sur [data.gouv.fr](http://data.gouv.fr), vous trouverez des informations sous fo
 
 La plateforme permet, entre autres, d’accéder à **un vaste catalogue de données** issus de milliers d’organisations. Le catalogue de [data.gouv.fr](http://data.gouv.fr) est disponible [ici](https://www.data.gouv.fr/fr/datasets/catalogue-des-donnees-de-data-gouv-fr/) (liste des jeux de données publiés, des ressources publiées, etc.).
 
-<figure><img src="../../.gitbook/assets/Sep-11-2024 10-26-25.gif" alt=""><figcaption><p>Page de recherche de données sur la plateforme data.gouv.fr</p></figcaption></figure>
-
 ## A qui s’adresse [data.gouv.fr](http://data.gouv.fr) ?
 
 [data.gouv.fr](http://data.gouv.fr) est une plateforme communautaire qui s’adresse :
@@ -34,8 +32,8 @@ La plateforme permet, entre autres, d’accéder à **un vaste catalogue de donn
 
 La documentation de data.gouv.fr vous accompagne **dans l'utilisation de la plateforme** :&#x20;
 
-{% content-ref url="/broken/pages/EbjxUnIrU7nPQA95AebE" %}
-[Broken link](/broken/pages/EbjxUnIrU7nPQA95AebE)
+{% content-ref url="https://app.gitbook.com/o/w6D6SnLwCXQaMMSzcTvp/s/u9tNaXAR2lC3xKoNh1Gr/" %}
+[Documentation de data.gouv.fr](https://app.gitbook.com/o/w6D6SnLwCXQaMMSzcTvp/s/u9tNaXAR2lC3xKoNh1Gr/)
 {% endcontent-ref %}
 
 {% hint style="info" %}
