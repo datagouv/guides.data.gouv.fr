@@ -2,6 +2,7 @@
 description: >-
   Ce guide est dédié aux administrations souhaitant exposer leurs API sur
   data.gouv.fr.
+icon: building-columns
 metaLinks:
   alternates:
     - /broken/spaces/nSrS1oz2N9yTlykjBxxZ/pages/ZQzVrkK7RbJ2PHYYECLU

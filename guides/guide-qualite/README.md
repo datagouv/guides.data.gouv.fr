@@ -2,6 +2,7 @@
 description: >-
   Ce guide a pour vocation de vous accompagner dans la production de jeux de
   données de qualité, notamment dans le cadre d'une démarche d'ouverture.
+icon: gem
 metaLinks:
   alternates:
     - /broken/spaces/nSrS1oz2N9yTlykjBxxZ/pages/t9J0CgxDcbPylOMxYfAI

@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Les guides de datagouv](README.md)
+* [Bienvenue](README.md)
 * [Guide juridique](guide-juridique/README.md)
   * [Producteurs de données](guide-juridique/producteurs-de-donnees/README.md)
     * [Comprendre la notion d'open data](guide-juridique/producteurs-de-donnees/comprendre-la-notion-dopen-data.md)
@@ -8,7 +8,7 @@
     * [Quelles sont les obligations ?](guide-juridique/producteurs-de-donnees/quelles-sont-les-obligations.md)
   * [Réutilisateurs de données](guide-juridique/reutilisateurs-de-donnees/README.md)
     * [Respecter les conditions de réutilisation](guide-juridique/reutilisateurs-de-donnees/respecter-les-conditions-de-reutilisation.md)
-  * [Chronologie de l'open data](guide-juridique/chronologie-de-lopen-data.md)
+  * [Chronologie juridique de l'open data](guide-juridique/chronologie-de-lopen-data.md)
 * [Guide qualité](guide-qualite/README.md)
   * [Evaluer le niveau de qualité d'un jeu de données](guide-qualite/evaluer-le-niveau-de-qualite-dun-jeu-de-donnees.md)
   * [Préparer un jeu de données de qualité](guide-qualite/preparer-un-jeu-de-donnees-de-qualite/README.md)

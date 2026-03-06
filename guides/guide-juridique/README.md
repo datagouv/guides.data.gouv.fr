@@ -3,6 +3,7 @@ description: >-
   Ce guide a pour vocation de vous présenter le cadre légal de l'ouverture et de
   la réutilisation des données publiques et de vous aider à l'appliquer
   facilement.
+icon: gavel
 metaLinks:
   alternates:
     - /broken/spaces/nSrS1oz2N9yTlykjBxxZ/pages/lgqTWxKUIRhnEm2Fsi7n

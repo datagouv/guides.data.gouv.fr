@@ -2,6 +2,7 @@
 description: >-
   L'équipe de data.gouv.fr propose 6 guides pratiques qui ont vocation à vous
   accompagner dans vos travaux d'exploitation de données ouvertes.
+icon: hammer
 metaLinks:
   alternates:
     - /broken/spaces/nSrS1oz2N9yTlykjBxxZ/pages/KwlLmdSR8tejS6mGFOt8
