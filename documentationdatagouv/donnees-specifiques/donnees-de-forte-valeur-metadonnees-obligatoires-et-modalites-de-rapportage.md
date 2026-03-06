@@ -186,7 +186,7 @@ Pour éviter une double saisie, les producteurs de données ne produisent et ne 
 
 Voici **une proposition de schéma de rapportage** dans le cas de jeux de données concernés à la fois par la directive INSPIRE et le règlement d'exécution se rapportant aux données de forte valeur :
 
-![](.gitbook/assets/image)
+![](../.gitbook/assets/image)
 
 Schéma de remontée d'une fiche de données HVD et INSPIRE à l'Europe
 

@@ -72,6 +72,15 @@
 * [Le serveur MCP de data.gouv.fr](intelligence-artificielle/le-serveur-mcp-de-data.gouv.fr.md)
 * [Les skills data.gouv.fr](intelligence-artificielle/les-skills-data.gouv.fr.md)
 
+## Données spécifiques
+
+* [Publier une Base Adresse Locale](donnees-specifiques/publier-une-base-adresse-locale.md)
+* [Données de forte valeur : métadonnées obligatoires et modalités de rapportage](donnees-specifiques/donnees-de-forte-valeur-metadonnees-obligatoires-et-modalites-de-rapportage.md)
+* [Données de la commande publique](donnees-specifiques/donnees-de-la-commande-publique/README.md)
+  * [Publier les données essentielles des marchés publics](donnees-specifiques/donnees-de-la-commande-publique/publier-les-donnees-essentielles-des-marches-publics.md)
+  * [Déclarer un profil d’acheteur](donnees-specifiques/donnees-de-la-commande-publique/declarer-un-profil-dacheteur.md)
+* [Données de transports et mobilités](https://doc.transport.data.gouv.fr/)
+
 ## Autres
 
 * [Outils pour les administrations](autres/outils-pour-les-administrations/README.md)
@@ -79,16 +88,11 @@
   * [Accompagnement humain](autres/outils-pour-les-administrations/accompagnement-humain.md)
   * [Datapass : Outil d'habilitations](autres/outils-pour-les-administrations/datapass-outil-dhabilitations.md)
   * [Bouquets API Entreprise et API Particulier](autres/outils-pour-les-administrations/bouquets-api-entreprise-et-api-particulier.md)
-* [Publier une Base Adresse Locale](autres/publier-une-base-adresse-locale.md)
 * [Explorer un jeu de donnée](autres/explorer-un-jeu-de-donnee.md)
 * [Télécharger le catalogue de données de data.gouv.fr](autres/telecharger-le-catalogue-de-donnees-de-data.gouv.fr.md)
 * [Accéder au catalogue via SPARQL](autres/acceder-au-catalogue-via-sparql.md)
-* [Données de la commande publique](autres/donnees-de-la-commande-publique/README.md)
-  * [Publier les données essentielles des marchés publics](autres/donnees-de-la-commande-publique/publier-les-donnees-essentielles-des-marches-publics.md)
-  * [Déclarer un profil d’acheteur](autres/donnees-de-la-commande-publique/declarer-un-profil-dacheteur.md)
 
 ***
 
 * [Créer une verticale thématique de data.gouv.fr](creer-une-verticale-thematique-de-data.gouv.fr.md)
 * [Catalogage de données - GRIST](catalogage-de-donnees-grist.md)
-* [Données de forte valeur : métadonnées obligatoires et modalités de rapportage](donnees-de-forte-valeur-metadonnees-obligatoires-et-modalites-de-rapportage.md)

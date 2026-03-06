@@ -36,7 +36,7 @@ La publication par l’API vous donne un contrôle total sur le contenu de chaqu
 
 {% hint style="info" %}
 Certains jeux de données font l'objet de spécificités pour leur publication, comme les **Bases Adresses Locales**.\
-La procédure de publication d'une Base Adresse Locale est détaillée dans [cette page](../autres/publier-une-base-adresse-locale.md).
+La procédure de publication d'une Base Adresse Locale est détaillée dans [cette page](../donnees-specifiques/publier-une-base-adresse-locale.md).
 {% endhint %}
 
 {% tabs %}
