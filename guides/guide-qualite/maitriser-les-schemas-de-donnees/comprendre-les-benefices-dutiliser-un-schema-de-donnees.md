@@ -1,8 +1,7 @@
 ---
 metaLinks:
   alternates:
-    - >-
-      https://app.gitbook.com/s/nSrS1oz2N9yTlykjBxxZ/guides-open-data/guide-qualite/maitriser-les-schemas-de-donnees/comprendre-les-benefices-dutiliser-un-schema-de-donnees
+    - /broken/spaces/nSrS1oz2N9yTlykjBxxZ/pages/Km4O2dWqYYCx8SXHiJpX
 ---
 
 # Comprendre les bénéfices d'utiliser un schéma de données

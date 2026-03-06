@@ -1,8 +1,7 @@
 ---
 metaLinks:
   alternates:
-    - >-
-      https://app.gitbook.com/s/nSrS1oz2N9yTlykjBxxZ/guides-open-data/guide-juridique/producteurs-de-donnees/quelles-sont-les-obligations
+    - /broken/spaces/nSrS1oz2N9yTlykjBxxZ/pages/76ykYqn3MDWqetQrtBvc
 ---
 
 # Quelles sont les obligations ?

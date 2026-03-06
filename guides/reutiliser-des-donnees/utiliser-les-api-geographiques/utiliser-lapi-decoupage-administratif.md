@@ -1,8 +1,7 @@
 ---
 metaLinks:
   alternates:
-    - >-
-      https://app.gitbook.com/s/nSrS1oz2N9yTlykjBxxZ/reutiliser-des-donnees/utiliser-les-api-geographiques/utiliser-lapi-decoupage-administratif
+    - /broken/spaces/nSrS1oz2N9yTlykjBxxZ/pages/Fx2bN7F5tdgwBQp6JKXV
 ---
 
 # Utiliser l'API Découpage administratif

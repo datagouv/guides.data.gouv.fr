@@ -1,8 +1,7 @@
 ---
 metaLinks:
   alternates:
-    - >-
-      https://app.gitbook.com/s/nSrS1oz2N9yTlykjBxxZ/reutiliser-des-donnees/utiliser-les-api-geographiques/utiliser-lapi-adresse/faq-adresse
+    - /broken/spaces/nSrS1oz2N9yTlykjBxxZ/pages/7EGNb1A5h0YQ4PUbccvL
 ---
 
 # FAQ Adresse

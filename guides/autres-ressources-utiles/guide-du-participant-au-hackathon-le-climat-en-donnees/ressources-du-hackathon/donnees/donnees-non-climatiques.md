@@ -1,8 +1,7 @@
 ---
 metaLinks:
   alternates:
-    - >-
-      https://app.gitbook.com/s/nSrS1oz2N9yTlykjBxxZ/guide-du-participant-au-hackathon-le-climat-en-donnees/ressources-du-hackathon/donnees/donnees-non-climatiques
+    - /broken/spaces/nSrS1oz2N9yTlykjBxxZ/pages/8K0pZDJiwt3ihcceR1RR
 ---
 
 # Données non climatiques

@@ -1,8 +1,7 @@
 ---
 metaLinks:
   alternates:
-    - >-
-      https://app.gitbook.com/s/nSrS1oz2N9yTlykjBxxZ/reutiliser-des-donnees/guide-traitement-et-analyse-de-donnees/analyser-des-donnees/analyser-des-donnees-avec-python
+    - /broken/spaces/nSrS1oz2N9yTlykjBxxZ/pages/ZOQqqPYYZOxGJkmeIfp3
 ---
 
 # Analyser des données avec Python

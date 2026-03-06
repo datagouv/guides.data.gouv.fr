@@ -1,8 +1,7 @@
 ---
 metaLinks:
   alternates:
-    - >-
-      https://app.gitbook.com/s/nSrS1oz2N9yTlykjBxxZ/reutiliser-des-donnees/autour-du-cadastre/faq-cadastre
+    - /broken/spaces/nSrS1oz2N9yTlykjBxxZ/pages/nGWoZBy60MC7zlJZZjtW
 ---
 
 # Foire aux questions sur le cadastre

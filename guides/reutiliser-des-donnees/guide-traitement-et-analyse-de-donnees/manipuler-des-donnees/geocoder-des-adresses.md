@@ -1,8 +1,7 @@
 ---
 metaLinks:
   alternates:
-    - >-
-      https://app.gitbook.com/s/nSrS1oz2N9yTlykjBxxZ/reutiliser-des-donnees/guide-traitement-et-analyse-de-donnees/manipuler-des-donnees/geocoder-des-adresses
+    - /broken/spaces/nSrS1oz2N9yTlykjBxxZ/pages/ZuEuqfUTYrVWizxo8DZC
 ---
 
 # Géocoder des adresses

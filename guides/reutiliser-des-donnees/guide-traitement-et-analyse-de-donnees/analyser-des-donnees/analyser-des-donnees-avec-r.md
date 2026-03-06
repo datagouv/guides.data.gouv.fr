@@ -1,8 +1,7 @@
 ---
 metaLinks:
   alternates:
-    - >-
-      https://app.gitbook.com/s/nSrS1oz2N9yTlykjBxxZ/reutiliser-des-donnees/guide-traitement-et-analyse-de-donnees/analyser-des-donnees/analyser-des-donnees-avec-r
+    - /broken/spaces/nSrS1oz2N9yTlykjBxxZ/pages/IKuEc5j9NL2jqDIpprQQ
 ---
 
 # Analyser des données avec R

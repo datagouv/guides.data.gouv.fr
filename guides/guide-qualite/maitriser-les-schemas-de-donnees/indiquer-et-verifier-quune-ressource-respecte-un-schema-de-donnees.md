@@ -1,8 +1,7 @@
 ---
 metaLinks:
   alternates:
-    - >-
-      https://app.gitbook.com/s/nSrS1oz2N9yTlykjBxxZ/guides-open-data/guide-qualite/maitriser-les-schemas-de-donnees/indiquer-et-verifier-quune-ressource-respecte-un-schema-de-donnees
+    - /broken/spaces/nSrS1oz2N9yTlykjBxxZ/pages/erAa8TqoNVxjLbXelt9V
 ---
 
 # Indiquer et vérifier qu'une ressource respecte un schéma de données

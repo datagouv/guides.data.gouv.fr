@@ -3,8 +3,7 @@ cover: ../../../.gitbook/assets/Rectangle.png
 coverY: 0
 metaLinks:
   alternates:
-    - >-
-      https://app.gitbook.com/s/nSrS1oz2N9yTlykjBxxZ/guide-du-participant-au-hackathon-le-climat-en-donnees/pendant-le-hackathon-regles-et-bonnes-pratiques/sollicitation-des-mentors
+    - /broken/spaces/nSrS1oz2N9yTlykjBxxZ/pages/W1ZIAuNXVmQ5Gv8AXAP8
 ---
 
 # Sollicitation des mentors

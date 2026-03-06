@@ -1,8 +1,7 @@
 ---
 metaLinks:
   alternates:
-    - >-
-      https://app.gitbook.com/s/nSrS1oz2N9yTlykjBxxZ/guide-du-participant-au-hackathon-le-climat-en-donnees/ressources-du-hackathon/donnees
+    - /broken/spaces/nSrS1oz2N9yTlykjBxxZ/pages/1Ugs7Fh8oLj0dSptbuL0
 ---
 
 # Données

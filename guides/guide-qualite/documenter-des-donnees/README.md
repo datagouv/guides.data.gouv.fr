@@ -1,8 +1,7 @@
 ---
 metaLinks:
   alternates:
-    - >-
-      https://app.gitbook.com/s/nSrS1oz2N9yTlykjBxxZ/guides-open-data/guide-qualite/documenter-des-donnees
+    - /broken/spaces/nSrS1oz2N9yTlykjBxxZ/pages/POgDy14OAoFlNdLdepAM
 ---
 
 # Documenter des données

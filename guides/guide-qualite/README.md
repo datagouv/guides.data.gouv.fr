@@ -4,8 +4,7 @@ description: >-
   données de qualité, notamment dans le cadre d'une démarche d'ouverture.
 metaLinks:
   alternates:
-    - >-
-      https://app.gitbook.com/s/nSrS1oz2N9yTlykjBxxZ/guides-open-data/guide-qualite
+    - /broken/spaces/nSrS1oz2N9yTlykjBxxZ/pages/t9J0CgxDcbPylOMxYfAI
 ---
 
 # Guide qualité

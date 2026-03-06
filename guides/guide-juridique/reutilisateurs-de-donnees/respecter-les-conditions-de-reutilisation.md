@@ -1,8 +1,7 @@
 ---
 metaLinks:
   alternates:
-    - >-
-      https://app.gitbook.com/s/nSrS1oz2N9yTlykjBxxZ/guides-open-data/guide-juridique/reutilisateurs-de-donnees/respecter-les-conditions-de-reutilisation
+    - /broken/spaces/nSrS1oz2N9yTlykjBxxZ/pages/8fy8aXJ6UVtU4AUG8tYE
 ---
 
 # Respecter les conditions de réutilisation

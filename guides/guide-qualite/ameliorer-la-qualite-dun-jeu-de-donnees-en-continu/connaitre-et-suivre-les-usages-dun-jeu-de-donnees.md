@@ -1,8 +1,7 @@
 ---
 metaLinks:
   alternates:
-    - >-
-      https://app.gitbook.com/s/nSrS1oz2N9yTlykjBxxZ/guides-open-data/guide-qualite/ameliorer-la-qualite-dun-jeu-de-donnees-en-continu/connaitre-et-suivre-les-usages-dun-jeu-de-donnees
+    - /broken/spaces/nSrS1oz2N9yTlykjBxxZ/pages/596k6rlHqjjCve8mexDf
 ---
 
 # Connaître et suivre les usages d'un jeu de données

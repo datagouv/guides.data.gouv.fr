@@ -1,8 +1,7 @@
 ---
 metaLinks:
   alternates:
-    - >-
-      https://app.gitbook.com/s/nSrS1oz2N9yTlykjBxxZ/reutiliser-des-donnees/autour-du-cadastre/manipuler-les-donnees-du-cadastre
+    - /broken/spaces/nSrS1oz2N9yTlykjBxxZ/pages/KotwoAXdkf3qvbdDytS0
 ---
 
 # Manipuler les données du cadastre

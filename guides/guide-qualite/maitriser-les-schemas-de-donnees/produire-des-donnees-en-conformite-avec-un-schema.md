@@ -1,8 +1,7 @@
 ---
 metaLinks:
   alternates:
-    - >-
-      https://app.gitbook.com/s/nSrS1oz2N9yTlykjBxxZ/guides-open-data/guide-qualite/maitriser-les-schemas-de-donnees/produire-des-donnees-en-conformite-avec-un-schema
+    - /broken/spaces/nSrS1oz2N9yTlykjBxxZ/pages/5e6718qBN65cUPziwCha
 ---
 
 # Produire des données en conformité avec un schéma

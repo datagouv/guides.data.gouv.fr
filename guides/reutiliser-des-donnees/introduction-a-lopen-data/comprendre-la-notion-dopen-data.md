@@ -1,8 +1,7 @@
 ---
 metaLinks:
   alternates:
-    - >-
-      https://app.gitbook.com/s/nSrS1oz2N9yTlykjBxxZ/reutiliser-des-donnees/introduction-a-lopen-data/comprendre-la-notion-dopen-data
+    - /broken/spaces/nSrS1oz2N9yTlykjBxxZ/pages/kXESCY7WmjWXHzXBeghy
 ---
 
 # Comprendre la notion d'open data

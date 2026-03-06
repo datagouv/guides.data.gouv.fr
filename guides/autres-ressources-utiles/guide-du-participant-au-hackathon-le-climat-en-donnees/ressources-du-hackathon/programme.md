@@ -4,7 +4,7 @@ coverY: 0
 metaLinks:
   alternates:
     - >-
-      https://app.gitbook.com/s/nSrS1oz2N9yTlykjBxxZ/guide-du-participant-au-hackathon-le-climat-en-donnees/ressources-du-hackathon/programme
+      https://app.gitbook.com/s/nSrS1oz2N9yTlykjBxxZ/guides/autres-ressources-utiles/guide-du-participant-au-hackathon-le-climat-en-donnees/ressources-du-hackathon/programme
 ---
 
 # Programme

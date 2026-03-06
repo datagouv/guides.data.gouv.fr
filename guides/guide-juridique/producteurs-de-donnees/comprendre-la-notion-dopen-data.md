@@ -1,8 +1,7 @@
 ---
 metaLinks:
   alternates:
-    - >-
-      https://app.gitbook.com/s/nSrS1oz2N9yTlykjBxxZ/guides-open-data/guide-juridique/producteurs-de-donnees/comprendre-la-notion-dopen-data
+    - /broken/spaces/nSrS1oz2N9yTlykjBxxZ/pages/FdXbajHVrjFOzCowpqG9
 ---
 
 # Comprendre la notion d'open data

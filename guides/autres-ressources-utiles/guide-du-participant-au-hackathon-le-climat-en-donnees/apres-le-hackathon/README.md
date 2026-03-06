@@ -3,8 +3,7 @@ cover: ../../../.gitbook/assets/Rectangle.png
 coverY: 0
 metaLinks:
   alternates:
-    - >-
-      https://app.gitbook.com/s/nSrS1oz2N9yTlykjBxxZ/guide-du-participant-au-hackathon-le-climat-en-donnees/apres-le-hackathon
+    - /broken/spaces/nSrS1oz2N9yTlykjBxxZ/pages/UXY6s2I1q2iva6pckTp0
 ---
 
 # ✨ Après le hackathon

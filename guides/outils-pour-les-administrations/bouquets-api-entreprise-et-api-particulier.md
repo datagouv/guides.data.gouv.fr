@@ -6,7 +6,7 @@ description: >-
 metaLinks:
   alternates:
     - >-
-      https://app.gitbook.com/s/nSrS1oz2N9yTlykjBxxZ/guide-data.gouv.fr/api/outils-pour-les-administrations/bouquets-api-entreprise-et-api-particulier
+      https://app.gitbook.com/s/nSrS1oz2N9yTlykjBxxZ/documentationdatagouv/autres/outils-pour-les-administrations/bouquets-api-entreprise-et-api-particulier
 ---
 
 # Bouquets API Entreprise et API Particulier

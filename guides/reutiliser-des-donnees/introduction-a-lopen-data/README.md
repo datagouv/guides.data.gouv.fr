@@ -4,8 +4,7 @@ description: >-
   pouvez l'utiliser.
 metaLinks:
   alternates:
-    - >-
-      https://app.gitbook.com/s/nSrS1oz2N9yTlykjBxxZ/reutiliser-des-donnees/introduction-a-lopen-data
+    - /broken/spaces/nSrS1oz2N9yTlykjBxxZ/pages/hC3vtLp3o4JUHQZ6Q43N
 ---
 
 # Introduction à l'open data

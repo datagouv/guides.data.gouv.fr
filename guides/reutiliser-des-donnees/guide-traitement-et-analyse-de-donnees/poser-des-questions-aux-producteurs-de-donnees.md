@@ -1,8 +1,7 @@
 ---
 metaLinks:
   alternates:
-    - >-
-      https://app.gitbook.com/s/nSrS1oz2N9yTlykjBxxZ/reutiliser-des-donnees/guide-traitement-et-analyse-de-donnees/poser-des-questions-aux-producteurs-de-donnees
+    - /broken/spaces/nSrS1oz2N9yTlykjBxxZ/pages/7zAjwp8p0OhicQqOIhXv
 ---
 
 # Poser des questions aux producteurs de données

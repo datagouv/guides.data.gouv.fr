@@ -1,8 +1,7 @@
 ---
 metaLinks:
   alternates:
-    - >-
-      https://app.gitbook.com/s/nSrS1oz2N9yTlykjBxxZ/guides-open-data/guide-qualite/maitriser-les-schemas-de-donnees/creer-un-schema-de-donnees/etape-3-phase-de-construction
+    - /broken/spaces/nSrS1oz2N9yTlykjBxxZ/pages/wADOv70ZsbcUfMgy2LdY
 ---
 
 # Etape 3 : Phase de construction

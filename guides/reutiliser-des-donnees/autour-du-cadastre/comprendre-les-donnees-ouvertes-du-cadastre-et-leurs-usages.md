@@ -1,8 +1,7 @@
 ---
 metaLinks:
   alternates:
-    - >-
-      https://app.gitbook.com/s/nSrS1oz2N9yTlykjBxxZ/reutiliser-des-donnees/autour-du-cadastre/comprendre-les-donnees-ouvertes-du-cadastre-et-leurs-usages
+    - /broken/spaces/nSrS1oz2N9yTlykjBxxZ/pages/7yZkE0RD9KHk3xIv7rjL
 ---
 
 # Comprendre les données du cadastre et leurs usages

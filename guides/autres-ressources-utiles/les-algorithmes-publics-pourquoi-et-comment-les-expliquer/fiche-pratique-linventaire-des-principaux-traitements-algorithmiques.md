@@ -1,8 +1,7 @@
 ---
 metaLinks:
   alternates:
-    - >-
-      https://app.gitbook.com/s/nSrS1oz2N9yTlykjBxxZ/autres-ressources-utiles/les-algorithmes-publics-pourquoi-et-comment-les-expliquer/fiche-pratique-linventaire-des-principaux-traitements-algorithmiques
+    - /broken/spaces/nSrS1oz2N9yTlykjBxxZ/pages/8CQWEJMkpTrOE0V8RC4d
 ---
 
 # Fiche pratique : l'inventaire des principaux traitements algorithmiques

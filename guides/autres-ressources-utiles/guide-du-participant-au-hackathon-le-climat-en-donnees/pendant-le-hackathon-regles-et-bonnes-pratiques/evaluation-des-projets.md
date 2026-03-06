@@ -3,8 +3,7 @@ cover: ../../../.gitbook/assets/Rectangle.png
 coverY: 0
 metaLinks:
   alternates:
-    - >-
-      https://app.gitbook.com/s/nSrS1oz2N9yTlykjBxxZ/guide-du-participant-au-hackathon-le-climat-en-donnees/pendant-le-hackathon-regles-et-bonnes-pratiques/evaluation-des-projets
+    - /broken/spaces/nSrS1oz2N9yTlykjBxxZ/pages/rVSDiPksSiH1HM8tJFcA
 ---
 
 # Evaluation des projets

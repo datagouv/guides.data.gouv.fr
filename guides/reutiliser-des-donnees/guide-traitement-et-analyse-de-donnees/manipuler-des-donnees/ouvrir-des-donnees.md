@@ -1,8 +1,7 @@
 ---
 metaLinks:
   alternates:
-    - >-
-      https://app.gitbook.com/s/nSrS1oz2N9yTlykjBxxZ/reutiliser-des-donnees/guide-traitement-et-analyse-de-donnees/manipuler-des-donnees/ouvrir-des-donnees
+    - /broken/spaces/nSrS1oz2N9yTlykjBxxZ/pages/MolpLozOJb8weLl5w2zg
 ---
 
 # Ouvrir des données

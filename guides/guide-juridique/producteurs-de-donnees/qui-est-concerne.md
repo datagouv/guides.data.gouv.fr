@@ -1,8 +1,7 @@
 ---
 metaLinks:
   alternates:
-    - >-
-      https://app.gitbook.com/s/nSrS1oz2N9yTlykjBxxZ/guides-open-data/guide-juridique/producteurs-de-donnees/qui-est-concerne
+    - /broken/spaces/nSrS1oz2N9yTlykjBxxZ/pages/d7LTBXr0CrbgTohpHVx3
 ---
 
 # Qui est concerné ?

@@ -1,8 +1,7 @@
 ---
 metaLinks:
   alternates:
-    - >-
-      https://app.gitbook.com/s/nSrS1oz2N9yTlykjBxxZ/guides-open-data/guide-qualite/preparer-un-jeu-de-donnees-de-qualite/structurer-un-jeu-de-donnees
+    - /broken/spaces/nSrS1oz2N9yTlykjBxxZ/pages/PoDJyMnRhcg40rlrS9i2
 ---
 
 # Structurer un jeu de données

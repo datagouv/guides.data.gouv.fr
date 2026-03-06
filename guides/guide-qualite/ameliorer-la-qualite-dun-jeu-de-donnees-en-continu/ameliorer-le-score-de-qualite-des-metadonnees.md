@@ -1,8 +1,7 @@
 ---
 metaLinks:
   alternates:
-    - >-
-      https://app.gitbook.com/s/nSrS1oz2N9yTlykjBxxZ/guides-open-data/guide-qualite/ameliorer-la-qualite-dun-jeu-de-donnees-en-continu/ameliorer-le-score-de-qualite-des-metadonnees
+    - /broken/spaces/nSrS1oz2N9yTlykjBxxZ/pages/LmUQK0cxebvLZMxY9qvH
 ---
 
 # Améliorer le score de qualité des métadonnées

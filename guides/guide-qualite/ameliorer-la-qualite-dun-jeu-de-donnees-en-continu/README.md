@@ -1,8 +1,7 @@
 ---
 metaLinks:
   alternates:
-    - >-
-      https://app.gitbook.com/s/nSrS1oz2N9yTlykjBxxZ/guides-open-data/guide-qualite/ameliorer-la-qualite-dun-jeu-de-donnees-en-continu
+    - /broken/spaces/nSrS1oz2N9yTlykjBxxZ/pages/N53dSbhJqRPZWrdFtoz6
 ---
 
 # Améliorer la qualité d'un jeu de données en continu

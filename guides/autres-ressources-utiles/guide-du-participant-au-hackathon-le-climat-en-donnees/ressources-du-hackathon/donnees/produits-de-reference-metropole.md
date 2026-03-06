@@ -1,8 +1,7 @@
 ---
 metaLinks:
   alternates:
-    - >-
-      https://app.gitbook.com/s/nSrS1oz2N9yTlykjBxxZ/guide-du-participant-au-hackathon-le-climat-en-donnees/ressources-du-hackathon/donnees/produits-de-reference-metropole
+    - /broken/spaces/nSrS1oz2N9yTlykjBxxZ/pages/fRkqVeddlEvq37mJUoxT
 ---
 
 # Produits de référence (Métropole)

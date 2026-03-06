@@ -4,8 +4,7 @@ description: >-
   data.gouv.fr.
 metaLinks:
   alternates:
-    - >-
-      https://app.gitbook.com/s/nSrS1oz2N9yTlykjBxxZ/guide-data.gouv.fr/api/outils-pour-les-administrations
+    - /broken/spaces/nSrS1oz2N9yTlykjBxxZ/pages/ZQzVrkK7RbJ2PHYYECLU
 ---
 
 # Outils pour les administrations

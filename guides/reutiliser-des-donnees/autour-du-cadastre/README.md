@@ -4,8 +4,7 @@ description: >-
   ouvertes du cadastre.
 metaLinks:
   alternates:
-    - >-
-      https://app.gitbook.com/s/nSrS1oz2N9yTlykjBxxZ/reutiliser-des-donnees/autour-du-cadastre
+    - /broken/spaces/nSrS1oz2N9yTlykjBxxZ/pages/FSVPxk2axxmNWDKPiTxf
 ---
 
 # Guide données du cadastre

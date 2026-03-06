@@ -1,8 +1,7 @@
 ---
 metaLinks:
   alternates:
-    - >-
-      https://app.gitbook.com/s/nSrS1oz2N9yTlykjBxxZ/autres-ressources-utiles/codes-sources-du-secteur-public-lesquels-ouvrir-pourquoi-et-comment/ce-document-nest-pas...
+    - /broken/spaces/nSrS1oz2N9yTlykjBxxZ/pages/b7lsevZBCymry1M2ert2
 ---
 
 # Ce document n'est pas...

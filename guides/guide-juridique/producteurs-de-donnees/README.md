@@ -1,8 +1,7 @@
 ---
 metaLinks:
   alternates:
-    - >-
-      https://app.gitbook.com/s/nSrS1oz2N9yTlykjBxxZ/guides-open-data/guide-juridique/producteurs-de-donnees
+    - /broken/spaces/nSrS1oz2N9yTlykjBxxZ/pages/QG6HlCFVrKMGaf4iOddz
 ---
 
 # Producteurs de données

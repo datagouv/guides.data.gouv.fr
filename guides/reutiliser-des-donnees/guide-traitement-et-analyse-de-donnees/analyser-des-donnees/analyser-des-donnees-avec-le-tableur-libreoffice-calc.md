@@ -1,8 +1,7 @@
 ---
 metaLinks:
   alternates:
-    - >-
-      https://app.gitbook.com/s/nSrS1oz2N9yTlykjBxxZ/reutiliser-des-donnees/guide-traitement-et-analyse-de-donnees/analyser-des-donnees/analyser-des-donnees-avec-le-tableur-libreoffice-calc
+    - /broken/spaces/nSrS1oz2N9yTlykjBxxZ/pages/hNBgbnB161GHKsxxXUYK
 ---
 
 # Analyser des données avec le tableur LibreOffice Calc

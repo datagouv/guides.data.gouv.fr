@@ -1,8 +1,7 @@
 ---
 metaLinks:
   alternates:
-    - >-
-      https://app.gitbook.com/s/nSrS1oz2N9yTlykjBxxZ/reutiliser-des-donnees/guide-traitement-et-analyse-de-donnees/prendre-connaissance-et-evaluer-la-qualite-de-donnees
+    - /broken/spaces/nSrS1oz2N9yTlykjBxxZ/pages/6LftpmllH8sDt9qpjQfy
 ---
 
 # Prendre connaissance et évaluer la qualité de données

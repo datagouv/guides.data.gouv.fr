@@ -1,8 +1,7 @@
 ---
 metaLinks:
   alternates:
-    - >-
-      https://app.gitbook.com/s/nSrS1oz2N9yTlykjBxxZ/reutiliser-des-donnees/utiliser-les-api-geographiques/utiliser-lapi-adresse/rappel-donnees-adresses
+    - /broken/spaces/nSrS1oz2N9yTlykjBxxZ/pages/cgHjkfhiSqW0JWLj0Ebd
 ---
 
 # Rappel sur les données adresses

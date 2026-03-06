@@ -4,8 +4,7 @@ description: >-
   principalement opérées par Etalab.
 metaLinks:
   alternates:
-    - >-
-      https://app.gitbook.com/s/nSrS1oz2N9yTlykjBxxZ/reutiliser-des-donnees/utiliser-les-api-geographiques
+    - /broken/spaces/nSrS1oz2N9yTlykjBxxZ/pages/AGcfQakjM0iBTvD7pq4S
 ---
 
 # Guide API géographiques

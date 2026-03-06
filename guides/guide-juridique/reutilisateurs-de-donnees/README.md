@@ -1,8 +1,7 @@
 ---
 metaLinks:
   alternates:
-    - >-
-      https://app.gitbook.com/s/nSrS1oz2N9yTlykjBxxZ/guides-open-data/guide-juridique/reutilisateurs-de-donnees
+    - /broken/spaces/nSrS1oz2N9yTlykjBxxZ/pages/3tbVrOpTG7rOiS84DbRz
 ---
 
 # Réutilisateurs de données

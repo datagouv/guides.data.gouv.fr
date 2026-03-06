@@ -1,8 +1,7 @@
 ---
 metaLinks:
   alternates:
-    - >-
-      https://app.gitbook.com/s/nSrS1oz2N9yTlykjBxxZ/guides-open-data/guide-juridique/chronologie-de-lopen-data
+    - /broken/spaces/nSrS1oz2N9yTlykjBxxZ/pages/FoHcd3Kw7UznNUX5BfIF
 ---
 
 # Chronologie de l'open data

@@ -1,8 +1,7 @@
 ---
 metaLinks:
   alternates:
-    - >-
-      https://app.gitbook.com/s/nSrS1oz2N9yTlykjBxxZ/guides-open-data/guide-qualite/preparer-un-jeu-de-donnees-de-qualite/extraire-un-jeu-de-donnees-dun-systeme-dinformation
+    - /broken/spaces/nSrS1oz2N9yTlykjBxxZ/pages/a4Z7Qj2RSKYhNuo6royn
 ---
 
 # Extraire un jeu de données d'un système d'information

@@ -1,8 +1,7 @@
 ---
 metaLinks:
   alternates:
-    - >-
-      https://app.gitbook.com/s/nSrS1oz2N9yTlykjBxxZ/reutiliser-des-donnees/utiliser-les-api-geographiques/utiliser-lapi-adresse/geocoder-des-adresses-pratique
+    - /broken/spaces/nSrS1oz2N9yTlykjBxxZ/pages/rj53B6T2SkF2jDPcchXm
 ---
 
 # Géocoder des adresses - cas pratiques

@@ -1,8 +1,7 @@
 ---
 metaLinks:
   alternates:
-    - >-
-      https://app.gitbook.com/s/nSrS1oz2N9yTlykjBxxZ/autres-ressources-utiles/codes-sources-du-secteur-public-lesquels-ouvrir-pourquoi-et-comment
+    - /broken/spaces/nSrS1oz2N9yTlykjBxxZ/pages/HSg38geEpslHQKKGI109
 ---
 
 # Codes sources du secteur public : lesquels ouvrir, pourquoi et comment ?

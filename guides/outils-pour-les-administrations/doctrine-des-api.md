@@ -2,8 +2,7 @@
 description: Ce guide référence la doctrine des API dans les administrations.
 metaLinks:
   alternates:
-    - >-
-      https://app.gitbook.com/s/nSrS1oz2N9yTlykjBxxZ/guide-data.gouv.fr/api/outils-pour-les-administrations/doctrine-des-api
+    - /broken/spaces/nSrS1oz2N9yTlykjBxxZ/pages/XWwYbRJgRhtArCceWDd3
 ---
 
 # Doctrine des API

@@ -1,8 +1,7 @@
 ---
 metaLinks:
   alternates:
-    - >-
-      https://app.gitbook.com/s/nSrS1oz2N9yTlykjBxxZ/reutiliser-des-donnees/guide-traitement-et-analyse-de-donnees/recuperer-des-donnees
+    - /broken/spaces/nSrS1oz2N9yTlykjBxxZ/pages/hrB3J46dVJWMsaJ2kK3E
 ---
 
 # Récupérer des données

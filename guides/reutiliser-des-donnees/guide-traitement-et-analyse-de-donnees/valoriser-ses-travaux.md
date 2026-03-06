@@ -1,8 +1,7 @@
 ---
 metaLinks:
   alternates:
-    - >-
-      https://app.gitbook.com/s/nSrS1oz2N9yTlykjBxxZ/reutiliser-des-donnees/guide-traitement-et-analyse-de-donnees/valoriser-ses-travaux
+    - /broken/spaces/nSrS1oz2N9yTlykjBxxZ/pages/CCU0Sj35j9O0otkJlEv1
 ---
 
 # Valoriser ses travaux

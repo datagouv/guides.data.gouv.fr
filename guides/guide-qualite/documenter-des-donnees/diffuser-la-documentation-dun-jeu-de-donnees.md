@@ -1,8 +1,7 @@
 ---
 metaLinks:
   alternates:
-    - >-
-      https://app.gitbook.com/s/nSrS1oz2N9yTlykjBxxZ/guides-open-data/guide-qualite/documenter-des-donnees/diffuser-la-documentation-dun-jeu-de-donnees
+    - /broken/spaces/nSrS1oz2N9yTlykjBxxZ/pages/i5u0rLwcExPtF9Jf4xga
 ---
 
 # Diffuser la documentation d'un jeu de données

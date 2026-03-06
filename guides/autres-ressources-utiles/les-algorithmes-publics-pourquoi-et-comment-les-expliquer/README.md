@@ -1,8 +1,7 @@
 ---
 metaLinks:
   alternates:
-    - >-
-      https://app.gitbook.com/s/nSrS1oz2N9yTlykjBxxZ/autres-ressources-utiles/les-algorithmes-publics-pourquoi-et-comment-les-expliquer
+    - /broken/spaces/nSrS1oz2N9yTlykjBxxZ/pages/rVRXoxJkWJ34ivxqPKo1
 ---
 
 # Les algorithmes publics : pourquoi et comment les expliquer ?

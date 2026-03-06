@@ -1,8 +1,7 @@
 ---
 metaLinks:
   alternates:
-    - >-
-      https://app.gitbook.com/s/nSrS1oz2N9yTlykjBxxZ/guides-open-data/guide-qualite/documenter-des-donnees/bien-documenter-un-jeu-de-donnees
+    - /broken/spaces/nSrS1oz2N9yTlykjBxxZ/pages/BM36Gbdr8v7y1A7vNuH3
 ---
 
 # Bien documenter un jeu de données

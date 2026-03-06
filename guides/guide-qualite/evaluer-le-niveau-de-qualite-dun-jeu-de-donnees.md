@@ -1,8 +1,7 @@
 ---
 metaLinks:
   alternates:
-    - >-
-      https://app.gitbook.com/s/nSrS1oz2N9yTlykjBxxZ/guides-open-data/guide-qualite/evaluer-le-niveau-de-qualite-dun-jeu-de-donnees
+    - /broken/spaces/nSrS1oz2N9yTlykjBxxZ/pages/T85ol6P0gY07YieWE67r
 ---
 
 # Evaluer le niveau de qualité d'un jeu de données

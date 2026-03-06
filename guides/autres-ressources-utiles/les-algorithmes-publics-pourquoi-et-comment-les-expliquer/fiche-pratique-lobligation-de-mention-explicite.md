@@ -1,8 +1,7 @@
 ---
 metaLinks:
   alternates:
-    - >-
-      https://app.gitbook.com/s/nSrS1oz2N9yTlykjBxxZ/autres-ressources-utiles/les-algorithmes-publics-pourquoi-et-comment-les-expliquer/fiche-pratique-lobligation-de-mention-explicite
+    - /broken/spaces/nSrS1oz2N9yTlykjBxxZ/pages/kPEklKXGJRE8iqT45BQY
 ---
 
 # Fiche pratique : l'obligation de mention explicite

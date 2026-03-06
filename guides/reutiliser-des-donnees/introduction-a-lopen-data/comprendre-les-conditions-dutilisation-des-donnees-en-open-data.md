@@ -1,8 +1,7 @@
 ---
 metaLinks:
   alternates:
-    - >-
-      https://app.gitbook.com/s/nSrS1oz2N9yTlykjBxxZ/reutiliser-des-donnees/introduction-a-lopen-data/comprendre-les-conditions-dutilisation-des-donnees-en-open-data
+    - /broken/spaces/nSrS1oz2N9yTlykjBxxZ/pages/99Pg2pkpENTjocpVdg3S
 ---
 
 # Comprendre les conditions d'utilisation des données en open data

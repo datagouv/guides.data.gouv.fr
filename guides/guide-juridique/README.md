@@ -5,8 +5,7 @@ description: >-
   facilement.
 metaLinks:
   alternates:
-    - >-
-      https://app.gitbook.com/s/nSrS1oz2N9yTlykjBxxZ/guides-open-data/guide-juridique
+    - /broken/spaces/nSrS1oz2N9yTlykjBxxZ/pages/lgqTWxKUIRhnEm2Fsi7n
 ---
 
 # Guide juridique

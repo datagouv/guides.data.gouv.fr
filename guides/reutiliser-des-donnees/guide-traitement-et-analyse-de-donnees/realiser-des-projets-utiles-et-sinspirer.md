@@ -1,8 +1,7 @@
 ---
 metaLinks:
   alternates:
-    - >-
-      https://app.gitbook.com/s/nSrS1oz2N9yTlykjBxxZ/reutiliser-des-donnees/guide-traitement-et-analyse-de-donnees/realiser-des-projets-utiles-et-sinspirer
+    - /broken/spaces/nSrS1oz2N9yTlykjBxxZ/pages/TTHs97BEA5YVcs8obOz1
 ---
 
 # Réaliser des projets utiles et s'inspirer

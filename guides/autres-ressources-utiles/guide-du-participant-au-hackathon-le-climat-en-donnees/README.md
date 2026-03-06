@@ -3,8 +3,7 @@ cover: ../../.gitbook/assets/Group 15659.png
 coverY: 0
 metaLinks:
   alternates:
-    - >-
-      https://app.gitbook.com/s/nSrS1oz2N9yTlykjBxxZ/guide-du-participant-au-hackathon-le-climat-en-donnees
+    - /broken/spaces/nSrS1oz2N9yTlykjBxxZ/pages/QKMQ6756Nu0n2midw0J1
 ---
 
 # 📔 Guide du participant au hackathon "Le climat en données"

@@ -1,8 +1,7 @@
 ---
 metaLinks:
   alternates:
-    - >-
-      https://app.gitbook.com/s/nSrS1oz2N9yTlykjBxxZ/reutiliser-des-donnees/utiliser-les-api-geographiques/utiliser-lapi-adresse/geocoder-des-adresses-theorie
+    - /broken/spaces/nSrS1oz2N9yTlykjBxxZ/pages/SfrEx9md8PO5tCEx4rH8
 ---
 
 # Géocoder des adresses - théorie

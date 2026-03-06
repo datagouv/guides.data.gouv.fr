@@ -4,8 +4,7 @@ description: >-
   dans le cadre d'une démarche d'ouverture ou de réutilisation de données.
 metaLinks:
   alternates:
-    - >-
-      https://app.gitbook.com/s/nSrS1oz2N9yTlykjBxxZ/autres-ressources-utiles/lexique-de-lopen-data
+    - /broken/spaces/nSrS1oz2N9yTlykjBxxZ/pages/awvFhq6OLupIbszY5Mf4
 ---
 
 # Lexique de l'open data

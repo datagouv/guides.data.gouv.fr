@@ -5,7 +5,7 @@ description: >-
 metaLinks:
   alternates:
     - >-
-      https://app.gitbook.com/s/nSrS1oz2N9yTlykjBxxZ/guide-data.gouv.fr/api/outils-pour-les-administrations/accompagnement-humain
+      https://app.gitbook.com/s/nSrS1oz2N9yTlykjBxxZ/documentationdatagouv/autres/outils-pour-les-administrations/accompagnement-humain
 ---
 
 # Accompagnement humain

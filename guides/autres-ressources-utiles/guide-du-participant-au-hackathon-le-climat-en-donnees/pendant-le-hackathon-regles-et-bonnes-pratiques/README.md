@@ -3,8 +3,7 @@ cover: ../../../.gitbook/assets/Rectangle.png
 coverY: 0
 metaLinks:
   alternates:
-    - >-
-      https://app.gitbook.com/s/nSrS1oz2N9yTlykjBxxZ/guide-du-participant-au-hackathon-le-climat-en-donnees/pendant-le-hackathon-regles-et-bonnes-pratiques
+    - /broken/spaces/nSrS1oz2N9yTlykjBxxZ/pages/B14PWyd7utIRwiNTtlDt
 ---
 
 # 🏁 Pendant le hackathon : règles et bonnes pratiques

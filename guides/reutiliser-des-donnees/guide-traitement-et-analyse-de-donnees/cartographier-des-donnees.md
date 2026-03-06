@@ -1,8 +1,7 @@
 ---
 metaLinks:
   alternates:
-    - >-
-      https://app.gitbook.com/s/nSrS1oz2N9yTlykjBxxZ/reutiliser-des-donnees/guide-traitement-et-analyse-de-donnees/cartographier-des-donnees
+    - /broken/spaces/nSrS1oz2N9yTlykjBxxZ/pages/kR58IrgJx2WjGRW8p2MW
 ---
 
 # Cartographier des données

@@ -1,8 +1,7 @@
 ---
 metaLinks:
   alternates:
-    - >-
-      https://app.gitbook.com/s/nSrS1oz2N9yTlykjBxxZ/guides-open-data/guide-qualite/maitriser-les-schemas-de-donnees/creer-un-schema-de-donnees/focus-construire-un-schema-tableschema
+    - /broken/spaces/nSrS1oz2N9yTlykjBxxZ/pages/6uFiUadD58JBxnc4x9Kr
 ---
 
 # Focus : Construire un schéma TableSchema

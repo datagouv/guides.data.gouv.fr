@@ -1,8 +1,7 @@
 ---
 metaLinks:
   alternates:
-    - >-
-      https://app.gitbook.com/s/nSrS1oz2N9yTlykjBxxZ/guides-open-data/guide-qualite/maitriser-les-schemas-de-donnees
+    - /broken/spaces/nSrS1oz2N9yTlykjBxxZ/pages/SZHRwTbKIioAYN9B8VbJ
 ---
 
 # Maîtriser les schémas de données

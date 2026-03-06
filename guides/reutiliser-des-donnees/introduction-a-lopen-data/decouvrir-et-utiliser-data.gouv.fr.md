@@ -1,8 +1,7 @@
 ---
 metaLinks:
   alternates:
-    - >-
-      https://app.gitbook.com/s/nSrS1oz2N9yTlykjBxxZ/reutiliser-des-donnees/introduction-a-lopen-data/decouvrir-et-utiliser-data.gouv.fr
+    - /broken/spaces/nSrS1oz2N9yTlykjBxxZ/pages/ZMYoPypyhbyENqDbOfQ9
 ---
 
 # Découvrir et utiliser data.gouv.fr

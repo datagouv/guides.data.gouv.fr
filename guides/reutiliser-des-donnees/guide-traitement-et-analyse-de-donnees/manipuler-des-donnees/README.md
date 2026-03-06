@@ -1,8 +1,7 @@
 ---
 metaLinks:
   alternates:
-    - >-
-      https://app.gitbook.com/s/nSrS1oz2N9yTlykjBxxZ/reutiliser-des-donnees/guide-traitement-et-analyse-de-donnees/manipuler-des-donnees
+    - /broken/spaces/nSrS1oz2N9yTlykjBxxZ/pages/kfy5NQxCyaEXfeDl5y9V
 ---
 
 # Manipuler des données

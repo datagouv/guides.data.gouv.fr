@@ -1,8 +1,7 @@
 ---
 metaLinks:
   alternates:
-    - >-
-      https://app.gitbook.com/s/nSrS1oz2N9yTlykjBxxZ/reutiliser-des-donnees/utiliser-les-api-geographiques/utiliser-les-tuiles-vectorielles
+    - /broken/spaces/nSrS1oz2N9yTlykjBxxZ/pages/qtPSO1ikDPj7YrIT0go8
 ---
 
 # Utiliser les tuiles vectorielles

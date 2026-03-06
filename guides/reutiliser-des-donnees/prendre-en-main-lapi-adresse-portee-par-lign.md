@@ -1,8 +1,7 @@
 ---
 metaLinks:
   alternates:
-    - >-
-      https://app.gitbook.com/s/nSrS1oz2N9yTlykjBxxZ/reutiliser-des-donnees/prendre-en-main-lapi-adresse-portee-par-lign
+    - /broken/spaces/nSrS1oz2N9yTlykjBxxZ/pages/gzqWzE3POeHpIvGmMtzS
 ---
 
 # Guide API "Adresse" de l'IGN

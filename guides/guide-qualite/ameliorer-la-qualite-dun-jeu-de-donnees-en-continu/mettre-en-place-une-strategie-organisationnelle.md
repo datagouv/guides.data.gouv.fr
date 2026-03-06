@@ -1,8 +1,7 @@
 ---
 metaLinks:
   alternates:
-    - >-
-      https://app.gitbook.com/s/nSrS1oz2N9yTlykjBxxZ/guides-open-data/guide-qualite/ameliorer-la-qualite-dun-jeu-de-donnees-en-continu/mettre-en-place-une-strategie-organisationnelle
+    - /broken/spaces/nSrS1oz2N9yTlykjBxxZ/pages/0HoCt1TI2xluqzt9BHwK
 ---
 
 # Mettre en place une stratégie organisationnelle

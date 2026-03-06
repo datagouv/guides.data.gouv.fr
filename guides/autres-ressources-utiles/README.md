@@ -1,7 +1,7 @@
 ---
 metaLinks:
   alternates:
-    - https://app.gitbook.com/s/nSrS1oz2N9yTlykjBxxZ/autres-ressources-utiles
+    - /broken/spaces/nSrS1oz2N9yTlykjBxxZ/pages/NJqwsh6K9nHhj2iCyhzc
 ---
 
 # Autres ressources utiles

@@ -1,8 +1,7 @@
 ---
 metaLinks:
   alternates:
-    - >-
-      https://app.gitbook.com/s/nSrS1oz2N9yTlykjBxxZ/guides-open-data/guide-qualite/maitriser-les-schemas-de-donnees/creer-un-schema-de-donnees/etape-4-phase-de-promotion-et-de-maintien
+    - /broken/spaces/nSrS1oz2N9yTlykjBxxZ/pages/AR1dy2VJmc7oEdt6TglG
 ---
 
 # Etape 4 : Phase de promotion et de maintien

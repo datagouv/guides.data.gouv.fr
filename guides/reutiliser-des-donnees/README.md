@@ -4,7 +4,7 @@ description: >-
   accompagner dans vos travaux d'exploitation de données ouvertes.
 metaLinks:
   alternates:
-    - https://app.gitbook.com/s/nSrS1oz2N9yTlykjBxxZ/reutiliser-des-donnees
+    - /broken/spaces/nSrS1oz2N9yTlykjBxxZ/pages/KwlLmdSR8tejS6mGFOt8
 ---
 
 # Guides sur l'utilisation des données

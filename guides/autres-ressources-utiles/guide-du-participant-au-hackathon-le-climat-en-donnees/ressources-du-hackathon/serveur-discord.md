@@ -3,8 +3,7 @@ cover: ../../../.gitbook/assets/Rectangle.png
 coverY: 0
 metaLinks:
   alternates:
-    - >-
-      https://app.gitbook.com/s/nSrS1oz2N9yTlykjBxxZ/guide-du-participant-au-hackathon-le-climat-en-donnees/ressources-du-hackathon/serveur-discord
+    - /broken/spaces/nSrS1oz2N9yTlykjBxxZ/pages/Ls0Obddv2XbhovdveBKY
 ---
 
 # Serveur Discord

@@ -1,8 +1,7 @@
 ---
 metaLinks:
   alternates:
-    - >-
-      https://app.gitbook.com/s/nSrS1oz2N9yTlykjBxxZ/reutiliser-des-donnees/introduction-a-lopen-data/comprendre-lecosysteme-de-lopen-data
+    - /broken/spaces/nSrS1oz2N9yTlykjBxxZ/pages/2quvrpo58kdgcU7Orzl1
 ---
 
 # Comprendre l'écosystème de l'open data

@@ -1,8 +1,7 @@
 ---
 metaLinks:
   alternates:
-    - >-
-      https://app.gitbook.com/s/nSrS1oz2N9yTlykjBxxZ/guides-open-data/guide-qualite/preparer-un-jeu-de-donnees-de-qualite
+    - /broken/spaces/nSrS1oz2N9yTlykjBxxZ/pages/35Gjt6loqIwCY3Z0qGNS
 ---
 
 # Préparer un jeu de données de qualité

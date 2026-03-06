@@ -1,8 +1,7 @@
 ---
 metaLinks:
   alternates:
-    - >-
-      https://app.gitbook.com/s/nSrS1oz2N9yTlykjBxxZ/reutiliser-des-donnees/prise-en-main-des-donnees-meteorologiques
+    - /broken/spaces/nSrS1oz2N9yTlykjBxxZ/pages/lUvTLQByjvaNdS8LU3rU
 ---
 
 # Guide données météorologiques

@@ -1,8 +1,7 @@
 ---
 metaLinks:
   alternates:
-    - >-
-      https://app.gitbook.com/s/nSrS1oz2N9yTlykjBxxZ/guides-open-data/guide-qualite/maitriser-les-schemas-de-donnees/creer-un-schema-de-donnees/etape-1-phase-dinvestigation
+    - /broken/spaces/nSrS1oz2N9yTlykjBxxZ/pages/pnEZK8y7XpakDQ8MeBWw
 ---
 
 # Etape 1 : Phase d'investigation

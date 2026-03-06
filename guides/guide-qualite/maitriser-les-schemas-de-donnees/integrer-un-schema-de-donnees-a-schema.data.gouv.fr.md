@@ -1,8 +1,7 @@
 ---
 metaLinks:
   alternates:
-    - >-
-      https://app.gitbook.com/s/nSrS1oz2N9yTlykjBxxZ/guides-open-data/guide-qualite/maitriser-les-schemas-de-donnees/integrer-un-schema-de-donnees-a-schema.data.gouv.fr
+    - /broken/spaces/nSrS1oz2N9yTlykjBxxZ/pages/oM22GT21zXoURevaI0Z7
 ---
 
 # Intégrer un schéma de données à schema.data.gouv.fr
