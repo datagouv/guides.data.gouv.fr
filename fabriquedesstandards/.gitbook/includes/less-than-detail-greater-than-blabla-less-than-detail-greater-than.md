@@ -1,4 +1,0 @@
----
-title: <detail> Blabla </detail>
----
-
