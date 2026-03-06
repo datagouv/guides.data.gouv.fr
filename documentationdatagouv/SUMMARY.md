@@ -56,6 +56,8 @@
   * [notifications](api-de-data.gouv.fr/reference/notifications.md)
   * [avatars](api-de-data.gouv.fr/reference/avatars.md)
   * [harvest](api-de-data.gouv.fr/reference/harvest.md)
+* [Télécharger le catalogue de données de data.gouv.fr](api-de-data.gouv.fr/telecharger-le-catalogue-de-donnees-de-data.gouv.fr.md)
+* [Accéder au catalogue via SPARQL](api-de-data.gouv.fr/acceder-au-catalogue-via-sparql.md)
 
 ## MOISSONNAGE
 
@@ -89,8 +91,6 @@
   * [Datapass : Outil d'habilitations](autres/outils-pour-les-administrations/datapass-outil-dhabilitations.md)
   * [Bouquets API Entreprise et API Particulier](autres/outils-pour-les-administrations/bouquets-api-entreprise-et-api-particulier.md)
 * [Explorer un jeu de donnée](autres/explorer-un-jeu-de-donnee.md)
-* [Télécharger le catalogue de données de data.gouv.fr](autres/telecharger-le-catalogue-de-donnees-de-data.gouv.fr.md)
-* [Accéder au catalogue via SPARQL](autres/acceder-au-catalogue-via-sparql.md)
 
 ***
 
