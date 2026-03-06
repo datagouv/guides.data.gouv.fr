@@ -85,14 +85,11 @@
 
 ## Autres
 
+* [Créer une verticale thématique de data.gouv.fr](autres/creer-une-verticale-thematique-de-data.gouv.fr.md)
+* [Catalogage de données - GRIST](autres/catalogage-de-donnees-grist.md)
 * [Outils pour les administrations](autres/outils-pour-les-administrations/README.md)
   * [Doctrine des API](autres/outils-pour-les-administrations/doctrine-des-api.md)
   * [Accompagnement humain](autres/outils-pour-les-administrations/accompagnement-humain.md)
   * [Datapass : Outil d'habilitations](autres/outils-pour-les-administrations/datapass-outil-dhabilitations.md)
   * [Bouquets API Entreprise et API Particulier](autres/outils-pour-les-administrations/bouquets-api-entreprise-et-api-particulier.md)
 * [Explorer un jeu de donnée](autres/explorer-un-jeu-de-donnee.md)
-
-***
-
-* [Créer une verticale thématique de data.gouv.fr](creer-une-verticale-thematique-de-data.gouv.fr.md)
-* [Catalogage de données - GRIST](catalogage-de-donnees-grist.md)
