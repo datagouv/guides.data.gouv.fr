@@ -1,0 +1,16 @@
+# Table of contents
+
+* [La fabrique des standards](README.md)
+  * [Émergence d'un besoin ou d'une évolution](readme/emergence-dun-besoin-ou-dune-evolution.md)
+  * [Exploration de l'existant et saisie du CNIG](readme/exploration-de-lexistant-et-saisie-du-cnig.md)
+  * [Initialisation des travaux](readme/initialisation-des-travaux.md)
+  * [Cadrage du groupe de travail](readme/cadrage-du-groupe-de-travail.md)
+  * [Réalisation du standard](readme/realisation-du-standard/README.md)
+    * [Atteindre un consensus](readme/realisation-du-standard/atteindre-un-consensus.md)
+    * [Utiliser le modèle de dépôt Github](readme/realisation-du-standard/utiliser-le-modele-de-depot-github.md)
+    * [Gérer un dépôt Github](readme/realisation-du-standard/gerer-un-depot-github.md)
+    * [Ressources utiles](readme/realisation-du-standard/ressources-utiles.md)
+  * [Validation du standard](readme/validation-du-standard/README.md)
+    * [Réaliser un appel à commentaires](readme/validation-du-standard/realiser-un-appel-a-commentaires.md)
+  * [Déploiement du standard](readme/deploiement-du-standard.md)
+  * [Glossaire de la Fabrique des standards](readme/glossaire-de-la-fabrique-des-standards.md)
