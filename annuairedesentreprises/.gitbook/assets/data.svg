@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Calque_2" data-name="Calque 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 800 450">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#Dégradé_sans_nom);
+      }
+
+      .cls-2 {
+        fill: #f2350e;
+      }
+
+      .cls-3 {
+        fill: #fa7a35;
+      }
+
+      .cls-4 {
+        fill: #fca62f;
+      }
+    </style>
+    <linearGradient id="Dégradé_sans_nom" data-name="Dégradé sans nom" x1="356.5" y1="447.91" x2="403.79" y2="207.75" gradientTransform="translate(0 452) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#e1f3ff"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+  </defs>
+  <g id="Calque_1-2" data-name="Calque 1">
+    <g>
+      <rect class="cls-1" width="800" height="450"/>
+      <g>
+        <g>
+          <path class="cls-4" d="M319.08,192.81l66.08,37.84,65.66-38.57-66.08-37.83-65.67,38.56Z"/>
+          <path class="cls-2" d="M385.17,230.64l.42,76.4,65.66-38.56-.42-76.4-65.66,38.56Z"/>
+          <path class="cls-3" d="M385.16,230.64l.42,76.39-66.08-37.83-.42-76.39,66.08,37.83Z"/>
+        </g>
+        <rect class="cls-4" x="475.09" y="108.64" width="65.08" height="3.63" transform="translate(63.64 380.2) rotate(-43.56)"/>
+        <rect class="cls-4" x="400.98" y="100.01" width="44.24" height="3.63" transform="translate(135.2 428.16) rotate(-62.11)"/>
+        <rect class="cls-4" x="336.18" y="54.89" width="3.63" height="69.73" transform="translate(-11.59 80.45) rotate(-13.35)"/>
+        <rect class="cls-4" x="283.28" y="144.43" width="3.63" height="50.5" transform="translate(-4.6 331.38) rotate(-59.93)"/>
+        <rect class="cls-4" x="223.12" y="248.37" width="63" height="3.63" transform="translate(-73.74 110.17) rotate(-21.4)"/>
+        <rect class="cls-4" x="519.61" y="172.54" width="3.63" height="67.89" transform="translate(297.4 720.61) rotate(-88.06)"/>
+        <rect class="cls-4" x="498.91" y="280.08" width="3.63" height="65.56" transform="translate(-53.65 516.03) rotate(-52.12)"/>
+        <rect class="cls-4" x="426.46" y="310.57" width="3.63" height="57.48" transform="translate(-89.88 165.91) rotate(-19.89)"/>
+        <rect class="cls-4" x="294.43" y="338.65" width="56.08" height="3.63" transform="translate(-129.88 464.06) rotate(-61.84)"/>
+      </g>
+    </g>
+  </g>
+</svg>
