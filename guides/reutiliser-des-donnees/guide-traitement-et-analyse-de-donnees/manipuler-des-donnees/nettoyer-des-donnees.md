@@ -1,0 +1,15 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/nSrS1oz2N9yTlykjBxxZ/reutiliser-des-donnees/guide-traitement-et-analyse-de-donnees/manipuler-des-donnees/nettoyer-des-donnees
+---
+
+# Nettoyer des données
+
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><p>Astuces et recommandations pour nettoyer des données</p><p><img src="../../../.gitbook/assets/Tag - Item (20).png" alt="" data-size="line"></p></td><td></td><td></td><td><a href="../../../.gitbook/assets/Frame 25 (8).png">Frame 25 (8).png</a></td><td><a href="https://arthursz.gitbook.io/opendata-cheatsheet-1/mise-en-qualite-opendata-cheatcode/nettoyer-les-donnees">https://arthursz.gitbook.io/opendata-cheatsheet-1/mise-en-qualite-opendata-cheatcode/nettoyer-les-donnees</a></td></tr><tr><td>Outil gratuit et open source pour travailler avec des données : les nettoyer, les convertir dans d'autres formats, etc.</td><td><img src="../../../.gitbook/assets/Tag - Item (21).png" alt="" data-size="line"></td><td></td><td><a href="../../../.gitbook/assets/Frame 1881 (5).png">Frame 1881 (5).png</a></td><td><a href="https://openrefine.org/">https://openrefine.org/</a></td></tr><tr><td>Tutoriel pour apprendre à utiliser OpenRefine pour nettoyer des données.</td><td><img src="../../../.gitbook/assets/Tag - Item (22).png" alt="" data-size="line"></td><td></td><td><a href="../../../.gitbook/assets/Frame 25 (1) (3).png">Frame 25 (1) (3).png</a></td><td><a href="https://www.patrimoine-et-numerique.fr/tutoriels/52-36-openrefine-excel-aux-hormones-pour-nettoyage-de-donnees">https://www.patrimoine-et-numerique.fr/tutoriels/52-36-openrefine-excel-aux-hormones-pour-nettoyage-de-donnees</a></td></tr></tbody></table>
+
+{% hint style="success" %}
+**Ce guide est ouvert aux contributions**.\
+💌 Vous avez des idées d'autres ressources pédagogiques et/ou outils pour nettoyer des données à référencer ici ? [Faites-nous en part dans ce formulaire](https://tally.so/r/wgZz4l).&#x20;
+{% endhint %}
