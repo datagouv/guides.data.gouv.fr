@@ -1,7 +1,6 @@
 # Table of contents
 
-* [Passe Marché](README.md)
-* [PARCOURS ACHETEUR](parcours-acheteur/README.md)
+* [PARCOURS ACHETEUR](README.md)
   * [1. Présentation générale de Passe Marché](parcours-acheteur/1.-presentation-generale-de-passe-marche.md)
   * [2. Rôle de l'acheteur dans Passe Marché](parcours-acheteur/2.-role-de-lacheteur-dans-passe-marche.md)
   * [3. Paramétrer les exigences de candidature](parcours-acheteur/3.-parametrer-les-exigences-de-candidature.md)
@@ -25,6 +24,7 @@
 * [APIs Disponibles](apis-disponibles/README.md)
   * [Fonctionnement des APIs intégrées](apis-disponibles/1.-fonctionnement-des-apis-integrees.md)
   * [APIs intégrées](apis-disponibles/2.-apis-integrees.md)
+* [Passe Marché](<README (1).md>)
 * [Documentation Technique](docs/README.md)
   * [Guide de Démarrage - Intégration Passe Marché](docs/00_guide_de_demarrage.md)
   * [Démarrage Rapide - Intégration Passe Marché](docs/01_demarrage_rapide.md)
