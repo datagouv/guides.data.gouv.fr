@@ -148,6 +148,8 @@ Ce fichier définit notamment :
 * les filtres de données (organisations, schémas, thèmes, tags)
 * la page d’accueil et les contenus éditoriaux
 
+ℹ️ [Voir la documentation complète de l'architecture de `udata-front-kit`](https://github.com/opendatateam/udata-front-kit/blob/main/doc/architecture.md) pour une explication plus approfondie du fonctionnement technique d'un portail thématique.
+
 ***
 
 ### Développement et contribution
