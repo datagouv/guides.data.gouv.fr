@@ -58,13 +58,10 @@ Plusieurs moyens d’actions s’offrent à vous :
 
 La question du budget peut être un obstacle lors de cette phase, il faut généralement prévoir les coûts liés à :
 
-\- l’ingénierie interne liée à l’hébergement des données, outils et supports liés à la thématique,
-
-\- la publication dans des revues spécialisées parfois payantes,
-
-\- l’animation de sessions, ateliers, etc.,
-
-\- la formation de l’animateur pour le déploiement s’il ne dispose pas de compétences en géomatique ou dans le domaine métier, nécessaires au déploiement.
+* l’ingénierie interne liée à l’hébergement des données, outils et supports liés à la thématique,
+* la publication dans des revues spécialisées parfois payantes,
+* l’animation de sessions, ateliers, etc.,
+* la formation de l’animateur pour le déploiement s’il ne dispose pas de compétences en géomatique ou dans le domaine métier, nécessaires au déploiement.
 
 #### <mark style="color:purple;">DU CÔTÉ DU PILOTE</mark>
 
@@ -110,7 +107,7 @@ Pour se déplacer, les personnes en situation de handicap ont besoin d’informa
 
 Le standard est en réalité le fruit d’une réflexion plus longue entamée dès 2018 entre le Cerema et plusieurs métropoles. Son élaboration s’est ensuite poursuivie et accélérée au niveau national à partir de 2020 au sein du groupe de travail du CNIG sur l’accessibilité réunissant une grande variété d’acteurs (collectivités, services de l’État, associations d’usagers et de personnes handicapées, entreprises spécialisées dans la collecte et/ou la diffusion de données sur l’accessibilité, etc.). Le standard a fait l’objet d’une consultation publique suivie d’une consolidation. Il a été validé par la Commission des standards du CNIG en octobre 2021. Son objectif est de collecter et mettre à disposition des données ouvertes interopérables qui viendront alimenter des services numériques de guidage. Ces bases de données servent également au diagnostic du territoire qui permet d’actualiser les Plans de mise en Accessibilité de la Voirie et des Espaces publics (PAVE, obligatoire depuis 2009) et de programmer les travaux d’accessibilité sur le territoire communal ou intercommunal. Lorsque les données n’existent pas encore, l’enjeu principal est de convaincre les acteurs locaux à collecter les données sous le bon format.
 
-Le standard est accompagné d’un guide méthodologique de collecte, dont la rédaction est collaborative, pour expliciter des points techniques particuliers et fournir des consignes favorisant les bonnes pratiques de collecte.
+Le standard est accompagné d’un guide méthodologique de collecte, dont la rédaction est collaborative, pour expliciter des points techniques particuliers et fournir des consignes favorisant les bonnes pratiques de collecte. Une [vidéo](https://www.dailymotion.com/video/x9mklxy) a été réalisée pour présenter le standard.
 
 L’État a financé le développement de l’outil Accèslibre Mobilités, suite logicielle open source mise gratuitement à disposition des utilisateurs (Collectivités territoriales, bureaux d’études…). Il s’appuie sur le modèle de données défini dans le standard CNIG et permet aux acteurs de préparer et de réaliser la collecte. Il a été testé par de nombreuses collectivités de façon à améliorer ses fonctionnalités et son ergonomie. Accèslibre Mobilités est utilisé de façon opérationnelle depuis mi-2024 par trois collectivités dans le cadre d’appels d’offre de collecte de données d’accessibilité qui serviront aussi à la programmation de travaux dans le cadre des PAVE.
 
@@ -150,6 +147,8 @@ Le déploiement se fait au rythme d’amélioration de la maturité des outils e
 <details>
 
 <summary>Le standard GraceTHD</summary>
+
+![](../.gitbook/assets/image.png)
 
 _Ces propos ont été recueillis auprès des animateurs de l'entreprise Dotic._
 
@@ -213,6 +212,10 @@ En complément, nous avons utilisé les outils suivants que nous recommandons :
 
 <summary>Le standard Récostar (StarElec)</summary>
 
+
+
+<img src="../.gitbook/assets/image (1).png" alt="" data-size="original">
+
 _Ces propos ont été recueillis auprès de l'entreprise Sogelink_
 
 Le standard Récostar, déclinaison du standard StarElec, s’adresse aux géomètres ou entreprises de travaux publics (TP) qui doivent relever (mesurer la position 3D) des réseaux enterrés nouvellement créés. L’enjeu principal est de s’assurer que toutes les informations sur la position exact des réseaux, la composition de ceux-ci (quel type de câbles, quel équipement dans les coffrets etc.) et la relation topologique entre tous les éléments du réseau nouvellement créés, sont bien fournis à l’exploitant de réseau. Pour l’exploitant de réseaux, ce type de standard permet d’automatiser la vérification de la qualité des données fournies et ainsi d’intégrer plus facilement ces éléments dans sa cartographie. C’est un projet très long sur plusieurs années entre les réunions de travail, les maquettes, les premières versions, les retours clients, etc.
@@ -234,6 +237,8 @@ Nous recommanderions aux nouveaux groupes de travail :
 <details>
 
 <summary>Le standard StaR-Eau</summary>
+
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 _Ces propos ont été recueillis auprès de la direction eau et assainissement de la communauté d'agglomération d'Epernay._
 

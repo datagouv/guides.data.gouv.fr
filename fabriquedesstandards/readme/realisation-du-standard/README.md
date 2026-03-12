@@ -116,7 +116,7 @@ Lors du cadrage du GT, le secrétariat général vous accompagne pour :
 
 ### Modèle de standard proposé par le CNIG
 
-{% file src="../../.gitbook/assets/GT CNIG - Modèle de standard.docx" %}
+{% file src="../../.gitbook/assets/GT CNIG - Modèle de standard.docx" %}
 _Modèle de standard_
 {% endfile %}
 
