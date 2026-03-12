@@ -14,7 +14,7 @@ Ces fonctionnalités sont encore en construction. Nous les faisons évoluer à p
 
 * Génération automatique de descriptions courtes, pour aider à rédiger des présentations claires et accessibles ;
 * Suggestion de mots-clés ;&#x20;
-* L'ouverture d'un [**serveur Model Context Protocol (MCP)**](https://github.com/datagouv/datagouv-mcp) en ligne. Ce sserveur standardisé permet de connecter directement data.gouv.fr à votre chatbot pour qu'il puisse chercher et analyser des données en lauguage naturel depuis votre chatbot. Retrouvez comment configurer votre outil (Claude, ChatGPT, Mistral...) sur le dépôt [datagouv-mcp](https://github.com/datagouv/datagouv-mcp)
+* L'ouverture d'un [**serveur Model Context Protocol (MCP)**](https://github.com/datagouv/datagouv-mcp) en ligne. Ce serveur standardisé permet de connecter directement data.gouv.fr à votre chatbot pour qu'il puisse chercher et analyser des données en langage naturel depuis votre chatbot. Retrouvez comment configurer votre outil (Claude, ChatGPT, Mistral...) sur le dépôt [datagouv-mcp](https://github.com/datagouv/datagouv-mcp)
 * La mise à disposition d'un [**skill data.gouv.fr**](https://github.com/datagouv/datagouv-skill) via un dépôt collaboratif. Il s'agit d'une documentation structurée à destination des LLMs pour leur apprendre à utiliser nativement les APIs de la plateforme (catalogue, métriques et données tabulaires).
 {% endhint %}
 
