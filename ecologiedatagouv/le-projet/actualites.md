@@ -6,17 +6,15 @@ description: Retrouvez nos actualités des derniers mois
 
 ### **Nouvelles fonctionnalités :**
 
-<figure><img src="../.gitbook/assets/Design sans titre (3).png" alt=""><figcaption><p>Exemple d'utilisation de la nouvelle fonctionnalité d'ouverture dans QGIS</p></figcaption></figure>
+#### **Ouverture dans QGIS de services WFS/WMS à partir d’une collection :**
 
-#### **Ouverture dans QGIS de services WFS/WMS à partir d’un bouquet :**
-
-* Lorsqu'un jeu de données est rattaché à un bouquet et qu'il contient des services WFS et/ou WMS, il est désormais possible de l'ouvrir directement dans QGIS en cliquant sur le bouton "Ouvrir dans QGIS" sur la carte du jeu de données, comme décrit dans l’image ci-dessus.
-* Dans le contexte de bouquets de données volumineux tels que celui sur les documents d’urbanisme porté par [Docurba](https://ecologie.data.gouv.fr/bouquets/elaboration-ou-evolution-dun-document-durbanisme) cette fonctionnalité permet d’exporter en un clic l’ensemble des jeux de données contenant des services WFS et/ou WMS dans un outil de prédilection pour leur analyse.
+* Lorsqu'un jeu de données est rattaché à une collection et qu'il contient des services WFS et/ou WMS, il est désormais possible de l'ouvrir directement dans QGIS en cliquant sur le bouton "Ouvrir dans QGIS" sur la carte du jeu de données, comme décrit dans l’image ci-dessus.
+* Dans le contexte de collections volumineuses telles que celles sur les documents d’urbanisme porté par [Docurba](https://ecologie.data.gouv.fr/bouquets/elaboration-ou-evolution-dun-document-durbanisme), cette fonctionnalité permet d’exporter en un clic l’ensemble des jeux de données contenant des services WFS et/ou WMS dans un outil de prédilection pour leur analyse.
 * L’équipe [_ecologie_.**data.gouv**._fr_](http://ecologie.data.gouv.fr) est à l’écoute de tout retour sur cette nouvelle fonctionnalité disponible en version beta.
 
 \[[En savoir sur cette fonctionnalité](https://guides.data.gouv.fr/guides-de-data.gouv.fr/ecologie.data.gouv.fr/ecologie.data.gouv.fr/bouquets/ouvrir-dans-qgis)]
 
-<figure><img src="../.gitbook/assets/{75DF19C0-0226-49C8-AADA-5B6C1448DB82}.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Design sans titre (3).png" alt=""><figcaption><p>Exemple d'utilisation de la nouvelle fonctionnalité d'ouverture dans QGIS</p></figcaption></figure>
 
 #### **Enrichissement des points de contact des indicateurs :**
 
@@ -26,6 +24,9 @@ Afin de rendre visible les différents points de contact pour un indicateur nous
 * **Producteur** : L’entité responsable du calcul de l’indicateur, si le champ n’est pas renseigné, l’entité responsable est l’Ecolab
 * **Fournisseur** : L’entité productrice des données sources
 * **Contact** : Le mail de la personne à contacter en cas de question sur les indicateurs, si le champ n’est pas renseigné, il est conseillé d’utiliser l’onglet de discussion.
+*
+
+    <figure><img src="../.gitbook/assets/{75DF19C0-0226-49C8-AADA-5B6C1448DB82}.png" alt=""><figcaption></figcaption></figure>
 
 #### **Enrichissement et modification des indicateurs de type ratio :**
 
