@@ -4,11 +4,11 @@ description: >-
   transition écologique des territoires
 ---
 
-# Indicateurs
+# Indicateurs phares
 
 Le **hub d'indicateurs territoriaux pour la transition écologique** est coconstruit avec les directions générales, les établissements publics et les services déconcentrés des ministères concernés, qui ont apporté leur expertise afin d'aboutir à un catalogue de référence. Les indicateurs sélectionnés ont pour objectif d'accompagner les territoires dans le suivi de leurs politiques publiques de transition écologique.&#x20;
 
-Ces indicateurs sont référencés par thématiques et enjeux environnementaux de la planification écologique. A la différence d'une [donnée](../donnees/), un indicateur est une information agrégée :&#x20;
+Ces indicateurs sont référencés par thématiques et enjeux environnementaux de la planification écologique. A la différence d'une [donnée](../toutes-les-donnees/), un indicateur est une information agrégée :&#x20;
 
 * **géographiquement** : la commune est l'échelle géographique la plus fine proposée ;
 * **temporellement** : les indicateurs concernent le temps long, avec une fréquence souvent annuelle ;

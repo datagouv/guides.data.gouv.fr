@@ -6,7 +6,7 @@ description: >-
 
 # Rechercher des données
 
-Pour rechercher un jeu de données, dirigez vous vers l'onglet [Données](https://ecologie.data.gouv.fr/datasets). Outre la barre de recherche générale où il est possible d'explorer la base de données par mots-clés, vous pouvez également filtrer votre recherche par :
+Pour rechercher un jeu de données, dirigez vous vers l'onglet [Toutes les données](https://ecologie.data.gouv.fr/datasets). Outre la barre de recherche générale où il est possible d'explorer la base de données par mots-clés, vous pouvez également filtrer votre recherche par :
 
 1. **Organisation ;**
 2. **Thème Inspire.**&#x20;

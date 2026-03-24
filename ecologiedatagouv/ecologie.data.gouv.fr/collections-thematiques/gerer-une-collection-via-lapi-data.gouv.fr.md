@@ -1,4 +1,4 @@
-# Gérer un bouquet via l’API data.gouv.fr
+# Gérer une collection via l’API data.gouv.fr
 
 ### Utilisation de l’API data.gouv.fr
 
@@ -16,8 +16,8 @@ On utilisera l’environnement de démo dans les exemples ci-dessous.
 
 #### Authentification et gestion des droits
 
-* L’utilisation de l’API nécessite une clé passée en tant que header `x-api-key` (cf documentation)
-* Il est recommandé de publier un bouquet en tant qu’organisation plutôt qu’en tant qu’individu. Il faut donc que le compte dont on utilise la clé d’API soit rattaché à l’organisation cible (cf documentation). L’identifiant technique de l’organisation est disponible sur la page de l’organisation sur [data.gouv.fr](http://data.gouv.fr), dans l’onglet Informations, sous la section “Informations techniques” (ex : [https://www.data.gouv.fr/organizations/ecolab-1/information](https://www.data.gouv.fr/organizations/ecolab-1/information) → `67884b4da4fca9c97bbef479`)
+* L’utilisation de l’API nécessite une clé passée en tant que header `x-api-key` (cf. documentation)
+* Il est recommandé de publier une collection en tant qu’organisation plutôt qu’en tant qu’individu. Il faut donc que le compte dont on utilise la clé d’API soit rattaché à l’organisation cible (cf. documentation). L’identifiant technique de l’organisation est disponible sur la page de l’organisation sur [data.gouv.fr](http://data.gouv.fr), dans l’onglet Informations, sous la section “Informations techniques” (ex : [https://www.data.gouv.fr/organizations/ecolab-1/information](https://www.data.gouv.fr/organizations/ecolab-1/information) → `67884b4da4fca9c97bbef479`)
 
 On utilisera cette organisation de rattachement dans les exemples ci-dessous.
 
@@ -35,16 +35,16 @@ L’API de [data.gouv.fr](http://data.gouv.fr) est de type JSON-REST. Dans la su
 }
 ```
 
-### Création d’un bouquet
+### Création d’une collection
 
-Un bouquet est représenté par un object `Topic` sur [data.gouv.fr](http://data.gouv.fr), on utilise donc l’API correspondante `/api/2/topics`.
+Une collection est représenté par un object `Topic` sur [data.gouv.fr](http://data.gouv.fr), on utilise donc l’API correspondante `/api/2/topics`.
 
 `POST <https://demo.data.gouv.fr/api/2/topics/`
 
 ```json
 {
-	"name": "Mon bouquet de test (sujet)",
-	"description": "La description de mon bouquet de test (objectif)",	
+	"name": "Ma collection de test (sujet)",
+	"description": "La description de ma collection de test (objectif)",	
 	// tags obligatoires
 	"tags": [
 		"ecospheres",
@@ -67,7 +67,7 @@ Un bouquet est représenté par un object `Topic` sur [data.gouv.fr](http://data
 }
 ```
 
-La réponse contient un champ `id`  qu’on utilisera plus tard pour modifier le bouquet (exemple 68e37680328504830a326804).&#x20;
+La réponse contient un champ `id`  qu’on utilisera plus tard pour modifier la collection (exemple 68e37680328504830a326804).&#x20;
 
 Liste des thématiques et tag associés :
 
@@ -81,7 +81,7 @@ Liste des thématiques et tag associés :
 | Mieux se nourrir                             | ecospheres-theme-mieux-se-nourrir                      |
 | Autre                                        | ecospheres-theme-autre                                 |
 
-### Ajout d’un facteur (jeu de données) à un bouquet
+### Ajout d’un facteur (jeu de données) à une collection
 
 Un facteur est représenté par un `element` rattaché à un `Topic` sur [data.gouv.fr](http://data.gouv.fr). On utilise donc l’API correspondante `/api/2/topics/{topic_id}/elements/`.
 
@@ -99,7 +99,7 @@ L’exemple ci-dessous crée plusieurs facteurs, un pour chaque type possible :
   // facteur pointant vers un jeu de données sur data.gouv.fr
   {
 	  "title": "Libellé du jeu de données depuis data.gouv.fr",
-	  "description": "Raison d'utilisation dans ce bouquet",
+	  "description": "Raison d'utilisation dans cette collection",
 	  "element": {
 		  "class": "Dataset",
 		  // identifiant technique du jeu de données sur data.gouv.fr (onglet Informations)
@@ -117,7 +117,7 @@ L’exemple ci-dessous crée plusieurs facteurs, un pour chaque type possible :
   // facteur pointant vers un jeu de données externe
   {
 	  "title": "Libellé du jeu de données externe",
-	  "description": "Raison d'utilisation dans ce bouquet",
+	  "description": "Raison d'utilisation dans cette collection",
 	  "element": null,
 	  "extras": {
 	    "ecospheres": {
@@ -130,7 +130,7 @@ L’exemple ci-dessous crée plusieurs facteurs, un pour chaque type possible :
   // facteur "non trouvé"
   {
 	  "title": "Libellé du jeu de données non trouvé",
-	  "description": "Raison d'utilisation dans ce bouquet",
+	  "description": "Raison d'utilisation dans cette collection",
 	  "element": null,
 	  "extras": {
 		  "ecospheres": {
@@ -143,7 +143,7 @@ L’exemple ci-dessous crée plusieurs facteurs, un pour chaque type possible :
   // facteur "non cherché"
   {
 	  "title": "Libellé du jeu de données non cherché",
-	  "description": "Raison d'utilisation dans ce bouquet",
+	  "description": "Raison d'utilisation dans cette collection",
 	  "element": null,
 	  "extras": {
 		  "ecospheres": {
@@ -162,14 +162,14 @@ La réponse contient un tableau d’objets avec pour chacun un champ `id` qu’o
 
 ### Modification d’un facteur
 
-Dans cet exemple, on modifie le regroupement d’un facteur existant. Il n’est pas nécessaire de reprendre les champs inchangés (titre, description…), on les garde toutefois pour référence dans cet exemple.
+Dans cet exemple, on modifie le regroupement d’un facteur existant. Il n’est pas nécessaire de reprendre les champs inchangés (titre, description, etc.), on les garde toutefois pour référence dans cet exemple.
 
 `PUT <https://demo.data.gouv.fr/api/2/topics/68e37680328504830a326804/elements/68e37f9311f7009c05fb333b/`>
 
 ```json
 {
   "title": "Libellé du jeu de données depuis data.gouv.fr",
-  "description": "Raison d'utilisation dans ce bouquet",
+  "description": "Raison d'utilisation dans cette collection",
   "element": {
     "class": "Dataset",
     "id": "67a497a30f69225d739b8b5b"
@@ -188,16 +188,16 @@ Dans cet exemple, on modifie le regroupement d’un facteur existant. Il n’est
 
 `DELETE <https://demo.data.gouv.fr/api/2/topics/68e37680328504830a326804/elements/68e37f9311f7009c05fb333b/`>
 
-### Modification ou création d’un bouquet avec ses facteurs
+### Modification ou création d’une collection avec ses facteurs
 
-Il est possible de manipuler un bouquet avec ses facteurs associés (`POST <https://demo.data.gouv.fr/api/2/topics/` dans le cas d’une création, `PUT <https://demo.data.gouv.fr/api/2/topics/{topic_id}` dans le cas d’une modification).
+Il est possible de manipuler une collection avec ses facteurs associés (`POST <https://demo.data.gouv.fr/api/2/topics/` dans le cas d’une création, `PUT <https://demo.data.gouv.fr/api/2/topics/{topic_id}` dans le cas d’une modification).
 
-Dans le cas d’une modification, il est recommandé d’utiliser des opérations atomiques sur les éléments / facteurs afin de bénéficier du suivi des modifications sur les facteurs d’un bouquet (l’interface affichera “le facteur xxx a été modifié par untel à tel date”).
+Dans le cas d’une modification, il est recommandé d’utiliser des opérations atomiques sur les éléments / facteurs afin de bénéficier du suivi des modifications sur les facteurs d’une collection (l’interface affichera “le facteur xxx a été modifié par untel à tel date”).
 
 ```json
 {
-	"name": "Mon bouquet de test (sujet)",
-	"description": "La description de mon bouquet de test (objectif)",	
+	"name": "Ma collection de test (sujet)",
+	"description": "La description de ma collection de test (objectif)",	
 	"tags": [
 		"ecospheres",
 		"univers-ecospheres",
@@ -215,7 +215,7 @@ Dans le cas d’une modification, il est recommandé d’utiliser des opération
 	"elements": [
 		{
 		  "title": "Libellé du jeu de données depuis data.gouv.fr",
-		  "description": "Raison d'utilisation dans ce bouquet",
+		  "description": "Raison d'utilisation dans cette collection",
 		  "element": {
 		    "class": "Dataset",
 		    "id": "67a497a30f69225d739b8b5b"
