@@ -6,7 +6,7 @@ description: Comment ouvrir une collection vers QGIS depuis ecologie.data.gouv.f
 
 ### Ouvrir une collection dans QGIS
 
-De manière similaire à [un jeu de données](https://app.gitbook.com/o/w6D6SnLwCXQaMMSzcTvp/s/K56ETHxhBea8DHmbPCgt/~/edit/~/changes/15/ecologie.data.gouv.fr/toutes-les-donnees/ouvrir-un-jeu-de-donnees-dans-qgis), il est possible d'ouvrir l'**intégralité des jeux de données éligibles d'une collection** dans QGIS. Le bouton "Ouvrir la collection dans QGIS (WFS/WMS)" **en bas de la collection** déclenche la génération du fichier QLR correspondant.
+De manière similaire à [un jeu de données](https://guides.data.gouv.fr/ecologie.data.gouv.fr/ecologie.data.gouv.fr/toutes-les-donnees/ouvrir-un-jeu-de-donnees-dans-qgis), il est possible d'ouvrir l'**intégralité des jeux de données éligibles d'une collection** dans QGIS. Le bouton "Ouvrir la collection dans QGIS (WFS/WMS)" **en bas de la collection** déclenche la génération du fichier QLR correspondant.
 
 <figure><img src="../../.gitbook/assets/export_collection (2).png" alt=""><figcaption></figcaption></figure>
 
@@ -22,5 +22,5 @@ Les données / couches sont organisées de manière arborescente pour refléter 
 {% hint style="info" %}
 **Quelles règles sont appliquées pour l'éligibilité, la sélection et la détection des couches d'un jeu de données ?**
 
-Les mêmes règles que pour un jeu de données unitaire sont appliquées à la liste des jeux de données d'une collection (voir [Ouvrir un jeu de données dans QGIS](https://app.gitbook.com/o/w6D6SnLwCXQaMMSzcTvp/s/K56ETHxhBea8DHmbPCgt/~/edit/~/changes/15/ecologie.data.gouv.fr/toutes-les-donnees/ouvrir-un-jeu-de-donnees-dans-qgis)).
+Les mêmes règles que pour un jeu de données unitaire sont appliquées à la liste des jeux de données d'une collection (voir [Ouvrir un jeu de données dans QGIS](https://guides.data.gouv.fr/ecologie.data.gouv.fr/ecologie.data.gouv.fr/toutes-les-donnees/ouvrir-un-jeu-de-donnees-dans-qgis)).
 {% endhint %}

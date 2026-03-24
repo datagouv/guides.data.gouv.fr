@@ -31,8 +31,8 @@ Le bandeau de description permet d'identifier les informations clés concernant 
 
 En déployant un regroupement, vous accédez aux données et indicateurs qu'il contient et vous permet de les utiliser :&#x20;
 
-1. [Utiliser des données ](https://app.gitbook.com/o/w6D6SnLwCXQaMMSzcTvp/s/K56ETHxhBea8DHmbPCgt/~/changes/3/ecologie.data.gouv.fr/donnees/utiliser-des-donnees)
-2. [Utiliser un indicateur](https://app.gitbook.com/o/w6D6SnLwCXQaMMSzcTvp/s/K56ETHxhBea8DHmbPCgt/~/changes/3/ecologie.data.gouv.fr/indicateurs/utiliser-un-indicateur)
+1. [Utiliser des données ](https://guides.data.gouv.fr/ecologie.data.gouv.fr/ecologie.data.gouv.fr/toutes-les-donnees/utiliser-des-donnees)
+2. [Utiliser un indicateur](https://guides.data.gouv.fr/ecologie.data.gouv.fr/ecologie.data.gouv.fr/indicateurs-phares/utiliser-un-indicateur)
 
 ### L'onglet "Données"
 

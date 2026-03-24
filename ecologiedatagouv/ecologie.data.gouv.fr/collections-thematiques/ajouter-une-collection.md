@@ -150,7 +150,7 @@ Il est toujours possible de modifier une collection dont vous êtes propriétair
 <figure><img src="../../.gitbook/assets/modifier.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-Tous les membres de l'organisation peuvent éditer une collection. [Découvrir comment rejoindre une organisation](https://guides.data.gouv.fr/guide-data.gouv.fr/creer-un-compte-utilisateur-et-rejoindre-une-organisation).&#x20;
+Tous les membres de l'organisation peuvent éditer une collection. [Découvrir comment rejoindre une organisation](https://guides.data.gouv.fr/organisations/rejoindre-une-organisation).&#x20;
 {% endhint %}
 {% endstep %}
 {% endstepper %}
