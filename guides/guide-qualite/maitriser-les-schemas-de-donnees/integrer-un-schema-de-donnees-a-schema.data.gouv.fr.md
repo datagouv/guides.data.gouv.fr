@@ -35,7 +35,7 @@ Les schémas de données sont acceptés dès lors que leur l’existence est jus
 * **d’usage** : la réutilisation des données décrites par le schéma bénéficie à un grand nombre ou de nombreux producteurs sont amenés à utiliser ce schéma de données.
 {% endhint %}
 
-* **Des schémas de données décrits par un standard technique** (cf. page ["Phase de construction"](creer-un-schema-de-donnees/etape-3-phase-de-construction.md)) : les schémas de données décrits uniquement par de la documentation textuelle ou des tableaux ne sont pas acceptés.
+* **Des schémas de données décrits par un standard technique** (cf. page ["Phase de construction"](creer-un-schema-de-donnees/etape-3-phase-de-construction.md)) : les schémas de données décrits uniquement par de la documentation textuelle ou des tableaux peuvent être répertoriés, mais ne bénéficient pas de tous les outils disponibles.
 
 {% hint style="info" %}
 **Standards techniques supportés**
@@ -43,6 +43,7 @@ Les schémas de données sont acceptés dès lors que leur l’existence est jus
 Les standards techniques de schémas de données actuellement supportés sont les suivants :
 
 * [**Table Schema**](https://frictionlessdata.io/specs/table-schema/) : adapté pour la description de données tabulaires (sous forme de tableurs ou de CSV). Ce standard technique utilise le format JSON.
+* [**Data Package**](https://datapackage.org/standard/data-package/) : adapté pour la description de plusieurs fichiers de données tabulaires liés entre eux (représentation d'un modèle de données ; ce sont plusieurs TableSchemas groupés). Ce standard technique utilise le format JSON.
 * [**JSON Schema**](https://json-schema.org/) : adapté pour la description de données avec une notion de hiérarchie. Ce standard utilise le format JSON.
 * [**XML Schema Definition (XSD)**](https://www.w3.org/TR/xmlschema11-1/) : adapté pour la description de données avec une notion de hiérarchie. Ce standard utilise le format XML.
 {% endhint %}
@@ -60,7 +61,7 @@ Il ne faut pas confondre la validation d’un schéma avec le fait de vérifier 
 Pour tous les types de schéma de données, il faut que :&#x20;
 
 * [ ] **le schéma de données soit sur un dépôt Git, à raison d’un dépôt par schéma**. Ce dépôt doit pouvoir être cloné depuis Internet sans authentification préalable ;
-* [ ] **le dépôt Git doit comporter des tags indiquant les versions du schéma de données**. Ces versions doivent respecter la [gestion sémantique de version semver](https://semver.org/lang/fr/), sous la forme `1.3.2` par exemple ;
+* [ ] **le dépôt Git doit comporter des tags indiquant les versions du schéma de données**. Ces versions doivent respecter la [gestion sémantique de version semver](https://semver.org/lang/fr/), sous la forme `v1.3.2` par exemple ;
 * [ ] **le dépôt doit comporter un fichier `README.md` à la racine** contenant une documentation du schéma de données indiquant par exemple le contexte de production, la gouvernance ;
 * [ ] **passer avec succès les tests spécifiques au type de schéma de données que le dépôt contient.**
 
@@ -72,7 +73,7 @@ Cette page présente les grands principes de validation des schémas de données
 **Le détail des prérequis propres à chaque type de schéma de données, ainsi que des exemples, sont disponibles** [**ici**](https://schema.data.gouv.fr/validation.html)**.**&#x20;
 {% endhint %}
 
-Etalab se réserve le droit de refuser le référencement de schémas en motivant son refus. Il est encouragé d'[initier une discussion](https://github.com/etalab/schema.data.gouv.fr/issues) préalablement à l’ouverture d’une _pull request_.
+data.gouv.fr se réserve le droit de refuser le référencement de schémas en motivant son refus. Il est encouragé d'[initier une discussion](https://github.com/etalab/schema.data.gouv.fr/issues) préalablement à l’ouverture d’une _pull request_.
 
 ## Quand référencer un schéma de données ?
 
