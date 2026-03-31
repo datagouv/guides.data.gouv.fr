@@ -33,3 +33,19 @@ https://api.indicateurs.ecologie.gouv.fr
 {% hint style="info" %}
 Le token d'accès est à demander en remplissant le [formulaire suivant.](https://grist.numerique.gouv.fr/o/ecolabservicesdonnees/forms/1d4wnsMrTwY8RaiU2WbjP8/47)
 {% endhint %}
+
+### Intégrer les indicateurs dans l'outil Grist
+
+Le tableur Grist peut récupérer les indicateurs grâce au widget datagouv.
+
+#### Documentation du plugin&#x20;
+
+{% embed url="https://github.com/datagouv/grist-plugin-opendata/blob/main/docs/datagouv.md" %}
+
+#### Exemple d'utilisation
+
+{% embed url="https://grist.numerique.gouv.fr/o/ecolabservicesdonnees/49SPrgL9jgVv/Referentiel-dindicateurs/p/242" %}
+
+{% hint style="info" %}
+Bien que cette méthode est limitée à l’import des 10200 lignes, elle permet de rapidement intégrer les indicateurs dans les outils de la suite numérique.
+{% endhint %}
