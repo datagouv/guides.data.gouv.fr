@@ -21,6 +21,7 @@
   * [9. Vérifier la synthèse avant transmission](parcours-candidat/9.-verifier-la-synthese-avant-transmission.md)
   * [10. Transmettre la candidature](parcours-candidat/10.-transmettre-la-candidature.md)
   * [11. Télécharger l'attestation de candidature PDF](parcours-candidat/11.-telecharger-lattestation-de-candidature-pdf.md)
+  * [12. Authentification candidat](parcours-candidat/12.-authentification-candidat.md)
 * [APIs Disponibles](apis-disponibles/README.md)
   * [Fonctionnement des APIs intégrées](apis-disponibles/1.-fonctionnement-des-apis-integrees.md)
   * [APIs intégrées](apis-disponibles/2.-apis-integrees.md)
