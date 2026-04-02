@@ -10,9 +10,9 @@ description: Rencontrez notre équipe et tous ses projets
 
 Plus d'informations sur [le site d'Ecolab](https://greentechinnovation.fr/).
 
-L'équipe derrière [_ecologie._**data.gouv**_.fr_](https://ecologie.data.gouv.fr) est constituée de profils techniques ayant une expérience de l'administration. Nous sommes appuyés par nos collègues au sein de l'Ecolab pour la communication, le déploiement, les relations avec certains partenaires... Nos compétences sont centrées sur le développement de l'outil : nous nous reposons sur nos référents et sur les utilisateurs pour déployer les données, indicateurs et bouquets pertinents pour la transition écologique. C'est à dire vous !
+L'équipe derrière [_ecologie._**data.gouv**_.fr_](https://ecologie.data.gouv.fr) est constituée de profils techniques ayant une expérience de l'administration. Nous sommes appuyés par nos collègues au sein de l'Ecolab pour la communication, le déploiement, les relations avec certains partenaires... Nos compétences sont centrées sur le développement de l'outil : nous nous reposons sur nos référents et sur les utilisateurs pour déployer les données, indicateurs et collections thématiques pertinents pour la transition écologique. C'est à dire vous !
 
-<figure><img src="../.gitbook/assets/MIN_SG-CMJN.jpg" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/MIN_SG-CMJN.jpg" alt=""><figcaption></figcaption></figure>
 
 
 

@@ -15,10 +15,10 @@ Ces problématiques entrainent **la perte de synergies précieuses**, alors mêm
 Le catalogue [_ecologie_.**data.gouv**._fr_](../) répond à des enjeux clés de la transition écologique et de l'aménagement du territoire grâce à :
 
 * un accès centralisé à des [**données**](https://ecologie.data.gouv.fr/datasets) actualisées produites par des acteurs de référence ;
-* une sélection d'[**indicateurs**](https://ecologie.data.gouv.fr/indicators) territoriaux de la transition écologique, co-construits avec des experts métiers et accessibles via une API dédiée ;
-* la publication par les membres de la communauté de [**bouquets**](https://ecologie.data.gouv.fr/bouquets) de données liés aux politiques publiques : indicateurs de suivi des COP régionales, indicateurs de mobilité, urbanisme et végétalisation, ...
+* une sélection d'[**indicateurs phares**](https://ecologie.data.gouv.fr/indicators) territoriaux de la transition écologique, co-construits avec des experts métiers et accessibles via une API dédiée ;
+* la publication par les membres de la communauté de [**collections thématiques**](https://ecologie.data.gouv.fr/bouquets) liées aux politiques publiques : indicateurs de suivi des COP régionales, indicateurs de mobilité, urbanisme et végétalisation, etc.
 
-<figure><picture><source srcset="../.gitbook/assets/Dark mode gitbook EDG(2) (8).png" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/image (27).png" alt=""></picture><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/[ecologie.data.gouv.fr] Première image Newsletter 3.png" alt=""><figcaption></figcaption></figure>
 
 ## Partenaires&#x20;
 

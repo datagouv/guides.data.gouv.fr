@@ -20,4 +20,12 @@ Origine des données actuellement référencées sur [_ecologie_**.data.gouv**_.
 * associations spécialisées (Airparif, Agence ORE, etc.) ;
 * syndicats mixtes (parcs naturels, etc.) ;&#x20;
 * GIP (Agence Bio, etc.) ;
-* sociétés anonymes (EDF, Engie, etc.)
+* sociétés anonymes (EDF, Engie, etc.).
+
+Désormais, la gestion de cet univers permet une sélection **jeu de données par jeu de données**, via un tableur Grist qui liste les éléments (organisations, jeux de données, API, etc.) à inclure ou exclure.
+
+Cette approche permet d’intégrer des données provenant d’organisations dont le **champ d’action dépasse les seules thématiques environnementales**, comme les collectivités territoriales produisant des données clés sur l’occupation des sols.
+
+{% hint style="info" %}
+Voici la documentation technique complète de l'[outils permettant de gérer l'univers](https://github.com/opendatateam/udata-front-kit-universe).
+{% endhint %}

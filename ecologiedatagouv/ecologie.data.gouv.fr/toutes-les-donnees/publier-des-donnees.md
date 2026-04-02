@@ -14,7 +14,7 @@ La documentation [**data.gouv**._fr_](https://data.gouv.fr) vous offre un accomp
 
 Tel que mentionné ci-dessus, votre compte utilisateur est le même pour [_ecologie_.**data.gouv**._fr_](../../) et [**data.gouv**._fr_](https://data.gouv.fr/)_._&#x20;
 
-{% embed url="https://guides.data.gouv.fr/guide-data.gouv.fr/creer-un-compte-utilisateur-et-rejoindre-une-organisation" %}
+{% embed url="https://guides.data.gouv.fr/compte-utilisateur/creer-un-compte-utilisateur" %}
 {% endstep %}
 
 {% step %}
@@ -31,7 +31,7 @@ Plusieurs modes de mises en ligne sont possibles sur la plateforme [data.gouv._f
 
 Nous vous renvoyons à la documentation [data.gouv._fr_](https://data.gouv.fr) pour un accompagnement pas à pas dans la publication de vos données.&#x20;
 
-{% embed url="https://guides.data.gouv.fr/guide-data.gouv.fr/jeux-de-donnees/publier-un-jeu-de-donnees" %}
+{% embed url="https://guides.data.gouv.fr/jeux-de-donnees/publier-un-jeu-de-donnees" %}
 {% endstep %}
 
 {% step %}

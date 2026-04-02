@@ -2,4 +2,4 @@
 title: Untitled
 ---
 
-<table data-view="cards"><thead><tr><th></th></tr></thead><tbody><tr><td></td></tr></tbody></table>
+{% embed url="https://ecologie.data.gouv.fr/organizations" %}

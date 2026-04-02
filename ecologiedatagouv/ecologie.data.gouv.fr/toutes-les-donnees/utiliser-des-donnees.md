@@ -50,7 +50,7 @@ A ce stade, seuls les fichiers tabulaires de moins de 100Mo sont visualisables s
 
 Nous vous invitons à consulter la documentation [**data.gouv.**_fr_](https://data.gouv.fr) pour avoir plus d'informations sur les réutilisations et comment les publier.
 
-{% embed url="https://guides.data.gouv.fr/guide-data.gouv.fr/reutilisations/publier-une-reutilisation" %}
+{% embed url="https://guides.data.gouv.fr/reutilisations/publier-une-reutilisation" %}
 
 ### Des questions ?&#x20;
 
