@@ -5,14 +5,14 @@ icon: mcp
 
 # Le serveur MCP de data.gouv.fr
 
-Le serveur MCP de data.gouv.fr est une expérimentation de l’équipe data.gouv.fr autour du protocole **Model Context Protocol**.
+[Le serveur MCP de data.gouv.fr](https://github.com/datagouv/datagouv-mcp) est une expérimentation de l’équipe data.gouv.fr autour du protocole [**Model Context Protocol**](https://modelcontextprotocol.io/docs/getting-started/intro).
 
 Son objectif est simple : permettre à un agent conversationnel compatible MCP d’interroger data.gouv.fr avec un cadre standardisé.
 
 Concrètement, votre assistant peut chercher des jeux de données, explorer des métadonnées et vous aider à analyser les ressources disponibles en langage naturel.
 
 {% hint style="info" %}
-Le serveur MCP est encore **expérimental**. Le périmètre, les usages et la configuration peuvent évoluer.\
+[Le serveur MCP](https://github.com/datagouv/datagouv-mcp) est encore **expérimental**. Le périmètre, les usages et la configuration peuvent évoluer.\
 [Vos retours](https://tally.so/r/KYMboX) sont les bienvenus !
 {% endhint %}
 
@@ -31,7 +31,7 @@ Cette approche facilite notamment :
 
 ### Quand l’utiliser ?
 
-Le serveur MCP est utile si vous souhaitez travailler avec data.gouv.fr depuis un assistant conversationnel.
+[Le serveur MCP](https://github.com/datagouv/datagouv-mcp) est utile si vous souhaitez travailler avec data.gouv.fr depuis un assistant conversationnel.
 
 Il est particulièrement adapté si vous voulez :
 
@@ -46,11 +46,11 @@ Si vous avez besoin d’automatisations robustes, rejouables et finement contrô
 
 La configuration dépend du client utilisé.
 
-Le[ dépôt du projet](https://github.com/datagouv/datagouv-mcp) documente la mise en place avec plusieurs outils, dont Claude, ChatGPT et Mistral.
+Le [dépôt du projet](https://github.com/datagouv/datagouv-mcp) documente la mise en place avec plusieurs outils, dont Claude, ChatGPT et Mistral.
 
-1. Choisissez un client compatible MCP.
-2. Suivez la procédure de configuration du client.
-3. Connectez-le au serveur MCP de data.gouv.fr.
+1. Choisissez un client compatible MCP (liste [ici](https://github.com/datagouv/datagouv-mcp?tab=readme-ov-file#-connect-your-chatbot-to-the-mcp-server)).
+2. Suivez la [procédure de configuration du client](https://github.com/datagouv/datagouv-mcp?tab=readme-ov-file#-connect-your-chatbot-to-the-mcp-server)
+3. Connectez-le au serveur MCP de data.gouv.fr à l'adresse https://mcp.data.gouv.fr/mcp.
 4. Testez vos premiers cas d’usage en langage naturel.
 
 {% hint style="warning" %}
