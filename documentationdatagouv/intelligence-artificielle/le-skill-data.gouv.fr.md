@@ -44,9 +44,9 @@ Il est particulièrement pertinent pour :
 
 ### En quoi est-ce différent du [serveur MCP](https://github.com/datagouv/datagouv-mcp) ?
 
-[Le skill](https://github.com/datagouv/datagouv-skill) est une **documentation** : du texte et une structure (fichiers, règles) que le LLM lit pour savoir **comment** appeler les APIs data.gouv.fr (endpoints, paramètres, bonnes pratiques). Le modèle reste responsable de formuler les requêtes HTTP lui-même (ou via le code qu’il produit).
+[Le skill](https://github.com/datagouv/datagouv-skill) est une **documentation** : du texte et une structure (fichiers, règles) que le LLM lit pour savoir comment appeler les APIs data.gouv.fr (endpoints, paramètres, bonnes pratiques). Le modèle reste responsable de formuler les requêtes HTTP lui-même (ou via le code qu’il produit).
 
-Le [serveur MCP de data.gouv.fr](le-serveur-mcp-de-data.gouv.fr.md) expose des **outils** au client : le LLM ne « devine » pas l’API sous forme de texte libre, il est **guidé** par des appels d’outils nommés et typés que le serveur MCP exécute. C’est le MCP qui relie l’assistant aux capacités concrètes de la plateforme.
+Le [serveur MCP de data.gouv.fr](le-serveur-mcp-de-data.gouv.fr.md) expose des **outils** au client : le LLM ne « devine » pas l’API sous forme de texte libre, il est guidé par des appels d’outils nommés et typés que le serveur MCP exécute. C’est le MCP qui relie l’assistant aux capacités concrètes de la plateforme.
 
 En résumé :
 
@@ -55,7 +55,7 @@ En résumé :
 
 Les deux ne s’excluent pas : vous pouvez activer le [serveur MCP](https://github.com/datagouv/datagouv-mcp) et le [skill](https://github.com/datagouv/datagouv-skill) en parallèle.
 
-Les deux relèvent d’**expérimentations** : l’**efficacité comparative** du skill et du MCP n’a pas encore été **évaluée** par les équipes data.gouv.fr, mais ce travail est **en cours**.
+Les deux relèvent d’**expérimentations** : l’efficacité comparative du skill et du MCP n’a pas encore été évaluée par les équipes data.gouv.fr, mais ce travail est en cours.
 
 ### Mise en place
 
