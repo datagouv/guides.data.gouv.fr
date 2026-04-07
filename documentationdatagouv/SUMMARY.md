@@ -72,7 +72,7 @@
 
 * [Notre approche de l’intelligence artificielle sur data.gouv.fr](intelligence-artificielle/notre-approche-de-lintelligence-artificielle-sur-data.gouv.fr.md)
 * [Le serveur MCP de data.gouv.fr](intelligence-artificielle/le-serveur-mcp-de-data.gouv.fr.md)
-* [Les skills data.gouv.fr](intelligence-artificielle/les-skills-data.gouv.fr.md)
+* [Le skill data.gouv.fr](intelligence-artificielle/le-skill-data.gouv.fr.md)
 
 ## Données spécifiques
 

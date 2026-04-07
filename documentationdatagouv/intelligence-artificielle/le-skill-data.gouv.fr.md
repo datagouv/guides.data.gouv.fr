@@ -1,13 +1,13 @@
 ---
 description: >-
-  Comprendre le rôle des skills data.gouv.fr et savoir dans quels cas
+  Comprendre le rôle du skill data.gouv.fr et savoir dans quels cas
   l’utiliser.
 icon: markdown
 ---
 
-# Les skills data.gouv.fr
+# Le skill data.gouv.fr
 
-[Les skills data.gouv.fr](https://github.com/datagouv/datagouv-skill) sont une expérimentation de l’équipe data.gouv.fr autour des grands modèles de langage.
+[Le skill data.gouv.fr](https://github.com/datagouv/datagouv-skill) est une expérimentation de l’équipe data.gouv.fr autour des grands modèles de langage.
 
 Il prend la forme d’un dépôt collaboratif qui rassemble une documentation structurée pour aider un LLM à utiliser plus efficacement les APIs de la plateforme.
 
@@ -17,7 +17,7 @@ L’objectif est de permettre à un assistant d’interagir plus nativement avec
 [Le skill](https://github.com/datagouv/datagouv-skill) est encore **expérimental**. Son contenu et son périmètre peuvent évoluer.
 {% endhint %}
 
-### À quoi servent [les skills](https://github.com/datagouv/datagouv-skill) ?
+### À quoi sert [le skill data.gouv.fr](https://github.com/datagouv/datagouv-skill) ?
 
 [Le skill](https://github.com/datagouv/datagouv-skill) fournit un cadre documentaire pensé pour les assistants IA.
 
@@ -44,16 +44,18 @@ Il est particulièrement pertinent pour :
 
 ### En quoi est-ce différent du [serveur MCP](https://github.com/datagouv/datagouv-mcp) ?
 
-[Le skill](https://github.com/datagouv/datagouv-skill) et le [serveur MCP](https://github.com/datagouv/datagouv-mcp) répondent à deux besoins différents.
+[Le skill](https://github.com/datagouv/datagouv-skill) est une **documentation** : du texte et une structure (fichiers, règles) que le LLM lit pour savoir **comment** appeler les APIs data.gouv.fr (endpoints, paramètres, bonnes pratiques). Le modèle reste responsable de formuler les requêtes HTTP lui-même (ou via le code qu’il produit).
 
-Le [serveur MCP de data.gouv.fr](le-serveur-mcp-de-data.gouv.fr.md) fournit une interface standardisée pour connecter un client compatible à la plateforme.
+Le [serveur MCP de data.gouv.fr](le-serveur-mcp-de-data.gouv.fr.md) expose des **outils** au client : le LLM ne « devine » pas l’API sous forme de texte libre, il est **guidé** par des appels d’outils nommés et typés que le serveur MCP exécute. C’est le MCP qui relie l’assistant aux capacités concrètes de la plateforme.
 
-[Le skill](https://github.com/datagouv/datagouv-skill), lui, apporte un **contexte structuré** pour aider le modèle à comprendre comment utiliser data.gouv.fr.
+En résumé :
 
-En pratique :
+* [**Skill**](https://github.com/datagouv/datagouv-skill) : documenter l’usage des APIs pour le modèle ;
+* **MCP** : orchestrer l’usage via des outils intégrés au flux de l’assistant.
 
-* le **MCP** sert à connecter un assistant à des capacités ;
-* le [**skill**](https://github.com/datagouv/datagouv-skill) sert à mieux orienter le modèle dans l’usage de ces capacités.
+Les deux ne s’excluent pas : vous pouvez activer le [serveur MCP](https://github.com/datagouv/datagouv-mcp) et le [skill](https://github.com/datagouv/datagouv-skill) en parallèle.
+
+Les deux relèvent d’**expérimentations** : l’**efficacité comparative** du skill et du MCP n’a pas encore été **évaluée** par les équipes data.gouv.fr, mais ce travail est **en cours**.
 
 ### Mise en place
 
