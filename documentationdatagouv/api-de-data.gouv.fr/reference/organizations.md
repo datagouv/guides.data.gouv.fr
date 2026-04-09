@@ -4,9 +4,11 @@ description: Organization related operations
 
 # organizations
 
-{% openapi src="https://www.data.gouv.fr/api/1/swagger.json" path="/organizations/" method="get" %}
-[https://www.data.gouv.fr/api/1/swagger.json](https://www.data.gouv.fr/api/1/swagger.json)
-{% endopenapi %}
+
+
+{% openapi-operation spec="datagouv-api" path="/organizations/" method="get" %}
+[OpenAPI datagouv-api](https://www.data.gouv.fr/api/1/swagger.json)
+{% endopenapi-operation %}
 
 {% openapi src="https://www.data.gouv.fr/api/1/swagger.json" path="/organizations/" method="post" %}
 [https://www.data.gouv.fr/api/1/swagger.json](https://www.data.gouv.fr/api/1/swagger.json)
@@ -72,29 +74,29 @@ description: Organization related operations
 [https://www.data.gouv.fr/api/1/swagger.json](https://www.data.gouv.fr/api/1/swagger.json)
 {% endopenapi %}
 
-{% openapi src="https://www.data.gouv.fr/api/1/swagger.json" path="/organizations/{org}/logo" method="post" %}
-[https://www.data.gouv.fr/api/1/swagger.json](https://www.data.gouv.fr/api/1/swagger.json)
-{% endopenapi %}
-
-{% openapi src="https://www.data.gouv.fr/api/1/swagger.json" path="/organizations/{org}/logo" method="put" %}
-[https://www.data.gouv.fr/api/1/swagger.json](https://www.data.gouv.fr/api/1/swagger.json)
-{% endopenapi %}
-
-{% openapi src="https://www.data.gouv.fr/api/1/swagger.json" path="/organizations/{org}/member/{user}" method="post" %}
-[https://www.data.gouv.fr/api/1/swagger.json](https://www.data.gouv.fr/api/1/swagger.json)
-{% endopenapi %}
-
-{% openapi src="https://www.data.gouv.fr/api/1/swagger.json" path="/organizations/{org}/member/{user}" method="put" %}
-[https://www.data.gouv.fr/api/1/swagger.json](https://www.data.gouv.fr/api/1/swagger.json)
-{% endopenapi %}
-
-{% openapi src="https://www.data.gouv.fr/api/1/swagger.json" path="/organizations/{org}/member/{user}" method="delete" %}
-[https://www.data.gouv.fr/api/1/swagger.json](https://www.data.gouv.fr/api/1/swagger.json)
-{% endopenapi %}
-
 {% openapi src="https://www.data.gouv.fr/api/1/swagger.json" path="/organizations/{org}/membership/" method="get" %}
 [https://www.data.gouv.fr/api/1/swagger.json](https://www.data.gouv.fr/api/1/swagger.json)
 {% endopenapi %}
+
+{% openapi-operation spec="datagouv-api" path="/organizations/{org}/assignments/" method="get" %}
+[OpenAPI datagouv-api](https://www.data.gouv.fr/api/1/swagger.json)
+{% endopenapi-operation %}
+
+{% openapi-operation spec="datagouv-api" path="/organizations/{org}/member/{user}/" method="delete" %}
+[OpenAPI datagouv-api](https://www.data.gouv.fr/api/1/swagger.json)
+{% endopenapi-operation %}
+
+{% openapi-operation spec="datagouv-api" path="/organizations/{org}/member/{user}/assignments/" method="put" %}
+[OpenAPI datagouv-api](https://www.data.gouv.fr/api/1/swagger.json)
+{% endopenapi-operation %}
+
+{% openapi-operation spec="datagouv-api" path="/organizations/{org}/member/{user}/" method="put" %}
+[OpenAPI datagouv-api](https://www.data.gouv.fr/api/1/swagger.json)
+{% endopenapi-operation %}
+
+{% openapi-operation spec="datagouv-api" path="/organizations/{org}/member/" method="post" %}
+[OpenAPI datagouv-api](https://www.data.gouv.fr/api/1/swagger.json)
+{% endopenapi-operation %}
 
 {% openapi src="https://www.data.gouv.fr/api/1/swagger.json" path="/organizations/{org}/membership/" method="post" %}
 [https://www.data.gouv.fr/api/1/swagger.json](https://www.data.gouv.fr/api/1/swagger.json)
