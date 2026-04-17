@@ -56,6 +56,7 @@
   * [notifications](api-de-data.gouv.fr/reference/notifications.md)
   * [avatars](api-de-data.gouv.fr/reference/avatars.md)
   * [harvest](api-de-data.gouv.fr/reference/harvest.md)
+  * [dataservices](api-de-data.gouv.fr/reference/dataservices.md)
 * [Télécharger le catalogue de données de data.gouv.fr](api-de-data.gouv.fr/telecharger-le-catalogue-de-donnees-de-data.gouv.fr.md)
 * [Accéder au catalogue via SPARQL](api-de-data.gouv.fr/acceder-au-catalogue-via-sparql.md)
 
