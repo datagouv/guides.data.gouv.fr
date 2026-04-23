@@ -4,58 +4,46 @@ description: Harvest related operations
 
 # harvest
 
-{% openapi src="https://www.data.gouv.fr/api/1/swagger.json" path="/harvest/backends" method="get" %}
-[https://www.data.gouv.fr/api/1/swagger.json](https://www.data.gouv.fr/api/1/swagger.json)
-{% endopenapi %}
+{% openapi-operation spec="datagouv-api" path="/harvest/backends/" method="get" %}
+[OpenAPI datagouv-api](https://www.data.gouv.fr/api/1/swagger.json)
+{% endopenapi-operation %}
 
-{% openapi src="https://www.data.gouv.fr/api/1/swagger.json" path="/harvest/job/{ident}/" method="get" %}
-[https://www.data.gouv.fr/api/1/swagger.json](https://www.data.gouv.fr/api/1/swagger.json)
-{% endopenapi %}
+{% openapi-operation spec="datagouv-api" path="/harvest/sources/" method="get" %}
+[OpenAPI datagouv-api](https://www.data.gouv.fr/api/1/swagger.json)
+{% endopenapi-operation %}
 
-{% openapi src="https://www.data.gouv.fr/api/1/swagger.json" path="/harvest/job_status" method="get" %}
-[https://www.data.gouv.fr/api/1/swagger.json](https://www.data.gouv.fr/api/1/swagger.json)
-{% endopenapi %}
+{% openapi-operation spec="datagouv-api" path="/harvest/source/{source}/" method="put" %}
+[OpenAPI datagouv-api](https://www.data.gouv.fr/api/1/swagger.json)
+{% endopenapi-operation %}
 
-{% openapi src="https://www.data.gouv.fr/api/1/swagger.json" path="/harvest/source/preview" method="post" %}
-[https://www.data.gouv.fr/api/1/swagger.json](https://www.data.gouv.fr/api/1/swagger.json)
-{% endopenapi %}
+{% openapi-operation spec="datagouv-api" path="/harvest/job/{ident}/" method="get" %}
+[OpenAPI datagouv-api](https://www.data.gouv.fr/api/1/swagger.json)
+{% endopenapi-operation %}
 
-{% openapi src="https://www.data.gouv.fr/api/1/swagger.json" path="/harvest/source/{ident}" method="get" %}
-[https://www.data.gouv.fr/api/1/swagger.json](https://www.data.gouv.fr/api/1/swagger.json)
-{% endopenapi %}
+{% openapi-operation spec="datagouv-api" path="/harvest/source/{source}/" method="get" %}
+[OpenAPI datagouv-api](https://www.data.gouv.fr/api/1/swagger.json)
+{% endopenapi-operation %}
 
-{% openapi src="https://www.data.gouv.fr/api/1/swagger.json" path="/harvest/source/{ident}" method="put" %}
-[https://www.data.gouv.fr/api/1/swagger.json](https://www.data.gouv.fr/api/1/swagger.json)
-{% endopenapi %}
+{% openapi-operation spec="datagouv-api" path="/harvest/source/{source}/run/" method="post" %}
+[OpenAPI datagouv-api](https://www.data.gouv.fr/api/1/swagger.json)
+{% endopenapi-operation %}
 
-{% openapi src="https://www.data.gouv.fr/api/1/swagger.json" path="/harvest/source/{ident}" method="delete" %}
-[https://www.data.gouv.fr/api/1/swagger.json](https://www.data.gouv.fr/api/1/swagger.json)
-{% endopenapi %}
+{% openapi-operation spec="datagouv-api" path="/harvest/sources/" method="post" %}
+[OpenAPI datagouv-api](https://www.data.gouv.fr/api/1/swagger.json)
+{% endopenapi-operation %}
 
-{% openapi src="https://www.data.gouv.fr/api/1/swagger.json" path="/harvest/source/{ident}/jobs/" method="get" %}
-[https://www.data.gouv.fr/api/1/swagger.json](https://www.data.gouv.fr/api/1/swagger.json)
-{% endopenapi %}
+{% openapi-operation spec="datagouv-api" path="/harvest/source/{source}/jobs/" method="get" %}
+[OpenAPI datagouv-api](https://www.data.gouv.fr/api/1/swagger.json)
+{% endopenapi-operation %}
 
-{% openapi src="https://www.data.gouv.fr/api/1/swagger.json" path="/harvest/source/{ident}/preview" method="get" %}
-[https://www.data.gouv.fr/api/1/swagger.json](https://www.data.gouv.fr/api/1/swagger.json)
-{% endopenapi %}
+{% openapi-operation spec="datagouv-api" path="/harvest/source/preview/" method="post" %}
+[OpenAPI datagouv-api](https://www.data.gouv.fr/api/1/swagger.json)
+{% endopenapi-operation %}
 
-{% openapi src="https://www.data.gouv.fr/api/1/swagger.json" path="/harvest/source/{ident}/schedule" method="post" %}
-[https://www.data.gouv.fr/api/1/swagger.json](https://www.data.gouv.fr/api/1/swagger.json)
-{% endopenapi %}
+{% openapi-operation spec="datagouv-api" path="/harvest/source/{source}/preview/" method="get" %}
+[OpenAPI datagouv-api](https://www.data.gouv.fr/api/1/swagger.json)
+{% endopenapi-operation %}
 
-{% openapi src="https://www.data.gouv.fr/api/1/swagger.json" path="/harvest/source/{ident}/schedule" method="delete" %}
-[https://www.data.gouv.fr/api/1/swagger.json](https://www.data.gouv.fr/api/1/swagger.json)
-{% endopenapi %}
-
-{% openapi src="https://www.data.gouv.fr/api/1/swagger.json" path="/harvest/source/{ident}/validate" method="post" %}
-[https://www.data.gouv.fr/api/1/swagger.json](https://www.data.gouv.fr/api/1/swagger.json)
-{% endopenapi %}
-
-{% openapi src="https://www.data.gouv.fr/api/1/swagger.json" path="/harvest/sources/" method="get" %}
-[https://www.data.gouv.fr/api/1/swagger.json](https://www.data.gouv.fr/api/1/swagger.json)
-{% endopenapi %}
-
-{% openapi src="https://www.data.gouv.fr/api/1/swagger.json" path="/harvest/sources/" method="post" %}
-[https://www.data.gouv.fr/api/1/swagger.json](https://www.data.gouv.fr/api/1/swagger.json)
-{% endopenapi %}
+{% openapi-operation spec="datagouv-api" path="/harvest/source/{source}/" method="delete" %}
+[OpenAPI datagouv-api](https://www.data.gouv.fr/api/1/swagger.json)
+{% endopenapi-operation %}
