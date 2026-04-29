@@ -9,6 +9,7 @@
   * [6. Consulter une candidature déposée](parcours-acheteur/6.-consulter-une-candidature-deposee.md)
   * [7. Télécharger et analyser le dossier de candidature ZIP](parcours-acheteur/7.-telecharger-et-analyser-le-dossier-de-candidature-zip.md)
   * [8. Comprendre l'attestation acheteur PDF](parcours-acheteur/8.-comprendre-lattestation-acheteur-pdf.md)
+  * [9. Gestion des lots](parcours-acheteur/9.-gestion-des-lots.md)
 * [PARCOURS CANDIDAT](parcours-candidat/README.md)
   * [1. Présentation générale du parcours candidat](parcours-candidat/1.-presentation-generale-du-parcours-candidat.md)
   * [2. Comprendre la structure du formulaire et progresser étape par étape](parcours-candidat/2.-comprendre-la-structure-du-formulaire-et-progresser-etape-par-etape.md)
