@@ -13,6 +13,12 @@ coverY: 0
 
 {% stepper %}
 {% step %}
+#### <mark style="color:purple;">VALIDATION TECHNIQUE</mark>
+
+Que le standard contienne un schéma de données ou non, il doit respecter certaines contraintes techniques pour être publié sur schema.data.gouv.fr. Ces critères, ainsi que des recommandations sur le schéma éventuel, sont décrit dans [la documentation de schema.data.gouv.fr](https://guides.data.gouv.fr/guides/guide-qualite/maitriser-les-schemas-de-donnees/integrer-un-schema-de-donnees-a-schema.data.gouv.fr). [Le modèle de dépôt Github](../realisation-du-standard/utiliser-le-modele-de-depot-github.md) est également un outil utile dans cette démarche.&#x20;
+{% endstep %}
+
+{% step %}
 #### <mark style="color:purple;">TEST DU STANDARD (facultatif)</mark>
 
 Identifier un acteur volontaire pour tester concrètement le standard. Il est conseillé de vérifier que le test permet de vérifier de bout en bout l’efficacité et la clarté du standard (sa compréhension par les équipes métier, son implémentation par les équipes numérique, son intégration dans les outils, etc.). Ces tests doivent permettre de vérifier que le stade de “produit minimum viable” a été atteint, mais ne permettront pas de vérifier des objectifs plus poussés (comme des améliorations dans la découvrabilité des données, la réplicabilité des solutions, etc.). Les résultats de ces tests doivent être documentés.
