@@ -24,6 +24,7 @@
   * [11. Télécharger l'attestation de candidature PDF](parcours-candidat/11.-telecharger-lattestation-de-candidature-pdf.md)
   * [12. Authentification candidat](parcours-candidat/12.-authentification-candidat.md)
   * [13. Gestion des lots](parcours-candidat/13.-gestion-des-lots.md)
+  * [14. Gérer mes candidatures depuis le tableau de bord](parcours-candidat/14.-gerer-mes-candidatures-depuis-le-tableau-de-bord.md)
 * [APIs Disponibles](apis-disponibles/README.md)
   * [Fonctionnement des APIs intégrées](apis-disponibles/1.-fonctionnement-des-apis-integrees.md)
   * [APIs intégrées](apis-disponibles/2.-apis-integrees.md)
