@@ -16,7 +16,7 @@ Un indicateur sur les **"**[**émissions annuelles de polluants**](https://ecolo
 
 
 
-#### \[7 avril 2027] - **Modification de l'indicateur sur les prélèvements d'eau par usage**
+#### \[7 avril 2026] - **Modification de l'indicateur sur les prélèvements d'eau par usage**
 
 Modification de la méthode de calcul pour l’indicateur [**prélèvements d’eau par usage**](https://ecologie.data.gouv.fr/indicators/67cad6eb1b824c076b3a4b79) qui **ne prend plus en compte les volumes pour l’hydroélectricité**. Le SDES a fait le choix de le retirer du calcul de l’indicateur qu’ils partagent dans les Indicateurs territoriaux de développement durable (ITDDs) pour la raison suivante : "Les volumes d’eau interceptés par les barrages hydro-électriques sont de loin les plus importants, ils représentent des centaines de milliards de mètres cubes, toutefois les barrages n’entraînent pas de prélèvements directs dans les ressources en eau. Ils ne sont pas retenus du fait qu’ils ne constituent pas un réel prélèvement." L’indicateur du hub a été mis à jour avec cette nouvelle définition.
 
