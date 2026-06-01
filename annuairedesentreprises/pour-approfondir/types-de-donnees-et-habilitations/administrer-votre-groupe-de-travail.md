@@ -24,5 +24,6 @@ L’administrateur est **légalement responsable** de donner ces droits uniqueme
 
 ### Tutoriel vidéo sur la gestion des groupes :
 
-{% embed url="https://screen.studio/share/5OHbiex4" %}
-
+{% embed url="https://screen.studio/share/PsvBs4ao" %}
+Tutoriel vidéo de gestion des groupes
+{% endembed %}
