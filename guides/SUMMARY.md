@@ -16,6 +16,7 @@
     * [Structurer un jeu de données](guide-qualite/preparer-un-jeu-de-donnees-de-qualite/structurer-un-jeu-de-donnees/README.md)
       * [Structurer une Base Adresse Locale](guide-qualite/preparer-un-jeu-de-donnees-de-qualite/structurer-un-jeu-de-donnees/structurer-une-base-adresse-locale.md)
     * [Lier des données à un référentiel](guide-qualite/preparer-un-jeu-de-donnees-de-qualite/lier-des-donnees-a-un-referentiel.md)
+    * [Bénéficier des conversions automatiques](guide-qualite/preparer-un-jeu-de-donnees-de-qualite/beneficier-des-conversions-automatiques.md)
   * [Documenter des données](guide-qualite/documenter-des-donnees/README.md)
     * [Bien documenter un jeu de données](guide-qualite/documenter-des-donnees/bien-documenter-un-jeu-de-donnees.md)
     * [Diffuser la documentation d'un jeu de données](guide-qualite/documenter-des-donnees/diffuser-la-documentation-dun-jeu-de-donnees.md)
