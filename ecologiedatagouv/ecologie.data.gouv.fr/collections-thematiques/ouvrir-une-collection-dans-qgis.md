@@ -24,3 +24,9 @@ Les données / couches sont organisées de manière arborescente pour refléter 
 
 Les mêmes règles que pour un jeu de données unitaire sont appliquées à la liste des jeux de données d'une collection (voir [Ouvrir un jeu de données dans QGIS](https://guides.data.gouv.fr/ecologie.data.gouv.fr/ecologie.data.gouv.fr/toutes-les-donnees/ouvrir-un-jeu-de-donnees-dans-qgis)).
 {% endhint %}
+
+#### Démonstration
+
+Pour cet exemple, nous utilisons la collection thématique sur l'[identification des potentiels fonciers adaptés aux projets par filières photovoltaïques dans les Bouches-du-Rhône](https://ecologie.data.gouv.fr/bouquets/identification-des-potentiels-fonciers-adaptes-aux-projets-par-filieres-photovoltaiques-bouches-du-rhone-1), ouverte directement dans QGIS.
+
+<figure><img src="../../.gitbook/assets/exportQGIS.gif" alt=""><figcaption></figcaption></figure>
