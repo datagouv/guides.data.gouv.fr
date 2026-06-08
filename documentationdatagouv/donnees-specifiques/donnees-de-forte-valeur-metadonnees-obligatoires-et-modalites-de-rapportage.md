@@ -34,13 +34,13 @@ Pour les producteurs concernés (cf. [ouverture.data.gouv.fr](https://ouverture.
 
 {% stepper %}
 {% step %}
-### Identification et classification
+#### Identification et classification
 
 Les données sont identifiées comme étant de forte valeur et sont classées dans l’une des 6 grandes catégories précisées dans les 6 annexes du règlement d'exécution (géospatiales, météorologiques, etc.). Selon la catégorie associée, les conditions de mise à disposition et les métadonnées obligatoires diffèrent.
 {% endstep %}
 
 {% step %}
-### Remontée au niveau national
+#### Remontée au niveau national
 
 Les données ainsi identifiées remontent au niveau national en étant :
 
@@ -49,7 +49,7 @@ Les données ainsi identifiées remontent au niveau national en étant :
 {% endstep %}
 
 {% step %}
-### Remontée au niveau européen
+#### Remontée au niveau européen
 
 Les données sont moissonnées par [data.europa.eu](https://data.europa.eu/en) pour proposer un catalogue européen des données de forte valeur.
 {% endstep %}

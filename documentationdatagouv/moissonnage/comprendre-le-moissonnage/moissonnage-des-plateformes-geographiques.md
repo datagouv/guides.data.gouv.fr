@@ -18,6 +18,10 @@ Historiquement, le moissonnage des métadonnées géographiques se faisait via [
 5. Un double moissonnage est possible pour que les données INSPIRE soient référencées à la fois sur le Geocatalogue et data.gouv.fr. Cela nécessite néanmoins de créer deux points de moissonnage distincts à date.
 6. Des moyens sont mis en œuvre de manière continue par les équipe de [data.gouv.fr](https://www.data.gouv.fr/fr/posts/extinction-de-geo-data-gouv-fr/www.data.gouv.fr) et l'équipe Écosphères du MTECT (Ministère de la Transistion Ecologique et de la Cohésion des Territoires) pour tendre vers la complétude du moissonnage des métadonnées des catalogues des plateformes géographiques.
 
+{% hint style="info" %}
+Toutes les métadonnées ne sont pas encore correctement transformés par ce convertisseur ISO-19139 vers DCAT. En lien avec les équipes du projet Ecosphères, nous travaillons à augmenter régulièrement le périmètre des métadonnées moissonnées.
+{% endhint %}
+
 ### Mettre en place un moissonneur géographique
 
 Le moissonnage des plateformes géographiques se fait avec transformation des fiches ISO-19139 en [DCAT](/broken/pages/ihb4mJiMK1gaQDBc8gXl#dcat), l'un des vocabulaires de moissonnage supportés par data.gouv.fr.
@@ -30,8 +34,16 @@ Dans le cas d'une plateforme référençant des données de différentes organis
 
 Une documentation est disponible sur les étapes générales de configuration d'un point de moissonnage dans [cette page dédiée](/broken/pages/st3cZ2tA76CEHg9fxBs6). Il faut choisir le moissonneur `csw-iso-19139` au niveau de l'implémentation.
 
+#### **Configuration**
+
+Lors de la configuration d'un moissonneur `csw-dcat` ou `csw-iso-19139`, il est possible de renseigner un préfixe d'URL distante.
+
+Le champ **préfixe d'URL distante** permet de spécifier un préfixe d'URL à utiliser comme base pour créer l'URL vers **la source originale**. La source originale est affichée à droite sur une page de jeu de données moissonné.
+
+<figure><img src="../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+
 {% hint style="info" %}
-Toutes les métadonnées ne sont pas encore correctement transformés par ce convertisseur ISO-19139 vers DCAT. En lien avec les équipes du projet Ecosphères, nous travaillons à augmenter régulièrement le périmètre des métadonnées moissonnées.
+Par exemple, pour une plateforme geonetwork, il est possible de mettre [https://geo.compiegnois.fr/geonetwork/srv/fre/catalog.search#/metadata/](https://geo.compiegnois.fr/geonetwork/srv/fre/catalog.search#/metadata/) comme préfixe d'URL distante. Ainsi, pour une fiche moissonnée avec comme identifiant UUID 06c9f6de-4b17-4340-8a6b-86d47877840f, on obtient le lien vers la source originale en concaténant les informations : [https://geo.compiegnois.fr/geonetwork/srv/fre/catalog.search#/metadata/06c9f6de-4b17-4340-8a6b-86d47877840f](https://geo.compiegnois.fr/geonetwork/srv/fre/catalog.search#/metadata/06c9f6de-4b17-4340-8a6b-86d47877840f).
 {% endhint %}
 
 ### Configurer un portail GeoNetwork

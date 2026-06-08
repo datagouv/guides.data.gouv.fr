@@ -41,19 +41,19 @@ Ajoutez le tag `decp` au jeu de données. Il permet de centraliser les déclarat
 
 {% stepper %}
 {% step %}
-### Créer un compte individuel
+#### Créer un compte individuel
 
 Créez un compte sur [data.gouv.fr](https://www.data.gouv.fr/fr/register).
 {% endstep %}
 
 {% step %}
-### Valider le compte et créer une organisation
+#### Valider le compte et créer une organisation
 
 Après validation du compte par e-mail, créez une organisation correspondant à votre profil d’acheteur depuis [l’espace d’administration](https://www.data.gouv.fr/fr/admin/organization/new/).
 {% endstep %}
 
 {% step %}
-### Créer un jeu de données
+#### Créer un jeu de données
 
 Créez un jeu de données depuis [l’espace de publication](https://www.data.gouv.fr/fr/admin/dataset/new/).
 
@@ -61,7 +61,7 @@ Créez un jeu de données depuis [l’espace de publication](https://www.data.go
 {% endstep %}
 
 {% step %}
-### Décrire le jeu de données
+#### Décrire le jeu de données
 
 Renseignez un titre.
 
@@ -71,7 +71,7 @@ Ajoutez le tag `decp`.
 {% endstep %}
 
 {% step %}
-### Ajouter la ressource CSV
+#### Ajouter la ressource CSV
 
 À l’étape **Ajouter vos premières ressources**, téléversez le fichier CSV.
 {% endstep %}

@@ -75,7 +75,7 @@ L’URL est obligatoire.
 
 Choisissez ici le format des métadonnées associées aux jeux de données publiés sur votre plateforme. Ce format permet au moissonneur de savoir comment lire et interpréter vos métadonnées, pour bien les retranscrire sur data.gouv.fr.
 
-Certaines implémentations permettent d’ajouter des filtres, dans le but d’inclure ou d’exclure certains jeux de données du moissonnage. Consultez [la section dédiée à votre implémentation dans la documentation de moissonnage](/broken/pages/ihb4mJiMK1gaQDBc8gXl).
+Certaines implémentations permettent d’ajouter des filtres, dans le but d’inclure ou d’exclure certains jeux de données du moissonnage. Consultez [la section dédiée à votre implémentation dans la documentation de moissonnage](comprendre-le-moissonnage/les-differents-type-de-moissonneurs.md#les-differents-moissonneurs).
 
 Le type d’implémentation est obligatoire.
 

@@ -103,31 +103,31 @@ Grist permet de gérer les droits d'accès des membres de l'organisation. Trois 
 
 {% stepper %}
 {% step %}
-### Renseigner les tables de référence
+#### Renseigner les tables de référence
 
 Nom de l'organisation, SIRET, services, contacts, systèmes d'information (SI) et thématiques.
 {% endstep %}
 
 {% step %}
-### Ajouter les jeux de données
+#### Ajouter les jeux de données
 
 Ajouter les jeux de données au catalogue.
 {% endstep %}
 
 {% step %}
-### Qualifier les jeux de données
+#### Qualifier les jeux de données
 
 Marquer comme "publics" ou "non publics".
 {% endstep %}
 
 {% step %}
-### Gérer les droits des membres
+#### Gérer les droits des membres
 
 Attribuer les rôles de lecteur, éditeur ou administrateur.
 {% endstep %}
 
 {% step %}
-### Créer vos outils de suivi
+#### Créer vos outils de suivi
 
 Tableaux de bord personnalisés pour la gestion des données.
 {% endstep %}

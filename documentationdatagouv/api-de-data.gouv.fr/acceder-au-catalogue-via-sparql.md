@@ -5,7 +5,7 @@ icon: magnifying-glass
 # Accéder au catalogue via SPARQL
 
 {% hint style="info" %}
-## Qu'est-ce qu'une recherche SPARQL ?
+### Qu'est-ce qu'une recherche SPARQL ?
 
 SPARQL (SPARQL Protocol and RDF Query Language) est un langage de requête utilisé pour interroger des bases de données RDF (Resource Description Framework). RDF est un modèle standardisé pour représenter les informations sur le web. SPARQL permet d'extraire et de manipuler les données stockées sous ce format, permettant de naviguer efficacement dans les informations interconnectées du web sémantique.
 {% endhint %}

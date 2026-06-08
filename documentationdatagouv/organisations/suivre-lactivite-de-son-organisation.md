@@ -4,7 +4,7 @@ icon: house-signal
 
 # Suivre l'activité de son organisation
 
-## Consulter les publications de son organisation&#x20;
+## Consulter les publications de son organisation
 
 {% embed url="https://youtu.be/00uKOhX42y0?si=vxVVG2qCQ9ukPf4r" %}
 
@@ -16,7 +16,7 @@ Dans le menu latéral de votre tableau de bord d’administration, vous avez acc
 
 {% tabs %}
 {% tab title="Jeux de données" %}
-## Jeux de données
+### Jeux de données
 
 Vous y retrouvez l’ensemble des **jeux de données** publiés par votre organisation.
 
@@ -27,7 +27,7 @@ Dans la colonne **"Actions"** du tableau :
 {% endtab %}
 
 {% tab title="API" %}
-## API
+### API
 
 Cette section présente toutes les **API** publiées par votre organisation
 
@@ -38,7 +38,7 @@ Dans la colonne **"Actions"** du tableau :
 {% endtab %}
 
 {% tab title="Réutilisations" %}
-## Réutilisations
+### Réutilisations
 
 Vous pouvez consulter ici toutes les **réutilisations publiées par votre organisation.**
 
@@ -49,7 +49,7 @@ Dans la colonne **"Actions"** du tableau :
 {% endtab %}
 
 {% tab title="Ressource communautaires" %}
-## Ressources communautaire
+### Ressources communautaire
 
 Vous pouvez consulter ici toutes les **ressources communautaires** publiées par votre organisation.
 
@@ -76,7 +76,7 @@ Cette section vous permet de suivre l’activité de vos **moissonneurs** (méca
 
 ***
 
-## Consulter les statistiques de son organisation&#x20;
+## Consulter les statistiques de son organisation
 
 {% embed url="https://youtu.be/Y7b66_A1U8Q?si=0ow3mbwFFiN_rMgJ" %}
 
@@ -90,7 +90,7 @@ Le tableau de bord statistique d’une organisation se compose de plusieurs ongl
 
 {% tabs %}
 {% tab title="Organisation" %}
-### Onglet _Organisation_
+#### Onglet _Organisation_
 
 Cet onglet présente les **statistiques globales** de votre organisation, calculées à partir de juin 2024.\
 Vous y trouverez :
@@ -102,7 +102,7 @@ Vous y trouverez :
 {% endtab %}
 
 {% tab title="Jeux de données" %}
-### Onglet _Jeux de données_
+#### Onglet _Jeux de données_
 
 Cet onglet présente les métriques associées à **chaque jeu de données** publié par votre organisation :
 
@@ -120,7 +120,7 @@ Fonctionnalités disponibles :
 {% endtab %}
 
 {% tab title="API" %}
-### Onglet _API_
+#### Onglet _API_
 
 Cet onglet regroupe les statistiques de vos **API** publiées :
 
@@ -128,14 +128,14 @@ Cet onglet regroupe les statistiques de vos **API** publiées :
 * 👁️ Vues ;
 * 👤 Abonnés.
 
-Fonctionnalités disponibles :&#x20;
+Fonctionnalités disponibles :
 
 * **Télécharger le catalogue** : vue instantanée des API et de leurs métadonnées ;
 * **Téléchargement détaillé** : bouton situé à droite du tableau pour suivre l’évolution mensuelle de chaque API.
 {% endtab %}
 
 {% tab title="Réutilisations" %}
-### Onglet _Réutilisations_
+#### Onglet _Réutilisations_
 
 Cet onglet présente les statistiques liées aux **réutilisations publiées par votre organisation** (et non celles référencées par d'autres utilisateurs sur vos données) :
 

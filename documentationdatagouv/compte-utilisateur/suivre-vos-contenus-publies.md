@@ -9,7 +9,7 @@ Sur data.gouv.fr, vous pouvez publier différents types de contenus ouverts à t
 * **Jeux de données**
 * **API**
 * **Réutilisations**
-* **Ressources communautaires**&#x20;
+* **Ressources communautaires**
 
 Vous pouvez publier ces contenus :
 
@@ -17,7 +17,7 @@ Vous pouvez publier ces contenus :
 * **Au nom d’une organisation** (si vous en êtes membre).
 
 {% hint style="success" %}
-&#x20;Rejoindre ou créer une organisation vous permet de centraliser les publications, de collaborer avec d’autres membres et de valoriser votre structure.
+Rejoindre ou créer une organisation vous permet de centraliser les publications, de collaborer avec d’autres membres et de valoriser votre structure.
 {% endhint %}
 
 ## Consulter les publications en votre nom
@@ -30,7 +30,7 @@ Dans le menu latéral de votre tableau de bord d’administration, vous avez acc
 
 {% tabs %}
 {% tab title="Jeux de données" %}
-## Jeux de données
+### Jeux de données
 
 Vous y retrouvez l’ensemble de vos **jeux de données.**
 
@@ -41,7 +41,7 @@ Dans la colonne **"Actions"** du tableau :
 {% endtab %}
 
 {% tab title="API" %}
-## API
+### API
 
 Vous y retrouvez l’ensemble de vos **API.**
 
@@ -52,7 +52,7 @@ Dans la colonne **"Actions"** du tableau :
 {% endtab %}
 
 {% tab title="Réutilisations" %}
-## Réutilisations
+### Réutilisations
 
 Vous y retrouvez l’ensemble de vos **réutilisations.**
 
@@ -63,7 +63,7 @@ Dans la colonne **"Actions"** du tableau :
 {% endtab %}
 
 {% tab title="Ressource communautaires" %}
-## Ressources communautaire
+### Ressources communautaire
 
 Vous y retrouvez l’ensemble de vos **ressources communautaires.**
 

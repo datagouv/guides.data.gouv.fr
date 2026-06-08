@@ -18,19 +18,19 @@ Depuis cette page vous disposez de **trois onglets.**
 
 {% tabs %}
 {% tab title="Profil" %}
-### Onglet _Profil_ 
+#### Onglet _Profil_ 
 
 Cet onglet vous permet de modifier les informations relatives à votre organisation.
 {% endtab %}
 
 {% tab title="Points de contact" %}
-### Onglet _Point de contact_
+#### Onglet _Point de contact_
 
-&#x20;Cet onglet vous permet de voir et modifier les **points de contact** rattachés à vos jeux de données ou vos API.
+Cet onglet vous permet de voir et modifier les **points de contact** rattachés à vos jeux de données ou vos API.
 {% endtab %}
 
 {% tab title="Activités" %}
-### Onglet _Activités_
+#### Onglet _Activités_
 
 Cet onglet vous donne accès à **l’historique des modifications réalisées** sur les informations de votre organisation.
 {% endtab %}
@@ -51,5 +51,4 @@ Cette action est réservée aux administrateurs.
 1. Connectez-vous à votre compte ;
 2. Cliquez sur <img src="../.gitbook/assets/image (1).png" alt="" data-size="line"> en haut à droite de votre écran ;
 3. Cliquez sur, <img src="../.gitbook/assets/image (43).png" alt="" data-size="line">dans le menu latéral de votre organisation ;
-4. Descendez en bas de page pour voir le bandeau dédié.&#x20;
-
+4. Descendez en bas de page pour voir le bandeau dédié.
