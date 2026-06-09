@@ -29,6 +29,8 @@
     * [Utiliser une collection](ecologie.data.gouv.fr/collections-thematiques/utiliser-une-collection.md)
     * [Gérer une collection via l’API data.gouv.fr](ecologie.data.gouv.fr/collections-thematiques/gerer-une-collection-via-lapi-data.gouv.fr.md)
     * [Ouvrir une collection dans QGIS](ecologie.data.gouv.fr/collections-thematiques/ouvrir-une-collection-dans-qgis.md)
+  * [Les tutoriels](ecologie.data.gouv.fr/les-tutoriels/README.md)
+    * [De la donnée ouverte à l'analyse parcellaire en quelques clics](ecologie.data.gouv.fr/les-tutoriels/de-la-donnee-ouverte-a-lanalyse-parcellaire-en-quelques-clics.md)
 * [Le projet](le-projet/README.md)
   * [Contexte](le-projet/contexte.md)
   * [Ecolab](le-projet/ecolab.md)
