@@ -53,24 +53,51 @@ data.gouv.fr peut moissonner un endpoint CSW avec sortie ISO-19139 en appliquant
 Une requête POST est effectuée par le moissonneur sur le endpoint CSW renseigné (ex [https://geosas.fr/geonetwork/srv/fre/csw](https://geosas.fr/geonetwork/srv/fre/csw)) avec le contenu suivant :
 
 ```
-<csw:GetRecords xmlns:csw="http://www.opengis.net/cat/csw/2.0.2"
-                xmlns:gmd="http://www.isotc211.org/2005/gmd"
-                service="CSW" version="2.0.2" resultType="results"
-                startPosition="1" maxPosition="10"
-                outputSchema="http://www.isotc211.org/2005/gmd">
-      <csw:Query typeNames="csw:Record">
-        <csw:ElementSetName>full</csw:ElementSetName>
-        <csw:Constraint version="1.1.0">
-            <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-                <ogc:PropertyIsEqualTo>
-                    <ogc:PropertyName>dc:type</ogc:PropertyName>
-                    <ogc:Literal>dataset</ogc:Literal>
-                </ogc:PropertyIsEqualTo>
-            </ogc:Filter>
-        </csw:Constraint>
-    </csw:Query>
+<csw:GetRecords xmlns:apiso="http://www.opengis.net/cat/csw/apiso/1.0"
+                xmlns:csw="http://www.opengis.net/cat/csw/2.0.2"
+                xmlns:ogc="http://www.opengis.net/ogc"
+                service="CSW" version="2.0.2" outputFormat="application/xml"
+                resultType="results" startPosition="1" maxRecords="25"
+                outputSchema="{output_schema}">
+  <csw:Query typeNames="gmd:MD_Metadata">
+    <csw:ElementSetName>full</csw:ElementSetName>
+    <csw:Constraint version="1.1.0">
+      <ogc:Filter>
+        <ogc:Or>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>apiso:type</ogc:PropertyName>
+            <ogc:Literal>dataset</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>apiso:type</ogc:PropertyName>
+            <ogc:Literal>nonGeographicDataset</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>apiso:type</ogc:PropertyName>
+            <ogc:Literal>series</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+          <ogc:PropertyIsEqualTo>
+            <ogc:PropertyName>apiso:type</ogc:PropertyName>
+            <ogc:Literal>service</ogc:Literal>
+          </ogc:PropertyIsEqualTo>
+        </ogc:Or>
+      </ogc:Filter>
+    </csw:Constraint>
+    <ogc:SortBy>
+      <ogc:SortProperty>
+        <ogc:PropertyName>apiso:identifier</ogc:PropertyName>
+        <ogc:SortOrder>ASC</ogc:SortOrder>
+      </ogc:SortProperty>
+    </ogc:SortBy>
+  </csw:Query>
 </csw:GetRecords>
 ```
+
+`output_schema` peut prendre les valeurs suivantes :
+
+* &#x20;`http://www.w3.org/ns/dcat#` pour un moissonneur `csw-dcat`
+* &#x20;`http://data.europa.eu/903/` pour un moissonneur `csw-dcat` avec configuration `GeoDCAT-AP` activée
+* `http://www.isotc211.org/2005/gmd` pour un moissonneur `csw-iso-19139`
 
 #### Moissonnage historique
 
