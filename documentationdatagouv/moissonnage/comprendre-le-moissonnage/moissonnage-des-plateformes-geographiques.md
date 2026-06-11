@@ -48,7 +48,9 @@ Par exemple, pour une plateforme geonetwork, il est possible de mettre [https://
 
 ### Configurer un portail GeoNetwork
 
-data.gouv.fr peut moissonner un endpoint CSW avec sortie ISO-19139 en appliquant par la suite [une transformation en DCAT](https://github.com/SEMICeu/iso-19139-to-dcat-ap). Ce moissonnage est fonctionnel sur les différentes versions de GeoNetwork.
+data.gouv.fr peut moissonner un endpoint CSW avec une sortie ISO-19139 en appliquant par la suite [une transformation en DCAT](https://github.com/SEMICeu/iso-19139-to-dcat-ap). Ce moissonnage est fonctionnel sur les différentes versions de GeoNetwork.
+
+Il peut aussi moissonner directement un endpoint CSW avec une sortie DCAT ou GeoDCAT-AP pour les GeoNetwork qui le supportent (dépendant des versions). Dans ce cas là, la transformation est effectuée directement par GeoNetwork.
 
 Une requête POST est effectuée par le moissonneur sur le endpoint CSW renseigné (ex [https://geosas.fr/geonetwork/srv/fre/csw](https://geosas.fr/geonetwork/srv/fre/csw)) avec le contenu suivant :
 
@@ -109,4 +111,4 @@ En version 2 ou 3, il existait un endpoint DCAT alternatif au endpoint CSW habit
 
 Ainsi [https://geosas.fr/geonetwork/srv/fre/csw](https://geosas.fr/geonetwork/srv/fre/csw) devenait [https://geosas.fr/geonetwork/srv/fre/rdf.search](https://geosas.fr/geonetwork/srv/fre/rdf.search) par exemple. Le moissonneur utilisé était donc l'implémentation `dcat` simple.
 
-En version 4, il est possible de récupérer le contenu [CSW avec format DCAT en sortie](https://github.com/geonetwork/core-geonetwork/wiki/DCAT-enhancements). La conversion des fiches par GeoNetwork est cependant moins satisfaisante que par récupération du contenu en ISO-19139 et conversion à posteriori.
+En version 4, il est possible de récupérer le contenu [CSW avec format DCAT en sortie](https://github.com/geonetwork/core-geonetwork/wiki/DCAT-enhancements). Selon les versions, la conversion des fiches par GeoNetwork peut cependant être moins satisfaisante que par récupération du contenu en ISO-19139 et conversion à posteriori.
