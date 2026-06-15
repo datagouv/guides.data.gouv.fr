@@ -19,11 +19,11 @@ Les fichiers csv et xls(x) sont traités de la même façon par data.gouv.fr et,
 
 Les fichiers parquet sont uniquement convertis en une table en base de données pour exposition par l'API tabulaire.
 
+Cela permet aux producteurs de données de se focaliser sur la production d'un unique fichier de qualité, sans avoir à implémenter des conversions ou une API "maison".
+
 > NB : les intitulés des colonnes ne doivent pas dépasser 63 caractères du fait d'une limitation technique intrinsèque. Il est recommandé de nommer les colonnes de façon descriptive mais concise, en évitant les espaces et caractères spéciaux. Il peut également être opportun de pubier un dictionnaire des colonnes en parallèle des données, qui donne une description plus étayée et le format de chaque colonne, dans un fichier de documentation. Quelques exemples :
   - `Date de dernière mise à jour` => `date_derniere_maj`, format date `AAAA-MM-JJ`
   - `Nombre de personnes concernées par le décret` => `nb_personnes_concernees_par_le_decret`, format nombre entier
-
-Cela permet aux producteurs de données de se focaliser sur la production d'un unique fichier de qualité, sans avoir à implémenter des conversions ou une API "maison".
 
 ## Données géographiques
 
@@ -44,3 +44,5 @@ Ces conversions sont automatiques dans la limite d'une taille maximale du fichie
 > NB : si vous publiez une ressource qui dépasse la limite du format associé, vous pouvez nous faire une demande de passage en exception via [notre support](https://www.data.gouv.fr/support/help/api/apitabulaire/#support-tree) pour qu'elle bénéficie des conversions automatiques.
 
 Lorsqu'une ressource a été convertie, il est possible de télécharger les versions alternatives dans son onglet "Téléchargement".
+
+NB : ces conversions ne sont pas instantanées, elles peuvent prendre jusqu'à quelques heures pour être visibles, selon la bande passante du script qui les effectue.
