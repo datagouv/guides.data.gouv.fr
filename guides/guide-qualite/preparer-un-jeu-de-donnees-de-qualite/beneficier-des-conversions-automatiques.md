@@ -45,4 +45,4 @@ Ces conversions sont automatiques dans la limite d'une taille maximale du fichie
 
 Lorsqu'une ressource a été convertie, il est possible de télécharger les versions alternatives dans son onglet "Téléchargement".
 
-NB : ces conversions ne sont pas instantanées, elles peuvent prendre jusqu'à quelques heures pour être visibles, selon la bande passante du script qui les effectue.
+> NB : ces conversions ne sont pas instantanées, elles peuvent prendre jusqu'à quelques heures pour être visibles, selon la bande passante du script qui les effectue.
