@@ -1,5 +1,5 @@
 ---
-cover: ../.gitbook/assets/bandereau7b.png
+cover: ../../.gitbook/assets/bandereau7b.png
 coverY: 0
 ---
 
@@ -23,7 +23,7 @@ Le cadrage du groupe de travail comprend différentes phases :
 
 {% stepper %}
 {% step %}
-#### <mark style="color:purple;">RÉDACTION DU MANDAT</mark>
+<mark style="color:purple;">**RÉDACTION DU MANDAT**</mark>
 
 Le mandat du groupe de travail est un document précisant l’objectif des travaux et les besoins auxquels un nouveau standard cherche à répondre. Il cadre le groupe de travail en définissant un plan d’action et les modalités des travaux. Il n’a pas de valeur contraignante (notamment pour les participants qui y sont listés), et n’engage pas juridiquement au respect des échéances envisagées ou à la participation au GT. Il doit être rédigé selon [le modèle proposé](cadrage-du-groupe-de-travail.md#modele-de-mandat-specifique-au-groupe-de-travail). Il donne un certain nombre d'indications sur les travaux à venir (il peut ainsi être utile de s'approprier certaines notions avant la rédaction, comme celle de ["schéma de données"](https://schema.data.gouv.fr/apropos.html)), ou de [symbologie](realisation-du-standard/realiser-une-symbologie-ou-une-charte-graphique.md), pour lister ces livrables dans le mandat).
 
@@ -43,7 +43,7 @@ Le mandat est validé par la Commission des Standards au cours de la réunion ap
 {% endstep %}
 
 {% step %}
-#### <mark style="color:purple;">CONSTITUTION DU GROUPE DE TRAVAIL</mark>
+<mark style="color:purple;">**CONSTITUTION DU GROUPE DE TRAVAIL**</mark>
 
 Le groupe de travail doit être **représentatif** des acteurs concernés par le projet de standard. Le pilote a la responsabilité d’y veiller. Parmi les participants peuvent se trouver des producteurs ou utilisateurs de données, ou d’autres parties prenantes (fournisseurs de services intermédiaires, fournisseurs de logiciels traitant les données, métiers liés à la connaissance, à la régulation, aux politiques publiques, grands acteurs de l'information géographique et de la donnée, etc.). D’une manière générale, il est important de veiller à ce que les connaissances “métier” et “numérique / géomatique / informatique” se complètent au sein du groupe de travail.
 
@@ -62,7 +62,7 @@ Des outils de travail sont créés ainsi qu'une liste de diffusion (comme décri
 {% endstep %}
 
 {% step %}
-#### <mark style="color:purple;">ANNONCE EN LIGNE DE LA CRÉATION DU GT</mark>
+<mark style="color:purple;">**ANNONCE EN LIGNE DE LA CRÉATION DU GT**</mark>
 
 La création du GT est l’opportunité de communiquer et d’attirer de potentiels participants. L'annonce se fait via :
 
@@ -84,7 +84,7 @@ La participation à un GT du CNIG est **libre et ouverte**. Les demandes de part
 {% endstep %}
 
 {% step %}
-#### <mark style="color:purple;">RÉUNION DE LANCEMENT</mark>
+<mark style="color:purple;">**RÉUNION DE LANCEMENT**</mark>
 
 La première réunion du GT est l'occasion de faire connaissance et de cadrer les travaux. Pour vous lancer, voici un exemple d’ordre du jour à adapter :
 
@@ -150,7 +150,7 @@ Lors du cadrage du GT, le secrétariat général vous accompagne pour :
 
 ### Modèle de mandat spécifique au groupe de travail
 
-{% include "../.gitbook/includes/untitled.md" %}
+{% include "../.gitbook/includes/untitled (1).md" %}
 
 ### Le règlement intérieur du CNIG
 
@@ -230,7 +230,7 @@ Une liste de diffusion par mail permet de transmettre les invitations, ordres du
 
 Il existe (au moins) deux méthodes pour créer une liste de diffusion :
 
-#### **La méthode basique**
+**La méthode basique**
 
 Constituez votre liste de diffusion dans un simple fichier texte en séparant les adresses mails par une virgule, ou dans un tableur. Copiez simplement ce texte dans le champ adapté (“pour :”, “copie à :”, “copie cachée à :”).
 
@@ -242,7 +242,7 @@ Constituez votre liste de diffusion dans un simple fichier texte en séparant le
 
 Chaque destinataire peut résilier son abonnement en vous le demandant explicitement.
 
-#### La méthode automatisée
+**La méthode automatisée**
 
 Utilisez un outil de gestion des listes de diffusion (comme [Framagroupes](https://framagroupes.org/abc/fr/), anciennement Framalistes), pour créer votre groupe de discussion par email.
 

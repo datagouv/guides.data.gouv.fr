@@ -1,5 +1,5 @@
 ---
-cover: ../../../.gitbook/assets/Rectangle.png
+cover: ../../../../.gitbook/assets/Rectangle.png
 coverY: 0
 metaLinks:
   alternates:
@@ -24,7 +24,7 @@ Le hackathon “Le climat en données" se déroulera pendant 4 demi-journées, d
 
 Il s’agit d’un **événement hybride**, avec des équipes qui travailleront en présentiel, et d’autres qui se formeront en ligne :
 
-* Le lieu physique : **Centre International de Conférences de Météo-France** (42 Av. Gaspard Coriolis, 31100 Toulouse).&#x20;
+* Le lieu physique : **Centre International de Conférences de Météo-France** (42 Av. Gaspard Coriolis, 31100 Toulouse).
 * Le lieu en ligne : [**Ce lien**](https://meteo.webex.com/meteo-fr/j.php?MTID=m62157aba682cf1dbdcce9a4b394f97f9) (pour tous les moments synchrones)
 
 ## Repas
@@ -33,5 +33,4 @@ Dans le cadre du hackathon, nous vous proposerons des petits-déjeuners et des d
 
 Les déjeuners prendront la forme de buffets déjeunatoires.
 
-<figure><img src="../../../.gitbook/assets/Menu hackathon (1).png" alt=""><figcaption></figcaption></figure>
-
+<figure><img src="../../../../.gitbook/assets/Menu hackathon (1).png" alt=""><figcaption></figcaption></figure>

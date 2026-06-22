@@ -1,5 +1,5 @@
 ---
-cover: ../../.gitbook/assets/Group 15659.png
+cover: ../../../.gitbook/assets/Group 15659.png
 coverY: 0
 metaLinks:
   alternates:
@@ -14,7 +14,7 @@ Nous sommes ravis de vous compter parmi nous pour cet événement !
 
 Ce guide a été conçu pour vous accompagner pendant toute la durée du hackathon avec des informations, des ressources et des bonnes pratiques.\
 \
-:warning: Il pourra être amendé et complété avant le début du hackathon.&#x20;
+:warning: Il pourra être amendé et complété avant le début du hackathon.
 
 {% hint style="info" %}
 **Qu'est-ce que le hackathon "Le climat en données ?"**\

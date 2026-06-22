@@ -1,5 +1,5 @@
 ---
-cover: ../../.gitbook/assets/Bandereau87.png
+cover: ../../../.gitbook/assets/Bandereau87.png
 coverY: 0
 ---
 
@@ -15,7 +15,7 @@ coverY: 0
 {% step %}
 #### <mark style="color:purple;">VALIDATION TECHNIQUE</mark>
 
-Que le standard contienne un schéma de données ou non, il doit respecter certaines contraintes techniques pour être publié sur schema.data.gouv.fr. Ces critères, ainsi que des recommandations sur le schéma éventuel, sont décrit dans [la documentation de schema.data.gouv.fr](https://guides.data.gouv.fr/guides/guide-qualite/maitriser-les-schemas-de-donnees/integrer-un-schema-de-donnees-a-schema.data.gouv.fr). [Le modèle de dépôt Github](../realisation-du-standard/utiliser-le-modele-de-depot-github.md) est également un outil utile dans cette démarche.&#x20;
+Que le standard contienne un schéma de données ou non, il doit respecter certaines contraintes techniques pour être publié sur schema.data.gouv.fr. Ces critères, ainsi que des recommandations sur le schéma éventuel, sont décrit dans [la documentation de schema.data.gouv.fr](https://guides.data.gouv.fr/guides/guide-qualite/maitriser-les-schemas-de-donnees/integrer-un-schema-de-donnees-a-schema.data.gouv.fr). [Le modèle de dépôt Github](../realisation-du-standard/utiliser-le-modele-de-depot-github.md) est également un outil utile dans cette démarche.
 {% endstep %}
 
 {% step %}
@@ -126,7 +126,7 @@ Lors de la validation du standard, le secrétariat général vous accompagne pou
 
 Ce modèle de document vise à indiquer les informations attendues par le plénier, mais c'est au Secrétariat Général et non à l'animateur du GT de le remplir.
 
-{% file src="../../.gitbook/assets/GT CNIG - Modèle de dossier de présentation au plénier.docx" %}
+{% file src="../../../.gitbook/assets/GT CNIG - Modèle de dossier de présentation au plénier.docx" %}
 _Modèle de dossier de présentation pour le conseil plénier_
 {% endfile %}
 

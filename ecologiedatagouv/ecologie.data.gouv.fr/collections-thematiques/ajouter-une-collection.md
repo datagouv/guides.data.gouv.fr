@@ -11,39 +11,39 @@ description: >-
 Tout acteur - État, collectivités, entreprises, associations, citoyens - mobilisant des données au service d'un projet en lien avec les politiques publiques du pôle ministériel peut contribuer à ecologie.data.gouv.fr via la publication de collections thématiques. La collection sera soumise pour évaluation à l’équipe d'[_ecologie_.**data.gouv**._fr_](https://ecologie.data.gouv.fr) qui procédera à son examen dans les meilleurs délais avant sa mise en ligne effective.
 
 {% hint style="success" %}
-**Vous disposez d'une expertise ?** Partagez-la à travers de la publication de vos collections.&#x20;
+**Vous disposez d'une expertise ?** Partagez-la à travers de la publication de vos collections.
 {% endhint %}
 
 {% hint style="warning" %}
-Pour être publiés, vos collections doivent :&#x20;
+Pour être publiés, vos collections doivent :
 
 * Être rattachées à une organisation ;
 * Être validées par un membre de l'équipe chargé d'[_ecologie_.**data.gouv**._fr_](https://ecologie.data.gouv.fr) en contactant l'équipe [ecospheres@developpement-durable.gouv.fr](mailto:ecosphreres@developpement-durable.gouv.fr).
 {% endhint %}
 
 {% hint style="info" %}
-Elles peuvent également rester en mode "brouillon" (non publié) pour votre usage personnel.&#x20;
+Elles peuvent également rester en mode "brouillon" (non publié) pour votre usage personnel.
 {% endhint %}
 
 ### Comment publier une collection ?
 
 {% stepper %}
 {% step %}
-#### **Rendez-vous sur :** [_ecologie._**data.gouv.**_fr_](http://ecologie.data.gouv.fr), puis cliquer sur l’onglet “Collections thématiques”
+**Rendez-vous sur :** [_**ecologie.**_**data.gouv.**_**fr**_](http://ecologie.data.gouv.fr)**, puis cliquer sur l’onglet “Collections thématiques”**
 {% endstep %}
 
 {% step %}
-#### Sélectionner "Ajouter une collection"
+**Sélectionner "Ajouter une collection"**
 
-<figure><img src="../../.gitbook/assets/ajouter_collection_bouquet.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/ajouter_collection_bouquet.png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-#### Décrire la collection&#x20;
+**Décrire la collection**
 
-Renseignez le sujet, l’objectif, la thématique, la couverture territoriale de votre collection et le propriétaire de la collection thématique.&#x20;
+Renseignez le sujet, l’objectif, la thématique, la couverture territoriale de votre collection et le propriétaire de la collection thématique.
 
-<figure><img src="../../.gitbook/assets/ajouter_collection (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/ajouter_collection (1).png" alt=""><figcaption></figcaption></figure>
 
 **Sujet**
 
@@ -71,13 +71,13 @@ Dans l'encadré dédié à l'objectif de votre collection, il est recommandé de
 
 {% hint style="success" %}
 1. **Présentation**\
-   &#xNAN;_&#x44;ans quels enjeux, objectifs ou politique publique s'inscrit cette_ collection _? Quelles décisions l'initiative associée à la_ collection _cherche-t-elle à éclairer ? Quelles sont les solutions proposées ?_
+   \&#xNAN;_Dans quels enjeux, objectifs ou politique publique s'inscrit cette_ collection _? Quelles décisions l'initiative associée à la_ collection _cherche-t-elle à éclairer ? Quelles sont les solutions proposées ?_
 2. **Public cible**\
-   &#xNAN;_&#xC0; qui cette initiative s'adresse-t-elle ?_
+   \&#xNAN;_À qui cette initiative s'adresse-t-elle ?_
 3. **Porteurs du projet**\
-   &#xNAN;_&#x4D;entionner l'ensemble des partenaires._
+   \&#xNAN;_Mentionner l'ensemble des partenaires._
 4. **Liens utiles**\
-   &#xNAN;_&#x4C;ien vers tout portail, application, documentation, code sources et autres supports pertinents._
+   \&#xNAN;_Lien vers tout portail, application, documentation, code sources et autres supports pertinents._
 5. **Point de contact**
 {% endhint %}
 
@@ -102,40 +102,40 @@ Si vous vous inscrivez dans le cadre d’une organisation, tous les membres de l
 **Une fois ces étapes complétées**, vous pouvez enregistrer votre collection. Celle-ci est alors créée et vous accédez à sa page d’administration, depuis laquelle vous pouvez notamment ajouter les jeux de données et les indicateurs qui la composent.
 
 {% hint style="info" %}
-La collection sera alors créée en mode brouillon et visible uniquement par les membres de l'organisation.&#x20;
+La collection sera alors créée en mode brouillon et visible uniquement par les membres de l'organisation.
 {% endhint %}
 {% endstep %}
 
 {% step %}
-#### Ajouter les jeux de données et indicateurs qui composent la collection
+**Ajouter les jeux de données et indicateurs qui composent la collection**
 
 Pour ce faire, vous devez cliquer sur "ajouter un jeu de données" lorsque vous vous trouvez sur la page d'administration de votre collection et intégrer vos jeux de données.
 
-<figure><img src="../../.gitbook/assets/accueil_collection (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/accueil_collection (1).png" alt=""><figcaption></figcaption></figure>
 
-Renseignez le libellé du jeu de données et sa raison d'utilisation. Vous pouvez ensuite rechercher un jeu de donnée dans [**data.gouv**._fr_](https://data.gouv.fr) ou ajouter l'URL du jeu de données.&#x20;
+Renseignez le libellé du jeu de données et sa raison d'utilisation. Vous pouvez ensuite rechercher un jeu de donnée dans [**data.gouv**._fr_](https://data.gouv.fr) ou ajouter l'URL du jeu de données.
 
 Toute donnée ou indicateur présent sur [**data.gouv.**_fr_](https://data.gouv.fr) peut être associé à une collection.
 
 {% hint style="info" %}
-[_ecologie._**data.gouv.**_fr_](../../) et [**data.gouv.**_fr_](https://data.gouv.fr) partagent **le même catalogue** de données. Cela vous permet de récupérer les données pertinentes pour votre cas d'usages parmi toutes celles disponibles sur [**data.gouv.**_fr_](https://data.gouv.fr).&#x20;
+[_ecologie._**data.gouv.**_fr_](../../) et [**data.gouv.**_fr_](https://data.gouv.fr) partagent **le même catalogue** de données. Cela vous permet de récupérer les données pertinentes pour votre cas d'usages parmi toutes celles disponibles sur [**data.gouv.**_fr_](https://data.gouv.fr).
 {% endhint %}
 
-Une fonctionnalité de regroupement est disponible pour rassembler certains jeux de données par thématique.&#x20;
+Une fonctionnalité de regroupement est disponible pour rassembler certains jeux de données par thématique.
 
-<figure><img src="../../.gitbook/assets/ajouter_jdd (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/ajouter_jdd (2).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-Si vous disposez de jeux de données pertinents pour votre collection et non disponibles sur [**data.gouv**._fr_](https://data.gouv.fr)_,_ il est recommandé de publier vos jeux de données sur [**data.gouv**._fr_](https://data.gouv.fr) en suivant [ces étapes](https://app.gitbook.com/o/w6D6SnLwCXQaMMSzcTvp/s/K56ETHxhBea8DHmbPCgt/~/changes/3/ecologie.data.gouv.fr/donnees/publier-des-donnees), puis de les ajouter à votre collection.&#x20;
+Si vous disposez de jeux de données pertinents pour votre collection et non disponibles sur [**data.gouv**._fr_](https://data.gouv.fr)_,_ il est recommandé de publier vos jeux de données sur [**data.gouv**._fr_](https://data.gouv.fr) en suivant [ces étapes](https://app.gitbook.com/s/K56ETHxhBea8DHmbPCgt/ecologie.data.gouv.fr/toutes-les-donnees/publier-des-donnees), puis de les ajouter à votre collection.
 {% endhint %}
 {% endstep %}
 
 {% step %}
-#### Publier la collection pour le rendre public
+**Publier la collection pour le rendre public**
 
 Pour ce faire, vous devez cliquer sur "publier" lorsque vous vous trouvez sur la page d'administration de votre collection :
 
-<figure><img src="../../.gitbook/assets/publier.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/publier.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 La collection sera soumise pour évaluation à l’équipe d'[_ecologie_.**data.gouv**._fr_](https://ecologie.data.gouv.fr) qui procédera à son examen dans les meilleurs délais avant sa mise en ligne effective.
@@ -143,15 +143,14 @@ La collection sera soumise pour évaluation à l’équipe d'[_ecologie_.**data.
 {% endstep %}
 
 {% step %}
-#### Modifier la collection après sa publication&#x20;
+**Modifier la collection après sa publication**
 
 Il est toujours possible de modifier une collection dont vous êtes propriétaire après sa publication. Il suffit de vous connecter sur [_ecologie_.**data.gouv**._fr_](https://ecologie.data.gouv.fr) avec le compte propriétaire de la collection ou un compte inscrit dans l'organisation associée et d'éditer la collection.
 
-<figure><img src="../../.gitbook/assets/modifier.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/modifier.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-Tous les membres de l'organisation peuvent éditer une collection. [Découvrir comment rejoindre une organisation](https://guides.data.gouv.fr/organisations/rejoindre-une-organisation).&#x20;
+Tous les membres de l'organisation peuvent éditer une collection. [Découvrir comment rejoindre une organisation](https://guides.data.gouv.fr/organisations/rejoindre-une-organisation).
 {% endhint %}
 {% endstep %}
 {% endstepper %}
-

@@ -19,7 +19,7 @@ L'API Découpage administratif est principalement destinée à un besoin de rech
 Les usages départements ou régions bien que pratiques semblent moins intéressants car les données ne changent quasiment jamais dans le temps et le nombre limité d'éléments fait qu'il est possible de gérer ces informations côté client.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/Capture d’écran 2023-06-19 à 12.03.13 (1).png" alt=""><figcaption><p>Accès à l'API Découpage administratif</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Capture d’écran 2023-06-19 à 12.03.13 (1) (2).png" alt=""><figcaption><p>Accès à l'API Découpage administratif</p></figcaption></figure>
 
 ## Comment utiliser l'API dans un site web ? <a href="#utilisation-de-l-api-dans-un-site-web" id="utilisation-de-l-api-dans-un-site-web"></a>
 
@@ -37,7 +37,7 @@ Pour des usages plus spécifiques, vous pouvez utiliser [les exemples de la docu
 
 {% tabs %}
 {% tab title="Pour récupérer des communes" %}
-#### Utilisation de l’API pour récupérer des communes <a href="#utilisation-de-l-api-pour-recuperer-des-communes" id="utilisation-de-l-api-pour-recuperer-des-communes"></a>
+**Utilisation de l’API pour récupérer des communes**
 
 * Rechercher par code postal : [https://geo.api.gouv.fr/communes?codePostal=78000](https://geo.api.gouv.fr/communes?codePostal=78000)
 * Rechercher par code INSEE : [https://geo.api.gouv.fr/communes?code=44109](https://geo.api.gouv.fr/communes?code=44109)
@@ -76,7 +76,7 @@ Vous pouvez très bien sauvegarder dans un fichier le résultat des URLs ci-dess
 {% endtab %}
 
 {% tab title="Pour récupérer des régions et des départements" %}
-#### Utilisation de l’API pour récupérer des régions et des départements <a href="#utilisation-de-l-api-pour-recuperer-des-regions-et-des-departements" id="utilisation-de-l-api-pour-recuperer-des-regions-et-des-departements"></a>
+**Utilisation de l’API pour récupérer des régions et des départements**
 
 Dans ce cas de figure, le principal intérêt est la correspondance entre un nom et un code.
 

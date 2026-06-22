@@ -8,9 +8,9 @@ metaLinks:
 
 Vous avez trouvé un jeu de données qui vous intéresse (cf. "[Trouver des données](trouver-des-donnees.md)") et confirmé qu’il correspondait bien à votre besoin (cf. "[Prendre connaissance et évaluer la qualité de données](prendre-connaissance-et-evaluer-la-qualite-de-donnees.md)" et "[Explorer des données](explorer-des-donnees.md)"). Vous souhaitez désormais récupérer les données.
 
-Pour cela, il est possible de :&#x20;
+Pour cela, il est possible de :
 
-<figure><img src="../../.gitbook/assets/Group 2882 (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Group 2882 (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Télécharger un fichier d’un jeu de données
 
@@ -26,7 +26,7 @@ Il est possible de télécharger la documentation associée aux données de la m
 Il n’est pas nécessaire de disposer d’un compte sur [data.gouv.fr](http://data.gouv.fr) pour y télécharger des données.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/Bandeaux-[copy] (3).gif" alt=""><figcaption><p>Télécharger un fichier sur data.gouv.fr</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Bandeaux-[copy] (3) (1).gif" alt=""><figcaption><p>Télécharger un fichier sur data.gouv.fr</p></figcaption></figure>
 
 💡 Les extensions des fichiers peuvent vous donner une idée du format de fichier que vous allez télécharger :
 
@@ -47,7 +47,7 @@ API (_Application Programming Interface_) : Outil informatique qui permet à un 
 
 Les API sont un mode d'accès aux données en expansion : plutôt que de laisser l'utilisateur consulter directement des bases de données, les API proposent de formuler une requête qui est traitée par le serveur hébergeant la base de données, puis de recevoir des données en réponse à sa requête. Elles s'avèrent notamment précieuses pour récupérer de petits volumes de données, typiquement pour des interfaces interactives et récupérer des données transformées complexes, typiquement issues d'inférence de modèles (_Lino Galiana, Insee_).
 
-La plateforme data.gouv.fr propose [**un large catalogue d'API**](https://www.data.gouv.fr/fr/dataservices/) (API ouvertes et API sous habilitation), telles que :&#x20;
+La plateforme data.gouv.fr propose [**un large catalogue d'API**](https://www.data.gouv.fr/fr/dataservices/) (API ouvertes et API sous habilitation), telles que :
 
 * [API Adresse](https://api.gouv.fr/les-api/base-adresse-nationale) : permet d'interroger facilement la Base Adresse Nationale ;
 * [API Recherche d’entreprises](https://api.gouv.fr/les-api/api-recherche-entreprises) : permet à tout le monde de rechercher et de trouver une entreprise française ;
@@ -55,7 +55,7 @@ La plateforme data.gouv.fr propose [**un large catalogue d'API**](https://www.da
 * [API Géorisques](https://api.gouv.fr/les-api/api-georisques) : permet d'afficher pour un territoire donné la liste des données et documents relatifs aux risques naturels et technologiques existants ;
 * etc.
 
-Les documentations de chaque API sont à retrouver sur leurs pages respectives sur data.gouv.fr.&#x20;
+Les documentations de chaque API sont à retrouver sur leurs pages respectives sur data.gouv.fr.
 
 {% hint style="success" %}
 Pour aller plus loin, il est possible de consulter **l'**[**atelier pour découvrir la récupération de données via des API**](https://inseefrlab.github.io/ssphub-ateliers/sessions/api.html), proposé par l'Insee.
@@ -63,7 +63,7 @@ Pour aller plus loin, il est possible de consulter **l'**[**atelier pour découv
 
 ## Utiliser l’API de [data.gouv.fr](http://data.gouv.fr)
 
-Pour récupérer des données en utilisant l'API de data.gouv.fr, nous vous invitons à consulter **la documentation de la plateforme** :&#x20;
+Pour récupérer des données en utilisant l'API de data.gouv.fr, nous vous invitons à consulter **la documentation de la plateforme** :
 
 {% content-ref url="/broken/pages/Q9seeEdFUuGFGyWy4TKX" %}
 [Broken link](/broken/pages/Q9seeEdFUuGFGyWy4TKX)

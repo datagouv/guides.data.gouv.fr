@@ -23,7 +23,7 @@ _Source : Formation SSPy ; Université Paris Cité_
 
 ## Parcours d’initiation à Python
 
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>Maîtriser les fondamentaux du langage Python pour réaliser des opérations de traitement et d’analyse de données.</td><td><img src="../../../.gitbook/assets/Tag - Item.png" alt="" data-size="line"></td><td></td><td><a href="../../../.gitbook/assets/Frame 25 (2).png">Frame 25 (2).png</a></td><td><a href="https://inseefrlab.github.io/formation-python-initiation/">https://inseefrlab.github.io/formation-python-initiation/</a></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>Maîtriser les fondamentaux du langage Python pour réaliser des opérations de traitement et d’analyse de données.</td><td><img src="../../../../.gitbook/assets/Tag - Item.png" alt="" data-size="line"></td><td></td><td><a href="../../../../.gitbook/assets/Frame 25 (2) (4).png">Frame 25 (2) (4).png</a></td><td><a href="https://inseefrlab.github.io/formation-python-initiation/">https://inseefrlab.github.io/formation-python-initiation/</a></td></tr></tbody></table>
 
 Cette formation peut être réalisée :
 
@@ -32,7 +32,7 @@ Cette formation peut être réalisée :
 
 ## Pour aller plus loin
 
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>Approfondir ses connaissances en Python pour la data science : manipulation de données, visualisation, modélisation, traitement du langage naturel.</td><td><img src="../../../.gitbook/assets/🎨 📁 Contenant technique.png" alt="" data-size="line"></td><td></td><td><a href="../../../.gitbook/assets/Frame 25 (4).png">Frame 25 (4).png</a></td><td><a href="https://pythonds.linogaliana.fr/">https://pythonds.linogaliana.fr/</a></td></tr><tr><td>S'initier aux outils méthodologiques et logiciels de l'apprentissage automatique.</td><td><a href="https://doi.org/10.5281/zenodo.7220306">10.5281/zenodo.7220306</a></td><td><img src="../../../.gitbook/assets/🎨 📁 Contenant technique (9).png" alt="" data-size="line"></td><td><a href="../../../.gitbook/assets/Frame 2556.jpg">Frame 2556.jpg</a></td><td><a href="https://inria.github.io/scikit-learn-mooc/index.html">https://inria.github.io/scikit-learn-mooc/index.html</a></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>Approfondir ses connaissances en Python pour la data science : manipulation de données, visualisation, modélisation, traitement du langage naturel.</td><td><img src="../../../../.gitbook/assets/🎨 📁 Contenant technique.png" alt="" data-size="line"></td><td></td><td><a href="../../../../.gitbook/assets/Frame 25 (4) (3).png">Frame 25 (4) (3).png</a></td><td><a href="https://pythonds.linogaliana.fr/">https://pythonds.linogaliana.fr/</a></td></tr><tr><td>S'initier aux outils méthodologiques et logiciels de l'apprentissage automatique.</td><td><a href="https://doi.org/10.5281/zenodo.7220306">10.5281/zenodo.7220306</a></td><td><img src="../../../../.gitbook/assets/🎨 📁 Contenant technique (9).png" alt="" data-size="line"></td><td><a href="../../../../.gitbook/assets/Frame 2556 (1).jpg">Frame 2556 (1).jpg</a></td><td><a href="https://inria.github.io/scikit-learn-mooc/index.html">https://inria.github.io/scikit-learn-mooc/index.html</a></td></tr></tbody></table>
 
 ## Autres ressources pédagogiques
 
@@ -42,11 +42,11 @@ Voici un catalogue (non exhaustif) d'autres ressources pédagogiques pour appren
 
 <details>
 
-<summary><strong>[Formation]</strong> Initiation à Python par l'INRAE (Sandra Dérozier &#x26; Thomas Duigou) </summary>
+<summary><strong>[Formation]</strong> Initiation à Python par l'INRAE (Sandra Dérozier &#x26; Thomas Duigou)</summary>
 
 [**Accéder à la formation**](https://sandraderozier.pages.mia.inra.fr/formation-python/cours.html)
 
-**Programme** :&#x20;
+**Programme** :
 
 * Introduction à Python
 * Introduction à Jupyter
@@ -68,7 +68,7 @@ Voici un catalogue (non exhaustif) d'autres ressources pédagogiques pour appren
 
 [**Accéder à la formation**](https://python.sdv.u-paris.fr/)
 
-**Programme** :&#x20;
+**Programme** :
 
 * Variables
 * Affichage
@@ -100,7 +100,7 @@ Voici un catalogue (non exhaustif) d'autres ressources pédagogiques pour appren
 
 [**Accéder à la formation**](https://github.com/mebauer/data-analysis-using-python?tab=readme)
 
-**Programme** :&#x20;
+**Programme** :
 
 * Reading and Writing Files in Python
 * Data Inspection, Cleaning, and Wrangling in Python
@@ -115,7 +115,7 @@ Voici un catalogue (non exhaustif) d'autres ressources pédagogiques pour appren
 
 [**Accéder au cours**](https://www.kaggle.com/learn/intro-to-programming)
 
-**Programme** :&#x20;
+**Programme** :
 
 * Arithmétique et variables
 * Fonctions
@@ -131,7 +131,7 @@ Voici un catalogue (non exhaustif) d'autres ressources pédagogiques pour appren
 
 [**Accéder au cours**](https://www.kaggle.com/learn/python)
 
-**Programme** :&#x20;
+**Programme** :
 
 * Introduction à Python
 * Fonctions
@@ -149,9 +149,9 @@ Voici un catalogue (non exhaustif) d'autres ressources pédagogiques pour appren
 
 <summary><strong>[Formation]</strong> Python avancé par l'INRAE (Sandra Dérozier &#x26; Thomas Duigou)</summary>
 
-[**Accéder à  la formation**](https://sandraderozier.pages.mia.inra.fr/formation-python/cours.html)
+[**Accéder à la formation**](https://sandraderozier.pages.mia.inra.fr/formation-python/cours.html)
 
-**Programme** :&#x20;
+**Programme** :
 
 * Fonctions
 * Modules
@@ -172,7 +172,7 @@ Voici un catalogue (non exhaustif) d'autres ressources pédagogiques pour appren
 
 [**Accéder au cours**](https://www.kaggle.com/learn/pandas)
 
-**Programme** :&#x20;
+**Programme** :
 
 * Créer, lire et écrire
 * Indexation, sélection et affectation
@@ -189,7 +189,7 @@ Voici un catalogue (non exhaustif) d'autres ressources pédagogiques pour appren
 
 [**Accéder au cours**](https://www.kaggle.com/learn/data-visualization)
 
-**Programme** :&#x20;
+**Programme** :
 
 * Seaborn
 * Graphiques en courbe
@@ -205,7 +205,7 @@ Voici un catalogue (non exhaustif) d'autres ressources pédagogiques pour appren
 
 [**Accéder au cours**](https://www.kaggle.com/learn/intro-to-machine-learning)
 
-**Programme** :&#x20;
+**Programme** :
 
 * Fonctionnement des modèles
 * Exploration des données de base
@@ -223,7 +223,7 @@ Voici un catalogue (non exhaustif) d'autres ressources pédagogiques pour appren
 
 [**Accéder au cours**](https://www.kaggle.com/learn/intermediate-machine-learning)
 
-**Programme** :&#x20;
+**Programme** :
 
 * Valeurs manquantes
 * Variables catégorielles
@@ -263,6 +263,5 @@ Voici un catalogue (non exhaustif) d'autres ressources pédagogiques pour appren
 
 {% hint style="success" %}
 **Ce guide est ouvert aux contributions**.\
-💌 Vous avez des idées d'autres ressources pédagogiques sur l'utilisation de Python que nous pourrions référencer ici ? [Faites-nous en part dans ce formulaire](https://tally.so/r/wgZz4l).&#x20;
+💌 Vous avez des idées d'autres ressources pédagogiques sur l'utilisation de Python que nous pourrions référencer ici ? [Faites-nous en part dans ce formulaire](https://tally.so/r/wgZz4l).
 {% endhint %}
-

@@ -40,7 +40,7 @@ Lors de la configuration d'un moissonneur `csw-dcat` ou `csw-iso-19139`, il est 
 
 Le champ **préfixe d'URL distante** permet de spécifier un préfixe d'URL à utiliser comme base pour créer l'URL vers **la source originale**. La source originale est affichée à droite sur une page de jeu de données moissonné.
 
-<figure><img src="../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (14) (2).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Par exemple, pour une plateforme geonetwork, il est possible de mettre [https://geo.compiegnois.fr/geonetwork/srv/fre/catalog.search#/metadata/](https://geo.compiegnois.fr/geonetwork/srv/fre/catalog.search#/metadata/) comme préfixe d'URL distante. Ainsi, pour une fiche moissonnée avec comme identifiant UUID 06c9f6de-4b17-4340-8a6b-86d47877840f, on obtient le lien vers la source originale en concaténant les informations : [https://geo.compiegnois.fr/geonetwork/srv/fre/catalog.search#/metadata/06c9f6de-4b17-4340-8a6b-86d47877840f](https://geo.compiegnois.fr/geonetwork/srv/fre/catalog.search#/metadata/06c9f6de-4b17-4340-8a6b-86d47877840f).
@@ -97,8 +97,8 @@ Une requête POST est effectuée par le moissonneur sur le endpoint CSW renseign
 
 `output_schema` peut prendre les valeurs suivantes :
 
-* &#x20;`http://www.w3.org/ns/dcat#` pour un moissonneur `csw-dcat`
-* &#x20;`http://data.europa.eu/903/` pour un moissonneur `csw-dcat` avec configuration `GeoDCAT-AP` activée
+* `http://www.w3.org/ns/dcat#` pour un moissonneur `csw-dcat`
+* `http://data.europa.eu/903/` pour un moissonneur `csw-dcat` avec configuration `GeoDCAT-AP` activée
 * `http://www.isotc211.org/2005/gmd` pour un moissonneur `csw-iso-19139`
 
 #### Moissonnage historique

@@ -1,5 +1,5 @@
 ---
-cover: ../.gitbook/assets/bandereau5 (5).png
+cover: ../../.gitbook/assets/bandereau5 (5).png
 coverY: 0
 ---
 
@@ -13,7 +13,7 @@ Les personnes intéressées par la prise en charge d'une nouvelle thématique pr
 
 {% stepper %}
 {% step %}
-#### <mark style="color:purple;">PRENDRE CONNAISSANCE DE L'EXISTANT</mark>
+<mark style="color:purple;">**PRENDRE CONNAISSANCE DE L'EXISTANT**</mark>
 
 Avant de saisir le CNIG, il revient aux personnes à l’initiative du projet d’explorer ce qui existe afin de vérifier qu’un standard permet bien de répondre au besoin identifié. Pour éviter de reproduire l’existant, il est important de s’assurer qu’aucun standard (CNIG ou non, français ou international), ou projet de standard, ne répond déjà au besoin. Cette exploration permet également d’identifier certaines briques pouvant servir de base pour les travaux (comme une ontologie, un schéma, une norme, etc.). Cette exploration peut se faire :
 
@@ -24,7 +24,7 @@ Avant de saisir le CNIG, il revient aux personnes à l’initiative du projet d�
 {% endstep %}
 
 {% step %}
-#### <mark style="color:purple;">SAISINE DU CNIG</mark>
+<mark style="color:purple;">**SAISINE DU CNIG**</mark>
 
 Selon les résultats de l'exploration, le porteur du sujet saisit le CNIG.
 

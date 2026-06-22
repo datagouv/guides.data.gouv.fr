@@ -9,11 +9,11 @@ Une fois votre jeu de données publié, vous pouvez le gérer depuis l'espace d'
 ## Voir ses jeux de données
 
 * Connectez-vous à votre compte ;
-* Cliquez sur <img src="../.gitbook/assets/image (1).png" alt="" data-size="line"> en haut à droite de votre écran ;
+* Cliquez sur <img src="../../.gitbook/assets/image (1).png" alt="" data-size="line"> en haut à droite de votre écran ;
 * Dans la colonne de gauche, cliquez sur
   * le nom de votre organisation pour voir les contenus de votre organisation ;
   * Ou sur "Mon profil" pour voir les contenus publiés en votre nom ;
-* Cliquez sur <img src="../.gitbook/assets/image (56).png" alt="" data-size="line">
+* Cliquez sur <img src="../../.gitbook/assets/image (56).png" alt="" data-size="line">
 
 Vous pouvez consulter ici toutes les **jeux de données publiées.**
 
@@ -23,7 +23,7 @@ Dans la colonne **"Actions"** du tableau :
 * ✏️ Cliquez sur l’icône **crayon** pour le modifier dans l’interface d’administration.
 
 {% hint style="info" %}
-Vous pouvez aussi accéder à la modification de votre jeu de données directement depuis la page publique de celle-ci en cliquant sur le bouton <img src="../.gitbook/assets/image (49).png" alt="" data-size="line">.
+Vous pouvez aussi accéder à la modification de votre jeu de données directement depuis la page publique de celle-ci en cliquant sur le bouton <img src="../../.gitbook/assets/image (49).png" alt="" data-size="line">.
 {% endhint %}
 
 ## Modifier ses jeux de données
@@ -40,13 +40,13 @@ Vous pouvez également :
 
 #### Modifier la visibilité du jeu de données
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 Un jeu de données publié au nom d’un individu ou d’une organisation peut être transféré vers un autre individu ou une autre organisation.
 
 #### Transferer un jeu de données
 
-<figure><img src="../.gitbook/assets/image (57).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (57).png" alt=""><figcaption></figcaption></figure>
 
 1. En bas de la page cliquez sur le bouton transférer.
 2. Saisissez le nom de l’utilisateur ou de l’organisation vers lequel vous souhaitez transférer le jeu de données, puis cliquez sur son profil quand il apparaît à l’écran ;

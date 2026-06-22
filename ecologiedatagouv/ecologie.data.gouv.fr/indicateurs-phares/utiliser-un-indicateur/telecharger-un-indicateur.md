@@ -12,9 +12,9 @@ L'onglet Discussions sur ecologie.data.gouv vous permet de poser des questions d
 
 ## Télécharger les fichiers .csv
 
-Vous pouvez simplement télécharger localement les fichiers de données sur votre ordinateur depuis l'onglet `Fichiers et API` &#x20;
+Vous pouvez simplement télécharger localement les fichiers de données sur votre ordinateur depuis l'onglet `Fichiers et API`
 
-<figure><img src="../../../.gitbook/assets/{04BCF17F-42B1-4429-8FBE-FF0B631C6C13}.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/{04BCF17F-42B1-4429-8FBE-FF0B631C6C13}.png" alt=""><figcaption></figcaption></figure>
 
 ## Télécharger nos indicateurs depuis notre API
 
@@ -38,7 +38,7 @@ Le token d'accès est à demander en remplissant le [formulaire suivant.](https:
 
 Le tableur Grist peut récupérer les indicateurs grâce au widget datagouv.
 
-#### Documentation du plugin&#x20;
+#### Documentation du plugin
 
 {% embed url="https://github.com/datagouv/grist-plugin-opendata/blob/main/docs/datagouv.md" %}
 

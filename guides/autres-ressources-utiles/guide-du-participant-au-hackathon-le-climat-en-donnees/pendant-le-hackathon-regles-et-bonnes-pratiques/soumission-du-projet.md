@@ -1,5 +1,5 @@
 ---
-cover: ../../../.gitbook/assets/Rectangle.png
+cover: ../../../../.gitbook/assets/Rectangle.png
 coverY: 0
 metaLinks:
   alternates:
@@ -14,7 +14,7 @@ metaLinks:
 
 **Pour soumettre votre projet, il suffit de le publier comme réutilisation sur** [**data.gouv.fr**](http://data.gouv.fr)**.** La marche à suivre est détaillée [ici](https://guides.data.gouv.fr/guide-data.gouv.fr/reutilisations/publier-une-reutilisation).
 
-<figure><img src="../../../.gitbook/assets/reuse.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/reuse.gif" alt=""><figcaption></figcaption></figure>
 
 {% hint style="success" %}
 **La liste de mots clés devra intégrer le mot-clé “hackathon-climat” (pour nous permettre d’identifier votre projet plus facilement).**

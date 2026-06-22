@@ -4,31 +4,31 @@ La rédaction d’un standard nécessite la confrontation de profils diversifié
 
 {% stepper %}
 {% step %}
-### <mark style="color:purple;">Définir et énoncer précisément l'objectif</mark>
+#### <mark style="color:purple;">Définir et énoncer précisément l'objectif</mark>
 
 Lors de la session de prise de décision, la question doit être claire pour l’ensemble des participants, en tenant compte des informations dont ils disposaient auparavant. Clarifier la question posée, définir les termes du sujet et l’enjeu de la réunion aidera chacun à se former un avis. Il est aussi utile de préciser le cadre de la prise de décision pour que les contraintes soient bien comprises et favoriser les comportements bienveillants (comme la durée de la séance, les étapes, etc.).
 {% endstep %}
 
 {% step %}
-### <mark style="color:purple;">Explorer et exposer les différentes pistes</mark>
+#### <mark style="color:purple;">Explorer et exposer les différentes pistes</mark>
 
 Les pistes déjà identifiées et les points de vue des participants doivent être posées sur la table avec leurs qualités et défauts. Cette étape se doit d’être exhaustive pour que la prise de décision soit éclairée et que chacun énonce son point de vue dans un premier temps. Une pré-sélection des pistes possibles peut ensuite avoir lieu pour écarter les solutions remportant le moins l’adhésion. Il faut en revanche attendre la fin du tour de table pour discuter des solutions et éviter d’orienter le débat qui va suivre.
 {% endstep %}
 
 {% step %}
-### <mark style="color:purple;">Évaluer les solutions</mark>
+#### <mark style="color:purple;">Évaluer les solutions</mark>
 
 Dans cette phase de débat, les points d’adhésion et de divergence doivent être notés, et l’animateur doit encourager les participants à identifier des pistes pour solutionner les désaccords.
 {% endstep %}
 
 {% step %}
-### <mark style="color:purple;">Construire une première proposition</mark>
+#### <mark style="color:purple;">Construire une première proposition</mark>
 
 À partir des discussions précédentes, la piste pour laquelle les désaccords semblent résolvables est approfondie et détaillée dans une proposition. On cherche à en peaufiner tous les aspects, et notamment les points de divergence restants. La solution doit essayer de répondre aux besoins des parties prenantes pour lever les blocages. Un délai de réflexion peut être utile pour une décision complexe.
 {% endstep %}
 
 {% step %}
-### <mark style="color:purple;">Soumettre la proposition</mark>
+#### <mark style="color:purple;">Soumettre la proposition</mark>
 
 Une fois que tous les points ont été débattus, la proposition peut être proposée à l’adoption du groupe. Les participants doivent exprimer leur accord ou leur désaccord selon plusieurs types :
 

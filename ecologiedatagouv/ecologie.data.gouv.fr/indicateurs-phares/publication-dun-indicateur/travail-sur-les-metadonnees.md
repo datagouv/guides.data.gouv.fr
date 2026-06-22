@@ -12,8 +12,8 @@ Afin de garantir une transparence maximale sur les indicateurs publiés et de pe
 
 Une partie des métadonnées présentes dans les fiches indicateurs résultent de consultations et doivent être remplies à la main par des acteurs experts du domaines
 
-* le libellé&#x20;
-* la description&#x20;
+* le libellé
+* la description
 * l'unité
 * les catégorisations FNV et SNBC
 
@@ -32,6 +32,6 @@ D'autres métadonnées peuvent être automatiquement récupérées du code et de
   * La couverture géographique
   * La couverture temporelle
 
-Les métadonnées de nos indicateurs sont décrites dans le guide suivant :&#x20;
+Les métadonnées de nos indicateurs sont décrites dans le guide suivant :
 
-{% file src="../../../.gitbook/assets/guide_remplissage_métadonnées_indicateurs.xlsx" %}
+{% file src="../../../../.gitbook/assets/guide_remplissage_métadonnées_indicateurs.xlsx" %}

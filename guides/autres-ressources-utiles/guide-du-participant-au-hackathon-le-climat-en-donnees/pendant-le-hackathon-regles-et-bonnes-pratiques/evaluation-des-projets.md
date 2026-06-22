@@ -1,5 +1,5 @@
 ---
-cover: ../../../.gitbook/assets/Rectangle.png
+cover: ../../../../.gitbook/assets/Rectangle.png
 coverY: 0
 metaLinks:
   alternates:
@@ -8,7 +8,7 @@ metaLinks:
 
 # Evaluation des projets
 
-<figure><img src="../../../.gitbook/assets/Group 15642-bis.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Group 15642-bis.png" alt=""><figcaption></figcaption></figure>
 
 L’évaluation des projets se déroulera en **deux phases** :
 
@@ -77,7 +77,7 @@ Les 8 projets présélectionnés seront invités à présenter oralement leurs p
 
 #### Membres du jury
 
-<figure><img src="../../../.gitbook/assets/Group 15651.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Group 15651.png" alt=""><figcaption></figcaption></figure>
 
 ### Présentation orale
 

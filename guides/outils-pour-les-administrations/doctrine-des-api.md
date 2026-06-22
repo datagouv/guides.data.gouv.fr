@@ -7,10 +7,8 @@ metaLinks:
 
 # Doctrine des API
 
-
-
 {% hint style="info" %}
-### <mark style="color:blue;">Pourquoi une doctrine pour les API ?</mark>&#x20;
+#### <mark style="color:blue;">Pourquoi une doctrine pour les API ?</mark>
 
 Élaboré par la DINUM avec les administrateurs ministériels des données, des algorithmes et des codes sources (AMDAC), ce cadre de recommandations précise le cadre d’action et identifie les bonnes pratiques à poursuivre en matière d’usage et d’exposition d’API par les administrations. L’objectif : favoriser le partage de données entre elles et ainsi faciliter les démarches des usagers.
 
@@ -37,7 +35,7 @@ metaLinks:
 
 ***
 
-### 🔭 Découvrabilité&#x20;
+### 🔭 Découvrabilité
 
 Cette partie concerne à la fois la visibilité de l'API qui doit être exposée dans les catalogues de données adéquats, ainsi que la découvrabilité de la donnée elle-même qui doit être documentée pour être réellement accessible.
 
@@ -47,7 +45,7 @@ En complément de la description, les données et services publiquement accessib
 
 La description d’une donnée doit référencer les API qui l’exposent. L’exemple ci-dessous présente les API disponibles pour la [base Sirene des entreprises et de leurs établissements](https://www.data.gouv.fr/fr/datasets/base-sirene-des-entreprises-et-de-leurs-etablissements-siren-siret/), sur la page correspondant à ce jeu de données sur data.gouv.fr :
 
-<figure><img src="../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (20) (1).png" alt=""><figcaption></figcaption></figure>
 
 Exemples:
 
@@ -147,7 +145,7 @@ L’état de l’API représente sa capacité à être appelée dans les conditi
 
 La disponibilité de l'API Particulier est accessible à cette page : [https://status.particulier.api.gouv.fr/](https://status.particulier.api.gouv.fr/)
 
-![](<../.gitbook/assets/image (19).png>)
+![](<../../.gitbook/assets/image (19) (2).png>)
 
 </details>
 

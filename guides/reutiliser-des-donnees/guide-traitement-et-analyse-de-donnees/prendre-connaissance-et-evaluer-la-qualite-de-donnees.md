@@ -10,7 +10,7 @@ Vous avez trouvé le jeu de données qui vous intéresse (cf. "[Trouver des donn
 
 Pour cela, il est possible d'utiliser les méthodes suivantes :
 
-<figure><img src="../../.gitbook/assets/Group 2882.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Group 2882 (4).png" alt=""><figcaption></figcaption></figure>
 
 ## S’informer sur un jeu de données grâce aux métadonnées et à la documentation
 
@@ -48,7 +48,7 @@ Sur [data.gouv.fr](http://data.gouv.fr), **les métadonnées sont disponibles su
 * dans la description principale ;
 * dans l’onglet “Informations”.
 
-<figure><img src="../../.gitbook/assets/Sep-16-2024 14-10-54.gif" alt=""><figcaption><p>Trouver les métadonnées d'un jeu de données sur data.gouv.fr</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Sep-16-2024 14-10-54 (1).gif" alt=""><figcaption><p>Trouver les métadonnées d'un jeu de données sur data.gouv.fr</p></figcaption></figure>
 
 {% hint style="success" %}
 Pour identifier plus facilement les jeux de données de qualité sur [data.gouv.fr](http://data.gouv.fr), il est possible de se référer **au score de qualité des métadonnées**.\
@@ -64,7 +64,7 @@ La documentation d’un jeu de données **décrit les données et la structure d
 
 Sur [data.gouv.fr](http://data.gouv.fr), la documentation **est mise à disposition dans l’onglet “Fichiers”, dans la catégorie “Documentation”**.
 
-<figure><img src="../../.gitbook/assets/Sep-16-2024 14-14-19.gif" alt=""><figcaption><p>Trouver la documentation d'un jeu de données sur data.gouv.fr</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Sep-16-2024 14-14-19 (1).gif" alt=""><figcaption><p>Trouver la documentation d'un jeu de données sur data.gouv.fr</p></figcaption></figure>
 
 ## Evaluer le contenu d’un jeu de données par la prévisualisation
 
@@ -84,9 +84,9 @@ La prévisualisation permet :
 Cette fonctionnalité n’est pas disponible pour tous les jeux de données. **Elle n’est disponible que pour les jeux de données tabulaires de 100 Mo maximum.**
 {% endhint %}
 
-Sur [data.gouv.fr](http://data.gouv.fr), 2 options sont à votre disposition pour prévisualiser les données tabulaires :&#x20;
+Sur [data.gouv.fr](http://data.gouv.fr), 2 options sont à votre disposition pour prévisualiser les données tabulaires :
 
-1. **Prévisualiser directement le fichier sur la page du jeu de données**. Pour cela :&#x20;
+1. **Prévisualiser directement le fichier sur la page du jeu de données**. Pour cela :
 
 * Rendez-vous sur la page du jeu de données ;
 * Identifiez le fichier que vous souhaitez prévisualiser ;
@@ -94,7 +94,7 @@ Sur [data.gouv.fr](http://data.gouv.fr), 2 options sont à votre disposition pou
 * Vous aurez alors accès à la prévisualisation. Vous pouvez visualiser les cinq premières lignes du fichier (avec la possibilité de trier) ;
 * Vous pouvez également accéder à des informations sur la structure des données dans l’onglet “Structure des données”.
 
-<figure><img src="../../.gitbook/assets/Sep-16-2024 14-19-08.gif" alt=""><figcaption><p>Prévisualiser un jeu de données directement sur la page du jeu de données</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Sep-16-2024 14-19-08 (1).gif" alt=""><figcaption><p>Prévisualiser un jeu de données directement sur la page du jeu de données</p></figcaption></figure>
 
 2. **Prévisualiser le fichier sur** [**explore.data.gouv.fr**](http://explore.data.gouv.fr)
 
@@ -104,7 +104,7 @@ Sur [data.gouv.fr](http://data.gouv.fr), 2 options sont à votre disposition pou
 * Cliquez sur “Explorer les données” ;
 * Vous atterrissez sur l’explorateur de données développé par l’équipe de [data.gouv.fr](http://data.gouv.fr).
 
-<figure><img src="../../.gitbook/assets/Sep-16-2024 14-21-11.gif" alt=""><figcaption><p>Prévisualiser un jeu de données sur explore.data.gouv.fr</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Sep-16-2024 14-21-11.gif" alt=""><figcaption><p>Prévisualiser un jeu de données sur explore.data.gouv.fr</p></figcaption></figure>
 
 ## Consulter les retours des autres réutilisateurs dans les discussions
 
@@ -115,7 +115,7 @@ Sur [data.gouv.fr](http://data.gouv.fr), les réutilisateurs peuvent échanger a
 
 Ces questions et retours peuvent donner des indications sur la qualité des données et les limites déjà identifiées. Sur [data.gouv.fr](http://data.gouv.fr), vous pouvez les consulter dans l’onglet “Discussions” du jeu de données.
 
-<figure><img src="../../.gitbook/assets/Sep-16-2024 14-23-42.gif" alt=""><figcaption><p>Accéder aux discussions d'un jeu de données sur data.gouv.fr</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Sep-16-2024 14-23-42 (1).gif" alt=""><figcaption><p>Accéder aux discussions d'un jeu de données sur data.gouv.fr</p></figcaption></figure>
 
 {% hint style="success" %}
 Il est possible que d’autres réutilisateurs de données aient déjà identifié des problèmes de qualité sur les données, décidé de les retraiter et de publier leurs travaux sur [data.gouv.fr](http://data.gouv.fr). Vous pouvez alors retrouver ces données retravaillées dans l’onglet **“Ressources communautaires”** du jeu de données.
@@ -127,7 +127,7 @@ Pour identifier les bons jeux de données, et notamment ceux qui font référenc
 
 Sur [data.gouv.fr](http://data.gouv.fr), ces statistiques sont disponibles sur les pages de jeu de données, dans l’onglet “Informations” dans la catégorie “Statistiques des 12 derniers mois”. [Pour en savoir plus](/broken/pages/NYTx64nfnoFBtd3PWsuZ).
 
-<figure><img src="../../.gitbook/assets/Sep-16-2024 14-25-49.gif" alt=""><figcaption><p>Consulter les statistiques des jeux de données sur data.gouv.fr</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Sep-16-2024 14-25-49 (1).gif" alt=""><figcaption><p>Consulter les statistiques des jeux de données sur data.gouv.fr</p></figcaption></figure>
 
 ## Ressources externes pour aller plus loin
 

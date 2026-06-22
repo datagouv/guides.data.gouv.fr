@@ -2,7 +2,7 @@
 description: >-
   Une communauté de professionnels ou un porteur de politiques publiques
   s'interroge sur l'existence ou le besoin d'un standard.
-cover: ../.gitbook/assets/bandereauv4b (2).png
+cover: ../../.gitbook/assets/bandereauv4b (2).png
 coverY: 74
 ---
 
@@ -26,7 +26,7 @@ Les standards peuvent porter sur différents types d’objets : produits, procé
 
 Ainsi, un standard élaboré par un groupe de travail (GT) du CNIG pourra contenir diverses informations, en complément d’une structure commune, en fonction du besoin auquel le GT cherche à répondre.
 
-<figure><img src="../.gitbook/assets/Standard CNIG_définition.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Standard CNIG_définition.png" alt="" width="375"><figcaption></figcaption></figure>
 
 ## <mark style="background-color:purple;">Exemples de besoin</mark>
 

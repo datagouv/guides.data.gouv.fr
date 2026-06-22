@@ -1,5 +1,5 @@
 ---
-cover: ../.gitbook/assets/Bandereau88.png
+cover: ../../.gitbook/assets/Bandereau88.png
 coverY: 0
 ---
 
@@ -13,7 +13,7 @@ coverY: 0
 
 {% stepper %}
 {% step %}
-#### <mark style="color:purple;">ACCOMPAGNER LE DÉPLOIEMENT</mark>
+<mark style="color:purple;">**ACCOMPAGNER LE DÉPLOIEMENT**</mark>
 
 L’accompagnement au déploiement est important mais n’est pas du ressort du groupe de travail d’élaboration du standard. Néanmoins, les membres du GT ayant généralement tout intérêt à poursuivre les efforts lors du déploiement, voici quelques pistes de réponses aux questions que vous pourriez vous poser :
 
@@ -63,7 +63,7 @@ La question du budget peut être un obstacle lors de cette phase, il faut géné
 * l’animation de sessions, ateliers, etc.,
 * la formation de l’animateur pour le déploiement s’il ne dispose pas de compétences en géomatique ou dans le domaine métier, nécessaires au déploiement.
 
-#### <mark style="color:purple;">DU CÔTÉ DU PILOTE</mark>
+<mark style="color:purple;">**DU CÔTÉ DU PILOTE**</mark>
 
 Le pilote peut :
 
@@ -75,7 +75,7 @@ La commission des standards du CNIG pourrait faire régulièrement une **revue d
 {% endstep %}
 
 {% step %}
-#### <mark style="color:purple;">MESURER L'ADOPTION D'UN STANDARD</mark>
+<mark style="color:purple;">**MESURER L'ADOPTION D'UN STANDARD**</mark>
 
 Afin d’évaluer l’adoption d’un standard, plusieurs bonnes pratiques existent :
 
@@ -85,7 +85,7 @@ Afin d’évaluer l’adoption d’un standard, plusieurs bonnes pratiques exist
 {% endstep %}
 
 {% step %}
-#### <mark style="color:purple;">ÉVOLUTION DU STANDARD ♾️</mark>
+<mark style="color:purple;">**ÉVOLUTION DU STANDARD ♾️**</mark>
 
 Lorsque le groupe de travail sur le déploiement, le commanditaire, la communauté d’utilisateurs ou tout autre usager du standard identifie un besoin d’évolution, une demande d’évolution peut être proposée.
 
@@ -99,7 +99,7 @@ Pour identifier quand une évolution est nécessaire, il est utile d’assurer u
 
 <summary>Le standard Accessibilité</summary>
 
-<img src="../.gitbook/assets/2019-06-07_11_25_05-03_lsaby_le_programme_ville_accessible_a_tous_vat_du_cerema.pdf_-_opera_-_copie.png" alt="logo &#x22;Ville accessible à tous&#x22;" data-size="original">
+<img src="../../.gitbook/assets/2019-06-07_11_25_05-03_lsaby_le_programme_ville_accessible_a_tous_vat_du_cerema.pdf_-_opera_-_copie.png" alt="logo &#x22;Ville accessible à tous&#x22;" data-size="original">
 
 _Ces propos ont été recueillis auprès des animateurs du GT Accessibilité_
 
@@ -121,21 +121,21 @@ Par ailleurs, les réunions du GT CNIG Accessibilité, quatre par an, comprennen
 
 Aux ressources apportées par le CNIG s’ajoutera prochainement un modèle de projet géomatique open-source sous QGIS, exemplaire du modèle de données CNIG, assorti de jeux de données exemples.
 
-#### À qui s’adresse votre standard, et, en quelques mots, quels sont les enjeux principaux de la phase de déploiement dans votre cas ?
+**À qui s’adresse votre standard, et, en quelques mots, quels sont les enjeux principaux de la phase de déploiement dans votre cas ?**
 
 Instruire et outiller les nouvelles exigences réglementaires (LOM) concernant l’accessibilité du cheminement en voirie espace public pour en assurer l’effectivité sur l’ensemble du territoire, en cohérence avec les exigences analogues dans le domaine des transports en commun.
 
-#### Quels outils recommandez-vous aux porteurs de futurs projets de standardisation ?
+**Quels outils recommandez-vous aux porteurs de futurs projets de standardisation ?**
 
 Il est en général primordial d’associer en un binôme une compétence métier avec une compétence géomatique/numérique. Le projet doit également être en mesure de s’associer des ressources pour traduire le modèle de données en un ensemble de schémas JSON pour schema.data.gouv.fr, également pour développer un projet géomatique illustrant la structure de données, des jeux-test et des cas d’utilisation.
 
 Le cas du standard CNIG Accessibilité exige également des ressources particulières pour assurer la conversion entre le modèle de collecte CNIG pour les données du cheminement en voirie et le format d’échange et de diffusion normalisé NeTEx pour les données relatives au cheminement en voirie et aux transports en commun.
 
-#### Quel calendrier avez-vous suivi pour l’accompagnement du déploiement ?
+**Quel calendrier avez-vous suivi pour l’accompagnement du déploiement ?**
 
 Le déploiement se fait au rythme d’amélioration de la maturité des outils et des utilisateurs sur la thématique du cheminement accessible. Rythme accéléré par la réglementation et la politique volontariste de la DMA pour qu’elle soit appliquée dans les meilleurs délais.
 
-#### Avez-vous des conseils à mettre en place par anticipation, dès la phase d’élaboration du standard pour ensuite faciliter le déploiement ?
+**Avez-vous des conseils à mettre en place par anticipation, dès la phase d’élaboration du standard pour ensuite faciliter le déploiement ?**
 
 * Créer le binôme métier / géomatique et impliquer la communauté d’utilisateur dès le démarrage du projet.
 * S’inspirer des démarches gagnantes dans d’autres thématiques métier
@@ -148,7 +148,7 @@ Le déploiement se fait au rythme d’amélioration de la maturité des outils e
 
 <summary>Le standard GraceTHD</summary>
 
-![](../.gitbook/assets/image.png)
+![](<../../.gitbook/assets/image (35).png>)
 
 _Ces propos ont été recueillis auprès des animateurs de l'entreprise Dotic._
 
@@ -212,9 +212,7 @@ En complément, nous avons utilisé les outils suivants que nous recommandons :
 
 <summary>Le standard Récostar (StarElec)</summary>
 
-
-
-<img src="../.gitbook/assets/image (1).png" alt="" data-size="original">
+<img src="../../.gitbook/assets/image (1) (4).png" alt="" data-size="original">
 
 _Ces propos ont été recueillis auprès de l'entreprise Sogelink_
 
@@ -238,7 +236,7 @@ Nous recommanderions aux nouveaux groupes de travail :
 
 <summary>Le standard StaR-Eau</summary>
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (3).png" alt=""><figcaption></figcaption></figure>
 
 _Ces propos ont été recueillis auprès de la direction eau et assainissement de la communauté d'agglomération d'Epernay._
 

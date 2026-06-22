@@ -27,13 +27,13 @@ Un compte utilisateur vous permet de :
 🔐 Pour des raisons de sécurité, il est recommandé d’utiliser un **compte nominatif** (évitez les comptes partagés).
 {% endhint %}
 
-1. Dans le menu, cliquez sur <img src="../.gitbook/assets/image (38).png" alt="" data-size="line">en haut à droite
+1. Dans le menu, cliquez sur <img src="../../.gitbook/assets/image (38).png" alt="" data-size="line">en haut à droite
 2. Renseignez votre **prénom**, **nom** et **adresse e-mail** ;
 3. Choisissez un **mot de passe** et confirmez-le ;
 4. Acceptez les **conditions générales d’utilisation** ;
 5. Cliquez sur **« S’enregistrer »**.
 
-Vous pouvez également vous créer un compte via [ProConnect](https://www.proconnect.gouv.fr/) <img src="../.gitbook/assets/image (39).png" alt="" data-size="line"> l'accès pour les pros, validées par l'État qui peut être utilisé par tous les professionnels du public comme du privé.&#x20;
+Vous pouvez également vous créer un compte via [ProConnect](https://www.proconnect.gouv.fr/) <img src="../../.gitbook/assets/image (39).png" alt="" data-size="line"> l'accès pour les pros, validées par l'État qui peut être utilisé par tous les professionnels du public comme du privé.
 
 Une fois ce formulaire rempli :
 
@@ -41,6 +41,6 @@ Une fois ce formulaire rempli :
 * Rendez-vous dans votre boîte de réception (vérifiez vos spams si besoin) ;
 * Ouvrez l’e-mail envoyé par `no-reply@data.gouv.fr` et cliquez sur **« Confirmer maintenant »**.
 
-Vous serez alors redirigé vers la page d’accueil, connecté à votre compte utilisateur.&#x20;
+Vous serez alors redirigé vers la page d’accueil, connecté à votre compte utilisateur.
 
 Vous pouvez maintenant commencer à publier, commenter ou rejoindre une organisation ! :white\_check\_mark:

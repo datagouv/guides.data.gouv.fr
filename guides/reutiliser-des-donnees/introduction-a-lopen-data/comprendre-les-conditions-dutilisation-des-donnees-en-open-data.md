@@ -6,9 +6,9 @@ metaLinks:
 
 # Comprendre les conditions d'utilisation des données en open data
 
-La réutilisation des données ouvertes est **libre** **et gratuite.** S’il est permis une grande liberté d’utilisation, les réutilisateurs de données ont néanmoins **des droits et des obligations**.&#x20;
+La réutilisation des données ouvertes est **libre** **et gratuite.** S’il est permis une grande liberté d’utilisation, les réutilisateurs de données ont néanmoins **des droits et des obligations**.
 
-**Les conditions d'utilisation des données ouvertes sont détaillées ici :**&#x20;
+**Les conditions d'utilisation des données ouvertes sont détaillées ici :**
 
 {% content-ref url="../../guide-juridique/reutilisateurs-de-donnees/respecter-les-conditions-de-reutilisation.md" %}
 [respecter-les-conditions-de-reutilisation.md](../../guide-juridique/reutilisateurs-de-donnees/respecter-les-conditions-de-reutilisation.md)
@@ -20,9 +20,9 @@ De façon générale, les droits et obligations des réutilisateurs de données 
 **Licence** : Document qui précise les droits et les devoirs des producteurs et réutilisateurs de données.
 {% endhint %}
 
-Sur [data.gouv.fr](http://data.gouv.fr), la licence est indiquée et disponible sur la page du jeu de données :&#x20;
+Sur [data.gouv.fr](http://data.gouv.fr), la licence est indiquée et disponible sur la page du jeu de données :
 
-<figure><img src="../../.gitbook/assets/Bandeaux-[copy].gif" alt=""><figcaption><p>Trouver la licence sur une page de jeu de données</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Bandeaux-[copy] (1).gif" alt=""><figcaption><p>Trouver la licence sur une page de jeu de données</p></figcaption></figure>
 
 Les licences les plus courantes sont [la Licence ouverte 2.0 - Licence Etalab](https://www.etalab.gouv.fr/licence-ouverte-open-licence/) et la Licence ODbL.
 

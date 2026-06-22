@@ -28,9 +28,9 @@ Voici une liste non exhaustive de référentiels sur lesquels il est possible de
 
 ### Le service public de la donnée <a href="#le-service-public-de-la-donnee" id="le-service-public-de-la-donnee"></a>
 
-Le [service public de la donnée (SPD)](https://www.data.gouv.fr/fr/pages/spd/reference/) vise à mettre à disposition avec un haut niveau de qualité les jeux de données de référence qui présentent un fort impact économique et social.&#x20;
+Le [service public de la donnée (SPD)](https://www.data.gouv.fr/fr/pages/spd/reference/) vise à mettre à disposition avec un haut niveau de qualité les jeux de données de référence qui présentent un fort impact économique et social.
 
-À ce jour, 9 jeux de données ont été identifiés comme des données de référence :&#x20;
+À ce jour, 9 jeux de données ont été identifiés comme des données de référence :
 
 | Nom du jeu de données                                                                                                                                                                             | Variable(s) pivot(s) | Description                                                                                                                                                                       | Producteur                                                                                                                   |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
@@ -58,9 +58,9 @@ Des jeux de données standardisées et communément partagées avec le plus gran
 
 **Référentiels techniques**
 
-Les référentiels techniques n'ont pas de significations métiers mais ils permettent de décrire une donnée de manière standardisée. Ces standards permettent aux utilisateurs et aux algorithmes de pouvoir interpréter automatiquement la donnée de manière correcte.&#x20;
+Les référentiels techniques n'ont pas de significations métiers mais ils permettent de décrire une donnée de manière standardisée. Ces standards permettent aux utilisateurs et aux algorithmes de pouvoir interpréter automatiquement la donnée de manière correcte.
 
-Voici deux exemples de référentiels techniques :&#x20;
+Voici deux exemples de référentiels techniques :
 
 | Nom du référentiel | Description                                        | Information                                         |
 | ------------------ | -------------------------------------------------- | --------------------------------------------------- |
@@ -91,9 +91,9 @@ La mise en place de référentiels fait partie d'une stratégie de montée en qu
 
 ## Comment intégrer des adresses dans un jeu de données ? <a href="#le-cas-specifique-des-adresses" id="le-cas-specifique-des-adresses"></a>
 
-Il existe des référentiels pour décrire une adresse de manière unique.&#x20;
+Il existe des référentiels pour décrire une adresse de manière unique.
 
-Le référentiel officiel d'adresse est la [**Base Adresse Nationale (ou BAN)**](https://www.data.gouv.fr/fr/datasets/base-adresse-nationale/).&#x20;
+Le référentiel officiel d'adresse est la [**Base Adresse Nationale (ou BAN)**](https://www.data.gouv.fr/fr/datasets/base-adresse-nationale/).
 
 * Si vous partez de zéro pour constituer un jeu de données --> il est pertinent de partir de la Base Adresse Nationale pour décrire vos adresses.
 * Si vous travaillez sur un jeu de données qui contient déjà des adresses saisies --> il peut s'avérer fastidieux de corriger manuellement l'ensemble des adresses erronées et vous pouvez obtenir une base d'adresse normalisée grâce à la méthode décrite ci-dessous.
@@ -103,7 +103,7 @@ Le référentiel officiel d'adresse est la [**Base Adresse Nationale (ou BAN)**]
 {% hint style="info" %}
 **Lexique : Géocodage**
 
-Le géocodage consiste à affecter des coordonnées géographiques à une adresse postale.&#x20;
+Le géocodage consiste à affecter des coordonnées géographiques à une adresse postale.
 {% endhint %}
 
 Le géocodage peut être en partie automatisé grâce à des outils proposés par Etalab.
@@ -115,9 +115,9 @@ Il permet aussi, à partir d'un jeu de données contenant des adresses déjà sa
 * de coordonnées géographiques (longitude/latitude) ;
 * des adresses « corrigées » récupérées de la BAN.
 
-Le site [adresse.data.gouv.fr](https://adresse.data.gouv.fr/) est limité à des utilisations ponctuelles et des volumétries de données considérées faibles (moins d'un million de lignes).&#x20;
+Le site [adresse.data.gouv.fr](https://adresse.data.gouv.fr/) est limité à des utilisations ponctuelles et des volumétries de données considérées faibles (moins d'un million de lignes).
 
-<figure><img src="../../.gitbook/assets/Capture d’écran 2023-04-28 à 16.24.45.png" alt=""><figcaption><p>Page d'accueil d'adresse.data.gouv.fr</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Capture d’écran 2023-04-28 à 16.24.45 (1).png" alt=""><figcaption><p>Page d'accueil d'adresse.data.gouv.fr</p></figcaption></figure>
 
 Pour géocoder davantage de données (plusieurs millions de lignes), il est recommandé d'installer votre propre environnement de géocodage, en utilisant par exemple le géocodeur [Addok](https://addok.readthedocs.io/fr/latest/). Des ressources sont disponibles sur [GitHub](https://github.com/etalab/addok-docker) pour vous aider dans l'installation de votre environnement.
 

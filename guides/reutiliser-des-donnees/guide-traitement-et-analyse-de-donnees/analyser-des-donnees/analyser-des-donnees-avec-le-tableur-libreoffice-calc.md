@@ -18,7 +18,7 @@ _Source : LibreOffice_
 
 L’équipe de [data.gouv.fr](http://data.gouv.fr) propose un parcours d’initiation pour apprendre à utiliser LibreOffice Calc, qui repose sur [la documentation de LibreOffice](https://wiki.documentfoundation.org/FR/Documentation/Publications).
 
-**Objectif :** Connaître les concepts et outils de base d’un tableur comme LibreOffice Calc pour réaliser des opérations de traitement et d’analyse de données. Vous pourrez analyser des données avec Excel de la même manière. \
+**Objectif :** Connaître les concepts et outils de base d’un tableur comme LibreOffice Calc pour réaliser des opérations de traitement et d’analyse de données. Vous pourrez analyser des données avec Excel de la même manière.\
 \
 **Cible :** Tout public, sans aucun pré-requis de connaissances.
 
@@ -31,16 +31,16 @@ L’équipe de [data.gouv.fr](http://data.gouv.fr) propose un parcours d’initi
 <summary>Prendre en main LibreOffice Calc</summary>
 
 1. **Se familiariser avec le vocabulaire du tableur**\
-   Un tableur comme LibreOffice Calc s’articule autour des objets suivants : classeur, feuille, colonne, ligne, cellule, etc. \
+   Un tableur comme LibreOffice Calc s’articule autour des objets suivants : classeur, feuille, colonne, ligne, cellule, etc.\
    \
    Pour en savoir plus, consulter :\
-   [“Classeurs, feuilles de calcul et cellules”, p.1](https://wiki.documentfoundation.org/images/8/8c/CG6401FR-Introduction.pdf) <br>
-2. **Ouvrir un fichier** \
-   Un tableur comme Libre Office Calc permet d’ouvrir et de manipuler des données tabulaires (csv, etc.). \
+   [“Classeurs, feuilles de calcul et cellules”, p.1](https://wiki.documentfoundation.org/images/8/8c/CG6401FR-Introduction.pdf)<br>
+2. **Ouvrir un fichier**\
+   Un tableur comme Libre Office Calc permet d’ouvrir et de manipuler des données tabulaires (csv, etc.).\
    \
    Pour en savoir plus, consulter :\
-   [“Ouverture des fichiers CSV”, p.9-11](https://wiki.documentfoundation.org/images/8/8c/CG6401FR-Introduction.pdf) <br>
-3. **Se repérer et naviguer dans une feuille de calcul** \
+   [“Ouverture des fichiers CSV”, p.9-11](https://wiki.documentfoundation.org/images/8/8c/CG6401FR-Introduction.pdf)<br>
+3. **Se repérer et naviguer dans une feuille de calcul**\
    \
    Pour en savoir plus, consulter :\
    [“Sélectionner des éléments dans un classeur, p.18-21](https://wiki.documentfoundation.org/images/8/8c/CG6401FR-Introduction.pdf)
@@ -52,7 +52,7 @@ L’équipe de [data.gouv.fr](http://data.gouv.fr) propose un parcours d’initi
 <summary>Manipuler des données</summary>
 
 1. **Saisir et modifier des données**\
-   Dans un tableur, il est possible d’entrer et de modifier les données présentes dans les cellules. \
+   Dans un tableur, il est possible d’entrer et de modifier les données présentes dans les cellules.\
    \
    Pour en savoir plus, consulter :\
    [“Saisir des données”, p.1 à 4](https://wiki.documentfoundation.org/images/8/89/CG6402FR-SaisieDonnees.pdf)\
@@ -74,9 +74,9 @@ L’équipe de [data.gouv.fr](http://data.gouv.fr) propose un parcours d’initi
    Dans un tableur, il est possible de trier les données pour modifier la disposition des cellules dans la feuille. Le tri des données peut se faire selon plusieurs critères, par exemple dans l’ordre croissant ou décroissant.\
    \
    Pour en savoir plus, consulter :\
-   [“Trier les enregistrements”, p.48-51 ](https://wiki.documentfoundation.org/images/8/89/CG6402FR-SaisieDonnees.pdf)<br>
+   [“Trier les enregistrements”, p.48-51](https://wiki.documentfoundation.org/images/8/89/CG6402FR-SaisieDonnees.pdf)<br>
 5. **Filtrer des données**\
-   Dans un tableur, il est possible de filtrer les données : sélectionner et afficher des lignes spécifiques en fonction de critères. \
+   Dans un tableur, il est possible de filtrer les données : sélectionner et afficher des lignes spécifiques en fonction de critères.\
    \
    Pour en savoir plus, consulter :\
    [“Filtrer les enregistrements”, p.44-48](https://wiki.documentfoundation.org/images/8/89/CG6402FR-SaisieDonnees.pdf)
@@ -88,25 +88,25 @@ L’équipe de [data.gouv.fr](http://data.gouv.fr) propose un parcours d’initi
 <summary>Analyser des données</summary>
 
 1. **Réaliser des opérations mathématiques et statistiques sur des données**\
-   Un tableur présente comme intérêt principal celui de pouvoir réaliser des opérations mathématiques et statistiques sur les données. \
+   Un tableur présente comme intérêt principal celui de pouvoir réaliser des opérations mathématiques et statistiques sur les données.\
    \
-   **a. Entrer des formules et des calculs arithmétiques** \
+   **a. Entrer des formules et des calculs arithmétiques**\
    \
    Pour en savoir plus, consulter :\
-   &#x20;[“Créer des formules”, p.2-9](https://wiki.documentfoundation.org/images/6/64/CG6407FR-FormulesetFonctions.pdf)\
-   &#x20;[”Références relatives et absolues”, p.9-11](https://wiki.documentfoundation.org/images/6/64/CG6407FR-FormulesetFonctions.pdf) \
+   [“Créer des formules”, p.2-9](https://wiki.documentfoundation.org/images/6/64/CG6407FR-FormulesetFonctions.pdf)\
+   [”Références relatives et absolues”, p.9-11](https://wiki.documentfoundation.org/images/6/64/CG6407FR-FormulesetFonctions.pdf)\
    \
    **b. Utiliser des fonctions mathématiques**\
-   Un tableur fournit un grand nombre de fonctions intégrées permettant de réaliser facilement des opérations sur les données (calculer une somme, une moyenne, etc.). \
+   Un tableur fournit un grand nombre de fonctions intégrées permettant de réaliser facilement des opérations sur les données (calculer une somme, une moyenne, etc.).\
    \
    Pour en savoir plus, consulter :\
    [“Comprendre les fonctions”, p.17-18](https://wiki.documentfoundation.org/images/6/64/CG6407FR-FormulesetFonctions.pdf)\
    [“Comprendre la structure des fonctions”, p.19](https://wiki.documentfoundation.org/images/6/64/CG6407FR-FormulesetFonctions.pdf)\
-   [“Fonctions imbriquées”, p.20](https://wiki.documentfoundation.org/images/6/64/CG6407FR-FormulesetFonctions.pdf) \
+   [“Fonctions imbriquées”, p.20](https://wiki.documentfoundation.org/images/6/64/CG6407FR-FormulesetFonctions.pdf)\
    [“Utiliser la Liste de Fonctions”, p.20](https://wiki.documentfoundation.org/images/6/64/CG6407FR-FormulesetFonctions.pdf)\
-   [“Utiliser l’assistant Fonctions”, p.21-23](https://wiki.documentfoundation.org/images/6/64/CG6407FR-FormulesetFonctions.pdf) \
+   [“Utiliser l’assistant Fonctions”, p.21-23](https://wiki.documentfoundation.org/images/6/64/CG6407FR-FormulesetFonctions.pdf)\
    \
-   **Voici une liste (non exhaustive) de fonctions qui pourraient s’avérer utiles pour vos analyses** :&#x20;
+   **Voici une liste (non exhaustive) de fonctions qui pourraient s’avérer utiles pour vos analyses** :
 
 * SOMME : Renvoie la somme des nombres des arguments
 * SOMME. SI : Renvoie la somme des cellules qui répondent à un critère.
@@ -130,24 +130,24 @@ L’équipe de [data.gouv.fr](http://data.gouv.fr) propose un parcours d’initi
 Pour aller plus loin, vous pouvez vous référer à [la liste de toutes les fonctions disponibles dans LibreOffice Calc](https://wiki.documentfoundation.org/images/e/e3/CG6218FR-Fonctions.pdf)\
 \
 **c. Reproduire une formule**\
-Dans un tableur, il est souvent intéressant de reproduire une formule/fonction sur plusieurs cellules, et donc de ne pas avoir à la retaper de façon systématique.&#x20;
+Dans un tableur, il est souvent intéressant de reproduire une formule/fonction sur plusieurs cellules, et donc de ne pas avoir à la retaper de façon systématique.
 
-La marche à suivre est la suivante :&#x20;
+La marche à suivre est la suivante :
 
 * Placer son curseur dans le coin en bas à droite de la cellule qui contient la formule que l’on souhaite reproduire, de façon à ce que le curseur se transforme en croix noire (+) ;
-* Cliquer sur la croix noire, et faire glisser la formule jusqu’en bas du tableau : on ne relâche le clic qu’une fois la dernière cellule atteinte.&#x20;
+* Cliquer sur la croix noire, et faire glisser la formule jusqu’en bas du tableau : on ne relâche le clic qu’une fois la dernière cellule atteinte.
 
-2. **Utiliser une table dynamique** \
-   Dans un tableur, il est possible de créer une table dynamique : un tableau de synthèse créé à partir des données brutes. Elle regroupe les données selon plusieurs critères, et en donne une présentation sous différentes formes possibles (sommes, moyennes, comptages, etc.). \
+2. **Utiliser une table dynamique**\
+   Dans un tableur, il est possible de créer une table dynamique : un tableau de synthèse créé à partir des données brutes. Elle regroupe les données selon plusieurs critères, et en donne une présentation sous différentes formes possibles (sommes, moyennes, comptages, etc.).\
    \
-   **a. Créer une table dynamique** \
+   **a. Créer une table dynamique**\
    \
    Pour en savoir plus, consulter :\
-   [“Créer une table dynamique”, p.3](https://wiki.documentfoundation.org/images/e/ec/CG6408FR-Tabledynamique.pdf) \
+   [“Créer une table dynamique”, p.3](https://wiki.documentfoundation.org/images/e/ec/CG6408FR-Tabledynamique.pdf)\
    \
-   **b. Exploiter une table dynamique** \
+   **b. Exploiter une table dynamique**\
    \
-   Pour en savoir plus, consulter : \
+   Pour en savoir plus, consulter :\
    [“La boîte de dialogue “Mise en page de la table dynamique”, p.4-14](https://wiki.documentfoundation.org/images/e/ec/CG6408FR-Tabledynamique.pdf)\
    [“Manipuler les résultats de la table dynamique”, p.14-15](https://wiki.documentfoundation.org/images/e/ec/CG6408FR-Tabledynamique.pdf)\
    [“Trier le résultat”, p.19-21](https://wiki.documentfoundation.org/images/e/ec/CG6408FR-Tabledynamique.pdf)\
@@ -174,13 +174,13 @@ Dans un tableur, il est possible de créer facilement des représentations graph
 
 ## Pour aller plus loin
 
-Pour poursuivre son apprentissage, il est possible de consulter :&#x20;
+Pour poursuivre son apprentissage, il est possible de consulter :
 
-<table data-card-size="large" data-view="cards" data-full-width="false"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td>Utiliser les scénarios, la recherche de valeur cible, le solveur, les statistiques et autres outils.</td><td><img src="../../../.gitbook/assets/🎨 📁 Contenant technique (10).png" alt="" data-size="line"></td><td></td><td><a href="https://wiki.documentfoundation.org/images/9/9a/CG6409FR-AnalyseDonn%C3%A9es.pdf">https://wiki.documentfoundation.org/images/9/9a/CG6409FR-AnalyseDonn%C3%A9es.pdf</a></td><td><a href="../../../.gitbook/assets/Frame 25 (9).png">Frame 25 (9).png</a></td></tr><tr><td>Automatiser des tâches répétitives.</td><td><img src="../../../.gitbook/assets/🎨 📁 Contenant technique (11).png" alt="" data-size="line"></td><td></td><td><a href="https://wiki.documentfoundation.org/images/7/78/CG6412FR-Macros.pdf">https://wiki.documentfoundation.org/images/7/78/CG6412FR-Macros.pdf</a></td><td><a href="../../../.gitbook/assets/Frame 25 (1) (4).png">Frame 25 (1) (4).png</a></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards" data-full-width="false"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td>Utiliser les scénarios, la recherche de valeur cible, le solveur, les statistiques et autres outils.</td><td><img src="../../../../.gitbook/assets/🎨 📁 Contenant technique (10).png" alt="" data-size="line"></td><td></td><td><a href="https://wiki.documentfoundation.org/images/9/9a/CG6409FR-AnalyseDonn%C3%A9es.pdf">https://wiki.documentfoundation.org/images/9/9a/CG6409FR-AnalyseDonn%C3%A9es.pdf</a></td><td><a href="../../../../.gitbook/assets/Frame 25 (9) (1).png">Frame 25 (9) (1).png</a></td></tr><tr><td>Automatiser des tâches répétitives.</td><td><img src="../../../../.gitbook/assets/🎨 📁 Contenant technique (11).png" alt="" data-size="line"></td><td></td><td><a href="https://wiki.documentfoundation.org/images/7/78/CG6412FR-Macros.pdf">https://wiki.documentfoundation.org/images/7/78/CG6412FR-Macros.pdf</a></td><td><a href="../../../../.gitbook/assets/Frame 25 (1) (4) (1).png">Frame 25 (1) (4) (1).png</a></td></tr></tbody></table>
 
 ## Autres ressources pédagogiques
 
-Voici un catalogue (non exhaustif) d'autres ressources pédagogiques pour apprendre à utiliser LibreOffice Calc :&#x20;
+Voici un catalogue (non exhaustif) d'autres ressources pédagogiques pour apprendre à utiliser LibreOffice Calc :
 
 <details>
 
@@ -219,5 +219,5 @@ Voici un catalogue (non exhaustif) d'autres ressources pédagogiques pour appren
 
 {% hint style="success" %}
 **Ce guide est ouvert aux contributions**.\
-💌 Vous avez des idées d'autres ressources pédagogiques sur l'utilisation de LibreOffice Calc que nous pourrions référencer ici ? [Faites-nous en part dans ce formulaire](https://tally.so/r/wgZz4l).&#x20;
+💌 Vous avez des idées d'autres ressources pédagogiques sur l'utilisation de LibreOffice Calc que nous pourrions référencer ici ? [Faites-nous en part dans ce formulaire](https://tally.so/r/wgZz4l).
 {% endhint %}

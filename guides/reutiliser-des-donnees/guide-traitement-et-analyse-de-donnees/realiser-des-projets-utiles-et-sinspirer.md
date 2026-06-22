@@ -14,13 +14,13 @@ La communauté open data et l’équipe de [data.gouv.fr](http://data.gouv.fr) v
 
 {% embed url="https://defis.data.gouv.fr/" %}
 
-<figure><img src="../../.gitbook/assets/Aug-27-2024 09-31-17 (1).gif" alt=""><figcaption><p>Aperçu de defis.data.gouv.fr</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Aug-27-2024 09-31-17 (1) (2).gif" alt=""><figcaption><p>Aperçu de defis.data.gouv.fr</p></figcaption></figure>
 
-## Trouver des inspirations&#x20;
+## Trouver des inspirations
 
-Vous souhaitez exploiter des données ouvertes, mais vous n’avez pas encore précisé de cas d’usage.&#x20;
+Vous souhaitez exploiter des données ouvertes, mais vous n’avez pas encore précisé de cas d’usage.
 
-Il est possible de trouver des inspirations parmi les usages qui ont déjà été développés, comme :&#x20;
+Il est possible de trouver des inspirations parmi les usages qui ont déjà été développés, comme :
 
 <table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Connaître le prix de vente des biens immobiliers</strong></td><td></td><td></td><td><a href="https://www.data.gouv.fr/fr/pages/onboarding/dvf/">https://www.data.gouv.fr/fr/pages/onboarding/dvf/</a></td></tr><tr><td><strong>Gérer simplement une exploitation agricole</strong></td><td></td><td></td><td><a href="https://www.data.gouv.fr/fr/pages/onboarding/ekylibre/">https://www.data.gouv.fr/fr/pages/onboarding/ekylibre/</a></td></tr><tr><td><strong>Réaliser l’état des risques d’un bien immobilier</strong></td><td></td><td></td><td><a href="https://www.data.gouv.fr/fr/pages/onboarding/errial/">https://www.data.gouv.fr/fr/pages/onboarding/errial/</a></td></tr><tr><td><strong>Estimer les ressources florales autour des ruches</strong></td><td></td><td></td><td><a href="https://www.data.gouv.fr/fr/pages/onboarding/beegis/">https://www.data.gouv.fr/fr/pages/onboarding/beegis/</a></td></tr><tr><td><strong>Retrouver facilement les informations sur les entreprises</strong></td><td></td><td></td><td><a href="https://www.data.gouv.fr/fr/pages/onboarding/annuaire-des-entreprises/">https://www.data.gouv.fr/fr/pages/onboarding/annuaire-des-entreprises/</a></td></tr><tr><td><strong>Connaître le patrimoine arboré des communes</strong></td><td></td><td></td><td><a href="https://www.data.gouv.fr/fr/pages/onboarding/nos_villes_vertes/">https://www.data.gouv.fr/fr/pages/onboarding/nos_villes_vertes/</a></td></tr><tr><td><strong>Suivre l’évolution du prix et de la disponibilité des carburants</strong></td><td></td><td></td><td><a href="https://www.data.gouv.fr/fr/pages/onboarding/prix_carburant/">https://www.data.gouv.fr/fr/pages/onboarding/prix_carburant/</a></td></tr><tr><td><strong>Eclairer les choix d’orientation scolaire</strong></td><td></td><td></td><td><a href="https://www.data.gouv.fr/fr/pages/onboarding/suptracker/">https://www.data.gouv.fr/fr/pages/onboarding/suptracker/</a></td></tr><tr><td><strong>Connaître l’environnement associé à un lieu</strong></td><td></td><td></td><td><a href="https://www.data.gouv.fr/fr/pages/onboarding/aux-alentours-par-maif/">https://www.data.gouv.fr/fr/pages/onboarding/aux-alentours-par-maif/</a></td></tr></tbody></table>
 
@@ -36,7 +36,7 @@ Ces exemples ne représentent qu’une infime partie de ce qu’il est possible 
 
 ## Autres exercices
 
-D’autres exercices sont proposés ci-dessous :&#x20;
+D’autres exercices sont proposés ci-dessous :
 
 <details>
 

@@ -66,7 +66,7 @@ Il existe une interface graphique pour envoyer des fichiers CSV sur [https://adr
 
 Pour tester, téléchargeons [le fichier exemple](https://gist.githubusercontent.com/ThomasG77/32329a8557135f11cb5656e3bfd4d35c/raw/9bd7883be31d2c9758d4393d72e9dc1ae4c5bed3/annuaire-des-debits-de-tabac-2018-utf8-20lines.csv) puis suivez l'exemple en utilisant le GIF animé ci-dessous.
 
-![](../../../.gitbook/assets/geocodage-csv-manuel.gif)
+![](<../../../../.gitbook/assets/geocodage-csv-manuel (1).gif>)
 
 Pour réaliser un géocodage massif, il faut généralement vérifier le formatage de votre CSV.
 

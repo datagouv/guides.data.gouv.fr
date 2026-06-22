@@ -13,9 +13,9 @@ Un score de qualité des métadonnées a été mis en place sur data.gouv.fr pou
 
 Grâce à ce score de qualité des métadonnées, **il est possible d'identifier les axes sur lesquels travailler pour améliorer la qualité de vos données**.
 
-<figure><img src="../../.gitbook/assets/Apr-28-2023 16-33-08.gif" alt=""><figcaption><p>Exemple de score de qualité des métadonnées</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Apr-28-2023 16-33-08 (1).gif" alt=""><figcaption><p>Exemple de score de qualité des métadonnées</p></figcaption></figure>
 
-🧭 Les critères sont les suivants :&#x20;
+🧭 Les critères sont les suivants :
 
 | Critère                    | Description                                                                                                                                                                       |
 | -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -27,7 +27,7 @@ Grâce à ce score de qualité des métadonnées, **il est possible d'identifier
 | Couverture spatiale        | <p>- La couverture spatiale est renseignée.<br>- La granularité spatiale est renseignée.</p>                                                                                      |
 | Couverture temporelle      | La couverture temporelle des données est renseignée.                                                                                                                              |
 
-Ce score est encore en phase d’expérimentation :&#x20;
+Ce score est encore en phase d’expérimentation :
 
-* Le poids de chaque critère sera ajusté en fonction de [vos retours](https://support.data.gouv.fr/) ;&#x20;
+* Le poids de chaque critère sera ajusté en fonction de [vos retours](https://support.data.gouv.fr/) ;
 * De nouveaux critères seront ajoutés progressivement notamment pour intégrer la notion de schéma de données.
