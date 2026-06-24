@@ -57,7 +57,10 @@ Content-Type: application/json
 {
   "public_market": {
     "name": "Fourniture de matériel informatique pour les services municipaux",
-    "lot_name": "Lot 1 - Ordinateurs portables et stations de travail",
+    "lots": [
+      {"name": "Lot 1 - Ordinateurs portables et stations de travail", "cpv_code": "30213100-6", "lot_type_code": "supplies"},
+      {"name": "Lot 2 - Serveurs et infrastructure réseau", "lot_type_code": "services"}
+    ],
     "deadline": "2024-06-15T23:59:59Z",
     "siret": "13002526500013",
     "market_type_codes": ["supplies", "services"]
@@ -73,7 +76,15 @@ Content-Type: application/json
 | `deadline`          | datetime | Date limite de candidature       | Requis, format ISO 8601                         |
 | `siret`             | string   | SIRET de l'organisation publique | Requis, exactement 14 chiffres, validation Luhn |
 | `market_type_codes` | array    | Types de marché                  | Requis, minimum 1 élément                       |
-| `lot_name`          | string   | Nom du lot spécifique            | Optionnel, max 255 caractères                   |
+| `lots`              | array    | Liste des lots du marché         | Optionnel, chaque lot requiert un `name`        |
+
+**Propriétés d'un lot**
+
+| Champ           | Type   | Requis | Description           | Contraintes                                                                        |
+| --------------- | ------ | ------ | --------------------- | ---------------------------------------------------------------------------------- |
+| `name`          | string | Oui    | Nom du lot            | Max 255 caractères                                                                 |
+| `cpv_code`      | string | Non    | Code CPV du lot       | Format `XXXXXXXX-X` (8 chiffres, tiret, 1 chiffre)                                |
+| `lot_type_code` | string | Non    | Type de marché du lot | `supplies`, `services`, `works` — si absent, hérite du premier `market_type_codes` |
 
 #### Codes de Types de Marché
 
@@ -147,6 +158,24 @@ Une fois le marché créé, la plateforme de marchés publics redirige l'acheteu
 
 **Note** : Le SIRET de l'organisation publique est requis pour la conformité avec l'API Entreprise
 
+#### Étape 1b : Configuration des types de lots (marché hétérogène)
+
+Pour les marchés comportant plusieurs lots, l'acheteur peut affiner le type de marché par lot via l'interface. L'éditeur peut aussi pré-renseigner un type par lot à la création (champ `market_type_code` non supporté côté API — le type par lot est défini uniquement via l'interface acheteur).
+
+**Endpoint de modification des types de lots**
+
+`PATCH /buyer/public_markets/{identifier}/lots`
+
+| Paramètre        | Type    | Description                              |
+| ---------------- | ------- | ---------------------------------------- |
+| `market_type_id` | integer | ID interne du type de marché à appliquer |
+| `lot_ids[]`      | array   | IDs des lots à modifier                  |
+
+**Comportement** :
+* Si le type sélectionné est identique au `platform_market_type` du lot (type transmis par l'éditeur à la création), l'override est annulé et le lot reprend le type de la plateforme.
+* Chaque lot conserve deux types distincts : `platform_market_type` (source éditeur, non modifiable) et `market_type` (override acheteur, optionnel).
+* Le type effectif (`effective_market_type`) est `market_type` s'il est défini, sinon `platform_market_type`.
+
 #### Étape 2 : Champs Obligatoires
 
 * **URL** : `/buyer/public_markets/{identifier}/required_fields`
@@ -209,7 +238,10 @@ Le webhook est automatiquement déclenché lors de la finalisation du marché et
   "market": {
     "identifier": "VR-2024-A1B2C3D4E5F6",
     "name": "Fourniture de matériel informatique pour les services municipaux",
-    "lot_name": "Lot 1 - Ordinateurs portables et stations de travail",
+    "lots": [
+      {"id": 1, "name": "Lot 1 - Ordinateurs portables et stations de travail", "cpv_code": "30213100-6", "market_type_code": "supplies"},
+      {"id": 2, "name": "Lot 2 - Serveurs et infrastructure réseau", "market_type_code": "services"}
+    ],
     "deadline": "2024-06-15T23:59:59Z",
     "market_type_codes": ["supplies", "services"],
     "completed_at": "2024-06-15T14:30:45Z",
@@ -227,13 +259,14 @@ Le webhook est automatiquement déclenché lors de la finalisation du marché et
 
 #### Paramètres du Payload
 
-| Champ                 | Description                           |
-| --------------------- | ------------------------------------- |
-| `event`               | Type d'événement (`market.completed`) |
-| `timestamp`           | Horodatage ISO 8601 de l'événement    |
-| `market.identifier`   | Identifiant unique du marché          |
-| `market.field_keys`   | Liste des clés des champs configurés  |
-| `market.completed_at` | Date/heure de complétion              |
+| Champ                 | Description                                                                                                                                  |
+| --------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| `event`               | Type d'événement (`market.completed`)                                                                                                        |
+| `timestamp`           | Horodatage ISO 8601 de l'événement                                                                                                           |
+| `market.identifier`   | Identifiant unique du marché                                                                                                                 |
+| `market.lots`         | Liste des lots triés par position (`id`, `name`, `cpv_code`, `market_type_code`) — `cpv_code` et `market_type_code` absents si non renseignés |
+| `market.field_keys`   | Liste des clés des champs configurés                                                                                                         |
+| `market.completed_at` | Date/heure de complétion                                                                                                                     |
 
 #### Sécurité du Webhook
 
