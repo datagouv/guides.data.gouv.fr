@@ -156,7 +156,10 @@ Content-Type: application/json
 {
   "public_market": {
     "name": "Fourniture de matériel informatique",
-    "lot_name": "Lot 1 - Ordinateurs portables",
+    "lots": [
+      {"name": "Lot 1 - Ordinateurs portables", "cpv_code": "30213100-6", "lot_type_code": "supplies"},
+      {"name": "Lot 2 - Serveurs et infrastructure", "lot_type_code": "services"}
+    ],
     "deadline": "2024-12-31T23:59:59Z",
     "siret": "13002526500013",
     "market_type_codes": ["supplies", "services"],
@@ -173,8 +176,16 @@ Content-Type: application/json
 | `deadline`          | datetime | Oui    | Date limite candidature                                         | Format ISO 8601, futur            |
 | `siret`             | string   | Oui    | SIRET de l'organisation publique (14 chiffres, validation Luhn) | Exactement 14 chiffres numériques |
 | `market_type_codes` | array    | Oui    | Types de marché                                                 | Au moins 1 élément                |
-| `lot_name`          | string   | Non    | Nom du lot spécifique                                           | Max 255 caractères                |
+| `lots`              | array    | Non    | Liste des lots du marché                                        | Chaque lot requiert un `name`     |
 | `provider_user_id`  | string   | Non    | Identifiant de l'utilisateur côté éditeur (acheteur)            | Max 255 caractères                |
+
+**Propriétés d'un lot**
+
+| Champ           | Type   | Requis | Description           | Contraintes                                                                        |
+| --------------- | ------ | ------ | --------------------- | ---------------------------------------------------------------------------------- |
+| `name`          | string | Oui    | Nom du lot            | Max 255 caractères                                                                 |
+| `cpv_code`      | string | Non    | Code CPV du lot       | Format `XXXXXXXX-X` (8 chiffres, tiret, 1 chiffre)                                |
+| `lot_type_code` | string | Non    | Type de marché du lot | `supplies`, `services`, `works` — si absent, hérite du premier `market_type_codes` |
 
 **Types de Marché Valides**
 
@@ -224,6 +235,70 @@ Content-Type: application/json
 {
   "errors": {
     "siret": ["Le numéro de SIRET saisi est invalide ou non reconnu"]
+  }
+}
+```
+
+#### Mettre à jour la DLRO d'un Marché
+
+Mise à jour de la date limite de remise des offres (DLRO) d'un marché existant. Chaque modification est historisée (ancienne valeur, nouvelle valeur, horodatage).
+
+**`PATCH /api/v1/public_markets/{identifier}`**
+
+**En-têtes** :
+
+```http
+Authorization: Bearer {access_token}
+Content-Type: application/json
+```
+
+**Paramètres de chemin**
+
+| Paramètre    | Type   | Description                                   |
+| ------------ | ------ | --------------------------------------------- |
+| `identifier` | string | Identifiant du marché (format VR-YYYY-XXXXXX) |
+
+**Corps de Requête** :
+
+```json
+{
+  "public_market": {
+    "deadline": "2025-03-31T17:00:00Z"
+  }
+}
+```
+
+**Paramètres**
+
+| Champ      | Type     | Requis | Description          | Contraintes     |
+| ---------- | -------- | ------ | -------------------- | --------------- |
+| `deadline` | datetime | Oui    | Nouvelle date limite | Format ISO 8601 |
+
+**Réponse de Succès (200)**
+
+```json
+{
+  "identifier": "VR-2024-A1B2C3D4E5F6",
+  "deadline": "2025-03-31T17:00:00Z"
+}
+```
+
+**Réponses d'Erreur**
+
+**404 - Marché non trouvé ou n'appartient pas à l'éditeur** :
+
+```json
+{
+  "error": "Resource not found"
+}
+```
+
+**422 - Deadline manquante** :
+
+```json
+{
+  "errors": {
+    "deadline": ["doit être rempli(e)"]
   }
 }
 ```
