@@ -38,5 +38,5 @@
   * [User stories](le-projet/user-stories.md)
   * [Développement en cours et à venir](le-projet/developpement-en-cours-et-a-venir.md)
   * [Actualités](le-projet/actualites.md)
-* [Faire un retour](faire-un-retour.md)
+* [Question ou retour ?](faire-un-retour.md)
 * [Lettre d'information](lettre-dinformation.md)
