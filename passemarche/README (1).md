@@ -39,7 +39,8 @@ Faciliter l'accès des PME aux marchés publics français en :
 
 * Validation automatique des numéros SIRET
 * Récupération des informations d'entreprise
-* Vérification de l'éligibilité
+
+
 
 ### 🎨 Interface gouvernementale
 
