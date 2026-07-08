@@ -6,7 +6,7 @@ description: Retrouvez nos actualités des derniers mois
 
 #### **\[11 juin 2026] - Recherche unifiée**
 
-<figure><img src="../.gitbook/assets/NL4_recherche_unifiee_bordure (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/NL4_recherche_unifiee_bordure.png" alt=""><figcaption></figcaption></figure>
 
 Les tests utilisateurs ont montré qu'il était difficile de naviguer entre les jeux de données, indicateurs, API et collections sur [_ecologie_.**data.gouv**._fr_](https://ecologie.data.gouv.fr/). Les onglets actuels obligent à des allers-retours fréquents et compliquent la recherche d'information.
 
@@ -80,7 +80,7 @@ L’équipe [_ecologie_.**data.gouv**._fr_](http://ecologie.data.gouv.fr) est à
 
 \[[En savoir sur cette fonctionnalité](https://guides.data.gouv.fr/guides-de-data.gouv.fr/ecologie.data.gouv.fr/ecologie.data.gouv.fr/bouquets/ouvrir-dans-qgis)]
 
-<figure><img src="../.gitbook/assets/Design sans titre (3) (1).png" alt=""><figcaption><p>Exemple d'utilisation de la nouvelle fonctionnalité d'ouverture dans QGIS</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Design sans titre (3).png" alt=""><figcaption><p>Exemple d'utilisation de la nouvelle fonctionnalité d'ouverture dans QGIS</p></figcaption></figure>
 
 #### \[2 mars 2026] - **Enrichissement des points de contact des indicateurs :**
 

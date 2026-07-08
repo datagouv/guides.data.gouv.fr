@@ -9,8 +9,8 @@ icon: house-day
 {% embed url="https://youtu.be/Q_ERGD2lDGc?si=nk7Cm4j0JeICw5BS" %}
 
 * Connectez-vous à votre compte ;
-* Cliquez sur <img src="../.gitbook/assets/image (1) (2).png" alt="" data-size="line"> en haut à droite de votre écran ;
-* Cliquez sur, <img src="../.gitbook/assets/image (43) (1).png" alt="" data-size="line">dans le menu latéral de votre organisation ;
+* Cliquez sur <img src="../../.gitbook/assets/image (1).png" alt="" data-size="line"> en haut à droite de votre écran ;
+* Cliquez sur, <img src="../../.gitbook/assets/image (43).png" alt="" data-size="line">dans le menu latéral de votre organisation ;
 * Vous pouvez mettre à jour les informations relatives à votre organisation.
 
 \
@@ -49,6 +49,6 @@ Cette action est réservée aux administrateurs.
 {% endhint %}
 
 1. Connectez-vous à votre compte ;
-2. Cliquez sur <img src="../.gitbook/assets/image (1) (2).png" alt="" data-size="line"> en haut à droite de votre écran ;
-3. Cliquez sur, <img src="../.gitbook/assets/image (43) (1).png" alt="" data-size="line">dans le menu latéral de votre organisation ;
+2. Cliquez sur <img src="../../.gitbook/assets/image (1).png" alt="" data-size="line"> en haut à droite de votre écran ;
+3. Cliquez sur, <img src="../../.gitbook/assets/image (43).png" alt="" data-size="line">dans le menu latéral de votre organisation ;
 4. Descendez en bas de page pour voir le bandeau dédié.
