@@ -1,5 +1,5 @@
 ---
-cover: ../../.gitbook/assets/Bandereau88 (1).png
+cover: ../.gitbook/assets/Bandereau88 (1) (1).png
 coverY: 0
 ---
 
@@ -99,7 +99,7 @@ Pour identifier quand une évolution est nécessaire, il est utile d’assurer u
 
 <summary>Le standard Accessibilité</summary>
 
-<img src="../../.gitbook/assets/2019-06-07_11_25_05-03_lsaby_le_programme_ville_accessible_a_tous_vat_du_cerema.pdf_-_opera_-_copie (1).png" alt="logo &#x22;Ville accessible à tous&#x22;" data-size="original">
+<img src="../.gitbook/assets/2019-06-07_11_25_05-03_lsaby_le_programme_ville_accessible_a_tous_vat_du_cerema.pdf_-_opera_-_copie (1) (1).png" alt="logo &#x22;Ville accessible à tous&#x22;" data-size="original">
 
 _Ces propos ont été recueillis auprès des animateurs du GT Accessibilité_
 
@@ -148,7 +148,7 @@ Le déploiement se fait au rythme d’amélioration de la maturité des outils e
 
 <summary>Le standard GraceTHD</summary>
 
-![](<../../.gitbook/assets/image (35) (1).png>)
+![](<../.gitbook/assets/image (35) (1).png>)
 
 _Ces propos ont été recueillis auprès des animateurs de l'entreprise Dotic._
 
@@ -212,7 +212,7 @@ En complément, nous avons utilisé les outils suivants que nous recommandons :
 
 <summary>Le standard Récostar (StarElec)</summary>
 
-<img src="../../.gitbook/assets/image (1) (4) (1).png" alt="" data-size="original">
+<img src="../.gitbook/assets/image (1) (4) (1).png" alt="" data-size="original">
 
 _Ces propos ont été recueillis auprès de l'entreprise Sogelink_
 
@@ -236,7 +236,7 @@ Nous recommanderions aux nouveaux groupes de travail :
 
 <summary>Le standard StaR-Eau</summary>
 
-<figure><img src="../../.gitbook/assets/image (2) (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 _Ces propos ont été recueillis auprès de la direction eau et assainissement de la communauté d'agglomération d'Epernay._
 
