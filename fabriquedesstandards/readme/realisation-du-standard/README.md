@@ -1,5 +1,5 @@
 ---
-cover: ../../../.gitbook/assets/Gitbook bandereau6.png
+cover: ../../.gitbook/assets/Gitbook bandereau6 (1).png
 coverY: 0
 ---
 
@@ -116,13 +116,13 @@ Lors du cadrage du GT, le secrétariat général vous accompagne pour :
 
 ### Modèle de standard proposé par le CNIG
 
-{% file src="../../../.gitbook/assets/GT CNIG - Modèle de standard (1).docx" %}
+{% file src="../../.gitbook/assets/GT CNIG - Modèle de standard (1) (1).docx" %}
 _Modèle de standard_
 {% endfile %}
 
 ### Modèle de compte rendu de réunion
 
-{% file src="../../../.gitbook/assets/GT CNIG - Modèle de CR de réunion (1).docx" %}
+{% file src="../../.gitbook/assets/GT CNIG - Modèle de CR de réunion (1) (1).docx" %}
 _Modèle de compte-rendu de réunion de GT_
 {% endfile %}
 
