@@ -1,10 +1,10 @@
-# Faire un retour
+# Question ou retour ?
 
 {% stepper %}
 {% step %}
 ### Vous avez une question ?
 
-<figure><img src="../.gitbook/assets/guichet.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/guichet (1).png" alt=""><figcaption></figcaption></figure>
 
 Vous avez une question sur le fonctionnement de la plateforme ou sur l'utilisation des données et des indicateurs territoriaux ?
 
