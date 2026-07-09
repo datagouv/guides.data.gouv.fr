@@ -31,6 +31,7 @@
     * [Ouvrir une collection dans QGIS](ecologie.data.gouv.fr/collections-thematiques/ouvrir-une-collection-dans-qgis.md)
   * [Les tutoriels](ecologie.data.gouv.fr/les-tutoriels/README.md)
     * [De la donnée ouverte à l'analyse parcellaire en quelques clics](ecologie.data.gouv.fr/les-tutoriels/de-la-donnee-ouverte-a-lanalyse-parcellaire-en-quelques-clics.md)
+    * [Référencer un service WFS/WMS dans un jeu de données](ecologie.data.gouv.fr/les-tutoriels/referencer-un-service-wfs-wms-dans-un-jeu-de-donnees.md)
 * [Le projet](le-projet/README.md)
   * [Contexte](le-projet/contexte.md)
   * [Ecolab](le-projet/ecolab.md)
