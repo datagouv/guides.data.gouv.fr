@@ -1,6 +1,7 @@
 ---
 description: Commencez ici pour trouver le guide adapté à votre besoin.
 icon: hand-wave
+metaLinks: {}
 ---
 
 # Bienvenue

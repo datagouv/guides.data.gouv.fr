@@ -8,7 +8,7 @@ Utiliser un indicateur nécessite au préalable de comprendre les hypothèses fa
 
 #### Le bandeau de description
 
-<figure><img src="../../../../.gitbook/assets/{74492F82-746F-4E9D-AC64-50A5E81C6EEB} (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/{74492F82-746F-4E9D-AC64-50A5E81C6EEB} (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Le bandeau de description permet d'identifier les informations clés concernant un indicateur :
 
@@ -22,7 +22,7 @@ L'amélioration des métadonnées des indicateurs est un processus constant. Aid
 
 #### L'onglet "Informations"
 
-<figure><img src="../../../../.gitbook/assets/{95D81062-4FC9-4406-BEC7-99845CCA76DD} (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/{95D81062-4FC9-4406-BEC7-99845CCA76DD} (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 On retrouve les métadonnées descriptives décrivant un indicateur dans cet onglet, parmi lesquelles :
 
@@ -37,7 +37,7 @@ On trouve également dans cet onglet des informations sur la couverture géograp
 
 #### L'onglet "Fichiers et API"
 
-<figure><img src="../../../../.gitbook/assets/{1FCC9FE0-29B4-409C-B53A-7693F2CA18F3} (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/{1FCC9FE0-29B4-409C-B53A-7693F2CA18F3} (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 L'accès aux données se fait dans l'onglet "Fichiers et API", où l'indicateur peut être téléchargé selon deux modes :
 
@@ -56,7 +56,7 @@ Pour plus d'informations sur l'API, consultez [sa documentation ](https://www.da
 
 #### L'onglet "Prévisualisation"
 
-<figure><img src="../../../../.gitbook/assets/{A803F582-5866-4C32-B179-DB214CD1611C} (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/{A803F582-5866-4C32-B179-DB214CD1611C} (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Vous avez la possibilité de jouer avec les données présentes dans les fichiers d'indicateurs directement depuis l'onglet de prévisualisation.
 
@@ -75,7 +75,7 @@ E.g. ci-dessus l'indicateur _Nombre de places de stationnement vélo_ possède l
 
 #### L'onglet "Sources"
 
-<figure><img src="../../../../.gitbook/assets/{29EB46AF-05BE-4AA9-BE98-56BCE0A21D1C} (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/{29EB46AF-05BE-4AA9-BE98-56BCE0A21D1C} (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 La source correspond au(x) jeu(x) de données utilisé(s) pour calculer l'indicateur fourni par l'Ecolab.
 
@@ -108,7 +108,7 @@ L'objectif de cet onglet est de permettre à l'utilisateur de comprendre l'origi
 
 #### L'onglet "Réutilisations"
 
-<figure><img src="../../../../.gitbook/assets/{1FDEDD67-D0B9-449C-9584-6696B374988D} (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/{1FDEDD67-D0B9-449C-9584-6696B374988D} (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Si vous utilisez un indicateur dans le cadre de l'un de vos projets, il vous est possible de documenter votre réutilisation sur data.gouv et d'y associer l'indicateur pour contextualiser la façon dont cet indicateur vous est utile.
 
@@ -118,7 +118,7 @@ Pour plus d'informations sur les réutilisations et sur comment les publier, con
 
 #### L'onglet "Discussions"
 
-<figure><img src="../../../../.gitbook/assets/{E259A902-2FB5-4290-BC9B-9D17483557AD} (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/{E259A902-2FB5-4290-BC9B-9D17483557AD} (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Il vous est possible de nous faire remonter vos questions concernant un indicateur spécifique directement depuis l'onglet Discussions en vous connectant à data.gouv.
 

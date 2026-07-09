@@ -13,4 +13,4 @@ Vous utilisez un jeu de données et :
 
 Sur [data.gouv.fr](http://data.gouv.fr), **vous pouvez échanger directement avec le producteur des données sur la page du jeu de données**, dans l’onglet “Discussions”.
 
-<figure><img src="../../../.gitbook/assets/Sep-17-2024 09-32-21.gif" alt=""><figcaption><p>Accéder aux discussions sur un jeu de données sur la plateforme data.gouv.fr</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Sep-17-2024 09-32-21 (2).gif" alt=""><figcaption><p>Accéder aux discussions sur un jeu de données sur la plateforme data.gouv.fr</p></figcaption></figure>

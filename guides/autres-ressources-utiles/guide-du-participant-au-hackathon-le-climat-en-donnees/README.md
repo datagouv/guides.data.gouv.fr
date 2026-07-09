@@ -1,5 +1,5 @@
 ---
-cover: ../../../.gitbook/assets/Group 15659.png
+cover: ../../../.gitbook/assets/Group 15659 (1).png
 coverY: 0
 metaLinks:
   alternates:

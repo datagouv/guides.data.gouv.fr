@@ -10,7 +10,7 @@ Vous avez trouvé un jeu de données qui vous intéresse (cf. "[Trouver des donn
 
 Pour cela, il est possible de :
 
-<figure><img src="../../../.gitbook/assets/Group 2882 (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Group 2882 (2) (2).png" alt=""><figcaption></figcaption></figure>
 
 ## Télécharger un fichier d’un jeu de données
 
@@ -26,7 +26,7 @@ Il est possible de télécharger la documentation associée aux données de la m
 Il n’est pas nécessaire de disposer d’un compte sur [data.gouv.fr](http://data.gouv.fr) pour y télécharger des données.
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/Bandeaux-[copy] (3).gif" alt=""><figcaption><p>Télécharger un fichier sur data.gouv.fr</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Bandeaux-[copy] (3) (2).gif" alt=""><figcaption><p>Télécharger un fichier sur data.gouv.fr</p></figcaption></figure>
 
 💡 Les extensions des fichiers peuvent vous donner une idée du format de fichier que vous allez télécharger :
 

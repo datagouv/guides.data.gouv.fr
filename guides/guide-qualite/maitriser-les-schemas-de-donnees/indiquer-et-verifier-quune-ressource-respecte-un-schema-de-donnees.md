@@ -20,4 +20,4 @@ Il est possible d'indiquer qu'une ressource d'un jeu de données correspond à u
 
 * Le fait d'indiquer que votre ressource est censée respecter un schéma permet de bénéficier de vérifications de la qualité des données et d'indiquer aux réutilisateurs que vos données respectent un référentiel.
 
-<figure><img src="../../../.gitbook/assets/Jun-20-2023 17-13-07.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Jun-20-2023 17-13-07 (2).gif" alt=""><figcaption></figcaption></figure>

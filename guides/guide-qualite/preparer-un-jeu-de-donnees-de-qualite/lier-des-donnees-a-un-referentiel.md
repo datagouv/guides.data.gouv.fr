@@ -117,7 +117,7 @@ Il permet aussi, à partir d'un jeu de données contenant des adresses déjà sa
 
 Le site [adresse.data.gouv.fr](https://adresse.data.gouv.fr/) est limité à des utilisations ponctuelles et des volumétries de données considérées faibles (moins d'un million de lignes).
 
-<figure><img src="../../../.gitbook/assets/Capture d’écran 2023-04-28 à 16.24.45.png" alt=""><figcaption><p>Page d'accueil d'adresse.data.gouv.fr</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Capture d’écran 2023-04-28 à 16.24.45 (2).png" alt=""><figcaption><p>Page d'accueil d'adresse.data.gouv.fr</p></figcaption></figure>
 
 Pour géocoder davantage de données (plusieurs millions de lignes), il est recommandé d'installer votre propre environnement de géocodage, en utilisant par exemple le géocodeur [Addok](https://addok.readthedocs.io/fr/latest/). Des ressources sont disponibles sur [GitHub](https://github.com/etalab/addok-docker) pour vous aider dans l'installation de votre environnement.
 

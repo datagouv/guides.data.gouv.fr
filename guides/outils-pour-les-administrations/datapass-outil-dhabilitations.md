@@ -5,7 +5,7 @@ description: >-
 metaLinks:
   alternates:
     - >-
-      https://app.gitbook.com/s/nSrS1oz2N9yTlykjBxxZ/documentationdatagouv/autres/outils-pour-les-administrations/datapass-outil-dhabilitations
+      ../../documentationdatagouv/autres/outils-pour-les-administrations/datapass-outil-dhabilitations.md
 ---
 
 # Datapass : Outil d'habilitations

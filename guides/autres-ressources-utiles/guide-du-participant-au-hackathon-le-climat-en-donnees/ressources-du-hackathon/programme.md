@@ -1,10 +1,9 @@
 ---
-cover: ../../../../.gitbook/assets/Rectangle.png
+cover: ../../../../.gitbook/assets/Rectangle (1).png
 coverY: 0
 metaLinks:
   alternates:
-    - >-
-      https://app.gitbook.com/s/nSrS1oz2N9yTlykjBxxZ/guides/autres-ressources-utiles/guide-du-participant-au-hackathon-le-climat-en-donnees/ressources-du-hackathon/programme
+    - programme.md
 ---
 
 # Programme
@@ -17,7 +16,7 @@ metaLinks:
 
 ### Aperçu des trois jours de programme
 
-<figure><img src="../../../../.gitbook/assets/Group 15628.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Group 15628 (3).png" alt=""><figcaption></figcaption></figure>
 
 ### Détail des trois jours de programme
 

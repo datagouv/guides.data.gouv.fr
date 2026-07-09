@@ -25,11 +25,11 @@ Selon les moyens disponibles, plusieurs leviers sont disponibles :
 * **Mesurer les volumes d'usage** : en suivant les [métriques des jeux de données publiés proposés par data.gouv.fr](https://stats.data.gouv.fr/) ou sur son propre portail (nombre de consultations, nombre de téléchargements, nombre de réutilisations, etc.).
 * **Répondre aux commentaires et aux questions soumis sur data.gouv.fr**, dans lesquels les réutilisateurs font régulièrement remonter leurs besoins. D'après [l'analyse réalisée par des étudiantes et des étudiants de l'Université Bordeaux Montaigne](https://www.data.gouv.fr/fr/posts/que-se-dit-il-dans-les-commentaires-sur-data-gouv-fr/), sur data.gouv.fr, de nombreux commentaires peuvent être catégorisés comme relevant de problématiques d'accessibilité, suivie de celles d'actualisation des données puis des questions de fiabilité et d'exploitabilité des données.
 
-<figure><img src="../../../.gitbook/assets/Apr-28-2023 16-39-21.gif" alt=""><figcaption><p>Echantillon de discussions sur le jeu de données "Demandes de valeur foncière"</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Apr-28-2023 16-39-21 (2).gif" alt=""><figcaption><p>Echantillon de discussions sur le jeu de données "Demandes de valeur foncière"</p></figcaption></figure>
 
 * **Suivre les réutilisations ajoutées sur ses jeux de données sur data.gouv.fr et inciter au référencement.**
 
-<figure><img src="../../../.gitbook/assets/Apr-28-2023 16-42-05.gif" alt=""><figcaption><p>Consultation des réutilisations références sur le jeu de données "Prix des carburants - Flux instantané"</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Apr-28-2023 16-42-05 (2).gif" alt=""><figcaption><p>Consultation des réutilisations références sur le jeu de données "Prix des carburants - Flux instantané"</p></figcaption></figure>
 
 * **Réaliser des enquêtes auprès des réutilisateurs.**
 

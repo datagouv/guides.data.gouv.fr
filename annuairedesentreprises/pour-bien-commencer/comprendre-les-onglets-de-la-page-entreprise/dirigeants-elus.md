@@ -12,7 +12,7 @@ Seuls les agents peuvent consulter les dates de naissance complètes. Les donné
 
 Dans ce cas, il nous est impossible de déterminer avec certitude quelle est la bonne source. Une infobulle "incohérence" s’affiche avec la double information.
 
-<figure><img src="../../../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (10) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### DPO
 

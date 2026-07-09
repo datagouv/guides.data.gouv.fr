@@ -30,7 +30,7 @@ La description générale peut couvrir les points suivants :
 
 > **Exemple** : Description générale du [jeu de données du Répertoire national des élus](https://www.data.gouv.fr/fr/datasets/repertoire-national-des-elus-1/)
 
-<figure><img src="../../../.gitbook/assets/image (20).png" alt=""><figcaption><p>Description générale du <a href="https://www.data.gouv.fr/fr/datasets/repertoire-national-des-elus-1/">jeu de données du Répertoire national des élus</a></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (20) (2).png" alt=""><figcaption><p>Description générale du <a href="https://www.data.gouv.fr/fr/datasets/repertoire-national-des-elus-1/">jeu de données du Répertoire national des élus</a></p></figcaption></figure>
 
 ## Description du mode de production des données <a href="#description-du-mode-de-production-des-donnees" id="description-du-mode-de-production-des-donnees"></a>
 

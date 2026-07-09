@@ -1,5 +1,5 @@
 ---
-cover: ../../../../.gitbook/assets/Rectangle.png
+cover: ../../../../.gitbook/assets/Rectangle (1).png
 coverY: 0
 metaLinks:
   alternates:
@@ -25,4 +25,4 @@ Pour toute question concernant l’utilisation de Discord, vous pouvez vous réf
 
 En cas de problème, **n’hésitez pas à** [**nous écrire**](https://www.data.gouv.fr/support/help/datagouv/autre/#support-tree) **!**
 
-<figure><img src="../../../../.gitbook/assets/discord2.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/discord2 (1).gif" alt=""><figcaption></figcaption></figure>

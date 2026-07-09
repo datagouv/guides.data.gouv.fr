@@ -1,5 +1,5 @@
 ---
-cover: ../../../.gitbook/assets/Bandereau87.png
+cover: ../../../.gitbook/assets/Bandereau87 (1).png
 coverY: 0
 ---
 
@@ -126,7 +126,7 @@ Lors de la validation du standard, le secrétariat général vous accompagne pou
 
 Ce modèle de document vise à indiquer les informations attendues par le plénier, mais c'est au Secrétariat Général et non à l'animateur du GT de le remplir.
 
-{% file src="../../../.gitbook/assets/GT CNIG - Modèle de dossier de présentation au plénier.docx" %}
+{% file src="../../../.gitbook/assets/GT CNIG - Modèle de dossier de présentation au plénier (1).docx" %}
 _Modèle de dossier de présentation pour le conseil plénier_
 {% endfile %}
 

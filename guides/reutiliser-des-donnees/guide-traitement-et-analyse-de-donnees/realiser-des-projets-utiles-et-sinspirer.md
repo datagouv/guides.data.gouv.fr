@@ -14,7 +14,7 @@ La communauté open data et l’équipe de [data.gouv.fr](http://data.gouv.fr) v
 
 {% embed url="https://defis.data.gouv.fr/" %}
 
-<figure><img src="../../../.gitbook/assets/Aug-27-2024 09-31-17 (1).gif" alt=""><figcaption><p>Aperçu de defis.data.gouv.fr</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Aug-27-2024 09-31-17 (1) (3).gif" alt=""><figcaption><p>Aperçu de defis.data.gouv.fr</p></figcaption></figure>
 
 ## Trouver des inspirations
 

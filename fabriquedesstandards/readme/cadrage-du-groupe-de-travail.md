@@ -1,5 +1,5 @@
 ---
-cover: ../../.gitbook/assets/bandereau7b.png
+cover: ../../.gitbook/assets/bandereau7b (1).png
 coverY: 0
 ---
 
@@ -150,7 +150,7 @@ Lors du cadrage du GT, le secrétariat général vous accompagne pour :
 
 ### Modèle de mandat spécifique au groupe de travail
 
-{% include "../.gitbook/includes/untitled (1).md" %}
+{% include "../.gitbook/includes/untitled (1) (1).md" %}
 
 ### Le règlement intérieur du CNIG
 

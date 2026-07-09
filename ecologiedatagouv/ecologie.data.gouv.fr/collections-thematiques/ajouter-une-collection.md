@@ -35,7 +35,7 @@ Elles peuvent également rester en mode "brouillon" (non publié) pour votre usa
 {% step %}
 **Sélectionner "Ajouter une collection"**
 
-<figure><img src="../../../.gitbook/assets/ajouter_collection_bouquet (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/ajouter_collection_bouquet (1) (1).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -43,7 +43,7 @@ Elles peuvent également rester en mode "brouillon" (non publié) pour votre usa
 
 Renseignez le sujet, l’objectif, la thématique, la couverture territoriale de votre collection et le propriétaire de la collection thématique.
 
-<figure><img src="../../../.gitbook/assets/ajouter_collection (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/ajouter_collection (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Sujet**
 
@@ -111,7 +111,7 @@ La collection sera alors créée en mode brouillon et visible uniquement par les
 
 Pour ce faire, vous devez cliquer sur "ajouter un jeu de données" lorsque vous vous trouvez sur la page d'administration de votre collection et intégrer vos jeux de données.
 
-<figure><img src="../../../.gitbook/assets/accueil_collection (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/accueil_collection (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Renseignez le libellé du jeu de données et sa raison d'utilisation. Vous pouvez ensuite rechercher un jeu de donnée dans [**data.gouv**._fr_](https://data.gouv.fr) ou ajouter l'URL du jeu de données.
 
@@ -123,7 +123,7 @@ Toute donnée ou indicateur présent sur [**data.gouv.**_fr_](https://data.gouv.
 
 Une fonctionnalité de regroupement est disponible pour rassembler certains jeux de données par thématique.
 
-<figure><img src="../../../.gitbook/assets/ajouter_jdd (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/ajouter_jdd (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Si vous disposez de jeux de données pertinents pour votre collection et non disponibles sur [**data.gouv**._fr_](https://data.gouv.fr)_,_ il est recommandé de publier vos jeux de données sur [**data.gouv**._fr_](https://data.gouv.fr) en suivant [ces étapes](../toutes-les-donnees/publier-des-donnees.md), puis de les ajouter à votre collection.
@@ -135,7 +135,7 @@ Si vous disposez de jeux de données pertinents pour votre collection et non dis
 
 Pour ce faire, vous devez cliquer sur "publier" lorsque vous vous trouvez sur la page d'administration de votre collection :
 
-<figure><img src="../../../.gitbook/assets/publier (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/publier (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 La collection sera soumise pour évaluation à l’équipe d'[_ecologie_.**data.gouv**._fr_](https://ecologie.data.gouv.fr) qui procédera à son examen dans les meilleurs délais avant sa mise en ligne effective.
@@ -147,7 +147,7 @@ La collection sera soumise pour évaluation à l’équipe d'[_ecologie_.**data.
 
 Il est toujours possible de modifier une collection dont vous êtes propriétaire après sa publication. Il suffit de vous connecter sur [_ecologie_.**data.gouv**._fr_](https://ecologie.data.gouv.fr) avec le compte propriétaire de la collection ou un compte inscrit dans l'organisation associée et d'éditer la collection.
 
-<figure><img src="../../../.gitbook/assets/modifier (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/modifier (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Tous les membres de l'organisation peuvent éditer une collection. [Découvrir comment rejoindre une organisation](https://guides.data.gouv.fr/organisations/rejoindre-une-organisation).
