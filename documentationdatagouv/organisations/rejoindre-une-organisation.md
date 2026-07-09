@@ -29,9 +29,9 @@ Si vous pensez que vous devriez figurer dans une organisation, vous pouvez en fa
 
 1. Rendez-vous sur la [liste des organisations](https://www.data.gouv.fr/fr/organizations/) pour trouver la page de l’organisation souhaitée ;
 2. Ouvrez l’**onglet "Informations"** de la page publique de l’organisation ;
-3. Cliquez sur le bouton dans la section membres <img src="../../.gitbook/assets/image (9) (1) (1).png" alt="" data-size="line">
+3. Cliquez sur le bouton dans la section membres <img src="../.gitbook/assets/image (9) (1) (1).png" alt="" data-size="line">
 
-<figure><img src="../../.gitbook/assets/image (8) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **L’administrateur de l’organisation recevra votre demande et pourra l’accepter ou la refuser.**
 
