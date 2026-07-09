@@ -1,5 +1,5 @@
 ---
-cover: ../.gitbook/assets/bandereau6 (1).png
+cover: ../../.gitbook/assets/bandereau6.png
 coverY: 0
 ---
 

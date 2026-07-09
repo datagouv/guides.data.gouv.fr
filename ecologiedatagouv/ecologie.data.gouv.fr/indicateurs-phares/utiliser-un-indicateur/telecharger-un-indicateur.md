@@ -14,7 +14,7 @@ L'onglet Discussions sur ecologie.data.gouv vous permet de poser des questions d
 
 Vous pouvez simplement télécharger localement les fichiers de données sur votre ordinateur depuis l'onglet `Fichiers et API`
 
-<figure><img src="../../../.gitbook/assets/{04BCF17F-42B1-4429-8FBE-FF0B631C6C13} (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/{04BCF17F-42B1-4429-8FBE-FF0B631C6C13}.png" alt=""><figcaption></figcaption></figure>
 
 ## Télécharger nos indicateurs depuis notre API
 

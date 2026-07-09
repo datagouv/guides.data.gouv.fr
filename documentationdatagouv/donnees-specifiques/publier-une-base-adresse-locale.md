@@ -23,7 +23,7 @@ Pour publier manuellement une Base Adresse Locale sur data.gouv.fr :
 
 1. **Vérifiez vos fichiers .csv dans le** [**validateur**](https://adresse.data.gouv.fr/bases-locales/validateur) pour vous assurer qu'ils sont conformes et qu'ils pourront être intégrés à la Base Adresse Nationale ;
 
-<figure><img src="../.gitbook/assets/Capture d’écran 2023-09-04 à 18.39.07 (1).png" alt=""><figcaption><p>Validateur BAL</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Capture d’écran 2023-09-04 à 18.39.07 (1).png" alt=""><figcaption><p>Validateur BAL</p></figcaption></figure>
 
 2. Suivez ensuite la [procédure standard de publication de données sur data.gouv.fr](../../broken/pages/THaWx8YnNzHJDxnuPXJp/#directement-sur-data.gouv.fr), en veillant à **ajouter le mot clé "base-adresse-locale".**
 3. N'oubliez pas de **mettre à jour vos données** !
@@ -37,7 +37,7 @@ Pour publier une Base Adresse Locale sur data.gouv.fr par moissonnage, les étap
 * [Demandez à data.gouv.fr de moissonner votre site](/broken/pages/st3cZ2tA76CEHg9fxBs6), **en veillant à ajouter le mot clé "base-adresse-locale"** ;
 * Avant d'automatiser, **vérifiez votre fichier .csv dans le** [**validateur**](https://adresse.data.gouv.fr/bases-locales/validateur) pour vous assurer qu'il est conforme et qu'il pourra être intégré à la Base Adresse Nationale.
 
-<figure><img src="../.gitbook/assets/Capture d’écran 2023-09-04 à 18.39.07 (1).png" alt=""><figcaption><p>Validateur BAL</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Capture d’écran 2023-09-04 à 18.39.07 (1).png" alt=""><figcaption><p>Validateur BAL</p></figcaption></figure>
 
 * N'oubliez pas de **mettre à jour vos données** !
 
@@ -56,7 +56,7 @@ Elle ne requiert :
 * Aucune gestion de fichier
 * Aucune compétence technique
 
-<figure><img src="../.gitbook/assets/Sep-04-2023 18-35-27 (1).gif" alt=""><figcaption><p>Interface de l'éditeur "Mes Adresses"</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Sep-04-2023 18-35-27 (1).gif" alt=""><figcaption><p>Interface de l'éditeur "Mes Adresses"</p></figcaption></figure>
 
 Si vous utilisez votre propre outil, il est également possible de publier via :
 
