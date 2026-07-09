@@ -23,7 +23,7 @@ Pour des usages sérieux (applications, visualisations, traitements automatisés
 Installez le skill en suivant la procédure correspondant à votre assistant.
 
 {% hint style="info" %}
-Les commandes ci-dessous sont prévues pour macOS/Linux.  
+Les commandes ci-dessous sont prévues pour Linux/macOS.  
 Si vous utilisez Windows, suivez la documentation officielle de votre assistant pour adapter les chemins et commandes.
 {% endhint %}
 
@@ -75,13 +75,13 @@ cp SKILL.md .cursor/skills/datagouv-apis/
 <summary>Claude Desktop</summary>
 
 ```shell
-# macOS
-mkdir -p ~/Library/Application\ Support/Claude/skills/datagouv-apis
-cp SKILL.md ~/Library/Application\ Support/Claude/skills/datagouv-apis/
-
 # Linux
 mkdir -p ~/.config/claude/skills/datagouv-apis
 cp SKILL.md ~/.config/claude/skills/datagouv-apis/
+
+# macOS
+mkdir -p ~/Library/Application\ Support/Claude/skills/datagouv-apis
+cp SKILL.md ~/Library/Application\ Support/Claude/skills/datagouv-apis/
 ```
 
 </details>
