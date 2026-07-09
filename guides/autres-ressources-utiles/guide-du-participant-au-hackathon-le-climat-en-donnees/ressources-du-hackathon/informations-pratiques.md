@@ -1,5 +1,5 @@
 ---
-cover: ../../../.gitbook/assets/Rectangle (1) (1).png
+cover: ../../../../.gitbook/assets/Rectangle.png
 coverY: 0
 metaLinks:
   alternates:
@@ -33,4 +33,4 @@ Dans le cadre du hackathon, nous vous proposerons des petits-déjeuners et des d
 
 Les déjeuners prendront la forme de buffets déjeunatoires.
 
-<figure><img src="../../../.gitbook/assets/Menu hackathon (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Menu hackathon (1).png" alt=""><figcaption></figcaption></figure>

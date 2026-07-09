@@ -13,7 +13,7 @@ Fichier géré par une collectivité locale (habituellement une commune ou un EP
 Depuis 2019, les Bases Adresses Locales sont prioritaires dans la Base Adresse Nationale : une commune qui publie sa Base Adresse Locale devient la seule source d'adresses sur son territoire.
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/schema-donnees-ban.681a4c32 (2).svg" alt=""><figcaption><p>Rappel : Schéma de constitution de la Base Adresse Nationale (BAN)</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/schema-donnees-ban.681a4c32.svg" alt=""><figcaption><p>Rappel : Schéma de constitution de la Base Adresse Nationale (BAN)</p></figcaption></figure>
 
 ## Respecter le schéma de données
 
@@ -34,7 +34,7 @@ Si vous n'avez pas déjà votre propre outil, **il est recommandé d'utiliser** 
 L'outil est gratuit, open source et simple d'utilisation.
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/Sep-04-2023 18-35-27 (2).gif" alt=""><figcaption><p>L'éditeur "Mes Adresses"</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Sep-04-2023 18-35-27.gif" alt=""><figcaption><p>L'éditeur "Mes Adresses"</p></figcaption></figure>
 
 ## Suivre les bonnes pratiques
 

@@ -12,7 +12,7 @@ Les jeux de données sont décrits par des fiches qui leur sont propres, les inf
 
 #### Le bandeau de description
 
-<figure><img src="../../.gitbook/assets/image (40) (1) (1).png" alt=""><figcaption><p>Jeu de données "DPE Logements existants" (depuis juillet 2021) fourni par l'Ademe</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (40).png" alt=""><figcaption><p>Jeu de données "DPE Logements existants" (depuis juillet 2021) fourni par l'Ademe</p></figcaption></figure>
 
 Le bandeau de description permet d'identifier les informations clés concernant un jeu de données :
 
@@ -35,7 +35,7 @@ Cet onglet détaille la **fiche de métadonnée** du jeu de donnée en précisan
 
 #### L'onglet "Fichiers"
 
-<figure><img src="../../.gitbook/assets/image (41) (1) (2).png" alt=""><figcaption><p>Jeu de données "Aires géographiques des AOC/AOP" fourni par l'INAO</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (41) (1).png" alt=""><figcaption><p>Jeu de données "Aires géographiques des AOC/AOP" fourni par l'INAO</p></figcaption></figure>
 
 L'accès aux données se fait dans l'onglet "Fichiers", où les données peuvent être :
 

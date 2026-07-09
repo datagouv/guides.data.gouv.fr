@@ -4,4 +4,4 @@ En tant qu’agent public connecté, vous avez accès à des données supplémen
 
 Vous pouvez facilement les identifier grâce à la mention "**Réservé(es) aux agents publics".**
 
-<div align="left"><figure><img src="../../../.gitbook/assets/Capture d’écran 2025-03-04 à 15.18.24 (1) (1).png" alt="Encadré &#x22;Réservé(es) aux agents publics&#x22;" width="251"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/Capture d’écran 2025-03-04 à 15.18.24.png" alt="Encadré &#x22;Réservé(es) aux agents publics&#x22;" width="251"><figcaption></figcaption></figure></div>

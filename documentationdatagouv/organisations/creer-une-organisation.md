@@ -19,8 +19,8 @@ Créer une organisation vous permet de :
 
 Voici les étapes à suivre pour créer une organisation sur data.gouv.fr
 
-1. Dans le menu, cliquez sur <img src="../.gitbook/assets/image (41) (1).png" alt="" data-size="line">.
-2. Sélectionnez <img src="../.gitbook/assets/image (42) (1).png" alt="" data-size="line">dans le menu déroulant.
+1. Dans le menu, cliquez sur <img src="../../.gitbook/assets/image (41) (1) (1).png" alt="" data-size="line">.
+2. Sélectionnez <img src="../../.gitbook/assets/image (42) (1).png" alt="" data-size="line">dans le menu déroulant.
 3. Avant de continuer, **vérifiez que l'organisation n’existe pas déjà.**
 4. Renseignez les informations suivantes :
 

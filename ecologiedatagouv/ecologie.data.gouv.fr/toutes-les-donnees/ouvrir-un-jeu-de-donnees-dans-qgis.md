@@ -8,15 +8,15 @@ description: Comment ouvrir un jeu de données vers QGIS depuis ecologie.data.go
 
 Lorsqu'un jeu de données contient des services WFS et/ou WMS, il est possible de l'ouvrir directement dans QGIS en cliquant sur le bouton "Ouvrir dans QGIS (WFS/WMS)" sur la carte du jeu de données.
 
-<figure><img src="../../.gitbook/assets/jdd_qgis (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/jdd_qgis.png" alt=""><figcaption></figcaption></figure>
 
 Le bouton déclenche le téléchargement d'un [fichier QLR](https://docs.qgis.org/3.40/en/docs/user_manual/appendices/qgis_file_formats.html#qlr-the-qgis-layer-definition-file). En ouvrant ce fichier, la ou les couches WMS/WFS associées au jeu de données sont chargées dans QGIS.
 
-<figure><img src="../../.gitbook/assets/Capture d’écran 2026-01-27 à 08.57.47 (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Capture d’écran 2026-01-27 à 08.57.47.png" alt=""><figcaption></figcaption></figure>
 
 Pour éviter des chargements trop longs ou non nécessaires, les couches sont décochées par défaut. Cochez la couche qui vous intéresse pour déclencher son chargement.
 
-<figure><img src="../../.gitbook/assets/Capture d’écran 2026-01-27 à 09.14.11 (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Capture d’écran 2026-01-27 à 09.14.11.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 **Quels jeux de données sont éligibles à l'ouverture dans QGIS ?**

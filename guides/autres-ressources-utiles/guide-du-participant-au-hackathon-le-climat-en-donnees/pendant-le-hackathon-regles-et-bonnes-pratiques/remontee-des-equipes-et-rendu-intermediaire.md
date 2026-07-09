@@ -1,5 +1,5 @@
 ---
-cover: ../../../.gitbook/assets/Rectangle (1) (1).png
+cover: ../../../../.gitbook/assets/Rectangle.png
 coverY: 0
 metaLinks:
   alternates:

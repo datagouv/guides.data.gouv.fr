@@ -14,7 +14,7 @@ metaLinks:
 Cette plateforme de référencement national permet un accès aux schémas produits par différents acteurs et facilite l’intégration avec des systèmes informatiques par le biais de standards, d’URLs stables, de processus de validation et d’API.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/Capture d’écran 2023-05-23 à 06.51.11 (2).png" alt=""><figcaption><p>Page d'accueil de schema.data.gouv.fr</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Capture d’écran 2023-05-23 à 06.51.11.png" alt=""><figcaption><p>Page d'accueil de schema.data.gouv.fr</p></figcaption></figure>
 
 ## Qui peut référencer des schémas de données ?
 

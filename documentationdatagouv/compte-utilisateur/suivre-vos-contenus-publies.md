@@ -23,7 +23,7 @@ Rejoindre ou créer une organisation vous permet de centraliser les publications
 ## Consulter les publications en votre nom
 
 * Connectez-vous à votre compte ;
-* Cliquez sur <img src="../.gitbook/assets/image (1) (2).png" alt="" data-size="line"> en haut à droite de votre écran ;
+* Cliquez sur <img src="../../.gitbook/assets/image (1) (2) (1).png" alt="" data-size="line"> en haut à droite de votre écran ;
 * Dans la colonne de gauche, cliquez **"Mon profil"** ;
 
 Dans le menu latéral de votre tableau de bord d’administration, vous avez accès à plusieurs sections vous permettant de gérer l’ensemble de vos contenus.

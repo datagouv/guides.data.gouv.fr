@@ -9,7 +9,7 @@ icon: house-signal
 {% embed url="https://youtu.be/00uKOhX42y0?si=vxVVG2qCQ9ukPf4r" %}
 
 * Connectez-vous à votre compte ;
-* Cliquez sur <img src="../.gitbook/assets/image (1) (2).png" alt="" data-size="line"> en haut à droite de votre écran ;
+* Cliquez sur <img src="../../.gitbook/assets/image (1) (2) (1).png" alt="" data-size="line"> en haut à droite de votre écran ;
 * Dans la colonne de gauche, cliquez sur le nom de votre organisation ;
 
 Dans le menu latéral de votre tableau de bord d’administration, vous avez accès à plusieurs sections vous permettant de gérer l’ensemble des contenus de votre organisation.
@@ -81,9 +81,9 @@ Cette section vous permet de suivre l’activité de vos **moissonneurs** (méca
 {% embed url="https://youtu.be/Y7b66_A1U8Q?si=0ow3mbwFFiN_rMgJ" %}
 
 * Connectez-vous à votre compte ;
-* Cliquez sur <img src="../.gitbook/assets/image (1) (2).png" alt="" data-size="line"> en haut à droite de votre écran ;
+* Cliquez sur <img src="../../.gitbook/assets/image (1) (2) (1).png" alt="" data-size="line"> en haut à droite de votre écran ;
 * Dans la colonne de gauche, cliquez sur le nom de votre organisation ;
-* Cliquez sur, <img src="../.gitbook/assets/image (45) (1).png" alt="" data-size="line">dans le menu latéral de votre organisation ;
+* Cliquez sur, <img src="../../.gitbook/assets/image (45) (1).png" alt="" data-size="line">dans le menu latéral de votre organisation ;
 
 \
 Le tableau de bord statistique d’une organisation se compose de plusieurs onglets vous permettant de suivre l’activité et l’impact de vos publications.
@@ -98,7 +98,7 @@ Vous y trouverez :
 * Des indicateurs agrégés sur l’ensemble des jeux de données, API et réutilisations ;
 * Un bouton **« Télécharger l’export des statistiques agrégées »** vous permettant d’obtenir un suivi **mensuel** de l’évolution de ces indicateurs.
 
-<figure><img src="../.gitbook/assets/image (46) (1).png" alt=""><figcaption><p>Exemple pour l'organisation data.gouv.fr</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (46) (1).png" alt=""><figcaption><p>Exemple pour l'organisation data.gouv.fr</p></figcaption></figure>
 {% endtab %}
 
 {% tab title="Jeux de données" %}

@@ -8,7 +8,7 @@ description: Comment ouvrir une collection vers QGIS depuis ecologie.data.gouv.f
 
 De manière similaire à [un jeu de données](https://guides.data.gouv.fr/ecologie.data.gouv.fr/ecologie.data.gouv.fr/toutes-les-donnees/ouvrir-un-jeu-de-donnees-dans-qgis), il est possible d'ouvrir l'**intégralité des jeux de données éligibles d'une collection** dans QGIS. Le bouton "Ouvrir la collection dans QGIS (WFS/WMS)" **en bas de la collection** déclenche la génération du fichier QLR correspondant.
 
-<figure><img src="../../.gitbook/assets/export_collection (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/export_collection (2).png" alt=""><figcaption></figcaption></figure>
 
 Les données / couches sont organisées de manière arborescente pour refléter la structure de la collection :
 
@@ -17,7 +17,7 @@ Les données / couches sont organisées de manière arborescente pour refléter 
     * Libellé de l'association du jeu de données à la collection
       * Nom du fichier (ressource) sur data.gouv.fr
 
-<figure><img src="../../.gitbook/assets/Capture d’écran 2026-01-27 à 09.19.57 (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Capture d’écran 2026-01-27 à 09.19.57.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 **Quelles règles sont appliquées pour l'éligibilité, la sélection et la détection des couches d'un jeu de données ?**
@@ -29,4 +29,4 @@ Les mêmes règles que pour un jeu de données unitaire sont appliquées à la l
 
 Pour cet exemple, nous utilisons la collection thématique sur l'[identification des potentiels fonciers adaptés aux projets par filières photovoltaïques dans les Bouches-du-Rhône](https://ecologie.data.gouv.fr/bouquets/identification-des-potentiels-fonciers-adaptes-aux-projets-par-filieres-photovoltaiques-bouches-du-rhone-1), ouverte directement dans QGIS.
 
-<figure><img src="../../.gitbook/assets/exportQGIS (1) (1).gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/exportQGIS.gif" alt=""><figcaption></figcaption></figure>

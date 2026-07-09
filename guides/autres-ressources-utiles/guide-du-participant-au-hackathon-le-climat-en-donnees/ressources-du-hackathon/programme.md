@@ -1,5 +1,5 @@
 ---
-cover: ../../../.gitbook/assets/Rectangle (1) (1).png
+cover: ../../../../.gitbook/assets/Rectangle.png
 coverY: 0
 metaLinks:
   alternates:
@@ -16,7 +16,7 @@ metaLinks:
 
 ### Aperçu des trois jours de programme
 
-<figure><img src="../../../.gitbook/assets/Group 15628 (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Group 15628.png" alt=""><figcaption></figcaption></figure>
 
 ### Détail des trois jours de programme
 

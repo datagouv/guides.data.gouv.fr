@@ -10,7 +10,7 @@ Plusieurs difficultés se posent :
 
 Ces problématiques entrainent **la perte de synergies précieuses**, alors même que **l'action collective** est indispensable pour mener à bien la **territorialisation des objectifs de transition écologique** issus entre autres des lois "Climat et Résilience" et "Energie Climat".
 
-<figure><picture><source srcset="../.gitbook/assets/Dark mode gitbook EDG(3) (2) (1) (1).png" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/chiffres clés - dispersion des données (1) (1).png" alt=""></picture><figcaption></figcaption></figure>
+<figure><picture><source srcset="../../.gitbook/assets/Dark mode gitbook EDG(3) (2).png" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/chiffres clés - dispersion des données.png" alt=""></picture><figcaption></figcaption></figure>
 
 Le catalogue [_ecologie_.**data.gouv**._fr_](../) répond à des enjeux clés de la transition écologique et de l'aménagement du territoire grâce à :
 
@@ -18,7 +18,7 @@ Le catalogue [_ecologie_.**data.gouv**._fr_](../) répond à des enjeux clés de
 * une sélection d'[**indicateurs phares**](https://ecologie.data.gouv.fr/indicators) territoriaux de la transition écologique, co-construits avec des experts métiers et accessibles via une API dédiée ;
 * la publication par les membres de la communauté de [**collections thématiques**](https://ecologie.data.gouv.fr/bouquets) liées aux politiques publiques : indicateurs de suivi des COP régionales, indicateurs de mobilité, urbanisme et végétalisation, etc.
 
-<figure><img src="../.gitbook/assets/[ecologie.data.gouv.fr] Première image Newsletter 3 (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/[ecologie.data.gouv.fr] Première image Newsletter 3.png" alt=""><figcaption></figcaption></figure>
 
 ## Partenaires
 
