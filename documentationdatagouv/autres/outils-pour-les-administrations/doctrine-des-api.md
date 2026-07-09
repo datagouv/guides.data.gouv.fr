@@ -42,7 +42,7 @@ En complément de la description, les données et services publiquement accessib
 
 La description d’une donnée doit référencer les API qui l’exposent. L’exemple ci-dessous présente les API disponibles pour la [base Sirene des entreprises et de leurs établissements](https://www.data.gouv.fr/fr/datasets/base-sirene-des-entreprises-et-de-leurs-etablissements-siren-siret/), sur la page correspondant à ce jeu de données sur data.gouv.fr :
 
-<figure><img src="../../../.gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (30) (1).png" alt=""><figcaption></figcaption></figure>
 
 Exemples:
 
@@ -142,7 +142,7 @@ L’état de l’API représente sa capacité à être appelée dans les conditi
 
 La disponibilité de l'API Particulier est accessible à cette page : [https://status.particulier.api.gouv.fr/](https://status.particulier.api.gouv.fr/)
 
-![](<../../../.gitbook/assets/image (29).png>)
+![](<../../.gitbook/assets/image (29) (1).png>)
 
 </details>
 
