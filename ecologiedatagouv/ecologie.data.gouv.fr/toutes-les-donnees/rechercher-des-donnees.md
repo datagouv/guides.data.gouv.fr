@@ -11,7 +11,7 @@ Pour rechercher un jeu de données, dirigez vous vers l'onglet [Toutes les donn�
 1. **Organisation ;**
 2. **Thème Inspire.**
 
-<figure><img src="../../../.gitbook/assets/image (38) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (38) (1).png" alt=""><figcaption></figcaption></figure>
 
 Voici un aperçu détaillé de ces filtres :
 
@@ -34,7 +34,7 @@ Les thèmes référencés sont les catégories normalisées de données géograp
 La directive européenne INSPIRE vise à établir une infrastructure d’information géographique et impose aux autorités publiques de rendre leurs données environnementales accessibles sur internet.
 
 {% hint style="info" %}
-L'[Ecolab](https://app.gitbook.com/s/K56ETHxhBea8DHmbPCgt/le-projet/ecolab) est le point de contact national de la directive européenne INSPIRE et veille à sa mise en application.
+L'[Ecolab](../../le-projet/ecolab.md) est le point de contact national de la directive européenne INSPIRE et veille à sa mise en application.
 {% endhint %}
 
 En savoir plus :
