@@ -26,7 +26,7 @@ Dans un fichier CSV :
 * Chaque ligne du texte correspond à une ligne d’un tableau, et les virgules (ou les point virgules, etc.) correspondent aux séparations entre les colonnes.
 * La première ligne est souvent utilisée comme ligne d’en-tête contenant le nom des colonnes.
 
-<figure><img src="../../../../.gitbook/assets/Capture d’écran 2024-05-29 à 09.58.54 (1) (3).png" alt=""><figcaption><p><em>Exemple de fichier au format CSV (Wikipedia)</em></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Capture d’écran 2024-05-29 à 09.58.54 (1) (3).png" alt=""><figcaption><p><em>Exemple de fichier au format CSV (Wikipedia)</em></p></figcaption></figure>
 
 ### Comment ouvrir un fichier CSV ?
 
@@ -41,7 +41,7 @@ Dans un fichier CSV :
     * Options de séparateur : Séparé par \[le bon séparateur] (selon le cas, il s’agira de la virgule, du point virgule ou de la tabulation)
     * Cliquez sur “OK” et le fichier s’ouvrira
 
-    <figure><img src="../../../../.gitbook/assets/May-29-2024 10-23-02 (2).gif" alt=""><figcaption><p>Ouvrir un CSV avec LibreOffice Calc</p></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/May-29-2024 10-23-02 (2).gif" alt=""><figcaption><p>Ouvrir un CSV avec LibreOffice Calc</p></figcaption></figure>
 
 {% hint style="success" %}
 La marche à suivre est similaire pour d'autres logiciels de tableur comme Excel.
@@ -79,7 +79,7 @@ Dans un fichier JSON : Les données sont présentées sous forme de paires clé/
 * Un tableau JSON est une suite de valeurs, sous forme de chaînes de caractères, associés à une clé unique. Les valeurs sont écrites entre crochets et séparées par une virgule.
 * Les objets JSON peuvent être imbriqués pour représenter la structure des données.
 
-<figure><img src="../../../../.gitbook/assets/Capture d’écran 2024-08-08 à 11.12.23 (2).png" alt=""><figcaption><p>Exemple de fichier JSON (Wikipedia)</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Capture d’écran 2024-08-08 à 11.12.23 (2).png" alt=""><figcaption><p>Exemple de fichier JSON (Wikipedia)</p></figcaption></figure>
 
 ### Comment ouvrir un fichier JSON ?
 
@@ -114,7 +114,7 @@ Dans un fichier XML :
 * La balise supérieure est appelée “racine” tandis que les balises suivantes sont considérées comme des “enfants”.
 * L’ensemble forme une structure arborescente.
 
-<figure><img src="../../../../.gitbook/assets/Capture d’écran 2024-05-29 à 10.34.16 (2).png" alt=""><figcaption><p>Exemple de fichier XML (Source : Cours CentraleSupélec)</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Capture d’écran 2024-05-29 à 10.34.16 (2).png" alt=""><figcaption><p>Exemple de fichier XML (Source : Cours CentraleSupélec)</p></figcaption></figure>
 
 ### Comment ouvrir un fichier XML ?
 
@@ -150,7 +150,7 @@ Une fichier GeoJSON est constitué d’objets JSON, où chaque objet représente
 * Feature : Représente un objet géographique qui peut contenir une géométrie (point, ligne, polygone, etc.) et des propriétés supplémentaires
 * FeatureCollection : Représente une collection d’objets “Feature”
 
-<figure><img src="../../../../.gitbook/assets/Capture d’écran 2024-07-25 à 14.53.45 (2).png" alt=""><figcaption><p>Exemple de fichier GeoJSON (Wikipedia)</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Capture d’écran 2024-07-25 à 14.53.45 (2).png" alt=""><figcaption><p>Exemple de fichier GeoJSON (Wikipedia)</p></figcaption></figure>
 
 ### Comment ouvrir un fichier GeoJSON ?
 
@@ -162,7 +162,7 @@ Une fichier GeoJSON est constitué d’objets JSON, où chaque objet représente
 * Recherchez votre fichier et importez ;
 * Les données s’affichent sur la carte.
 
-<figure><img src="../../../../.gitbook/assets/May-29-2024 10-52-21 (2).gif" alt=""><figcaption><p>Ouvrir un fichier GeoJSON avec le Géoportail de l'IGN</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/May-29-2024 10-52-21 (2).gif" alt=""><figcaption><p>Ouvrir un fichier GeoJSON avec le Géoportail de l'IGN</p></figcaption></figure>
 
 #### Avec uMap
 
@@ -174,14 +174,14 @@ Une fichier GeoJSON est constitué d’objets JSON, où chaque objet représente
 * Sélectionnez votre fichier et cliquez sur “Importer” ;
 * Les données s’affichent sur la carte.
 
-<figure><img src="../../../../.gitbook/assets/May-29-2024 11-01-47 (2).gif" alt=""><figcaption><p>Ouvrir un fichier GeoJSON avec uMap</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/May-29-2024 11-01-47 (2).gif" alt=""><figcaption><p>Ouvrir un fichier GeoJSON avec uMap</p></figcaption></figure>
 
 #### Avec l'outil geojson.io
 
 * Rendez-vous sur [geojson.io](http://geojson.io) ;
 * Cliquez sur “Open” et choisissez votre fichier.
 
-<figure><img src="../../../../.gitbook/assets/Capture d’écran 2024-05-29 à 11.32.21 (2).png" alt=""><figcaption><p>Ouvrir un fichier GeoJSON avec geojson.io</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Capture d’écran 2024-05-29 à 11.32.21 (2).png" alt=""><figcaption><p>Ouvrir un fichier GeoJSON avec geojson.io</p></figcaption></figure>
 
 #### Avec le logiciel de cartographie QGIS
 
@@ -241,7 +241,7 @@ Un fichier KML est un document XML avec une structure hiérarchique, où chaque 
 * \<Style> : Définit l'apparence des éléments géographiques, comme les couleurs, les largeurs de ligne, les icônes, etc.
 * \<Placemark> : Représente un lieu géographique identifiable. Il peut contenir des informations telles que le nom, la description, et les coordonnées géographiques du lieu. Un `<Placemark>` peut également inclure des éléments géométriques comme `<Point>`, `<LineString>`, ou `<Polygon>`, ainsi que des styles pour personnaliser son apparence.
 
-<figure><img src="../../../../.gitbook/assets/Capture d’écran 2024-07-25 à 15.02.04 (2).png" alt=""><figcaption><p>Exemple de fichier KML (Wikipedia)</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Capture d’écran 2024-07-25 à 15.02.04 (2).png" alt=""><figcaption><p>Exemple de fichier KML (Wikipedia)</p></figcaption></figure>
 
 ### Comment ouvrir un fichier KML ?
 
@@ -252,7 +252,7 @@ Un fichier KML est un document XML avec une structure hiérarchique, où chaque 
 * Cliquez sur la clé à molette > “Importer des données” > Choisissez le format “KML”
 * Recherchez votre fichier et importez
 
-<figure><img src="../../../../.gitbook/assets/May-29-2024 11-40-18 (2).gif" alt=""><figcaption><p>Ouvrir un fichier KML avec le Géoportail de l'IGN</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/May-29-2024 11-40-18 (2).gif" alt=""><figcaption><p>Ouvrir un fichier KML avec le Géoportail de l'IGN</p></figcaption></figure>
 
 #### Avec uMap
 
@@ -264,7 +264,7 @@ Un fichier KML est un document XML avec une structure hiérarchique, où chaque 
 * Sélectionnez votre fichier et cliquez sur “Importer”
 * Les données s’affichent sur la carte.
 
-<figure><img src="../../../../.gitbook/assets/May-29-2024 11-41-35 (2).gif" alt=""><figcaption><p>Ouvrir un fichier KML avec uMap</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/May-29-2024 11-41-35 (2).gif" alt=""><figcaption><p>Ouvrir un fichier KML avec uMap</p></figcaption></figure>
 
 #### Avec le logiciel de cartographie QGIS
 

@@ -1,5 +1,5 @@
 ---
-cover: ../../../../.gitbook/assets/Rectangle (1).png
+cover: ../../../.gitbook/assets/Rectangle (1) (1).png
 coverY: 0
 metaLinks:
   alternates:
@@ -14,4 +14,4 @@ Nous aimerions connaître votre avis sur le déroulement du hackathon et la qual
 
 Un très grand merci par avance !
 
-<figure><img src="../../../../.gitbook/assets/chrome-capture-2025-11-12 (1).gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/chrome-capture-2025-11-12 (1) (1).gif" alt=""><figcaption></figcaption></figure>

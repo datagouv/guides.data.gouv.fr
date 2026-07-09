@@ -19,7 +19,7 @@ L'API Découpage administratif est principalement destinée à un besoin de rech
 Les usages départements ou régions bien que pratiques semblent moins intéressants car les données ne changent quasiment jamais dans le temps et le nombre limité d'éléments fait qu'il est possible de gérer ces informations côté client.
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/Capture d’écran 2023-06-19 à 12.03.13 (1) (3).png" alt=""><figcaption><p>Accès à l'API Découpage administratif</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Capture d’écran 2023-06-19 à 12.03.13 (1) (3).png" alt=""><figcaption><p>Accès à l'API Découpage administratif</p></figcaption></figure>
 
 ## Comment utiliser l'API dans un site web ? <a href="#utilisation-de-l-api-dans-un-site-web" id="utilisation-de-l-api-dans-un-site-web"></a>
 

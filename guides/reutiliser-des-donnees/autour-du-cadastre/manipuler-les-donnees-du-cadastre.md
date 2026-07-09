@@ -259,7 +259,7 @@ Il s'agit d'une surcouche au WFS de l'IGN qui facilite l'utilisation. Ce service
 
 Si vous êtes intéressé par le code de la surcouche, vous pouvez consulter le projet sur [https://github.com/IGNF/apicarto/](https://github.com/IGNF/apicarto/).
 
-<figure><img src="../../../.gitbook/assets/exemple-recherche-parcelles (2).png" alt=""><figcaption><p>Un exemple de recherche de parcelles avec l'API Carto</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/exemple-recherche-parcelles (2).png" alt=""><figcaption><p>Un exemple de recherche de parcelles avec l'API Carto</p></figcaption></figure>
 
 _Vous pouvez aussi ouvrir_ [_ce lien pour voir le résultat dans un navigateur_](https://apicarto.ign.fr/api/cadastre/parcelle?code_insee=44109\&section=EX\&numero=0080).
 
@@ -311,11 +311,11 @@ Plusieurs solutions sont disponibles pour accéder aux fonds de plan du cadastre
 
 * [**WMS accès cadastre DGFiP**](https://www.cadastre.gouv.fr/scpc/pdf/Guide_WMS_fr.pdf). La limitation principale de ce WMS est qu'il n'est possible de demander que des images dont la taille est comprise entre _100x100_ et _au maximum 1280x1024_. Il est possible de passer par un TMS via l'url `http://tms.cadastre.openstreetmap.fr/*/tout/{z}/{x}/{y}.png` pour contourner cette limitation (voir https://lists.openstreetmap.org/pipermail/talk-fr/2015-February/075223.html).
 
-![Un aperçu de la configuration du TMS dans QGIS](<../../../.gitbook/assets/connexion-xyz-qgis-cadastre (2).png>)
+![Un aperçu de la configuration du TMS dans QGIS](<../../.gitbook/assets/connexion-xyz-qgis-cadastre (2).png>)
 
 * **les tuiles vectorielles mises à disposition par la Direction interministérielle du numérique (DINUM)**. Elles contiennent les géométries du produit Cadastre Etalab. Un [tutoriel](https://guides.etalab.gouv.fr/apis-geo/3-tuiles-vecteur.html#l-alternative-des-tuiles-vecteur-de-l-ign) détaille comment les exploiter dans le cadre Web. Il est aussi possible d'accéder aux tuiles vectorielles depuis la version 3.14 du [logiciel bureautique SIG OpenSource nommé QGIS](https://www.qgis.org/fr/site/) comme illustré ci-dessous.
 
-![Un aperçu de la configuration de la connexion aux tuiles vectorielles dans QGIS](<../../../.gitbook/assets/connexion-tuiles-vectorielles-cadastre-qgis (2).png>)
+![Un aperçu de la configuration de la connexion aux tuiles vectorielles dans QGIS](<../../.gitbook/assets/connexion-tuiles-vectorielles-cadastre-qgis (2).png>)
 
 * **IGN WMS cadastre**. La couche principale est `CADASTRALPARCELS.PARCELLAIRE_EXPRESS` du [service WMS](https://data.geopf.fr/wms-r/wms). Celle-ci s'appuie sur le produit PCI Express.
 

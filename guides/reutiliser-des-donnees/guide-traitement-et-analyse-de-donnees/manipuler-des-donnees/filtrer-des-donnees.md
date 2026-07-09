@@ -12,7 +12,7 @@ Vous avez trouvé un jeu de données qui vous intéresse, mais ne souhaitez en m
 
 Pour filtrer des données, il est possible d’utiliser, par exemple, l’une ou l’autre des méthodes suivantes :
 
-<figure><img src="../../../../.gitbook/assets/Group 2883 (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Group 2883 (2).png" alt=""><figcaption></figcaption></figure>
 
 ## Utiliser [explore.data.gouv.fr](http://explore.data.gouv.fr) pour télécharger des données préalablement filtrées
 
@@ -22,7 +22,7 @@ Pour télécharger des données préalablement filtrées sur [explore.data.gouv.
 * Filtrez les données selon vos critères (en cliquant sur l’entonnoir dans le champ de votre choix) ;
 * Téléchargez les données filtrées (en cliquant sur la flèche de téléchargement en haut à droite).
 
-<figure><img src="../../../../.gitbook/assets/Sep-12-2024 16-29-32 (2).gif" alt=""><figcaption><p>Télécharger des données préalablement filtrées sur explore.data.gouv.fr</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Sep-12-2024 16-29-32 (2).gif" alt=""><figcaption><p>Télécharger des données préalablement filtrées sur explore.data.gouv.fr</p></figcaption></figure>
 
 ## Utiliser un logiciel de tableur pour filtrer des données
 
@@ -46,9 +46,9 @@ Pour filtrer des données, la marche à suivre est la suivante :
 * Choisissez votre filtre. Vous pouvez également définir un filtre plus avancé en allant dans “Filtre standard”.
 * Validez.
 
-<figure><img src="../../../../.gitbook/assets/May-29-2024 11-59-52 (1) (3).gif" alt=""><figcaption><p>Filtrer des données avec LibreOffice Calc</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/May-29-2024 11-59-52 (1) (3).gif" alt=""><figcaption><p>Filtrer des données avec LibreOffice Calc</p></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/May-29-2024 12-00-48 (2).gif" alt=""><figcaption><p>Utiliser un filtre avancé sur LibreOffice Calc</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/May-29-2024 12-00-48 (2).gif" alt=""><figcaption><p>Utiliser un filtre avancé sur LibreOffice Calc</p></figcaption></figure>
 
 {% hint style="success" %}
 **Vous souhaitez récupérer les données nationales de référence sur un territoire ?**\
