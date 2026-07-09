@@ -15,18 +15,18 @@ icon: mcp
 {% hint style="warning" %}
 Comme pour tout usage de LLM, les réponses peuvent être incomplètes, erronées ou inclure des **hallucinations** (informations inventées par le modèle). Vérifiez toujours les résultats avant réutilisation.
 
-Pour des usages sérieux (applications, visualisations, traitements automatisés), privilégiez les [APIs de data.gouv.fr](../api-de-data.gouv.fr/prise-en-main/README.md) : elles offrent des réponses structurées, traçables et reproductibles.
+Pour des usages sérieux (applications, visualisations, traitements automatisés), privilégiez les [APIs de data.gouv.fr](../api-de-data.gouv.fr/prise-en-main/) : elles offrent des réponses structurées, traçables et reproductibles.
 {% endhint %}
 
 ## Connexion
 
 Connectez data.gouv.fr à votre chatbot en quelques étapes. Vous ajouterez un serveur MCP ou un connecteur selon le vocabulaire de votre outil.
 
-| | |
-| --- | --- |
-| **URL du serveur** | `https://mcp.data.gouv.fr/mcp` |
-| **Authentification** | Aucune clé requise (outils en lecture seule) |
-| **Self-host** | Voir la section [Run locally](https://github.com/datagouv/datagouv-mcp#%EF%B8%8F-run-locally) du dépôt GitHub |
+|                      |                                                                                                               |
+| -------------------- | ------------------------------------------------------------------------------------------------------------- |
+| **URL du serveur**   | `https://mcp.data.gouv.fr/mcp`                                                                                |
+| **Authentification** | Aucune clé requise (outils en lecture seule)                                                                  |
+| **Self-host**        | Voir la section [Run locally](https://github.com/datagouv/datagouv-mcp#%EF%B8%8F-run-locally) du dépôt GitHub |
 
 Ouvrez la section correspondant à votre outil. Chaque bloc reprend le libellé affiché dans l’interface (serveur MCP, connecteur, etc.) :
 
@@ -59,7 +59,7 @@ Ouvrez la section correspondant à votre outil. Chaque bloc reprend le libellé 
 
 <summary>ChatGPT</summary>
 
-*Disponible sur les plans payants uniquement (Plus, Pro, Team et Enterprise). ChatGPT parle de **connecteurs** plutôt que de serveurs MCP.*
+_Disponible sur les plans payants uniquement (Plus, Pro, Team et Enterprise). ChatGPT parle de **connecteurs** plutôt que de serveurs MCP._
 
 1. Ouvrez ChatGPT dans votre navigateur, allez dans `Settings` > `Apps and connectors`.
 2. Dans `Advanced settings`, activez le **Developer mode**.
@@ -107,6 +107,41 @@ claude mcp add --transport http datagouv https://mcp.data.gouv.fr/mcp
 3. Relancez Claude Desktop.
 
 **Sous Windows :** si le serveur apparaît dans la liste mais ne se connecte pas, ajoutez `"isUsingBuiltInNodeForMcp": false` à la racine du fichier de configuration, puis relancez Claude Desktop. Voir [issue #69](https://github.com/datagouv/datagouv-mcp/issues/69).
+
+</details>
+
+<details>
+
+<summary>Codex</summary>
+
+_Codex CLI utilise un fichier `config.toml`. Pour un serveur MCP HTTP comme `datagouv`, passez par `mcp-remote`._
+
+1. Ouvrez `~/.codex/config.toml` (Windows : `%USERPROFILE%\.codex\config.toml`).
+2. Ajoutez :
+
+```toml
+[mcp_servers.datagouv]
+command = "npx"
+args = ["-y", "mcp-remote", "https://mcp.data.gouv.fr/mcp"]
+```
+
+3. Relancez Codex.
+
+</details>
+
+<details>
+
+<summary>Codex Desktop</summary>
+
+_Si vous utilisez l’app desktop OpenAI avec Codex, ajoutez `datagouv` comme connecteur MCP personnalisé._
+
+1. Ouvrez l’application, puis allez dans `Settings` > `Connectors`.
+2. Cliquez sur **Add custom MCP connector**.
+3. Donnez un nom au connecteur, par exemple `datagouv`.
+4. Renseignez l’URL `https://mcp.data.gouv.fr/mcp`.
+5. Laissez l’authentification désactivée, puis enregistrez.
+
+Si le connecteur n’apparaît pas tout de suite dans Codex, relancez l’application.
 
 </details>
 
@@ -225,7 +260,7 @@ claude mcp add --transport http datagouv https://mcp.data.gouv.fr/mcp
 
 <summary>Le Chat (Mistral)</summary>
 
-*Disponible sur tous les plans, y compris gratuit. Le Chat (Mistral) parle de **connecteurs**.*
+_Disponible sur tous les plans, y compris gratuit. Le Chat (Mistral) parle de **connecteurs**._
 
 1. Ouvrez Mistral dans votre navigateur, puis allez dans `Intelligence` > `Connectors`.
 2. Cliquez sur `Add connector` > `Custom MCP Connector`, donnez un nom (par ex. `DataGouv`) et renseignez l’URL `https://mcp.data.gouv.fr/mcp`.
