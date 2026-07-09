@@ -40,10 +40,10 @@ Seuls les **administrateurs** peuvent ajouter des membres.\
 {% endhint %}
 
 1. Connectez-vous à votre compte ;
-2. Cliquez sur <img src="../.gitbook/assets/image (1) (2).png" alt="" data-size="line"> en haut à droite de votre écran ;
+2. Cliquez sur <img src="../../.gitbook/assets/image (1).png" alt="" data-size="line"> en haut à droite de votre écran ;
 3. Dans la colonne de gauche, cliquez sur le nom de votre organisation ;
-4. Cliquez sur <img src="../.gitbook/assets/image (2) (1).png" alt="" data-size="line">, dans le menu latéral de votre organisation ;
-5. Cliquez sur le bouton <img src="../.gitbook/assets/image (4) (1).png" alt="" data-size="line">
+4. Cliquez sur <img src="../../.gitbook/assets/image (2).png" alt="" data-size="line">, dans le menu latéral de votre organisation ;
+5. Cliquez sur le bouton <img src="../../.gitbook/assets/image (4).png" alt="" data-size="line">
 6. Cherchez parmi les utilisateurs présent sur data.gouv.fr ;
 7. Sélectionnez-le lorsqu’il apparaît dans la liste proposée ;
 8. Choisissez le rôle à lui attribuer : **Administrateur,** **Éditeur** ou **Éditeur partiel**;
@@ -56,12 +56,12 @@ Seuls les **administrateurs** peuvent ajouter des membres.\
 Si un utilisateur a fait une demande pour rejoindre l'organisation :
 
 1. Connectez-vous à votre compte ;
-2. Cliquez sur <img src="../.gitbook/assets/image (1) (2).png" alt="" data-size="line"> en haut à droite de votre écran ;
+2. Cliquez sur <img src="../../.gitbook/assets/image (1).png" alt="" data-size="line"> en haut à droite de votre écran ;
 3. Dans la colonne de gauche, cliquez sur le nom de votre organisation ;
-4. Cliquez sur <img src="../.gitbook/assets/image (2) (1).png" alt="" data-size="line">, dans le menu latéral de votre organisation ;
+4. Cliquez sur <img src="../../.gitbook/assets/image (2).png" alt="" data-size="line">, dans le menu latéral de votre organisation ;
 5.  Vous verrez apparaitre les demandes d'adhésions
 
-    <figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption><p>Exemple de demande</p></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption><p>Exemple de demande</p></figcaption></figure>
 6. Vous pouvez accepter ou refuser la demande. Dans le cas ou refuser la demande vous pouvez motiver votre refus pour l'utilisateur.
 
 ***
@@ -73,10 +73,10 @@ Cette action est réservée aux administrateurs.
 {% endhint %}
 
 1. Connectez-vous à votre compte ;
-2. Cliquez sur <img src="../.gitbook/assets/image (1) (2).png" alt="" data-size="line"> en haut à droite de votre écran ;
+2. Cliquez sur <img src="../../.gitbook/assets/image (1).png" alt="" data-size="line"> en haut à droite de votre écran ;
 3. Dans la colonne de gauche, cliquez sur le nom de votre organisation ;
-4. Cliquez sur <img src="../.gitbook/assets/image (2) (1).png" alt="" data-size="line">, dans le menu latéral de votre organisation ;
-5. Dans le tableau de membres cliquez sur le crayon <img src="../.gitbook/assets/image (6) (1).png" alt="" data-size="line">dans la colonne **Actions.**
+4. Cliquez sur <img src="../../.gitbook/assets/image (2).png" alt="" data-size="line">, dans le menu latéral de votre organisation ;
+5. Dans le tableau de membres cliquez sur le crayon <img src="../../.gitbook/assets/image (6).png" alt="" data-size="line">dans la colonne **Actions.**
 6. Vous pouvez changer son rôle ou retirer le membre de l'organisation. Retirer un utilisateur d’une organisation ne supprime pas le compte de l’utilisateur en question.
 
 ***

@@ -11,7 +11,7 @@ Pour rechercher une collection, dirigez vous vers l'onglet [Collections thémati
 1. **Organisation ;**
 2. **Thématique.**
 
-<figure><img src="../../.gitbook/assets/Recherche_de_collections (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Recherche_de_collections (2).png" alt=""><figcaption></figcaption></figure>
 
 Voici un aperçu détaillé de ces filtres :
 

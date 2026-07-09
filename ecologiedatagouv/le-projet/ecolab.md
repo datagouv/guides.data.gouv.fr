@@ -4,7 +4,7 @@ description: Rencontrez notre équipe et tous ses projets
 
 # Ecolab
 
-<figure><img src="../.gitbook/assets/MTE_CGDD_ECOLAB (1) (1).jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/MTE_CGDD_ECOLAB (1) (1).jpg" alt=""><figcaption></figcaption></figure>
 
 **LʼEcolab** est le laboratoire dʼinnovation du Commissariat général au développement durable (CGDD) au service de la transition écologique. Sa position au CGDD, direction transversale du Ministère de la transition écologique, le place au centre de l'écosystème des acteurs impliqués dans ces thématiques. Son rôle d'administrateur ministériel des données, des algorithmes et des codes sources (AMDAC) lui donne les outils clés pour offrir un meilleur accès à la donnée pour les territoires, les entreprises et les citoyens. En hébergeant le Conseil National de lʼInformation Géolocalisée (CNIG), il fédère les acteurs du domaine et travaille à améliorer la qualité des données géolocalisées.
 

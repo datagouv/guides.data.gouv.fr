@@ -34,4 +34,4 @@ D'autres métadonnées peuvent être automatiquement récupérées du code et de
 
 Les métadonnées de nos indicateurs sont décrites dans le guide suivant :
 
-{% file src="../../../.gitbook/assets/guide_remplissage_métadonnées_indicateurs (1).xlsx" %}
+{% file src="../../../../.gitbook/assets/guide_remplissage_métadonnées_indicateurs (1).xlsx" %}

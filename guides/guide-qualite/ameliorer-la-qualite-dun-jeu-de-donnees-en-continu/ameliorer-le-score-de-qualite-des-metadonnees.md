@@ -13,7 +13,7 @@ Un score de qualité des métadonnées a été mis en place sur data.gouv.fr pou
 
 Grâce à ce score de qualité des métadonnées, **il est possible d'identifier les axes sur lesquels travailler pour améliorer la qualité de vos données**.
 
-<figure><img src="../../../.gitbook/assets/Apr-28-2023 16-33-08 (1).gif" alt=""><figcaption><p>Exemple de score de qualité des métadonnées</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Apr-28-2023 16-33-08.gif" alt=""><figcaption><p>Exemple de score de qualité des métadonnées</p></figcaption></figure>
 
 🧭 Les critères sont les suivants :
 

@@ -27,7 +27,7 @@ Si vous identifiez des données manquantes sur la carte, vous pouvez contribuer 
 
 Il faut aussi noter que vous devez obligatoirement [créditer OpenStreetMap et ses contributeurs](https://www.openstreetmap.org/copyright/fr) quand vous utilisez les fonds de plan.
 
-<figure><img src="../../../.gitbook/assets/Capture d’écran 2023-06-19 à 12.27.48 (1).png" alt=""><figcaption><p>Page d'accueil d'OpenMapTiles</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Capture d’écran 2023-06-19 à 12.27.48.png" alt=""><figcaption><p>Page d'accueil d'OpenMapTiles</p></figcaption></figure>
 
 ### **Qui utilise ce service ?**
 
@@ -105,7 +105,7 @@ Pour avoir un aperçu, vous pouvez vous rendre sur : [https://openmaptiles.geo.d
 
 Les versions des tuiles pour les fonds de plan ont été mises à jour en mars 2022 et sont mises à jour une fois par semaine.
 
-<figure><img src="../../../.gitbook/assets/Jun-19-2023 12-52-57 (1).gif" alt=""><figcaption><p>openmaptiles.geo.data.gouv.fr</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Jun-19-2023 12-52-57.gif" alt=""><figcaption><p>openmaptiles.geo.data.gouv.fr</p></figcaption></figure>
 
 ### Consommer les styles <a href="#consommer-les-styles" id="consommer-les-styles"></a>
 

@@ -12,7 +12,7 @@ Pour rechercher un indicateur, dirigez vous vers l'onglet [Indicateurs](https://
 2. **Levier ;**
 3. **Maille minimale.**
 
-<figure><img src="../../.gitbook/assets/{8BC4E1E3-FE2C-4708-9B44-753D6E6873A8} (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/{8BC4E1E3-FE2C-4708-9B44-753D6E6873A8} (1).png" alt=""><figcaption></figcaption></figure>
 
 Voici un aperçu détaillé de ces filtres :
 

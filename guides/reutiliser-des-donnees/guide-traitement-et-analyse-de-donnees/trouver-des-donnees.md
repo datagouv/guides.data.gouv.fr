@@ -13,7 +13,7 @@ Pour vos travaux ou votre besoin, vous souhaitez :
 
 Pour ce faire, il est possible d’utiliser l’une ou l’autre des méthodes suivantes :
 
-<figure><img src="../../../.gitbook/assets/Group 2880 (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Group 2880 (2).png" alt=""><figcaption></figcaption></figure>
 
 ## **1. Rechercher des données sur la plateforme** [**data.gouv.fr**](http://data.gouv.fr)
 
@@ -23,9 +23,9 @@ Sur [data.gouv.fr](http://data.gouv.fr), plusieurs options existent pour trouver
 
 ### **Effectuer une recherche dans le catalogue à l’aide de la barre de recherche ou de** [**la page de recherche des jeux de données**](https://www.data.gouv.fr/fr/datasets/)
 
-<figure><img src="../../../.gitbook/assets/Sep-16-2024 14-04-20 (1).gif" alt=""><figcaption><p>Recherche de données dans le catalogue à l'aide de la barre de recherche</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Sep-16-2024 14-04-20.gif" alt=""><figcaption><p>Recherche de données dans le catalogue à l'aide de la barre de recherche</p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/Sep-16-2024 14-07-21 (1).gif" alt=""><figcaption><p>Recherche de données dans le catalogue à partir de la page de recherche des jeux de données</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Sep-16-2024 14-07-21.gif" alt=""><figcaption><p>Recherche de données dans le catalogue à partir de la page de recherche des jeux de données</p></figcaption></figure>
 
 Après avoir réalisé votre recherche, il est possible de trier les résultats ou de les restreindre davantage en utilisant les filtres de recherche.
 
@@ -91,7 +91,7 @@ L'équipe de data.gouv.fr met à disposition [**un calendrier des actualités en
 
 💡 Il est souvent judicieux d’identifier les organisations susceptibles de publier les données que vous recherchez, **pour ensuite effectuer votre recherche de données en partant de l’organisation.**
 
-<figure><img src="../../../.gitbook/assets/Sep-11-2024 11-16-23 (1).gif" alt=""><figcaption><p>Recherche de données à partir d'une organisation</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Sep-11-2024 11-16-23.gif" alt=""><figcaption><p>Recherche de données à partir d'une organisation</p></figcaption></figure>
 
 Voici une liste indicative et non exhaustive d’organisations intéressantes par thématique :
 

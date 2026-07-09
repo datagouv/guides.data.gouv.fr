@@ -11,7 +11,7 @@ Pour rechercher un jeu de données, dirigez vous vers l'onglet [Toutes les donn�
 1. **Organisation ;**
 2. **Thème Inspire.**
 
-<figure><img src="../../.gitbook/assets/image (38) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (38) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Voici un aperçu détaillé de ces filtres :
 

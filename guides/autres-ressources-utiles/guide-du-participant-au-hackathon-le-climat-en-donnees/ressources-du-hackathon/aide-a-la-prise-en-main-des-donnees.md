@@ -43,6 +43,6 @@ Les supports présentés durant la session de formation sont également à votre
 Ces supports contiennent notamment des ressources et annexes qui n'ont pas été présentées durant la session de formation et qui pourraient vous être utiles.
 {% endhint %}
 
-{% file src="../../../../.gitbook/assets/Hackathon Le climat en données - Présentation des données Métropole (mise à jour le 26-11) (1).pdf" %}
+{% file src="../../../../.gitbook/assets/Hackathon Le climat en données - Présentation des données Métropole (mise à jour le 26-11).pdf" %}
 
 {% file src="../../../../.gitbook/assets/Hackathon Le climat en données - Présentation des données Outre-Mer.pdf" %}

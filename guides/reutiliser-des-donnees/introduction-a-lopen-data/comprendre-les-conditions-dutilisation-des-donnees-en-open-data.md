@@ -22,7 +22,7 @@ De façon générale, les droits et obligations des réutilisateurs de données 
 
 Sur [data.gouv.fr](http://data.gouv.fr), la licence est indiquée et disponible sur la page du jeu de données :
 
-<figure><img src="../../../.gitbook/assets/Bandeaux-[copy] (1).gif" alt=""><figcaption><p>Trouver la licence sur une page de jeu de données</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Bandeaux-[copy].gif" alt=""><figcaption><p>Trouver la licence sur une page de jeu de données</p></figcaption></figure>
 
 Les licences les plus courantes sont [la Licence ouverte 2.0 - Licence Etalab](https://www.etalab.gouv.fr/licence-ouverte-open-licence/) et la Licence ODbL.
 

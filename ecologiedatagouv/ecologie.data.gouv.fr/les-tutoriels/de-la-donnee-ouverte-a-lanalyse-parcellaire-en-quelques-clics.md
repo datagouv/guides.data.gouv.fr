@@ -39,7 +39,7 @@ La difficulté n'est pas tant l'analyse que la constitution du projet de travail
 
 [_ecologie._**data.gouv**._fr_](https://guides.data.gouv.fr/ecologie.data.gouv.fr) propose des **collections thématiques** regroupant des jeux de données utiles à une problématique métier. Pour cet exemple, nous utiliserons la collection :
 
-<figure><img src="../../.gitbook/assets/identification_des_potentiels_fonciers_adaptes_aux_projets_par_filieres_photovoltaiques_Bouches_du_Rhone (1).png" alt=""><figcaption><p><strong>Identification des potentiels fonciers adaptés aux projets par filières photovoltaïques - Bouches-du-Rhône</strong></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/identification_des_potentiels_fonciers_adaptes_aux_projets_par_filieres_photovoltaiques_Bouches_du_Rhone (1).png" alt=""><figcaption><p><strong>Identification des potentiels fonciers adaptés aux projets par filières photovoltaïques - Bouches-du-Rhône</strong></p></figcaption></figure>
 
 > Cette collection illustre parfaitement l'intérêt des collections thématiques : au-delà d'un simple regroupement de données, elle formalise une méthode d'analyse développée par la DDTM13 et la rend réutilisable par d'autres territoires.
 >
@@ -51,11 +51,11 @@ La collection est disponible ici :
 
 En bas de la page, cliquez sur :
 
-<figure><img src="../../.gitbook/assets/jdd_qgis (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/jdd_qgis (1).png" alt=""><figcaption></figcaption></figure>
 
 Toutes les couches de la collection disposant de services WFS/WMS sont automatiquement ajoutées au projet. Un fichier QLR est alors généré et ouvert dans QGIS :
 
-<figure><img src="../../.gitbook/assets/exportQGIS (1).gif" alt=""><figcaption><p>Ouverture dans QGIS d'une collection thématique directement depuis <em>ecologie.</em><strong>data.gouv</strong><em>.fr</em></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/exportQGIS (1).gif" alt=""><figcaption><p>Ouverture dans QGIS d'une collection thématique directement depuis <em>ecologie.</em><strong>data.gouv</strong><em>.fr</em></p></figcaption></figure>
 
 Ainsi, en quelques secondes, le projet contient déjà les principales couches utiles à l'étude. Sans cette fonctionnalité, chacune de ces couches devrait être recherchée et ajoutée individuellement.
 
@@ -69,7 +69,7 @@ Vous pouvez retrouver le tutoriel pour ouvrir une collection thématique dans QG
 
 Pour utiliser Sécateur, il nous faut maintenant une entité géométrique de référence pour l'intersection.
 
-<figure><img src="../../.gitbook/assets/PCI (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/PCI (1).png" alt=""><figcaption></figcaption></figure>
 
 Utilisons le **Plan Cadastral Informatisé (PCI)**, lui aussi disponible sur [_ecologie._**data.gouv**._fr_](https://guides.data.gouv.fr/ecologie.data.gouv.fr) :
 
@@ -91,7 +91,7 @@ Ouvrez le panneau de Sécateur puis :
 2. Cliquer sur "Réaliser l’intersection" ;
 3. Sécateur analyse automatiquement l'ensemble des **couches visibles** du projet, et produit les rapports cartographiques et csv.
 
-<figure><img src="../../.gitbook/assets/workflow (1).gif" alt=""><figcaption><p>Utilisation de Sécateur.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/workflow (1).gif" alt=""><figcaption><p>Utilisation de Sécateur.</p></figcaption></figure>
 
 Accéder à la documentation de Sécateur :
 
