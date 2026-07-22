@@ -8,15 +8,15 @@ Certains blocs sont communs à tous les types de structures, d'autres sont spéc
 
 Ce bloc existe pour toutes les structures, néanmoins l’état des inscriptions dépend de la nature de la structure. Par exemple une entreprise :
 
-<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 Une association :
 
-<figure><img src="../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 Une administration :
 
-<figure><img src="../../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 Le reste du bloc contient :
 
@@ -36,25 +36,25 @@ Après le bloc d’informations légales suit généralement un bloc détaillant
 
 Ce bloc apparait si l’entreprise est immatriculée au RNE. Il contient
 
-<figure><img src="../../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### Répertoire National des Associations (associations)
 
 Ce bloc contient les informations au RNA
 
-<figure><img src="../../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### Administration
 
 L’Annuaire du service public est tenu par la DILA. Il approte des informations complémentaires des informations légales (contact, dirigeants, site officiel).
 
-<figure><img src="../../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### Collectivités
 
 Pour les collectivités, le bloc est légèrement différent. Il contient un bloc Collectivité territoriale en plus du bloc Annuaire du service public. Il contient notamment le statut de la collectivité et son code Insee.
 
-<figure><img src="../../../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Siège social
 
