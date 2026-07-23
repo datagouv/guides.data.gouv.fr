@@ -76,6 +76,7 @@ Rien à faire. L'app fonctionne sans ClamAV en développement. Aucun badge de sc
 ### Prérequis serveur
 
 1. **Activer le scan** via le credential Rails : `clamav.enabled: true` (voir section Configuration ci-dessus).
+
 2. **Installer ClamAV** dans l'image Docker ou sur le serveur :
 
 ```dockerfile
@@ -90,7 +91,7 @@ RUN freshclam
 ```
 
 4. **Configurer le chemin** si le binaire n'est pas à `/usr/bin/clamscan` :
-   * Via credential Rails : `clamav.clamscan_path`
+   - Via credential Rails : `clamav.clamscan_path`
 
 ### Vérification
 

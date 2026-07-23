@@ -1,7 +1,3 @@
 # Documentation Technique
 
-## Note pour les contributeurs et contributrices
-
-Cette documentation est synchronisée avec GitBook via l'intégration GitHub.
-
-> **Important** : pour qu'un fichier apparaisse sur GitBook, il doit être référencé dans le fichier [`SUMMARY.md`](https://github.com/datagouv/passemarche/blob/develop/SUMMARY.md) à la racine du projet. Tout fichier Markdown non listé dans `SUMMARY.md` ne sera pas publié sur GitBook.
+Cette section regroupe la documentation technique d'intégration de Passe Marché : guide de démarrage, authentification OAuth2, flux acheteur et candidat, référence API, schémas d'intégration, webhooks, environnements, sécurité des fichiers et scripts de référence.

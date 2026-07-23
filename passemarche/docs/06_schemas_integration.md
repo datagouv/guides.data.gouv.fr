@@ -377,7 +377,7 @@ SÉQUENCE COMPLÈTE FLUX CANDIDAT
 ## 5. Architecture Webhook et Retry
 
 ```
-SYSTÈME WEBHOOK AVEC RETRY ET CIRCUIT BREAKER
+SYSTÈME WEBHOOK AVEC RETRY
 
 ┌─────────────┐  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐
 │ Événement   │  │ File        │  │ Processeur  │  │ Plateforme  │  │ Gestionnaire│
@@ -443,34 +443,9 @@ SYSTÈME WEBHOOK AVEC RETRY ET CIRCUIT BREAKER
        │                │   (3 retries   │                │                │
        │                │   épuisés)     │                │                │
        │                │◄───────────────┤                │                │
-
-
-CIRCUIT BREAKER (après 5 échecs consécutifs):
-
-       │                │                │                │                │
-       │                │18. Circuit     │                │                │
-       │                │    OUVERT      │                │                │
-       │                │   (5 échecs)   │                │                │
-       │                ├───────────────▶│                │                │
-       │                │                │19. Suspension  │                │
-       │                │                │    Webhooks    │                │
-       │                │                │    (30 min)    │                │
-       │                │                │                │                │
-       │                │                │     ...30min...│                │
-       │                │                │                │                │
-       │                │20. Tentative   │                │                │
-       │                │    Test        │                │                │
-       │                │   (1 webhook)  │                │                │
-       │                ├───────────────▶│                │                │
-       │                │                │21. POST test   │                │
-       │                │                ├───────────────▶│                │
-       │                │                │22. HTTP 200    │                │
-       │                │                │◄───────────────┤                │
-       │                │                │23. Circuit     │                │
-       │                │                │    FERMÉ       │                │
-       │                │◄───────────────┤                │                │
-       │                │                │                │                │
 ```
+
+Les délais entre tentatives suivent un backoff polynomial croissant (`ActiveJob polynomially_longer`), pas des délais fixes. Il n'y a pas de mécanisme de suspension automatique ("circuit breaker") au-delà des 3 tentatives : après le dernier échec, l'entité passe simplement en `sync_failed` et peut être relancée manuellement (voir [Interface de Retry](03_flux_acheteur.md#interface-de-retry)).
 
 ***
 
@@ -634,10 +609,21 @@ Le payload pour créer un marché public doit respecter la structure suivante :
       "description": "Types de marché (defense ne peut pas être seul)",
       "required": true
     },
-    "lot_name": {
-      "type": "string",
-      "maxLength": 255,
-      "description": "Nom du lot spécifique",
+    "lots": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {"type": "string"},
+          "cpv_code": {
+            "type": "string",
+            "pattern": "^\\d{8}-\\d$",
+            "description": "Code CPV (ex: 30213100-6)"
+          }
+        },
+        "required": ["name"]
+      },
+      "description": "Liste des lots du marché",
       "required": false
     }
   }
@@ -725,7 +711,7 @@ CHECKLIST TECHNIQUE D'INTÉGRATION
 │ ☐ Tests d'intégration avec fake_editor_app                               │
 │ ☐ Tests de charge sur endpoints critiques                                 │
 │ ☐ Tests de sécurité (signatures, timeouts)                               │
-│ ☐ Tests de résilience (retry, circuit breaker simulation)                │
+│ ☐ Tests de résilience (retry, gestion des codes d'erreur)                 │
 │ ☐ Validation avec environnement de recette                               │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
