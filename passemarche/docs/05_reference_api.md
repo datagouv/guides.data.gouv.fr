@@ -1,7 +1,5 @@
 # Référence API - Passe Marché
 
-## Référence API - Passe Marché
-
 ### Vue d'ensemble
 
 Cette référence technique détaille tous les endpoints disponibles dans l'API Passe Marché pour l'intégration des plateformes de marchés publics. L'API suit les standards REST avec authentification OAuth2.
@@ -31,7 +29,7 @@ Tous les endpoints API (sauf OAuth) requièrent un token d'accès valide dans l'
 Authorization: Bearer {access_token}
 ```
 
-Consultez la [Documentation OAuth](https://github.com/datagouv/passemarche/blob/develop/docs/AUTHENTIFICATION_OAUTH.md) pour l'obtention du token.
+Consultez la [Documentation OAuth](02_authentification_oauth.md) pour l'obtention du token.
 
 ### Format des Réponses
 
@@ -184,7 +182,7 @@ Content-Type: application/json
 | Champ           | Type   | Requis | Description           | Contraintes                                                                        |
 | --------------- | ------ | ------ | --------------------- | ---------------------------------------------------------------------------------- |
 | `name`          | string | Oui    | Nom du lot            | Max 255 caractères                                                                 |
-| `cpv_code`      | string | Non    | Code CPV du lot       | Format `XXXXXXXX-X` (8 chiffres, tiret, 1 chiffre)                                |
+| `cpv_code`      | string | Non    | Code CPV du lot       | Format `XXXXXXXX-X` (8 chiffres, tiret, 1 chiffre)                                 |
 | `lot_type_code` | string | Non    | Type de marché du lot | `supplies`, `services`, `works` — si absent, hérite du premier `market_type_codes` |
 
 **Types de Marché Valides**
@@ -211,11 +209,11 @@ Content-Type: application/json
 
 ```json
 {
-  "errors": [
-    "Name can't be blank",
-    "Deadline can't be blank",
-    "Market type codes can't be blank"
-  ]
+  "errors": {
+    "name": ["Le nom du marché ne peut pas être vide"],
+    "deadline": ["La date limite ne peut pas être vide"],
+    "market_type_codes": ["Les types de marché ne peuvent pas être vides"]
+  }
 }
 ```
 
@@ -223,9 +221,9 @@ Content-Type: application/json
 
 ```json
 {
-  "errors": [
-    "Market type codes defense cannot be used alone"
-  ]
+  "errors": {
+    "market_type_codes": ["Le marché de défense ne peut pas être le seul type sélectionné"]
+  }
 }
 ```
 
@@ -234,7 +232,7 @@ Content-Type: application/json
 ```json
 {
   "errors": {
-    "siret": ["Le numéro de SIRET saisi est invalide ou non reconnu"]
+    "siret": ["n'est pas valide"]
   }
 }
 ```
@@ -270,9 +268,9 @@ Content-Type: application/json
 
 **Paramètres**
 
-| Champ      | Type     | Requis | Description          | Contraintes     |
-| ---------- | -------- | ------ | -------------------- | --------------- |
-| `deadline` | datetime | Oui    | Nouvelle date limite | Format ISO 8601 |
+| Champ      | Type     | Requis | Description             | Contraintes       |
+| ---------- | -------- | ------ | ----------------------- | ----------------- |
+| `deadline` | datetime | Oui    | Nouvelle date limite    | Format ISO 8601   |
 
 **Réponse de Succès (200)**
 
@@ -300,6 +298,104 @@ Content-Type: application/json
   "errors": {
     "deadline": ["doit être rempli(e)"]
   }
+}
+```
+
+#### Publier un Marché
+
+Marque un marché comme publié, une fois sa configuration finalisée par l'acheteur.
+
+**`POST /api/v1/public_markets/{identifier}/publish`**
+
+**En-têtes** :
+
+```http
+Authorization: Bearer {access_token}
+Content-Type: application/json
+```
+
+**Paramètres de chemin**
+
+| Paramètre    | Type   | Description                                     |
+| ------------ | ------ | ----------------------------------------------- |
+| `identifier` | string | Identifiant du marché (format VR-YYYY-XXXXXX)   |
+
+**Réponse de Succès (200)**
+
+```json
+{
+  "identifier": "VR-2024-A1B2C3D4E5F6",
+  "published_at": "2024-06-20T09:00:00Z"
+}
+```
+
+**Réponses d'Erreur**
+
+**404 - Marché non trouvé ou n'appartient pas à l'éditeur** :
+
+```json
+{
+  "error": "Resource not found"
+}
+```
+
+**422 - Configuration non finalisée** :
+
+```json
+{
+  "errors": {
+    "base": ["Le marché n'a pas encore été configuré."]
+  }
+}
+```
+
+**422 - Marché déjà publié** :
+
+```json
+{
+  "errors": {
+    "base": ["Le marché a déjà été publié."]
+  }
+}
+```
+
+#### Télécharger la Synthèse de Configuration
+
+Téléchargement du PDF récapitulant la configuration du marché, généré lors de la finalisation par l'acheteur (étape `summary` du wizard).
+
+**`GET /api/v1/public_markets/{identifier}/configuration_summary`**
+
+**En-têtes** :
+
+```http
+Authorization: Bearer {access_token}
+```
+
+**Réponse de Succès (200)**
+
+```http
+HTTP/1.1 200 OK
+Content-Type: application/pdf
+Content-Disposition: attachment; filename="configuration_summary_VR-2024-A1B2C3D4E5F6.pdf"
+
+[Binary PDF content]
+```
+
+**Réponses d'Erreur**
+
+**404 - Marché non trouvé ou n'appartient pas à l'éditeur** :
+
+```json
+{
+  "error": "Resource not found"
+}
+```
+
+**404 - Synthèse non disponible** :
+
+```json
+{
+  "error": "Configuration summary not available"
 }
 ```
 
@@ -356,7 +452,7 @@ Content-Type: application/json
 
 ```json
 {
-  "error": "Resource not found"
+  "error": "Public market not found"
 }
 ```
 
@@ -419,7 +515,7 @@ Content-Length: 245760
 
 ```json
 {
-  "error": "Resource not found"
+  "error": "Market application not found"
 }
 ```
 
@@ -480,7 +576,7 @@ Content-Length: 1048576
 
 ```json
 {
-  "error": "Resource not found"
+  "error": "Market application not found"
 }
 ```
 
@@ -534,23 +630,15 @@ Content-Length: 1048576
 
 #### Erreurs de Validation
 
-**Format de date invalide** :
-
-```json
-{
-  "errors": [
-    "Deadline must be a valid ISO 8601 datetime"
-  ]
-}
-```
+Toutes les erreurs de validation prennent la forme `{"errors": {"champ": ["message"]}}`.
 
 **Valeur trop longue** :
 
 ```json
 {
-  "errors": [
-    "Name is too long (maximum is 255 characters)"
-  ]
+  "errors": {
+    "provider_user_id": ["est trop long (255 caractères maximum)"]
+  }
 }
 ```
 
@@ -558,41 +646,17 @@ Content-Length: 1048576
 
 ```json
 {
-  "errors": [
-    "Name can't be blank"
-  ]
+  "errors": {
+    "name": ["Le nom du marché ne peut pas être vide"]
+  }
 }
 ```
 
-#### Erreurs Métier
+**Note** : `deadline` n'est validé que sur sa présence (`presence: true`) ; il n'existe pas de contrainte "doit être dans le futur" côté API.
 
-**Date limite passée** :
+#### Re-candidature
 
-```json
-{
-  "errors": [
-    "Deadline must be in the future"
-  ]
-}
-```
-
-**Marché déjà finalisé** :
-
-```json
-{
-  "error": "Market is already completed"
-}
-```
-
-**Candidature déjà existante** :
-
-```json
-{
-  "errors": [
-    "Application already exists for this SIRET"
-  ]
-}
-```
+Il n'y a pas d'erreur "candidature déjà existante" : si une candidature complétée existe déjà pour le même SIRET sur un marché dont la deadline n'est pas dépassée, l'appel `POST .../market_applications` la remet à zéro plutôt que de la refuser. Voir [Flux Candidat](04_flux_candidat.md#comportement-en-cas-de-re-candidature).
 
 ### Gestion des Timeouts
 

@@ -38,7 +38,7 @@ Les exemples de ce document utilisent `${BASE_URL}` comme placeholder. Consultez
 
 **Prérequis** : Token d'accès valide obtenu via le flux OAuth2 Client Credentials.
 
-Consultez la [Documentation OAuth](https://github.com/datagouv/passemarche/blob/develop/docs/AUTHENTIFICATION_OAUTH.md) pour les détails d'implémentation.
+Consultez la [Documentation OAuth](02_authentification_oauth.md) pour les détails d'implémentation.
 
 ### 2. Création du Marché Public
 
@@ -70,20 +70,22 @@ Content-Type: application/json
 
 #### Paramètres Requis
 
-| Champ               | Type     | Description                      | Contraintes                                     |
-| ------------------- | -------- | -------------------------------- | ----------------------------------------------- |
-| `name`              | string   | Nom du marché public             | Requis, max 255 caractères                      |
-| `deadline`          | datetime | Date limite de candidature       | Requis, format ISO 8601                         |
-| `siret`             | string   | SIRET de l'organisation publique | Requis, exactement 14 chiffres, validation Luhn |
-| `market_type_codes` | array    | Types de marché                  | Requis, minimum 1 élément                       |
-| `lots`              | array    | Liste des lots du marché         | Optionnel, chaque lot requiert un `name`        |
+| Champ               | Type     | Description                                                         | Contraintes                                       |
+| ------------------- | -------- | ------------------------------------------------------------------- | ------------------------------------------------- |
+| `name`              | string   | Nom du marché public                                                | Requis, max 255 caractères                        |
+| `deadline`          | datetime | Date limite de candidature                                          | Requis, format ISO 8601                           |
+| `siret`             | string   | SIRET de l'organisation publique                                    | Requis, exactement 14 chiffres, validation Luhn   |
+| `market_type_codes` | array    | Types de marché                                                     | Requis, minimum 1 élément                         |
+| `lots`              | array    | Liste des lots du marché                                            | Optionnel, chaque lot requiert un `name`          |
+| `provider_user_id`  | string   | Identifiant de l'utilisateur côté éditeur (acheteur)                | Optionnel, max 255 caractères                     |
+| `lot_limit`         | integer  | Nombre maximum de lots pour lesquels une entreprise peut candidater | Optionnel, ne peut pas dépasser le nombre de lots |
 
 **Propriétés d'un lot**
 
 | Champ           | Type   | Requis | Description           | Contraintes                                                                        |
 | --------------- | ------ | ------ | --------------------- | ---------------------------------------------------------------------------------- |
 | `name`          | string | Oui    | Nom du lot            | Max 255 caractères                                                                 |
-| `cpv_code`      | string | Non    | Code CPV du lot       | Format `XXXXXXXX-X` (8 chiffres, tiret, 1 chiffre)                                |
+| `cpv_code`      | string | Non    | Code CPV du lot       | Format `XXXXXXXX-X` (8 chiffres, tiret, 1 chiffre)                                 |
 | `lot_type_code` | string | Non    | Type de marché du lot | `supplies`, `services`, `works` — si absent, hérite du premier `market_type_codes` |
 
 #### Codes de Types de Marché
@@ -117,11 +119,11 @@ Content-Type: application/json
 
 ```json
 {
-  "errors": [
-    "Name can't be blank",
-    "Deadline can't be blank",
-    "Market type codes can't be blank"
-  ]
+  "errors": {
+    "name": ["Le nom du marché ne peut pas être vide"],
+    "deadline": ["La date limite ne peut pas être vide"],
+    "market_type_codes": ["Les types de marché ne peuvent pas être vides"]
+  }
 }
 ```
 
@@ -129,9 +131,9 @@ Content-Type: application/json
 
 ```json
 {
-  "errors": [
-    "Market type codes defense cannot be used alone"
-  ]
+  "errors": {
+    "market_type_codes": ["Le marché de défense ne peut pas être le seul type sélectionné"]
+  }
 }
 ```
 
@@ -166,10 +168,10 @@ Pour les marchés comportant plusieurs lots, l'acheteur peut affiner le type de 
 
 `PATCH /buyer/public_markets/{identifier}/lots`
 
-| Paramètre        | Type    | Description                              |
-| ---------------- | ------- | ---------------------------------------- |
-| `market_type_id` | integer | ID interne du type de marché à appliquer |
-| `lot_ids[]`      | array   | IDs des lots à modifier                  |
+| Paramètre        | Type    | Description                                      |
+| ---------------- | ------- | ------------------------------------------------ |
+| `market_type_id` | integer | ID interne du type de marché à appliquer         |
+| `lot_ids[]`      | array   | IDs des lots à modifier                          |
 
 **Comportement** :
 * Si le type sélectionné est identique au `platform_market_type` du lot (type transmis par l'éditeur à la création), l'override est annulé et le lot reprend le type de la plateforme.
@@ -242,7 +244,6 @@ Le webhook est automatiquement déclenché lors de la finalisation du marché et
       {"id": 1, "name": "Lot 1 - Ordinateurs portables et stations de travail", "cpv_code": "30213100-6", "market_type_code": "supplies"},
       {"id": 2, "name": "Lot 2 - Serveurs et infrastructure réseau", "market_type_code": "services"}
     ],
-    "deadline": "2024-06-15T23:59:59Z",
     "market_type_codes": ["supplies", "services"],
     "completed_at": "2024-06-15T14:30:45Z",
     "field_keys": [
@@ -252,27 +253,30 @@ Le webhook est automatiquement déclenché lors de la finalisation du marché et
       "turnover_year_n_minus_1",
       "employee_count",
       "certifications_iso"
-    ]
+    ],
+    "configuration_summary_url": "${BASE_URL}/api/v1/public_markets/VR-2024-A1B2C3D4E5F6/configuration_summary"
   }
 }
 ```
 
 #### Paramètres du Payload
 
-| Champ                 | Description                                                                                                                                  |
-| --------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
-| `event`               | Type d'événement (`market.completed`)                                                                                                        |
-| `timestamp`           | Horodatage ISO 8601 de l'événement                                                                                                           |
-| `market.identifier`   | Identifiant unique du marché                                                                                                                 |
-| `market.lots`         | Liste des lots triés par position (`id`, `name`, `cpv_code`, `market_type_code`) — `cpv_code` et `market_type_code` absents si non renseignés |
-| `market.field_keys`   | Liste des clés des champs configurés                                                                                                         |
-| `market.completed_at` | Date/heure de complétion                                                                                                                     |
+| Champ                              | Description                                                                                                                                   |
+| ---------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
+| `event`                            | Type d'événement (`market.completed`)                                                                                                         |
+| `timestamp`                        | Horodatage ISO 8601 de l'événement                                                                                                            |
+| `market.identifier`                | Identifiant unique du marché                                                                                                                  |
+| `market.lots`                      | Liste des lots triés par position (`id`, `name`, `cpv_code`, `market_type_code`) — `cpv_code` et `market_type_code` absents si non renseignés |
+| `market.field_keys`                | Liste des clés des champs configurés                                                                                                          |
+| `market.completed_at`              | Date/heure de complétion                                                                                                                      |
+| `market.configuration_summary_url` | URL de téléchargement du PDF de synthèse de configuration, absente si le PDF n'est pas (encore) disponible                                    |
+
 
 #### Sécurité du Webhook
 
 Chaque webhook inclut une signature HMAC-SHA256 dans l'en-tête `X-Webhook-Signature-SHA256`.
 
-Consultez la [Documentation Webhooks](https://github.com/datagouv/passemarche/blob/develop/docs/WEBHOOKS.md) pour les détails de vérification.
+Consultez la [Documentation Webhooks](WEBHOOKS.md) pour les détails de vérification.
 
 ## Gestion des Erreurs et Edge Cases
 
