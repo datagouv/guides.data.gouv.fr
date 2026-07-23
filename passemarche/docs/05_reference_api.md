@@ -241,6 +241,8 @@ Content-Type: application/json
 
 Mise à jour de la date limite de remise des offres (DLRO) d'un marché existant. Chaque modification est historisée (ancienne valeur, nouvelle valeur, horodatage).
 
+> **Disponible avant et après publication.** C'est le seul champ modifiable une fois le marché publié — la configuration wizard (lots, types, etc.) reste verrouillée.
+
 **`PATCH /api/v1/public_markets/{identifier}`**
 
 **En-têtes** :
@@ -301,9 +303,13 @@ Content-Type: application/json
 }
 ```
 
+#### Auteur des modifications
+
+Pour que l'historique des modifications identifie l'auteur (plutôt qu'un auteur vide), transmettez le paramètre `provider_user_id` (identifiant de l'acheteur côté éditeur) lors de la création du marché. Sans ce paramètre, les modifications restent historisées mais sans auteur identifié.
+
 #### Publier un Marché
 
-Marque un marché comme publié, une fois sa configuration finalisée par l'acheteur.
+Publication d'un marché configuré, verrouillant définitivement sa configuration. La DLRO reste modifiable après publication via `PATCH /api/v1/public_markets/{identifier}`.
 
 **`POST /api/v1/public_markets/{identifier}/publish`**
 
@@ -316,9 +322,14 @@ Content-Type: application/json
 
 **Paramètres de chemin**
 
-| Paramètre    | Type   | Description                                     |
-| ------------ | ------ | ----------------------------------------------- |
-| `identifier` | string | Identifiant du marché (format VR-YYYY-XXXXXX)   |
+| Paramètre    | Type   | Description                                   |
+| ------------ | ------ | --------------------------------------------- |
+| `identifier` | string | Identifiant du marché (format VR-YYYY-XXXXXX) |
+
+**Pré-conditions**
+
+* Le marché doit avoir été configuré par l'acheteur (statut `completed`)
+* Le marché ne doit pas déjà être publié
 
 **Réponse de Succès (200)**
 
@@ -339,7 +350,7 @@ Content-Type: application/json
 }
 ```
 
-**422 - Configuration non finalisée** :
+**422 - Marché non configuré** :
 
 ```json
 {
@@ -398,7 +409,6 @@ Content-Disposition: attachment; filename="configuration_summary_VR-2024-A1B2C3D
   "error": "Configuration summary not available"
 }
 ```
-
 ***
 
 ### Gestion des Candidatures

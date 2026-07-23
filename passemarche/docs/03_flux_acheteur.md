@@ -30,6 +30,10 @@ Les exemples de ce document utilisent `${BASE_URL}` comme placeholder. Consultez
 │   Plateforme    │ ◄────────────────────────│   Webhook       │
 │   Éditeur       │                          │   Complétion    │
 └─────────────────┘                          └─────────────────┘
+┌─────────────────┐    8. Publication        ┌─────────────────┐
+│   Plateforme    │ ────────────────────────▶│   Passe Marché  │
+│   Éditeur       │◄──────────────────────── │   API           │
+└─────────────────┘    9. Verrouillage       └─────────────────┘
 ```
 
 ## Étapes Détaillées du Flux
@@ -174,6 +178,7 @@ Pour les marchés comportant plusieurs lots, l'acheteur peut affiner le type de 
 | `lot_ids[]`      | array   | IDs des lots à modifier                          |
 
 **Comportement** :
+
 * Si le type sélectionné est identique au `platform_market_type` du lot (type transmis par l'éditeur à la création), l'override est annulé et le lot reprend le type de la plateforme.
 * Chaque lot conserve deux types distincts : `platform_market_type` (source éditeur, non modifiable) et `market_type` (override acheteur, optionnel).
 * Le type effectif (`effective_market_type`) est `market_type` s'il est défini, sinon `platform_market_type`.
@@ -278,15 +283,53 @@ Chaque webhook inclut une signature HMAC-SHA256 dans l'en-tête `X-Webhook-Signa
 
 Consultez la [Documentation Webhooks](WEBHOOKS.md) pour les détails de vérification.
 
+### 6. Publication du Marché
+
+#### **Modification de la Configuration avant Publication**
+
+Tant que la consultation n'a pas été publiée par l'éditeur, l'acheteur peut modifier la configuration du marché en ré-accédant au wizard via l'URL de configuration. Chaque re-soumission :
+
+1. **Met à jour `completed_at`** avec un nouveau timestamp
+2. **Réinitialise `sync_status`** à `sync_pending`
+3. **Déclenche un nouveau webhook** vers l'éditeur avec la configuration mise à jour
+
+#### **Endpoint de Publication**
+
+`POST /api/v1/public_markets/{identifier}/publish`
+
+L'éditeur appelle cet endpoint lorsque la consultation est publiée sur sa plateforme. Cela verrouille définitivement la configuration du marché, à l'exception de la DLRO qui reste modifiable via `PATCH /api/v1/public_markets/{identifier}` même après publication.
+
+#### **Pré-conditions** :
+
+* Le marché doit être configuré (`completed_at` présent)
+* Le marché ne doit pas déjà être publié
+
+#### **Réponse de Succès (200)** :
+
+```json
+{
+  "identifier": "VR-2024-A1B2C3D4E5F6",
+  "published_at": "2024-06-15T14:30:45Z"
+}
+```
+
+Consultez la Référence API pour les détails complets.
+
+#### **Effet du Verrouillage**
+
+Après publication, l'acheteur qui tente d'accéder au wizard est redirigé vers une page « Configuration verrouillée » (`/buyer/public_markets/{identifier}/published`) qui l'informe que la consultation a été publiée et qu'il ne peut plus modifier la configuration.
+
+> **Exception — DLRO** : la date limite de remise des offres reste modifiable après publication. L'éditeur peut appeler `PATCH /api/v1/public_markets/{identifier}` à tout moment pour mettre à jour la `deadline`, indépendamment de l'état de publication.
+
 ## Gestion des Erreurs et Edge Cases
 
-### Marché Déjà Complété
+### Marché Déjà Publié
 
-Si un utilisateur tente d'accéder à un marché déjà complété :
+Si un utilisateur tente d'accéder à un marché déjà publié :
 
-* Redirection vers une page de statut
-* Affichage des informations de complétion
-* Option de retry de synchronisation si échec webhook
+* Redirection vers la page "Configuration verrouillée"
+* Explication que la consultation a été publiée
+* Lien de retour vers la plateforme de marché
 
 ### Session Expirée
 
