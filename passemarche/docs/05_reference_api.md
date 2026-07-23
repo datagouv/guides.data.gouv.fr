@@ -184,7 +184,7 @@ Content-Type: application/json
 | Champ           | Type   | Requis | Description           | Contraintes                                                                        |
 | --------------- | ------ | ------ | --------------------- | ---------------------------------------------------------------------------------- |
 | `name`          | string | Oui    | Nom du lot            | Max 255 caractères                                                                 |
-| `cpv_code`      | string | Non    | Code CPV du lot       | Format `XXXXXXXX-X` (8 chiffres, tiret, 1 chiffre)                                |
+| `cpv_code`      | string | Non    | Code CPV du lot       | Format `XXXXXXXX-X` (8 chiffres, tiret, 1 chiffre)                                 |
 | `lot_type_code` | string | Non    | Type de marché du lot | `supplies`, `services`, `works` — si absent, hérite du premier `market_type_codes` |
 
 **Types de Marché Valides**
@@ -243,6 +243,8 @@ Content-Type: application/json
 
 Mise à jour de la date limite de remise des offres (DLRO) d'un marché existant. Chaque modification est historisée (ancienne valeur, nouvelle valeur, horodatage).
 
+> **Disponible avant et après publication.** C'est le seul champ modifiable une fois le marché publié — la configuration wizard (lots, types, etc.) reste verrouillée.
+
 **`PATCH /api/v1/public_markets/{identifier}`**
 
 **En-têtes** :
@@ -300,6 +302,73 @@ Content-Type: application/json
   "errors": {
     "deadline": ["doit être rempli(e)"]
   }
+}
+```
+
+#### **Auteur des modifications**
+
+Pour que l'historique des modifications identifie l'auteur (plutôt qu'un auteur vide), transmettez le paramètre `provider_user_id` (identifiant de l'acheteur côté éditeur) lors de la création du marché. Sans ce paramètre, les modifications restent historisées mais sans auteur identifié.
+
+#### **Publier un Marché**
+
+Publication d'un marché configuré, verrouillant définitivement sa configuration. La DLRO reste modifiable après publication via `PATCH /api/v1/public_markets/{identifier}`.
+
+**`POST /api/v1/public_markets/{identifier}/publish`**
+
+**En-têtes** :
+
+```http
+Authorization: Bearer {access_token}
+Content-Type: application/json
+```
+
+**Paramètres de chemin**
+
+| Paramètre    | Type   | Description                                   |
+| ------------ | ------ | --------------------------------------------- |
+| `identifier` | string | Identifiant du marché (format VR-YYYY-XXXXXX) |
+
+**Pré-conditions**
+
+* Le marché doit avoir été configuré par l'acheteur (statut `completed`)
+* Le marché ne doit pas déjà être publié
+
+**Réponse de Succès (200)**
+
+```json
+{
+  "identifier": "VR-2024-A1B2C3D4E5F6",
+  "published_at": "2024-06-15T14:30:45Z"
+}
+```
+
+**Réponses d'Erreur**
+
+**422 - Marché non configuré** :
+
+```json
+{
+  "errors": {
+    "base": ["Le marché n'a pas encore été configuré."]
+  }
+}
+```
+
+**422 - Marché déjà publié** :
+
+```json
+{
+  "errors": {
+    "base": ["Le marché a déjà été publié."]
+  }
+}
+```
+
+**404 - Marché non trouvé ou n'appartient pas à l'éditeur** :
+
+```json
+{
+  "error": "Resource not found"
 }
 ```
 
