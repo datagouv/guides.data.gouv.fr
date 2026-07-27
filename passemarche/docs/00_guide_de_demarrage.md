@@ -78,7 +78,7 @@
 * **Webhooks** : Notifications HTTP POST avec signature HMAC
 * **Popup/iFrame** : Modes d'intégration dans votre plateforme
 * **ZIP Package** : Archive de tous les documents soumis
-* **Circuit Breaker** : Mécanisme de protection contre les pannes
+* **Retry** : 3 tentatives avec backoff polynomial croissant avant passage en `sync_failed`
 
 ## 🔄 Parcours d'Intégration Recommandé
 
@@ -160,12 +160,12 @@
 
 Passe Marché dispose de 4 environnements pour les différentes phases d'intégration :
 
-| Environnement  | URL                                      | Données API | Accès                          |
-| -------------- | ---------------------------------------- | ----------- | ------------------------------ |
-| **Staging**    | https://staging.passemarche.data.gouv.fr | Simulées    | plateformes de marchés publics |
-| **Preprod**    | https://preprod.passemarche.data.gouv.fr | Réelles     | Sécurisé                       |
-| **Production** | https://passemarche.data.gouv.fr         | Réelles     | Sécurisé                       |
-| **Sandbox**    | https://sandbox.passemarche.data.gouv.fr | Simulées    | Interne (instable)             |
+| Environnement  | URL                                      | Données API | Accès              |
+| -------------- | ---------------------------------------- | ----------- | ------------------ |
+| **Staging**    | https://staging.passemarche.data.gouv.fr | Simulées    | plateformes de marchés publics           |
+| **Preprod**    | https://preprod.passemarche.data.gouv.fr | Réelles     | Sécurisé           |
+| **Production** | https://passemarche.data.gouv.fr         | Réelles     | Sécurisé           |
+| **Sandbox**    | https://sandbox.passemarche.data.gouv.fr | Simulées    | Interne (instable) |
 
 **Fake Editor** (démo d'intégration) : Remplacez `passemarche` par `editeur.passemarche` dans les URLs ci-dessus.
 

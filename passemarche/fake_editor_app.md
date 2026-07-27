@@ -177,7 +177,7 @@ fake_editor_app/
 
 Cette application sert d'exemple pour :
 
-* [Guide d'Intégration API](https://github.com/datagouv/passemarche/blob/develop/docs/API_INTEGRATION.md)
+* [Référence API](docs/05_reference_api.md)
 * Implémentation OAuth2 Client Credentials
 * Gestion des tokens et erreurs
 * Interface utilisateur pour l'authentification

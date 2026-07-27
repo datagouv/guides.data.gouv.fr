@@ -21,9 +21,9 @@ Les URLs dans les payloads webhook (ex: `attestation_url`) correspondent à l'en
 │   Éditeur       │   + Signature HMAC │   Webhook       │
 └─────────────────┘                  └─────────────────┘
                                               │
-┌─────────────────┐    Retry/Circuit  ┌─────────────────┐
+┌─────────────────┐    Retry          ┌─────────────────┐
 │   Gestion       │ ◄────────────────── │   Gestionnaire  │
-│   d'Erreurs     │   Breaker         │   d'Erreurs     │
+│   d'Erreurs     │                   │   d'Erreurs     │
 └─────────────────┘                  └─────────────────┘
 ```
 
@@ -87,8 +87,14 @@ Les paramètres existants dans l'URL sont préservés.
   "market": {
     "identifier": "VR-2024-A1B2C3D4E5F6",
     "name": "Fourniture de matériel informatique",
-    "lot_name": "Lot 1 - Ordinateurs portables",
-    "deadline": "2024-12-31T23:59:59.000Z",
+    "lots": [
+      {
+        "id": 42,
+        "name": "Lot 1 - Ordinateurs portables",
+        "cpv_code": "30213100-6",
+        "market_type_code": "supplies"
+      }
+    ],
     "market_type_codes": ["supplies", "services"],
     "completed_at": "2024-06-15T14:30:45.123Z",
     "field_keys": [
@@ -100,7 +106,8 @@ Les paramètres existants dans l'URL sont préservés.
       "turnover_year_n_minus_3",
       "employee_count",
       "certifications_iso"
-    ]
+    ],
+    "configuration_summary_url": "${BASE_URL}/api/v1/public_markets/VR-2024-A1B2C3D4E5F6/configuration_summary"
   }
 }
 ```
@@ -121,8 +128,6 @@ Les paramètres existants dans l'URL sont préservés.
   "market_application": {
     "identifier": "FT20240615A1B2C3D4",
     "siret": "12345678901234",
-    "company_name": "ACME Solutions SARL",
-    "completed_at": "2024-06-15T16:45:30.456Z",
     "attestation_url": "${BASE_URL}/api/v1/market_applications/FT20240615A1B2C3D4/attestation",
     "documents_package_url": "${BASE_URL}/api/v1/market_applications/FT20240615A1B2C3D4/documents_package"
   }
@@ -175,14 +180,13 @@ header_value = "sha256=" + hex(signature)
 
 ### Stratégie de Retry
 
-Passe Marché implémente un système de retry robuste avec circuit breaker :
+Passe Marché implémente un système de retry basé sur ActiveJob :
 
 **Configuration par défaut** :
 
 * **Tentatives** : 3 essais maximum
-* **Délais** : Backoff polynomial avec jitter (1s, 4s, 9s)
+* **Délais** : Backoff polynomial croissant (`polynomially_longer`, quelques secondes puis dizaines de secondes)
 * **Timeout** : 30 secondes par tentative
-* **Circuit breaker** : Suspension après 5 échecs consécutifs
 
 ### Codes de Réponse et Actions
 

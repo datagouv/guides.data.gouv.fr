@@ -43,7 +43,7 @@ Les exemples de ce document utilisent `${BASE_URL}` comme placeholder. Consultez
 
 **Token OAuth requis** : Token d'accès valide obtenu via le flux Client Credentials.
 
-Consultez la [Documentation OAuth](https://github.com/datagouv/passemarche/blob/develop/docs/AUTHENTIFICATION_OAUTH.md) pour l'implémentation.
+Consultez la [Documentation OAuth](02_authentification_oauth.md) pour l'implémentation.
 
 ### 2. Création de la Candidature
 
@@ -68,10 +68,11 @@ Content-Type: application/json
 
 #### Paramètres
 
-| Champ               | Type   | Description                  | Contraintes                          |
-| ------------------- | ------ | ---------------------------- | ------------------------------------ |
-| `market_identifier` | string | Identifiant du marché public | Requis, format VR-YYYY-XXXXXXXXXXXX  |
-| `siret`             | string | Numéro SIRET de l'entreprise | Optionnel à la création, 14 chiffres |
+| Champ               | Type   | Description                                          | Contraintes                          |
+| ------------------- | ------ | ---------------------------------------------------- | ------------------------------------ |
+| `market_identifier` | string | Identifiant du marché public                         | Requis, format VR-YYYY-XXXXXXXXXXXX  |
+| `siret`             | string | Numéro SIRET de l'entreprise                         | Optionnel à la création, 14 chiffres |
+| `provider_user_id`  | string | Identifiant de l'utilisateur côté éditeur (candidat) | Optionnel, max 255 caractères        |
 
 **Note importante** : Le SIRET peut être fourni à la création ou lors de l'étape d'identification dans l'interface candidat.
 
@@ -89,35 +90,7 @@ Content-Type: application/json
 * `identifier` : Identifiant unique de la candidature (format FT + date + hash)
 * `application_url` : URL vers l'interface de candidature
 
-#### Réponses d'Erreur
-
-**Marché non trouvé (404)** :
-
-```json
-{
-  "error": "Resource not found"
-}
-```
-
-**Marché non accessible par l'éditeur (403)** :
-
-```json
-{
-  "error": "Forbidden"
-}
-```
-
-**SIRET invalide si fourni (422)** :
-
-```json
-{
-  "errors": [
-    "Siret is invalid (must be 14 digits)"
-  ]
-}
-```
-
-#### **Comportement en cas de re-candidature**
+#### Comportement en cas de re-candidature
 
 Si une candidature complétée existe déjà pour le même SIRET sur ce marché et que la date limite n'est pas dépassée, l'appel remet à zéro la candidature existante :
 
@@ -129,15 +102,51 @@ Si une candidature complétée existe déjà pour le même SIRET sur ce marché 
 
 Si une candidature en cours (non complétée) existe, elle est retournée telle quelle.
 
-**Traçabilité des dépôts**
+#### Traçabilité des dépôts
 
 Chaque changement de `completed_at` (soumission ou remise à zéro) est historisé via PaperTrail. L'historique des versions permet de retrouver les dates de chaque dépôt et de chaque re-candidature.
 
-**Vérification de la date limite**
+#### Vérification de la date limite
 
 Si la date limite est dépassée et qu'une candidature complétée existe, l'API retourne la candidature existante sans la remettre à zéro (pas de reset). La création et la poursuite d'une candidature en cours restent possibles même après la date limite.
 
 Côté interface candidat, un candidat dont la candidature est complétée et dont le marché est fermé voit une page dédiée indiquant que la modification n'est plus possible.
+
+#### Réponses d'Erreur
+
+**Marché non trouvé (404)** :
+
+```json
+{
+  "error": "Public market not found"
+}
+```
+
+**Marché non accessible par l'éditeur (403)** :
+
+```json
+{
+  "error": "Forbidden"
+}
+```
+
+**Marché non encore publié (422)** :
+
+```json
+{
+  "error": "La consultation n'est pas encore publiée, vous ne pouvez pas candidater à ce marché."
+}
+```
+
+**SIRET invalide si fourni (422)** :
+
+```json
+{
+  "errors": {
+    "siret": ["n'est pas valide"]
+  }
+}
+```
 
 ### 3. Interface de Candidature
 
