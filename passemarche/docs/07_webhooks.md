@@ -124,30 +124,15 @@ Les paramètres existants dans l'URL sont préservés.
 {
   "event": "market_application.completed",
   "timestamp": "2024-06-15T16:45:30.456Z",
-  "market": {
+  "market_identifier": "VR-2024-A1B2C3D4E5F6",
+  "market_application": {
     "identifier": "FT20240615A1B2C3D4",
-    "completed_at": "2024-06-15T16:45:30.456Z",
+    "siret": "12345678901234",
     "attestation_url": "${BASE_URL}/api/v1/market_applications/FT20240615A1B2C3D4/attestation",
-    "documents_package_url": "${BASE_URL}/api/v1/market_applications/FT20240615A1B2C3D4/documents_package",
-    "selected_lots": [
-      {
-        "id": 1,
-        "name": "Lot 1 - Ordinateurs portables",
-        "cpv_code": "30213100-6",
-        "market_type_code": "supplies"
-      },
-      {
-        "id": 3,
-        "name": "Lot 3 - Maintenance",
-        "cpv_code": null,
-        "market_type_code": "services"
-      }
-    ]
+    "documents_package_url": "${BASE_URL}/api/v1/market_applications/FT20240615A1B2C3D4/documents_package"
   }
 }
 ```
-
-`selected_lots` contient la liste des lots sélectionnés par le candidat lors de sa candidature, distincte des lots configurés sur le marché (market.lots). Pour un marché sans lots, ce champ est un tableau vide.
 
 ## Format des Requêtes Webhook
 
