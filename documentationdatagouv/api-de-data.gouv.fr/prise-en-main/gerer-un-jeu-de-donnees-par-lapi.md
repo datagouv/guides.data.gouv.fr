@@ -16,7 +16,7 @@ Tous les exemples qui suivent sont réalisés avec un compte :
 
 Les exemples portants sur un jeu de données existant utilisent l’identifiant `5bc04b2cff66bd680e499f4a`. Ceux portants sur une ressource existante de ce jeu de données utilisent l’identifiant `54d47250-1daf-483b-965a-3013f8c76617`.
 
-Pour simplifier la lecture de ces exemples, il y sera fait référence par les variables suivantes pour chaque langage:
+Pour simplifier la lecture de ces exemples, il y sera fait référence par les variables suivantes pour chaque langage :
 
 {% tabs %}
 {% tab title="CURL" %}
@@ -68,9 +68,9 @@ def api_url(path):
 ```python
 # Tous les exemples Python sont executés avec cette convention
 
-from datagouv import Client, Dataset, Resource  # installé avec `pip install datagouv-client`
+from datagouv import Client  # installé avec `pip install datagouv-client`
 
-# vous devez avoir les droits sur les objets que vous souhaitez modifier modifier
+# vous devez avoir les droits sur les objets que vous souhaitez modifier
 ORG = "5bbb6d6cff66bd4dc17bfd5a"
 DATASET = "5bc04b2cff66bd680e499f4a"
 RESOURCE = "54d47250-1daf-483b-965a-3013f8c76617"
@@ -120,7 +120,7 @@ response = requests.post(url, json={
 
 {% tab title="datagouv-client" %}
 ```python
-dataset = client.dataset().create(
+dataset = client.create_dataset(
     {
         "title": "Mon titre", 
         "description": "Ma description",
@@ -180,8 +180,8 @@ response = requests.post(url, files={
 {% endtab %}
 
 {% tab title="datagouv-client" %}
-```
-resource = client.resource().create_static(
+```python
+resource = client.create_static_resource(
     file_to_upload="/chemin/vers/le/fichier",
     payload={
         "title": "Nouvelle ressource",
@@ -247,7 +247,8 @@ response = requests.post(url, json={
 {% endtab %}
 
 {% tab title="datagouv-client" %}
-<pre class="language-python"><code class="lang-python">resource = client.resource().create_remote(
+```python
+resource = client.create_remote_resource(
     payload={
         "url": "https://url.to/ressource.csv",
         "title": "Nouvelle ressource distante",
@@ -258,14 +259,14 @@ response = requests.post(url, json={
 
 # ou alternativement au sein du dataset
 dataset = client.dataset(DATASET)
-<strong>resource = dataset.create_remote(
-</strong>    payload={
+resource = dataset.create_remote(
+    payload={
         "url": "https://url.to/ressource.csv",
         "title": "Nouvelle ressource distante",
         "type": "main",  # optionnel, "main" par défaut
     },
 )
-</code></pre>
+```
 {% endtab %}
 {% endtabs %}
 
@@ -408,7 +409,8 @@ resource = client.resource(
     dataset_id=DATASET,  # optionnel, il est récupéré si non renseigné 
 )
 resource.update(
-    file_to_upload="/chemin/vers/le/nouveau/fichier"
+    {},
+    file_to_upload="/chemin/vers/le/nouveau/fichier",
 )
 ```
 {% endtab %}
