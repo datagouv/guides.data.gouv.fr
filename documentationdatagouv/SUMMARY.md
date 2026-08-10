@@ -64,7 +64,7 @@
 
 * [Comprendre le moissonnage](moissonnage/comprendre-le-moissonnage/README.md)
   * [Les limites du moissonnage](moissonnage/comprendre-le-moissonnage/les-limites-du-moissonnage.md)
-  * [Les différents type de moissonneurs](moissonnage/comprendre-le-moissonnage/les-differents-type-de-moissonneurs.md)
+  * [Les différents types de moissonneurs](moissonnage/comprendre-le-moissonnage/les-differents-type-de-moissonneurs.md)
   * [Moissonnage des plateformes géographiques](moissonnage/comprendre-le-moissonnage/moissonnage-des-plateformes-geographiques.md)
 * [Mettre en place un moissonneur](moissonnage/mettre-en-place-un-moissonneur.md)
 * [Analyser le rapport de moissonnage](moissonnage/analyser-le-rapport-de-moissonnage.md)

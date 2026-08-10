@@ -47,7 +47,7 @@ La description d’une donnée doit référencer les API qui l’exposent. L’e
 
 <figure><img src="../../.gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure>
 
-Exemples:
+Exemples :
 
 * [Data.gouv.fr/dataservices](https://www.data.gouv.fr/fr/dataservices/) (_anciennement API.gouv.fr_) vise à référencer toutes les API publiques de l’État ;
 * [API Impôt Particulier](https://api.gouv.fr/les-api/impot-particulier) vise à référencer toute la verticale métier des finances publiques.

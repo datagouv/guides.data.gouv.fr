@@ -16,7 +16,7 @@ Ce guide suppose que vous avez bien compris ce que ce document n'est pas, que vo
 
 Ce guide sert à aider les organismes publics à définir une politique d'ouverture des logiciels libres qu'ils produisent, dans le cadre de la mise en oeuvre de la loi pour une République numérique du 7 octobre 2016.
 
-Il vient en complément de la Politique de contribution aux logiciels libres de l’État, [publiée](https://www.numerique.gouv.fr/publications/politique-logiciel-libre/) en mai 2018, laquelle est doublement limitée: (1) elle ne s'adresse pas aux collectivités territoriales ; (2) elle acte le principe selon lequel les agents publics peuvent publier du code source et contribuer à des logiciels libres, mais elle n'aide pas les organismes publics à répondre à la question « Quels logiciels ouvrir en priorité ? »
+Il vient en complément de la Politique de contribution aux logiciels libres de l’État, [publiée](https://www.numerique.gouv.fr/publications/politique-logiciel-libre/) en mai 2018, laquelle est doublement limitée : (1) elle ne s'adresse pas aux collectivités territoriales ; (2) elle acte le principe selon lequel les agents publics peuvent publier du code source et contribuer à des logiciels libres, mais elle n'aide pas les organismes publics à répondre à la question « Quels logiciels ouvrir en priorité ? »
 
 Ce guide a pour vocation de répondre aux questions :
 

@@ -84,7 +84,7 @@ L’équipe [_ecologie_.**data.gouv**._fr_](http://ecologie.data.gouv.fr) est à
 
 #### \[2 mars 2026] - **Enrichissement des points de contact des indicateurs :**
 
-Afin de rendre visible les différents points de contact pour un indicateur nous avons publié des informations de contact dans les pages indicateurs, comme dans l’exemple ci-dessus. Trois rôles sont possibles:
+Afin de rendre visible les différents points de contact pour un indicateur nous avons publié des informations de contact dans les pages indicateurs, comme dans l’exemple ci-dessus. Trois rôles sont possibles :
 
 * **Editeur** : L’entité qui publie le jeu de donnée sur [**data.gouv**.fr](http://data.gouv.fr) : l’Ecolab
 * **Producteur** : L’entité responsable du calcul de l’indicateur, si le champ n’est pas renseigné, l’entité responsable est l’Ecolab

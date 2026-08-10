@@ -67,7 +67,7 @@ Les différents points d’entrée de l’API attendent du JSON (`application/js
 * l’identifiant technique permanent (**ex:** `5bbb6d6cff66bd4dc17bfd5a`)
 * le slug (**ex:** `mon-dataset`)
 
-Par exemple, un dataset `5bbb6d6cff66bd4dc17bfd5a` dont le slug est `mon-dataset`, vous pouvez accéder à l’URL `$API/datasets/<dataset>`, par:
+Par exemple, un dataset `5bbb6d6cff66bd4dc17bfd5a` dont le slug est `mon-dataset`, vous pouvez accéder à l’URL `$API/datasets/<dataset>`, par :
 
 * `$API/datasets/5bbb6d6cff66bd4dc17bfd5a`
 * `$API/datasets/mon-dataset`
@@ -80,7 +80,7 @@ Le slug d’un objet peut être amené à changer si le producteur change le nom
 
 Les listes simples sont renvoyées sous forme d’une liste JSON.
 
-Par exemple, la liste des types de réutilisations:
+Par exemple, la liste des types de réutilisations :
 
 ```
 [

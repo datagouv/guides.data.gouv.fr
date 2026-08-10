@@ -64,7 +64,7 @@ S'ils peuvent être utilisés dans des contextes proches, les termes "schéma" e
 Les champs d'un schéma sont la traduction physique des attributs des entités du modèle. Le modèle de données est avant tout un outil de dialogue entre les différents intervenants.
 {% endhint %}
 
-> Exemple : Dans le [jeu de données des IRVE](https://schema.data.gouv.fr/etalab/schema-irve-statique/) (infrastructures de recharge des véhicules électriques), on peut identifier que:
+> Exemple : Dans le [jeu de données des IRVE](https://schema.data.gouv.fr/etalab/schema-irve-statique/) (infrastructures de recharge des véhicules électriques), on peut identifier que :
 >
 > * les champs "id\_station\_itinerance" et "nom\_station" correspondent à des attributs d'une même entité "station",
 > * les champs "id\_pdc\_itinerance" et "puissance nominale" correspondent à des attributs d'une même entité "point de charge".

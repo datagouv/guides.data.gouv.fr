@@ -24,7 +24,7 @@ Ce document est un outil évolutif et ouvert. Vous pouvez contribuer à l'améli
 
 ### 1- A quoi servent les algorithmes publics ?
 
-Commençons tout d'abord par une définition: **qu'est-ce qu'un algorithme** ?
+Commençons tout d'abord par une définition : **qu'est-ce qu'un algorithme** ?
 
 > Selon le Larousse, un algorithme est un "_ensemble de règles opératoires dont l'application permet de résoudre un problème énoncé au moyen d'un nombre fini d'opérations. Un algorithme peut être traduit, grâce à un langage de programmation, en un programme exécutable par un ordinateur_".
 
@@ -43,7 +43,7 @@ Nous avons recensé plusieurs types d'**usages des algorithmes** dans les admini
 
 #### Décision automatisée ou aide à la décision ?
 
-Certains algorithmes peuvent être utilisés pour prendre des décisions. On les distingue selon le **degré d'intervention humaine** dans cette prise de décision:
+Certains algorithmes peuvent être utilisés pour prendre des décisions. On les distingue selon le **degré d'intervention humaine** dans cette prise de décision :
 
 * Certains fonctionnent sans intervention humaine (par exemple le calcul de l'impôt des 37 millions de foyers fiscaux). On parle alors de **traitement automatisé** ou de **décision automatisée**.
 * D'autres sont des outils d'**aide à la décision**: ils aident l'humain à prendre une décision, par exemple en classant des dossiers selon des critères de priorité pour qu'ils soient ensuite étudiés par une commission qui prendra formellement la décision.
@@ -54,14 +54,14 @@ Nous reviendrons sur cette distinction dans la troisième partie de ce guide con
 
 #### Algorithmes du secteur public vs. algorithmes du secteur privé
 
-Tout le monde a entendu parler des algorithmes utilisés par les grandes entreprises du numérique. Citons quelques exemples:
+Tout le monde a entendu parler des algorithmes utilisés par les grandes entreprises du numérique. Citons quelques exemples :
 
 * le **PageRank** du moteur de recherche Google qui détermine les pages de résultats pour une requête,
 * le **Newsfeed** qui détermine le contenu d'un fil d'actualités Facebook,
 * l'**algorithme de tarification dynamique** d'Uber qui fait varier les prix des courses en fonction de la demande,
 * ...
 
-Par rapport aux algorithmes mis en oeuvre par le secteur privé, les algorithmes publics ont des caractéristiques particulières:
+Par rapport aux algorithmes mis en oeuvre par le secteur privé, les algorithmes publics ont des caractéristiques particulières :
 
 1. Ils sont censés **opérer au service de l'intérêt général**,
 2. Ils servent souvent à **exécuter le droit**, à (faire) appliquer la loi,
@@ -71,7 +71,7 @@ Par rapport aux algorithmes mis en oeuvre par le secteur privé, les algorithmes
 
 #### Comment les administrations peuvent-elles "rendre des comptes" sur l'usage des algorithmes publics ?
 
-Ce ne sont pas tant les algorithmes eux-mêmes que les administrations qui les mettent en oeuvre qui doivent rendre des comptes. On parle de **principe de redevabilité**. Concrètement cela signifie:
+Ce ne sont pas tant les algorithmes eux-mêmes que les administrations qui les mettent en oeuvre qui doivent rendre des comptes. On parle de **principe de redevabilité**. Concrètement cela signifie :
 
 * **signaler**, en indiquant quand un algorithme est utilisé,
 * **décrire**, en précisant le fonctionnement général de l'algorithme,
@@ -103,7 +103,7 @@ Le code des relations entre le public et l'administration (CRPA) précise le pé
 * vous êtes **une administration d’Etat, une collectivité, un organisme de droit public ou de droit privé intervenant dans le cadre d’une mission de service public** [(article L.300-2)](https://www.legifrance.gouv.fr/affichCodeArticle.do?cidTexte=LEGITEXT000031366350\&idArticle=LEGIARTI000031367689\&dateTexte=\&categorieLien=cid),
 * vous utilisez un **traitement algorithmique** (cf. la [définition](https://github.com/etalab/guides.etalab.gouv.fr/blob/master/algorithmes/0-guide.md#1--a-quoi-servent-les-algorithmes-publics-) ci-dessus. Pour rappel, cela inclut les traitements automatisés **et** les outils d'aide à la décision),
 * à l’aide de ce traitement, vous prenez des **décisions administratives individuelles envers des personnes physiques ou morales, de droit public ou privé nommément désignées** [(article L311-3-1)](https://www.legifrance.gouv.fr/affichCodeArticle.do;jsessionid=21CA8A3C6491AED0CE70B15139E716A3.tplgfr27s_2?idArticle=LEGIARTI000033205535\&cidTexte=LEGITEXT000031366350\&dateTexte=20200826),
-* et que ce traitement n’est **pas couvert par l’un des secrets définis par la loi** [(2° de l'article L.311-5)](https://www.legifrance.gouv.fr/affichCodeArticle.do?cidTexte=LEGITEXT000031366350\&idArticle=LEGIARTI000031367708), et notamment: délibérations du Gouvernement, défense nationale, conduite de la politique extérieure, sûreté de l’Etat, sécurité publique, sécurité des personnes ou des systèmes d’information, recherche et prévention d’infractions, etc.
+* et que ce traitement n’est **pas couvert par l’un des secrets définis par la loi** [(2° de l'article L.311-5)](https://www.legifrance.gouv.fr/affichCodeArticle.do?cidTexte=LEGITEXT000031366350\&idArticle=LEGIARTI000031367708), et notamment : délibérations du Gouvernement, défense nationale, conduite de la politique extérieure, sûreté de l’Etat, sécurité publique, sécurité des personnes ou des systèmes d’information, recherche et prévention d’infractions, etc.
 
 **Alors** vous devez remplir les nouvelles obligations liées à la **transparence des algorithmes**.
 
@@ -117,7 +117,7 @@ L'[article L200-1 du CRPA](https://www.legifrance.gouv.fr/affichCodeArticle.do?i
 
 #### Quelles sont ces obligations en matière de transparence ?
 
-📝Le Code des relations entre le public et l'administration définit 3 obligations:
+📝Le Code des relations entre le public et l'administration définit 3 obligations :
 
 1. fournir une **information générale** ([article L.312-1-3](https://www.legifrance.gouv.fr/affichCodeArticle.do?cidTexte=LEGITEXT000031366350\&idArticle=LEGIARTI000033205516\&dateTexte=\&categorieLien=id))
 2. faire figurer une **mention explicite** ([article L.311-3-1](https://www.legifrance.gouv.fr/affichCodeArticle.do?cidTexte=LEGITEXT000031366350\&idArticle=LEGIARTI000033205535\&dateTexte=\&categorieLien=cid))
@@ -125,17 +125,17 @@ L'[article L200-1 du CRPA](https://www.legifrance.gouv.fr/affichCodeArticle.do?i
 
 📍À noter que l'obligation d'information générale s'applique uniquement aux administrations comptant plus de 50 équivalents temps plein (agents et/ou salariés) et aux collectivités de plus de 3500 habitants.
 
-Concrètement, si vous remplissez les conditions, alors vous devrez:
+Concrètement, si vous remplissez les conditions, alors vous devrez :
 
-* au titre de l'information générale: **publier en ligne** les règles définissant les principaux traitements utilisés dans l’accomplissement de vos missions lorsqu’ils fondent des décisions individuelles,
-* au titre de la mention explicite: **faire figurer en ligne et sur les documents** (avis, notifications) une mention précisant les finalités du traitement, le rappel du droit de communication, les modalités d’exercice de ce droit,
-* au titre de l'information individuelle: **fournir à la demande de l’intéressé** : le degré et le mode de contribution du traitement algorithmique à la prise de décision, les données traitées et leurs sources, les paramètres de traitement et leur pondération, appliqués à la situation de l'intéressé, les opérations effectuées par le traitement.
+* au titre de l'information générale : **publier en ligne** les règles définissant les principaux traitements utilisés dans l’accomplissement de vos missions lorsqu’ils fondent des décisions individuelles,
+* au titre de la mention explicite : **faire figurer en ligne et sur les documents** (avis, notifications) une mention précisant les finalités du traitement, le rappel du droit de communication, les modalités d’exercice de ce droit,
+* au titre de l'information individuelle : **fournir à la demande de l’intéressé** : le degré et le mode de contribution du traitement algorithmique à la prise de décision, les données traitées et leurs sources, les paramètres de traitement et leur pondération, appliqués à la situation de l'intéressé, les opérations effectuées par le traitement.
 
 #### Obligations spécifiques aux traitements automatisés
 
 On notera que ces obligations s'appliquent à l'ensemble des traitements qui fondent des décisions administratives individuelles, **quel que soit le degré d'intervention humaine**. Elles concernent donc aussi bien les traitements automatisés que les outils d'aide à la décision.
 
-📍Le législateur a introduit en 2018 dans la loi dite "Informatique et libertés" ([article 47](https://www.legifrance.gouv.fr/affichTexteArticle.do;jsessionid=5F59E6EC3C4F7E19F0EC2C9163ABB223.tplgfr28s_1?idArticle=LEGIARTI000037823131\&cidTexte=JORFTEXT000000886460\&categorieLien=id\&dateTexte=) de la loi du 6 janvier 1978) une obligation supplémentaire concernant les traitements automatisés (c'est à dire sans intervention humaine): à compter du 1er juillet 2020, tout traitement automatisé devra comporter, **à peine de nullité**, l'obligation de mention explicite. Par ailleurs le même article précise que "le responsable du traitement s'assure de la maîtrise du traitement algorithmique et de ses évolutions pour pouvoir expliquer, **en détail et sous une forme intelligible**, à la personne concernée, la manière dont le traitement a été mis en oeuvre à son égard". Cela implique notamment que les traitements de machine learning qui ne peuvent pas être expliqués peuvent être utilisés uniquement comme des outils d'aide à la décision, en gardant un humain dans la boucle.
+📍Le législateur a introduit en 2018 dans la loi dite "Informatique et libertés" ([article 47](https://www.legifrance.gouv.fr/affichTexteArticle.do;jsessionid=5F59E6EC3C4F7E19F0EC2C9163ABB223.tplgfr28s_1?idArticle=LEGIARTI000037823131\&cidTexte=JORFTEXT000000886460\&categorieLien=id\&dateTexte=) de la loi du 6 janvier 1978) une obligation supplémentaire concernant les traitements automatisés (c'est à dire sans intervention humaine) : à compter du 1er juillet 2020, tout traitement automatisé devra comporter, **à peine de nullité**, l'obligation de mention explicite. Par ailleurs le même article précise que "le responsable du traitement s'assure de la maîtrise du traitement algorithmique et de ses évolutions pour pouvoir expliquer, **en détail et sous une forme intelligible**, à la personne concernée, la manière dont le traitement a été mis en oeuvre à son égard". Cela implique notamment que les traitements de machine learning qui ne peuvent pas être expliqués peuvent être utilisés uniquement comme des outils d'aide à la décision, en gardant un humain dans la boucle.
 
 &#x20;
 

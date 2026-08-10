@@ -141,25 +141,25 @@ Remarque : Ces données sont disponibles sur le portail Drias - les futurs du cl
 
 <table><thead><tr><th width="265.19793701171875">Description</th><th width="160.703125">Période couverte</th><th width="222.7342529296875">Produit de référence pour l'ajustement statistique</th><th width="219.0416259765625">Période de calibration pour l’ajustement statistique</th><th width="177.3958740234375">Résolution spatiale</th><th width="243.4478759765625">Types de données disponibles</th><th width="256.817626953125">Nombre de modèles disponibles</th><th width="271.1197509765625">Nombre de simulations (membres) par modèle</th><th>Scénarios</th></tr></thead><tbody><tr><td><p>Projections climatiques issues de modèles globaux et d’un modèle régional.<br></p><p>Les données finales sont à ~ 3 km de résolution, après ajustement statistique par rapport aux observations de référence, via la méthode CDFt.</p></td><td>1981-2100</td><td>BRIO</td><td>1981-2014</td><td>0.03° (~ 3 km)</td><td><ul><li>variables corrigées</li><li>indicateurs</li></ul></td><td><ul><li>17 GCM</li><li>1 RCM</li></ul></td><td>1</td><td><ul><li>ssp126</li><li>ssp585</li></ul></td></tr></tbody></table>
 
-Plus d’informations: [https://www.drias-climat.fr/accompagnement/sections/338](https://www.drias-climat.fr/accompagnement/sections/338)
+Plus d’informations : [https://www.drias-climat.fr/accompagnement/sections/338](https://www.drias-climat.fr/accompagnement/sections/338)
 
 #### 2. Données sur Mayotte
 
 <table><thead><tr><th width="270.307373046875">Description</th><th width="160.9114990234375">Période couverte</th><th width="233.796875">Produit de référence pour l'ajustement statistique</th><th width="216.7603759765625">Période de calibration pour l’ajustement statistique</th><th width="175.0260009765625">Résolution spatiale</th><th width="249.6146240234375">Types de données disponibles</th><th width="185.9271240234375">Nombre de modèles</th><th width="225">Nombre de simulations (membres) par modèle</th><th>Scénarios</th></tr></thead><tbody><tr><td><p>Projections climatiques issues de modèles globaux et régionaux.<br></p><p>Les données finales sont à ~ 3 km de résolution, après ajustement statistique par rapport aux observations de référence, via les méthodes CDFt pour les température et quantiles-quantiles pour les précipitations.</p></td><td>1989-2100</td><td>AROBS</td><td>1990-2024</td><td>0.03° (~ 3 km)</td><td><ul><li>variables corrigées</li><li>indicateurs</li></ul></td><td><ul><li>20 GCM</li><li>4 RCM</li></ul></td><td>1</td><td>ssp585 ou rcp85</td></tr></tbody></table>
 
-Plus d’informations: [https://www.drias-climat.fr/accompagnement/sections/466](https://www.drias-climat.fr/accompagnement/sections/466)
+Plus d’informations : [https://www.drias-climat.fr/accompagnement/sections/466](https://www.drias-climat.fr/accompagnement/sections/466)
 
 #### 3. Données sur la Guyane
 
 <table><thead><tr><th width="269.05731201171875">Description</th><th width="164">Période couverte</th><th width="209.5">Produit de référence pour l'ajustement statistique</th><th width="213.104248046875">Période de calibration pour l’ajustement statistique</th><th width="174.145751953125">Résolution spatiale</th><th width="242.53662109375">Types de données disponibles</th><th width="174.46875">Nombre de modèles</th><th width="225.7447509765625">Nombre de simulations (membres) par modèle</th><th>Scénarios</th></tr></thead><tbody><tr><td><p>Projections climatiques issues de modèles globaux et régionaux.<br></p><p>Les données finales sont à ~ 3 km de résolution, après ajustement statistique par rapport aux observations de référence, via les méthodes CDFt pour les température et quantiles-quantiles pour les précipitations.</p></td><td>1989-2100</td><td>AROBS</td><td>1990-2024</td><td>0.03° (~ 3 km)</td><td><ul><li>variables corrigées</li><li>indicateurs</li></ul></td><td><ul><li>6 GCM</li><li>4 RCM</li></ul></td><td>1</td><td>ssp585 ou rcp85</td></tr></tbody></table>
 
-Plus d’informations: [https://www.drias-climat.fr/accompagnement/sections/474](https://www.drias-climat.fr/accompagnement/sections/474)
+Plus d’informations : [https://www.drias-climat.fr/accompagnement/sections/474](https://www.drias-climat.fr/accompagnement/sections/474)
 
 #### 4. Données sur la Nouvelle-Calédonie
 
 <table><thead><tr><th width="269.2291259765625">Description</th><th width="165.7552490234375">Période couverte</th><th width="193.1405029296875">Produit de référence pour l'ajustement statistique</th><th width="212.9373779296875">Période de calibration pour l’ajustement statistique</th><th width="175.3072509765625">Résolution spatiale</th><th width="232.963623046875">Type de données disponibles</th><th width="183.0416259765625">Nombre de modèles</th><th width="192.541748046875">Nombre de simulations (membres) par modèle</th><th>Scénarios</th></tr></thead><tbody><tr><td><p>Projections climatiques issues de modèles globaux et régionaux.<br></p><p>Les données finales sont à ~ 3 km de résolution, après ajustement statistique par rapport aux observations de référence, via les méthodes CDFt pour les température et quantiles-quantiles pour les précipitations.</p></td><td>1989-2100</td><td>AROBS</td><td>1990-2024</td><td>0.03° (~ 3 km)</td><td>variables corrigées</td><td><ul><li>22 GCM</li><li>18 RCM</li></ul></td><td>1</td><td>ssp585 ou ssp370</td></tr></tbody></table>
 
-Plus d’informations: [https://www.drias-climat.fr/accompagnement/sections/485](https://www.drias-climat.fr/accompagnement/sections/485)
+Plus d’informations : [https://www.drias-climat.fr/accompagnement/sections/485](https://www.drias-climat.fr/accompagnement/sections/485)
 
 ### Vue d'ensemble des données
 

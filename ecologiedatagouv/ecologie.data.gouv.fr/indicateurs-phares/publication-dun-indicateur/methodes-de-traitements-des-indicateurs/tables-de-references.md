@@ -8,7 +8,7 @@ description: >-
 
 Nous avons souhaité disposer d'un ensemble de **tables de références** afin de standardiser les fichiers d'indicateurs pour en faciliter la réutilisation.
 
-Les tables de références utilisées dans la totalité où une partie de nos indicateurs sont les suivantes:
+Les tables de références utilisées dans la totalité où une partie de nos indicateurs sont les suivantes :
 
 * Un **référentiel géographique** à la maille communale, avec l'ensemble des communes, leur EPCI, département et région associée.
 * Un **référentiel de population** à la maille communale
@@ -226,7 +226,9 @@ Plusieurs indicateurs sont disponibles tels quels ainsi que rapportés à la sur
 Pour construire ce référentiel, nous nous basons sur le [Découpage administratif communal français issu d'OpenStreetMap](https://www.data.gouv.fr/datasets/decoupage-administratif-communal-francais-issu-d-openstreetmap/).
 
 {% hint style="info" %}
-Les données proviennent de la base de données cartographiques OpenStreetMap.\
-Celles-ci ont été constituées à partir du cadastre mis à disposition par la DGFiP sur cadastre.gouv.fr.\
+Les données proviennent de la base de données cartographiques OpenStreetMap.
+\
+Celles-ci ont été constituées à partir du cadastre mis à disposition par la DGFiP sur cadastre.gouv.fr.
+\
 En complément sur Mayotte où le cadastre n'est pas disponible sur cadastre.gouv.fr, ce sont les limites du GEOFLA de l'IGN qui ont été utilisées ainsi que le tracé des côtes à partir des images aériennes de Bing.
 {% endhint %}

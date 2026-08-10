@@ -1306,11 +1306,11 @@ end
 
 **Q: Les webhooks sont-ils garantis ?** R: Non. En cas d'échec après 3 retries, le statut passe à `sync_failed`. Un retry manuel est possible.
 
-**Q: Peut-on créer plusieurs candidatures pour le même SIRET ?** R: **\[À COMPLÉTER]** : Règle métier à préciser.
+**Q : Peut-on créer plusieurs candidatures pour le même SIRET ?** R : **\[À COMPLÉTER]** : Règle métier à préciser.
 
-**Q: Quelle est la taille maximale d'un fichier ?** R: 100 Mo par fichier.
+**Q : Quelle est la taille maximale d'un fichier ?** R : 100 Mo par fichier.
 
-**Q: Les données sont-elles chiffrées au repos ?** R: **\[À COMPLÉTER]** : Politique de chiffrement à préciser.
+**Q : Les données sont-elles chiffrées au repos ?** R : **\[À COMPLÉTER]** : Politique de chiffrement à préciser.
 
 #### 11.5 Contacts support technique
 

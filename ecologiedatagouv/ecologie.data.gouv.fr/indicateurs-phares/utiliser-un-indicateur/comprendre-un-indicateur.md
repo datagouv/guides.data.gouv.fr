@@ -87,7 +87,7 @@ Un indicateur peut ainsi provenir d'**une ou plusieurs sources**. Voici des exem
 e.g. Consommation d'énergie finale dont la maille EPCI vient du RARE et dont la maille régionale vient du SDES
 {% endhint %}
 
-* L'indicateur est composite et doit être rapporté au nombre d'habitant ou à la surface: nous avons ainsi la source de données de l'indicateur ainsi que la source de données de la population ou de la surface.
+* L'indicateur est composite et doit être rapporté au nombre d'habitant ou à la surface : nous avons ainsi la source de données de l'indicateur ainsi que la source de données de la population ou de la surface.
 
 {% hint style="info" %}
 e.g. Tonnage total de déchets ménagers et assimiles par habitant
@@ -99,7 +99,7 @@ e.g. Tonnage total de déchets ménagers et assimiles par habitant
 L'indicateur de transport de marchandise par voie routière, ferrovière ou maritime a 3 sources de données différentes pour chaque mode de transport
 {% endhint %}
 
-L'objectif de cet onglet est de permettre à l'utilisateur de comprendre l'origine des indicateurs et les traitements appliqués sur les sources pour pouvoir créer ces indicateurs. Ainsi nous renseignons:
+L'objectif de cet onglet est de permettre à l'utilisateur de comprendre l'origine des indicateurs et les traitements appliqués sur les sources pour pouvoir créer ces indicateurs. Ainsi nous renseignons :
 
 * les identités du producteur et du distributeur de données ;
 * le lien vers le site où la source est mise à disposition ;

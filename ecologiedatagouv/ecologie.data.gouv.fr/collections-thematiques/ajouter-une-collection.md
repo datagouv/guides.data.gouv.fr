@@ -71,7 +71,7 @@ Dans l'encadré dédié à l'objectif de votre collection, il est recommandé de
 
 {% hint style="success" %}
 1. **Présentation**\
-   \&#xNAN;_Dans quels enjeux, objectifs ou politique publique s'inscrit cette_ collection _? Quelles décisions l'initiative associée à la_ collection _cherche-t-elle à éclairer ? Quelles sont les solutions proposées ?_
+   \&#xNAN;_Dans quels enjeux, objectifs ou politique publique s'inscrit cette_ collection _ ? Quelles décisions l'initiative associée à la_ collection _cherche-t-elle à éclairer ? Quelles sont les solutions proposées ?_
 2. **Public cible**\
    \&#xNAN;_À qui cette initiative s'adresse-t-elle ?_
 3. **Porteurs du projet**\

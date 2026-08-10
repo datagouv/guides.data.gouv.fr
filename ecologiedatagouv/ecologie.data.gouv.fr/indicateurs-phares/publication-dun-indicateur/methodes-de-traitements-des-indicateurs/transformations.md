@@ -16,7 +16,7 @@ Nous excluons l'historique des communes ayant connu une scission de nos indicate
 
 #### Données à la maille communale
 
-Lorsque la donnée source d'un indicateur est disponible à la maille communale, nous faisons l'enrichissement et les agrégations nécessaires pour mettre à disposition l'indicateur aux mailles supérieures: epci, départementales, régionales
+Lorsque la donnée source d'un indicateur est disponible à la maille communale, nous faisons l'enrichissement et les agrégations nécessaires pour mettre à disposition l'indicateur aux mailles supérieures : epci, départementales, régionales
 
 #### Données à la maille EPCI uniquement
 

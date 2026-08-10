@@ -6,7 +6,7 @@ Les webhooks Passe Marché permettent aux plateformes de marchés publics de rec
 
 ## Environnements
 
-Les URLs dans les payloads webhook (ex: `attestation_url`) correspondent à l'environnement source. Consultez la [documentation des environnements](08_environnements.md) pour les URLs spécifiques.
+Les URLs dans les payloads webhook (ex : `attestation_url`) correspondent à l'environnement source. Consultez la [documentation des environnements](08_environnements.md) pour les URLs spécifiques.
 
 ## Architecture des Webhooks
 

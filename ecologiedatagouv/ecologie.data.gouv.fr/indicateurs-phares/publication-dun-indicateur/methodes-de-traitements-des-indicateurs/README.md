@@ -35,7 +35,7 @@ Pour plus de transparence sur l’actualisation de nos indicateurs, un **tableau
 
 Afin d’apporter plus de transparence aux traitements faits avant de publier les indicateurs Territoriaux, nous avons fait le choix d'ouvrir publiquement notre code source.
 
-Dans ce [dépôt gitlab public](https://gitlab-forge.din.developpement-durable.gouv.fr/pub/ecolab/indicateurs-territoriaux-de-transition-ecologique/hub-indicateurs-territoriaux), vous trouverez le code utilisé pour:
+Dans ce [dépôt gitlab public](https://gitlab-forge.din.developpement-durable.gouv.fr/pub/ecolab/indicateurs-territoriaux-de-transition-ecologique/hub-indicateurs-territoriaux), vous trouverez le code utilisé pour :
 
 * **Extraire** les sources de données utilisées pour calculer les indicateurs (en python),
 * **Transformer** les données en indicateurs (en dbt),
