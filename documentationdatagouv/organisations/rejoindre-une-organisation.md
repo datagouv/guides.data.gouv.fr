@@ -17,7 +17,7 @@ Elle peut contenir plusieurs utilisateurs et un même utilisateur peut apparteni
 Rejoindre une organisation est utile si vous souhaitez :
 
 * Publier ou modifier des jeux de données, des API, ou des réutilisations pour le compte d’une structure (administration, collectivité, association, entreprise, etc.) ;
-* Permettre à plusieurs utilisateurs de publier de publier et modifier des jeux de données sous le même nom, la même bannière.
+* Permettre à plusieurs utilisateurs de publier et modifier des jeux de données sous le même nom, la même bannière.
 
 Si vous pensez que vous devriez figurer dans une organisation, vous pouvez en faire la demande. L’un des administrateurs devra alors accepter votre demande.
 

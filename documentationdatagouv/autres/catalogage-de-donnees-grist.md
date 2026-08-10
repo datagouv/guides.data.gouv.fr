@@ -21,7 +21,7 @@ Le Data governance Act (DGA) Dans le cadre du DGA, la Direction interministérie
 
 La DINUM a vocation à **informer** et **orienter** les demandeurs qui souhaitent réutiliser des données détenues par les administrations. Pour cela, elle doit pouvoir **référencer et rendre accessibles** toutes les informations pertinentes relatives aux conditions applicables à la **réutilisation et aux redevances** des données protégées détenues par les administrations.
 
-A ce titre, la DINUM a, notamment, pour mission de mettre « _à disposition par voie électronique_ _**une liste de ressources consultable contenant un aperçu de toutes les ressources en données disponibles**_ _, \[…] , avec des informations pertinentes décrivant les données disponibles, y compris au minimum le format et la taille des données ainsi que les conditions applicables à leur réutilisation_».
+À ce titre, la DINUM a, notamment, pour mission de mettre « _à disposition par voie électronique_ _**une liste de ressources consultable contenant un aperçu de toutes les ressources en données disponibles**_ _, \[…] , avec des informations pertinentes décrivant les données disponibles, y compris au minimum le format et la taille des données ainsi que les conditions applicables à leur réutilisation_».
 
 Ainsi, à travers le catalogage de ces données, les demandeurs d’accès aux fins de réutilisation des données protégées pourront savoir quelles administrations détiennent quelles données et quelles sont les conditions pour y accéder.
 

@@ -97,4 +97,4 @@ Pour faciliter la découverte de votre schéma de données et des données sous-
 
 * [ ] Avoir implémenté votre schéma de données dans un des standards reconnus ;
 * [ ] Avoir publié votre travail en ligne, dans un répertoire Git dédié ;
-* [ ] Avoir pris contact avec les équipes de [schema.data.gouv.fr](https://schema.data.gouv.fr/) dans le but de référencer votre schéma de données si nécessaire.
+* [ ] Avoir pris contact avec les équipes de [schema.data.gouv.fr](https://schema.data.gouv.fr/) pour référencer votre schéma de données si nécessaire.

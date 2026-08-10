@@ -11,11 +11,11 @@ description: >-
 Tout acteur - État, collectivités, entreprises, associations, citoyens - mobilisant des données au service d'un projet en lien avec les politiques publiques du pôle ministériel peut contribuer à ecologie.data.gouv.fr via la publication de collections thématiques. La collection sera soumise pour évaluation à l’équipe d'[_ecologie_.**data.gouv**._fr_](https://ecologie.data.gouv.fr) qui procédera à son examen dans les meilleurs délais avant sa mise en ligne effective.
 
 {% hint style="success" %}
-**Vous disposez d'une expertise ?** Partagez-la à travers de la publication de vos collections.
+**Vous disposez d'une expertise ?** Partagez-la à travers la publication de vos collections.
 {% endhint %}
 
 {% hint style="warning" %}
-Pour être publiés, vos collections doivent :
+Pour être publiées, vos collections doivent :
 
 * Être rattachées à une organisation ;
 * Être validées par un membre de l'équipe chargé d'[_ecologie_.**data.gouv**._fr_](https://ecologie.data.gouv.fr) en contactant l'équipe [ecospheres@developpement-durable.gouv.fr](mailto:ecosphreres@developpement-durable.gouv.fr).
@@ -131,7 +131,7 @@ Si vous disposez de jeux de données pertinents pour votre collection et non dis
 {% endstep %}
 
 {% step %}
-**Publier la collection pour le rendre public**
+**Publier la collection pour la rendre publique**
 
 Pour ce faire, vous devez cliquer sur "publier" lorsque vous vous trouvez sur la page d'administration de votre collection :
 

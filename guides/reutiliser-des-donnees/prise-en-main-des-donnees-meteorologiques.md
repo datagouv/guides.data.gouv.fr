@@ -418,7 +418,7 @@ Vous pouvez également vous référer à [la documentation officielle du projet 
 
 Bien que les données soient ouvertes sous licence Etalab, les APIs nécessitent de créer un compte sur [https://portail-api.meteofrance.fr](https://portail-api.meteofrance.fr/) (pour éviter les abus et pouvoir suivre les usages).
 
-Après création d’un compte, il est possible souscrire à des APIs. Par défaut, le compte ne permet rien sauf de souscrire à des APIs. Quand on a choisi une API, on peut souscrire puis commencer à utiliser pour son usage.
+Après création d’un compte, il est possible de souscrire à des APIs. Par défaut, le compte ne permet rien sauf de souscrire à des APIs. Quand on a choisi une API, on peut souscrire puis commencer à l’utiliser.
 
 La page d’accueil du site reproduite ci-dessous est très claire à ce propos.
 

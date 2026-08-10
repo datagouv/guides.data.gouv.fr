@@ -1,6 +1,6 @@
 # Fiche résumé
 
-La fiche résumé contient les principales informations sur une entreprise, une administration ou une association françaises.
+La fiche résumé contient les principales informations sur une entreprise, une administration ou une association française.
 
 Certains blocs sont communs à tous les types de structures, d'autres sont spécifiques. Par exemple, seules les associations ont un encadré RNA (Répertoire National des Associations).
 
@@ -46,7 +46,7 @@ Ce bloc contient les informations au RNA
 
 #### Administration
 
-L’Annuaire du service public est tenu par la DILA. Il approte des informations complémentaires des informations légales (contact, dirigeants, site officiel).
+L’Annuaire du service public est tenu par la DILA. Il apporte des informations complémentaires des informations légales (contact, dirigeants, site officiel).
 
 <figure><img src="../../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
@@ -62,4 +62,4 @@ Les informations légales sur le siège social de la structure.
 
 ### Établissements
 
-La liste de tous les établissements secondaire d’une structure.
+La liste de tous les établissements secondaires d’une structure.

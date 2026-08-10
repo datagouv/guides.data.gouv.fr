@@ -18,7 +18,7 @@ Les pistes déjà identifiées et les points de vue des participants doivent êt
 {% step %}
 #### <mark style="color:purple;">Évaluer les solutions</mark>
 
-Dans cette phase de débat, les points d’adhésion et de divergence doivent être notés, et l’animateur doit encourager les participants à identifier des pistes pour solutionner les désaccords.
+Dans cette phase de débat, les points d’adhésion et de divergence doivent être notés, et l’animateur doit encourager les participants à identifier des pistes pour résoudre les désaccords.
 {% endstep %}
 
 {% step %}
@@ -35,7 +35,7 @@ Une fois que tous les points ont été débattus, la proposition peut être prop
 * **accord** : le participant accepte la proposition sans réserve ;
 * **réserves** : le participant n'est pas convaincu par la proposition, mais ne s’y oppose pas et s'impliquera dans sa mise en œuvre ;
 * **retrait** : le participant ne cautionne pas la décision pour des raisons qui peuvent être diverses - faute de temps, désaccord total avec la proposition, etc. - mais ne veut pas empêcher le groupe d'avancer. Il laisse la décision se prendre, mais ne s'impliquera pas dans sa mise en œuvre.
-* **blocage** : le participant n'adhère pas du tout à la proposition et demande la recherche d'une nouvelle proposition. Le groupe devra soit accepter le blocage et trouver une nouvelle proposition ou bien solutionner les points qui bloquent le consensus.
+* **blocage** : le participant n'adhère pas du tout à la proposition et demande la recherche d'une nouvelle proposition. Le groupe devra soit accepter le blocage et trouver une nouvelle proposition ou bien résoudre les points qui bloquent le consensus.
 
 La proposition est considérée comme adoptée lorsqu'il n'y aura que peu de réserves et/ou de retraits et aucun blocage. Avant cela, il peut être nécessaire de revoir la proposition et d’apporter des modifications pour lever les points de blocage.
 {% endstep %}

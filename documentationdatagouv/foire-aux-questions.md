@@ -19,7 +19,7 @@ Si vous êtes une association et recherchez votre numéro RNA, vous pouvez consu
 
 <summary>Question sur le fichier des personnes décédées</summary>
 
-Les fichiers des personnes décédées disponibles sur data.gouv.fr sont recueillis par l'INSEE à partir des informations reçues des communes. Pour faire une recherche dans ces fichiers vous pouvez utilisez le service suivant [Match\_Id](https://deces.matchid.io/search) (dont nous ne sommes pas responsable). Pour plus d'informations, vous pouvez consulter [cette page](https://www.insee.fr/fr/information/4190491).
+Les fichiers des personnes décédées disponibles sur data.gouv.fr sont recueillis par l'INSEE à partir des informations reçues des communes. Pour faire une recherche dans ces fichiers vous pouvez utiliser le service suivant [Match\_Id](https://deces.matchid.io/search) (dont nous ne sommes pas responsables). Pour plus d'informations, vous pouvez consulter [cette page](https://www.insee.fr/fr/information/4190491).
 
 </details>
 
@@ -28,7 +28,7 @@ Les fichiers des personnes décédées disponibles sur data.gouv.fr sont recueil
 <summary>Question sur un jeu de données en particulier</summary>
 
 Notre équipe n'est pas en charge de la production des données publiées sur la plateforme.\
-Adressez vous directement au producteur dans l'espace de discussion en bas de page du jeu de donnée. [Voir un exemple](https://www.data.gouv.fr/fr/datasets/fichier-des-personnes-decedees/#discussion-604e44bcf9fac775bbc0aeca).
+Adressez-vous directement au producteur dans l'espace de discussion en bas de page du jeu de données. [Voir un exemple](https://www.data.gouv.fr/fr/datasets/fichier-des-personnes-decedees/#discussion-604e44bcf9fac775bbc0aeca).
 
 </details>
 
@@ -56,11 +56,11 @@ Notre support n'est pas en mesure de vous aider sur ces sujets. Vous pouvez vous
 
 Notre équipe n'est pas en mesure de vous aider sur ces questions. Si vous ne trouvez pas réponse à votre question ici vous pouvez contacter [le Ministère du Travail. ](https://travail-emploi.gouv.fr/ministere/article/nous-contacter).
 
-**Vous ne trouvez pas votre organismes de formation dans la liste ?**\
+**Vous ne trouvez pas votre organisme de formation dans la liste ?**\
 Retrouvez toutes les informations utiles pour déclarer votre organisme ou transmettre votre Bilan Pédagogique et Financier sur le site du Ministère du travail: [les formalités de création et de fonctionnement des organismes de formation ](http://travail-emploi.gouv.fr/formation-professionnelle/organismes-de-formation-fonctionnement/organismes-formation).<br>
 
 **Vous souhaitez modifier certaines informations ?**\
-Les informations sont issues des déclarations annuelles effectuées par l'organisme de formation auprès du services régional de contrôle de sa DREETS, mais vous pouvez demander à tout moment la modification de certaines informations en contactant votre DREETS ou en accédant à votre espace personnel sur [l'application Mon Activité Formation](https://www.monactiviteformation.emploi.gouv.fr/).<br>
+Les informations sont issues des déclarations annuelles effectuées par l'organisme de formation auprès du service régional de contrôle de sa DREETS, mais vous pouvez demander à tout moment la modification de certaines informations en contactant votre DREETS ou en accédant à votre espace personnel sur [l'application Mon Activité Formation](https://www.monactiviteformation.emploi.gouv.fr/).<br>
 
 **Les informations concernant votre certification QUALIOPI vous semblent erronées ?**\
 Contactez votre organisme certificateur afin qu'il transmette votre certification. Attention de bien lui fournir votre nouveau NDA si celui-ci a changé récemment.
@@ -71,7 +71,7 @@ Contactez votre organisme certificateur afin qu'il transmette votre certificatio
 
 <summary>Question sur la base SIRENE et les données d’entreprises</summary>
 
-Si vous rechercher votre numéro SIRET ou SIREN vous pouvez vous rendre sur le site [Annuaire des Entreprises](https://annuaire-entreprises.data.gouv.fr/).\
+Si vous recherchez votre numéro SIRET ou SIREN vous pouvez vous rendre sur le site [Annuaire des Entreprises](https://annuaire-entreprises.data.gouv.fr/).\
 Si vous souhaitez rendre privées les données de votre entreprise, vous devez en [faire la demande auprès de l'INSEE ](https://statut-diffusion-sirene.insee.fr/) qui publie ces données dans le répertoire SIRENE.
 
 </details>
@@ -141,7 +141,7 @@ Le site data.gouv.fr ne permet pas aux particuliers de remplir des formalités a
 
 * [ La fiche dédiée sur Service-Public.fr](https://www.service-public.fr/particuliers/vosdroits/N110).
 * [ Le site refugies.info](https://www.refugies.info/demarche/5dc2da982e9859001680b8a2).
-* [ Contacter le service compétent du Ministère du l'Intérieur](https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/#/contact).
+* [ Contacter le service compétent du Ministère de l'Intérieur](https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/#/contact).
 
 </details>
 
@@ -149,7 +149,7 @@ Le site data.gouv.fr ne permet pas aux particuliers de remplir des formalités a
 
 <summary>Vous avez un doute ou avez été victime de fraude ou d'escroquerie</summary>
 
-Notre équipe n'est pas en mesure de vous aider sur ces questions. Vous pouvez vous référez à :
+Notre équipe n'est pas en mesure de vous aider sur ces questions. Vous pouvez vous référer à :
 
 * [ La fiche pratique escroquerie de Service-Public.fr](https://www.service-public.fr/particuliers/vosdroits/F1520).
 * [ La fiche pratique phishing (hameçonnage) sur Service-Public.fr](https://www.service-public.fr/particuliers/vosdroits/F34800).
@@ -161,6 +161,6 @@ Notre équipe n'est pas en mesure de vous aider sur ces questions. Vous pouvez v
 
 <summary>Question sur le compte professionnel de formation (CPF)</summary>
 
-Notre équipe n'est pas en mesure de vous aider sur ces questions. Vous pouvez vous référez à [la fiche pratique sur Service-Public.fr](https://www.service-public.fr/particuliers/vosdroits/F10705).
+Notre équipe n'est pas en mesure de vous aider sur ces questions. Vous pouvez vous référer à [la fiche pratique sur Service-Public.fr](https://www.service-public.fr/particuliers/vosdroits/F10705).
 
 </details>

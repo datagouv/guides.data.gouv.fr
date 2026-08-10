@@ -27,7 +27,7 @@
   * Les déposer sur un espace partagé public,
 * Préparer une "note de création (ou de révision) du standard" à l’intention de la Commission des Standards,
 * Déterminer la date de la Commission des standards visée en vous référant [à son calendrier](https://cnig.gouv.fr/commission-des-standards-a640.html).
-* Déterminer les dates de l’appel à commentaires, en prévoyant suffisamment de temps entre la fin de l’appel à commentaires et la date de la Commission des standards pour traiter les retours, tout en respectant un délais d'au moins un mois entre le début et la fin de l'appel.
+* Déterminer les dates de l’appel à commentaires, en prévoyant suffisamment de temps entre la fin de l’appel à commentaires et la date de la Commission des standards pour traiter les retours, tout en respectant un délai d'au moins un mois entre le début et la fin de l'appel.
 
 {% hint style="success" %}
 Il peut être utile de prendre en compte les événements qui pourraient causer une perte ou un gain de visibilité de l’appel à commentaires (conférence, assises, événements politiques, élections, vacances scolaires, etc.).

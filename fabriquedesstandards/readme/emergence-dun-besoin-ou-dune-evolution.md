@@ -89,7 +89,7 @@ Si vous identifiez un besoin, il est probable que vous ne soyez pas seul dans vo
 
 <summary>Dans quels cas l’évolution d’un standard peut-elle être nécessaire ?</summary>
 
-A moins d’une perte de compatibilité importante ou d’un problème important identifié dans le standard, il peut être difficile de juger si une mise à jour du standard est opportune. Les cas évoqués plus haut pour l’identification d’un besoin s’appliquent pour cela : s’agit-il d’une obligation réglementaire ? Un consensus sur le besoin d’une évolution existe-il suite à une évolution technique et/ou l'émergence d'un nouveau besoin des utilisateurs ? Pouvez-vous profiter d’un calendrier favorable ?
+À moins d’une perte de compatibilité importante ou d’un problème important identifié dans le standard, il peut être difficile de juger si une mise à jour du standard est opportune. Les cas évoqués plus haut pour l’identification d’un besoin s’appliquent pour cela : s’agit-il d’une obligation réglementaire ? Un consensus sur le besoin d’une évolution existe-t-il suite à une évolution technique et/ou l'émergence d'un nouveau besoin des utilisateurs ? Pouvez-vous profiter d’un calendrier favorable ?
 
 </details>
 

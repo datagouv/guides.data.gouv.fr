@@ -44,7 +44,7 @@ L'accès aux données se fait dans l'onglet "Fichiers et API", où l'indicateur 
 * **en fichier CSV (**_**comma separated values**_**) :** Il s'agit du format le plus utilisé pour échanger des données.
 
 {% hint style="info" %}
-Les outils bureautiques de type tableur (Microsoft Excel, LibreOffice Calc) permettent de lire ces fichiers et de les afficher de manière intelligibles à condition de sélectionner le séparateur "virgule" dans la fenêtre d'import du fichier. Les outils d'édition de texte permettent aussi d'ouvrir ces fichiers, notamment pour trouver la cause d'une erreur lors de l'import dans un tableur.
+Les outils bureautiques de type tableur (Microsoft Excel, LibreOffice Calc) permettent de lire ces fichiers et de les afficher de manière intelligible à condition de sélectionner le séparateur "virgule" dans la fenêtre d'import du fichier. Les outils d'édition de texte permettent aussi d'ouvrir ces fichiers, notamment pour trouver la cause d'une erreur lors de l'import dans un tableur.
 {% endhint %}
 
 * **par API :** la procédure pour cela est décrite en bas de l'onglet, en suivant le lien "Documentation utilisation API".

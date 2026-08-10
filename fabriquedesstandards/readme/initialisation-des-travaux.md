@@ -15,7 +15,7 @@ Pour vous projeter dans la réalisation du standard, voici quelques repères tem
 
 * **Émergence d'un besoin, exploration de l'existant - durée variable**
 
-La durée de ces phases exploratoires dépend beaucoup des situations. Votre présence sur cette page montre qu’elle a d’ailleurs certainement débutée (ou même qu’elle touche à sa fin).
+La durée de ces phases exploratoires dépend beaucoup des situations. Votre présence sur cette page montre qu’elle a d’ailleurs certainement débuté (ou même qu’elle touche à sa fin).
 
 * **Initialisation des travaux et cadrage du GT - de 1 à 6 mois**
 

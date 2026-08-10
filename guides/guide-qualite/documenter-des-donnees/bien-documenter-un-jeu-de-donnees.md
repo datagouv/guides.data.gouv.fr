@@ -48,7 +48,7 @@ Il est donc conseillé de préciser :
 {% hint style="info" %}
 Certains jeux de données ne peuvent pas être utilisés à certaines fins ou possèdent des limitations qui rendent impossible certaines analyses.
 
-Par exemple, [l’article R112 A-3 du Livre des procédures fiscale](https://www.legifrance.gouv.fr/affichCodeArticle.do?idArticle=LEGIARTI000038001715\&cidTexte=LEGITEXT000006069583\&dateTexte=20181231) précise que la réutilisation du jeu de données « [Demandes de valeurs foncières](https://www.data.gouv.fr/fr/datasets/demandes-de-valeurs-foncieres/) » ne peut avoir ni pour objet ni pour effet de permettre la ré-identifications des personnes liés à des transactions immobilières.
+Par exemple, [l’article R112 A-3 du Livre des procédures fiscales](https://www.legifrance.gouv.fr/affichCodeArticle.do?idArticle=LEGIARTI000038001715\&cidTexte=LEGITEXT000006069583\&dateTexte=20181231) précise que la réutilisation du jeu de données « [Demandes de valeurs foncières](https://www.data.gouv.fr/fr/datasets/demandes-de-valeurs-foncieres/) » ne peut avoir ni pour objet ni pour effet de permettre la réidentification des personnes liées à des transactions immobilières.
 {% endhint %}
 
 ## Description du modèle de données <a href="#description-du-modele-de-donnees" id="description-du-modele-de-donnees"></a>

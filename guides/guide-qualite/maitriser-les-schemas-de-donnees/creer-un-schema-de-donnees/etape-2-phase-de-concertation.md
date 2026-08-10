@@ -21,7 +21,7 @@ C'est l’étape où plusieurs parties prenantes (producteurs, réutilisateurs, 
 Pour spécifier un schéma de données, il est nécessaire de définir :
 
 * [ ] **les champs** ;
-* [ ] **les types associés de ces champs** (une date, un nombre, une chaîne de caractère, etc.) ;
+* [ ] **les types associés de ces champs** (une date, un nombre, une chaîne de caractères, etc.) ;
 * [ ] **les contraintes de chaque champ** (entier positif, texte dans une liste fermée, etc.) ;
 * [ ] **la description de chaque champ** ;
 * [ ] **une documentation associée** au schéma de données décrivant le contexte, les acteurs, les cas d’usage.

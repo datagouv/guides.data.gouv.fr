@@ -5,10 +5,10 @@ icon: file-plus
 # Publier un jeu de données
 
 {% hint style="info" %}
-En amont de la publication de données sur data.gouv.fr, il est important de bien préparer le jeu de données. Pour ce faire, nous vous invitons à consulter [guide qualité](https://app.gitbook.com/s/tQKOGwojKBfI27vfNUy5/guide-qualite).
+En amont de la publication de données sur data.gouv.fr, il est important de bien préparer le jeu de données. Pour ce faire, nous vous invitons à consulter le [guide qualité](https://app.gitbook.com/s/tQKOGwojKBfI27vfNUy5/guide-qualite).
 {% endhint %}
 
-Plusieurs modes de mises en ligne sont possibles sur la plateforme data.gouv.fr :
+Plusieurs modes de mise en ligne sont possibles sur la plateforme data.gouv.fr :
 
 * **Publication manuelle sur data.gouv.fr**
 * **Par API**
@@ -18,9 +18,9 @@ Plusieurs modes de mises en ligne sont possibles sur la plateforme data.gouv.fr 
 
 <summary>Quelle différence entre API et moissonnage ?</summary>
 
-La publication par l’API vous donne un contrôle total sur le contenu de chaque champ, le moment de la soumission. tandis que le moissonnage, s’il ne nécessite pas de développement spécifique sur votre plateforme, est un fonctionnement fortement contraint.
+La publication par l’API vous donne un contrôle total sur le contenu de chaque champ, le moment de la soumission, tandis que le moissonnage, s’il ne nécessite pas de développement spécifique sur votre plateforme, est un fonctionnement fortement contraint.
 
-**Moissonage**
+**Moissonnage**
 
 * **Pré-requis** **:** métadonnées dans l’un des formats supportés
 * **Déclenchement** **:** contrôlé par data.gouv.fr (quotidien)
@@ -90,7 +90,7 @@ Une API est une interface, un contrat passé entre deux systèmes informatiques 
 * **Décrire votre jeu de données et les ressources associées** ;
 * **Ajouter ou supprimer une ressource ou un jeu de données**.
 
-L’API de data.gouv.fr propose également des fonctionnalité complémentaires à la publication de jeux de données comme la possibilité de récupérer les métadonnées des jeux de données ou de fichiers ou encore d'accéder au contenu des fichiers d’un jeu de données.
+L’API de data.gouv.fr propose également des fonctionnalités complémentaires à la publication de jeux de données comme la possibilité de récupérer les métadonnées des jeux de données ou de fichiers ou encore d'accéder au contenu des fichiers d’un jeu de données.
 
 {% hint style="info" %}
 **Quand utiliser l’API de data.gouv.fr ?**

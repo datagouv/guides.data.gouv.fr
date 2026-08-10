@@ -9,7 +9,7 @@ icon: house
 Créer une organisation vous permet de :
 
 * Publier ou modifier des jeux de données, des API, ou des réutilisations pour le compte d’une structure (administration, collectivité, association, entreprise, etc.) ;
-* Permettre à plusieurs utilisateurs de publier de publier et modifier des jeux de données sous le même nom, la même bannière.
+* Permettre à plusieurs utilisateurs de publier et modifier des jeux de données sous le même nom, la même bannière.
 
 ***
 

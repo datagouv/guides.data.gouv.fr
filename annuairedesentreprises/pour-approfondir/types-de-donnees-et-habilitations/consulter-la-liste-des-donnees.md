@@ -15,7 +15,7 @@ Pour accéder aux informations de cette liste, il suffit de se connecter avec [P
 | Certificat Qualifelec                                                                                                                                | Qualifelec                                                  | Labels & Certificats |
 | Certificat Qualibat                                                                                                                                  | Qualibat                                                    | Labels & Certificats |
 | Certificat OPQIBI                                                                                                                                    | OPQIBI                                                      | Labels & Certificats |
-| Données des entreprises non diffusibles ou des entreprises ayant demandé à ne pas être publiée sur les pages publiques de l’Annuaire des Entreprises | Insee (Sirene)                                              | Tous les onglets     |
+| Données des entreprises non diffusibles ou des entreprises ayant demandé à ne pas être publiées sur les pages publiques de l’Annuaire des Entreprises | Insee (Sirene)                                              | Tous les onglets     |
 
 ### **Données accessibles uniquement aux agents qui travaillent dans un cadre juridique** **précis**
 

@@ -100,7 +100,7 @@ Si vous êtes un organisme public, vous pouvez faire une demande pour augmenter 
 Si ce n’est pas le cas, vous pouvez vous autohéberger.
 
 * Dans ce cas, le plus simple est de passer par l’utilisation de Docker : [https://github.com/etalab/addok-docker#readme](https://github.com/etalab/addok-docker#readme).
-* Il est possible aussi de regarder du côté de Addok, le logiciel open source derrière l’API Adresse si vous avez des besoins plus spécifiques au niveau de votre installation ou de la personnalisation de la recherche : [https://github.com/addok/addok](https://github.com/addok/addok).
+* Il est possible aussi de regarder du côté de Addok, le logiciel open source derrière l’API Adresse si vous avez des besoins plus spécifiques pour votre installation ou de la personnalisation de la recherche : [https://github.com/addok/addok](https://github.com/addok/addok).
 
 ## Quels autres géocodeurs est-il possible d'utiliser ? <a href="#geocodeurs-alternatifs" id="geocodeurs-alternatifs"></a>
 

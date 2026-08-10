@@ -39,7 +39,7 @@ Cet onglet détaille la **fiche de métadonnée** du jeu de donnée en précisan
 
 L'accès aux données se fait dans l'onglet "Fichiers", où les données peuvent être :
 
-* **téléchargées en fichier CSV (**_**comma separated values**_**) :** Il s'agit du format le plus utilisé pour échanger des données. Les outils bureautiques de type tableur (Microsoft Excel, LibreOffice Calc) permettent de lire ces fichiers et de les afficher de manière intelligibles à condition de sélectionner le séparateur "virgule" dans la fenêtre d'import du fichier. Les outils d'édition de texte permettent aussi d'ouvrir ces fichiers, notamment pour trouver la cause d'une erreur lors de l'import dans un tableur.
+* **téléchargées en fichier CSV (**_**comma separated values**_**) :** Il s'agit du format le plus utilisé pour échanger des données. Les outils bureautiques de type tableur (Microsoft Excel, LibreOffice Calc) permettent de lire ces fichiers et de les afficher de manière intelligible à condition de sélectionner le séparateur "virgule" dans la fenêtre d'import du fichier. Les outils d'édition de texte permettent aussi d'ouvrir ces fichiers, notamment pour trouver la cause d'une erreur lors de l'import dans un tableur.
 * **visualisées grâce à l'outil** [_**explore**_**.data.gouv.**_**fr**_](https://explore.data.gouv.fr) **:** L'outil permet d'obtenir un aperçu des données, en savoir plus sur les différentes colonnes ou réaliser des filtres et des tris.
 
 {% hint style="warning" %}

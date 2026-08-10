@@ -86,7 +86,7 @@ Les 8 projets présélectionnés seront invités à présenter oralement leurs p
 * Vous pouvez reprendre **la trame proposée** **pour** [**la description écrite demandée**](soumission-du-projet.md) : exprimez clairement la problématique à laquelle s’attaque votre projet, l’objectif du projet, mettez en évidence votre proposition de valeur, présentez votre solution et expliquez comment elle répond à la problématique. Vous pouvez parler des données que vous avez utilisées, comment vous les avez utilisées et partager les étapes que vous avez suivies pour développer votre projet.
 * Gardez en tête [les critères d’évaluation](evaluation-des-projets.md#grille-devaluation-des-projets) pour savoir quels points souligner dans votre présentation.
 * Vous pouvez intégrer **une démonstration rapide de votre solution : nous vous recommandons de faire au préalable un enregistrement de votre écran sous la forme soit d’une vidéo, soit d’un GIF animé.**
-* Nous vous invitons à répéter et à vous entrainer pour votre présentation en amont de la démonstration : assurez-vous qu’elle soit claire, fluide et respecte bien la durée indiquée (3 minutes pour la présélection et 5 minutes pour la présentation finale).
+* Nous vous invitons à répéter et à vous entraîner pour votre présentation en amont de la démonstration : assurez-vous qu’elle soit claire, fluide et respecte bien la durée indiquée (3 minutes pour la présélection et 5 minutes pour la présentation finale).
 
 ## Grille d'évaluation des projets
 

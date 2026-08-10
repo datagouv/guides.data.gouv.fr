@@ -1,6 +1,6 @@
 # Outils
 
-La liste d’outils suivante a pour objectif de répondre aux besoins des animateurs et participants aux groupes de travail lorsqu’aucun outil fourni par leur organisme d’appartenance ne convient. Le CNIG recommande d’avoir en priorité recours aux outils de l’Etat tels que ceux de [la suite numérique](https://lasuite.numerique.gouv.fr/). D’autres outils, libres d’usage ou payants sont également listés dans le cas ou aucun outil de l’Etat ne répondrait au besoin. Les outils sont listés par cas d’usage ci-dessous :
+La liste d’outils suivante a pour objectif de répondre aux besoins des animateurs et participants aux groupes de travail lorsqu’aucun outil fourni par leur organisme d’appartenance ne convient. Le CNIG recommande d’avoir en priorité recours aux outils de l’Etat tels que ceux de [la suite numérique](https://lasuite.numerique.gouv.fr/). D’autres outils, libres d’usage ou payants sont également listés dans le cas où aucun outil de l’Etat ne répondrait au besoin. Les outils sont listés par cas d’usage ci-dessous :
 
 ### <mark style="background-color:purple;">Outils classés par type de besoin</mark> <a href="#outils-classes-par-type-de-besoin" id="outils-classes-par-type-de-besoin"></a>
 

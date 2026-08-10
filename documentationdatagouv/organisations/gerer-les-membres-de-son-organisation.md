@@ -12,7 +12,7 @@ Une organisation sur data.gouv.fr peut contenir trois types de membres :
 
 * **Administrateurs** : ils ont tous les droits sur l'organisation.
 * **Éditeurs** : ils peuvent publier et modifier des contenus, mais ne peuvent pas gérer les membres.
-* **Éditeurs partiels** : similaire aux éditeurs, mais ils peuvent modifier seulement certains contenus pour lesquels un administrateur leur a donné les droits explicitement ou qu'ils ont eux-même créés au sein de l'organisation.
+* **Éditeurs partiels** : similaire aux éditeurs, mais ils peuvent modifier seulement certains contenus pour lesquels un administrateur leur a donné les droits explicitement ou qu'ils ont eux-mêmes créés au sein de l'organisation.
 
 Voici un tableau récapitulatif des permissions
 
@@ -44,7 +44,7 @@ Seuls les **administrateurs** peuvent ajouter des membres.\
 3. Dans la colonne de gauche, cliquez sur le nom de votre organisation ;
 4. Cliquez sur <img src="../../.gitbook/assets/image (2) (1) (2).png" alt="" data-size="line">, dans le menu latéral de votre organisation ;
 5. Cliquez sur le bouton <img src="../../.gitbook/assets/image (4) (1) (2).png" alt="" data-size="line">
-6. Cherchez parmi les utilisateurs présent sur data.gouv.fr ;
+6. Cherchez parmi les utilisateurs présents sur data.gouv.fr ;
 7. Sélectionnez-le lorsqu’il apparaît dans la liste proposée ;
 8. Choisissez le rôle à lui attribuer : **Administrateur,** **Éditeur** ou **Éditeur partiel**;
 9. Cliquez sur **"Ajouter à l'organisation"** pour confirmer l’ajout.
@@ -62,7 +62,7 @@ Si un utilisateur a fait une demande pour rejoindre l'organisation :
 5.  Vous verrez apparaître les demandes d'adhésions
 
     <figure><img src="../../.gitbook/assets/image (5) (1) (2).png" alt=""><figcaption><p>Exemple de demande</p></figcaption></figure>
-6. Vous pouvez accepter ou refuser la demande. Dans le cas ou refuser la demande vous pouvez motiver votre refus pour l'utilisateur.
+6. Vous pouvez accepter ou refuser la demande. Dans le cas où vous refusez la demande, vous pouvez motiver votre refus pour l'utilisateur.
 
 ***
 

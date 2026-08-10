@@ -61,7 +61,7 @@ Pour chaque API exposée, sont disponibles :
 * **Une documentation technique** présentant les modalités d’interrogation et de récupération de la donnée ;
 * **Les conditions générales d’utilisation** précisant les conditions contractuelles d’accès à l’API ;
 
-La description d’une API décrit également **les périodes de validité de l’interface** (cf. recommandation s 7 & 8) et son niveau de service (cf. recommandations 10 & 11).
+La description d’une API décrit également **les périodes de validité de l’interface** (cf. recommandations 7 & 8) et son niveau de service (cf. recommandations 10 & 11).
 
 ### 🔑Accès à la donnée
 

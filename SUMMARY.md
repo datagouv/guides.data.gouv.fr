@@ -92,7 +92,7 @@
     * [Analyser le rapport de moissonnage](documentationdatagouv/moissonnage/analyser-le-rapport-de-moissonnage.md)
     * [Mettre en place un moissonneur](documentationdatagouv/moissonnage/mettre-en-place-un-moissonneur.md)
     * [Comprendre le moissonnage](documentationdatagouv/moissonnage/comprendre-le-moissonnage/README.md)
-      * [Les différents type de moissonneurs](documentationdatagouv/moissonnage/comprendre-le-moissonnage/les-differents-type-de-moissonneurs.md)
+      * [Les différents types de moissonneurs](documentationdatagouv/moissonnage/comprendre-le-moissonnage/les-differents-type-de-moissonneurs.md)
       * [Les limites du moissonnage](documentationdatagouv/moissonnage/comprendre-le-moissonnage/les-limites-du-moissonnage.md)
       * [Moissonnage des plateformes géographiques](documentationdatagouv/moissonnage/comprendre-le-moissonnage/moissonnage-des-plateformes-geographiques.md)
   * [organisations](documentationdatagouv/organisations/README.md)

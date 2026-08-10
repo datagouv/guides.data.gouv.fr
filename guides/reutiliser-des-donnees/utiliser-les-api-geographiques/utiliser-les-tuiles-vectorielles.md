@@ -70,7 +70,7 @@ On parle abusivement de tuiles vectorielles pour désigner généralement deux c
 
 ### **Les tuiles vectorielles en elles-même**
 
-On peut les assimiler à des objects vectoriels, des points, des lignes, des polygones qui sont associés à des attributs par exemple un nom. On groupe ces objets par couche, généralement un objet métier, par exemple, les limites communales, les commerces, etc. On découpe ensuite ces vecteurs selon une emprise fixe qui reprend celle historiquement utilisées par les tuiles raster. On peut ainsi voir quelles couches contiennent une tuile.
+On peut les assimiler à des objets vectoriels, des points, des lignes, des polygones qui sont associés à des attributs par exemple un nom. On groupe ces objets par couche, généralement un objet métier, par exemple, les limites communales, les commerces, etc. On découpe ensuite ces vecteurs selon une emprise fixe qui reprend celle historiquement utilisée par les tuiles raster. On peut ainsi voir quelles couches contiennent une tuile.
 
 Il existe plusieurs standards pour ces tuiles mais celui le plus adopté est celui de la société Mapbox : on parle de "Mapbox Vector Tiles" ou MVT.
 

@@ -1,7 +1,7 @@
 # Plafond de consultation de données
 
 Pour des raisons de sécurité, nous avons mis en place un nombre de\
-consultation de données maximum autorisé sur une plage horaire. Toutes les sources de données de l’espace agent sont concernées.
+consultations de données maximum autorisé sur une plage horaire. Toutes les sources de données de l’espace agent sont concernées.
 
 
 

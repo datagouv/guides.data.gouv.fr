@@ -14,7 +14,7 @@ Pour y remédier, une **recherche unifiée est désormais disponible**. Elle per
 
 Ce nouveau mode simplifie l'accès aux ressources publiées. D'autres évolutions sont à l'étude, comme la recherche sémantique ou la recherche par territoire.
 
-#### **\[8 juin 2026] - Nouveaux indicateurs sur la forêts**
+#### **\[8 juin 2026] - Nouveaux indicateurs sur les forêts**
 
 Six nouveaux indicateurs produits par l'IGN sont désormais disponibles sur le hub afin de suivre l'état, la conservation et la gestion des forêts. Ils portent sur la surface forestière (par essence ou type de propriété), le taux de boisement, les superficies de forêts plantées ainsi que les volumes et flux de bois.
 
@@ -22,9 +22,9 @@ Cette première série d'indicateurs viendra prochainement s'enrichir de nouvell
 
 #### **\[25 mai 2026] - Vers la mutualisation de plugin QGIS pour l'analyse territoriale**
 
-Les collections thématiques d'[_ecologie_.**data.gouv**._fr_](https://ecologie.data.gouv.fr/) sont un support de partage, non seulement des données et des méthodes d'analyse **réutilisables par tous les territoires**, mais elles s'interfacent aussi avec des **outils utilisés par la communauté** tel que QGIS avec la fonctionnalité « [Ouvrir dans QGIS (WFS/WMS)](https://guides.data.gouv.fr/ecologie.data.gouv.fr/ecologie.data.gouv.fr/collections-thematiques/ouvrir-une-collection-dans-qgis) ». En les ouvrant directement dans QGIS, les utilisateurs disposent d'un **projet prêt à l'emploi** sans avoir à rechercher et assembler manuellement de nombreux jeux de données, tout en utilisant les **plugin développés par la communauté**.
+Les collections thématiques d'[_ecologie_.**data.gouv**._fr_](https://ecologie.data.gouv.fr/) sont un support de partage, non seulement des données et des méthodes d'analyse **réutilisables par tous les territoires**, mais elles s'interfacent aussi avec des **outils utilisés par la communauté** tel que QGIS avec la fonctionnalité « [Ouvrir dans QGIS (WFS/WMS)](https://guides.data.gouv.fr/ecologie.data.gouv.fr/ecologie.data.gouv.fr/collections-thematiques/ouvrir-une-collection-dans-qgis) ». En les ouvrant directement dans QGIS, les utilisateurs disposent d'un **projet prêt à l'emploi** sans avoir à rechercher et assembler manuellement de nombreux jeux de données, tout en utilisant les **plugins développés par la communauté**.
 
-C'est dans cette logique que s'inscrit notre action autour de [**Sécateur**](https://github.com/ecolabdata/secateur), un plugin QGIS **initialement développé par la direction départementale de la Côte-d'Or** (DDT 21) puis **généralisé pour faciliter son usage par d'autres services**. Après sélection d'une parcelle, Sécateur interroge les différentes données géographiques et génère des exports PDF et CSV des éléments intersectés sur la parcelle. Il répond à des **besoins plus large** d'analystes travaillant dans le domaine de l’urbanisme
+C'est dans cette logique que s'inscrit notre action autour de [**Sécateur**](https://github.com/ecolabdata/secateur), un plugin QGIS **initialement développé par la direction départementale de la Côte-d'Or** (DDT 21) puis **généralisé pour faciliter son usage par d'autres services**. Après sélection d'une parcelle, Sécateur interroge les différentes données géographiques et génère des exports PDF et CSV des éléments intersectés sur la parcelle. Il répond à des **besoins plus larges** d'analystes travaillant dans le domaine de l’urbanisme
 
 Actuellement en phase de test, Sécateur illustre comment [_ecologie_.**data.gouv**._fr_](https://ecologie.data.gouv.fr/) peut accélérer le **passage de la donnée ouverte à l'analyse territoriale** en mutualisant à la fois les données, les méthodes et les outils.
 
@@ -48,7 +48,7 @@ Modification de la méthode de calcul pour l’indicateur [**prélèvements d’
 
 L’univers [_ecologie_.**data.gouv**._fr_](http://ecologie.data.gouv.fr) correspond à un sous-ensemble spécifique de jeux de données, API et collections thématiques référencés par [**data.gouv**._fr_](https://www.data.gouv.fr/) _._
 
-Désormais, la gestion de l’univers d’[_ecologie_.**data.gouv**._fr_](http://ecologie.data.gouv.fr)[ ](https://ecologie.data.gouv.fr/)permet une sélection **jeu de données par jeu de données**. Concrètement, la gestion technique s’appuie sur un document **Grist** où sont listés les éléments (organisations, jeux de données, API, etc.) à inclure ou exclure pour chaque univers, parmi tous les éléments publiés sur [**data.gouv**._fr_](https://www.data.gouv.fr/) . Cette approche permet d’intégrer des données provenant d’organisations dont le champ d’action dépasse les seules thématiques environnementales telles que les collectivités territoriales qui produisent des donnés clés sur l’occupation des sols.
+Désormais, la gestion de l’univers d’[_ecologie_.**data.gouv**._fr_](http://ecologie.data.gouv.fr)[ ](https://ecologie.data.gouv.fr/)permet une sélection **jeu de données par jeu de données**. Concrètement, la gestion technique s’appuie sur un document **Grist** où sont listés les éléments (organisations, jeux de données, API, etc.) à inclure ou exclure pour chaque univers, parmi tous les éléments publiés sur [**data.gouv**._fr_](https://www.data.gouv.fr/) . Cette approche permet d’intégrer des données provenant d’organisations dont le champ d’action dépasse les seules thématiques environnementales telles que les collectivités territoriales qui produisent des données clés sur l’occupation des sols.
 
 Cette évolution ouvre la voie à la gestion par des communautés d’organisations appartenant à un même domaine. Ce chantier fait l’objet de travaux en cours avec les systèmes d’information fédérateurs de la biodiversité, de l’eau et des milieux marins ainsi que le GD4H. Un atelier le 8 avril a permis d’échanger sur les besoins et les opportunités offertes par cette nouvelle organisation.
 
@@ -109,6 +109,6 @@ Afin de rendre visible les différents points de contact pour un indicateur nous
 #### \[Janvier 2026] - **Enrichissement et modification des indicateurs de type ratio**
 
 * En complément de la colonne « **valeur** » qui représente l’indicateur, les colonnes « **numérateur** » et « **dénominateur** » qui ont servi à calculer l’indicateur ont été ajoutées dans les fichiers CSV d’indicateurs ;
-* La colonne **valeur** de l’ensemble des indicateurs de ratio et de taux a été mise à jour et multipliée par 100 afin que les valeurs des indicateurs de pourcentage soit comprises **entre 0 et 100**, et non plus en 0 et 1. Cette décision a été prise afin de s’aligner avec les standards utilisés dans les publications de l’INSEE ;
+* La colonne **valeur** de l’ensemble des indicateurs de ratio et de taux a été mise à jour et multipliée par 100 afin que les valeurs des indicateurs de pourcentage soient comprises **entre 0 et 100**, et non plus entre 0 et 1. Cette décision a été prise afin de s’aligner avec les standards utilisés dans les publications de l’INSEE ;
 
 \[[Nombre de places de stationnement vélo pour 1000 hab.](https://ecologie.data.gouv.fr/indicators/67f989c8d9b3a8440f204aa7)]

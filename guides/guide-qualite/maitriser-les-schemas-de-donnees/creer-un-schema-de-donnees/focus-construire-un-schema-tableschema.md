@@ -74,15 +74,15 @@ Pour déclarer un format de données dans un schéma JSON il est possible d'util
 * **format** : le format du champ
 * **type** : le type du champ
 
-Il est également possible de contraindre les valeurs autorisées dans ce champ à l'aide de plusieurs proriétés :
+Il est également possible de contraindre les valeurs autorisées dans ce champ à l'aide de plusieurs propriétés :
 
 * **required** : indique l'obligation de la présence d'une valeur pour ce champ dans toutes les lignes du fichier
 * **unique** : indique que chaque valeur de ce champ à l'intérieur du fichier doit être unique
 * **minLength** : indique la taille minimale des valeurs de ce champ
 * **maxLength** : indique la taille maximale des valeurs de ce champ
-* **minimum** : indique la valeur minimum autorisée pour ce champ (par exemple pour une date on peut indiquer une année en deça de laquelle les valeurs ne sont pas autorisées)
+* **minimum** : indique la valeur minimum autorisée pour ce champ (par exemple pour une date on peut indiquer une année en deçà de laquelle les valeurs ne sont pas autorisées)
 * **maximum** : indique la valeur maximale autorisée pour ce champ
-* **pattern** : indique une expression régulière à laquelle doivent être conforme les valeurs de ce champ (par exemple pour un numéro SIRET on peut indiquer `^\\d{14}$` ce qui signifie que les valeurs de ce champ doivent contenir exactement 14 chiffres)
+* **pattern** : indique une expression régulière à laquelle doivent être conformes les valeurs de ce champ (par exemple pour un numéro SIRET on peut indiquer `^\\d{14}$` ce qui signifie que les valeurs de ce champ doivent contenir exactement 14 chiffres)
 * **enum** : indique une liste de valeurs autorisées pour ce champ
 
 Ci-dessous quelques exemples tirés du [schéma des menus de la restauration collective](https://schema.data.gouv.fr/scdl/menus-collectifs/1.2.1.html).
@@ -124,12 +124,12 @@ Les informations ci-dessous décrivent les différents types de champs disponibl
 
 Pour le type string, les formats de données suivants sont disponibles :
 
-* **default** : n'importe quelle chaîne de caractère
+* **default** : n'importe quelle chaîne de caractèress
 * **email** : une adresse email valide.
   * motif de validation :
 * **uri** : une URI valide
-* **binary** : une chaîne de caractère encodées en base 64 représentant des données binaires.
-* **uuid** : une chaîne de caractère représentant un identifiant unique.
+* **binary** : une chaîne de caractères encodée en base 64 représentant des données binaires.
+* **uuid** : une chaîne de caractères représentant un identifiant unique.
 
 ### Données de type décimal <a href="#donnees-de-type-decimal" id="donnees-de-type-decimal"></a>
 

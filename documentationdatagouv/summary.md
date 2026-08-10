@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Accueil](./)
+* [Accueil](README.md)
 * [❓ Foire aux questions](foire-aux-questions.md)
 
 ## COMPTE UTILISATEUR
@@ -35,10 +35,10 @@
 
 ## API DE DATA.GOUV.FR
 
-* [Prise en main](api-de-data.gouv.fr/prise-en-main/)
+* [Prise en main](api-de-data.gouv.fr/prise-en-main/README.md)
   * [Tutoriel](api-de-data.gouv.fr/prise-en-main/tutoriel.md)
   * [Gérer un jeu de données par l'API](api-de-data.gouv.fr/prise-en-main/gerer-un-jeu-de-donnees-par-lapi.md)
-* [Référence](api-de-data.gouv.fr/reference/)
+* [Référence](api-de-data.gouv.fr/reference/README.md)
   * [site](api-de-data.gouv.fr/reference/site.md)
   * [datasets](api-de-data.gouv.fr/reference/datasets.md)
   * [reuses](api-de-data.gouv.fr/reference/reuses.md)
@@ -62,9 +62,9 @@
 
 ## MOISSONNAGE
 
-* [Comprendre le moissonnage](moissonnage/comprendre-le-moissonnage/)
+* [Comprendre le moissonnage](moissonnage/comprendre-le-moissonnage/README.md)
   * [Les limites du moissonnage](moissonnage/comprendre-le-moissonnage/les-limites-du-moissonnage.md)
-  * [Les différents type de moissonneurs](moissonnage/comprendre-le-moissonnage/les-differents-type-de-moissonneurs.md)
+  * [Les différents types de moissonneurs](moissonnage/comprendre-le-moissonnage/les-differents-type-de-moissonneurs.md)
   * [Moissonnage des plateformes géographiques](moissonnage/comprendre-le-moissonnage/moissonnage-des-plateformes-geographiques.md)
 * [Mettre en place un moissonneur](moissonnage/mettre-en-place-un-moissonneur.md)
 * [Analyser le rapport de moissonnage](moissonnage/analyser-le-rapport-de-moissonnage.md)
@@ -79,7 +79,7 @@
 
 * [Publier une Base Adresse Locale](donnees-specifiques/publier-une-base-adresse-locale.md)
 * [Données de forte valeur : métadonnées obligatoires et modalités de rapportage](donnees-specifiques/donnees-de-forte-valeur-metadonnees-obligatoires-et-modalites-de-rapportage.md)
-* [Données de la commande publique](donnees-specifiques/donnees-de-la-commande-publique/)
+* [Données de la commande publique](donnees-specifiques/donnees-de-la-commande-publique/README.md)
   * [Publier les données essentielles des marchés publics](donnees-specifiques/donnees-de-la-commande-publique/publier-les-donnees-essentielles-des-marches-publics.md)
   * [Déclarer un profil d’acheteur](donnees-specifiques/donnees-de-la-commande-publique/declarer-un-profil-dacheteur.md)
 * [Données de transports et mobilités](https://doc.transport.data.gouv.fr/)
@@ -88,7 +88,7 @@
 
 * [Créer une verticale thématique de data.gouv.fr](autres/creer-une-verticale-thematique-de-data.gouv.fr.md)
 * [Catalogage de données - GRIST](autres/catalogage-de-donnees-grist.md)
-* [Outils pour les administrations](autres/outils-pour-les-administrations/)
+* [Outils pour les administrations](autres/outils-pour-les-administrations/README.md)
   * [Doctrine des API](autres/outils-pour-les-administrations/doctrine-des-api.md)
   * [Accompagnement humain](autres/outils-pour-les-administrations/accompagnement-humain.md)
   * [Datapass : Outil d'habilitations](autres/outils-pour-les-administrations/datapass-outil-dhabilitations.md)

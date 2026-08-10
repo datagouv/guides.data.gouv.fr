@@ -87,7 +87,7 @@ Certaines de ces informations seront également utiles pour répondre à des dem
 | Données traitées\*                      |                                                                                                                                                                                                                                                               |
 | Source des données traitées\*           | _Qui fournit les données (l'usager, une autre administration, etc.) ? Comment sont elles fournies (un dossier, une API, etc.) ? Exemple : "dossier rempli par le demandeur sur une plateforme en ligne" ou "revenu fiscal de référence fourni par la DGFIP"._ |
 | Mode de collecte des données traitées\* | _Comment les données sont-elles initialement collectées ? Exemple : "Les inscriptions sont très majoritairement prises en charge au sein d'un portail virtuel dédié aux familles, plus exceptionnellement par voie papier"._                                  |
-| Type d'algorithme                       | _Préciser s'il s'agit d'un système de règles (les règle de calculs sont codées par des personnes) ou d'un algorithme reposant sur l'apprentissage machine (machine learning)._                                                                                |
+| Type d'algorithme                       | _Préciser s'il s'agit d'un système de règles (les règles de calcul sont codées par des personnes) ou d'un algorithme reposant sur l'apprentissage machine (machine learning)._                                                                                |
 | Opérations effectuées par l'algorithme  | _Donnez des détails sur les opérations techniques effectuées par l'algorithme. Cette catégorie peut être simple ou complexe, en fonction du type d'algorithme mobilisé._                                                                                      |
 | Ressources connexes                     | _Notamment des liens vers les dépôts de code source ou vers un logigramme._                                                                                                                                                                                   |
 
@@ -118,7 +118,7 @@ Parmi eux, on peut nommer (liste non exhaustive) :
 
 **Nous vous conseillons qu'une personne (chef/cheffe de mission ou de projet) soit en charge de piloter cet inventaire** et puisse coordonner différents acteurs afin que l'action ne soit pas conduite en silos.
 
-Rappelons que, bien que cette liste ne soit pas ordonnée, c'est le métier qui est susceptible de disposer du plus d'informations sur les algorithmes, leur fonctionnement et leur impact. **Ainsi, réaliser un inventaire des algorithmes et publier leurs règles de fonctionner ne doit pas être relégué à un simple enjeu technique**.
+Rappelons que, bien que cette liste ne soit pas ordonnée, c'est le métier qui est susceptible de disposer du plus d'informations sur les algorithmes, leur fonctionnement et leur impact. **Ainsi, réaliser un inventaire des algorithmes et publier leurs règles de fonctionnement ne doit pas être relégué à un simple enjeu technique**.
 
 Autres modalités : d'autres questions se posent : où publier cet inventaire ? Sous quelle forme ? Cette section continuera à être enrichie dans les prochains mois pour apporter plus de précisions sur ces sujets.&#x20;
 

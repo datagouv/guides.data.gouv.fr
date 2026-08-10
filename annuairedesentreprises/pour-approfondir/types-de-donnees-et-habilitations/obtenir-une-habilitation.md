@@ -6,7 +6,7 @@ L’habilitation vous permet d’accéder à des données supplémentaires dans 
 
 ***
 
-### Etapes à suivre
+### Étapes à suivre
 
 #### 1-Vérifier que votre mission est éligible
 

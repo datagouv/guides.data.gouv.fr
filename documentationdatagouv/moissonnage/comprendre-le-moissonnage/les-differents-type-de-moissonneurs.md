@@ -1,4 +1,4 @@
-# Les différents type de moissonneurs
+# Les différents types de moissonneurs
 
 ## Les différents moissonneurs
 

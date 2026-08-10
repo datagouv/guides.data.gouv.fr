@@ -1,6 +1,6 @@
 # Se connecter à l'espace agent
 
-Vous êtes agent public ? Avec ProConnect, vous pouvez vous connecter en quelques clics a l’espace agent sur l’Annuaire des Entreprises.
+Vous êtes agent public ? Avec ProConnect, vous pouvez vous connecter en quelques clics à l’espace agent sur l’Annuaire des Entreprises.
 
 {% stepper %}
 {% step %}
@@ -22,7 +22,7 @@ Utilisez votre email professionnel et laissez-vous guider
 {% endstep %}
 
 {% step %}
-#### Félicitation, vous êtes connecté(e) !
+#### Félicitations, vous êtes connecté(e) !
 
 Profitez des données de votre espace agent.
 {% endstep %}

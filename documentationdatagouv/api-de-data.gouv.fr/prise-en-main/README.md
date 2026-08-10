@@ -16,7 +16,7 @@ Une API est une interface, un contrat passé entre deux systèmes informatiques 
 * **Décrire votre jeu de données et les ressources associées** ;
 * **Ajouter ou supprimer une ressource ou un jeu de données**.
 
-L’API de data.gouv.fr propose également des fonctionnalité complémentaires à la publication de jeux de données comme la possibilité de récupérer les métadonnées des jeux de données ou de fichiers ou encore d'accéder au contenu des fichiers d’un jeu de données.
+L’API de data.gouv.fr propose également des fonctionnalités complémentaires à la publication de jeux de données comme la possibilité de récupérer les métadonnées des jeux de données ou de fichiers ou encore d'accéder au contenu des fichiers d’un jeu de données.
 
 {% hint style="info" %}
 **Quand utiliser l’API de data.gouv.fr ?**
@@ -46,7 +46,7 @@ Cette clé doit être fournie dans l’entête HTTP `X-API-KEY` à chaque appel 
 
 ## Autorisations <a href="#autorisations" id="autorisations"></a>
 
-Les appels d’API sont soumis aux même permissions que l’interface web.
+Les appels d’API sont soumis aux mêmes permissions que l’interface web.
 
 Par exemple, vous devez être membre d’une organisation pour modifier l’un de ses jeux de données.
 
@@ -73,7 +73,7 @@ Par exemple, un dataset `5bbb6d6cff66bd4dc17bfd5a` dont le slug est `mon-dataset
 * `$API/datasets/mon-dataset`
 
 {% hint style="warning" %}
-Le slug d’un objet peut-être amené à changer si le producteur change le nom de l’objet alors que l’identifiant technique lui ne change jamais. Il est donc préférable d’utiliser les identifiants techniques dans les scripts qui doivent être durables et rejouables.
+Le slug d’un objet peut être amené à changer si le producteur change le nom de l’objet alors que l’identifiant technique lui ne change jamais. Il est donc préférable d’utiliser les identifiants techniques dans les scripts qui doivent être durables et rejouables.
 {% endhint %}
 
 ### Listes simples <a href="#listes-simples" id="listes-simples"></a>
@@ -151,4 +151,4 @@ Si vous n’arrivez pas à comprendre une erreur, que vous avez besoin de suppor
 * la date et l’heure de la requête
 * un peu de contexte sur la raison de cette requête, son cadre
 
-Parfois, la réponse en erreur comprend une entête `X-Sentry-ID`. Pensez à fournir cet identifiant, il nous permettra de comprendre précisement ce qui ne va pas et, si c’est un bug, à le corriger.
+Parfois, la réponse en erreur comprend une entête `X-Sentry-ID`. Pensez à fournir cet identifiant, il nous permettra de comprendre précisément ce qui ne va pas et, si c’est un bug, à le corriger.

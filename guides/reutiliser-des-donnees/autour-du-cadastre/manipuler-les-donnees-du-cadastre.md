@@ -64,7 +64,7 @@ Derrière ces outils se cachent deux URLs :
 * les autres pour les données les plus anciennes, avant 2022 [https://files.data.gouv.fr/cadastre/](https://files.data.gouv.fr/cadastre/)
 
 {% hint style="info" %}
-La bascule de l'un à l'autre est liée au fait que l'on souhaite pouvoir gagner de l'espace disque sur le serveur mettant à disposition les données récentes. Cette bascule permet de supprimer un certain nombre de jeu de données redondants. Cela facilite la consommation mais fait plus que doubler la taille des données pour un millésime. Nous avons commencé pour des raisons de sauvegarde et d'espace disque à basculer certaines données sur un bucket Minio. **Ainsi, à terme** [**https://files.data.gouv.fr/cadastre/**](https://files.data.gouv.fr/cadastre/) **sera amené à disparaitre.**
+La bascule de l'un à l'autre est liée au fait que l'on souhaite pouvoir gagner de l'espace disque sur le serveur mettant à disposition les données récentes. Cette bascule permet de supprimer un certain nombre de jeux de données redondants. Cela facilite la consommation mais fait plus que doubler la taille des données pour un millésime. Nous avons commencé pour des raisons de sauvegarde et d'espace disque à basculer certaines données sur un bucket Minio. **Ainsi, à terme** [**https://files.data.gouv.fr/cadastre/**](https://files.data.gouv.fr/cadastre/) **sera amené à disparaître.**
 {% endhint %}
 
 ### Accès aux anciennes données via Minio
@@ -207,7 +207,7 @@ mc ls cadastre_gouv_no_authent/cadastre/dgfip-pci-vecteur/${year}/edigeo-cc/feui
 mc ls cadastre_gouv_no_authent/cadastre/dgfip-pci-vecteur/${year}/edigeo-cc/feuilles/69/69266/
 ```
 
-Vous pouvez aussi avoir besoin d'automatiser avec un language de programmation. Voici ci-dessous un exemple en Python dont la documentation est disponible sur [https://min.io/docs/minio/linux/developers/python/minio-py.html](https://min.io/docs/minio/linux/developers/python/minio-py.html). Il existe d'autres librairies/SDK, en Java, Javascript, .Net, Haskell, C++ pour accéder aux données [https://min.io/docs/minio/linux/developers/minio-drivers.html](https://min.io/docs/minio/linux/developers/minio-drivers.html)
+Vous pouvez aussi avoir besoin d'automatiser avec un langage de programmation. Voici ci-dessous un exemple en Python dont la documentation est disponible sur [https://min.io/docs/minio/linux/developers/python/minio-py.html](https://min.io/docs/minio/linux/developers/python/minio-py.html). Il existe d'autres librairies/SDK, en Java, Javascript, .Net, Haskell, C++ pour accéder aux données [https://min.io/docs/minio/linux/developers/minio-drivers.html](https://min.io/docs/minio/linux/developers/minio-drivers.html)
 
 ```python
 #!/usr/bin/env python
