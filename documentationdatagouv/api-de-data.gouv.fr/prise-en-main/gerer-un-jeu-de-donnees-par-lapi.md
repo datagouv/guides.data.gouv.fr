@@ -16,7 +16,7 @@ Tous les exemples qui suivent sont réalisés avec un compte :
 
 Les exemples portant sur un jeu de données existant utilisent l’identifiant `5bc04b2cff66bd680e499f4a`. Ceux portant sur une ressource existante de ce jeu de données utilisent l’identifiant `54d47250-1daf-483b-965a-3013f8c76617`.
 
-Pour simplifier la lecture de ces exemples, il y sera fait référence par les variables suivantes pour chaque langage :
+Les exemples sont donnés pour curl, HTTPie, Python (`requests`) et [`datagouv-client`](https://github.com/datagouv/datagouv-client) (client Python officiel de data.gouv.fr). Ils s’appuient sur les variables suivantes :
 
 {% tabs %}
 {% tab title="CURL" %}
