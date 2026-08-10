@@ -497,6 +497,40 @@ Le jeu de données est maintenant **marqué comme supprimé**, il reste visible 
 
 ### Restauration d’un jeu de données supprimé par erreur <a href="#restauration-dun-jeu-de-donnees-supprime-par-erreur" id="restauration-dun-jeu-de-donnees-supprime-par-erreur"></a>
 
-Tant que le jeu de données n’a pas été purgé, vous avez la possibilité de le restaurer:
+Tant que le jeu de données n’a pas été purgé, vous pouvez le restaurer en mettant à jour le jeu de données avec l’attribut `deleted` à `null` :
 
-**🚧 A venir 🚧**
+{% tabs %}
+{% tab title="CURL" %}
+```bash
+curl -H "Content-Type:application/json" \
+     -H "Accept:application/json" \
+     -H "X-Api-Key:$API_KEY" \
+     --data '{"deleted": null}' \
+     -X PUT $API/datasets/$DATASET/
+```
+{% endtab %}
+
+{% tab title="HTTPie" %}
+```bash
+http PUT $API/datasets/$DATASET/ \
+     X-Api-Key:$API_KEY \
+     deleted:=null
+```
+{% endtab %}
+
+{% tab title="Python" %}
+```python
+url = api_url('/datasets/{}/'.format(DATASET))
+response = requests.put(url, json={
+    'deleted': None,
+}, headers=HEADERS)
+```
+{% endtab %}
+
+{% tab title="datagouv-client" %}
+```python
+dataset = client.dataset(DATASET)
+dataset.update({"deleted": None})
+```
+{% endtab %}
+{% endtabs %}
