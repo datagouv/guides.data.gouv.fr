@@ -84,7 +84,7 @@ Lors de l’étape **“Ajoutez vos ressources”**, deux options vous sont prop
 Une API est une interface, un contrat passé entre deux systèmes informatiques pour leur permettre de communiquer. Cette solution informatique permet d’automatiser des tâches depuis votre ordinateur ou vos serveurs.
 {% endhint %}
 
-A partir de l’API de data.gouv.fr, vous pouvez réaliser les mêmes actions que sur la plateforme :
+À partir de l’API de data.gouv.fr, vous pouvez réaliser les mêmes actions que sur la plateforme :
 
 * **Créer un jeu de données au nom de votre compte utilisateur ou au nom de votre organisation** ;
 * **Décrire votre jeu de données et les ressources associées** ;

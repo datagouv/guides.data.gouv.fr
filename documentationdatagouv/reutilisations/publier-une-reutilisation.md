@@ -46,7 +46,7 @@ Si votre réutilisation prend la forme d’une représentation graphique, vous p
 
 Lorsque c’est pertinent, les captures d’écrans permettent de mieux rendre compte de ce qu’est la réutilisation, elles sont donc préférables aux logos ou aux illustrations par exemple.
 
-### 5. Faire connaitre sa réutilisation
+### 5. Faire connaître sa réutilisation
 
 Une fois votre réutilisation publiée, nous vous conseillons de la partager sur les réseaux sociaux. N’hésitez pas à mentionner data.gouv.fr sur les réseaux sociaux.\
 \

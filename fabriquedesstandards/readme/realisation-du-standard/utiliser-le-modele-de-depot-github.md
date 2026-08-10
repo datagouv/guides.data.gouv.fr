@@ -6,7 +6,7 @@ Tout d'abord, pour accéder au modèle de dépôt, suivez le lien suivant :&#x20
 _lien vers le modèle de dépôt_
 {% endembed %}
 
-Le modèle de dépôt Github du CNIG contient les fichiers nécessaires pour démarrer la création d'un dépôt de standard, il est également conforme à ce qui est demandé par schema.data.gouv pour un schéma au format [Table Schema](https://specs.frictionlessdata.io/table-schema/). A noter que la création d'un schéma n'est pas obligatoire pour la création d'un standard CNIG. En revanche, il est obligatoire de créer un dépôt Github afin que le standard soit référencé sur schema.data.gouv. Dans le cas où un standard possède différent profils, il sera nécessaire de créer un dépôt par profil (le site schema.data.gouv ne permettant pas de référencer plusieurs schémas ou standards à partir d'un seul dépôt).
+Le modèle de dépôt Github du CNIG contient les fichiers nécessaires pour démarrer la création d'un dépôt de standard, il est également conforme à ce qui est demandé par schema.data.gouv pour un schéma au format [Table Schema](https://specs.frictionlessdata.io/table-schema/). À noter que la création d'un schéma n'est pas obligatoire pour la création d'un standard CNIG. En revanche, il est obligatoire de créer un dépôt Github afin que le standard soit référencé sur schema.data.gouv. Dans le cas où un standard possède différents profils, il sera nécessaire de créer un dépôt par profil (le site schema.data.gouv ne permettant pas de référencer plusieurs schémas ou standards à partir d'un seul dépôt).
 
 {% hint style="info" %}
 [Une documentation de l'utilisation de Github](https://github.com/cnigfr/standard-accessibilite-espace-naturel/blob/master/documentation/251023_CNIG_Github_manuel_debutant.pdf) a été rédigée pour vous aider dans sa prise en main.
@@ -36,7 +36,7 @@ Ce dépôt contient un ensemble de dossiers et fichiers utiles pour le dépôt d
 * `.gitignore` : fichier généré automatiquement par github pour le suivi des versions de documents. Vous pouvez ignorer ce fichier.
 
 {% hint style="info" %}
-**A noter :** Il est conseillé de se familiariser avec la syntaxe markdown utilisée dans les documents ".md" avant de se lancer dans leur rédaction (pour cela, [la documentation de Github](https://docs.github.com/fr/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) peut être utile).
+**À noter :** Il est conseillé de se familiariser avec la syntaxe markdown utilisée dans les documents ".md" avant de se lancer dans leur rédaction (pour cela, [la documentation de Github](https://docs.github.com/fr/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) peut être utile).
 {% endhint %}
 
 ## <mark style="background-color:purple;">Étapes à suivre</mark>

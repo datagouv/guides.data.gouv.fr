@@ -29,7 +29,7 @@ Un géocodeur transforme une donnée textuelle des données de référence en ut
 
 Les différents éléments sont indexés, puis en s’appuyant sur des algorithmes relatifs à du traitement textuel, le géocodeur compare la similarité entre les mots constituant l’adresse à rechercher et ceux qui sont indexés depuis les données de référence.
 
-Un algorithme permet généralement d’ordonner les résultats. Il s’agit par exemple de faire apparaitre en premier les résultats ayant les coordonnées fixes les plus proches ou encore ceux dont la population est la plus forte.
+Un algorithme permet généralement d’ordonner les résultats. Il s’agit par exemple de faire apparaître en premier les résultats ayant les coordonnées fixes les plus proches ou encore ceux dont la population est la plus forte.
 
 Il est également possible de filtrer selon des critères comme le pays (si le géocodeur a une vocation internationale, comme [Nominatim](https://nominatim.openstreetmap.org/)) ou encore par type de résultat.
 

@@ -59,7 +59,7 @@ Si un utilisateur a fait une demande pour rejoindre l'organisation :
 2. Cliquez sur <img src="../../.gitbook/assets/image (1) (2) (1).png" alt="" data-size="line"> en haut à droite de votre écran ;
 3. Dans la colonne de gauche, cliquez sur le nom de votre organisation ;
 4. Cliquez sur <img src="../../.gitbook/assets/image (2) (1) (2).png" alt="" data-size="line">, dans le menu latéral de votre organisation ;
-5.  Vous verrez apparaitre les demandes d'adhésions
+5.  Vous verrez apparaître les demandes d'adhésions
 
     <figure><img src="../../.gitbook/assets/image (5) (1) (2).png" alt=""><figcaption><p>Exemple de demande</p></figcaption></figure>
 6. Vous pouvez accepter ou refuser la demande. Dans le cas ou refuser la demande vous pouvez motiver votre refus pour l'utilisateur.

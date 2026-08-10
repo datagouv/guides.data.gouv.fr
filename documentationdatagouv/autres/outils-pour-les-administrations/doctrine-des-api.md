@@ -110,7 +110,7 @@ Le détail de ces informations sera présenté en détail dans les conditions g�
 
 #### <mark style="background-color:yellow;">**Recommandation 9**</mark>
 
-Toute modification non rétro-compatible pose un versionning en tant que version majeure et une cohabitation de l’ancien et du nouveau modèle pendant une période de recouvrement. **Celle-ci doit être communiquée à l’avance en diffusant le nouveau contrat d’interface de l’API.** A défaut d’information préalable ou d’accord des réutilisateurs, la période de cohabitation sera comprise entre 6 mois et 1 an.
+Toute modification non rétro-compatible pose un versionning en tant que version majeure et une cohabitation de l’ancien et du nouveau modèle pendant une période de recouvrement. **Celle-ci doit être communiquée à l’avance en diffusant le nouveau contrat d’interface de l’API.** À défaut d’information préalable ou d’accord des réutilisateurs, la période de cohabitation sera comprise entre 6 mois et 1 an.
 
 Si une évolution de la donnée interdit le maintien de l’ensemble des fonctionnalités de l’API (exemple : modification d’un schéma avec abandon de certaines informations), il sera indiqué quelles requêtes ou parties du protocole seront maintenues.
 

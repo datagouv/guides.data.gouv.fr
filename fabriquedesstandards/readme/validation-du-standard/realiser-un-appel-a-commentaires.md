@@ -33,7 +33,7 @@
 Il peut être utile de prendre en compte les événements qui pourraient causer une perte ou un gain de visibilité de l’appel à commentaires (conférence, assises, événements politiques, élections, vacances scolaires, etc.).
 {% endhint %}
 
-* Préparer le tableau de recueil des commentaires vierge (voir le modèle proposé ci-dessous). A noter que la transmission des retours par ce tableau n’est pas toujours idéale car elle nécessite un traitement manuel pour agréger l’ensemble. Les animateurs sont libres d’utiliser tout autre outil qui leur semblerait plus approprié.
+* Préparer le tableau de recueil des commentaires vierge (voir le modèle proposé ci-dessous). À noter que la transmission des retours par ce tableau n’est pas toujours idéale car elle nécessite un traitement manuel pour agréger l’ensemble. Les animateurs sont libres d’utiliser tout autre outil qui leur semblerait plus approprié.
 
 {% hint style="info" %}
 Choisir **le type de commentaire** :

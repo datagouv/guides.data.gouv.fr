@@ -145,8 +145,8 @@ Pour créer une ressource, nous allons utiliser l’API de création d’une res
 
 Il existe 2 cas de création de ressource :
 
-* avec envoi d’un fichier, dit ressource locale ;
-* avec référencement d’un fichier distant, dit ressource distante.
+* avec envoi d’un fichier, dite ressource locale ;
+* avec référencement d’un fichier distant, dite ressource distante.
 
 ### En envoyant un fichier
 
@@ -272,7 +272,7 @@ resource = dataset.create_remote(
 
 ## Modification d’un jeu de données <a href="#modification-dun-jeu-de-donnees" id="modification-dun-jeu-de-donnees"></a>
 
-La suite des opérations s’applique sur le même jeu de données dont l’identifiant est `5bc04b2cff66bd680e499f4a` sur lequel vous avez les permissions nécessaires à la modification. Ce jeu de données possède une ressource `54d47250-1daf-483b-965a-3013f8c76617` qui est soit distante soit locale suivant les exemples.
+La suite des opérations s’applique au même jeu de données dont l’identifiant est `5bc04b2cff66bd680e499f4a` sur lequel vous avez les permissions nécessaires à la modification. Ce jeu de données possède une ressource `54d47250-1daf-483b-965a-3013f8c76617` qui est soit distante soit locale suivant les exemples.
 
 ### Mise à jour des métadonnées de la fiche <a href="#mise-a-jour-des-metadonnees-de-la-fiche" id="mise-a-jour-des-metadonnees-de-la-fiche"></a>
 
@@ -487,7 +487,7 @@ dataset.delete()
 {% endtab %}
 {% endtabs %}
 
-Le jeu de données est maintenant **marqué comme supprimé**, il reste visible uniquement par vous et les membres de votre organisation, ainsi que par l’équipe d’administration de data.gouv.fr. Il sera purgé (supprimé définitivement de la plateforme), d’ici la fin de la journée.
+Le jeu de données est maintenant **marqué comme supprimé**, il reste visible uniquement par vous et les membres de votre organisation, ainsi que par l’équipe d’administration de data.gouv.fr. Il sera purgé (supprimé définitivement de la plateforme) d’ici la fin de la journée.
 
 ### Restauration d’un jeu de données supprimé par erreur <a href="#restauration-dun-jeu-de-donnees-supprime-par-erreur" id="restauration-dun-jeu-de-donnees-supprime-par-erreur"></a>
 

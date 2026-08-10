@@ -130,7 +130,7 @@ Cette convention présente plusieurs avantages :
 * elle facilite la correspondance avec le service WFS d'origine ;
 * elle permet aux utilisateurs de retrouver rapidement le nom de couche à utiliser dans un client SIG comme QGIS ou lors d'appels WFS.
 
-Vous pouvez ajouter autant de fichiers que de couches souhaitées via cette méthode. A noter également, que dans le cas des services WMS, cette convention débloque des services de prévisualisation.
+Vous pouvez ajouter autant de fichiers que de couches souhaitées via cette méthode. À noter également, que dans le cas des services WMS, cette convention débloque des services de prévisualisation.
 
 <figure><img src="../../.gitbook/assets/Jeu de données - Arrêté préfectoral de Protection de Biotope (APB) ecologie.data.gouv.fr (1).png" alt=""><figcaption><p><a href="https://ecologie.data.gouv.fr/datasets/6924777b1c6bca1a367ad694">https://ecologie.data.gouv.fr/datasets/6924777b1c6bca1a367ad694</a></p></figcaption></figure>
 {% endstep %}

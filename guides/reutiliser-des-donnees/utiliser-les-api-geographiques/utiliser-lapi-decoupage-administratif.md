@@ -132,7 +132,7 @@ L'intérêt de la manoeuvre est de pouvoir comprendre les appels HTTP utilisés 
 
 **Trouver la structure du WFS**
 
-Trouver la structure du WFS est important car pour pouvoir filtrer, vous pouvez soit utiliser des filtres qui jouent sur les attributs soit sur des propriétés spatiales. Il s’agit donc de connaître le nom des champs. Il s’agit également potentiellement de connaitre le nom de la colonne contenant la géométrie pour pouvoir effectuer les requêtes spatiales.
+Trouver la structure du WFS est important car pour pouvoir filtrer, vous pouvez soit utiliser des filtres qui jouent sur les attributs soit sur des propriétés spatiales. Il s’agit donc de connaître le nom des champs. Il s’agit également potentiellement de connaître le nom de la colonne contenant la géométrie pour pouvoir effectuer les requêtes spatiales.
 
 On part dans cet exemple de la couche `ADMINEXPRESS-COG.LATEST:commune`
 
