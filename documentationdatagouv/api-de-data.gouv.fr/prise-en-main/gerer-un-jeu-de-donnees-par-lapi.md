@@ -416,12 +416,6 @@ resource.update(
 {% endtab %}
 {% endtabs %}
 
-### Signaler une mise à jour de fichier distant <a href="#signaler-une-mise-a-jour-de-fichier-distant" id="signaler-une-mise-a-jour-de-fichier-distant"></a>
-
-Dans le cas d’une ressource distante, lorsque le fichier distant est mis à jour, il est important de le signaler afin que la fiche soit mise à jour et que les usagers le sachent.
-
-**🚧 A venir 🚧**
-
 ### Suppression d’une ressource <a href="#suppression-dune-ressource" id="suppression-dune-ressource"></a>
 
 L’API de suppression de ressource permet de supprimer une ressource de la fiche d’un jeu de données. Le fichier associé est aussi supprimé.
