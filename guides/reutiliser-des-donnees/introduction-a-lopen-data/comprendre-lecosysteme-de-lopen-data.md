@@ -25,7 +25,7 @@ Les producteurs ouvrent leurs données :
 
 **L’écosystème de l’open data** se présente ainsi de la façon suivante :
 
-<figure><img src="../../../.gitbook/assets/Group 2286.png" alt=""><figcaption><p>Schéma de l'architecture et de l'écosystème techniques de l'open data</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Group 2286 (2).png" alt=""><figcaption><p>Schéma de l'architecture et de l'écosystème techniques de l'open data</p></figcaption></figure>
 
 {% hint style="info" %}
 **Les principaux socles techniques des plateformes open data**

@@ -6,7 +6,7 @@ metaLinks:
 
 # Les algorithmes publics : enjeux et obligations
 
-Le département [Etalab](https://www.etalab.gouv.fr/) accompagne les administrations dans l'application du nouveau cadre juridique sur les algorithmes publics. Ce guide, ouvert aux contributions, est composé de trois parties qui peuvent se lire de manière indépendante.
+La [Direction Interministérielle du Numérique (DINUM)](https://www.numerique.gouv.fr/numerique-etat/dinum/) accompagne les administrations dans l'application du nouveau cadre juridique sur les algorithmes publics. Ce guide, ouvert aux contributions, est composé de trois parties qui peuvent se lire de manière indépendante.
 
 * La première partie donne des **éléments de contexte**: qu'est-ce qu'un algorithme ? à quoi servent les algorithmes dans le secteur public ?
 * La seconde partie détaille les **enjeux en termes d'éthique et de responsabilité**,
@@ -36,10 +36,14 @@ Nous avons recensé plusieurs types d'**usages des algorithmes** dans les admini
 
 | Usages                                                                   | Exemples                                                                                                                         |
 | ------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------- |
-| Attribuer des droits, calculer des montants selon des règles prédéfinies | Calcul des taxes et des impôts, attribution de prestations sociales, ...                                                         |
+| Attribuer des droits, calculer des montants selon des règles prédéfinies | Calcul des taxes et des impôts, attribution de prestations sociales.                                                             |
 | Réaliser un appariement entre une "offre" et une "demande"               | Gestion de la mobilité des agents (RH), accès à l'enseignement supérieur (Parcoursup), attribution de places en crèches, ...     |
 | Prédire une situation ou un risque en analysant des données              | Prédire un risque de défaillance d'une entreprise (Signaux Faibles), cibler les contrôles de lutte contre la fraude fiscale, ... |
 | Aider à la décision des usagers                                          | Aider les demandeurs d'emploi à cibler leurs candidatures spontanées (La Bonne Boîte), simuler le coût d'une embauche, ...       |
+
+#### Typologie des algorithmes
+
+
 
 #### Décision automatisée ou aide à la décision ?
 
@@ -61,7 +65,7 @@ Tout le monde a entendu parler des algorithmes utilisés par les grandes entrepr
 * l'**algorithme de tarification dynamique** d'Uber qui fait varier les prix des courses en fonction de la demande,
 * ...
 
-Par rapport aux algorithmes mis en oeuvre par le secteur privé, les algorithmes publics ont des caractéristiques particulières :
+Par rapport aux algorithmes mis en oeuvre par le secteur privé, les algorithmes publics ont des caractéristiques et des exigences particulières :
 
 1. Ils sont censés **opérer au service de l'intérêt général**,
 2. Ils servent souvent à **exécuter le droit**, à (faire) appliquer la loi,
@@ -113,8 +117,6 @@ La décision administrative individuelle
 
 L'[article L200-1 du CRPA](https://www.legifrance.gouv.fr/affichCodeArticle.do?idArticle=LEGIARTI000031367495\&cidTexte=LEGITEXT000031366350\&dateTexte=20160101) et [la circulaire du 24 décembre 1997 relative à la mise en oeuvre de la déconcentration des décisions administratives individuelles](https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000000752779\&categorieLien=id) détaillent les caractéristiques des décisions administratives individuelles.
 
-
-
 #### Quelles sont ces obligations en matière de transparence ?
 
 📝Le Code des relations entre le public et l'administration définit 3 obligations :
@@ -135,9 +137,7 @@ Concrètement, si vous remplissez les conditions, alors vous devrez :
 
 On notera que ces obligations s'appliquent à l'ensemble des traitements qui fondent des décisions administratives individuelles, **quel que soit le degré d'intervention humaine**. Elles concernent donc aussi bien les traitements automatisés que les outils d'aide à la décision.
 
-📍Le législateur a introduit en 2018 dans la loi dite "Informatique et libertés" ([article 47](https://www.legifrance.gouv.fr/affichTexteArticle.do;jsessionid=5F59E6EC3C4F7E19F0EC2C9163ABB223.tplgfr28s_1?idArticle=LEGIARTI000037823131\&cidTexte=JORFTEXT000000886460\&categorieLien=id\&dateTexte=) de la loi du 6 janvier 1978) une obligation supplémentaire concernant les traitements automatisés (c'est à dire sans intervention humaine) : à compter du 1er juillet 2020, tout traitement automatisé devra comporter, **à peine de nullité**, l'obligation de mention explicite. Par ailleurs le même article précise que "le responsable du traitement s'assure de la maîtrise du traitement algorithmique et de ses évolutions pour pouvoir expliquer, **en détail et sous une forme intelligible**, à la personne concernée, la manière dont le traitement a été mis en oeuvre à son égard". Cela implique notamment que les traitements de machine learning qui ne peuvent pas être expliqués peuvent être utilisés uniquement comme des outils d'aide à la décision, en gardant un humain dans la boucle.
-
-&#x20;
+📍Le législateur a introduit en 2018 dans la loi dite "Informatique et libertés" ([article 47](https://www.legifrance.gouv.fr/affichTexteArticle.do;jsessionid=5F59E6EC3C4F7E19F0EC2C9163ABB223.tplgfr28s_1?idArticle=LEGIARTI000037823131\&cidTexte=JORFTEXT000000886460\&categorieLien=id\&dateTexte=) de la loi du 6 janvier 1978) une obligation supplémentaire concernant les traitements automatisés (c'est à dire sans intervention humaine) : à compter du 1er juillet 2020, tout traitement automatisé devra comporter, **à peine de nullité**, l'obligation de mention explicite. Par ailleurs le même article précise que "le responsable du traitement s'assure de la maîtrise du traitement algorithmique et de ses évolutions pour pouvoir expliquer, **en détail et sous une forme intelligible**, à la personne concernée, la manière dont le traitement a été mis en oeuvre à son égard". Cela implique notamment que les traitements  basés sur l'aprentissage automatique (_machine learning_) qui ne peuvent pas être expliqués peuvent être utilisés uniquement comme des outils d'aide à la décision, en gardant un humain dans la boucle.
 
 <figure><img src="https://github.com/etalab/guides.etalab.gouv.fr/raw/master/algorithmes/images/Algo-obligations-2.png" alt=""><figcaption></figcaption></figure>
 
