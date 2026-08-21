@@ -1,4 +1,5 @@
 ---
+description: 'Mise à jour : ce contenu a été mis à jour en août 2026.'
 metaLinks:
   alternates:
     - /broken/spaces/nSrS1oz2N9yTlykjBxxZ/pages/8CQWEJMkpTrOE0V8RC4d
@@ -6,12 +7,7 @@ metaLinks:
 
 # Fiche pratique : l'inventaire des principaux traitements algorithmiques
 
-Mise à jour : ce contenu a été mis à jour le 11 février 2021.
-
-Cette fiche pratique a été élaborée dans le cadre d'un [groupe de travail sur les inventaires](https://www.etalab.gouv.fr/faire-linventaire-des-algorithmes-publics-point-detape-sur-les-actions-detalab) animé par Etalab et composé de quatre administrations (centrales et territoriales).&#x20;
-
-\
-Nous remercions chaleureusement Anthony Claverie, Maryse Le Bras, Cécile Le Guen et Nathalie Vernus-Prost pour nos échanges. Ce travail n'aurait pas pu avoir lieu sans leurs avancées, leurs retours et leur motivation.
+Cette fiche pratique a été élaborée dans le cadre d'un [groupe de travail sur les inventaires](https://www.etalab.gouv.fr/faire-linventaire-des-algorithmes-publics-point-detape-sur-les-actions-detalab) animé par Etalab et composé de quatre administrations (centrales et territoriales).
 
 L'obligation pour une administration de réaliser un inventaire des principaux traitements algorithmiques utilisés pour prendre des décisions administratives individuelles et de leurs règles est prévue par [l'article L312-1-2](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000033205516/) du code des relations entre le public et l'administration (CRPA).
 
@@ -29,18 +25,18 @@ Pour les administrations, elle permet d'instaurer une relation de confiance avec
 Si :
 
 * Vous êtes une administration d’État, une collectivité, un organisme de droit public ou de droit privé intervenant dans le cadre d’une mission de service public ([article L.300-2 du CRPA](https://www.legifrance.gouv.fr/affichCodeArticle.do?idArticle=LEGIARTI000033218936\&cidTexte=LEGITEXT000031366350\&dateTexte=20161009)),
-* Vous comptez plus de 50 équivalents temps plein (agents et/ou salariés) et/ou vous êtes une collectivité de plus de 3500 habitants,
-* Vous utilisez un ou plusieurs traitements algorithmiques, c'est-à-dire « un ensemble de règles opératoires dont l'application permet de résoudre un problème énoncé au moyen d'un nombre fini d'opérations »,
-* À l’aide de ce(s) traitement(s), vous prenez des [décisions administratives individuelles](https://www.legifrance.gouv.fr/affichCodeArticle.do?idArticle=LEGIARTI000031367495\&cidTexte=LEGITEXT000031366350\&dateTexte=20160101) envers des personnes physiques ou morales, de droit public ou privé nommément désignées,
-* Ce(s) traitement(s) ne sont pas couverts par l’un des secrets définis par la loi ([2° de l'article L.311-5 du CRPA](https://www.legifrance.gouv.fr/affichCodeArticle.do?idArticle=LEGIARTI000033265181\&cidTexte=LEGITEXT000031366350\&dateTexte=20170701)), et notamment : délibérations du gouvernement, défense nationale, conduite de la politique extérieure, sûreté de l’État, sécurité publique, sécurité des personnes ou des systèmes d’information, recherche et prévention d’infractions, etc.
+* Vous comptez **plus de 50 équivalents temps plein** (agents et/ou salariés) et/ou vous êtes une **collectivité de plus de 3500 habitants**,
+* Vous **utilisez** **un ou plusieurs traitements algorithmiques**, c'est-à-dire « un ensemble de règles opératoires dont l'application permet de résoudre un problème énoncé au moyen d'un nombre fini d'opérations »,
+* À l’aide de ce(s) traitement(s), **vous prenez des** [**décisions administratives individuelles**](https://www.legifrance.gouv.fr/affichCodeArticle.do?idArticle=LEGIARTI000031367495\&cidTexte=LEGITEXT000031366350\&dateTexte=20160101) envers des personnes **physiques ou morales**, de droit public ou privé nommément désignées,
+* Ce(s) traitement(s) **ne sont pas couverts par l’un des secrets définis par la loi** ([2° de l'article L.311-5 du CRPA](https://www.legifrance.gouv.fr/affichCodeArticle.do?idArticle=LEGIARTI000033265181\&cidTexte=LEGITEXT000031366350\&dateTexte=20170701)), et notamment : délibérations du gouvernement, défense nationale, conduite de la politique extérieure, sûreté de l’État, sécurité publique, sécurité des personnes ou des systèmes d’information, recherche et prévention d’infractions, etc.
 
-Alors vous devez remplir les [obligations liées à la transparence des algorithmes](https://guides.etalab.gouv.fr/algorithmes/guide/#quelles-sont-ces-obligations-en-matiere-de-transparence), dont l'obligation de publier en ligne les principaux traitements algorithmiques.
+Alors **vous devez remplir les** [**obligations liées à la transparence des algorithmes**](https://guides.etalab.gouv.fr/algorithmes/guide/#quelles-sont-ces-obligations-en-matiere-de-transparence)**, dont l'obligation de publier en ligne les principaux traitements algorithmiques.**
 
 Rappels et précisions :
 
 * Par **« principaux traitements »**, on entend les traitements qui concernent un grand nombre de personnes et/ou qui entraînent des effets importants pour une catégorie de personnes.
 * La notion de « traitement algorithmique » s'étend au-delà de l'intelligence artificielle ou des algorithmes de _machine learning_. **Un classeur Excel constitue un traitement algorithmique.** De même, un traitement algorithmique peut exister sous la forme d'un document non-informatisé (par exemple une grille de notation d'un projet).
-* Cette obligation s'applique pour les décisions individuelles envers des personnes physiques **et morales**.&#x20;
+* Cette obligation s'applique pour les décisions individuelles envers des personnes physiques **et morales**.
 
 ### En pratique : quelles informations dois-je indiquer dans mon inventaire ?
 
@@ -87,14 +83,14 @@ Certaines de ces informations seront également utiles pour répondre à des dem
 | Données traitées\*                      |                                                                                                                                                                                                                                                               |
 | Source des données traitées\*           | _Qui fournit les données (l'usager, une autre administration, etc.) ? Comment sont elles fournies (un dossier, une API, etc.) ? Exemple : "dossier rempli par le demandeur sur une plateforme en ligne" ou "revenu fiscal de référence fourni par la DGFIP"._ |
 | Mode de collecte des données traitées\* | _Comment les données sont-elles initialement collectées ? Exemple : "Les inscriptions sont très majoritairement prises en charge au sein d'un portail virtuel dédié aux familles, plus exceptionnellement par voie papier"._                                  |
-| Type d'algorithme                       | _Préciser s'il s'agit d'un système de règles (les règles de calcul sont codées par des personnes) ou d'un algorithme reposant sur l'apprentissage machine (machine learning)._                                                                                |
+| Type d'algorithme                       | _Préciser s'il s'agit d'un système de règles (les règles de calcul sont codées par des personnes) ou d'un algorithme stochastique (reposant sur l'apprentissage machine (machine learning)(._                                                                 |
 | Opérations effectuées par l'algorithme  | _Donnez des détails sur les opérations techniques effectuées par l'algorithme. Cette catégorie peut être simple ou complexe, en fonction du type d'algorithme mobilisé._                                                                                      |
 | Ressources connexes                     | _Notamment des liens vers les dépôts de code source ou vers un logigramme._                                                                                                                                                                                   |
 
 Sur les données, leur(s) source(s) et leur(s) mode(s) de collecte
 
-* \*Les catégories "données traitées", "source des données" et "mode de collecte des données" doivent être pensées ensemble. Un même algorithme peut traiter des données de sources différentes. L'information doit alors être recueillie séparément pour les différents types de données.
-* Rappelons que les algorithmes ne sont pas uniquement numériques.
+* Les catégories "données traitées", "source des données" et "mode de collecte des données" doivent être pensées ensemble. Un même algorithme peut traiter des données de sources différentes. L'information doit alors être recueillie séparément pour les différents types de données.
+* **Rappelons que les algorithmes ne sont pas uniquement numériques**.
 
 ### Comment réaliser mon inventaire ?
 
@@ -120,7 +116,9 @@ Parmi eux, on peut nommer (liste non exhaustive) :
 
 Rappelons que, bien que cette liste ne soit pas ordonnée, c'est le métier qui est susceptible de disposer du plus d'informations sur les algorithmes, leur fonctionnement et leur impact. **Ainsi, réaliser un inventaire des algorithmes et publier leurs règles de fonctionnement ne doit pas être relégué à un simple enjeu technique**.
 
-Autres modalités : d'autres questions se posent : où publier cet inventaire ? Sous quelle forme ? Cette section continuera à être enrichie dans les prochains mois pour apporter plus de précisions sur ces sujets.&#x20;
+Autres modalités : d'autres questions se posent : où publier cet inventaire ? Sous quelle forme ?&#x20;
+
+Afin de faciliter la publication, un travail est actuellement en cours sur la création une plateforme de publication des algorithmes publics reposant sur les règles (août 2026). Celle-ci a pour objectif de rendre la publications de ces algorithmes standardisée et accessible. D'autres communications à ce sujet sont à venir dans les prochains mois.&#x20;
 
 ### Ressources : panorama d'inventaires existants
 
@@ -129,3 +127,8 @@ Autres modalités : d'autres questions se posent : où publier cet inventaire ? 
 * La V1 de l'inventaire des algorithmes de [la ville d'Antibes Juan-les-Pins](https://www.antibes-juanlespins.com/administration/acces-aux-documents-administratifs), accessible sur le site de la ville ;
 * La liste des algorithmes de [Nantes-Métropole](https://data.nantesmetropole.fr/pages/algorithmes_nantes_metropole/) ;
 * La liste des algorithmes de [Pôle Emploi](https://www.pole-emploi.fr/candidat/algorithmes.html).
+
+### Remerciements&#x20;
+
+\
+Nous remercions chaleureusement Anthony Claverie, Maryse Le Bras, Cécile Le Guen et Nathalie Vernus-Prost pour nos échanges. Ce travail n'aurait pas pu avoir lieu sans leurs avancées, leurs retours et leur motivation.

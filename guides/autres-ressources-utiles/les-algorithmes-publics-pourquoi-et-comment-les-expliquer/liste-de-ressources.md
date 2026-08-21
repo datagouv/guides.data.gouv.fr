@@ -18,6 +18,14 @@ Nous vous proposons une sélection de ressources (études, articles, outils, év
 
 🇫🇷 "[Rapport sur les enjeux éthiques des algorithmes et de l’intelligence artificielle](https://www.cnil.fr/sites/default/files/atoms/files/cnil_rapport_garder_la_main_web.pdf)", Commission nationale Informatique et Libertés, décembre 2017
 
+🇫🇷  "[De la transparence à l’explicabilité automatisée des algorithmes : comprendre les obstacles informatiques, juridiques et organisationnels](https://inria.hal.science/hal-04391612)", Mérigoux, Alauzen, Banuls, Gesber, Rolley, 2024
+
+🇫🇷 "[Algorithmes, systèmes d'IA et services publics : quels droits pour les usagers ? Points de vigilance et recommandations (2024)](https://www.defenseurdesdroits.fr/algorithmes-intelligence-artificielle-et-services-publics-2024)", Défenseur des droits
+
+🇫🇷 "[Algorithmes : prévenir l'automatisation des discriminations](https://www.defenseurdesdroits.fr/rapport-algorithmes-prevenir-lautomatisation-des-discriminations-283)", Défenseur des droits, 2020
+
+🇫🇷 "[Intelligence artificielle et action publique : construire la confiance, servir la performance](https://www.conseil-etat.fr/publications-colloques/etudes/etudes-a-la-demande-du-gouvernement/intelligence-artificielle-et-action-publique-construire-la-confiance-servir-la-performance)", Conseil d'Etat, 2022
+
 🇺🇸 "[Public scrutiny of automated decisions](http://www.omidyar.com/sites/default/files/file_archive/Public%20Scrutiny%20of%20Automated%20Decisions.pdf)", Upturn & Omidyar Network, 2018
 
 🇪🇺 "[Draft Ethics guidelines for trustworthy AI](https://ec.europa.eu/digital-single-market/en/news/draft-ethics-guidelines-trustworthy-ai)", European Commission’s High-Level Expert Group on Artificial Intelligence, mars 2019
@@ -30,6 +38,8 @@ Nous vous proposons une sélection de ressources (études, articles, outils, év
 
 🇺🇸 "[Algorithmic accountability: a primer](https://datasociety.net/wp-content/uploads/2018/04/Data_Society_Algorithmic_Accountability_Primer_FINAL-4.pdf)", Data & Society, avril 2018
 
+"[Algorithmic Accountability for the public sector](https://www.opengovpartnership.org/documents/algorithmic-accountability-public-sector/)", Ada Lovelace Institute, AI Now Institute and Open Government Partnership, 2021
+
 ### Articles
 
 🇫🇷 "[Admission Post-Bac, cas d'école des algorithmes publics ?](http://www.internetactu.net/2017/07/28/admission-post-bac-cas-decole-des-algorithmes-publics/)", Hubert Guillaud, Internet Actu, 28 juillet 2017
@@ -40,6 +50,8 @@ Nous vous proposons une sélection de ressources (études, articles, outils, év
 
 🇫🇷 "[Quelle transparence pour les algorithmes d’apprentissage machine ?](https://hal.archives-ouvertes.fr/hal-01877760/document) Maël Pégny, Issam Ibnouhsein, 2018
 
+🇫🇷 "[A l'université de Créteil, un master de droit dévile pour la première fois les critères de sélection de son algorithme](https://www.lemonde.fr/campus/article/2026/06/16/selection-en-master-operation-transparence-totale-a-l-universite-de-creteil_6703551_4401467.html?srsltid=AfmBOopYMlVWgnx7jQH631qY2LuQhOULWaq1bOL_hwsNY19SRy4Gt03M)", Le Monde Campus ,Soazig Le Nevé, 2026
+
 🇬🇧 "[10 principles for public sector use of algorithmic decision making](https://www.nesta.org.uk/blog/10-principles-for-public-sector-use-of-algorithmic-decision-making/)", Eddie Copeland, Nesta, février 2018
 
 🇬🇧 "[It's Reducing a Human Being to a Percentage': Perceptions of Justice in Algorithmic Decisions](https://arxiv.org/pdf/1801.10408.pdf), Reuben Binns, Max Van Kleek, Michael Veale, Ulrik Lyngs, Jun Zhao, and Nigel Shadbolt. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems
@@ -48,15 +60,29 @@ Nous vous proposons une sélection de ressources (études, articles, outils, év
 
 🇬🇧 "[Enslaving the Algorithm: From a ‘Right to an Explanation’ to a ‘Right to Better Decisions’?](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3052831), Lilian Edwards, Michael Veale, IEEE Security & Privacy, 2018
 
+&#x20;"[Making Algorithm Registers Work for Meaningful Transparency](https://iaciudadana.org/wp-content/uploads/2025/03/Policy-Brief-ENG.pdf)",  IA Ciudadana, 2025
+
+### Articles scientifiques
+
+&#x20;"[Human-centred explanation of rule-based decision-making systems in the legal domain](https://studenttheses.uu.nl/server/api/core/bitstreams/d5495d97-e334-4d1d-a35c-eeff03f58673/content)", Suzan Zuurmond, 2023
+
+&#x20;"[Understanding the Role of Algorithm Registers in AI Governance Through Comparative Analysis of China and the UK](https://arxiv.org/abs/2606.00035)", Yulu Pi, Wenlong Li, Jatinder Singh, 2026
+
 ### Outils et méthodologies
 
 🇫🇷 "[5 pistes d'innovation du programme NosSystèmes](http://fing.org/?Nos-Systemes-les-pistes-d)", Fing, juin 2017
 
-🇫🇷 "[Guide des algorithmes publics à l'usage des administrations](https://github.com/etalab/guides.etalab.gouv.fr/blob/master/algorithmes/0-guide.md)", Etalab, mars 2019
+🇫🇷 "[Guide des algorithmes publics à l'usage des administrations](https://github.com/etalab/guides.etalab.gouv.fr/blob/master/algorithmes/0-guide.md)", Etalab (DINUM), mars 2019
+
+🇫🇷 "[Guide d'usage de l'IA pour les agents publics de l'Etat"](https://ia.numerique.gouv.fr/ressources/guide-dusage-de-lia/), IA dans l'Etat (DINUM)&#x20;
 
 🇬🇧 "[20 questions for public sector use of algorithmic decision making](https://www.nesta.org.uk/blog/20-questions-public-sector-orgs-algorithms/)", Eddie Copeland, Nesta, juin 2018
 
+🇬🇧 "[Examining the Black Box. Tools for assessing algorithmic systems](https://www.adalovelaceinstitute.org/report/examining-the-black-box-tools-for-assessing-algorithmic-systems/)", Ada Lovelace institute, 2020&#x20;
+
 🇺🇸 "[Ethics & algorithms toolkit](http://ethicstoolkit.ai/)", John Hopkins University, Harvard University, Data for DC, City of San Francisco, 2018-2019
+
+"[UNESCO's Ethical Impact Assessment](https://www.unesco.org/ethics-ai/en/eia)", UNESCO
 
 ### Événements
 
