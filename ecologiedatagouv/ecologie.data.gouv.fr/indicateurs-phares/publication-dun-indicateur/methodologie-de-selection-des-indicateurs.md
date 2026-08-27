@@ -47,7 +47,7 @@ L'**Ecolab** supervise et encadre les échanges pour la construction du hub d'in
 
 Voici un aperçu schématique des étapes clés, avec les référents métiers et les acteurs terrains afin d'aboutir à la première version d'un catalogue thématique :
 
-<figure><picture><source srcset="../../../../.gitbook/assets/Dark mode gitbook EDG.png" media="(prefers-color-scheme: dark)"><img src="../../../../.gitbook/assets/Présentation générale démarche atelier.jpg" alt=""></picture><figcaption></figcaption></figure>
+<figure><picture><source srcset="../../../.gitbook/assets/Dark mode gitbook EDG (10).png" media="(prefers-color-scheme: dark)"><img src="../../../.gitbook/assets/Présentation générale démarche atelier (1).jpg" alt=""></picture><figcaption></figcaption></figure>
 
 Nous déterminons ainsi **8 étapes clés** dans la construction d'un catalogue thématique, de l'identification du ou des référents métiers jusqu'à une première expérimentation par les utilisateurs sur [_ecologie._**data.gouv**._fr_](../../../)_._
 
