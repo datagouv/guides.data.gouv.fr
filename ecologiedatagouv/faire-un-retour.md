@@ -16,6 +16,10 @@ Ces rendez-vous sont également l'occasion de **partager vos retours et vos beso
 
 **Prochains créneaux :**
 
+{% hint style="warning" %}
+Retrouvez nous pour le dernier créneau du vendredi matin, le 4 septembre de 11h à 12h&#x20;
+{% endhint %}
+
 * Jeudi 24 septembre de 14h à 15h
 * Jeudi 8 octobre de 14h à 15h
 * Jeudi 22 octobre de 14h à 15h
