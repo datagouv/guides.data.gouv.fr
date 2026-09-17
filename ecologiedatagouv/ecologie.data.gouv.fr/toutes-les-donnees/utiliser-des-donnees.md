@@ -21,7 +21,7 @@ Le bandeau de description permet d'identifier les informations clés concernant 
 * l'**organisation** source ainsi que la date de **dernière mise à jour** du jeu de donnée ;
 * la **licence** associée au jeu de donnée ;
 * le score de qualité des **métadonnées** qui permet de distinguer les jeux de données de qualité.
-  * <a href="https://guides.data.gouv.fr/guides-open-data/guide-qualite/ameliorer-la-qualite-dun-jeu-de-donnees-en-continu/ameliorer-le-score-de-qualite-des-metadonnees" class="button secondary">En savoir plus sur le score de qualité des métadonnées.</a>
+  * <a href="https://guides.data.gouv.fr/guides/guide-qualite/ameliorer-la-qualite-dun-jeu-de-donnees-en-continu/ameliorer-le-score-de-qualite-des-metadonnees" class="button secondary">En savoir plus sur le score de qualité des métadonnées.</a>
 
 {% hint style="success" %}
 L'amélioration des métadonnées des jeux de données est un processus constant. Nous sollicitons nos contributeurs pour participer à cette amélioration.

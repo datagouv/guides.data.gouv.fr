@@ -104,8 +104,8 @@ Les boutons au sommet de la description du standard permettent de réaliser plus
 
 Pour vous aider dans la construction de votre dépôt, nous vous recommandons de vous référer à :
 
-* [Le guide pour la création de schémas](https://guides.data.gouv.fr/guides-open-data/guide-qualite/maitriser-les-schemas-de-donnees/creer-un-schema-de-donnees)
-* [Le guide pour l'intégration de schémas à schema.data.gouv](https://guides.data.gouv.fr/guides-open-data/guide-qualite/maitriser-les-schemas-de-donnees/integrer-un-schema-de-donnees-a-schema.data.gouv.fr)
+* [Le guide pour la création de schémas](https://guides.data.gouv.fr/guides/guide-qualite/maitriser-les-schemas-de-donnees/creer-un-schema-de-donnees)
+* [Le guide pour l'intégration de schémas à schema.data.gouv](https://guides.data.gouv.fr/guides/guide-qualite/maitriser-les-schemas-de-donnees/integrer-un-schema-de-donnees-a-schema.data.gouv.fr)
 * [la documentation de Github pour le langage markdown utilisé dans les fichiers ".md", comme ce README.md](https://docs.github.com/fr/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 * [La documentation de schema.data.gouv.fr](https://schema.data.gouv.fr/validation.html)
 * [La spécification Table Schema](https://specs.frictionlessdata.io/table-schema/)

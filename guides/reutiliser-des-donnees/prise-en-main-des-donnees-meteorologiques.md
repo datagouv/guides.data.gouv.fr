@@ -14,7 +14,7 @@ metaLinks:
 * de consulter via une API les pages, les jeux de données associés à des pages, les organisations, leurs jeux de données, les réutilisations, etc.
 * de mettre à jour les jeux de données via l'API.
 
-Il existe une référence à ce propos sur [https://doc.data.gouv.fr/api/reference/](https://doc.data.gouv.fr/api/reference/). Un guide est disponible sur https://guides.data.gouv.fr/guide-data.gouv.fr/api.
+Il existe une référence à ce propos sur [https://doc.data.gouv.fr/api/reference/](https://doc.data.gouv.fr/api/reference/). Un guide est disponible sur https://guides.data.gouv.fr/api-de-data.gouv.fr.
 
 **Pour le hackathon** nous vous avons préparé un dépôt github contenant des utilitaires vous permettant de télécharger les données.&#x20;
 

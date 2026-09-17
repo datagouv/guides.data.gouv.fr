@@ -67,7 +67,7 @@ Lors de l'émergence d'un besoin, le secrétariat général vous accompagne pour
 
 ## <mark style="background-color:purple;">Ressources utiles</mark>
 
-* Guide data.gouv sur [la phase d'investigation](https://guides.data.gouv.fr/guides-open-data/guide-qualite/maitriser-les-schemas-de-donnees/creer-un-schema-de-donnees/etape-1-phase-dinvestigation) préalable à la création d'un schéma de données.
+* Guide data.gouv sur [la phase d'investigation](https://guides.data.gouv.fr/guides/guide-qualite/maitriser-les-schemas-de-donnees/creer-un-schema-de-donnees/etape-1-phase-dinvestigation) préalable à la création d'un schéma de données.
 
 ***
 
