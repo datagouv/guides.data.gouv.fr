@@ -6,7 +6,7 @@ metaLinks:
 
 # Fiche pratique : l'obligation de mention explicite
 
-Mise à jour : Ce contenu a été mis à jour en août 2026
+Mise à jour Ce contenu a été mis à jour le 2 octobre 2020.
 
 L'obligation de mention explicite pour les décisions administratives individuelles prises sur le fondement d'un traitement algorithmique est définie à [l'article L311-3-1](https://www.legifrance.gouv.fr/affichCodeArticle.do?cidTexte=LEGITEXT000031366350\&idArticle=LEGIARTI000033205535\&dateTexte=\&categorieLien=cid) du code des relations entre le public et l'administration (CRPA).
 

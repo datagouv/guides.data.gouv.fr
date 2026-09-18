@@ -2,7 +2,7 @@
 
 ### Vos droits
 
-Vous pouvez consulter la liste des données auxquelles vous avez accès sur la page de [gestion de votre compte](https://annuaire-entreprises.data.gouv.fr/compte/accueil).
+Vous pouvez consulter la liste des données auxquelles vous avez accès sur la page de [gestion de votre compte](https://annuaire-entreprises.data.gouv.fr/compte).
 
 ### Vos devoirs
 

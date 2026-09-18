@@ -1,5 +1,4 @@
 ---
-description: 'Dernière mise à jour : Août 2026'
 metaLinks:
   alternates:
     - /broken/spaces/nSrS1oz2N9yTlykjBxxZ/pages/PuVPyoqbMawD04F5NWer
@@ -7,13 +6,13 @@ metaLinks:
 
 # Les algorithmes publics : enjeux et obligations
 
-La [Direction Interministérielle du Numérique (DINUM)](https://www.numerique.gouv.fr/numerique-etat/dinum/) accompagne les administrations dans l'application du nouveau cadre juridique sur les algorithmes publics. Ce guide, ouvert aux contributions, est composé de trois parties qui peuvent se lire de manière indépendante.
+Le département [Etalab](https://www.etalab.gouv.fr/) accompagne les administrations dans l'application du nouveau cadre juridique sur les algorithmes publics. Ce guide, ouvert aux contributions, est composé de trois parties qui peuvent se lire de manière indépendante.
 
 * La première partie donne des **éléments de contexte**: qu'est-ce qu'un algorithme ? à quoi servent les algorithmes dans le secteur public ?
 * La seconde partie détaille les **enjeux en termes d'éthique et de responsabilité**,
 * La troisième partie présente le **cadre juridique applicable** en matière de transparence des algorithmes notamment suite à l'adoption de la loi pour une République numérique.
 
-📎 La DINUM propose par ailleurs d'autres ressources en lien avec ce sujet, notamment un [guide sur l'ouverture des codes sources](https://guides.etalab.gouv.fr/logiciels/).
+📎 Etalab propose par ailleurs d'autres ressources en lien avec ce sujet, notamment un [guide sur l'ouverture des codes sources](https://guides.etalab.gouv.fr/logiciels/).
 
 #### À qui est-il destiné ?
 
@@ -21,58 +20,54 @@ Ce guide est destiné à l'ensemble des administrations et organisations chargé
 
 #### Comment contribuer ?
 
-Ce document est un outil évolutif et ouvert. Vous pouvez contribuer à l'améliorer en proposant une modification [sur GitHub](https://github.com/etalab/guides.etalab.gouv.fr).&#x20;
+Ce document est un outil évolutif et ouvert. Vous pouvez contribuer à l'améliorer en proposant une modification dans la [version éditable](https://github.com/etalab/guides.etalab.gouv.fr) du guide (sur GitHub) ou en contactant directement l'équipe en charge des algorithmes publics (Cindy Kus) : `algorithmes@etalab.gouv.fr`.
 
-### 1- Définition et typologie des algorithmes
+### 1- A quoi servent les algorithmes publics ?
 
 Commençons tout d'abord par une définition : **qu'est-ce qu'un algorithme** ?
 
 > Selon le Larousse, un algorithme est un "_ensemble de règles opératoires dont l'application permet de résoudre un problème énoncé au moyen d'un nombre fini d'opérations. Un algorithme peut être traduit, grâce à un langage de programmation, en un programme exécutable par un ordinateur_".
 
-📍 Retenons que, selon cette définition, un algorithme peut donc exister **indépendamment d'un traitement informatique**. Une grille de notation "papier" utilisée par une administration peut donc être considérée comme un algorithme, du moment que celle-ci est régie par un certain nombre de règles.&#x20;
+📍 Retenons que, selon cette définition, un algorithme peut donc exister **indépendamment d'un traitement informatique**. Une grille de notation "papier" utilisée par une administration peut donc être considérée comme un algorithme.
 
 La CNIL définit un algorithme comme _"une suite finie et non ambigüe d’instructions permettant d’aboutir à un résultat à partir de données fournies en entrée."_ (rapport ["Comment permettre à l'Homme de garder la main ? Les enjeux éthiques des algorithmes et de l'intelligence artificielle", décembre 2017](https://www.cnil.fr/sites/default/files/atoms/files/cnil_rapport_garder_la_main_web.pdf)
 
 Nous avons recensé plusieurs types d'**usages des algorithmes** dans les administrations, avec une série d'exemples associés.
 
-| Usages                                                                   | Exemples                                                                                                                                                                                                                  |
-| ------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Attribuer des droits, calculer des montants selon des règles prédéfinies | Calcul des taxes et des impôts, attribution de prestations sociales.                                                                                                                                                      |
-| Réaliser un appariement entre une "offre" et une "demande"               | Gestion de la mobilité des agents (RH), accès à l'enseignement supérieur (Parcoursup), attribution de places en crèches, ou au lycée (Affelnet), algorithme d'ordre d'attribution de greffons cardiaques (Score Coeur)... |
-| Prédire une situation ou un risque en analysant des données              | Prédire un risque de défaillance d'une entreprise (Signaux Faibles), cibler les contrôles de lutte contre la fraude fiscale, ...                                                                                          |
-| Aider à la décision des usagers                                          | Aider les demandeurs d'emploi à cibler leurs candidatures spontanées (La Bonne Boîte), simuler le coût d'une embauche, ...                                                                                                |
-| Génération de contenus textuels                                          | Ecriture, synthèse de plusieurs documents grâce aux modèles de langage (L'Assistant)                                                                                                                                      |
-
-Ces algorithmes peuvent être **déterministes** et basés sur les règles explicites(c'est à dire, étant donné une entrée, produira toujours la même sortie à travers toujours une même suite d'opérations), ou bien **stochastiques** (intégrant une part de hasard et d'aléatoire dans son fonctionnement). Il existe également des systèmes algorithmiques qui intégrent à la fois un fonctionnement déterministe et stochastique dans ses différentes parties.&#x20;
+| Usages                                                                   | Exemples                                                                                                                         |
+| ------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------- |
+| Attribuer des droits, calculer des montants selon des règles prédéfinies | Calcul des taxes et des impôts, attribution de prestations sociales, ...                                                         |
+| Réaliser un appariement entre une "offre" et une "demande"               | Gestion de la mobilité des agents (RH), accès à l'enseignement supérieur (Parcoursup), attribution de places en crèches, ...     |
+| Prédire une situation ou un risque en analysant des données              | Prédire un risque de défaillance d'une entreprise (Signaux Faibles), cibler les contrôles de lutte contre la fraude fiscale, ... |
+| Aider à la décision des usagers                                          | Aider les demandeurs d'emploi à cibler leurs candidatures spontanées (La Bonne Boîte), simuler le coût d'une embauche, ...       |
 
 #### Décision automatisée ou aide à la décision ?
 
 Certains algorithmes peuvent être utilisés pour prendre des décisions. On les distingue selon le **degré d'intervention humaine** dans cette prise de décision :
 
 * Certains fonctionnent sans intervention humaine (par exemple le calcul de l'impôt des 37 millions de foyers fiscaux). On parle alors de **traitement automatisé** ou de **décision automatisée**.
-* D'autres sont des outils d'**aide à la décision**: ils aident l'humain à prendre une décision, par exemple en classant des dossiers selon des critères de priorité pour qu'ils soient ensuite étudiés par une commission qui prendra formellement la décision, ou en émettant un score sur le base de traitements statistiques pour choisir un ordre de priorité dans un contrôle fiscal.&#x20;
+* D'autres sont des outils d'**aide à la décision**: ils aident l'humain à prendre une décision, par exemple en classant des dossiers selon des critères de priorité pour qu'ils soient ensuite étudiés par une commission qui prendra formellement la décision.
 
 Nous reviendrons sur cette distinction dans la troisième partie de ce guide consacrée au cadre juridique applicable.
 
 ### 2 - Les enjeux des algorithmes publics
 
-#### Quelles différences entre les algorithmes du secteur public et ceux du secteur privé ?
+#### Algorithmes du secteur public vs. algorithmes du secteur privé
 
-Vous avez sans douté déjà entendu parler des algorithmes utilisés par les grandes entreprises du numérique. Citons quelques exemples :
+Tout le monde a entendu parler des algorithmes utilisés par les grandes entreprises du numérique. Citons quelques exemples :
 
 * le **PageRank** du moteur de recherche Google qui détermine les pages de résultats pour une requête,
-* L'algorithme de **yield-management** qui permet à la SNCF d'ajuster les prix en fonction de la demande,
 * le **Newsfeed** qui détermine le contenu d'un fil d'actualités Facebook,
 * l'**algorithme de tarification dynamique** d'Uber qui fait varier les prix des courses en fonction de la demande,
-* Les différents **chatbots ou modèles de langage,** comme celui de Mistral AI ou OpenAI (ChatGPT)
+* ...
 
-Par rapport aux algorithmes mis en oeuvre par le secteur privé, les algorithmes publics ont des caractéristiques et des exigences particulières :
+Par rapport aux algorithmes mis en oeuvre par le secteur privé, les algorithmes publics ont des caractéristiques particulières :
 
 1. Ils sont censés **opérer au service de l'intérêt général**,
 2. Ils servent souvent à **exécuter le droit**, à (faire) appliquer la loi,
-3. Ils sont souvent **incontournables**, c'est à dire qu'il n'existe pas d'alternatives pour les usagers.&#x20;
+3. Ils sont bien souvent **incontournables**, c'est à dire qu'il n'existe pas d'alternatives pour les usagers.
 
-En ce sens, les algorithmes publics sont des formes de l'action publique et sont à ce titre soumis à la même forme d'exigence en termes de non-discrimination et **de redevabilité**. Les administrations qui conçoivent et utilisent des algorithmes publics doivent donc "rendre des comptes" de leur utilisation de manière intelligible auprès des individus concernés, mais aussi de la société dans son ensemble. Ces exigences permettent notamment de garder un lien de confiance entre les services publics et les usagers.&#x20;
+📍En ce sens, les algorithmes publics sont des formes de l'action publique et sont à ce titre soumis à la même forme d'exigence de redevabilité. Les administrations qui conçoivent et utilisent des algorithmes publics doivent donc "rendre des comptes" de leur utilisation auprès des individus concernés, mais aussi de la société dans son ensemble.
 
 #### Comment les administrations peuvent-elles "rendre des comptes" sur l'usage des algorithmes publics ?
 
@@ -87,27 +82,6 @@ Ce ne sont pas tant les algorithmes eux-mêmes que les administrations qui les m
 
 Il faut noter que plusieurs manières de rendre des comptes (se signaler, décrire, justifier, expliquer, ...) correspondent à des **obligations légales** introduites par la loi pour une République numérique ou plus récemment le Règlement général sur la protection des données (RGPD). La troisième partie de ce document présente le cadre juridique applicable.
 
-Au-delà des obligations légales auprès des usagers, rendre un algorithme compréhensible et explicable peut avoir **des bénéfices pour les agents d'une administration** et les experts métiers. D'une part, pour les algorithmes basés sur des règles, cela permettrait de faciliter l'intégration des évolutions législatives ainsi qu'identifier les éventuels problèmes ou les erreurs dans le code. D'autre part, cela pourrait aider à contrôler et à analyser les biais présents dans les algorithmes statistiques, intervenant dans la prise de décisions avec un fort impact sur les usagers.&#x20;
-
-> Vous pouvez trouver plus d'informations à ce sujet dans le document "[Liste de ressources](https://guides.data.gouv.fr/guides/autres-ressources-utiles/les-algorithmes-publics-pourquoi-et-comment-les-expliquer/liste-de-ressources)".
-
-#### La notion d'explicabilité dans les algorithmes&#x20;
-
-Parmi les obligations d'une administration figure le devoir de rendre le traitement algorithmique **intelligible** (et donc expliquer) à l'usager dans le cadre des décisions administratives individuelles (voir la section sur les traitements automatisés dans la partie sur le cadre juridique ci-dessous). Cette obligation concerne aussi bien les algorithmes déterministes que les algorithmes fonctionnant à l'aide d'un traitement statistique (stochastiques).
-
-⚠️ Si les premiers peuvent sembler plus simples à rendre intelligibles étant donné qu'ils fonctionnent à l'aide des règles explicites, en réalité il s'agit souvent des calculs complexes et des enchevêtrements de règles difficiles à démêler ([Mérigoux et al., 2024](https://inria.hal.science/hal-04391612)).&#x20;
-
-⚠️ D'autre part, les algorithmes stochastiques, et notamment dans l'Intelligence Artificielle (IA) ne contiennent pas forcément de règles explicites. [La CNIL](https://www.cnil.fr/fr/definition/explicabilite-ia) définit l'explicabilité dans l'IA comme "_la capacité de mettre en relation et de rendre compréhensible les éléments pris en compte par le système d’IA pour la production d’un résultat._" Etant donné la nature statistique de tels algorithmes, comprendre la raison pour laquelle on obtient une telle ou autre sortie peut s'avérer complexe, même pour les personnes impliquées dans son développement.&#x20;
-
-#### Les IA génératives&#x20;
-
-Concernant les modèles &#x64;**'**[**IA générative**](https://www.cnil.fr/fr/comment-deployer-une-ia-generative-la-cnil-apporte-de-premieres-precisions) et leur usage dans l'administration, nous vous conseillons fortement de lire le [guide d'usage d'IA](https://ia.numerique.gouv.fr/ressources/guide-dusage-de-lia/) pour les agents publics de l'Etat. Il est notamment important de retenir que même si ces algorithmes peuvent vous assister, vous restez responsable des décisions.&#x20;
-
-En termes de bonnes pratiques, lorsque vous avez recours à cette technologie :&#x20;
-
-1. Vérifiez rigoureusement les sources et les sorties de l'algorithme (citations, liens, articles de lois...)&#x20;
-2. Informez les destinataires de l'usage de l'IA générative. Vous pouvez préciser le cadre dans lequel vous l'avez utilisé et le nom du modèle notamment.&#x20;
-
 ### 3 - Le cadre juridique applicable
 
 La loi pour une République numérique, et plus récemment le Règlement sur la protection des données à caractère personnel (RGPD) ont introduit de nouvelles dispositions concernant les algorithmes publics. Ces dispositions visent à introduire une **plus grande transparence et** une plus grande **redevabilité** de l'administration dans l'usage de ces systèmes, en particulier quand ils sont utilisés pour prendre des décisions.
@@ -115,7 +89,7 @@ La loi pour une République numérique, et plus récemment le Règlement sur la 
 On distingue :
 
 * **Les obligations liées au traitement de données personnelles** : [l'article 119 de la loi Informatique et Libertés](https://www.legifrance.gouv.fr/affichTexteArticle.do?idArticle=LEGIARTI000037817721\&cidTexte=JORFTEXT000000886460\&dateTexte=20190601), qui s'applique tant au secteur public que privé, précise que "toute personne physique justifiant de son identité a le droit d'interroger le responsable d'un traitement à caractère personnel en vue d'obtenir (...) 5° les informations permettant de connaître et de contester la logique qui sous-tend le traitement automatisé en cas de décision prise sur le fondement de celui-ci et produisant des effets juridiques à l'égard de l'intéressé".
-* **Les obligations liées à l'ouverture des codes sources** (voir le [guide de la DINUM sur l'ouverture des codes sources de logiciels](https://guides.data.gouv.fr/guides/autres-ressources-utiles/codes-sources-du-secteur-public-lesquels-ouvrir-pourquoi-et-comment)) ;
+* **Les obligations liées à l'ouverture des codes sources** (voir le [guide d'Etalab sur l'ouverture des codes sources de logiciels](https://guides.etalab.gouv.fr/algorithmes/)) ;
 * **Les obligations spécifiques de transparence des algorithmes** prévues par le code des relations entre le public et l'administration (CRPA), qui sont détaillées dans la section suivante.
 
 En résumé : même si un algorithme n'est pas concerné par les obligation de transparence du CRPA, il peut être soumis aux autres obligations précitées.
@@ -133,9 +107,9 @@ Le code des relations entre le public et l'administration (CRPA) précise le pé
 
 **Alors** vous devez remplir les nouvelles obligations liées à la **transparence des algorithmes**.
 
-#### La décision administrative individuelle
+La décision administrative individuelle
 
-📍On notera que les décisions administratives "individuelles" ne concernent pas uniquement des personnes physiques mais aussi **les personnes morales** pour la définition de décision administrative individuelle. C'est à dire qu'une décision prise par une administration envers une association, une entreprise ou un autre acteur public à l'aide d'un traitement algorithmique sera aussi concernée par ces obligations.
+📍On notera que les décisions administratives "individuelles" ne concernent pas uniquement des personnes physiques mais aussi **les personnes morales** pour la définition de décision administrative individuelle). C'est à dire qu'une décision prise par une administration envers une association, une entreprise ou un autre acteur public à l'aide d'un traitement algorithmique sera aussi concernée par ces obligations.
 
 L'[article L200-1 du CRPA](https://www.legifrance.gouv.fr/affichCodeArticle.do?idArticle=LEGIARTI000031367495\&cidTexte=LEGITEXT000031366350\&dateTexte=20160101) et [la circulaire du 24 décembre 1997 relative à la mise en oeuvre de la déconcentration des décisions administratives individuelles](https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000000752779\&categorieLien=id) détaillent les caractéristiques des décisions administratives individuelles.
 
@@ -159,7 +133,7 @@ Concrètement, si vous remplissez les conditions, alors vous devrez :
 
 On notera que ces obligations s'appliquent à l'ensemble des traitements qui fondent des décisions administratives individuelles, **quel que soit le degré d'intervention humaine**. Elles concernent donc aussi bien les traitements automatisés que les outils d'aide à la décision.
 
-📍Le législateur a introduit en 2018 dans la loi dite "Informatique et libertés" ([article 47](https://www.legifrance.gouv.fr/affichTexteArticle.do;jsessionid=5F59E6EC3C4F7E19F0EC2C9163ABB223.tplgfr28s_1?idArticle=LEGIARTI000037823131\&cidTexte=JORFTEXT000000886460\&categorieLien=id\&dateTexte=) de la loi du 6 janvier 1978) une obligation supplémentaire concernant les traitements automatisés (c'est à dire sans intervention humaine) : à compter du 1er juillet 2020, tout traitement automatisé devra comporter, **à peine de nullité**, l'obligation de mention explicite. Par ailleurs le même article précise que "le responsable du traitement s'assure de la maîtrise du traitement algorithmique et de ses évolutions pour pouvoir expliquer, **en détail et sous une forme intelligible**, à la personne concernée, la manière dont le traitement a été mis en oeuvre à son égard". Cela implique notamment que les traitements  basés sur l'aprentissage automatique (_machine learning_) qui ne peuvent pas être expliqués peuvent être utilisés uniquement comme des outils d'aide à la décision, en gardant un humain dans la boucle.
+📍Le législateur a introduit en 2018 dans la loi dite "Informatique et libertés" ([article 47](https://www.legifrance.gouv.fr/affichTexteArticle.do;jsessionid=5F59E6EC3C4F7E19F0EC2C9163ABB223.tplgfr28s_1?idArticle=LEGIARTI000037823131\&cidTexte=JORFTEXT000000886460\&categorieLien=id\&dateTexte=) de la loi du 6 janvier 1978) une obligation supplémentaire concernant les traitements automatisés (c'est à dire sans intervention humaine) : à compter du 1er juillet 2020, tout traitement automatisé devra comporter, **à peine de nullité**, l'obligation de mention explicite. Par ailleurs le même article précise que "le responsable du traitement s'assure de la maîtrise du traitement algorithmique et de ses évolutions pour pouvoir expliquer, **en détail et sous une forme intelligible**, à la personne concernée, la manière dont le traitement a été mis en oeuvre à son égard". Cela implique notamment que les traitements de machine learning qui ne peuvent pas être expliqués peuvent être utilisés uniquement comme des outils d'aide à la décision, en gardant un humain dans la boucle.
 
 <figure><img src="https://github.com/etalab/guides.etalab.gouv.fr/raw/master/algorithmes/images/Algo-obligations-2.png" alt=""><figcaption></figcaption></figure>
 

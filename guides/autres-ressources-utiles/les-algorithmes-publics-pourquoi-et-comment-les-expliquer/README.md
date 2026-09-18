@@ -1,5 +1,4 @@
 ---
-icon: chart-diagram
 metaLinks:
   alternates:
     - /broken/spaces/nSrS1oz2N9yTlykjBxxZ/pages/rVRXoxJkWJ34ivxqPKo1
