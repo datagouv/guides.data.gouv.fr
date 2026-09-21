@@ -26,7 +26,7 @@ La création d’un moissonneur sur data.gouv.fr nécessite la création d’un 
 Pour créer un nouveau moissonneur :
 
 1. [Connectez-vous à votre compte](https://www.data.gouv.fr/fr/login) ;
-2. Rendez-vous sur [votre tableau de bord](https://www.data.gouv.fr/fr/admin/), en cliquant sur **Administration** en haut à droite de votre écran ;
+2. Rendez-vous sur [votre tableau de bord](https://www.data.gouv.fr/admin), en cliquant sur **Administration** en haut à droite de votre écran ;
 3. Cliquez sur l’icône en forme de plus (`+`) qui se trouve à gauche de votre avatar ;
 4. Cliquez sur **Un moissonneur**.
 

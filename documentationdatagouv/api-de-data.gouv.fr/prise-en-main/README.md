@@ -40,7 +40,7 @@ Dans la suite de cette documentation, il y sera fait référence par `$API`.
 
 ## Authentification <a href="#authentification" id="authentification"></a>
 
-De façon à pouvoir exécuter des opérations d’écriture, vous devez commencer par obtenir une [clé d’API](https://www.data.gouv.fr/fr/admin/me/#apikey) dans les paramètres de votre profil.
+De façon à pouvoir exécuter des opérations d’écriture, vous devez commencer par obtenir une [clé d’API](https://www.data.gouv.fr/admin/me/profile) dans les paramètres de votre profil.
 
 Cette clé doit être fournie dans l’entête HTTP `X-API-KEY` à chaque appel en écriture (`POST`,`PUT`, `PATCH` et `DELETE`).
 

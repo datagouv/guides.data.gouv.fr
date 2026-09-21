@@ -4,7 +4,7 @@
 
 #### Documentation de l’API [data.gouv.fr](http://data.gouv.fr)
 
-* [https://guides.data.gouv.fr/guide-data.gouv.fr/readme-1](https://guides.data.gouv.fr/guide-data.gouv.fr/readme-1)
+* [https://guides.data.gouv.fr/api-de-data.gouv.fr](https://guides.data.gouv.fr/api-de-data.gouv.fr)
 * [https://www.data.gouv.fr/api/2/](https://www.data.gouv.fr/api/2/)
 
 #### URLs d’accès à l’API

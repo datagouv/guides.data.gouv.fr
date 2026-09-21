@@ -156,5 +156,5 @@ Seules les **réutilisations publiées par l’organisation** apparaissent ici, 
 
 {% hint style="info" %}
 Pour en savoir plus sur le suivi des usages de vos données, consultez la page dédiée :\
-[Connaître et suivre les usages de ses données](https://guides.data.gouv.fr/guide-data.gouv.fr/connaitre-et-suivre-les-usages/)
+[Connaître et suivre les usages de ses données](https://guides.data.gouv.fr/guides/guide-qualite/ameliorer-la-qualite-dun-jeu-de-donnees-en-continu/connaitre-et-suivre-les-usages-dun-jeu-de-donnees)
 {% endhint %}

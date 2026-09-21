@@ -113,7 +113,7 @@ L'objectif de cet onglet est de permettre à l'utilisateur de comprendre l'origi
 Si vous utilisez un indicateur dans le cadre de l'un de vos projets, il vous est possible de documenter votre réutilisation sur data.gouv et d'y associer l'indicateur pour contextualiser la façon dont cet indicateur vous est utile.
 
 {% hint style="info" %}
-Pour plus d'informations sur les réutilisations et sur comment les publier, consultez la [documentation de data.gouv](https://guides.data.gouv.fr/guide-data.gouv.fr/reutilisations).
+Pour plus d'informations sur les réutilisations et sur comment les publier, consultez la [documentation de data.gouv](https://guides.data.gouv.fr/reutilisations).
 {% endhint %}
 
 #### L'onglet "Discussions"

@@ -49,13 +49,13 @@ Créez un compte sur [data.gouv.fr](https://www.data.gouv.fr/fr/register).
 {% step %}
 #### Valider le compte et créer une organisation
 
-Après validation du compte par e-mail, créez une organisation correspondant à votre profil d’acheteur depuis [l’espace d’administration](https://www.data.gouv.fr/fr/admin/organization/new/).
+Après validation du compte par e-mail, créez une organisation correspondant à votre profil d’acheteur depuis [l’espace d’administration](https://www.data.gouv.fr/admin/organizations/new).
 {% endstep %}
 
 {% step %}
 #### Créer un jeu de données
 
-Créez un jeu de données depuis [l’espace de publication](https://www.data.gouv.fr/fr/admin/dataset/new/).
+Créez un jeu de données depuis [l’espace de publication](https://www.data.gouv.fr/admin/datasets/new).
 
 À l’étape **Choisissez qui publie**, sélectionnez l’organisation créée à l’étape précédente.
 {% endstep %}

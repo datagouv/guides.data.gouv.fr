@@ -12,7 +12,7 @@ metaLinks:
 **Vous devrez soumettre votre projet le mercredi 3 décembre, avant 17h00.**
 {% endhint %}
 
-**Pour soumettre votre projet, il suffit de le publier comme réutilisation sur** [**data.gouv.fr**](http://data.gouv.fr)**.** La marche à suivre est détaillée [ici](https://guides.data.gouv.fr/guide-data.gouv.fr/reutilisations/publier-une-reutilisation).
+**Pour soumettre votre projet, il suffit de le publier comme réutilisation sur** [**data.gouv.fr**](http://data.gouv.fr)**.** La marche à suivre est détaillée [ici](https://guides.data.gouv.fr/reutilisations/publier-une-reutilisation).
 
 <figure><img src="../../../../.gitbook/assets/reuse.gif" alt=""><figcaption></figcaption></figure>
 

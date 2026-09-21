@@ -218,7 +218,7 @@ Nous vous invitons à rejoindre le GT si vous travaillez dans le domaine de … 
 Pour annoncer le lancement des travaux auprès des utilisateurs de schema.data.gouv, plusieurs actions sont recommandées :
 
 * annoncer le lancement des travaux sur [forum.data.gouv](https://forum.data.gouv.fr/),
-* pré-référencer le standard, **même avant sa rédaction**, sur le site en suivant la démarche décrite sur [cette page](https://guides.data.gouv.fr/guides-open-data/guide-qualite/maitriser-les-schemas-de-donnees/integrer-un-schema-de-donnees-a-schema.data.gouv.fr). Cela se fait généralement par [la création d'une issue sur Github](https://github.com/datagouv/schema.data.gouv.fr/issues), ou en contactant l'équipe par mail à schema@data.gouv.fr (voir [le guide dédié](https://guides.data.gouv.fr/guides-open-data/guide-qualite/maitriser-les-schemas-de-donnees/creer-un-schema-de-donnees)).
+* pré-référencer le standard, **même avant sa rédaction**, sur le site en suivant la démarche décrite sur [cette page](https://guides.data.gouv.fr/guides/guide-qualite/maitriser-les-schemas-de-donnees/integrer-un-schema-de-donnees-a-schema.data.gouv.fr). Cela se fait généralement par [la création d'une issue sur Github](https://github.com/datagouv/schema.data.gouv.fr/issues), ou en contactant l'équipe par mail à schema@data.gouv.fr (voir [le guide dédié](https://guides.data.gouv.fr/guides/guide-qualite/maitriser-les-schemas-de-donnees/creer-un-schema-de-donnees)).
 
 </details>
 

@@ -78,7 +78,7 @@ Dans le contexte de collections volumineuses telles que celles sur les documents
 
 L’équipe [_ecologie_.**data.gouv**._fr_](http://ecologie.data.gouv.fr) est à l’écoute de tout retour sur cette nouvelle fonctionnalité disponible en version beta.
 
-\[[En savoir sur cette fonctionnalité](https://guides.data.gouv.fr/guides-de-data.gouv.fr/ecologie.data.gouv.fr/ecologie.data.gouv.fr/bouquets/ouvrir-dans-qgis)]
+\[[En savoir sur cette fonctionnalité](https://guides.data.gouv.fr/ecologie.data.gouv.fr/ecologie.data.gouv.fr/collections-thematiques/ouvrir-une-collection-dans-qgis)]
 
 <figure><img src="../../.gitbook/assets/Design sans titre (3).png" alt=""><figcaption><p>Exemple d'utilisation de la nouvelle fonctionnalité d'ouverture dans QGIS</p></figcaption></figure>
 

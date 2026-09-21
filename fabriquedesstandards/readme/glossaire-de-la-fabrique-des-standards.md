@@ -1,6 +1,6 @@
 # Glossaire de la Fabrique des standards
 
-Ce glossaire précise les termes spécifiques à la Fabrique des standards. Il complète les [définitions du le site du CNIG](https://cnig.gouv.fr/categorisations-a15646.html), ainsi que celles liées à l'univers de l'open data du [lexique de l'open data](https://guides.data.gouv.fr/autres-ressources-utiles/lexique-de-lopen-data) de la DINUM.
+Ce glossaire précise les termes spécifiques à la Fabrique des standards. Il complète les [définitions du le site du CNIG](https://cnig.gouv.fr/categorisations-a15646.html), ainsi que celles liées à l'univers de l'open data du [lexique de l'open data](https://guides.data.gouv.fr/guides/autres-ressources-utiles/lexique-de-lopen-data) de la DINUM.
 
 ## Animateur, animatrice
 

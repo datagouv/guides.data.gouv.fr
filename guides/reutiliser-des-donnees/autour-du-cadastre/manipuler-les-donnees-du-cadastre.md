@@ -33,7 +33,7 @@ Il existe aujourd'hui **trois versions** des données du plan cadastral :
     Elle consiste en un assemblage de données, qui s'appuie sur les données Edigeo (Plan Cadastral Informatisé issu de la DGFiP, ci-dessus) et les données de Strasbourg (hors PCI). Elle peut présenter quelques erreurs, en particulier du fait de l'interprétation des géométries issues du format Edigeo. Les formats proposés sont du _GeoJSON_ et du _SHP_. Cette version étant dépendante de la version précédente mais nécessitant plus de traitement, elle requiert plusieurs semaines pour sa mise à disposition, à partir de la réception des données transmises par la DGFiP. Il s'agit d'un produit de la Direction interministérielle du numérique (DINUM). Plus d'informations sont disponibles sur [cette page](https://cadastre.data.gouv.fr/datasets/cadastre-etalab) ;
 *   **la version de l'Institut national de l'information géographique et forestière (IGN)** : proposée via le produit PCI Express.
 
-    La mise à jour est effectuée après la mise à disposition des données Edigeo sur [cadastre.data.gouv.fr](https://github.com/etalab/guides.data.gouv.fr/blob/main/reutiliser-des-donnees/autour-du-cadastre/cadastre.data.gouv.fr).
+    La mise à jour est effectuée après la mise à disposition des données Edigeo sur [cadastre.data.gouv.fr](https://cadastre.data.gouv.fr/).
 {% endhint %}
 
 Pour télécharger les données, vous pouvez vous rendre sur :
