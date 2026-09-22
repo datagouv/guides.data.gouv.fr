@@ -1,28 +1,29 @@
-# Faire un retour
+# Question ou retour ?
 
 {% stepper %}
 {% step %}
 ### Vous avez une question ?
 
-<figure><img src="../.gitbook/assets/guichet.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/guichet (1).png" alt=""><figcaption></figcaption></figure>
 
 Vous avez une question sur le fonctionnement de la plateforme ou sur l'utilisation des données et des indicateurs territoriaux ?
 
 En complément de **webinaires thématiques**, l'équipe de l'Ecolab propose un guichet d'échange ouvert à toutes et à tous. Ce rendez-vous est l'occasion de **poser vos questions en direct** sur la plateforme, ses fonctionnalités et les données disponibles.
 
-Le guichet est ouvert **un vendredi sur deux, de 11h à 12h, sans inscription** ni programme prédéfini. Vous pouvez **vous connecter librement pendant le créneau et échanger avec l'équipe**.
+Le guichet est ouvert **un jeudi sur deux, de 14h à 15h, sans inscription** ni programme prédéfini. Vous pouvez **vous connecter librement pendant le créneau et échanger avec l'équipe**.
 
 Ces rendez-vous sont également l'occasion de **partager vos retours et vos besoins** afin de contribuer à l'amélioration de la plateforme.
 
 **Prochains créneaux :**
 
-* 10 juillet, de 11h à 12h
-* 24 juillet, de 11h à 12h
-* 7 août, de 11h à 12h
-* 21 août, de 11h à 12h
+* Jeudi 24 septembre de 14h à 15h
+* Jeudi 8 octobre de 14h à 15h
+* Jeudi 22 octobre de 14h à 15h
+* Jeudi 5 novembre de 14h à 15h
+* Jeudi 12 novembre de 14h à 15h
 
 {% hint style="info" %}
-D'autres créneaux seront proposés à partir de septembre.
+D'autres créneaux seront proposés à partir de novembre.
 {% endhint %}
 
 Lien permanent :

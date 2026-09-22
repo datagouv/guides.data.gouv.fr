@@ -10,8 +10,8 @@ En complément de leur mise à disposition, [_ecologie._**data.gouv**_.fr_](http
 
 Pour obtenir un aperçu des données au format cartographique, il suffit de cliquer dans le rectangle correspondant à la donnée (qui entre en surbrillance lorsqu'on le survole). Il se déroule et affiche la carte.
 
-Le bouton <img src="../../../.gitbook/assets/Dark mode gitbook EDG(6).png" alt="" data-size="line"> permet d'ouvrir l'import de couches associés au service WMS.
+Le bouton <img src="../../.gitbook/assets/Dark mode gitbook EDG(6) (1).png" alt="" data-size="line"> permet d'ouvrir l'import de couches associés au service WMS.
 
-Le bouton <img src="../../../.gitbook/assets/Dark mode gitbook EDG(5).png" alt="" data-size="line"> vous permet de choisir parmi les couches sélectionnées celles que vous souhaitez afficher ou masquer.
+Le bouton <img src="../../.gitbook/assets/Dark mode gitbook EDG(5) (1).png" alt="" data-size="line"> vous permet de choisir parmi les couches sélectionnées celles que vous souhaitez afficher ou masquer.
 
-<figure><img src="../../../.gitbook/assets/image (17) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (17) (1).png" alt=""><figcaption></figcaption></figure>
