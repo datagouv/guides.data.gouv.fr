@@ -4,6 +4,20 @@ description: Retrouvez nos actualités des derniers mois
 
 # Actualités
 
+#### **\[9 novembre 2026] - Webinaire :** **Comment bénéficier d'**_ecologie_**.data.gouv.**_fr_ **pour la gouvernance territoriale des politiques publiques de transition écologique**
+
+Nous sommes ravis de vous compter parmi les participants du webinaire "ecologie.data.gouv.fr et gouvernance territoriale des politiques publiques de transition écologique" de 14h00 à 15h00.
+
+[Lien de connexion](https://webinaire.numerique.gouv.fr/meeting/signin/invite/88120/hash/034df8535b76e5ff75b67c8008422e5491e3e6c5) à enregistrer.
+
+Une invitation dans le calendrier vous sera envoyée prochainement par email.
+
+Au programme :
+
+* Intervention de data.gouv.fr ;
+* Témoignage du Tableau de bord des mobilités durables en tant qu'utilisateur ;
+* Échanges et questions-réponses.
+
 #### **\[11 juin 2026] - Recherche unifiée**
 
 <figure><img src="../.gitbook/assets/NL4_recherche_unifiee_bordure (1).png" alt=""><figcaption></figcaption></figure>
