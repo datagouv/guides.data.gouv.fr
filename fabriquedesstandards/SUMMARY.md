@@ -14,5 +14,6 @@
   * [Validation du standard](readme/validation-du-standard/README.md)
     * [Réaliser un appel à commentaires](readme/validation-du-standard/realiser-un-appel-a-commentaires.md)
   * [Déploiement du standard](readme/deploiement-du-standard.md)
+  * [Modèles de document](readme/modeles-de-document.md)
   * [Outils](readme/outils.md)
   * [Glossaire de la Fabrique des standards](readme/glossaire-de-la-fabrique-des-standards.md)

@@ -1,5 +1,5 @@
 ---
-cover: ../../../.gitbook/assets/Bandereau87.png
+cover: ../../.gitbook/assets/Bandereau87 (1).png
 coverY: 0
 ---
 
@@ -35,6 +35,11 @@ Identifier un acteur volontaire pour tester concrètement le standard. Il est co
 #### <mark style="color:purple;">APPEL A COMMENTAIRES</mark>
 
 L’appel à commentaires est une consultation publique. Il s'agit d'une étape indispensable avant la validation du standard par la commission des standards. L'appel à commentaires CNIG ne peut se dérouler qu’à la fin de la phase de rédaction du standard et des autres livrables éventuels (schéma, Github, annexes, documentation, etc.). L’appel à commentaires doit viser un public large, en s’assurant que les principaux intéressés en sont informés (parfois avant même le lancement pour s’assurer que cela sera pris en compte dans leur calendrier). Le traitement des commentaires peut représenter une charge importante pour les animateurs qu’il est préférable d’anticiper.
+
+L'appel à commentaires est aussi le bon moment pour solliciter l'équipe de schema.data.gouv.fr et faciliter le référencement du standard. Cela permettra de vérifier que le schéma vérifie tous les critères requis avant sa validation.&#x20;
+
+* Pour solliciter l'équipe de schema.data.gouv.fr, un ticket doit tout d'abord être créé sur le dépôt Github de schema.data.gouv.fr (via [ce lien](https://github.com/datagouv/schema.data.gouv.fr/issues/), en cliquant sur "New Issue").&#x20;
+* Un message doit ensuite être publié sur forum.data.gouv.fr, [rubrique Schémas et standards de données](https://forum.data.gouv.fr/c/schema-de-donnees/5), comprenant le lien vers le ticket créé pour référence, ainsi que les autres informations (lien vers l'appel sur le site du CNIG, et vers le dépôt Github du standard notamment).
 
 La démarche à suivre est détaillée dans [une page dédiée](realiser-un-appel-a-commentaires.md).
 {% endstep %}
@@ -126,7 +131,7 @@ Lors de la validation du standard, le secrétariat général vous accompagne pou
 
 Ce modèle de document vise à indiquer les informations attendues par le plénier, mais c'est au Secrétariat Général et non à l'animateur du GT de le remplir.
 
-{% file src="../../../.gitbook/assets/GT CNIG - Modèle de dossier de présentation au plénier.docx" %}
+{% file src="../../.gitbook/assets/GT CNIG - Modèle de dossier de présentation au plénier (1).docx" %}
 _Modèle de dossier de présentation pour le conseil plénier_
 {% endfile %}
 

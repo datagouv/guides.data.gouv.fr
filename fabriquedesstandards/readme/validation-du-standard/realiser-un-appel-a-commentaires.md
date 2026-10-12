@@ -47,13 +47,16 @@ Quatre types de commentaires existent : général, métier, technique ou éditor
 
 Ces informations peuvent être transmises aux participants lors de l'appel à commentaire.
 {% endhint %}
+
+* Créer un ticket sur le [dépôt Github de schema.data.gouv.fr](https://github.com/datagouv/schema.data.gouv.fr/issues/), afin d'informer l'équipe dédiée de la DINUM, et de leur permettre de répondre à l'appel. Ce ticket doit fournir a minima le lien vers le fichier `schema.yml` hébergé dans le dossier du standard sur le dépôt Github du CNIG.&#x20;
 {% endstep %}
 
 {% step %}
 ### <mark style="color:purple;">Lancer l'appel à commentaires</mark>
 
 * Se coordonner avec le secrétariat général, les membres du groupe de travail et les partenaires pour communiquer sur l’appel à commentaires. Le projet de standard, les éventuels documents associés soumis à consultation, ainsi que le tableau de recueil des commentaires sont déposés par le secrétariat général du CNIG sur la page du groupe de travail,
-* Communiquer sur le lancement : via les réseaux ([GeoRezo](https://georezo.net/) par exemple sur le forum portant sur la thématique des données, etc.), l’organisation d’un webinaire (sur l’exemple de [celui tenu pour le standard risque](https://www.youtube.com/watch?v=1-OFlNQiGtw)), etc. Le SG du CNIG communiquera sur l'appel à commentaires sur le site du CNIG et dans l’[info-CNIG](https://cnig.gouv.fr/info-cnig-la-lettre-d-information-du-cnig-a25957.html) (la newsletter du CNIG).
+* Communiquer sur le lancement : via les réseaux ([GeoRezo](https://georezo.net/) par exemple sur le forum portant sur la thématique des données, etc.), l’organisation d’un webinaire (sur l’exemple de [celui tenu pour le standard risque](https://www.youtube.com/watch?v=1-OFlNQiGtw)), etc. Le SG du CNIG communiquera sur l'appel à commentaires sur le site du CNIG et dans l’[info-CNIG](https://cnig.gouv.fr/info-cnig-la-lettre-d-information-du-cnig-a25957.html) (la newsletter du CNIG),
+* Publier un message dans la [rubrique Schémas et standards de données ](https://forum.data.gouv.fr/c/schema-de-donnees/5)de forum.data.gouv.fr afin d'alerter l'équipe dédiée de la DINUM. Leurs retours dans le cadre de l'appel à commentaires permettra de vérifier que les critères de publication du standard sur schema.data.gouv.fr sont respectés.&#x20;
 {% endstep %}
 
 {% step %}
