@@ -74,15 +74,14 @@ Content-Type: application/json
 
 #### Paramètres Requis
 
-| Champ               | Type     | Description                                                         | Contraintes                                       |
-| ------------------- | -------- | ------------------------------------------------------------------- | ------------------------------------------------- |
-| `name`              | string   | Nom du marché public                                                | Requis, max 255 caractères                        |
-| `deadline`          | datetime | Date limite de candidature                                          | Requis, format ISO 8601                           |
-| `siret`             | string   | SIRET de l'organisation publique                                    | Requis, exactement 14 chiffres, validation Luhn   |
-| `market_type_codes` | array    | Types de marché                                                     | Requis, minimum 1 élément                         |
-| `lots`              | array    | Liste des lots du marché                                            | Optionnel, chaque lot requiert un `name`          |
-| `provider_user_id`  | string   | Identifiant de l'utilisateur côté éditeur (acheteur)                | Optionnel, max 255 caractères                     |
-| `lot_limit`         | integer  | Nombre maximum de lots pour lesquels une entreprise peut candidater | Optionnel, ne peut pas dépasser le nombre de lots |
+| Champ               | Type     | Description                                          | Contraintes                                     |
+| ------------------- | -------- | ---------------------------------------------------- | ----------------------------------------------- |
+| `name`              | string   | Nom du marché public                                 | Requis, max 255 caractères                      |
+| `deadline`          | datetime | Date limite de candidature                           | Requis, format ISO 8601                         |
+| `siret`             | string   | SIRET de l'organisation publique                     | Requis, exactement 14 chiffres, validation Luhn |
+| `market_type_codes` | array    | Types de marché                                      | Requis, minimum 1 élément                       |
+| `lots`              | array    | Liste des lots du marché                             | Optionnel, chaque lot requiert un `name`        |
+| `provider_user_id`  | string   | Identifiant de l'utilisateur côté éditeur (acheteur) | Optionnel, max 255 caractères                   |
 
 **Propriétés d'un lot**
 
@@ -172,10 +171,10 @@ Pour les marchés comportant plusieurs lots, l'acheteur peut affiner le type de 
 
 `PATCH /buyer/public_markets/{identifier}/lots`
 
-| Paramètre        | Type    | Description                                      |
-| ---------------- | ------- | ------------------------------------------------ |
-| `market_type_id` | integer | ID interne du type de marché à appliquer         |
-| `lot_ids[]`      | array   | IDs des lots à modifier                          |
+| Paramètre        | Type    | Description                              |
+| ---------------- | ------- | ---------------------------------------- |
+| `market_type_id` | integer | ID interne du type de marché à appliquer |
+| `lot_ids[]`      | array   | IDs des lots à modifier                  |
 
 **Comportement** :
 
@@ -275,7 +274,6 @@ Le webhook est automatiquement déclenché lors de la finalisation du marché et
 | `market.field_keys`                | Liste des clés des champs configurés                                                                                                          |
 | `market.completed_at`              | Date/heure de complétion                                                                                                                      |
 | `market.configuration_summary_url` | URL de téléchargement du PDF de synthèse de configuration, absente si le PDF n'est pas (encore) disponible                                    |
-
 
 #### Sécurité du Webhook
 

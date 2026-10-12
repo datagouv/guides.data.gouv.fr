@@ -4,23 +4,9 @@ description: Retrouvez nos actualités des derniers mois
 
 # Actualités
 
-#### **\[9 novembre 2026] - Webinaire :** **Comment bénéficier d'**_ecologie_**.data.gouv.**_fr_ **pour la gouvernance territoriale des politiques publiques de transition écologique**
-
-Nous sommes ravis de vous compter parmi les participants du webinaire "ecologie.data.gouv.fr et gouvernance territoriale des politiques publiques de transition écologique" de 14h00 à 15h00.
-
-[Lien de connexion](https://webinaire.numerique.gouv.fr/meeting/signin/invite/88120/hash/034df8535b76e5ff75b67c8008422e5491e3e6c5) à enregistrer.
-
-Une invitation dans le calendrier vous sera envoyée prochainement par email.
-
-Au programme :
-
-* Intervention de data.gouv.fr ;
-* Témoignage du Tableau de bord des mobilités durables en tant qu'utilisateur ;
-* Échanges et questions-réponses.
-
 #### **\[11 juin 2026] - Recherche unifiée**
 
-<figure><img src="../.gitbook/assets/NL4_recherche_unifiee_bordure (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/NL4_recherche_unifiee_bordure.png" alt=""><figcaption></figcaption></figure>
 
 Les tests utilisateurs ont montré qu'il était difficile de naviguer entre les jeux de données, indicateurs, API et collections sur [_ecologie_.**data.gouv**._fr_](https://ecologie.data.gouv.fr/). Les onglets actuels obligent à des allers-retours fréquents et compliquent la recherche d'information.
 
@@ -94,7 +80,7 @@ L’équipe [_ecologie_.**data.gouv**._fr_](http://ecologie.data.gouv.fr) est à
 
 \[[En savoir sur cette fonctionnalité](https://guides.data.gouv.fr/ecologie.data.gouv.fr/ecologie.data.gouv.fr/collections-thematiques/ouvrir-une-collection-dans-qgis)]
 
-<figure><img src="../.gitbook/assets/Design sans titre (3) (1).png" alt=""><figcaption><p>Exemple d'utilisation de la nouvelle fonctionnalité d'ouverture dans QGIS</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Design sans titre (3).png" alt=""><figcaption><p>Exemple d'utilisation de la nouvelle fonctionnalité d'ouverture dans QGIS</p></figcaption></figure>
 
 #### \[2 mars 2026] - **Enrichissement des points de contact des indicateurs :**
 

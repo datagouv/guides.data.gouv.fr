@@ -148,19 +148,19 @@ Lorsqu’un ou plusieurs filtres sont déclarés, seuls les jeux de données rem
 
 **Portail multiproducteur : restriction à une organisation**
 
-![Exemple de restriction à une seule organisation](../../.gitbook/assets/Screenshot_20261009_100526.png)
+![Exemple de restriction à une seule organisation](https://doc.data.gouv.fr/img/moissonnage/harvest-filter-include.png)
 
 **Exclusion de mots-clés**
 
-![Exemple d'exclusion de mots-clés](../../.gitbook/assets/Screenshot_20261009_100633.png)
+![Exemple d'exclusion de mots-clés](https://doc.data.gouv.fr/img/moissonnage/harvest-filter-exclude.png)
 
 **Combinaisons multiples**
 
-![Exemple de combinaison de filtres](../../.gitbook/assets/Screenshot_20261009_100245.png)
+![Exemple de combinaison de filtres](https://doc.data.gouv.fr/img/moissonnage/harvest-filter-combined.png)
 
 **Contribuer**
 
-Le moissonneur CKAN est publié sur github [au sein du code udata](https://github.com/opendatateam/udata/tree/main/udata/harvest/backends/ckan). Vous pouvez donc soumettre des améliorations ou signaler des anomalies.
+Le moissonneur CKAN est publié sur github dans le plugin [`udata-ckan`](https://github.com/opendatateam/udata-ckan). Vous pouvez donc soumettre des améliorations ou signaler des anomalies.
 {% endtab %}
 {% endtabs %}
 
@@ -168,14 +168,12 @@ Le moissonneur CKAN est publié sur github [au sein du code udata](https://githu
 
 Les jeux de données moissonnés possèdent les attributs suivants dans leur champ `extras` pour la traçabilité :
 
-| ATTRIBUT              | CONTENU                                                                                            |
-| --------------------- | -------------------------------------------------------------------------------------------------- |
-| `harvest:backend`     | Le type de moissonneur (`CKAN`, `DCAT`, etc.)                                                      |
-| `harvest:domain`      | Nom de domaine moissonné                                                                           |
-| `harvest:source_id`   | Identifiant technique du moissonneur                                                               |
-| `harvest:remote_id`   | Identifiant distant du jeu de données                                                              |
-| `harvest:remote_url`  | L'URL de la page web du jeu de données à la source (permettant un renvoi vers la source originale) |
-| `harvest:last_update` | Date du dernier moissonnage                                                                        |
+| ATTRIBUT              | CONTENU                               |
+| --------------------- | ------------------------------------- |
+| `harvest:domain`      | Nom de domaine moissonné              |
+| `harvest:source_id`   | Identifiant technique du moissonneur  |
+| `harvest:remote_id`   | Identifiant distant du jeu de données |
+| `harvest:last_update` | Date du dernier moissonnage           |
 
 ## Détection des licences par le moissonnage
 
