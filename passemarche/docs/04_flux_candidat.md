@@ -76,7 +76,12 @@ Content-Type: application/json
 
 **Note importante** : Le SIRET peut être fourni à la création ou lors de l'étape d'identification dans l'interface candidat.
 
-#### Réponse de Succès (201 Created)
+#### Réponse de Succès (201 Created / 200 OK)
+
+* `201 Created` : une nouvelle candidature a été créée
+* `200 OK` : une candidature existe déjà pour ce SIRET sur ce marché, elle est renvoyée (voir ci-dessous)
+
+Le corps de la réponse est identique dans les deux cas.
 
 ```json
 {
@@ -92,23 +97,25 @@ Content-Type: application/json
 
 #### Comportement en cas de re-candidature
 
-Si une candidature complétée existe déjà pour le même SIRET sur ce marché et que la date limite n'est pas dépassée, l'appel remet à zéro la candidature existante :
+Une entreprise dispose d'une seule candidature par marché. Elle n'est jamais remise à blanc : chaque nouveau dépôt met à jour la candidature existante.
 
-* Les **données saisies manuellement** par le candidat sont conservées (pré-remplissage du formulaire)
-* Les **données issues des API** sont supprimées et relancées lors du parcours candidat pour récupérer les données à jour
-* L'attestation et le dossier ZIP précédents sont purgés
-* Une nouvelle attestation horodatée est générée à chaque soumission
+Si une candidature complétée existe déjà pour le même SIRET sur ce marché et que la date limite n'est pas dépassée, l'appel rouvre automatiquement la candidature existante :
+
+* &#x20;Les **réponses du candidat** sont conservées (formulaire pré-rempli)
+* &#x20;Les **données issues des API** sont mises à jour lors du parcours candidat
+* La **sélection des lots** reste modifiable
+* Une nouvelle attestation horodatée est générée à la nouvelle transmission
 * L'identifiant de la candidature reste le même
 
 Si une candidature en cours (non complétée) existe, elle est retournée telle quelle.
 
 #### Traçabilité des dépôts
 
-Chaque changement de `completed_at` (soumission ou remise à zéro) est historisé via PaperTrail. L'historique des versions permet de retrouver les dates de chaque dépôt et de chaque re-candidature.
+Chaque changement de `completed_at` (soumission ou réouverture) est historisé via PaperTrail. L'historique des versions permet de retrouver les dates de chaque dépôt et de chaque re-candidature.
 
 #### Vérification de la date limite
 
-Si la date limite est dépassée et qu'une candidature complétée existe, l'API retourne la candidature existante sans la remettre à zéro (pas de reset). La création et la poursuite d'une candidature en cours restent possibles même après la date limite.
+Si la date limite est dépassée et qu'une candidature complétée existe, l'API retourne la candidature existante sans la rouvrir : elle n'est plus modifiable. La création et la poursuite d'une candidature en cours restent possibles même après la date limite.
 
 Côté interface candidat, un candidat dont la candidature est complétée et dont le marché est fermé voit une page dédiée indiquant que la modification n'est plus possible.
 
@@ -307,6 +314,13 @@ Le webhook est envoyé automatiquement lors de la finalisation de la candidature
 | `market_application.attestation_url`       | URL de téléchargement de l'attestation            |
 | `market_application.documents_package_url` | URL de téléchargement du dossier                  |
 
+#### Transmissions successives&#x20;
+
+Une même candidature peut être transmise plusieurs fois avant la date limite (ajout d'un lot, correction…). Chaque transmission déclenche un webhook avec le même `identifier` et un nouveau `completed_at`.&#x20;
+
+* Chaque transmission remplace la précédente : à traiter comme une nouvelle version de la même candidature&#x20;
+* Les URLs de l'attestation et du dossier ne changent pas mais pointent vers les documents à jour : à retélécharger-les à chaque webhook
+
 ### 8. Téléchargement des Documents
 
 Une fois la candidature finalisée, la plateforme de marchés publics peut télécharger les documents générés.
@@ -489,7 +503,7 @@ Content-Length: 1048576
 
 1. **Validation Préalable** : Vérifier la validité du marché avant création
 2. **Gestion du SIRET** : Permettre saisie ultérieure si non disponible
-3. **Webhook Idempotent** : Gérer les réceptions multiples du même événement
+3. **Webhook Idempotent** : Gérer les réceptions multiples du même événement  et les transmissions successives d'une même candidature
 4. **Stockage Sécurisé** : Protéger les URLs de téléchargement
 5. **UX Cohérente** : Intégrer harmonieusement les redirections
 
