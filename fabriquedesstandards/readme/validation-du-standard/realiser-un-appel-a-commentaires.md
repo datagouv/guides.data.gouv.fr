@@ -35,6 +35,8 @@ Il peut être utile de prendre en compte les événements qui pourraient causer 
 
 * Préparer le tableau de recueil des commentaires vierge (voir le modèle proposé ci-dessous). À noter que la transmission des retours par ce tableau n’est pas toujours idéale car elle nécessite un traitement manuel pour agréger l’ensemble. Les animateurs sont libres d’utiliser tout autre outil qui leur semblerait plus approprié.
 
+{% file src="../../.gitbook/assets/GT CNIG - Modèle de tableau d'appel à commentaires.docx" %}
+
 {% hint style="info" %}
 Choisir **le type de commentaire** :
 
