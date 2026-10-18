@@ -5,7 +5,7 @@ icon: terminal
 
 # Le CLI data.gouv.fr
 
-[`datagouv-cli`](https://github.com/datagouv/datagouv-cli) est l’outil en ligne de commande de [data.gouv.fr](https://www.data.gouv.fr). La commande s’appelle `datagouv`. Elle permet de consulter et de modifier des jeux de données, des organisations, des ressources et des thématiques depuis un terminal, sur Linux, macOS et Windows.
+[`datagouv-cli`](https://github.com/datagouv/datagouv-cli) (*Command Line Interface*) est l’outil en ligne de commande de [data.gouv.fr](https://www.data.gouv.fr). La commande à taper dans le terminal s’appelle `datagouv`. Elle permet de consulter et de modifier des jeux de données, des organisations, des ressources et des thématiques depuis un terminal, sur Linux, macOS et Windows.
 
 Vous lancez les commandes vous-même. Un assistant capable d’exécuter des commandes peut aussi s’en servir. Voir aussi le [serveur MCP](le-serveur-mcp-de-data.gouv.fr.md) et le [skill](le-skill-data.gouv.fr.md).
 
@@ -110,7 +110,6 @@ datagouv setup
 | ---------- | ----------------- |
 | Production ([data.gouv.fr](https://www.data.gouv.fr)) | `prod` (`www` convient aussi) |
 | Démonstration ([demo.data.gouv.fr](https://demo.data.gouv.fr)) | `demo` |
-| Développement | `dev` |
 
 La clé doit être celle de la plateforme choisie. Vous pouvez la laisser vide si vous ne faites que lire des données.
 
