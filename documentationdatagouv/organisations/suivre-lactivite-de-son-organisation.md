@@ -72,7 +72,7 @@ Cette section centralise toutes les **discussions** ouvertes sur vos contenus (j
 
 ## Consulter ses moissonneurs
 
-Cette section vous permet de suivre l’activité de vos **moissonneurs** (mécanismes automatisés de récupération de données). Voir le guide moissonneur.
+Cette section vous permet de suivre l’activité de vos **moissonneurs** (mécanismes automatisés de récupération de données). Voir le [guide moissonneur](https://guides.data.gouv.fr/moissonnage/mettre-en-place-un-moissonneur).
 
 ***
 
