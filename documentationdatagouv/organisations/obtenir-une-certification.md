@@ -13,13 +13,13 @@ Elle atteste que l’organisation exerce effectivement une **mission de service 
 
 ## Qui peut demander une certification ?
 
-Seuls les organisations exerçant une mission de service public peuvent demander à être certifiées.&#x20;
+Seuls les organisations exerçant une mission de service public peuvent demander à être certifiées.
 
 ***
 
 ## Comment demander une certification ?
 
-Pour demander la certification d’une organisation dont vous êtes administrateur : [**envoyez une demande de certification**](https://support.data.gouv.fr/help/datagouv/certification), en expliquant :
+Pour demander la certification d’une organisation dont vous êtes administrateur : [**envoyez une demande de certification**](https://www.data.gouv.fr/support/help/datagouv/certification#support-tree), en expliquant :
 
 * Pourquoi vous souhaitez certifier votre organisation ;
 * Une preuve de votre rôle dans celle-ci ;
