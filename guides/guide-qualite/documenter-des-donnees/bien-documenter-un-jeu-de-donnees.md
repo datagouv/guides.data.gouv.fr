@@ -30,8 +30,6 @@ La description générale peut couvrir les points suivants :
 
 > **Exemple** : Description générale du [jeu de données du Répertoire national des élus](https://www.data.gouv.fr/fr/datasets/repertoire-national-des-elus-1/)
 
-<figure><img src="../../.gitbook/assets/image (20) (1).png" alt=""><figcaption><p>Description générale du <a href="https://www.data.gouv.fr/fr/datasets/repertoire-national-des-elus-1/">jeu de données du Répertoire national des élus</a></p></figcaption></figure>
-
 ## Description du mode de production des données <a href="#description-du-mode-de-production-des-donnees" id="description-du-mode-de-production-des-donnees"></a>
 
 La structure d'un jeu de données et son contenu sont liés au contexte de production des données. La description de l'environnement métier est donc indispensable.
@@ -83,8 +81,6 @@ Une fois le modèle établi, il convient de définir le découpage en fichiers. 
 
 > **Exemple** : [La documentation](https://mtes-mct.github.io/secmar-documentation/schema.html) du [jeu de données des opérations de sauvetage en mer](https://www.data.gouv.fr/fr/datasets/operations-coordonnees-par-les-cross/) décrit le modèle de données utilisé. Ce modèle de données permet de comprendre rapidement les relations qui unissent les différentes entités du jeu de données. Dans cet exemple, il a été choisi d'associer un fichier par entité.
 
-<figure><img src="https://guides.etalab.gouv.fr/assets/img/schema_secmar.37dd98f3.png" alt=""><figcaption><p>Modèle de données du jeu de données des opérations de sauvetage en mer</p></figcaption></figure>
-
 ## Description du schéma de données <a href="#description-du-schema-de-donnees" id="description-du-schema-de-donnees"></a>
 
 Si vous publiez des données tabulaires, il est conseillé de produire un tableau récapitulatif indiquant, pour chaque colonne :
@@ -98,8 +94,6 @@ Cela constituera une base solide en vue de la création d'un schéma de données
 
 > **Exemple :** La documentation du [jeu de données des opérations de sauvetage en mer](https://www.data.gouv.fr/fr/datasets/operations-coordonnees-par-les-cross/) présente un tableau récapitulatif des différentes colonnes. La description des champs permet de faire le lien avec le fichier de données, ce qui facilite la lecture des données.
 
-<figure><img src="https://guides.etalab.gouv.fr/assets/img/table_secmar.561dfb7c.png" alt=""><figcaption><p>Description du schéma de données du jeu de données des opérations de sauvetage en mer</p></figcaption></figure>
-
 Les termes employés dans un jeu de données sont propres à un environnement métier.
 
 S’il existe des termes complexes ou des énumérations, il est conseillé de :
@@ -109,7 +103,7 @@ S’il existe des termes complexes ou des énumérations, il est conseillé de :
 Cet effort de définition fait gagner un temps considérable au réutilisateur et permet de prévenir des contre-sens dans l’exploitation des données.
 
 > **Exemple :** La base de données de [demande de valeur foncière](https://www.data.gouv.fr/fr/datasets/demandes-de-valeurs-foncieres/) recense l’ensemble des transactions immobilières intervenues au cours des cinq dernières années.\
-> Le vocabulaire utilisé dans ce jeu de données est issu d’un environnement administratif, parfois difficile à appréhender. La Direction générale des Finances publiques met à disposition une [documentation](https://static.data.gouv.fr/resources/demande-de-valeurs-foncieres/20190419-091745/notice-descriptive-du-fichier-dvf.pdf) qui comprend notamment un lexique de définition des termes rencontrés. Ce lexique facilite l’appropriation et la réutilisation des données par des acteurs tiers. ![Lexique des données du jeu de données Demande de valeur foncière](https://guides.etalab.gouv.fr/assets/img/lexique_dvf.64d1e5cc.png)
+> Le vocabulaire utilisé dans ce jeu de données est issu d’un environnement administratif, parfois difficile à appréhender. La Direction générale des Finances publiques met à disposition une [documentation](https://static.data.gouv.fr/resources/demande-de-valeurs-foncieres/20190419-091745/notice-descriptive-du-fichier-dvf.pdf) qui comprend notamment un lexique de définition des termes rencontrés. Ce lexique facilite l’appropriation et la réutilisation des données par des acteurs tiers.
 
 ## Description des métadonnées <a href="#description-des-metadonnees" id="description-des-metadonnees"></a>
 
@@ -159,8 +153,6 @@ Si nécessaire, il est possible d’indiquer des liens, comme par exemple lorsqu
 > * La date du changement
 > * La nature du changement
 > * Les liens associés au changement
->
-> <img src="https://guides.etalab.gouv.fr/assets/img/maj_secmar.02c31ca5.png" alt="Liste des modifications réalisées sur le jeu de données SECMAR" data-size="original">
 
 ## Points de contact <a href="#points-de-contact" id="points-de-contact"></a>
 
