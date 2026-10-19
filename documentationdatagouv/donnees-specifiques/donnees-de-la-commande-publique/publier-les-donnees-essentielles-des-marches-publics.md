@@ -32,7 +32,7 @@ Pour le cadre réglementaire et les précisions métier, consultez aussi :
 
 Les données essentielles visibles sur data.gouv.fr peuvent provenir de trois sources :
 
-1. **DGFiP** : transmission via Hélios et [PES Marché](https://www.collectivites-locales.gouv.fr/protocole-dechange-standard-pes-0), puis mise à disposition par Etalab ;
+1. **DGFiP** : transmission via Hélios et [PES Marché](https://www.collectivites-locales.gouv.fr/protocole-dechange-standard-pes-0), puis mise à disposition par la DINUM ;
 2. **AIFE** : publication des données issues de ses places de marchés, notamment [PLACE](https://www.marches-publics.gouv.fr/?page=entreprise.AccueilEntreprise) ;
 3. **Profils d’acheteurs** : publication via l’API de data.gouv.fr ou via un catalogue DCAT moissonnable.
 
@@ -157,7 +157,7 @@ Exemple :
 
 #### Via le serveur de fichiers
 
-Les données transmises par la DGFiP peuvent être récupérées depuis le serveur de fichiers opéré par Etalab.
+Les données transmises par la DGFiP peuvent être récupérées depuis le serveur de fichiers opéré par la DINUM.
 
 Ce mode est particulièrement adapté si un acheteur publie un volume important de marchés.
 
@@ -168,7 +168,7 @@ Format d’URL :
 Avec :
 
 * `siret` : SIRET de l’acheteur ;
-* `année`, `mois`, `jour` : date de réception par Etalab ;
+* `année`, `mois`, `jour` : date de réception par la DINUM ;
 * `seq` : numéro de séquence sur deux chiffres.
 
 Exemple :

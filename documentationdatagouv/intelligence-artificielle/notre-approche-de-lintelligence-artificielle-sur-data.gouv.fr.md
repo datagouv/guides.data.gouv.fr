@@ -46,4 +46,4 @@ Nous utilisons l’IA là où elle apporte une aide concrète, sans complexifier
 
 **Ouverture et transparence**
 
-Nous privilégions des modèles ouverts, adaptés par l’équipe Etalab, notamment [Albert](https://www.numerique.gouv.fr/offre-accompagnement/expertise-albert-ia-etat/). Dans le service public, l’IA doit se construire de façon transparente, dans la confiance et avec la participation de tous.
+Nous privilégions des modèles ouverts, adaptés [par la DINUM](https://ia.numerique.gouv.fr/). Dans le service public, l’IA doit se construire de façon transparente, dans la confiance et avec la participation de tous.
