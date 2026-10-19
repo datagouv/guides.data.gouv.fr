@@ -34,7 +34,7 @@ Adressez-vous directement au producteur dans l'espace de discussion en bas de pa
 
 <details>
 
-<summary>Question sur le cadastre </summary>
+<summary>Question sur le cadastre</summary>
 
 Si vous avez une question sur le cadastre (rechercher un propriétaire, remonter une erreur dans les données de valeur foncière, s’informer sur la mitoyenneté, etc.), nous vous invitons à consulter [notre « Foire aux questions sur le cadastre »](https://guides.data.gouv.fr/reutiliser-des-donnees/autour-du-cadastre/faq-cadastre).\
 \
@@ -44,9 +44,9 @@ Pour toute question sur l’utilisation et la manipulation des données du cadas
 
 <details>
 
-<summary>Question sur une procédure administrative </summary>
+<summary>Question sur une procédure administrative</summary>
 
-Notre support n'est pas en mesure de vous aider sur ces sujets. Vous pouvez vous référer au site [Service-Public.fr](https://doc.data.gouv.fr/).
+Notre support n'est pas en mesure de vous aider sur ces sujets. Vous pouvez vous référer au site [Service-Public.fr](https://doc.data.gouv.fr/https://www.service-public.gouv.fr/).
 
 </details>
 
@@ -72,7 +72,7 @@ Contactez votre organisme certificateur afin qu'il transmette votre certificatio
 <summary>Question sur la base SIRENE et les données d’entreprises</summary>
 
 Si vous recherchez votre numéro SIRET ou SIREN vous pouvez vous rendre sur le site [Annuaire des Entreprises](https://annuaire-entreprises.data.gouv.fr/).\
-Si vous souhaitez rendre privées les données de votre entreprise, vous devez en [faire la demande auprès de l'INSEE ](https://statut-diffusion-sirene.insee.fr/) qui publie ces données dans le répertoire SIRENE.
+Si vous souhaitez rendre privées les données de votre entreprise, vous devez en [faire la demande auprès de l'INSEE ](https://statut-diffusion-sirene.insee.fr/)qui publie ces données dans le répertoire SIRENE.
 
 </details>
 
@@ -139,9 +139,9 @@ L'organisme en mesure de vous aider est [la Commission nationale de l'informatiq
 
 Le site data.gouv.fr ne permet pas aux particuliers de remplir des formalités administratives et notre support n'est pas en mesure de vous aider sur ces sujets. Vous pouvez vous référer à l'administration compétente ou consulter les liens suivants :
 
-* [ La fiche dédiée sur Service-Public.fr](https://www.service-public.fr/particuliers/vosdroits/N110).
-* [ Le site refugies.info](https://www.refugies.info/demarche/5dc2da982e9859001680b8a2).
-* [ Contacter le service compétent du Ministère de l'Intérieur](https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/#/contact).
+* [La fiche dédiée sur Service-Public.fr](https://www.service-public.fr/particuliers/vosdroits/N110).
+* [Le site refugies.info](https://www.refugies.info/demarche/5dc2da982e9859001680b8a2).
+* [Contacter le service compétent du Ministère de l'Intérieur](https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/#/contact).
 
 </details>
 
@@ -151,9 +151,9 @@ Le site data.gouv.fr ne permet pas aux particuliers de remplir des formalités a
 
 Notre équipe n'est pas en mesure de vous aider sur ces questions. Vous pouvez vous référer à :
 
-* [ La fiche pratique escroquerie de Service-Public.fr](https://www.service-public.fr/particuliers/vosdroits/F1520).
-* [ La fiche pratique phishing (hameçonnage) sur Service-Public.fr](https://www.service-public.fr/particuliers/vosdroits/F34800).
-* [ L’outil de diagnostic sur cybermalveillancance.gouv.fr](https://www.cybermalveillance.gouv.fr/diagnostic/accueil).
+* [La fiche pratique escroquerie de Service-Public.fr](https://www.service-public.fr/particuliers/vosdroits/F1520).
+* [La fiche pratique phishing (hameçonnage) sur Service-Public.fr](https://www.service-public.fr/particuliers/vosdroits/F34800).
+* [L’outil de diagnostic sur cybermalveillancance.gouv.fr](https://www.cybermalveillance.gouv.fr/diagnostic/accueil).
 
 </details>
 
