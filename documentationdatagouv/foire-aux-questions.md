@@ -46,7 +46,7 @@ Pour toute question sur l’utilisation et la manipulation des données du cadas
 
 <summary>Question sur une procédure administrative</summary>
 
-Notre support n'est pas en mesure de vous aider sur ces sujets. Vous pouvez vous référer au site [Service-Public.fr](https://doc.data.gouv.fr/https://www.service-public.gouv.fr/).
+Notre support n'est pas en mesure de vous aider sur ces sujets. Vous pouvez vous référer au site [Service-Public.fr](https://www.service-public.gouv.fr/).
 
 </details>
 
