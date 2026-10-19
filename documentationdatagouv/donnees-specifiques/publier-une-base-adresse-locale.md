@@ -25,7 +25,7 @@ Pour publier manuellement une Base Adresse Locale sur data.gouv.fr :
 
 <figure><img src="../.gitbook/assets/Capture d’écran 2023-09-04 à 18.39.07 (1).png" alt=""><figcaption><p>Validateur BAL</p></figcaption></figure>
 
-2. Suivez ensuite la [procédure standard de publication de données sur data.gouv.fr](../../broken/pages/THaWx8YnNzHJDxnuPXJp/#directement-sur-data.gouv.fr), en veillant à **ajouter le mot clé "base-adresse-locale".**
+2. Suivez ensuite la [procédure standard de publication de données sur data.gouv.fr](../jeux-de-donnees/publier-un-jeu-de-donnees.md), en veillant à **ajouter le mot clé "base-adresse-locale".**
 3. N'oubliez pas de **mettre à jour vos données** !
 {% endtab %}
 
