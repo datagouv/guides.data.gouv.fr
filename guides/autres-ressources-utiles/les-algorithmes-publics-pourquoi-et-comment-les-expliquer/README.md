@@ -6,9 +6,9 @@ metaLinks:
 
 # Les algorithmes publics : pourquoi et comment les expliquer ?
 
-La mission Etalab accompagne les administrations dans la mise en oeuvre du principe de transparence des algorithmes.
+La DINUM accompagne les administrations dans la mise en oeuvre du principe de transparence des algorithmes.
 
-Dans ce cadre, Etalab développe un certain nombre de ressources pour :
+Dans ce cadre, la DINUM développe un certain nombre de ressources pour :
 
 * **Comprendre** les enjeux et les obligations légales, avec le [guide des algorithmes publics](https://github.com/etalab/guides.etalab.gouv.fr/blob/master/algorithmes/0-guide.md) à l'usage des administrations,
 * **Faire**, avec des ressources pour mettre en oeuvre ces principes et obligations :

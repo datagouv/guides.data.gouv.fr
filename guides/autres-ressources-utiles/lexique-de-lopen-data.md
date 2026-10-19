@@ -47,7 +47,7 @@ Sous co-pilotage DINUM, ANCT et IGN, sa construction est assurée grâce à de n
 
 La Base Adresse Nationale est accessible sous forme de fichiers et d’API.
 
-Un [service de géocodage gratuit](https://adresse.data.gouv.fr/api) est mis à disposition par Etalab.
+Un [service de géocodage gratuit](https://adresse.data.gouv.fr/api) est mis à disposition par la DINUM.
 
 </details>
 
@@ -215,7 +215,7 @@ Sur data.gouv.fr, une organisation est une entité au travers de laquelle plusie
 
 <summary>Qualité d'un jeu de données</summary>
 
-Plusieurs critères permettent d'évaluer le niveau de qualité d'un jeu de données, notamment :&#x20;
+Plusieurs critères permettent d'évaluer le niveau de qualité d'un jeu de données, notamment :
 
 * Des éléments sur les données elles-mêmes et leur structure (format, structure, contenu, etc.)
 * Des éléments attestant du potentiel de réutilisation et de croisement des données (respect de standards, données pivot, etc.)
@@ -241,7 +241,7 @@ Elle peut prendre la forme d’une visualisation, d’une application, d’un ar
 
 <summary>Secret légal</summary>
 
-Les documents couverts par un secret légal sont :&#x20;
+Les documents couverts par un secret légal sont :
 
 * Les documents qui ne sont aucunement communicables. Ce sont par exemple les documents dont la diffusion porterait atteinte au secret des délibérations du Gouvernement, au secret de la défense nationale ou de la sûreté de l’État, etc. ([Article L. 311-5 du CRPA](https://www.legifrance.gouv.fr/affichCodeArticle.do;jsessionid=B12CCBE39831FB4644322E0902EB97B9.tplgfr34s_1?idArticle=LEGIARTI000033265181\&cidTexte=LEGITEXT000031366350\&dateTexte=20170701)).
 * Les documents dont la diffusion porterait atteinte à la protection de la vie privée, au secret médical et au secret des affaires. Les documents qui portent une appréciation ou un jugement de valeur sur une personne physique ou qui font apparaître le comportement d’une personne ([Article L. 311-6 du CRPA](https://www.legifrance.gouv.fr/affichCodeArticle.do;jsessionid=B12CCBE39831FB4644322E0902EB97B9.tplgfr34s_1?idArticle=LEGIARTI000033218964\&cidTexte=LEGITEXT000031366350\&dateTexte=20170701)).
@@ -252,7 +252,7 @@ Les documents couverts par un secret légal sont :&#x20;
 
 <summary>Service public de la donnée</summary>
 
-Le service public de la donnée créé par [l’Article 14 de la loi pour une République numérique](https://www.legifrance.gouv.fr/affichTexteArticle.do?cidTexte=JORFTEXT000033202746\&idArticle=JORFARTI000033203033\&categorieLien=cid) vise à mettre à disposition, en vue de faciliter leur réutilisation, les jeux de données de référence qui présentent le plus fort impact économique et social.&#x20;
+Le service public de la donnée créé par [l’Article 14 de la loi pour une République numérique](https://www.legifrance.gouv.fr/affichTexteArticle.do?cidTexte=JORFTEXT000033202746\&idArticle=JORFARTI000033203033\&categorieLien=cid) vise à mettre à disposition, en vue de faciliter leur réutilisation, les jeux de données de référence qui présentent le plus fort impact économique et social.
 
 À ce jour, neuf jeux de données, qui couvrent un large champ thématique ont été identifiés comme des données de référence.
 
@@ -302,7 +302,4 @@ Cette plateforme de référencement national permet un accès aux schémas produ
 
 ## Z
 
-
-
 ##
-

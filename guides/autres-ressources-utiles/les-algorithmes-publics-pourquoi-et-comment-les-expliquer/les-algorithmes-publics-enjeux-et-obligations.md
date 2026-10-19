@@ -6,13 +6,13 @@ metaLinks:
 
 # Les algorithmes publics : enjeux et obligations
 
-Le département [Etalab](https://www.etalab.gouv.fr/) accompagne les administrations dans l'application du nouveau cadre juridique sur les algorithmes publics. Ce guide, ouvert aux contributions, est composé de trois parties qui peuvent se lire de manière indépendante.
+La [DINUM](https://www.numerique.gouv.fr/) accompagne les administrations dans l'application du nouveau cadre juridique sur les algorithmes publics. Ce guide, ouvert aux contributions, est composé de trois parties qui peuvent se lire de manière indépendante.
 
 * La première partie donne des **éléments de contexte**: qu'est-ce qu'un algorithme ? à quoi servent les algorithmes dans le secteur public ?
 * La seconde partie détaille les **enjeux en termes d'éthique et de responsabilité**,
 * La troisième partie présente le **cadre juridique applicable** en matière de transparence des algorithmes notamment suite à l'adoption de la loi pour une République numérique.
 
-📎 Etalab propose par ailleurs d'autres ressources en lien avec ce sujet, notamment un [guide sur l'ouverture des codes sources](https://guides.etalab.gouv.fr/logiciels/).
+📎 La DINUM propose par ailleurs d'autres ressources en lien avec ce sujet, notamment un [guide sur l'ouverture des codes sources](https://guides.etalab.gouv.fr/logiciels/).
 
 #### À qui est-il destiné ?
 
@@ -89,7 +89,7 @@ La loi pour une République numérique, et plus récemment le Règlement sur la 
 On distingue :
 
 * **Les obligations liées au traitement de données personnelles** : [l'article 119 de la loi Informatique et Libertés](https://www.legifrance.gouv.fr/affichTexteArticle.do?idArticle=LEGIARTI000037817721\&cidTexte=JORFTEXT000000886460\&dateTexte=20190601), qui s'applique tant au secteur public que privé, précise que "toute personne physique justifiant de son identité a le droit d'interroger le responsable d'un traitement à caractère personnel en vue d'obtenir (...) 5° les informations permettant de connaître et de contester la logique qui sous-tend le traitement automatisé en cas de décision prise sur le fondement de celui-ci et produisant des effets juridiques à l'égard de l'intéressé".
-* **Les obligations liées à l'ouverture des codes sources** (voir le [guide d'Etalab sur l'ouverture des codes sources de logiciels](https://guides.etalab.gouv.fr/algorithmes/)) ;
+* **Les obligations liées à l'ouverture des codes sources** (voir le [guide de la DINUM sur l'ouverture des codes sources de logiciels](https://guides.etalab.gouv.fr/algorithmes/)) ;
 * **Les obligations spécifiques de transparence des algorithmes** prévues par le code des relations entre le public et l'administration (CRPA), qui sont détaillées dans la section suivante.
 
 En résumé : même si un algorithme n'est pas concerné par les obligation de transparence du CRPA, il peut être soumis aux autres obligations précitées.
@@ -162,4 +162,4 @@ Nous vous proposons un outil sous la forme d'un quizz pour tester votre connaiss
 
 La **première action** à mener, en tant qu'administration, est de **recenser les algorithmes** potentiellement concernés par l'obligation de transparence et de redevabilité, et de publier cette liste en la rendant facilement trouvable.
 
-_Nous remercions toutes les personnes qui ont partagé des retours sur la première version du guide et ont contribué à le faire évoluer, notamment les participantes et participants à l'atelier de mars 2020 organisé par Etalab._
+_Nous remercions toutes les personnes qui ont partagé des retours sur la première version du guide et ont contribué à le faire évoluer, notamment les participantes et participants à l'atelier de mars 2020 organisé par la DINUM._

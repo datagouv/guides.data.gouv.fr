@@ -117,6 +117,6 @@ Par exemple, si le logiciel a fait l'objet d'un audit de sécurité par l'ANSSI 
 
 ### Maintenance de ce document et contributions
 
-Ce document est maintenu par Bastien Guerry à Etalab.
+Ce document est maintenu par Bastien Guerry à la DINUM.
 
 Pour toute question, vous pouvez écrire à `opensource@data.gouv.fr` ou directement à `bastien.guerry@data.gouv.fr`.

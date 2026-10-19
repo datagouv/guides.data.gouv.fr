@@ -14,9 +14,9 @@ Pour mieux comprendre ce que sont que les tuiles vectorielles et leurs usages, r
 
 ### **Pourquoi utiliser les tuiles vectorielles ?**
 
-Le service proposé par Etalab permet de :
+Le service proposé par la DINUM permet de :
 
-* mettre à disposition des tuiles avec un style pour avoir un fond de plan de tuiles vecteur. Ce style est publié en s’appuyant sur une version d’OpenMapTiles déployée par Etalab sur la France.
+* mettre à disposition des tuiles avec un style pour avoir un fond de plan de tuiles vecteur. Ce style est publié en s’appuyant sur une version d’OpenMapTiles déployée par la DINUM sur la France.
 * servir les tuiles des limites administratives ainsi que celles du cadastre.
 
 Ce service s'appuie sur les données du [projet OpenStreetMap](https://openstreetmap.org/).
@@ -31,7 +31,7 @@ Il faut aussi noter que vous devez obligatoirement [créditer OpenStreetMap et s
 
 ### **Qui utilise ce service ?**
 
-Ce service est utilisé par plusieurs produits d’Etalab ainsi que par d’autres acteurs institutionnels en raison de la légèreté des tuiles vectorielles et des styles associés en comparaison à ceux mis à disposition actuellement par l’IGN.
+Ce service est utilisé par plusieurs produits de la DINUM ainsi que par d’autres acteurs institutionnels en raison de la légèreté des tuiles vectorielles et des styles associés en comparaison à ceux mis à disposition actuellement par l’IGN.
 
 Ces tuiles ont une structure standardisée par un schéma [https://openmaptiles.org/schema/](https://openmaptiles.org/schema/) ainsi que des styles par défaut associés à cette structure [https://openmaptiles.org/styles/](https://openmaptiles.org/styles/).
 
@@ -99,7 +99,7 @@ On peut par exemple aller sur [https://maputnik.github.io/editor/#3.71/45.57/3.4
 
 Généralement, on consomme ces tuiles vectorielles via une bibliothèque cartographique JavaScript. Il faut également noter que selon les bibliothèques, il est possible de profiter de la combinaison des deux mais que certains ne permettent pas de gérer les styles mais simplement de consommer les tuiles vectorielles, les `pbf` mais en devant styler selon la syntaxe propre à la bibliothèque. Cela joue fortement sur les choix techniques à adopter selon votre besoin. Seuls Maplibre et OpenLayers via une bibliothèque intermédiaire sont à même de correctement utiliser les deux.
 
-## Comment utiliser les tuiles vectorielles d’Etalab ? <a href="#comment-utiliser-les-tuiles-vectorielles-d-etalab" id="comment-utiliser-les-tuiles-vectorielles-d-etalab"></a>
+## Comment utiliser les tuiles vectorielles de la DINUM ? <a href="#comment-utiliser-les-tuiles-vectorielles-d-etalab" id="comment-utiliser-les-tuiles-vectorielles-d-etalab"></a>
 
 Pour avoir un aperçu, vous pouvez vous rendre sur : [https://openmaptiles.geo.data.gouv.fr](https://openmaptiles.geo.data.gouv.fr/).
 
