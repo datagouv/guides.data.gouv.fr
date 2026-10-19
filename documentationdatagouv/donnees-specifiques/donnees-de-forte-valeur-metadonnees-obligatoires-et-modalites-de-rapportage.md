@@ -195,7 +195,3 @@ Pour qu’une même fiche de données soit doublement moissonnée mais ne soit p
 Les producteurs de données doivent donc être particulièrement vigilants lors de la mise en place des différents moissonnages.
 
 La question des identifiants fait l’objet d’[un point et d'une recommandation](https://github.com/cnigfr/metadonnee/issues/28) lors du [groupe de travail métadonnées du CNIG](https://cnig.gouv.fr/gt-metadonnees-a958.html).
-
-***
-
-Ce contenu vous a-t-il été utile ?
