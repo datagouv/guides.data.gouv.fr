@@ -46,7 +46,7 @@ Dans cette section, vous apprendrez à réaliser l'ensemble des étapes du cycle
 
 _Ce guide sur les schémas de données résulte d'une co-rédaction entre les équipes d'_[_Etalab_](https://www.etalab.gouv.fr/) _et d'_[_OpenDataFrance_](https://www.opendatafrance.net/)_._\
 \
-&#xNAN;_&#x49;l s'inspire du contenu rédigé par de nombreux partenaires, listés par ordre alphabétique :_
+_&#x49;l s'inspire du contenu rédigé par de nombreux partenaires, listés par ordre alphabétique :_
 
 * [_Charles Nepote_](https://twitter.com/charlesnepote)
 * [_Datactivist_](https://datactivist.coop/)
