@@ -49,68 +49,18 @@ Vous pouvez maintenant commencer à publier, commenter ou rejoindre une organisa
 
 La double authentification ajoute un code à 6 chiffres à votre mot de passe. Ce code s’affiche dans une application sur votre téléphone et change tout seul toutes les 30 secondes.
 
+### Quelle application installer ?
+
+Installez [FreeOTP](https://freeotp.github.io/) ou [Proton Authenticator](https://proton.me/fr/authenticator) : les deux sont gratuites.
+
 ### Avec ProConnect
 
 Si vous vous connectez avec ProConnect, ce code vous sera probablement demandé.
 
-La première fois, ProConnect affiche un QR code. Scannez-le avec une application ci-dessous, puis saisissez le code à 6 chiffres.
+La première fois, ProConnect affiche un QR code. Scannez-le avec [l’application que vous avez choisie](creer-un-compte-utilisateur.md#quelle-application-installer), puis saisissez le code à 6 chiffres.
 
 ### Avec un compte data.gouv.fr
 
 Vous pouvez aussi activer cette protection sur votre compte data.gouv.fr, depuis votre [profil](https://www.data.gouv.fr/admin/me/profile). C’est facultatif pour le moment. Le principe est le même : scannez le QR code proposé, puis saisissez le code à 6 chiffres.
-
-### Choisir une application
-
-Installez l’une de ces applications :
-
-<details>
-
-<summary>FreeOTP</summary>
-
-Gratuite, sur iPhone et Android : [freeotp.github.io](https://freeotp.github.io/).
-
-Ouvrez l’application, appuyez sur l’icône de QR code en haut à droite (ou sur **Add a token**), puis scannez le QR code.
-
-</details>
-
-<details>
-
-<summary>Proton Authenticator</summary>
-
-Gratuite, sur iPhone et Android : [proton.me/fr/authenticator](https://proton.me/fr/authenticator).
-
-Ouvrez l’application, appuyez sur **+**, puis scannez le QR code.
-
-</details>
-
-<details>
-
-<summary>Bitwarden</summary>
-
-Gratuite, sur iPhone et Android : [bitwarden.com](https://bitwarden.com/help/bitwarden-authenticator/).
-
-Ouvrez l’application, appuyez sur **+**, puis scannez le QR code.
-
-</details>
-
-<details>
-
-<summary>Google Authenticator</summary>
-
-Gratuite, sur iPhone et Android : [App Store](https://apps.apple.com/app/google-authenticator/id388497605) · [Play Store](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2).
-
-Ouvrez l’application, appuyez sur **+**, puis scannez le QR code.
-
-</details>
-
-<details>
-
-<summary>Microsoft Authenticator</summary>
-
-Gratuite, sur iPhone et Android : [microsoft.com](https://www.microsoft.com/fr-fr/security/mobile-authenticator-app).
-
-Ouvrez l’application, appuyez sur **+**, choisissez **Autre compte**, puis scannez le QR code.
-
-</details>
 
 Les fois suivantes, ouvrez la même application et recopiez le code affiché.
