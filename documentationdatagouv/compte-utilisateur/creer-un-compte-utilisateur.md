@@ -33,8 +33,6 @@ Un compte utilisateur vous permet de :
 4. Acceptez les **conditions générales d’utilisation** ;
 5. Cliquez sur **« S’enregistrer »**.
 
-Vous pouvez également vous créer un compte via [ProConnect](https://www.proconnect.gouv.fr/) <img src="../.gitbook/assets/image (39) (1).png" alt="" data-size="line"> l'accès pour les pros, validées par l'État qui peut être utilisé par tous les professionnels du public comme du privé.
-
 Une fois ce formulaire rempli :
 
 * Un message à l’écran vous invite à confirmer votre adresse e-mail ;
@@ -42,5 +40,63 @@ Une fois ce formulaire rempli :
 * Ouvrez l’e-mail envoyé par `no-reply@data.gouv.fr` et cliquez sur **« Confirmer maintenant »**.
 
 Vous serez alors redirigé vers la page d’accueil, connecté à votre compte utilisateur.
+
+Vous pouvez aussi créer votre compte avec [ProConnect](https://www.proconnect.gouv.fr/) <img src="../.gitbook/assets/image (39) (1).png" alt="" data-size="line">, l’accès des professionnels validé par l’État (public comme privé).
+
+Si vous utilisez ProConnect, une **double authentification** vous sera probablement demandée. Une application sur votre téléphone affiche un code à 6 chiffres : recopiez-le à chaque connexion. Il change tout seul toutes les 30 secondes.
+
+La première fois, choisissez **Application d’authentification** lorsque ProConnect le propose. Un QR code s’affiche : scannez-le avec l’une des applications ci-dessous (ou recopiez la clé écrite en dessous), puis saisissez le code à 6 chiffres. Une application déjà installée convient.
+
+<details>
+
+<summary>FreeOTP</summary>
+
+Gratuite, sur iPhone et Android : [freeotp.github.io](https://freeotp.github.io/).
+
+Ouvrez l’application, appuyez sur l’icône de QR code en haut à droite (ou sur **Add a token**), puis scannez le QR code.
+
+</details>
+
+<details>
+
+<summary>Proton Authenticator</summary>
+
+Gratuite, sur iPhone et Android : [proton.me/fr/authenticator](https://proton.me/fr/authenticator).
+
+Ouvrez l’application, appuyez sur **+**, puis scannez le QR code.
+
+</details>
+
+<details>
+
+<summary>Bitwarden</summary>
+
+Gratuite, sur iPhone et Android : [bitwarden.com](https://bitwarden.com/help/bitwarden-authenticator/).
+
+Ouvrez l’application, appuyez sur **+**, puis scannez le QR code.
+
+</details>
+
+<details>
+
+<summary>Google Authenticator</summary>
+
+Gratuite, sur iPhone et Android : [App Store](https://apps.apple.com/app/google-authenticator/id388497605) · [Play Store](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2).
+
+Ouvrez l’application, appuyez sur **+**, puis scannez le QR code.
+
+</details>
+
+<details>
+
+<summary>Microsoft Authenticator</summary>
+
+Gratuite, sur iPhone et Android : [microsoft.com](https://www.microsoft.com/fr-fr/security/mobile-authenticator-app).
+
+Ouvrez l’application, appuyez sur **+**, choisissez **Autre compte**, puis scannez le QR code.
+
+</details>
+
+Les fois suivantes, ouvrez la même application et recopiez le code affiché.
 
 Vous pouvez maintenant commencer à publier, commenter ou rejoindre une organisation ! :white\_check\_mark:
