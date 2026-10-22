@@ -51,7 +51,7 @@ La double authentification ajoute un code à 6 chiffres à votre mot de passe. C
 
 ### Quelle application installer ?
 
-Installez [FreeOTP](https://freeotp.github.io/) ou [Proton Authenticator](https://proton.me/fr/authenticator) : les deux sont gratuites.
+Installez par exemple [FreeOTP](https://freeotp.github.io/) ou [Proton Authenticator](https://proton.me/fr/authenticator). Les deux sont gratuites, comme les autres applications de ce type.
 
 ### Avec ProConnect
 
