@@ -41,11 +41,27 @@ Une fois ce formulaire rempli :
 
 Vous serez alors redirigé vers la page d’accueil, connecté à votre compte utilisateur.
 
-Vous pouvez aussi créer votre compte avec [ProConnect](https://www.proconnect.gouv.fr/) <img src="../.gitbook/assets/image (39) (1).png" alt="" data-size="line">, l’accès des professionnels validé par l’État (public comme privé).
+Vous pouvez aussi créer votre compte avec [ProConnect](https://www.proconnect.gouv.fr/) <img src="../.gitbook/assets/image (39) (1).png" alt="" data-size="line">, l’accès des professionnels validé par l’État (public comme privé). La connexion demande alors en général une double authentification, décrite ci-dessous.
 
-Si vous utilisez ProConnect, une **double authentification** vous sera probablement demandée. Une application sur votre téléphone affiche un code à 6 chiffres : recopiez-le à chaque connexion. Il change tout seul toutes les 30 secondes.
+Vous pouvez maintenant commencer à publier, commenter ou rejoindre une organisation ! :white\_check\_mark:
 
-La première fois, choisissez **Application d’authentification** lorsque ProConnect le propose. Un QR code s’affiche : scannez-le avec l’une des applications ci-dessous (ou recopiez la clé écrite en dessous), puis saisissez le code à 6 chiffres. Une application déjà installée convient.
+## La double authentification
+
+La double authentification ajoute un code à 6 chiffres à votre mot de passe. Ce code s’affiche dans une application sur votre téléphone et change tout seul toutes les 30 secondes.
+
+### Avec ProConnect
+
+Si vous vous connectez avec ProConnect, ce code vous sera probablement demandé.
+
+La première fois, ProConnect affiche un QR code. Scannez-le avec une application ci-dessous, puis saisissez le code à 6 chiffres.
+
+### Avec un compte data.gouv.fr
+
+Vous pouvez aussi activer cette protection sur votre compte data.gouv.fr, depuis votre [profil](https://www.data.gouv.fr/admin/me/profile). C’est facultatif pour le moment. Le principe est le même : scannez le QR code proposé, puis saisissez le code à 6 chiffres.
+
+### Choisir une application
+
+Installez l’une de ces applications :
 
 <details>
 
@@ -98,5 +114,3 @@ Ouvrez l’application, appuyez sur **+**, choisissez **Autre compte**, puis sca
 </details>
 
 Les fois suivantes, ouvrez la même application et recopiez le code affiché.
-
-Vous pouvez maintenant commencer à publier, commenter ou rejoindre une organisation ! :white\_check\_mark:
