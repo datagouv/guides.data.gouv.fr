@@ -41,7 +41,7 @@ Une fois ce formulaire rempli :
 
 Vous serez alors redirigé vers la page d’accueil, connecté à votre compte utilisateur.
 
-Vous pouvez aussi créer votre compte avec [ProConnect](https://www.proconnect.gouv.fr/) <img src="../.gitbook/assets/image (39) (1).png" alt="" data-size="line">, l’accès des professionnels validé par l’État (public comme privé). La connexion demande alors en général une double authentification, décrite ci-dessous.
+Vous pouvez également vous créer un compte via [ProConnect](https://www.proconnect.gouv.fr/) <img src="../.gitbook/assets/image (39) (1).png" alt="" data-size="line"> l'accès pour les pros, validées par l'État qui peut être utilisé par tous les professionnels du public comme du privé.
 
 Vous pouvez maintenant commencer à publier, commenter ou rejoindre une organisation ! :white\_check\_mark:
 
