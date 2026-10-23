@@ -33,8 +33,6 @@ Un compte utilisateur vous permet de :
 4. Acceptez les **conditions générales d’utilisation** ;
 5. Cliquez sur **« S’enregistrer »**.
 
-Vous pouvez également vous créer un compte via [ProConnect](https://www.proconnect.gouv.fr/) <img src="../.gitbook/assets/image (39) (1).png" alt="" data-size="line"> l'accès pour les pros, validées par l'État qui peut être utilisé par tous les professionnels du public comme du privé.
-
 Une fois ce formulaire rempli :
 
 * Un message à l’écran vous invite à confirmer votre adresse e-mail ;
@@ -43,4 +41,26 @@ Une fois ce formulaire rempli :
 
 Vous serez alors redirigé vers la page d’accueil, connecté à votre compte utilisateur.
 
+Vous pouvez également vous créer un compte via [ProConnect](https://www.proconnect.gouv.fr/) <img src="../.gitbook/assets/image (39) (1).png" alt="" data-size="line"> l'accès pour les pros, validées par l'État qui peut être utilisé par tous les professionnels du public comme du privé.
+
 Vous pouvez maintenant commencer à publier, commenter ou rejoindre une organisation ! :white\_check\_mark:
+
+## La double authentification
+
+La double authentification ajoute une étape de validation d'un code à 6 chiffres en plus de votre mot de passe. Ce code s’affiche dans une application sur votre téléphone et change tout seul toutes les 30 secondes.
+
+### Quelle application installer ?
+
+Installez par exemple [FreeOTP](https://freeotp.github.io/) ou [Proton Authenticator](https://proton.me/fr/authenticator). Les deux sont gratuites, comme les autres applications de ce type.
+
+### Avec ProConnect
+
+Si vous vous connectez avec ProConnect, ce code vous sera probablement demandé.
+
+La première fois, ProConnect affiche un QR code. Scannez-le avec [l’application que vous avez choisie](creer-un-compte-utilisateur.md#quelle-application-installer), puis saisissez le code à 6 chiffres.
+
+### Avec un compte data.gouv.fr
+
+Vous pouvez aussi activer cette protection sur votre compte data.gouv.fr, depuis votre [profil](https://www.data.gouv.fr/admin/me/profile). C’est facultatif pour le moment. Le principe est le même : scannez le QR code proposé, puis saisissez le code à 6 chiffres.
+
+Les fois suivantes, ouvrez la même application et recopiez le code affiché.
