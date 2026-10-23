@@ -47,7 +47,7 @@ Vous pouvez maintenant commencer à publier, commenter ou rejoindre une organisa
 
 ## La double authentification
 
-La double authentification ajoute un code à 6 chiffres à votre mot de passe. Ce code s’affiche dans une application sur votre téléphone et change tout seul toutes les 30 secondes.
+La double authentification ajoute une étape de validation d'un code à 6 chiffres en plus de votre mot de passe. Ce code s’affiche dans une application sur votre téléphone et change tout seul toutes les 30 secondes.
 
 ### Quelle application installer ?
 
