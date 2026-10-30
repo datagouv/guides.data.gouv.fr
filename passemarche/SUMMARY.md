@@ -25,6 +25,8 @@
   * [12. Authentification candidat](parcours-candidat/12.-authentification-candidat.md)
   * [13. Gestion des lots](parcours-candidat/13.-gestion-des-lots.md)
   * [14. Gérer mes candidatures depuis le tableau de bord](parcours-candidat/14.-gerer-mes-candidatures-depuis-le-tableau-de-bord.md)
+  * [15. Candidater en groupement : le mandataire](parcours-candidat/15.-candidater-en-groupement-le-mandataire.md)
+  * [16. Candidater en groupement : le co-traitant](parcours-candidat/16.-candidater-en-groupement-le-co-traitant.md)
 * [APIs Disponibles](apis-disponibles/README.md)
   * [Fonctionnement des APIs intégrées](apis-disponibles/1.-fonctionnement-des-apis-integrees.md)
   * [APIs intégrées](apis-disponibles/2.-apis-integrees.md)
