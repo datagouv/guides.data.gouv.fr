@@ -88,6 +88,7 @@
 ## Autres
 
 * [Créer une verticale thématique de data.gouv.fr](autres/creer-une-verticale-thematique-de-data.gouv.fr.md)
+* [Synchronisation avec cartes.gouv.fr](autres/synchronisation-avec-cartes.gouv.fr.md)
 * [Catalogage de données - GRIST](autres/catalogage-de-donnees-grist.md)
 * [Outils pour les administrations](autres/outils-pour-les-administrations/README.md)
   * [Doctrine des API](autres/outils-pour-les-administrations/doctrine-des-api.md)
