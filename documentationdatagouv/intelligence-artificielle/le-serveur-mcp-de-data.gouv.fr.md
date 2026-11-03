@@ -70,6 +70,20 @@ _Disponible sur les plans payants uniquement (Plus, Pro, Team et Enterprise). Ch
 
 <details>
 
+<summary>Claude</summary>
+
+_Disponible sur claude.ai, Claude Desktop et Cowork, sur tous les plans (le plan Free est limité à un connecteur personnalisé). Claude parle de **connecteurs**._
+
+1. Allez dans `Customize` > `Connectors`.
+2. Cliquez sur **+ Add** > **Add custom connector**.
+3. Donnez un nom au connecteur (par ex. `datagouv`), renseignez l’URL `https://mcp.data.gouv.fr/mcp`, puis cliquez sur **Add**. Aucune authentification n’est nécessaire.
+
+Voir la [documentation officielle de Claude](https://support.claude.com/en/articles/11175166-about-custom-connectors-using-remote-mcp).
+
+</details>
+
+<details>
+
 <summary>Claude Code</summary>
 
 Exécutez la commande suivante :
@@ -77,36 +91,6 @@ Exécutez la commande suivante :
 ```shell
 claude mcp add --transport http datagouv https://mcp.data.gouv.fr/mcp
 ```
-
-</details>
-
-<details>
-
-<summary>Claude Desktop</summary>
-
-1. Ouvrez `claude_desktop_config.json` :
-   * **Linux** : `~/.config/Claude/claude_desktop_config.json`
-   * **macOS** : `~/Library/Application Support/Claude/claude_desktop_config.json`
-   * **Windows** : `%APPDATA%\Claude\claude_desktop_config.json`
-2. Ajoutez dans `mcpServers` (section « serveurs MCP » de Claude Desktop) :
-
-```json
-{
-  "mcpServers": {
-    "datagouv": {
-      "command": "npx",
-      "args": [
-        "mcp-remote",
-        "https://mcp.data.gouv.fr/mcp"
-      ]
-    }
-  }
-}
-```
-
-3. Relancez Claude Desktop.
-
-**Sous Windows :** si le serveur apparaît dans la liste mais ne se connecte pas, ajoutez `"isUsingBuiltInNodeForMcp": false` à la racine du fichier de configuration, puis relancez Claude Desktop. Voir [issue #69](https://github.com/datagouv/datagouv-mcp/issues/69).
 
 </details>
 
@@ -258,14 +242,16 @@ Si le connecteur n’apparaît pas tout de suite dans Codex, relancez l’applic
 
 <details>
 
-<summary>Le Chat (Mistral)</summary>
+<summary>Mistral Vibe</summary>
 
-_Disponible sur tous les plans, y compris gratuit. Le Chat (Mistral) parle de **connecteurs**._
+_Anciennement Le Chat. Disponible sur tous les plans, y compris gratuit. Mistral Vibe parle de **connecteurs**._
 
-1. Ouvrez Mistral dans votre navigateur, puis allez dans `Intelligence` > `Connectors`.
-2. Cliquez sur `Add connector` > `Custom MCP Connector`, donnez un nom (par ex. `DataGouv`) et renseignez l’URL `https://mcp.data.gouv.fr/mcp`.
-3. Laissez l’authentification désactivée.
+1. Ouvrez Mistral Vibe dans votre navigateur, puis allez dans `Connectors`.
+2. Cliquez sur **+ Add Connector** et ouvrez l’onglet **Custom MCP Connector**.
+3. Donnez un nom au connecteur (par ex. `datagouv`) et renseignez l’URL `https://mcp.data.gouv.fr/mcp`. Laissez l’authentification désactivée.
 4. Cliquez sur **Create**.
+
+Voir la [documentation officielle de Mistral](https://docs.mistral.ai/vibe/work/connectors/mcp-connectors).
 
 </details>
 
