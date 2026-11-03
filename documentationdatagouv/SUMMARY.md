@@ -22,6 +22,7 @@
 * [Publier un jeu de données](jeux-de-donnees/publier-un-jeu-de-donnees.md)
 * [Ressource communautaire](jeux-de-donnees/ressource-communautaire.md)
 * [Modifier un jeu de données](jeux-de-donnees/modifier-un-jeu-de-donnees.md)
+* [Citer un jeu de données](jeux-de-donnees/citer-un-jeu-de-donnees.md)
 
 ## API
 
