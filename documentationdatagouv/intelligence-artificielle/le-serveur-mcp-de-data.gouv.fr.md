@@ -57,6 +57,14 @@ Ouvrez la section correspondant à votre outil. Chaque bloc reprend le libellé 
 
 <details>
 
+<summary>Assistant numérique - Agents publics</summary>
+
+Le connecteur MCP data.gouv.fr est disponible directement pour les agent publics. Connectez-vous à l’[Assistant Numérique](https://assistant.numerique.gouv.fr/home), puis sélectionnez le connecteur data.gouv.fr pour l’utiliser dans vos échanges.
+
+</details>
+
+<details>
+
 <summary>ChatGPT</summary>
 
 _Disponible sur les plans payants uniquement (Plus, Pro, Team et Enterprise). ChatGPT parle de **connecteurs** plutôt que de serveurs MCP._
