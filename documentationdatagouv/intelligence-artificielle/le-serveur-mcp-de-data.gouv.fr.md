@@ -204,6 +204,18 @@ Si le connecteur n’apparaît pas tout de suite dans Codex, relancez l’applic
 
 <details>
 
+<summary>Jan</summary>
+
+1. Ouvrez `Settings` > `MCP Servers`, puis cliquez sur **+ Add MCP Server**.
+2. Réglez **Transport** sur **HTTP** et renseignez l’URL `https://mcp.data.gouv.fr/mcp` dans le champ **Command / URL**. Aucune authentification n’est nécessaire.
+3. Activez le serveur : un indicateur vert s’affiche lorsqu’il est actif.
+
+Voir la [documentation officielle de Jan](https://docs.jan.ai/desktop/integrations/mcp-servers).
+
+</details>
+
+<details>
+
 <summary>Kiro CLI</summary>
 
 1. Ouvrez `~/.kiro/settings/mcp.json` (Windows : `%USERPROFILE%\.kiro\settings\mcp.json`).
@@ -237,6 +249,29 @@ Si le connecteur n’apparaît pas tout de suite dans Codex, relancez l’applic
   }
 }
 ```
+
+</details>
+
+<details>
+
+<summary>LM Studio</summary>
+
+_Nécessite LM Studio 0.3.17 ou version ultérieure._
+
+1. Dans la barre latérale droite, ouvrez l’onglet **Program**, puis cliquez sur **Install** > **Edit mcp.json**.
+2. Ajoutez :
+
+```json
+{
+  "mcpServers": {
+    "datagouv": {
+      "url": "https://mcp.data.gouv.fr/mcp"
+    }
+  }
+}
+```
+
+Voir la [documentation officielle de LM Studio](https://lmstudio.ai/docs/app/mcp).
 
 </details>
 
@@ -294,6 +329,21 @@ Voir la [documentation Vibe](https://github.com/mistralai/mistral-vibe?tab=readm
 ```
 
 Voir la [documentation OpenCode](https://opencode.ai/docs/mcp-servers/) pour plus de détails.
+
+</details>
+
+<details>
+
+<summary>Open WebUI</summary>
+
+_Nécessite Open WebUI 0.6.31 ou version ultérieure. Seuls les administrateurs peuvent ajouter des serveurs MCP._
+
+1. Ouvrez `Settings` > `Admin` > `Integrations`.
+2. Sous **External Tool Servers**, cliquez sur **+ Add Connection**.
+3. Réglez **Type** sur **MCP (Streamable HTTP)**, renseignez l’URL `https://mcp.data.gouv.fr/mcp` dans **Server URL**, réglez **Auth** sur **None**, puis cliquez sur **Save**.
+4. Dans une conversation, ouvrez **+** > `Integrations` > `Tools` et activez le serveur.
+
+Voir la [documentation officielle d’Open WebUI](https://docs.openwebui.com/features/extensibility/mcp).
 
 </details>
 
