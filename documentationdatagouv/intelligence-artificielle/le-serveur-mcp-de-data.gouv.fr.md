@@ -32,6 +32,16 @@ Ouvrez la section correspondant à votre outil. Chaque bloc reprend le libellé 
 
 <details>
 
+<summary>L'Assistant - Agents publics</summary>
+
+**L'Assistant** est une plateforme de la DINUM qui vous permet d'échanger avec des modèles d'intelligence artificielle dans un espace **sécurisé** en ligne, de créer des conversations et des projets avec vos documents, et vos instructions adaptées à vos métiers.\
+\
+Le connecteur MCP data.gouv.fr est disponible directement pour les agent publics. Connectez-vous à l’[Assistant](https://assistant.numerique.gouv.fr/home), puis sélectionnez le connecteur data.gouv.fr pour l’utiliser dans vos échanges.
+
+</details>
+
+<details>
+
 <summary>AnythingLLM</summary>
 
 1. Ouvrez le fichier `anythingllm_mcp_servers.json` :
@@ -52,14 +62,6 @@ Ouvrez la section correspondant à votre outil. Chaque bloc reprend le libellé 
 ```
 
 3. Redémarrez AnythingLLM si nécessaire.
-
-</details>
-
-<details>
-
-<summary>Assistant numérique - Agents publics</summary>
-
-Le connecteur MCP data.gouv.fr est disponible directement pour les agent publics. Connectez-vous à l’[Assistant Numérique](https://assistant.numerique.gouv.fr/home), puis sélectionnez le connecteur data.gouv.fr pour l’utiliser dans vos échanges.
 
 </details>
 
