@@ -7,6 +7,7 @@
 
 * [Créer un compte utilisateur](compte-utilisateur/creer-un-compte-utilisateur.md)
 * [Suivre vos contenus publiés](compte-utilisateur/suivre-vos-contenus-publies.md)
+* [Gérer vos notifications](compte-utilisateur/gerer-vos-notifications.md)
 
 ## ORGANISATIONS
 

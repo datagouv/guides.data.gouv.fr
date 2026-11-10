@@ -72,3 +72,7 @@ Dans la colonne **"Actions"** du tableau :
 * ✏️ Cliquez sur l’icône **crayon** pour les modifier dans l’interface d’administration.
 {% endtab %}
 {% endtabs %}
+
+{% hint style="info" %}
+Configurez les alertes liées à vos contenus depuis [gerer-vos-notifications.md](gerer-vos-notifications.md "mention").
+{% endhint %}
