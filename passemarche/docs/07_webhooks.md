@@ -2,7 +2,7 @@
 
 ## Vue d'ensemble
 
-Les webhooks Passe Marché permettent aux plateformes de marchés publics de recevoir des notifications en temps réel lors d'événements importants (complétion de marchés, finalisation de candidatures). Ce système garantit une synchronisation fiable et automatique entre Passe Marché et les plateformes éditrices.
+Les webhooks Passe Marché permettent aux plateformes de marchés publics de recevoir des notifications en temps réel lors d'événements importants (complétion de marchés, démarrage et finalisation de candidatures). Ce système garantit une synchronisation fiable et automatique entre Passe Marché et les plateformes éditrices.
 
 ## Environnements
 
@@ -35,12 +35,12 @@ Les webhooks sont configurés par l'administrateur Passe Marché au niveau de ch
 
 ### Paramètres de Configuration
 
-| Paramètre                | Description                                               | Exemple                                    |
-| ------------------------ | --------------------------------------------------------- | ------------------------------------------ |
-| `completion_webhook_url` | URL de réception des webhooks                             | `https://editeur.com/webhooks/passemarche` |
-| `buyer_return_url`       | URL de redirection post-complétion pour le flux acheteur  | `https://editeur.com/callback/buyer`       |
-| `candidate_return_url`   |  URL de redirection post-complétion pour le flux candidat | `https://editeur.com/callback/candidate`   |
-| `webhook_secret`         | Secret HMAC généré automatiquement                        | `a1b2c3d4e5f6...`                          |
+| Paramètre                | Description                                              | Exemple                                    |
+| ------------------------ | -------------------------------------------------------- | ------------------------------------------ |
+| `completion_webhook_url` | URL de réception des webhooks                            | `https://editeur.com/webhooks/passemarche` |
+| `buyer_return_url`       | URL de redirection post-complétion pour le flux acheteur | `https://editeur.com/callback/buyer`       |
+| `candidate_return_url`   | URL de redirection post-complétion pour le flux candidat | `https://editeur.com/callback/candidate`   |
+| `webhook_secret`         | Secret HMAC généré automatiquement                       | `a1b2c3d4e5f6...`                          |
 
 ### Paramètres de Redirection
 
@@ -113,6 +113,37 @@ Les paramètres existants dans l'URL sont préservés.
   }
 }
 ```
+
+### Événement : Candidature en Cours
+
+**Type** : `market_application.started`
+
+**Déclencheur** : Validation par le candidat de la première étape de sa candidature dans Passe Marché (étape « Informations du marché »)
+
+**Payload** :
+
+```json
+{
+  "event": "market_application.started",
+  "timestamp": "2024-06-15T15:02:10.000Z",
+  "market_identifier": "VR-2024-A1B2C3D4E5F6",
+  "market_application": {
+    "identifier": "FT20240615A1B2C3D4",
+    "siret": "12345678901234",
+    "status": "in_progress"
+  }
+}
+```
+
+`timestamp` correspond à la date à laquelle le candidat a commencé sa candidature.
+
+**Points d'attention** :
+
+* La simple création de la candidature via l'API ne déclenche pas cet événement.
+* L'événement est envoyé **une seule fois par candidature**, même si le candidat valide plusieurs étapes ou revient plus tard.
+* En cas de recandidature (candidature transmise puis rouverte avant la date limite), il est envoyé à nouveau dès que le candidat valide la première étape de sa nouvelle candidature.
+* Il concerne les candidatures individuelles comme les candidatures en groupement (mandataire et co-traitants).
+* Il n'a aucun effet sur l'événement `market_application.completed`, qui reste envoyé à la transmission de la candidature.
 
 ### Événement : Candidature Finalisée
 
