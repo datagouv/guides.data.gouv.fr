@@ -118,7 +118,7 @@ Les paramètres existants dans l'URL sont préservés.
 
 **Type** : `market_application.started`
 
-**Déclencheur** : Validation par le candidat de la première étape de sa candidature dans Passe Marché (étape « Informations du marché »)
+**Déclencheur** : le candidat valide la première étape de sa candidature dans Passe Marché (étape « Informations du marché »). La simple création de la candidature via l'API ne déclenche pas cet événement.
 
 **Payload** :
 
@@ -137,12 +137,11 @@ Les paramètres existants dans l'URL sont préservés.
 
 `timestamp` correspond à la date à laquelle le candidat a commencé sa candidature.
 
-**Points d'attention** :
+**Fréquence d'envoi** :
 
-* La simple création de la candidature via l'API ne déclenche pas cet événement.
-* L'événement est envoyé **une seule fois par candidature**, même si le candidat valide plusieurs étapes ou revient plus tard.
-* En cas de recandidature (candidature transmise puis rouverte avant la date limite), il est envoyé à nouveau dès que le candidat valide la première étape de sa nouvelle candidature.
-* Il concerne les candidatures individuelles comme les candidatures en groupement (mandataire et co-traitants).
+* L'événement est envoyé **une seule fois** par candidature, même si le candidat valide plusieurs étapes ou revient plus tard.
+* En cas de **recandidature** (candidature transmise puis rouverte avant la date limite), il est envoyé **à nouveau** dès que le candidat valide la première étape de sa nouvelle candidature.
+* L'événement concerne les candidatures individuelles comme les candidatures en groupement (mandataire et co-traitants).
 * Il n'a aucun effet sur l'événement `market_application.completed`, qui reste envoyé à la transmission de la candidature.
 
 ### Événement : Candidature Finalisée
