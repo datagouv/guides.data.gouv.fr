@@ -118,7 +118,7 @@ Les paramètres existants dans l'URL sont préservés.
 
 **Type** : `market_application.started`
 
-**Déclencheur** :  le candidat arrive sur l'étape « Informations du marché » de sa candidature dans Passe Marché, juste après la récupération automatique des données de son entreprise.
+**Déclencheur** :  Le webhook est envoyé quand le candidat arrive sur l’étape « Informations du marché », juste après la récupération automatique des données de son entreprise. La création de la candidature via l’API ne le déclenche pas.
 
 **Payload** :
 
