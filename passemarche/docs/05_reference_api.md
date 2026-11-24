@@ -183,7 +183,9 @@ Content-Type: application/json
 | --------------- | ------ | ------ | --------------------- | ---------------------------------------------------------------------------------- |
 | `name`          | string | Oui    | Nom du lot            | Max 255 caractères                                                                 |
 | `cpv_code`      | string | Non    | Code CPV du lot       | Format `XXXXXXXX-X` (8 chiffres, tiret, 1 chiffre)                                 |
-| `lot_type_code` | string | Non    | Type de marché du lot | `supplies`, `services`, `works` — si absent, hérite du premier `market_type_codes` |
+| `lot_type_code` | string | Non    | Type de marché du lot | `supplies`, `services` ou `works` (toute autre valeur, y compris `defense`, renvoie une 422). Si absent, le lot prend le premier `market_type_codes` |
+
+> **Types transmis pour tous les lots** : quand chaque lot est envoyé avec un `lot_type_code`, la plateforme est considérée comme la source de vérité. L'acheteur ne voit pas l'écran de configuration des lots et ne peut pas modifier leur type dans Passe Marché. Si au moins un lot n'a pas de `lot_type_code`, l'acheteur garde la main sur la configuration des lots.
 
 **Types de Marché Valides**
 
@@ -213,6 +215,16 @@ Content-Type: application/json
     "name": ["Le nom du marché ne peut pas être vide"],
     "deadline": ["La date limite ne peut pas être vide"],
     "market_type_codes": ["Les types de marché ne peuvent pas être vides"]
+  }
+}
+```
+
+**422 - Type de lot inconnu** :
+
+```json
+{
+  "errors": {
+    "lots": ["Lot 2 : le type « travaux » n'est pas reconnu (valeurs acceptées : works, services, supplies)"]
   }
 }
 ```

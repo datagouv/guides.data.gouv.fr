@@ -89,7 +89,9 @@ Content-Type: application/json
 | --------------- | ------ | ------ | --------------------- | ---------------------------------------------------------------------------------- |
 | `name`          | string | Oui    | Nom du lot            | Max 255 caractères                                                                 |
 | `cpv_code`      | string | Non    | Code CPV du lot       | Format `XXXXXXXX-X` (8 chiffres, tiret, 1 chiffre)                                 |
-| `lot_type_code` | string | Non    | Type de marché du lot | `supplies`, `services`, `works` — si absent, hérite du premier `market_type_codes` |
+| `lot_type_code` | string | Non    | Type de marché du lot | `supplies`, `services` ou `works` (toute autre valeur, y compris `defense`, renvoie une 422). Si absent, le lot prend le premier `market_type_codes` |
+
+> **Types transmis pour tous les lots** : quand chaque lot est envoyé avec un `lot_type_code`, la plateforme est considérée comme la source de vérité. L'acheteur ne voit pas l'écran de configuration des lots et ne peut pas modifier leur type dans Passe Marché. Si au moins un lot n'a pas de `lot_type_code`, l'acheteur garde la main sur la configuration des lots.
 
 #### Codes de Types de Marché
 
@@ -165,7 +167,9 @@ Une fois le marché créé, la plateforme de marchés publics redirige l'acheteu
 
 #### Étape 1b : Configuration des types de lots (marché hétérogène)
 
-Pour les marchés comportant plusieurs lots, l'acheteur peut affiner le type de marché par lot via l'interface. L'éditeur peut aussi pré-renseigner un type par lot à la création (champ `market_type_code` non supporté côté API — le type par lot est défini uniquement via l'interface acheteur).
+Pour les marchés comportant des lots, l'acheteur peut affiner le type de marché par lot via l'interface (`/buyer/public_markets/{identifier}/lot_config`).
+
+**Types transmis par la plateforme** : quand l'éditeur envoie un `lot_type_code` pour **chaque** lot à la création, cette étape est sautée. L'acheteur passe directement à la configuration du formulaire, et un accès direct à `/lot_config` le redirige. Toute tentative de modification via l'endpoint ci-dessous est refusée (422). Le webhook de fin de configuration renvoie pour chaque lot le type reçu.
 
 **Endpoint de modification des types de lots**
 
