@@ -32,7 +32,7 @@ Au premier usage, data.gouv.fr vous redirige vers la Géoplateforme pour vous id
 
 <figure><img src="../.gitbook/assets/Capture d’écran 2026-11-02 à 16.25.47.png" alt=""><figcaption><p>Bandeau avant connexion</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/Capture d’écran 2026-11-02 à 16.26.19 (1).png" alt=""><figcaption><p>Bandeau après connexion</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Capture d’écran 2026-11-02 à 16.26.19.png" alt=""><figcaption><p>Bandeau après connexion</p></figcaption></figure>
 
 **3. Choisir l'espace de travail**
 
@@ -46,7 +46,7 @@ Lancez l'envoi du fichier GeoPackage. Le traitement dure de quelques instants à
 
 <figure><img src="../.gitbook/assets/Capture d’écran 2026-11-02 à 16.29.35.png" alt=""><figcaption><p>Fichier avant envoi</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/Capture d’écran 2026-11-02 à 16.29.44 (1).png" alt=""><figcaption><p>Fichier en cours d'envoi</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Capture d’écran 2026-11-02 à 16.29.44.png" alt=""><figcaption><p>Fichier en cours d'envoi</p></figcaption></figure>
 
 Une fois l'envoi terminé, un lien vers la **fiche de données** correspondante sur cartes.gouv.fr est disponible.
 
@@ -71,7 +71,7 @@ Ces services peuvent ensuite être ajoutés comme ressources de votre jeu de don
 ### Limites actuelles
 
 * Seul le format **GeoPackage** est, pour l'instant, pris en charge.
-* **Un fichier ne peut être envoyé qu'une seule fois.** De plus, si vous modifiez la ressource sur data.gouv.fr, la mise à jour n'est pas répercutée sur cartes.gouv.fr.&#x20;
+* **Un fichier ne peut être envoyé qu'une seule fois.** De plus, si vous modifiez la ressource sur data.gouv.fr, la mise à jour n'est pas répercutée sur cartes.gouv.fr.
 * Un jeu de données ne peut être associé qu'à **un seul entrepôt cartes.gouv.fr**.
 * L'envoi et la récupération des services sont **déclenchés manuellement** : il n'y a pas de synchronisation automatique.
 * La thématique ISO 19115 est déduite des mots-clés et peut être absente ou imprécise.
@@ -83,4 +83,4 @@ Le fichier GeoPackage doit respecter les contraintes de cartes.gouv.fr, sans quo
 * les noms de tables ne peuvent contenir que des lettres sans accent, des chiffres, des espaces et des tirets bas (`_`), et ne doivent pas commencer par un chiffre ou un espace ;
 * toutes les couches doivent utiliser le même système de projection.
 
-L'interface data.gouv.fr affiche l'erreur renvoyée par cartes.gouv.fr, le cas échéant.&#x20;
+L'interface data.gouv.fr affiche l'erreur renvoyée par cartes.gouv.fr, le cas échéant.

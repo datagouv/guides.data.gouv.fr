@@ -77,6 +77,7 @@
 * [Le serveur MCP de data.gouv.fr](intelligence-artificielle/le-serveur-mcp-de-data.gouv.fr.md)
 * [Le skill data.gouv.fr](intelligence-artificielle/le-skill-data.gouv.fr.md)
 * [Le CLI data.gouv.fr](intelligence-artificielle/le-cli-data.gouv.fr.md)
+* [L’assistant d’exploration des données peut faire des erreurs](intelligence-artificielle/lassistant-dexploration-des-donnees-peut-faire-des-erreurs.md)
 
 ## Données spécifiques
 
