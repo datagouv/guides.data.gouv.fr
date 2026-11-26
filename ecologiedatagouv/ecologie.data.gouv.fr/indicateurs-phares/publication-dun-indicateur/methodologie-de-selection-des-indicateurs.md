@@ -1,7 +1,7 @@
 ---
 description: >-
   La méthodologie de sélection des indicateurs est une réflexion collaborative,
-  collective et thématique
+  collective et thématique.
 ---
 
 # Méthodologie de sélection des indicateurs
@@ -12,7 +12,7 @@ Si vous êtes une direction générale d'administration centrale, un opérateur 
 
 #### Un travail de construction collaboratif
 
-La construction de listes thématiques d'indicateurs ou de bouquets commence par une **réflexion collective** avec les acteurs experts sur le sujet, ce sont nos _**référents métier**_. Découle de ce premier état des lieux une meilleure compréhension des besoins des utilisateurs d'indicateurs, ce sont les _**acteurs terrains**_. Les rôles attribués à ces deux catégories d'interlocuteurs dans notre démarche sont décrits dans ce qui suit :
+La construction de listes thématiques d'indicateurs ou de collections commence par une **réflexion collective** avec les acteurs experts sur le sujet, ce sont nos _**référents métier**_. Découle de ce premier état des lieux une meilleure compréhension des besoins des utilisateurs d'indicateurs, ce sont les _**acteurs terrains**_. Les rôles attribués à ces deux catégories d'interlocuteurs dans notre démarche sont décrits dans ce qui suit :
 
 {% columns %}
 {% column %}
@@ -47,7 +47,7 @@ L'**Ecolab** supervise et encadre les échanges pour la construction du hub d'in
 
 Voici un aperçu schématique des étapes clés, avec les référents métiers et les acteurs terrains afin d'aboutir à la première version d'un catalogue thématique :
 
-<figure><picture><source srcset="../../../../.gitbook/assets/Dark mode gitbook EDG.png" media="(prefers-color-scheme: dark)"><img src="../../../../.gitbook/assets/Présentation générale démarche atelier.jpg" alt=""></picture><figcaption></figcaption></figure>
+<figure><picture><source srcset="../../../.gitbook/assets/Dark mode gitbook EDG (10).png" media="(prefers-color-scheme: dark)"><img src="../../../.gitbook/assets/Présentation générale démarche atelier (1).jpg" alt=""></picture><figcaption></figcaption></figure>
 
 Nous déterminons ainsi **8 étapes clés** dans la construction d'un catalogue thématique, de l'identification du ou des référents métiers jusqu'à une première expérimentation par les utilisateurs sur [_ecologie._**data.gouv**._fr_](../../../)_._
 
@@ -73,7 +73,7 @@ Le questionnaire envoyé en amont de l'atelier sert à valider les premières pi
 {% step %}
 #### Atelier thématique avec les acteurs terrain
 
-Les acteurs terrains (utilisateurs d'indicateurs, principalement les collectivités et services déconcentrés moteurs sur une thématique) sont mobilisés pour discuter ensemble de leurs besoins, sur la base des réponses au questionnaire. Les attentes pour cet atelier sont de prioriser les besoins en indicateurs et de construire des cas d'usage qui prendront peu à peu la forme de bouquets d'indicateurs sur notre site.
+Les acteurs terrains (utilisateurs d'indicateurs, principalement les collectivités et services déconcentrés moteurs sur une thématique) sont mobilisés pour discuter ensemble de leurs besoins, sur la base des réponses au questionnaire. Les attentes pour cet atelier sont de prioriser les besoins en indicateurs et de construire des cas d'usage qui prendront peu à peu la forme de collections thématiques d'indicateurs sur notre site.
 {% endstep %}
 
 {% step %}
@@ -91,12 +91,14 @@ Ces résultats et la première version du catalogue sont présentés au référe
 {% step %}
 #### Publication d'une première version du catalogue
 
-Les indicateurs absents de notre hub sont intégrés depuis les sources recensées. Certains indicateurs existants ou nouvellement intégrés sont labellisés comme pertinents pour la thématique. Les bouquets validés par le référent métier sont créés et publiés sur le site. Le référent métier est identifié comme auteur des bouquets afin que les indicateurs sélectionnés soient clairement identifiés comme la référence en la matière pour les utilisateurs.
+Les indicateurs absents de notre hub sont intégrés depuis les sources recensées. Certains indicateurs existants ou nouvellement intégrés sont labellisés comme pertinents pour la thématique. Les collections validées par le référent métier sont créées et publiées sur le site. Le référent métier est identifié comme auteur des collections afin que les indicateurs sélectionnés soient clairement identifiés comme la référence en la matière pour les utilisateurs.
 {% endstep %}
 
 {% step %}
 #### Expérimentation par les utilisateurs
 
-Les acteurs terrains volontaires sont sollicités pour participer à l'expérimentation des bouquets créés et valider la complétude et la qualité du catalogue créé. Ces expérimentations peuvent alimenter des [_user stories_](../../../le-projet/user-stories.md) afin de valoriser et de promouvoir le catalogue thématique réalisé grâce à tous les acteurs.
+Chaque utilisateur est encouragé à partager ses retours sur les nouveaux indicateurs, qui sont identifiés par un bandeau sur leur fiche descriptive. Le bandeau, et la phase d'expérimentation des nouveaux indicateurs prend fin lorsque l'indicateur atteint 1000 vues sur le site. &#x20;
+
+Les acteurs territoriaux volontaires sont sollicités pour participer à l'expérimentation des collections créées et valider la complétude et la qualité du catalogue créé. Ces expérimentations peuvent alimenter des [_user stories_](../../../le-projet/user-stories.md) afin de valoriser et de promouvoir le catalogue thématique réalisé grâce à tous les acteurs.
 {% endstep %}
 {% endstepper %}

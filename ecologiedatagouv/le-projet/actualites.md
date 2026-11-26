@@ -4,9 +4,55 @@ description: Retrouvez nos actualités des derniers mois
 
 # Actualités
 
-#### **\[11 juin 2026] - Recherche unifiée**
+#### \[18 septembre 2026] **- Faites-nous part de vos projets données**
 
-<figure><img src="../../.gitbook/assets/NL4_recherche_unifiee_bordure.png" alt=""><figcaption></figcaption></figure>
+Les collections thématiques sont des ensembles de jeux de données et indicateurs sélectionnés par des experts métiers de la communauté et construites autour de politiques publiques ou projets territoriaux. L'enjeu : la diffusion de socle de données et de méthodologies pour accélérer les travaux de l'ensemble des territoires. Peut-être que l'un de vos projet pourrait bénéficier à l'ensemble de la communauté ? Valorisez vos initiatives sur ecologie.data.gouv.fr en nous les partageant via <a href="https://grist.numerique.gouv.fr/o/ecolabservicesdonnees/forms/uHwamZAWYeZ2CVdMQrWbBM/75" target="_blank">ce formulaire</a>.
+
+#### \[18 septembre 2026] **- Accéder à nos indicateurs depuis votre agent IA, c’est bientôt possible !**
+
+Le MCP (Model Context Protocol) que nous vous annoncions en juin est désormais fonctionnel. Pour rappel, cet outil vise à rendre accessibles et découvrables nos indicateurs par des agents IA. Ce que permet déjà l'outil : identifier les indicateurs les plus cohérents d'après une requête en langage naturel et en extraire les données et métadonnées.
+
+Nous sommes à la recherche de beta-testeurs et beta-testeuses pour recueillir vos besoins et vos remarques. Si vous êtes intéressé.e pour pour nous aider à tester ce nouvel outil, remplissez ce <a href="https://grist.numerique.gouv.fr/o/ecolabservicesdonnees/forms/6ChrU3EEvT9SGHyYyTKqHs/86" target="_blank">formulaire d'inscription au groupe de beta-test</a>, tous les profils sont les bienvenus !
+
+#### \[DATE] **- SEO : amélioration du référencement de la plateforme**
+
+En 2023, plus de 130 plateformes de données géographiques ont été recensées par l'Association française pour l'information géographique (Afigéo). Il n'est pas aisé pour un usager de savoir où chercher un jeu de données dans cette galaxie. Une première requête est couramment faite au niveau d'un moteur de recherche en ligne tel que Google. Le bon référencement d'un catalogue de données est par conséquent un facteur important de découvrabilité de ses jeux de données.
+
+Les données exposées par <a href="https://ecologie.data.gouv.fr" target="_blank">ecologie.data.gouv.fr</a> bénéficient de l'excellent référencement du contenu de <a href="https://data.gouv.fr" target="_blank">data.gouv.fr</a>. Afin de toucher un public plus qualifié autour des métiers de la données à l'appui de l'aménagement du territoire et de la transition écologique, un travail spécifique a été mené pour <a href="https://ecologie.data.gouv.fr" target="_blank">ecologie.data.gouv.fr</a> : optimisation des titres, accessibilité du contenu, choix des mots clés dans les balises meta description, etc. Ces réalisations sont essentielles pour rendre visibles des contenus clés issus de contributions tels que les collections thématiques.
+
+L'amélioration du référencement, aussi appelé SEO pour Search Engine Optimization, est un travail continu amené à s'affiner avec la compréhension des comportements de recherche des utilisateurs cibles. La massification des usages des modèles de l'IA Générative ouvre par ailleurs le champ du Generative Engine Optimization (GEO).
+
+#### \[DATE] **- Prévisualisation améliorée !**
+
+La prévisualisation constitue une étape clé du parcours de recherche de données : elle permet à l'usager d’apprécier rapidement les caractéristiques d’un jeu de données, de vérifier la disponibilité d’une valeur sur un territoire ou un millésime et, ponctuellement, d’y accéder avant une utilisation plus automatisée.
+
+Du fait de leur forte harmonisation, les indicateurs territoriaux disponibles sur <a href="https://ecologie.data.gouv.fr" target="_blank">ecologie.data.gouv.fr</a> se prêtent particulièrement à cet usage. Au-delà d’une lecture tabulaire, la visualisation des séries temporelles par territoire permet d’en restituer une caractéristique essentielle.
+
+Les tests utilisateurs ont toutefois montré un manque de visibilité et d’intuitivité du module de prévisualisation déployé sur <a href="https://ecologie.data.gouv.fr" target="_blank">ecologie.data.gouv.fr</a> pour les indicateurs territoriaux. Afin d'y remédier, la prévisualisation a davantage été mise en avant au niveau du premier onglet, les filtres rendus plus explicites et les indicateurs sommables représentés sous forme de séries temporelles empilées.
+
+Une telle prévisualisation n’a pas vocation à remplacer des outils de data visualisation ou de traitement plus avancés. Néanmoins, de tels usages se voient facilités par les capacités des modèles d'IA génératives. Afin d'en bénéficier, un MCP dédié aux indicateurs territoriaux est en cours de prototypage.
+
+#### \[DATE] **- Métadonnée de résolution spatiale**
+
+<a href="https://ecologie.data.gouv.fr" target="_blank">ecologie.data.gouv.fr</a> expose désormais dans l'onglet _Informations_ des jeux de données géographiques, la métadonnée de résolution spatiale. Elle constitue pour les utilisateurs une information clé sur le niveau de détail de la ressource.
+
+L'intégration de cette nouvelle métadonnée, s'inscrit dans un travail plus large de prise en charge par les moissonneurs de <a href="https://data.gouv.fr" target="_blank">data.gouv.fr</a>, de l'ensemble des métadonnées préconisées par la directive INSPIRE. La perspective d’une convergence des rapportages HVD et INSPIRE via <a href="https://data.gouv.fr" target="_blank">data.gouv.fr</a> donne à ce travail une portée accrue.
+
+#### \[DATE] **- Échangez directement autour d'une collection thématique**
+
+<figure><img src="../.gitbook/assets/Gitbook.png" alt=""><figcaption></figcaption></figure>
+
+Les <a href="https://ecologie.data.gouv.fr/bouquets" target="_blank">collections thématiques</a> rassemblent des jeux de données liés à une politique publique ou à un projet. Afin de favoriser leur appropriation, un espace de discussion est désormais disponible. Les utilisateurs sont invités à commenter les collections et poser leurs questions. Chaque contribution déclenche une notification auprès des membres de l’organisation à laquelle la collection est rattachée. Pour les réutilisateurs, cet espace facilite le dialogue avec les contributeurs d'une collection. Pour ces derniers, il centralise les échanges au plus près des données.
+
+Cette nouveauté s’inscrit dans le parcours de contribution d’<a href="https://ecologie.data.gouv.fr" target="_blank">ecologie.data.gouv.fr</a>, conçu autour d'un ensemble de fonctionnalités destinées à stimuler la production de contenus valorisant les données utiles à la réalisation des politiques du pôle ministériel.
+
+#### \[DATE] **- Les données de Picto-Occitanie désormais accessibles sur la plateforme**
+
+Les données de la DREAL Occitanie publiées sur la plateforme régionale <a href="https://www.picto-occitanie.fr/accueil" target="_blank">Picto-Occitanie</a> sont désormais accessibles depuis <a href="https://ecologie.data.gouv.fr" target="_blank">ecologie.data.gouv.fr</a>. Cette réalisation est le résultat d'un travail structurant sur l'interopérabilité entre les catalogues de données géographiques tels que, ici, la solution <a href="https://www.prodige-opensource.org/accueil" target="_blank">Prodige</a>, et <a href="https://data.gouv.fr" target="_blank">data.gouv.fr</a>. L'outil <a href="https://isomorphe.data.developpement-durable.gouv.fr/" target="_blank">ISOmorphe</a> développé par l'Ecolab et mis à disposition des gestionnaires de catalogues GeoNetwork joue ici un rôle clé dans l'harmonisation de l'encodage des métadonnées et l'amélioration de l'interopérabilité à la source.
+
+#### \[11 juin 2026] **- Recherche unifiée**
+
+<figure><img src="../.gitbook/assets/NL4_recherche_unifiee_bordure (1).png" alt=""><figcaption></figcaption></figure>
 
 Les tests utilisateurs ont montré qu'il était difficile de naviguer entre les jeux de données, indicateurs, API et collections sur [_ecologie_.**data.gouv**._fr_](https://ecologie.data.gouv.fr/). Les onglets actuels obligent à des allers-retours fréquents et compliquent la recherche d'information.
 
@@ -14,13 +60,13 @@ Pour y remédier, une **recherche unifiée est désormais disponible**. Elle per
 
 Ce nouveau mode simplifie l'accès aux ressources publiées. D'autres évolutions sont à l'étude, comme la recherche sémantique ou la recherche par territoire.
 
-#### **\[8 juin 2026] - Nouveaux indicateurs sur les forêts**
+#### \[8 juin 2026] **- Nouveaux indicateurs sur les forêts**
 
 Six nouveaux indicateurs produits par l'IGN sont désormais disponibles sur le hub afin de suivre l'état, la conservation et la gestion des forêts. Ils portent sur la surface forestière (par essence ou type de propriété), le taux de boisement, les superficies de forêts plantées ainsi que les volumes et flux de bois.
 
 Cette première série d'indicateurs viendra prochainement s'enrichir de nouvelles données pour compléter les connaissances utiles à la gestion durable et à la protection des forêts.
 
-#### **\[25 mai 2026] - Vers la mutualisation de plugin QGIS pour l'analyse territoriale**
+#### \[25 mai 2026] **- Vers la mutualisation de plugin QGIS pour l'analyse territoriale**
 
 Les collections thématiques d'[_ecologie_.**data.gouv**._fr_](https://ecologie.data.gouv.fr/) sont un support de partage, non seulement des données et des méthodes d'analyse **réutilisables par tous les territoires**, mais elles s'interfacent aussi avec des **outils utilisés par la communauté** tel que QGIS avec la fonctionnalité « [Ouvrir dans QGIS (WFS/WMS)](https://guides.data.gouv.fr/ecologie.data.gouv.fr/ecologie.data.gouv.fr/collections-thematiques/ouvrir-une-collection-dans-qgis) ». En les ouvrant directement dans QGIS, les utilisateurs disposent d'un **projet prêt à l'emploi** sans avoir à rechercher et assembler manuellement de nombreux jeux de données, tout en utilisant les **plugins développés par la communauté**.
 
@@ -80,7 +126,7 @@ L’équipe [_ecologie_.**data.gouv**._fr_](http://ecologie.data.gouv.fr) est à
 
 \[[En savoir sur cette fonctionnalité](https://guides.data.gouv.fr/ecologie.data.gouv.fr/ecologie.data.gouv.fr/collections-thematiques/ouvrir-une-collection-dans-qgis)]
 
-<figure><img src="../../.gitbook/assets/Design sans titre (3).png" alt=""><figcaption><p>Exemple d'utilisation de la nouvelle fonctionnalité d'ouverture dans QGIS</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Design sans titre (3) (1).png" alt=""><figcaption><p>Exemple d'utilisation de la nouvelle fonctionnalité d'ouverture dans QGIS</p></figcaption></figure>
 
 #### \[2 mars 2026] - **Enrichissement des points de contact des indicateurs :**
 
