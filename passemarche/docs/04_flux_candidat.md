@@ -68,11 +68,13 @@ Content-Type: application/json
 
 #### Paramètres
 
-| Champ               | Type   | Description                                          | Contraintes                          |
-| ------------------- | ------ | ---------------------------------------------------- | ------------------------------------ |
-| `market_identifier` | string | Identifiant du marché public                         | Requis, format VR-YYYY-XXXXXXXXXXXX  |
-| `siret`             | string | Numéro SIRET de l'entreprise                         | Optionnel à la création, 14 chiffres |
-| `provider_user_id`  | string | Identifiant de l'utilisateur côté éditeur (candidat) | Optionnel, max 255 caractères        |
+| Champ                           | Type   | Description                                          | Contraintes                                                                             |
+| ------------------------------- | ------ | ---------------------------------------------------- | --------------------------------------------------------------------------------------- |
+| `market_identifier`             | string | Identifiant du marché public                         | Requis, format VR-YYYY-XXXXXXXXXXXX                                                     |
+| `siret`                         | string | Numéro SIRET de l'entreprise                         | Optionnel à la création, 14 chiffres                                                    |
+| `provider_user_id`              | string | Identifiant de l'utilisateur côté éditeur (candidat) | Optionnel, max 255 caractères                                                           |
+| <p><code>lot_ids</code><br></p> | array  | Lots choisis par le candidat sur la plateforme       | Optionnel, tableau non vide d'entiers : les `id` des lots du webhook `market.completed` |
+| `application_mode`              | string | Type de candidature choisi sur la plateforme         | Obligatoire si `lot_ids` est transmis : `"solo"` ou `"groupement"`                      |
 
 **Note importante** : Le SIRET peut être fourni à la création ou lors de l'étape d'identification dans l'interface candidat.
 
@@ -95,15 +97,79 @@ Le corps de la réponse est identique dans les deux cas.
 * `identifier` : Identifiant unique de la candidature (format FT + date + hash)
 * `application_url` : URL vers l'interface de candidature
 
+#### **Transmettre les lots choisis sur la plateforme**
+
+Si le candidat a déjà choisi ses lots sur votre plateforme, transmettez-les dans `lot_ids`. Il n'aura pas à les choisir une deuxième fois dans Passe Marché.
+
+Cette transmission concerne uniquement les **candidatures individuelles**.
+
+**D'où viennent les identifiants**
+
+Les lots que vous envoyez à la création du marché sont enregistrés par Passe Marché, qui leur attribue un `id`. Le webhook `market.completed` vous renvoie tous les lots du marché, dans l'ordre où vous les avez créés, avec cet `id` (`market.lots[].id`). Renvoyez-nous les `id` des lots choisis par le candidat. N'utilisez ni le numéro ni le nom du lot.
+
+**Format attendu**
+
+* `application_mode` est obligatoire dès que `lot_ids` est transmis : `"solo"` ou `"groupement"`.
+* `lot_ids` est un tableau JSON non vide d'entiers.
+* Un identifiant envoyé deux fois n'est pris en compte qu'une fois.
+
+```json
+{
+  "market_application": {
+    "siret": "12345678901234",
+    "application_mode": "solo",
+    "lot_ids": [101, 103]
+  }
+}
+```
+
+**Candidature individuelle (`"solo"`)**
+
+* La candidature est créée en individuel. Le candidat ne peut pas la transformer en groupement dans Passe Marché.
+* L'écran de sélection des lots ne lui est pas proposé. Ses lots sont affichés en lecture seule pendant tout le parcours (préparation du dossier, synthèse, attestation).
+* Un message l'invite à modifier ses lots sur votre plateforme.
+
+**Groupement (`"groupement"`)**
+
+En groupement, le choix des lots se fait dans Passe Marché. Le mandataire y sélectionne les lots du groupement, puis chaque co-traitant y indique les lots auxquels il participe. Cette répartition dépend de la composition du groupement.
+
+**Erreurs**
+
+En cas d'erreur, la réponse est `422` et la candidature n'est ni créée ni modifiée.
+
+| Cas                                                                   | Champ                     | Message                                                                                                                  |
+| --------------------------------------------------------------------- | ------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| `lot_ids` transmis sans `application_mode`, ou avec une autre valeur  | `errors.application_mode` | « Le type de candidature (application\_mode) est obligatoire quand des lots sont transmis : « solo » ou « groupement » » |
+| `[]`, `null`, un nombre seul (`101`) ou un objet                      | `errors.lot_ids`          | « Vous devez sélectionner au moins un lot »                                                                              |
+| Une valeur qui n'est pas un identifiant entier (`"abc"`, `1.5`, `-3`) | `errors.lot_ids`          | « Un ou plusieurs identifiants de lot ne sont pas valides »                                                              |
+| Un identifiant inconnu, ou celui d'un lot d'un autre marché           | `errors.lot_ids`          | « Un ou plusieurs lots sélectionnés n'appartiennent pas à ce marché »                                                    |
+
+Le tableau `errors.lot_ids` peut contenir plusieurs messages.
+
+**Changer les lots**
+
+Rappelez l'API avec le même SIRET, `"application_mode": "solo"` et la nouvelle liste `lot_ids`. La réponse est `200`.
+
+* La nouvelle liste remplace l'ancienne. Les réponses déjà saisies sont conservées, sauf celles qui ne concernent que des types de lots retirés.
+* Si vous ajoutez un lot d'un nouveau type, les champs correspondants sont ajoutés au dossier et les données récupérées automatiquement sont relancées. Un message prévient le candidat jusqu'à sa transmission.
+* Une fois la date limite passée, `lot_ids` est ignoré pour une candidature déjà transmise : la réponse est `200` et les lots déposés ne changent pas.
+
+**Si `lot_ids` n'est pas transmis**
+
+* À la création, le parcours est inchangé : le candidat choisit son type de candidature et ses lots dans Passe Marché.
+* Lors d'un rappel, les lots déjà transmis sont conservés et le candidat ne peut toujours pas les modifier.
+
 #### Comportement en cas de re-candidature
 
 Une entreprise dispose d'une seule candidature par marché. Elle n'est jamais remise à blanc : chaque nouveau dépôt met à jour la candidature existante.
 
 Si une candidature complétée existe déjà pour le même SIRET sur ce marché et que la date limite n'est pas dépassée, l'appel rouvre automatiquement la candidature existante :
 
-* &#x20;Les **réponses du candidat** sont conservées (formulaire pré-rempli)
-* &#x20;Les **données issues des API** sont mises à jour lors du parcours candidat
-* La **sélection des lots** reste modifiable
+* Les **réponses du candidat** sont conservées (formulaire pré-rempli)
+* Les **données issues des API** sont mises à jour lors du parcours candidat
+* La **sélection des lots** reste modifiable :
+  * si le candidat a choisi ses lots dans Passe Marché, il peut les modifier dans Passe Marché ;
+  * si votre plateforme a transmis les lots, seul un nouvel appel avec `"application_mode": "solo"` et `lot_ids` permet de les modifier. Le candidat ne peut pas les changer dans Passe Marché.
 * Une nouvelle attestation horodatée est générée à la nouvelle transmission
 * L'identifiant de la candidature reste le même
 
@@ -314,11 +380,11 @@ Le webhook est envoyé automatiquement lors de la finalisation de la candidature
 | `market_application.attestation_url`       | URL de téléchargement de l'attestation            |
 | `market_application.documents_package_url` | URL de téléchargement du dossier                  |
 
-#### Transmissions successives&#x20;
+#### Transmissions successives
 
-Une même candidature peut être transmise plusieurs fois avant la date limite (ajout d'un lot, correction…). Chaque transmission déclenche un webhook avec le même `identifier` et un nouveau `completed_at`.&#x20;
+Une même candidature peut être transmise plusieurs fois avant la date limite (ajout d'un lot, correction…). Chaque transmission déclenche un webhook avec le même `identifier` et un nouveau `completed_at`.
 
-* Chaque transmission remplace la précédente : à traiter comme une nouvelle version de la même candidature&#x20;
+* Chaque transmission remplace la précédente : à traiter comme une nouvelle version de la même candidature
 * Les URLs de l'attestation et du dossier ne changent pas mais pointent vers les documents à jour : à retélécharger-les à chaque webhook
 
 ### 8. Téléchargement des Documents
@@ -503,7 +569,7 @@ Content-Length: 1048576
 
 1. **Validation Préalable** : Vérifier la validité du marché avant création
 2. **Gestion du SIRET** : Permettre saisie ultérieure si non disponible
-3. **Webhook Idempotent** : Gérer les réceptions multiples du même événement  et les transmissions successives d'une même candidature
+3. **Webhook Idempotent** : Gérer les réceptions multiples du même événement et les transmissions successives d'une même candidature
 4. **Stockage Sécurisé** : Protéger les URLs de téléchargement
 5. **UX Cohérente** : Intégrer harmonieusement les redirections
 

@@ -179,10 +179,10 @@ Content-Type: application/json
 
 **Propriétés d'un lot**
 
-| Champ           | Type   | Requis | Description           | Contraintes                                                                        |
-| --------------- | ------ | ------ | --------------------- | ---------------------------------------------------------------------------------- |
-| `name`          | string | Oui    | Nom du lot            | Max 255 caractères                                                                 |
-| `cpv_code`      | string | Non    | Code CPV du lot       | Format `XXXXXXXX-X` (8 chiffres, tiret, 1 chiffre)                                 |
+| Champ           | Type   | Requis | Description           | Contraintes                                                                                                                                          |
+| --------------- | ------ | ------ | --------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `name`          | string | Oui    | Nom du lot            | Max 255 caractères                                                                                                                                   |
+| `cpv_code`      | string | Non    | Code CPV du lot       | Format `XXXXXXXX-X` (8 chiffres, tiret, 1 chiffre)                                                                                                   |
 | `lot_type_code` | string | Non    | Type de marché du lot | `supplies`, `services` ou `works` (toute autre valeur, y compris `defense`, renvoie une 422). Si absent, le lot prend le premier `market_type_codes` |
 
 > **Types transmis pour tous les lots** : quand chaque lot est envoyé avec un `lot_type_code`, la plateforme est considérée comme la source de vérité. L'acheteur ne voit pas l'écran de configuration des lots et ne peut pas modifier leur type dans Passe Marché. Si au moins un lot n'a pas de `lot_type_code`, l'acheteur garde la main sur la configuration des lots.
@@ -282,9 +282,9 @@ Content-Type: application/json
 
 **Paramètres**
 
-| Champ      | Type     | Requis | Description             | Contraintes       |
-| ---------- | -------- | ------ | ----------------------- | ----------------- |
-| `deadline` | datetime | Oui    | Nouvelle date limite    | Format ISO 8601   |
+| Champ      | Type     | Requis | Description          | Contraintes     |
+| ---------- | -------- | ------ | -------------------- | --------------- |
+| `deadline` | datetime | Oui    | Nouvelle date limite | Format ISO 8601 |
 
 **Réponse de Succès (200)**
 
@@ -445,20 +445,26 @@ Content-Type: application/json
 {
   "market_application": {
     "siret": "12345678901234",
-    "provider_user_id": "user-candidat-7"
+    "provider_user_id": "user-candidat-7",
+    "application_mode": "solo",
+    "lot_ids": [101, 103]
   }
 }
 ```
 
 **Paramètres**
 
-| Paramètre           | Type   | Requis | Description                                          | Contraintes                 |
-| ------------------- | ------ | ------ | ---------------------------------------------------- | --------------------------- |
-| `market_identifier` | string | Oui    | Identifiant du marché                                | Format VR-YYYY-XXXXXXXXXXXX |
-| `siret`             | string | Non    | SIRET de l'entreprise                                | 14 chiffres exactement      |
-| `provider_user_id`  | string | Non    | Identifiant de l'utilisateur côté éditeur (candidat) | Max 255 caractères          |
+| Paramètre                       | Type   | Requis       | Description                                          | Contraintes                                                                  |
+| ------------------------------- | ------ | ------------ | ---------------------------------------------------- | ---------------------------------------------------------------------------- |
+| `market_identifier`             | string | Oui          | Identifiant du marché                                | Format VR-YYYY-XXXXXXXXXXXX                                                  |
+| `siret`                         | string | Non          | SIRET de l'entreprise                                | 14 chiffres exactement                                                       |
+| `provider_user_id`              | string | Non          | Identifiant de l'utilisateur côté éditeur (candidat) | Max 255 caractères                                                           |
+| <p><br>l<code>ot_ids</code></p> | array  | Non          | Lots choisis par le candidat sur la plateforme       | Tableau non vide d'entiers : les `id` des lots du webhook `market.completed` |
+| `application_mode`              | string | Si `lot_ids` | Type de candidature choisi sur la plateforme         | `"solo"` ou `"groupement"`                                                   |
 
 **Note** : Le SIRET peut être omis à la création et fourni lors de l'étape d'identification.
+
+**Lots choisis sur la plateforme** : avec `"application_mode": "solo"`, les `lot_ids` transmis sont repris en lecture seule et le candidat reste en candidature individuelle. Avec `"groupement"`, `lot_ids` n'est pas pris en compte : la répartition des lots entre le mandataire et les co-traitants se fait dans Passe Marché. Un nouvel appel en `"solo"` pour le même SIRET remplace la sélection. Le détail est dans « Flux candidat », section « Transmettre les lots choisis sur la plateforme ».
 
 **Réponse de Succès (201)**
 
@@ -489,13 +495,49 @@ Content-Type: application/json
 
 **422 - SIRET invalide** :
 
-```json
+````json
 {
   "errors": [
     "Siret is invalid"
   ]
+**422 - Lots invalides** : la candidature n'est ni créée ni modifiée.
+
+```json
+{
+  "errors": {
+    "lot_ids": [
+      "Un ou plusieurs lots sélectionnés n'appartiennent pas à ce marché"
+    ]
+  }
 }
 ```
+
+Messages possibles dans `errors.lot_ids` :
+
+* « Vous devez sélectionner au moins un lot » : tableau vide, `null`, nombre seul ou objet
+* « Un ou plusieurs identifiants de lot ne sont pas valides » : valeur qui n'est pas un entier positif
+* « Un ou plusieurs lots sélectionnés n'appartiennent pas à ce marché » : lot inconnu ou d'un autre marché
+}
+````
+
+**422 - Lots ou type de candidature invalides** : la candidature n'est ni créée ni modifiée.
+
+```json
+{
+  "errors": {
+    "lot_ids": [
+      "Un ou plusieurs lots sélectionnés n'appartiennent pas à ce marché"
+    ]
+  }
+}
+```
+
+Messages possibles :
+
+* `errors.application_mode` : « Le type de candidature (application\_mode) est obligatoire quand des lots sont transmis : « solo » ou « groupement » »
+* `errors.lot_ids` : « Vous devez sélectionner au moins un lot » (tableau vide, `null`, nombre seul ou objet)
+* `errors.lot_ids` : « Un ou plusieurs identifiants de lot ne sont pas valides » (valeur qui n'est pas un entier positif)
+* `errors.lot_ids` : « Un ou plusieurs lots sélectionnés n'appartiennent pas à ce marché » (lot inconnu ou d'un autre marché)
 
 #### Télécharger l'Attestation
 
